@@ -283,7 +283,7 @@ $(document).ready(function () {
         }
 
         self.showAddSlot = ko.computed(function () {
-            return self.numberOfSlots() < 5 && model.isGameCreator();
+            return model.canAddMorePlayers() && model.isGameCreator();
         });
         self.addSlot = function () {
             model.send_message('modify_army', {
@@ -815,12 +815,11 @@ $(document).ready(function () {
             return self.playerSlots();
         });
 
-        self.maxSpectorLimit = ko.computed(function () {
-            return 3;
-        });
+        self.maxSpectatorsLimit = ko.observable(3);
+        self.maxPlayersLimit = ko.observable(10);
 
         self.spectatorLimitOptions = ko.computed(function () {
-            return _.range(self.maxSpectorLimit()+1);
+            return _.range(self.maxSpectatorsLimit()+1);
         });
 
         self.gameName = ko.observable().extend({ maxLength: 128, rateLimit: { timeout: 500, method: "notifyWhenChangesStop" } });
@@ -917,6 +916,10 @@ $(document).ready(function () {
             }
         });
 
+        self.canAddMorePlayers = ko.computed(function() {
+           return self.playerCount() < self.maxPlayersLimit()
+        });
+        
         self.showAddSlot = ko.computed(function () {
             if (!self.isGameCreator())
                 return false;
@@ -924,17 +927,11 @@ $(document).ready(function () {
             if (self.isFFAGame())
                 return false
 
-            if (self.slots() >= 10)
-                return false;
-
-            return true;
+            return self.canAddMorePlayers();
         });
 
         self.showAddArmy = ko.computed(function () {
-            if (self.playerCount() >= 10)
-                return false;
-
-            return self.armies().length < 10;
+            return self.canAddMorePlayers();
         });
 
         self.hideAddArmy = ko.computed(function () {
@@ -2277,6 +2274,12 @@ $(document).ready(function () {
         model.isFriendsOnlyGame(!!payload.friends);
         model.isPublicGame(!!payload.public);
         model.requiredContent(payload.required_content);
+        
+        if ( payload.max_players )
+            model.maxPlayersLimit( payload.max_players );
+
+        if ( payload.max_spectators )
+            model.maxSpectatorsLimit( payload.max_spectators );
 
         model.spectatorLimitLock(true);
         model.spectatorLimit(payload.spectators);
@@ -2450,4 +2453,3 @@ $(document).ready(function () {
     });
 
 });
-
