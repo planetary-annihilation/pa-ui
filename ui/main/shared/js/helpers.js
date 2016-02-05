@@ -471,14 +471,18 @@ app.registerWithCoherent = function(model, handlers) {
         var joinLocalServer = ko.observable().extend({
             session : 'join_local_server'
         });
+        var joinCustomServer = ko.observable().extend({
+            session : 'join_custom_server'
+        });
         var lobbyId = ko.observable().extend({
             session : 'lobbyId'
         });
 
         lobbyId(payload.lobby_id);
-        gameHostname(null);
-        gamePort(null);
-        joinLocalServer(false);
+        gameHostname(payload.game_hostname);
+        gamePort(payload.game_port);
+        joinLocalServer(payload.local_game);
+        joinCustomServer(payload.custom_server);
 
         var invite_uuid = ko.observable().extend({
             session : 'invite_uuid'
@@ -487,6 +491,7 @@ app.registerWithCoherent = function(model, handlers) {
 
         window.location.href = 'coui://ui/main/game/connect_to_game/connect_to_game.html?content=' + payload.content;
     }
+
     function read_message(message, payload) {
         if (handlers[message])
             handlers[message](payload);

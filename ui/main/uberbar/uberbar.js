@@ -959,12 +959,11 @@ $(document).ready(function () {
         model.displayName(payload.display_name);
     }
 
-    handlers.lobby_info = function (payload) {
-        var info_ok = (payload.local_game)
-                ? (payload.game_hostname && payload.game_port)
-                : (payload.lobby_id);
-
-        model.lobbyInfo(info_ok ? payload : false);
+	handlers.lobby_info = function (payload) {
+// allow invites to any server except localhost
+        if ( payload.game_hostname == 'localhost' )
+            payload = false;
+        model.lobbyInfo(payload);
     }
 
     handlers.lobby_empty_slots = function (payload) {
