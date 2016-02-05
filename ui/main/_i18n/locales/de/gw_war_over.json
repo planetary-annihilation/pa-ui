@@ -1,0 +1,29 @@
+{
+    "Annihilated": {
+        "message": "Vernichtet"
+    }, 
+    "Are you sure you want to abandon this Galactic War?": {
+        "message": "Bist du sicher, dass du diesen Galaktischen Krieg abbrechen möchtest?"
+    }, 
+    "Close": {
+        "message": "Schließen"
+    }, 
+    "Delete War": {
+        "message": "Krieg löschen"
+    }, 
+    "Discards": {
+        "message": "Gelöschtes"
+    }, 
+    "Final Tech": {
+        "message": "Endgültige Technologie"
+    }, 
+    "Turns:": {
+        "message": "Runden:"
+    }, 
+    "Victory": {
+        "message": "Sieg"
+    }, 
+    "Wins:": {
+        "message": "Siege:"
+    }
+}

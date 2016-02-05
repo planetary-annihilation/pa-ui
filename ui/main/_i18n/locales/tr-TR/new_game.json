@@ -1,0 +1,95 @@
+{
+    "- Host": {
+        "message": ": Oyun Sahibi"
+    }, 
+    "AI Commander": {
+        "message": "YZ Kumandan"
+    }, 
+    "Add AI": {
+        "message": "YZ Ekle"
+    }, 
+    "Add AI Commander": {
+        "message": "YZ Kumandan Ekle"
+    }, 
+    "Add Slot": {
+        "message": "Slot Ekle"
+    }, 
+    "CONNECTION TO SERVER LOST": {
+        "message": "SUNUCUYLA BA\u011eLANTI KAYBOLDU"
+    }, 
+    "Chat": {
+        "message": "Sohbet"
+    }, 
+    "Cheats": {
+        "message": "Hileler"
+    }, 
+    "Empty": {
+        "message": "Bo\u015f"
+    }, 
+    "Free For All": {
+        "message": "Herkes Tek Ba\u015f\u0131na"
+    }, 
+    "Friends": {
+        "message": "Arkada\u015flar"
+    }, 
+    "Game Lobby": {
+        "message": "Oyun Lobisi"
+    }, 
+    "Game Mode": {
+        "message": "Oyun Modu:"
+    }, 
+    "Join": {
+        "message": "Kat\u0131l"
+    }, 
+    "Kick": {
+        "message": "Kov"
+    }, 
+    "Leave": {
+        "message": "Ayr\u0131l"
+    }, 
+    "Open to:": {
+        "message": "Kime a\u00e7\u0131k:"
+    }, 
+    "Player Slot": {
+        "message": "Oyuncu Slotu"
+    }, 
+    "Private": {
+        "message": "\u00d6zel"
+    }, 
+    "Public": {
+        "message": "Herkese A\u00e7\u0131k"
+    }, 
+    "Ready": {
+        "message": "Haz\u0131r"
+    }, 
+    "Remove": {
+        "message": "\u00c7\u0131kar"
+    }, 
+    "Returning to Main Menu": {
+        "message": "Ana Men\u00fcye Geri D\u00f6n\u00fcl\u00fcyor"
+    }, 
+    "SHARE ARMY": {
+        "message": "ORDU PAYLA\u015e"
+    }, 
+    "Server Mods": {
+        "message": "Sunucu Modlar\u0131"
+    }, 
+    "Spectate": {
+        "message": "\u0130zle"
+    }, 
+    "Spectators": {
+        "message": "\u0130ZLEY\u0130C\u0130LER"
+    }, 
+    "Start Game": {
+        "message": "Oyunu Ba\u015flat"
+    }, 
+    "System": {
+        "message": "Sistem:"
+    }, 
+    "Team Armies": {
+        "message": "Tak\u0131m Ordular"
+    }, 
+    "You must have friends to play a friends-only game.": {
+        "message": "Sadece arkada\u015flar modunda oynamak i\u00e7in arkada\u015flar\u0131n olmas\u0131 gerekir."
+    }
+}

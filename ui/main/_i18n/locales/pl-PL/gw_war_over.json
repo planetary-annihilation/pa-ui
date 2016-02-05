@@ -1,0 +1,29 @@
+{
+    "Annihilated": {
+        "message": "Unicestwiony"
+    }, 
+    "Are you sure you want to abandon this Galactic War?": {
+        "message": "Czy na pewno chcesz opu\u015bci\u0107 wojn\u0119?"
+    }, 
+    "Close": {
+        "message": "Zamknij"
+    }, 
+    "Delete Archive": {
+        "message": "Usu\u0144 archiwum"
+    }, 
+    "Discards": {
+        "message": "Odrzucenia"
+    }, 
+    "Final Tech": {
+        "message": "Ostateczna technologia"
+    }, 
+    "Turns:": {
+        "message": "Tury:"
+    }, 
+    "Victory": {
+        "message": "Zwyci\u0119stwo"
+    }, 
+    "Wins:": {
+        "message": "Wygrane:"
+    }
+}

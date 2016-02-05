@@ -1,0 +1,50 @@
+{
+    "ALLY": {
+        "message": "BONDEGENOOT"
+    }, 
+    "ARMY": {
+        "message": "LEGER"
+    }, 
+    "Accept": {
+        "message": "Accepteer"
+    }, 
+    "Alliance Request": {
+        "message": "Verzoek tot Alliantie"
+    }, 
+    "Alliance requested": {
+        "message": "Verzoek tot alliantie"
+    }, 
+    "Allied With:": {
+        "message": "Gealli\u00eberd met:"
+    }, 
+    "Count": {
+        "message": "Aantal"
+    }, 
+    "ECONOMY": {
+        "message": "ECONOMIE"
+    }, 
+    "Efficiency": {
+        "message": "Efficientie"
+    }, 
+    "Fabber": {
+        "message": "Fabriceerder"
+    }, 
+    "Factory": {
+        "message": "Fabriek"
+    }, 
+    "Ignore": {
+        "message": "Negeren"
+    }, 
+    "Mobile": {
+        "message": "Mobiel"
+    }, 
+    "PLAYER": {
+        "message": "SPELER"
+    }, 
+    "RESC": {
+        "message": "RESC"
+    }, 
+    "Request pending": {
+        "message": "Verzoek in behandeling"
+    }
+}

@@ -1,0 +1,92 @@
+{
+    "ANNIHILATION COMPLETE": {
+        "message": "ANNIENTAMENTO COMPLETATO"
+    }, 
+    "APM": {
+        "message": "APM"
+    }, 
+    "Average": {
+        "message": "Media"
+    }, 
+    "Built": {
+        "message": "Costruzioni"
+    }, 
+    "Destroyed": {
+        "message": "Distruzioni"
+    }, 
+    "Determining ladder rank...": {
+        "message": "Calcolo posizione in classifica..."
+    }, 
+    "Draw": {
+        "message": "Pareggio"
+    }, 
+    "Duration:": {
+        "message": "Durata:"
+    }, 
+    "Efficiency": {
+        "message": "Efficienza"
+    }, 
+    "Energy": {
+        "message": "Energia"
+    }, 
+    "Metal": {
+        "message": "Metallo"
+    }, 
+    "Produced": {
+        "message": "Produzione"
+    }, 
+    "QUIT TO MAIN MENU": {
+        "message": "TORNA AL MENU PRINCIPALE"
+    }, 
+    "REVIEW": {
+        "message": "RIVEDI"
+    }, 
+    "Requeue": {
+        "message": "Rimetti in coda"
+    }, 
+    "SPECTATE": {
+        "message": "ASSISTI"
+    }, 
+    "The battle ended in a draw.": {
+        "message": "La battaglia è finita in pareggio."
+    }, 
+    "The game has ended.": {
+        "message": "La partita è terminata."
+    }, 
+    "Total Oblivion": {
+        "message": "Oblio totale"
+    }, 
+    "Units": {
+        "message": "Unità"
+    }, 
+    "Used": {
+        "message": "Utilizzi"
+    }, 
+    "VICTORY IS YOURS": {
+        "message": "HAI VINTO"
+    }, 
+    "VIEW RESULTS": {
+        "message": "VEDI I RISULTATI"
+    }, 
+    "VIEW STATS": {
+        "message": "VEDI LE STATISTICHE"
+    }, 
+    "View Winner": {
+        "message": "Vedi il vincitore"
+    }, 
+    "Winner:": {
+        "message": "Vincitore:"
+    }, 
+    "Winners:": {
+        "message": "Vincitori:"
+    }, 
+    "YOU'VE BEEN ANNIHILATED": {
+        "message": "TI HANNO ANNIENTATO"
+    }, 
+    "You currently have an unknown rank status. Complete more games to determine your ladder ranking.": {
+        "message": "Al momento non è possibile determinare la tua posizione in classifica. Completa altre partite."
+    }, 
+    "Your 1v1 Ladder rank is __rank_title__.": {
+        "message": "La tua posizione nella classifica 1v1 è __rank_title__."
+    }
+}

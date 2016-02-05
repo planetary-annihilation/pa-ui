@@ -1,0 +1,113 @@
+{
+    "Abandon": {
+        "message": "Abandon"
+    }, 
+    "Accept": {
+        "message": "Accept"
+    }, 
+    "Back": {
+        "message": "Back"
+    }, 
+    "Cancel": {
+        "message": "Cancel"
+    }, 
+    "Decline": {
+        "message": "Decline"
+    }, 
+    "Enter Queue": {
+        "message": "Enter Queue"
+    }, 
+    "Failed to Join": {
+        "message": "Failed to Join"
+    }, 
+    "Failed to connect to match making server.": {
+        "message": "Failed to connect to match making server."
+    }, 
+    "Failed to create game.": {
+        "message": "Failed to create game."
+    }, 
+    "Match Making Error": {
+        "message": "Match Making Error"
+    }, 
+    "Match Making Penalty": {
+        "message": "Match Making Penalty"
+    }, 
+    "Matchmaking found a match!": {
+        "message": "Matchmaking found a match!"
+    }, 
+    "One or more other players declined or the match expired.": {
+        "message": "One or more other players declined or the match expired."
+    }, 
+    "Opponent": {
+        "message": "Opponent"
+    }, 
+    "Reconnect": {
+        "message": "Reconnect"
+    }, 
+    "Unable to connect to server.": {
+        "message": "Unable to connect to server."
+    }, 
+    "You": {
+        "message": "You"
+    }, 
+    "You are already assigned to a match.": {
+        "message": "You are already assigned to a match."
+    }, 
+    "You have been penalized for abandoning a game, please try matchmaking again when your penalty has expired.": {
+        "message": "You have been penalized for abandoning a game, please try matchmaking again when your penalty has expired."
+    }, 
+    "You have been penalized for abandoning a game.": {
+        "message": "You have been penalized for abandoning a game."
+    }, 
+    "You were penalized for abandoning, but your penalty has now expired.": {
+        "message": "You were penalized for abandoning, but your penalty has now expired."
+    }, 
+    "Your confirmation was not received in time.": {
+        "message": "Your confirmation was not received in time."
+    }, 
+    "average queue time": {
+        "message": "average queue time"
+    }, 
+    "beginning match making": {
+        "message": "beginning match making"
+    }, 
+    "connecting to matchmaker": {
+        "message": "connecting to matchmaker"
+    }, 
+    "finding game server": {
+        "message": "finding game server"
+    }, 
+    "idle": {
+        "message": "idle"
+    }, 
+    "leaving match making": {
+        "message": "leaving match making"
+    }, 
+    "leaving queue": {
+        "message": "leaving queue"
+    }, 
+    "match expires in:": {
+        "message": "match expires in:"
+    }, 
+    "match found": {
+        "message": "match found"
+    }, 
+    "penalty expires in:": {
+        "message": "penalty expires in:"
+    }, 
+    "players in queue": {
+        "message": "players in queue"
+    }, 
+    "queue time": {
+        "message": "queue time"
+    }, 
+    "reconnect": {
+        "message": "reconnect"
+    }, 
+    "searching for opponent": {
+        "message": "searching for opponent"
+    }, 
+    "searching for opponents": {
+        "message": "searching for opponents"
+    }
+}

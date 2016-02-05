@@ -1,0 +1,83 @@
+{
+    "Acquire": {
+        "message": "Acquire"
+    }, 
+    "All progress and Tech will be lost.": {
+        "message": "All progress and Tech will be lost."
+    }, 
+    "Are you sure you want to abandon this Galactic War?": {
+        "message": "Are you sure you want to abandon this Galactic War?"
+    }, 
+    "Continue": {
+        "message": "Continue"
+    }, 
+    "Data Cache Discovered": {
+        "message": "Data Cache Discovered"
+    }, 
+    "Delete Tech": {
+        "message": "Delete Tech"
+    }, 
+    "Dismiss Tech": {
+        "message": "Dismiss Tech"
+    }, 
+    "Duplicate Tech": {
+        "message": "Duplicate Tech"
+    }, 
+    "Exit": {
+        "message": "Exit"
+    }, 
+    "Explore": {
+        "message": "Explore"
+    }, 
+    "Fight": {
+        "message": "Fight"
+    }, 
+    "Game Menu": {
+        "message": "Game Menu"
+    }, 
+    "Jump": {
+        "message": "Jump"
+    }, 
+    "Loading...": {
+        "message": "Loading..."
+    }, 
+    "Preparing for battle": {
+        "message": "Preparing for battle"
+    }, 
+    "Restart": {
+        "message": "Restart"
+    }, 
+    "Save": {
+        "message": "Save"
+    }, 
+    "Saving...": {
+        "message": "Saving..."
+    }, 
+    "Scanning System": {
+        "message": "Scanning System"
+    }, 
+    "Select a technology to develop using this data.": {
+        "message": "Select a technology to develop using this data."
+    }, 
+    "Settings": {
+        "message": "Settings"
+    }, 
+    "Social Bar": {
+        "message": "Social Bar"
+    }, 
+    "TECHS": {
+        "message": "TECHS"
+    }, 
+    "Tech Bank is full. To develop new technology, select an existing tech and delete it to open a slot.": {
+        "message": "Tech Bank is full. To develop new technology, select an existing tech and delete it to open a slot."
+    }, 
+    "Turns:": {
+        "message": "Turns:"
+    }, 
+    "Unlock Commander": {
+        "message": "Unlock Commander"
+    }, 
+    "Wins:": {
+        "message": "Wins:"
+    }
+}

@@ -1,0 +1,35 @@
+{
+    "CANCEL": {
+        "message": "ANULUJ"
+    }, 
+    "Delete": {
+        "message": "USU\u0143"
+    }, 
+    "Delete Planet": {
+        "message": "Usu\u0144 planet\u0119"
+    }, 
+    "Delete this planet?": {
+        "message": "Usun\u0105\u0107 t\u0119 planet\u0119?"
+    }, 
+    "Delete this system?": {
+        "message": "Usun\u0105\u0107 ten system?"
+    }, 
+    "Load Planet": {
+        "message": "Wczytaj planet\u0119"
+    }, 
+    "Load System": {
+        "message": "Wczytaj system"
+    }, 
+    "New system": {
+        "message": "Nowy system"
+    }, 
+    "SHOW PLANETS": {
+        "message": "POKA\u017b PLANETY"
+    }, 
+    "SHOW SYSTEMS": {
+        "message": "POKA\u017b SYSTEMY"
+    }, 
+    "System Designer": {
+        "message": "Edytor systemu"
+    }
+}

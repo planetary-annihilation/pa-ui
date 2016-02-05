@@ -1,0 +1,28 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <meta locns="live_game" />
+        <noloc><title>Live Game: Menu</title></noloc>
+        <link href="bundle://boot/boot.css" rel="stylesheet" type="text/css" />
+        <link href="live_game_menu.css" rel="stylesheet" type="text/css" />
+        <script src="bundle://boot/boot.js" type="text/javascript"></script>
+
+        <script src="live_game_menu.js" type="text/javascript"></script>
+    </head>
+    <body class="body_panel">
+        <body-dock>
+            <div class="div_game_menu_panel" data-bind="css: { active: active }">
+                <div class="div_game_menu">
+                    <div class="div_game_menu_cont">
+                        <!-- ko foreach: state -->
+                        <div class="div_game_menu_item" data-bind="click: function() { model.menuAction($data.action); }, click_sound: 'default', rollover_sound: 'default'">
+                            <span data-bind="html: label"></span>
+                        </div>
+                        <!-- /ko -->
+                    </div>
+                </div>
+            </div>
+        </body-dock>
+    </body>
+</html>

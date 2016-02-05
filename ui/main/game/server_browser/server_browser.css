@@ -1,0 +1,397 @@
+﻿html, body {
+    height: 100%;
+    position: relative;
+    min-width: 1280px;
+    min-height: 720px;
+}
+
+.section_wrapper {
+    flex-direction: column;
+}
+
+.server_message_bar {
+    padding: 2px 8px;
+    margin: 8px 0px 0px 0px;
+    border: 1px solid #FC0;
+    background: linear-gradient(to top, #E0B300 0%, #FFC200 100%);
+    color: #000;
+    text-shadow: none;
+    box-shadow: 0px 0px 20px #FC0;
+    display: flex;
+    align-items: center;
+}
+
+.column_wrapper {
+    display: flex;
+    flex-grow: 1;
+}
+
+.section_content .col_1 {
+    width: 240px;
+    overflow-y: auto;
+}
+
+.section_content .col_2 {
+    height: auto;
+    width: auto;
+}
+
+.section_content .col_3 {
+    min-width: 240px;
+    overflow-y: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.div_refresh_options {
+    padding: 0px 0px 0px 14px;
+    flex-grow: 1;
+}
+
+.label_checkbox {
+    text-transform: none;
+    font-weight: normal;
+    font-size: 13px;
+    color: #C5C5C5;
+    cursor: pointer;
+    margin: -4px 0px 10px 4px;
+}
+
+.label_checkbox_disabled {
+    opacity: .5;
+    pointer-events: none;
+}
+
+#retired_msg {
+    font-size: 24px;
+    font-family: "Sansation Bold";
+    text-shadow: 0px 0px 40px #F00;
+    margin: 4px 12px 0px 0px;
+}
+
+#create {
+    float: left;
+}
+
+.filter_controls {
+    display: flex;
+}
+
+.count_filters {
+    width: 100px;
+}
+
+#game-list-header {
+    width: 100%;
+    margin: 0px;
+}
+
+    #game-list-header > div {
+        border-bottom: 1px solid #1e7aa1;
+        border-right: 1px solid #1e7aa1;
+        padding: 4px 0px 4px 10px;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+        overflow: hidden;
+    }
+
+        #game-list-header > div.spectate {
+        }
+
+#game-list {
+    height: 100%;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
+    #game-list .row {
+        margin: 0px;
+    }
+
+    #game-list .game {
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+
+    #game-list .glyphicon, #game-list-header .glyphicon {
+    }
+
+.one-game > div {
+    border-right: 1px solid transparent;
+}
+
+.one-game {
+    padding: 6px 6px;
+}
+
+    .one-game.ui-selected {
+        color: #FFFFFF;
+        text-shadow: 0px 0px 10px #FFFFFF;
+        background: #00B3FF;
+        border: 1px solid #00B3FF;
+        box-shadow: inset 0px 0px 10px #00B3FF;
+    }
+
+    .one-game .planets {
+        overflow: hidden;
+    }
+
+        .one-game .planets img {
+            margin-right: 2px;
+        }
+
+    .one-game div {
+        padding-left: 4px;
+        padding-right: 4px;
+    }
+
+.one-planet {
+    margin: 10px 10px 0 0;
+    display: flex;
+}
+
+    .one-planet .planet-biome {
+        float: left;
+        margin-right: 8px;
+        position: relative;
+        height: 40px;
+        width: 45px;
+    }
+
+        .one-planet .planet-biome img {
+            position: absolute;
+        }
+
+        .one-planet .planet-biome span {
+        }
+
+    .one-planet .planet-name {
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+
+.planets {
+    margin: 0px 0px 0px 0px;
+    padding: 0px 16px 0px 4px;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.div_planet {
+    height: 20px; 
+    width: 20px;
+    margin: 4px;
+}
+
+.img_start {
+    height: 16px; 
+    width: 16px;
+    position: relative;
+    top: -12px;
+    right: -10px;
+}
+
+.img_side_panel_start {
+    height: 16px; 
+    width: 16px;
+    position: relative;
+    top: 27px;
+    right: 0px;
+}
+
+#detail-pane-wrapper {
+    height: 100%;
+    width: 100%;
+    border: 1px solid transparent;
+    padding: 0px 0px 10px;
+    position: relative;
+}
+
+#detail-pane {
+    height: 100%;
+    width: 100%;
+    font-family: 'Sansation Bold';
+    font-size: 16px;
+    color: #fff;
+    line-height: 1.4;
+    padding: 8px 16px 8px;
+    top: 0px;
+    bottom: 8px;
+    overflow-y: scroll;
+    overflow: auto;
+}
+
+    #detail-pane h3 {
+        font-family: 'Sansation Bold';
+        font-size: 20px;
+        color: #fff;
+        text-shadow: 0px 0px 20px #00b3ff;
+        margin-top: 0;
+    }
+
+    #detail-pane .section {
+        margin: 0px 0px 16px 0px;
+    }
+
+    #detail-pane .row > div {
+    }
+
+    .form-group label,
+    #detail-pane .col-header {
+        font-family: "Sansation Bold";
+        font-size: 12px;
+        color: #666;
+        text-transform: uppercase;
+        text-shadow: 0px 0px 0px;
+        margin: 0px 0px 4px 0px;
+    }
+
+    #detail-pane .item {
+        border: 1px solid #000;
+        padding: 4px 8px;
+        margin: -1px 0px 0px 0px;
+        box-shadow: inset 0px 0px 3px rgba(255, 255, 255, 0.15);
+    }
+
+        #detail-pane .item .text {
+            text-shadow: 0px 0px 20px #00b3ff;
+        }
+
+        #detail-pane .item .highlighted {
+            color: #0f0;
+            text-shadow: 0px 0px 20px rgba(0,255,0,.3);
+        }
+
+        #detail-pane .item .open {
+            font-family: 'Sansation Regular TTF';
+            font-size: 14px;
+            color: #0F0;
+            text-shadow: 0px 0px 10px #0F0;
+            padding: 3px 0px;
+        }
+
+    #detail-pane .row .modshighlighted {
+        color: #E2772B;
+    }
+
+    #detail-pane .col-mode {
+    }
+
+    #detail-pane .col-players {
+    }
+
+    #detail-pane .col-planets {
+    }
+
+.planet-scale, .planet-radius {
+    font-family: 'Sansation Regular TTF';
+    font-size: 13px;
+    color: #999;
+}
+
+.header {
+    height: 65px;
+    padding-top: 15px;
+}
+
+#game-bar {
+    display: flex;
+}
+
+/* Changes that might be best in global.css */
+label {
+    font-weight: normal;
+    font-size: 80%;
+    text-transform: uppercase;
+}
+
+select {
+    border: none;
+}
+
+.modal-content {
+    background-color: #000;
+    border-radius: 0px;
+    border: 1px solid #4a4a4a;
+}
+
+.modal-header .close {
+    color: white;
+}
+
+.modal-header {
+    border-bottom: none;
+}
+
+.modal-footer {
+    border-top: none;
+}
+
+.modal-title {
+    text-transform: uppercase;
+    font-size: 24px;
+    font-family: "Sansation Bold";
+}
+
+.password {
+    width: 26px;
+    height: 36px;
+}
+
+.thruster_count {
+    height: 18px;
+    width: 16px;
+    background: url('coui://ui/main/game/server_browser/img/icon_thruster.png') top center no-repeat;
+    position: absolute;
+    z-index: 2;
+    font-size: 11px;
+    text-align: center;
+    bottom: 0px;
+    color: #00b3ff;
+    font-family: trebuchet MS;
+}
+
+.wrapper {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    padding-bottom: 37px;
+}
+
+.retired {
+    text-shadow: none;
+    color: #666;
+}
+
+#buyContent .content_description {
+    color: #91fbff;
+}
+
+.lbl_titans {
+    font-family: "Sansation Bold";
+    color: #fff;
+    font-size: 11px;
+    text-transform: uppercase;
+    background: rgb(66, 167, 175);
+    padding: 2px 6px 1px;
+    border: 1px solid white;
+    position: absolute;
+    right: 8px;
+    top: 1px;
+}
+
+.lbl_titans_missing {
+    text-shadow: none;
+    color: #C5C5C5;
+    background: #5C5C5C;
+    border: 1px solid #9B9B9B;
+}
+
+.lbl_titans.details {
+    position: inherit;
+    margin: -6px 0 10px 0;
+}

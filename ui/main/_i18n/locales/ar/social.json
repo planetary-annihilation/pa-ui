@@ -1,0 +1,92 @@
+{
+    "APPROVE": {
+        "message": "\u0642\u0628\u0648\u0644"
+    }, 
+    "APPROVED USERS": {
+        "message": "\u0645\u0633\u062a\u062e\u062f\u0645\u0648\u0646 \u0645\u0639\u062a\u0645\u062f\u0648\u0646"
+    }, 
+    "Add": {
+        "message": "\u0623\u0636\u0641"
+    }, 
+    "Add a Friend": {
+        "message": "\u0623\u0636\u0641 \u0635\u062f\u064a\u0642"
+    }, 
+    "BLOCK": {
+        "message": "\u062d\u062c\u0628"
+    }, 
+    "BLOCKED USERS": {
+        "message": "\u0645\u0633\u062a\u062e\u062f\u0645\u0648\u0646 \u0645\u062d\u062c\u0648\u0628\u0648\u0646"
+    }, 
+    "Cancel": {
+        "message": "\u0625\u0644\u063a\u0627\u0621"
+    }, 
+    "Close": {
+        "message": "\u0623\u063a\u0644\u0642"
+    }, 
+    "Contact List Updated": {
+        "message": "\u062a\u0645 \u062a\u062d\u062f\u064a\u062b \u0642\u0627\u0626\u0645\u0629 \u062c\u0647\u0627\u062a \u0627\u0644\u0627\u062a\u0635\u0627\u0644"
+    }, 
+    "Contact Not Found": {
+        "message": "\u0644\u0645 \u064a\u062a\u0645 \u0627\u0644\u0639\u062b\u0648\u0631 \u0639\u0644\u0649 \u062c\u0647\u0629 \u0627\u0644\u0627\u062a\u0635\u0627\u0644"
+    }, 
+    "Dismiss": {
+        "message": "\u0627\u0646\u0635\u0631\u0627\u0641"
+    }, 
+    "Filter contatcs by tag:": {
+        "message": "\u062a\u0635\u0641\u064a\u0629 \u062c\u0647\u0627\u062a \u0627\u0644\u0627\u062a\u0635\u0627\u0644 \u062d\u0633\u0628 \u0627\u0644\u0639\u0644\u0627\u0645\u0629:"
+    }, 
+    "Games you make will be hidden to these players.": {
+        "message": "\u0627\u0644\u0623\u0644\u0639\u0627\u0628 \u0627\u0644\u062a\u064a \u062a\u0635\u0646\u0639\u0647\u0627 \u0633\u064a\u062a\u0645 \u0625\u062e\u0641\u0627\u0626\u0647\u0627 \u0639\u0646 \u0647\u0624\u0644\u0627\u0621 \u0627\u0644\u0644\u0639\u0627\u0628."
+    }, 
+    "Name:": {
+        "message": "\u0627\u0644\u0625\u0633\u0645:"
+    }, 
+    "New Nickname:": {
+        "message": "\u0644\u0642\u0628 \u062c\u062f\u064a\u062f:"
+    }, 
+    "Players you have encountered recently.": {
+        "message": "\u0627\u0644\u0644\u0627\u0639\u0628\u064a\u0646 \u0627\u0644\u0630\u064a\u0646 \u0648\u0627\u062c\u0647\u062a\u0645 \u0645\u0624\u062e\u0631\u0627\u064b"
+    }, 
+    "Private games you make will only be visible to these players.": {
+        "message": "\u0627\u0644\u0623\u0644\u0639\u0627\u0628 \u0627\u0644\u062e\u0627\u0635\u0629 \u0627\u0644\u062a\u064a \u062a\u0642\u0648\u0645 \u0628\u0647\u0627 \u0633\u062a\u0643\u0648\u0646 \u0645\u0631\u0626\u064a\u0629 \u0641\u0642\u0637 \u0644\u0647\u0624\u0644\u0627\u0621 \u0627\u0644\u0644\u0627\u0639\u0628\u064a\u0646."
+    }, 
+    "RECENT": {
+        "message": "\u0645\u0624\u062e\u0631\u0627\u064b"
+    }, 
+    "REMOVE": {
+        "message": "\u0625\u0632\u0627\u0644\u0629"
+    }, 
+    "RENAME": {
+        "message": "\u0623\u0639\u062f \u062a\u0633\u0645\u064a\u0629"
+    }, 
+    "Refresh Contacts": {
+        "message": "\u0642\u0645 \u0628\u062a\u062d\u062f\u064a\u062b \u062c\u0647\u0627\u062a \u0627\u0644\u0627\u062a\u0635\u0627\u0644"
+    }, 
+    "Refreshing friends list.....": {
+        "message": "\u062a\u062d\u062f\u064a\u062b \u0642\u0627\u0626\u0645\u0629 \u0627\u0644\u0623\u0635\u062f\u0642\u0627\u0621..."
+    }, 
+    "SOCIAL": {
+        "message": "\u0625\u062c\u062a\u0645\u0627\u0639\u064a"
+    }, 
+    "Tag": {
+        "message": "\u0627\u0644\u0639\u0644\u0627\u0645\u0629"
+    }, 
+    "Tag Friend:": {
+        "message": "\u0639\u0644\u0627\u0645\u0629 \u0635\u062f\u064a\u0642:"
+    }, 
+    "Tags:": {
+        "message": "\u0627\u0644\u0639\u0644\u0627\u0645\u0627\u062a:"
+    }, 
+    "UBERDEX": {
+        "message": "UBERDEX"
+    }, 
+    "Uber Name": {
+        "message": "Uber \u0627\u0633\u0645"
+    }, 
+    "UberId:": {
+        "message": "\u0645\u0639\u0631\u0641Uber:"
+    }, 
+    "or": {
+        "message": "\u0623\u0648"
+    }
+}

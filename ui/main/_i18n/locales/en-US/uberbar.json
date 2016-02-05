@@ -1,0 +1,122 @@
+{
+    "Accept": {
+        "message": "Accept"
+    }, 
+    "Appear Offline": {
+        "message": "\n                                                    Appear Offline\n                                                "
+    }, 
+    "Away": {
+        "message": "\n                                                    Away\n                                                "
+    }, 
+    "Block": {
+        "message": "Block"
+    }, 
+    "Buy Expansion": {
+        "message": "Buy Expansion"
+    }, 
+    "CANCEL": {
+        "message": "CANCEL"
+    }, 
+    "CHANGE": {
+        "message": "CHANGE"
+    }, 
+    "CHAT": {
+        "message": "CHAT"
+    }, 
+    "Cancel": {
+        "message": "Cancel"
+    }, 
+    "Change Display Name": {
+        "message": "\n                                                    Change Display Name\n                                                "
+    }, 
+    "Change your display name?": {
+        "message": "Change your display name?"
+    }, 
+    "Chat": {
+        "message": "Chat"
+    }, 
+    "Date": {
+        "message": "Date"
+    }, 
+    "Do Not Disturb": {
+        "message": "\n                                                    Do Not Disturb\n                                                "
+    }, 
+    "Enter a status message": {
+        "message": "Enter a status message"
+    }, 
+    "Friends": {
+        "message": "Friends"
+    }, 
+    "Ignore": {
+        "message": "Ignore"
+    }, 
+    "Invite to Chat": {
+        "message": "Invite to Chat"
+    }, 
+    "Invite to game": {
+        "message": "Invite to game"
+    }, 
+    "Join Game": {
+        "message": "Join Game"
+    }, 
+    "New Display Name:": {
+        "message": "New Display Name:"
+    }, 
+    "No pending notifications.": {
+        "message": "No pending notifications."
+    }, 
+    "Offline": {
+        "message": "Offline"
+    }, 
+    "Online": {
+        "message": "\n                                                    Online\n                                                "
+    }, 
+    "Pending Invite": {
+        "message": "Pending Invite"
+    }, 
+    "REMOVE": {
+        "message": "REMOVE"
+    }, 
+    "Recent": {
+        "message": "Recent"
+    }, 
+    "Remove": {
+        "message": "Remove"
+    }, 
+    "Required Expansion Pack": {
+        "message": "Required Expansion Pack"
+    }, 
+    "Search Players": {
+        "message": "Search Players"
+    }, 
+    "Search Results": {
+        "message": "Search Results"
+    }, 
+    "Send Friend Request": {
+        "message": "Send Friend Request"
+    }, 
+    "Tags:": {
+        "message": "Tags:"
+    }, 
+    "The game you are trying to join requires the [style=content_description]__content_name__[/style] expansion for Planetary Annihilation.": {
+        "message": "The game you are trying to join requires the [style=content_description]__content_name__[/style] expansion for Planetary Annihilation."
+    }, 
+    "Unblock": {
+        "message": "Unblock"
+    }, 
+    "Unfriend": {
+        "message": "Unfriend"
+    }, 
+    "Users": {
+        "message": "Users"
+    }, 
+    "__display_name__ invited you to a game.": {
+        "message": "__display_name__ invited you to a game."
+    }, 
+    "__display_name__ invited you to chat.": {
+        "message": "__display_name__ invited you to chat."
+    }, 
+    "__display_name__ wants to be your friend.": {
+        "message": "__display_name__ wants to be your friend."
+    }
+}

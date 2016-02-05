@@ -1,0 +1,26 @@
+{
+    "Important Hotkeys": {
+        "message": "Important Hotkeys"
+    }, 
+    "PA Guide: Basic Hotkeys": {
+        "message": "PA Guide: Basic Hotkeys"
+    }, 
+    "[style=hotkey_title]__hotkey__[/style] - Select Commander": {
+        "message": "[style=hotkey_title]__hotkey__[/style] - Select Commander"
+    }, 
+    "[style=hotkey_title]__hotkey__[/style] - Select all of currently-selected unit(s) that are visible": {
+        "message": "[style=hotkey_title]__hotkey__[/style] - Select all of currently-selected unit(s) that are visible"
+    }, 
+    "[style=hotkey_title]__hotkey__[/style] - Select idle fabbers on screen": {
+        "message": "[style=hotkey_title]__hotkey__[/style] - Select idle fabbers on screen"
+    }, 
+    "[style=hotkey_title]__hotkey__[/style] - Toggle energy orders": {
+        "message": "[style=hotkey_title]__hotkey__[/style] - Toggle energy orders"
+    }, 
+    "[style=hotkey_title]__hotkey__[/style] - Toggle production": {
+        "message": "[style=hotkey_title]__hotkey__[/style] - Toggle production"
+    }, 
+    "[style=hotkey_title]__hotkey__[/style] - Zoom to selected unit": {
+        "message": "[style=hotkey_title]__hotkey__[/style] - Zoom to selected unit"
+    }
+}

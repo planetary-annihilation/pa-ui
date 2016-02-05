@@ -1,0 +1,9 @@
+<div style="display:flex; margin-bottom:10px; text-align: left;">
+    <div class="col1">
+        <img class="icon" data-bind="visible: icon() !== undefined, attr: { src: icon }" />
+    </div>
+    <div class="col2">
+        <div class="summary" data-bind="text: loc(summary())"></div>
+        <div class="desc" data-bind="html: locDesc"></div>
+    </div>
+</div>

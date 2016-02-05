@@ -1,0 +1,20 @@
+{
+    "Arrow Keys to rotate around planet": {
+        "message": "Pfeiltasten, um die Sicht auf den Planeten zu drehen"
+    }, 
+    "Basic Camera Controls": {
+        "message": "Grundlegende Kamerasteuerung"
+    }, 
+    "Go between planets using planet menu (upper right of screen)": {
+        "message": "Wechsle zwischen Planeten mit der Planetenübersicht (oben rechts)"
+    }, 
+    "Hold Mouse Wheel, drag to pan view": {
+        "message": "Mausrad gedrückt halten und Maus ziehen, um Kamera zu schwenken."
+    }, 
+    "PA Guide: Basic Controls": {
+        "message": "PA-Anleitung: Grundlegende Steuerung"
+    }, 
+    "Scroll Mouse Wheel to zoom in and out": {
+        "message": "Mit Mausrad scrollen, um zu zoomen."
+    }
+}

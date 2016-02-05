@@ -1,0 +1,44 @@
+{
+    "ANNIHILATION COMPLETE": {
+        "message": "UTSLETTING FULLF\u00d8RT"
+    }, 
+    "APM": {
+        "message": "APM"
+    }, 
+    "Average": {
+        "message": "Snitt"
+    }, 
+    "Built": {
+        "message": "Bygd"
+    }, 
+    "Destroyed": {
+        "message": "\u00d8delagt"
+    }, 
+    "Draw": {
+        "message": "UAVGJORT"
+    }, 
+    "Efficiency": {
+        "message": "Effektivitet"
+    }, 
+    "GW GAME OVER": {
+        "message": "GW KAMP OVER"
+    }, 
+    "The game has ended.": {
+        "message": "Kampen er over."
+    }, 
+    "Used": {
+        "message": "Brukt"
+    }, 
+    "VICTORY IS YOURS": {
+        "message": "SEIEREN ER DIN"
+    }, 
+    "Winner:": {
+        "message": "Vinner:"
+    }, 
+    "Winners:": {
+        "message": "Vinnere:"
+    }, 
+    "YOU'VE BEEN ANNIHILATED": {
+        "message": "DU HAR BLITT UTSLETTET"
+    }
+}

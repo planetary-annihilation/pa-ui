@@ -1,0 +1,96 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<noloc><title>Match Making</title></noloc>
+
+<script src="bundle://boot/boot.js" type="text/javascript"></script>
+<link href="bundle://boot/boot.css" rel="stylesheet" type="text/css" />
+<script src="coui://ui/main/shared/js/matchmaking_utility.js" type="text/javascript"></script>
+<script src="matchmaking.js" type="text/javascript"></script>
+
+<link href="matchmaking.css" rel="stylesheet" type="text/css" />
+
+</head>
+<body>
+
+    <!--
+    MATCH MAKING
+    ______________________________________________________________________
+    -->
+    <div class="flex-container">
+        <div class="div_panel_bar_background" >
+            <div class="div-queue-title" data-bind="text: titleMessage, css: titleStyle"></div>
+            <div class="div-queue-warning" data-bind="visible: showWarning, text: warningInfo"></div>
+            <div class="div-queue-dialog">
+                <div class="div-queue-queue-time-info" data-bind="visible: showQueue">
+                    <div class="div-queue-queue-time-element"><loc>queue time</loc></div>
+                    <div class="div-queue-queue-time-data" data-bind="text: queueTimeString"></div>
+                </div>
+                <div class="div-queue-info" data-bind="visible: showQueue">
+                    <div class="category">
+                        <div class="div-queue-info-element"><loc>average queue time</loc></div>
+                        <div class="div-queue-info-data" data-bind="text: averageLaunchTime"></div>
+                    </div>
+                    <div class="category">
+                        <div class="div-queue-info-element"><loc>players in queue</loc></div>
+                        <div class="div-queue-info-data" data-bind="text: playersInQueue"></div>
+                    </div>
+                </div>
+                <div class="div-queue-info player-status" data-bind="visible: model.stateString() === 'challenge'">
+                    <div class="div-queue-status-player-status">
+                        <div class="div-queue-status-player-status-img" data-bind="css: challengeSelfStyle">
+                        </div>
+                        <div class="div-queue-status-player-status-element">
+                            <loc>You</loc>
+                        </div>
+                    </div>
+                    <div class="div-versus">
+                        <noloc>V</noloc>
+                    </div>
+                    <div class="div-queue-status-player-status">
+                        <div class="div-queue-status-player-status-img" data-bind="css: challengeOtherStyle">
+                        </div>
+                        <div class="div-queue-status-player-status-element"><loc>Opponent</loc></div>
+                    </div>
+                </div>
+                <div class="div-queue-info time-out" data-bind="visible: model.stateString() === 'challenge'">
+                    <div class="category" style="border:none;">
+                        <div class="div-queue-queue-time-element"><loc>match expires in:</loc></div>
+                        <div class="div-queue-queue-time-data" data-bind="text: readyChallengeTimeout"></div>
+                    </div>
+                </div>
+                <div class="div-queue-info" data-bind="visible: showReconnect">
+                    <loc>You are already assigned to a match.</loc>
+                </div>
+                <div class="div-queue-error" data-bind="visible: showError, text: errorInfo"></div>
+                <div class="div-queue-error" data-bind="visible: showPenalized">
+                    <div class="category" style="border: none;"data-bind="visible: model.matchMakingPenaltySecondsRemaining() > 0">
+                        <div><loc>You have been penalized for abandoning a game.</loc></div>
+                        <div class="div-queue-queue-time-element" style="margin:10px 0px 0px 0px;"><loc>penalty expires in:</loc></div>
+                        <div class="div-queue-queue-time-data" data-bind="text: UberUtility.createTimeString(model.matchMakingPenaltySecondsRemaining())"></div>
+                    </div>
+                    <div data-bind="visible: model.matchMakingPenaltySecondsRemaining() <= 0">
+                        <loc>You were penalized for abandoning, but your penalty has now expired.</loc>
+                    </div>
+                </div>
+            </div>
+            <div class="div_bottom_margin_bar">
+                <input type="button" value="Cancel"  data-bind="visible: showCancel, click: matchMakingEnd, click_sound: 'default', rollover_sound: 'default'" />
+                <div class="div-queue-challenge" data-bind="visible: showReadyChallenge">
+                    <input type="button" value="Accept" data-bind="enable: readyChallengeAcceptEnabled, click: matchMakingAccept, click_sound: 'default', rollover_sound: 'default'" />
+                    <input type="button" value="Decline" data-bind="click: matchMakingDecline, click_sound: 'default', rollover_sound: 'default'" />
+                </div>
+                <div class="div-queue-challenge" data-bind="visible: showReconnect">
+                    <input type="button" value="Reconnect" data-bind="click: reconnect, click_sound: 'default', rollover_sound: 'default'" />
+                    <input type="button" value="Abandon" data-bind="click: abandon, click_sound: 'default', rollover_sound: 'default'" />
+                </div>
+                <input type="button" value="Enter Queue" data-bind="visible: showRequeue, click: matchMakingBegin, click_sound: 'default', rollover_sound: 'default'"/>
+                <input type="button" value="Back" data-bind="visible: showBack, click: matchMakingClose, click_sound: 'default', rollover_sound: 'default'" />
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>

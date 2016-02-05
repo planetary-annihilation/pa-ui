@@ -1,0 +1,17 @@
+{
+    "Absurd": {
+        "message": "Absurd"
+    }, 
+    "Hard": {
+        "message": "Hard"
+    }, 
+    "Idle": {
+        "message": "Idle"
+    }, 
+    "Normal": {
+        "message": "Normal"
+    }, 
+    "Relentless": {
+        "message": "Relentless"
+    }
+}

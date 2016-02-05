@@ -1,0 +1,548 @@
+{
+    "ARKYD": {
+        "message": "ARKYD"
+    }, 
+    "Advanced Air Factory": {
+        "message": "Pokro\u010dil\u00e1 leteck\u00e1 tov\u00e1rna"
+    }, 
+    "Advanced Bot Factory": {
+        "message": "Pokro\u010dile bojov\u00fd v\u00fdrobn\u00ed bot"
+    }, 
+    "Advanced Combat Fabrication Bot": {
+        "message": " Pokro\u010dile bojov\u00fd v\u00fdrobn\u00ed bot"
+    }, 
+    "Advanced Energy Plant": {
+        "message": "Pokro\u010dil\u00e1 elektr\u00e1rna"
+    }, 
+    "Advanced Fab Aircraft": {
+        "message": "Advanced Fab Aircraft"
+    }, 
+    "Advanced Fabrication Bot": {
+        "message": "Pokro\u010dile bojov\u00fd v\u00fdrobn\u00ed bot"
+    }, 
+    "Advanced Fabrication Ship": {
+        "message": "Pokro\u010dil\u00e1 v\u00fdrobn\u00ed lo\u010f"
+    }, 
+    "Advanced Fabrication Vehicle": {
+        "message": "Pokro\u010dil\u00e9 v\u00fdrobn\u00ed vozidlo"
+    }, 
+    "Advanced Laser Defense Tower": {
+        "message": "Pokro\u010dil\u00e1 laserov\u00e1 obrann\u00e1 v\u011b\u017e"
+    }, 
+    "Advanced Metal Extractor": {
+        "message": "Pokro\u010dil\u00fd extraktor kovu"
+    }, 
+    "Advanced Naval Factory": {
+        "message": "Pokro\u010dil\u00e1 n\u00e1mo\u0159n\u00ed tov\u00e1rna"
+    }, 
+    "Advanced Radar": {
+        "message": "Pokro\u010dil\u00fd radar"
+    }, 
+    "Advanced Radar Satellite": {
+        "message": "Pokro\u010dil\u00fd radarov\u00fd satelit"
+    }, 
+    "Advanced Sonar": {
+        "message": "Pokro\u010dil\u00fd sonar"
+    }, 
+    "Advanced Tank: Anti-land and anti-ship guns": {
+        "message": "Pokro\u010dil\u00fd tank: Proti-pozemn\u00ed a proti-lodn\u00ed zbran\u011b"
+    }, 
+    "Advanced Torpedo Launcher": {
+        "message": "Advanced Torpedo Launcher"
+    }, 
+    "Advanced Vehicle Factory": {
+        "message": "Pokro\u010dil\u00e1 tov\u00e1rna pro vozidla"
+    }, 
+    "Advanced artillery- Equipped with long range anti-land, and anti-ship gun.": {
+        "message": "Pokro\u010dil\u00e9 d\u011blost\u0159electvo- Vybaveno dalekonosn\u00fdmi proti-pozemn\u00edmi a proti-lodn\u00edmi zbran\u011bmi"
+    }, 
+    "Advanced fabricator combatant- Wired to repair units and build battlefield structures. Can only build units for which it has a blueprint.": {
+        "message": "Advanced fabricator combatant- Wired to repair units and build battlefield structures. Can only build units for which it has a blueprint."
+    }, 
+    "Advanced fabricator- Builds orbital satellites and ships.": {
+        "message": "Advanced fabricator- Builds orbital satellites and ships."
+    }, 
+    "Advanced fabricator- Wired to build naval structures.": {
+        "message": "Pokro\u010dil\u00fd konstrukt\u00e9r- P\u0159ipojen ke stav\u011bn\u00ed n\u00e1mo\u0159n\u00edch budov"
+    }, 
+    "Advanced fabricator- Wired to build structures.": {
+        "message": "Pokro\u010dil\u00fd konstrukt\u00e9r- P\u0159ipojen ke stav\u011bn\u00ed budov"
+    }, 
+    "Advanced manufacturing- Builds air units.": {
+        "message": "Pokro\u010dil\u00e1 v\u00fdroba- Vyr\u00e1b\u00ed vzdu\u0161n\u00e9 jednotky"
+    }, 
+    "Advanced manufacturing- Builds bots.": {
+        "message": "Pokro\u010dil\u00e1 v\u00fdroba- Vyr\u00e1b\u00ed boty"
+    }, 
+    "Advanced manufacturing- Builds land vehicles.": {
+        "message": "Pokro\u010dil\u00e1 v\u00fdroba- Vyr\u00e1b\u00ed pozemn\u00ed jednotky"
+    }, 
+    "Advanced manufacturing- Builds naval units.": {
+        "message": "Pokro\u010dil\u00e1 v\u00fdroba- Vyr\u00e1b\u00ed n\u00e1mo\u0159n\u00ed jednotky"
+    }, 
+    "Advanced manufacturing- Builds orbital satellites.": {
+        "message": "Pokro\u010dil\u00e1 v\u00fdroba- Postavit orbit\u00e1ln\u00ed satelity"
+    }, 
+    "Advanced manufacturing- Produces energy.": {
+        "message": "Pokro\u010dil\u00e1 v\u00fdroba- Generuje energii"
+    }, 
+    "Advanced manufacturing- Produces metal, can only be placed on metal deposits.": {
+        "message": "Pokro\u010dil\u00e1 v\u00fdroba- Generuje kov, lze um\u00edstit pouze na kovov\u00e1 lo\u017eiska"
+    }, 
+    "Advanced radar satellite- Detects a vast area for enemy land, sea, and air units.": {
+        "message": "Advanced radar satellite- Detects a vast area for enemy land, sea, and air units."
+    }, 
+    "Advanced radar- Detects nearby enemy land, sea, and air units.": {
+        "message": "Pokro\u010dil\u00fd radar- Identifikuje nep\u0159\u00e1telsk\u00e9 pozemn\u00ed, n\u00e1mo\u0159n\u00ed a leteck\u00e9 jednotky v okol\u00ed"
+    }, 
+    "Advanced sonar- Detects underwater units.": {
+        "message": "Pokro\u010dil\u00fd sonar- Identifikuje podmo\u0159sk\u00e9 jednotky"
+    }, 
+    "Advanced turret- Equipped with anti-air turret.": {
+        "message": "Pokro\u010dil\u00e1 v\u011b\u017e- Vybavena proti-leteck\u00fdm modulem"
+    }, 
+    "Advanced turret- Equipped with direct fire anti-land, and anti-ship defenses.": {
+        "message": "Advanced turret- Equipped with direct fire anti-land, and anti-ship defenses."
+    }, 
+    "Air Factory": {
+        "message": "Leteck\u00e1 tov\u00e1rna"
+    }, 
+    "Air Transport- Load a land unit for rapid long distance travel.": {
+        "message": "Leteck\u00fd transport\u00e9r- Nalo\u017e\u00ed pozemn\u00ed jednotku pro rychl\u00e9 cestov\u00e1n\u00ed na dlouhou vzd\u00e1lenost"
+    }, 
+    "All Terrain Bot: Can crawl almost anywhere.": {
+        "message": "Ter\u00e9nn\u00ed bot: M\u016f\u017ee l\u00e9zt t\u00e9m\u011b\u0159 kdekoli"
+    }, 
+    "Analysis: Controls things. Big things.": {
+        "message": "Analysis: Controls things. Big things."
+    }, 
+    "Anchor": {
+        "message": "Anchor"
+    }, 
+    "Ant": {
+        "message": "Ant"
+    }, 
+    "Anti-Nuke Launcher": {
+        "message": "Anti-Nuke Launcher"
+    }, 
+    "Anti-nuke - Intercepts incoming nuclear missiles.": {
+        "message": "Anti-nuke - Zachycuje p\u0159\u00edchoz\u00ed jadern\u00e9 hlavice"
+    }, 
+    "Anti-nuke launcher- Equipped with advanced anti-nuclear missile weapon.": {
+        "message": "Proti-jadern\u00fd odpalovac\u00ed modul- Vybaveno pokro\u010dilou proti-jadernou raketou"
+    }, 
+    "Artillery ship- Long range advanced guided missiles.": {
+        "message": "Artillery ship- Long range advanced guided missiles."
+    }, 
+    "Assault bot- Equipped with advanced anti-land and anti-ship lasers.": {
+        "message": "\u00dato\u010dn\u00fd bot- Vybaven vysp\u011bl\u00fdmi proti-pozemsk\u00fdmi a proti-lodn\u00edmi lasery. "
+    }, 
+    "Assault bot- Equipped with basic anti-land and anti-ship lasers.": {
+        "message": "\u00dato\u010dn\u00fd bot- Vybaven z\u00e1kladn\u00edmi proti-pozemn\u00edmi a proti-lodn\u00edmi lasery."
+    }, 
+    "Assault: Anti-land and anti-ship lasers": {
+        "message": "Assault: Anti-land and anti-ship lasers"
+    }, 
+    "Astraeus": {
+        "message": "Astraeus"
+    }, 
+    "Avenger": {
+        "message": "Mstitel"
+    }, 
+    "Barracuda": {
+        "message": "Barakuda"
+    }, 
+    "Basic artillery- Equipped with medium range anti-land, and anti-ship gun.": {
+        "message": "Basic artillery- Equipped with medium range anti-land, and anti-ship gun."
+    }, 
+    "Basic defense- No weapon, high health.": {
+        "message": "Z\u00e1kladn\u00ed obrana- \u017d\u00e1dn\u00e9 zbran\u011b, vysok\u00e9 zdrav\u00ed"
+    }, 
+    "Basic fabricator combatant- Wired to build mines and repair units. Can only build units for which it has a blueprint.": {
+        "message": "Basic fabricator combatant- Wired to build mines and repair units. Can only build units for which it has a blueprint."
+    }, 
+    "Basic fabricator- Wired to build naval structures.": {
+        "message": "Z\u00e1kladn\u00ed konstrukt\u00e9r- P\u0159ipojen ke stav\u011bn\u00ed n\u00e1mo\u0159n\u00edch budov."
+    }, 
+    "Basic fabricator- Wired to build structures.": {
+        "message": "Z\u00e1kladn\u00ed konstrukt\u00e9r- P\u0159ipojen ke stav\u011bn\u00ed budov."
+    }, 
+    "Basic manufacturing- Builds air units.": {
+        "message": "Z\u00e1kladn\u00ed v\u00fdroba- Vyr\u00e1b\u00ed leteck\u00e9 jednotky."
+    }, 
+    "Basic manufacturing- Builds and launches satellites and other units.": {
+        "message": "Z\u00e1kladn\u00ed v\u00fdroba- Vyr\u00e1b\u00ed a vypou\u0161t\u00ed satelity a dal\u0161\u00ed jednotky"
+    }, 
+    "Basic manufacturing- Builds bots.": {
+        "message": "Z\u00e1kladn\u00ed v\u00fdroba- Vyr\u00e1b\u00ed boty"
+    }, 
+    "Basic manufacturing- Builds land vehicles.": {
+        "message": "Z\u00e1kladn\u00ed v\u00fdroba- Vyr\u00e1b\u00ed pozemn\u00ed jednotky"
+    }, 
+    "Basic manufacturing- Builds naval units.": {
+        "message": "Z\u00e1kladn\u00ed v\u00fdroba- Vyrab\u00ed n\u00e1mo\u0159n\u00ed jednotky"
+    }, 
+    "Basic manufacturing- Produces energy.": {
+        "message": "Z\u00e1kladn\u00ed v\u00fdroba- Generuje energii"
+    }, 
+    "Basic manufacturing- Produces metal, can only be placed on metal deposits.": {
+        "message": "Z\u00e1kladn\u00ed v\u00fdroba- Generuje kov, lze um\u00edstit pouze na kovov\u00e1 lo\u017eiska"
+    }, 
+    "Basic radar satellite- Detects a large area for enemy land, sea, and air units.": {
+        "message": "Basic radar satellite- Detects a large area for enemy land, sea, and air units."
+    }, 
+    "Basic radar- Detects nearby enemy land, sea, and air units.": {
+        "message": "Z\u00e1kladn\u00ed radar- Identifikuje nep\u0159\u00e1telsk\u00e9 pozemn\u00ed, n\u00e1mo\u0159n\u00ed a leteck\u00e9 jednotky v okol\u00ed"
+    }, 
+    "Basic sonar- Detects underwater units.": {
+        "message": "Z\u00e1kladn\u00ed sonar- Detekuje jednotky pod vodou."
+    }, 
+    "Basic turret- Equipped with anti-air missiles.": {
+        "message": "Z\u00e1kladn\u00ed v\u011b\u017e- Vybavena proti-leteck\u00fdmi raketami"
+    }, 
+    "Basic turret- Equipped with direct fire anti-land, and anti-ship defenses.": {
+        "message": "Basic turret- Equipped with direct fire anti-land, and anti-ship defenses."
+    }, 
+    "Battleship- Long range advanced anti-ship, and anti-land guns.": {
+        "message": "Bitevn\u00ed lo\u010f- Dalekonosn\u00e9 pokro\u010dil\u00e9 proti-lodn\u00ed a proti-pozemn\u00ed zbran\u011b."
+    }, 
+    "Bluehawk": {
+        "message": "Bluehawk"
+    }, 
+    "Bolo": {
+        "message": "Bolo"
+    }, 
+    "Bomb bot- Equipped with Self Destruction mechanism.": {
+        "message": "Bomb bot- Equipped with Self Destruction mechanism."
+    }, 
+    "Bomber- Equipped with advanced anti-land and anti-naval tactical missiles.": {
+        "message": "Bombard\u00e9r- Vybaven pokro\u010dil\u00fdmi proti-pozemn\u00edmi a proti-n\u00e1mo\u0159n\u00edmi taktick\u00fdmi zbran\u011bmi"
+    }, 
+    "Bomber- Equipped with basic anti-land and anti-naval bombs.": {
+        "message": "Bomber- Equipped with basic anti-land and anti-naval bombs."
+    }, 
+    "Boom": {
+        "message": "Boom"
+    }, 
+    "Bot Factory": {
+        "message": "Tov\u00e1rna pro Boty"
+    }, 
+    "Bumblebee": {
+        "message": "Bumblebee"
+    }, 
+    "Catalyst": {
+        "message": "Catalyst"
+    }, 
+    "Catapult": {
+        "message": "Katapult"
+    }, 
+    "Combat Fabrication Bot": {
+        "message": "Bojov\u00fd v\u00fdrobn\u00ed bot"
+    }, 
+    "Combat bot- Equipped with basic anti-air missiles.": {
+        "message": "Bojov\u00fd bot- Vybaven z\u00e1kladn\u00edmi proti-vzdu\u0161n\u00fdmi raketami"
+    }, 
+    "Combat vehicle- Equipped with basic anti-air missiles.": {
+        "message": "Bojov\u00e9 vozidlo- Vybaveno z\u00e1kladn\u00edmi proti-vzdu\u0161n\u00fdmi raketami"
+    }, 
+    "Defense satellite- Heavy orbital offensive and defensive platform with basic laser.": {
+        "message": "Obran\u00fd satelit- T\u011b\u017ek\u00e1 orbit\u00e1ln\u00ed \u00fato\u010dn\u00e1 a obrann\u00e1 platforma se z\u00e1kladn\u00edmi lasery"
+    }, 
+    "Delta V Engine- Used to move small to medium celestial bodies.": {
+        "message": "Motor Delta V- Pou\u017e\u00edv\u00e1 se k pohybu mal\u00fdch a st\u0159edn\u00edch vesm\u00edrn\u00fdch objekt\u016f."
+    }, 
+    "Destroyer- Basic anti-land and anti-ship guns.": {
+        "message": "Ni\u010ditel- Z\u00e1kladn\u00ed proti-pozemn\u00ed a proti-lodn\u00ed zbran\u011b"
+    }, 
+    "Dolphin": {
+        "message": "Dolphin"
+    }, 
+    "Dox": {
+        "message": "Dox"
+    }, 
+    "Energy Plant": {
+        "message": "Elektr\u00e1rna"
+    }, 
+    "Energy Storage": {
+        "message": "Sklad Energie"
+    }, 
+    "Fabrication Aircraft": {
+        "message": "V\u00fdrobn\u00ed letadlo"
+    }, 
+    "Fabrication Bot": {
+        "message": "V\u00fdrobn\u00ed bot"
+    }, 
+    "Fabrication Ship": {
+        "message": "V\u00fdrobn\u00ed lo\u010f"
+    }, 
+    "Fabrication Sub": {
+        "message": "Fabrication Sub"
+    }, 
+    "Fabrication Vehicle": {
+        "message": "V\u00fdrobn\u00ed vozidlo"
+    }, 
+    "Fabricator: Builds naval structures": {
+        "message": "Konstrukt\u00e9r: Stav\u00ed n\u00e1mo\u0159n\u00ed stavby"
+    }, 
+    "Fighter- Equipped with advanced anti-air missiles.": {
+        "message": "St\u00edha\u010dka- Vybavena pokro\u010dil\u00fdmi proti-leteck\u00fdmi raketami"
+    }, 
+    "Fighter- Equipped with basic anti-air missiles.": {
+        "message": "St\u00edha\u010dka- Vybavena z\u00e1klad\u00edmi proti-leteck\u00fdmi raketami"
+    }, 
+    "Firefly": {
+        "message": "Sv\u011btlu\u0161ka"
+    }, 
+    "Flak Cannon": {
+        "message": "Flak kan\u00f3n"
+    }, 
+    "Flame tank- Short ranged, heavy armored vehicle.": {
+        "message": "Plamenometn\u00fd tank- Kr\u00e1tk\u00fd dost\u0159el, t\u011b\u017ece obrn\u011bn\u00e9 vozidlo"
+    }, 
+    "Flux": {
+        "message": "Flux"
+    }, 
+    "Frigate- Basic anti-air missiles and anti-ship guns.": {
+        "message": "Frigate- Basic anti-air missiles and anti-ship guns."
+    }, 
+    "Galata Turret": {
+        "message": "V\u011b\u017e Galata"
+    }, 
+    "Gas mining and metal creation satellite. Only works above gas giant planets.": {
+        "message": "Satelit pro t\u011b\u017ebu plynu a tvorbu kovu. Funguje pouze nad plynn\u00fdmi planetami"
+    }, 
+    "Gil-E": {
+        "message": "Gil-E"
+    }, 
+    "Grenadier": {
+        "message": "Gran\u00e1tn\u00edk"
+    }, 
+    "Grenadier- Basic assault weapons dealing area effect damage.": {
+        "message": "Gran\u00e1tn\u00edk- Z\u00e1kladn\u00ed \u00fato\u010dn\u00e9 zbran\u011b ud\u011bluj\u00edc\u00ed prostorov\u00fd \u00fatok"
+    }, 
+    "Gunboat- Light weaponry, fast speed": {
+        "message": "Pr\u016fzkumn\u00edk- slab\u00e9 zbran\u011b, rychl\u00fd"
+    }, 
+    "Gunship- Equipped with strong anti-ground. No anti-air capabilities.": {
+        "message": "Bitevn\u00edk- Siln\u00fd proti pozemn\u00edm jednotk\u00e1m. Nelze \u00fato\u010dit na leteck\u00e9 jednotky"
+    }, 
+    "Halley": {
+        "message": "Halley"
+    }, 
+    "Heavy tank- Advanced short range, heavily armored vehicle.": {
+        "message": "T\u011b\u017ek\u00fd tank- Pokro\u010dil\u00fd st\u0159edn\u00ed dost\u0159el, t\u011b\u017ece obrn\u011bn\u00e9 vozidlo"
+    }, 
+    "Holkins": {
+        "message": "Holkins"
+    }, 
+    "Hornet": {
+        "message": "Sr\u0161e\u0148"
+    }, 
+    "Hummingbird": {
+        "message": "Kolib\u0159\u00edk"
+    }, 
+    "Inferno": {
+        "message": "Inferno"
+    }, 
+    "Ion defense platform- Designed to take out orbital units above it.": {
+        "message": "Ion defense platform- Designed to take out orbital units above it."
+    }, 
+    "Jellyfish": {
+        "message": "Med\u016fza"
+    }, 
+    "Jig": {
+        "message": "Jig"
+    }, 
+    "Kestrel": {
+        "message": "Kestrel"
+    }, 
+    "LR-96 -Pacifier- Missile": {
+        "message": "LR-96 -Pacifier- St\u0159ela"
+    }, 
+    "Land Mine": {
+        "message": "Pozemn\u00ed mina"
+    }, 
+    "Land mine- Detonates when enemy units are in proximity.": {
+        "message": "Pozemn\u00ed mina- Vybuche pokud jsou pobl\u00ed\u017e jednotky"
+    }, 
+    "Laser Defense Tower": {
+        "message": "Laserov\u00e1 obrann\u00e1 v\u011b\u017e"
+    }, 
+    "Laser tank- Equipped with advanced anti-land and anti-ship guns.": {
+        "message": "Laserov\u00fd tank- Vybaven pokro\u010dil\u00fdmi proti-pozemn\u00edmi a proti-lodn\u00edmi zbran\u011bmi"
+    }, 
+    "Leveler": {
+        "message": "Leveler"
+    }, 
+    "Leviathan": {
+        "message": "Leviatan"
+    }, 
+    "Light tank- Equipped with basic anti-land and anti-ship guns.": {
+        "message": "Lehk\u00fd tank- Vybaven z\u00e1kladn\u00edmi proti-pozemn\u00edmi a proti-lodn\u00edmi zbran\u011bmi"
+    }, 
+    "Manufacturing- Increases maximum energy storage capacity.": {
+        "message": "V\u00fdroba- Zv\u011bt\u0161\u00ed maxim\u00e1ln\u00ed kapacitu ulo\u017ei\u0161t\u011b energie"
+    }, 
+    "Manufacturing- Increases maximum metal storage capacity.": {
+        "message": "V\u00fdroba- Zv\u011bt\u0161\u00ed maxim\u00e1ln\u00ed kapacitu kovu"
+    }, 
+    "Manufacturing- Orbital energy generation.": {
+        "message": "V\u00fdroba- Orbit\u00e1ln\u00ed generov\u00e1n\u00ed energie"
+    }, 
+    "Metal Extractor": {
+        "message": "Extraktor kovu"
+    }, 
+    "Metal Storage": {
+        "message": "Skladi\u0161t\u011b kovu"
+    }, 
+    "Mortar tank- Equipped with advanced mobile artillery.": {
+        "message": "Minometn\u00fd tank- Vybaven\u00fd pokro\u010dilou mobiln\u00ed artil\u00e9ri\u00ed."
+    }, 
+    "Narwhal": {
+        "message": "Narval"
+    }, 
+    "Naval Factory": {
+        "message": "N\u00e1mo\u0159n\u00ed Tov\u00e1rna"
+    }, 
+    "Nuclear Missile Launcher": {
+        "message": "Nuclear Missile Launcher"
+    }, 
+    "Nuclear missile - Long range, large area damage, projectile": {
+        "message": "Nuclear missile - Long range, large area damage, projectile"
+    }, 
+    "Nuclear missile launcher- Equipped with advanced long range, large area damage, nuclear missile.": {
+        "message": "Nuclear missile launcher- Equipped with advanced long range, large area damage, nuclear missile."
+    }, 
+    "Orbital Fabrication Bot": {
+        "message": "Orbit\u00e1ln\u00ed v\u00fdrobn\u00ed bot"
+    }, 
+    "Orbital Factory": {
+        "message": "Orbit\u00e1ln\u00ed tov\u00e1rna"
+    }, 
+    "Orbital Launcher": {
+        "message": "Orbital Launcher"
+    }, 
+    "Orbital and Deepspace Radar": {
+        "message": "Orbital and Deepspace Radar"
+    }, 
+    "Orbital and deepspace radar- Orbital and Celestial radar telemetry.": {
+        "message": "Orbital and deepspace radar- Orbital and Celestial radar telemetry."
+    }, 
+    "Orbital fighter- Fast moving orbital fighter for offense and defense.": {
+        "message": "Orbit\u00e1ln\u00ed st\u00edha\u010dka- Rychle se pohybuj\u00edc\u00ed orbit\u00e1ln\u00ed st\u00edha\u010dka pro \u00fatok i obranu"
+    }, 
+    "Orbital lander- Load it up, get units to other planets.": {
+        "message": "Orbit\u00e1ln\u00ed p\u0159ist\u00e1v\u00e1c\u00ed modul- nalo\u017ete ho, dosta\u0148te jednotky na jin\u00e9 planety"
+    }, 
+    "Orbital laser platform- Rains death from above.": {
+        "message": "Orbital laser platform- Rains death from above."
+    }, 
+    "Orca": {
+        "message": "Kostka"
+    }, 
+    "Pelican": {
+        "message": "Pelik\u00e1n"
+    }, 
+    "Pelter": {
+        "message": "Pelter"
+    }, 
+    "Peregrine": {
+        "message": "Sokol"
+    }, 
+    "Radar": {
+        "message": "Radar"
+    }, 
+    "Recluse": {
+        "message": "Recluse"
+    }, 
+    "SR-24 -Shield- Missile Defense": {
+        "message": "SR-24 -\u0160t\u00edt- protiraketov\u00e1 obrana"
+    }, 
+    "SXX-1304 Laser Platform": {
+        "message": "SXX-1304 Laserov\u00e1 Platforma"
+    }, 
+    "Scout- Weak, fast speed.": {
+        "message": "Pr\u016fzkumn\u00edk- Slab\u00fd, rychl\u00fd"
+    }, 
+    "Sea mine- Detonates when ships are in proximity.": {
+        "message": "N\u00e1mo\u0159n\u00ed mina- vybuchne pokud jsou pobl\u00ed\u017e lod\u011b"
+    }, 
+    "Sheller": {
+        "message": "Sheller"
+    }, 
+    "Single Laser Defense Tower": {
+        "message": "Laserov\u00e1 obrann\u00e1 v\u011b\u017e"
+    }, 
+    "Skitter": {
+        "message": "Skitter"
+    }, 
+    "Slammer": {
+        "message": "Slammer"
+    }, 
+    "Sniper- Long range advanced anti-land, and anti-ship bot.": {
+        "message": "Sniper- Long range advanced anti-land, and anti-ship bot."
+    }, 
+    "Solar Array": {
+        "message": "Sol\u00e1rn\u00ed panel"
+    }, 
+    "Sonar": {
+        "message": "Sonar"
+    }, 
+    "Spinner": {
+        "message": "Spinner"
+    }, 
+    "Stinger": {
+        "message": "\u017dihadlo"
+    }, 
+    "Stingray": {
+        "message": "Rejnok"
+    }, 
+    "Sub Class: Anti-sub and anti-ship torpedoes, long range ballistic nuclear missile": {
+        "message": "Sub Class: Anti-sub and anti-ship torpedoes, long range ballistic nuclear missile"
+    }, 
+    "Submarine Class: Anti-sub and anti-ship torpedoes": {
+        "message": "Submarine Class: Anti-sub and anti-ship torpedoes"
+    }, 
+    "Tactical missile bot- Medium range advanced artillery bot.": {
+        "message": "Taktick\u00fd raketov\u00fd bot- St\u0159edn\u00ed dost\u0159el pokro\u010dil\u00e9ho d\u011blost\u0159electva"
+    }, 
+    "Tactical missile launcher- Equipped with advanced long range anti-land missile launcher.": {
+        "message": "Tactical missile launcher- Equipped with advanced long range anti-land missile launcher."
+    }, 
+    "Tank: Anti-land and anti-ship guns": {
+        "message": "Tank: Proti-pozemn\u00ed a proti-lodn\u00ed zbran\u011b"
+    }, 
+    "Teleporter": {
+        "message": "Teleporter"
+    }, 
+    "Teleporter: Teleports units from one to another.": {
+        "message": "Teleporter: Teleports units from one to another."
+    }, 
+    "Torpedo Launcher": {
+        "message": "Torpedo Launcher"
+    }, 
+    "Torpedo Launcher- Advanced anti-ship defense.": {
+        "message": "Torpedo Launcher- Advanced anti-ship defense."
+    }, 
+    "Torpedo Launcher- Basic anti-ship defense.": {
+        "message": "Torpedo Launcher- Basic anti-ship defense."
+    }, 
+    "Umbrella": {
+        "message": "Umbrella"
+    }, 
+    "Unit Cannon": {
+        "message": "Unit Cannon"
+    }, 
+    "Unit Cannon: Long range unit dispersal": {
+        "message": "Unit Cannon: Long range unit dispersal"
+    }, 
+    "Vanguard": {
+        "message": "Vanguard"
+    }, 
+    "Vehicle Factory": {
+        "message": "Tov\u00e1rna pro vozidla"
+    }, 
+    "Wall": {
+        "message": "Ze\u010f"
+    }
+}

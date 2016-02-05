@@ -1,0 +1,134 @@
+{
+    "ABSURD": {
+        "message": "DÉMENT"
+    }, 
+    "Annihilate enemies on claimed systems to collect their Tech.": {
+        "message": "Annihilez des ennemis sur des systèmes conquis pour récupérer leurs technologies."
+    }, 
+    "Archived Wars": {
+        "message": "Guerres archivées"
+    }, 
+    "Choose a loadout to give your Commander different starting Tech configurations.": {
+        "message": "Choisir un arsenal pour changer les configurations de technologies de départ de votre Commandeur."
+    }, 
+    "Commander": {
+        "message": "Commandeur"
+    }, 
+    "Difficulty:": {
+        "message": "Difficulté :"
+    }, 
+    "EPIC": {
+        "message": "ÉPIQUE"
+    }, 
+    "Explore unclaimed systems to recover Tech.": {
+        "message": "Explorez des systèmes non conquis pour récupérer des technologies."
+    }, 
+    "Faction": {
+        "message": "Faction"
+    }, 
+    "Galactic War": {
+        "message": "Guerre galactique"
+    }, 
+    "Game name": {
+        "message": "Nom de la partie"
+    }, 
+    "Go to War": {
+        "message": "Partir en guerre"
+    }, 
+    "HARD": {
+        "message": "DIFFICILE"
+    }, 
+    "Hardcore": {
+        "message": "Expert"
+    }, 
+    "How To Play": {
+        "message": "Comment jouer"
+    }, 
+    "How to Play": {
+        "message": "Comment jouer"
+    }, 
+    "LARGE": {
+        "message": "GRANDE"
+    }, 
+    "LOCKED": {
+        "message": "VERROUILLÉ"
+    }, 
+    "Loadout": {
+        "message": "Arsenal"
+    }, 
+    "MEDIUM": {
+        "message": "MOYENNE"
+    }, 
+    "Move from star system to star system collecting Techs. Use those Techs to defeat the enemy faction leaders and conquer the galaxy!": {
+        "message": "Naviguez de système stellaire en système stellaire pour récupérer des technologies. Mettez à profit ces technologies pour vaincre les chefs de faction et conquérir la galaxie !"
+    }, 
+    "NORMAL": {
+        "message": "NORMAL"
+    }, 
+    "Name": {
+        "message": "Nom"
+    }, 
+    "Navigate the galaxy map by jumping from system to system.": {
+        "message": "Naviguez à travers la carte de la galaxie en vous déplaçant de système en système."
+    }, 
+    "New Data Banks to store Techs can be found by exploring systems.": {
+        "message": "Explorez les systèmes pour trouver de nouvelles banques de données, afin de stocker des technologies."
+    }, 
+    "Permanent death. No restarts when your commander is annihilated.": {
+        "message": "Mort permanente. Impossible de recommencer quand votre Commandeur est annihilé."
+    }, 
+    "RELENTLESS": {
+        "message": "IMPITOYABLE"
+    }, 
+    "Random number for generating new galaxy": {
+        "message": "Nombre aléatoire pour générer une nouvelle galaxie"
+    }, 
+    "SMALL": {
+        "message": "PETITE"
+    }, 
+    "Saved Games": {
+        "message": "Parties sauvegardées"
+    }, 
+    "Seed Value": {
+        "message": "Valeur initiale"
+    }, 
+    "Setup": {
+        "message": "Configuration"
+    }, 
+    "Size:": {
+        "message": "Taille :"
+    }, 
+    "Some commanders fight because it's all they know, while others seek answers to their origins. Conflicts in motivation and creed drive the commanders into a war that is poised to ravage the galaxy for centuries.": {
+        "message": "Faute de mieux, certains Commandeurs combattent, tandis que d'autres cherchent à découvrir leurs origines. En raison de leurs divergences dogmatiques, les Commandeurs se livrent une guerre sans merci, dont les répercussions risquent de ravager la galaxie des siècles durant."
+    }, 
+    "Some systems have hidden Commander loadouts. Recover them for future Galactic Wars.": {
+        "message": "Certains systèmes contiennent des arsenaux de Commandeurs enfouis. Tâchez de les récupérer en vue de futures Guerres galactiques."
+    }, 
+    "Tech can be deleted to make room for new ones to download. Deleted and rejected Techs are lost for the remainder of the Galactic War.": {
+        "message": "Il est possible d'effacer des technologies afin de pouvoir en télécharger de nouvelles. Les technologies effacées ou refusées sont perdues pour le restant de la Guerre galactique."
+    }, 
+    "The Commanders": {
+        "message": "Les Commandeurs"
+    }, 
+    "The Progenitors": {
+        "message": "Les Progéniteurs"
+    }, 
+    "The commanders have slumbered for millions of years, and awaken to a galaxy that contains only echoes of civilization. These ancient war machines now battle across the galaxy, following the only directives they still hold from long ago.": {
+        "message": "Les Commandeurs étaient plongés dans un long sommeil durant des millions d'années et se sont éveillés dans une galaxie ne comportant que des bribes de civilisation. Ces machines de guerre antiques combattent au quatre coins de la galaxie, en suivant les instructions qu'ils avaient reçues jadis."
+    }, 
+    "Tip:": {
+        "message": "Astuce :"
+    }, 
+    "Tips": {
+        "message": "Astuces"
+    }, 
+    "UBER": {
+        "message": "UBER"
+    }, 
+    "War - __date__": {
+        "message": "Guerre - __date__"
+    }, 
+    "What little is clear is that the galaxy was once inhabited by a sprawling empire, seemingly destroyed by conflict. The commanders refer to these beings as The Progenitors. Many commanders believe answers to their origins lie within the ruins of this once great civilization.": {
+        "message": "À peine sait-on que la galaxie était jadis habitée par un vaste empire, qui disparut en raison d'un conflit. Les Commandeurs appellent ces êtres les Progéniteurs. Beaucoup d'entre eux pensent que les ruines de cette grande civilisation disparue leur apporteront des réponses sur leurs origines."
+    }
+}

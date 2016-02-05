@@ -1,0 +1,23 @@
+{
+    "Enemy Contact!": {
+        "message": "D\u00fc\u015fmanla Temas!"
+    }, 
+    "Ping!": {
+        "message": "Ping!"
+    }, 
+    "destroyed.": {
+        "message": "yok edildi."
+    }, 
+    "launched!": {
+        "message": "f\u0131rlat\u0131ld\u0131!"
+    }, 
+    "located.": {
+        "message": "yeri tespit edildi."
+    }, 
+    "ready.": {
+        "message": "haz\u0131r."
+    }, 
+    "under attack.": {
+        "message": "sald\u0131r\u0131 alt\u0131nda."
+    }
+}

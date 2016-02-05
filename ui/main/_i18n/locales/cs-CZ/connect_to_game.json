@@ -1,0 +1,26 @@
+{
+    "CONNECTION TO SERVER FAILED": {
+        "message": "SPOJEN\u00cd SE SERVEREM SELHALO"
+    }, 
+    "CONNECTION TO SERVER LOST": {
+        "message": "P\u0158IPOJEN\u00cd SE SERVEREM BYLO ZTRACENO"
+    }, 
+    "FAILED TO JOIN GAME": {
+        "message": "NEPOVEDLO SE P\u0158IPOJIT KE H\u0158E"
+    }, 
+    "FAILED TO START GAME": {
+        "message": "NEPODA\u0158ILO SE SPUSTIT HRU"
+    }, 
+    "FAILED TO START REPLAY": {
+        "message": "NEPODA\u0158ILO SE SPUSTIT Z\u00c1ZNAM"
+    }, 
+    "LOGIN ACCEPTED": {
+        "message": "P\u0158\u00cdSTUP POVOLEN"
+    }, 
+    "LOGIN TO SERVER REJECTED": {
+        "message": "P\u0158\u00cdSTUP K SERVERU BYL ODM\u00cdTNUT"
+    }, 
+    "Returning to Main Menu": {
+        "message": "N\u00e1vrat do Hlavn\u00edho Menu"
+    }
+}

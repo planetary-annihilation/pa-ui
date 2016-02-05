@@ -1,0 +1,169 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta locns="live_game" />
+    <noloc><title>Live Game: Corner Hover Detail Bar</title></noloc>
+    <link href="bundle://boot/boot.css" rel="stylesheet" type="text/css" />
+    <link href="live_game_world_popup.css" rel="stylesheet" type="text/css" />
+    <script src="bundle://boot/boot.js" type="text/javascript"></script>
+    <script src="coui://ui/main/shared/js/build.js" type="text/javascript"></script>
+    <script src="live_game_world_popup.js" type="text/javascript"></script>
+</head>
+<body class="body_panel">
+
+<!--
+WORLD POPUP BAR
+__________________________________________________________________________-->
+<div id="worldpopup01" data-bind="visible: hasWorldHoverTarget">
+
+    <!-- ko with: worldHoverTarget -->
+    <div class="div_unit_info_hover_panel" >
+        <div class="contents">
+            <!-- TEAM COLOR + THUMBNAIL -->
+            <div class="div_unit_visuals">
+                <!-- TEAM COLOR -->
+                <div class="team_color" data-bind="style: { 'background-color': primaryColor }">
+                    <div class="div_army_color_fill"></div>
+                </div>
+                <!-- UNIT THUMBNAIL -->
+                <div class="unit_thumb">
+                    <img src="" data-bind="attr: { src: $data.icon }"></img>
+                </div>
+            </div>
+            <!-- UNIT DETAILS -->
+            <div class="div_unit_details">
+                <!-- LINE 1: UNIT NAME -->
+                    <div class="info_panel_line" style="width: calc(100% - 8px);">
+                        <div class="content title" data-bind="text: name"></div>
+                    </div>
+                <!-- LINE 2: HEALTH INFO -->
+                <div class="info_panel_line" style="width:calc(100% + 16px);">
+                    <div class="content health">
+                        <!-- HEALTH BAR -->
+                        <div class="div_health_bar_grp">
+                            <div class="div_unit_health" data-bind="visible: showHealth">
+                                <div  data-bind="css: { div_unit_health_bar: isAlive(), div_unit_metal_bar: isDead() }, style: { width: healthWidthString(), 'background': healthColor }, visible: showHealth"></div>
+                                <div class="bar_blend"></div>
+                            </div>
+                            <!-- ko if: showAmmo -->
+                            <div class="div_unit_secondary_bar" data-bind="style: { width: ammoWidthString() }">
+                                <div class="bar_blend"></div>
+                            </div>
+                            <!-- /ko -->
+                        </div>
+                        <!-- HEALTH PERCENTAGES -->
+                        <div class="div_health_percentages">
+                            <div class="stat health" data-bind="text: healthPercentString, visible: showHealth"></div>
+                            <!-- ko if: showAmmo -->
+                            <div class="stat secondary" data-bind="text: ammoPercentString"></div>
+                            <!-- /ko -->
+                        </div>
+                    </div>
+                </div>
+                <!-- LINE 3: UNIT DETAILS -->
+                <div class="info_panel_line" style="width:calc(100% + 40px);">
+                    <div class="content resources">
+                        <div class="stat metal" data-bind="visible: metalDelta">
+                            <span class="stat_num" data-bind="text: metalDelta, css: { rate_positive_small: metalDelta() > 0, rate_negative_small: metalDelta() < 0 }"></span>
+                        </div>
+                        <div class="stat energy" data-bind="visible: energyDelta">
+                            <span class="stat_num" data-bind="text: energyDelta, css: { rate_positive_small: energyDelta() > 0, rate_negative_small: energyDelta() < 0 }"></span>
+                        </div>
+                        <div class="stat" data-bind="visible: damage">
+                            <span><loc>DMG:</loc> </span><span class="stat_num" data-bind="text: damage"></span>
+                        </div>
+                        <div class="stat" data-bind="visible: damagePerSecond">
+                            <span><loc>DPS:</loc> </span><span class="stat_num" data-bind="text: damagePerSecond"></span>
+                        </div>
+                        <div class="stat" data-bind="visible: damagePerSecond">
+                            <span><loc>APS:</loc> </span><span class="stat_num" data-bind="text: rateOfFire"></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div data-bind="visible: showAction">
+        <div style="border-right: 1px solid rgba(255,255,255,.2); margin: 0px 9px -82px 0px;">
+            <div class="div_event_string attacking" data-bind="visible: actionIsAttacking"><loc>ATTACKING</loc> </div>
+            <div class="div_event_string fabricating" data-bind="visible: actionIsBuilding"><loc>FABRICATING</loc> </div>
+            <div class="div_event_string reclaiming" data-bind="visible: actionIsReclaiming"><loc>RECLAIMING</loc> </div>
+            <div class="div_event_string transporting" data-bind="visible: actionIsTransport"><loc>TRANSPORT</loc></div>
+        </div>
+
+        <div class="div_unit_info_hover_panel" >
+            <!-- ko with: target -->
+            <div class="contents">
+            <!-- TEAM COLOR + THUMBNAIL -->
+            <div class="div_unit_visuals">
+                <!-- TEAM COLOR -->
+                <div class="team_color" data-bind="style: { 'background-color': primaryColor }">
+                    <div class="div_army_color_fill"></div>
+                </div>
+                <!-- UNIT THUMBNAIL -->
+                <div class="unit_thumb">
+                    <img src="" data-bind="attr: { src: $data.icon }"></img>
+                </div>
+            </div>
+            <!-- UNIT DETAILS -->
+            <div class="div_unit_details">
+                <!-- LINE 1: UNIT NAME -->
+                    <div class="info_panel_line" style="width: calc(100% - 8px);">
+                        <div class="content title" data-bind="text: name"></div>
+                    </div>
+                <!-- LINE 2: HEALTH INFO -->
+                <div class="info_panel_line" style="width:calc(100% + 16px);">
+                    <div class="content health">
+                        <!-- HEALTH BAR -->
+                        <div class="div_health_bar_grp">
+                            <div class="div_unit_health">
+                                <div data-bind="css: { div_unit_health_bar: isAlive(), div_unit_metal_bar: isDead() }, style: { width: healthWidthString(), 'background': healthColor }, visible: showHealth"></div>
+                                <div class="bar_blend"></div>
+                            </div>
+                            <!-- ko if: showAmmo -->
+                            <div class="div_unit_secondary_bar" data-bind="style: { width: ammoWidthString() }">
+                                <div class="bar_blend"></div>
+                            </div>
+                            <!-- /ko -->
+                        </div>
+                        <!-- HEALTH PERCENTAGES -->
+                        <div class="div_health_percentages">
+                            <div class="stat health" data-bind="text: healthPercentString, visible: showHealth"></div>
+                            <!-- ko if: showAmmo -->
+                            <div class="stat secondary" data-bind="text: ammoPercentString"></div>
+                            <!-- /ko -->
+                        </div>
+                    </div>
+                </div>
+                <!-- LINE 3: UNIT DETAILS -->
+                <div class="info_panel_line" style="width: calc(100% + 40px);">
+                    <div class="content resources">
+                        <div class="stat metal" data-bind="visible: metalDelta">
+                            <span class="stat_num" data-bind="text: metalDelta, css: { rate_positive_small: metalDelta() > 0, rate_negative_small: metalDelta() < 0 }"></span>
+                        </div>
+                        <div class="stat energy" data-bind="visible: energyDelta">
+                            <span class="stat_num" data-bind="text: energyDelta, css: { rate_positive_small: energyDelta() > 0, rate_negative_small: energyDelta() < 0 }"></span>
+                        </div>
+                        <div class="stat" data-bind="visible: damage">
+                            <span><loc>DMG:</loc> </span><span class="stat_num" data-bind="text: damage"></span>
+                        </div>
+                        <div class="stat" data-bind="visible: damagePerSecond">
+                            <span><loc>DPS:</loc> </span><span class="stat_num" data-bind="text: damagePerSecond"></span>
+                        </div>
+                        <div class="stat" data-bind="visible: damagePerSecond">
+                            <span><loc>APS:</loc> </span><span class="stat_num" data-bind="text: rateOfFire"></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+            <!-- /ko -->
+        </div>
+    </div>
+    <!-- /ko -->
+</div>
+
+</body>
+</html>

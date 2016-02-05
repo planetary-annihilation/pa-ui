@@ -1,0 +1,82 @@
+{
+    "ACCESS TO WORLD SIMULATION DENIED": {
+        "message": "\u0202\u04aa\u04aa\u0190\u1e60\u1e60 \u4e01\u0472 \u20a9\u0472\u211d\u20a4\u0189 \u1e60\u03aa\u039c\u1ee6\u20a4\u0202\u4e01\u03aa\u0472\u019d \u0189\u0190\u019d\u03aa\u0190\u0189", 
+        "original": "ACCESS TO WORLD SIMULATION DENIED"
+    }, 
+    "ACCESSING WORLD SIMULATION": {
+        "message": "\u0202\u04aa\u04aa\u0190\u1e60\u1e60\u03aa\u019d\u01f4 \u20a9\u0472\u211d\u20a4\u0189 \u1e60\u03aa\u039c\u1ee6\u20a4\u0202\u4e01\u03aa\u0472\u019d", 
+        "original": "ACCESSING WORLD SIMULATION"
+    }, 
+    "ATTEMPTS REMAINING: __num_attempts_remaining__": {
+        "message": "\u0202\u4e01\u4e01\u0190\u039c\u1e54\u4e01\u1e60 \u211d\u0190\u039c\u0202\u03aa\u019d\u03aa\u019d\u01f4: __num_attempts_remaining__", 
+        "original": "ATTEMPTS REMAINING: __num_attempts_remaining__"
+    }, 
+    "CONNECTING TO SERVER": {
+        "message": "\u04aa\u0472\u019d\u019d\u0190\u04aa\u4e01\u03aa\u019d\u01f4 \u4e01\u0472 \u1e60\u0190\u211d\u0476\u0190\u211d", 
+        "original": "CONNECTING TO SERVER"
+    }, 
+    "CONNECTION TO SERVER FAILED": {
+        "message": "\u04aa\u0472\u019d\u019d\u0190\u04aa\u4e01\u03aa\u0472\u019d \u4e01\u0472 \u1e60\u0190\u211d\u0476\u0190\u211d \u03dc\u0202\u03aa\u20a4\u0190\u0189", 
+        "original": "CONNECTION TO SERVER FAILED"
+    }, 
+    "CONNECTION TO SERVER LOST": {
+        "message": "\u04aa\u0472\u019d\u019d\u0190\u04aa\u4e01\u03aa\u0472\u019d \u4e01\u0472 \u1e60\u0190\u211d\u0476\u0190\u211d \u20a4\u0472\u1e60\u4e01", 
+        "original": "CONNECTION TO SERVER LOST"
+    }, 
+    "CREATING WORLD SIMULATION": {
+        "message": "\u04aa\u211d\u0190\u0202\u4e01\u03aa\u019d\u01f4 \u20a9\u0472\u211d\u20a4\u0189 \u1e60\u03aa\u039c\u1ee6\u20a4\u0202\u4e01\u03aa\u0472\u019d", 
+        "original": "CREATING WORLD SIMULATION"
+    }, 
+    "FAILED TO GET PERMISSION": {
+        "message": "\u03dc\u0202\u03aa\u20a4\u0190\u0189 \u4e01\u0472 \u01f4\u0190\u4e01 \u1e54\u0190\u211d\u039c\u03aa\u1e60\u1e60\u03aa\u0472\u019d", 
+        "original": "FAILED TO GET PERMISSION"
+    }, 
+    "FAILED TO JOIN GAME": {
+        "message": "\u03dc\u0202\u03aa\u20a4\u0190\u0189 \u4e01\u0472 \u06b7\u0472\u03aa\u019d \u01f4\u0202\u039c\u0190", 
+        "original": "FAILED TO JOIN GAME"
+    }, 
+    "FAILED TO LOAD GAME": {
+        "message": "\u03dc\u0202\u03aa\u20a4\u0190\u0189 \u4e01\u0472 \u20a4\u0472\u0202\u0189 \u01f4\u0202\u039c\u0190", 
+        "original": "FAILED TO LOAD GAME"
+    }, 
+    "FAILED TO START GAME": {
+        "message": "\u03dc\u0202\u03aa\u20a4\u0190\u0189 \u4e01\u0472 \u1e60\u4e01\u0202\u211d\u4e01 \u01f4\u0202\u039c\u0190", 
+        "original": "FAILED TO START GAME"
+    }, 
+    "FAILED TO START REPLAY": {
+        "message": "\u03dc\u0202\u03aa\u20a4\u0190\u0189 \u4e01\u0472 \u1e60\u4e01\u0202\u211d\u4e01 \u211d\u0190\u1e54\u20a4\u0202\u0423", 
+        "original": "FAILED TO START REPLAY"
+    }, 
+    "LOGIN ACCEPTED": {
+        "message": "\u20a4\u0472\u01f4\u03aa\u019d \u0202\u04aa\u04aa\u0190\u1e54\u4e01\u0190\u0189", 
+        "original": "LOGIN ACCEPTED"
+    }, 
+    "LOGIN TO SERVER REJECTED": {
+        "message": "\u20a4\u0472\u01f4\u03aa\u019d \u4e01\u0472 \u1e60\u0190\u211d\u0476\u0190\u211d \u211d\u0190\u06b7\u0190\u04aa\u4e01\u0190\u0189", 
+        "original": "LOGIN TO SERVER REJECTED"
+    }, 
+    "REQUESTING PERMISSION": {
+        "message": "\u211d\u0190\u04a8\u1ee6\u0190\u1e60\u4e01\u03aa\u019d\u01f4 \u1e54\u0190\u211d\u039c\u03aa\u1e60\u1e60\u03aa\u0472\u019d", 
+        "original": "REQUESTING PERMISSION"
+    }, 
+    "Returning to Main Menu": {
+        "message": "\u211d\u1f73\u04ad\u0574\u0213\u019e\u0457\u019e\u0260 \u04ad\u020f \u039c\u0203\u0457\u019e \u039c\u1f73\u019e\u0574", 
+        "original": "Returning to Main Menu"
+    }, 
+    "STARTING GAME": {
+        "message": "\u1e60\u4e01\u0202\u211d\u4e01\u03aa\u019d\u01f4 \u01f4\u0202\u039c\u0190", 
+        "original": "STARTING GAME"
+    }, 
+    "UNABLE TO ACCESS WORLD SIMULATION": {
+        "message": "\u1ee6\u019d\u0202\u0e3f\u20a4\u0190 \u4e01\u0472 \u0202\u04aa\u04aa\u0190\u1e60\u1e60 \u20a9\u0472\u211d\u20a4\u0189 \u1e60\u03aa\u039c\u1ee6\u20a4\u0202\u4e01\u03aa\u0472\u019d", 
+        "original": "UNABLE TO ACCESS WORLD SIMULATION"
+    }, 
+    "WORLD SIMULATION WENT AWAY": {
+        "message": "\u20a9\u0472\u211d\u20a4\u0189 \u1e60\u03aa\u039c\u1ee6\u20a4\u0202\u4e01\u03aa\u0472\u019d \u20a9\u0190\u019d\u4e01 \u0202\u20a9\u0202\u0423", 
+        "original": "WORLD SIMULATION WENT AWAY"
+    }, 
+    "You are starting an offline game, but your system does not meet the recommended specifications for offline play. Your gameplay experience may be negatively affected.": {
+        "message": "\u0423\u020f\u0574 \u0203\u0213\u1f73 \u01a8\u04ad\u0203\u0213\u04ad\u0457\u019e\u0260 \u0203\u019e \u020f\u0493\u0493\u230a\u0457\u019e\u1f73 \u0260\u0203\u028d\u1f73, \u0411\u0574\u04ad \u0443\u020f\u0574\u0213 \u01a8\u0443\u01a8\u04ad\u1f73\u028d \u0257\u020f\u1f73\u01a8 \u019e\u020f\u04ad \u028d\u1f73\u1f73\u04ad \u04ad\u043d\u1f73 \u0213\u1f73\u03f2\u020f\u028d\u028d\u1f73\u019e\u0257\u1f73\u0257 \u01a8\u2374\u1f73\u03f2\u0457\u0493\u0457\u03f2\u0203\u04ad\u0457\u020f\u019e\u01a8 \u0493\u020f\u0213 \u020f\u0493\u0493\u230a\u0457\u019e\u1f73 \u2374\u230a\u0203\u0443. \u0423\u020f\u0574\u0213 \u0260\u0203\u028d\u1f73\u2374\u230a\u0203\u0443 \u1f73\u2327\u2374\u1f73\u0213\u0457\u1f73\u019e\u03f2\u1f73 \u028d\u0203\u0443 \u0411\u1f73 \u019e\u1f73\u0260\u0203\u04ad\u0457\u0477\u1f73\u230a\u0443 \u0203\u0493\u0493\u1f73\u03f2\u04ad\u1f73\u0257.", 
+        "original": "You are starting an offline game, but your system does not meet the recommended specifications for offline play. Your gameplay experience may be negatively affected."
+    }
+}

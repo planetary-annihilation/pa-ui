@@ -1,0 +1,29 @@
+{
+    "CANCEL": {
+        "message": "AVBRYT"
+    }, 
+    "Delete": {
+        "message": "TA BORT"
+    }, 
+    "Delete this planet?": {
+        "message": "Ta bort den h\u00e4r planeten?"
+    }, 
+    "Delete this system?": {
+        "message": "Ta bort det h\u00e4r systemet?"
+    }, 
+    "Load Planet": {
+        "message": "Ladda Planet"
+    }, 
+    "Load System": {
+        "message": "Ladda System"
+    }, 
+    "SHOW PLANETS": {
+        "message": "VISA PLANETER"
+    }, 
+    "SHOW SYSTEMS": {
+        "message": "VISA SYSTEM"
+    }, 
+    "System Designer": {
+        "message": "SYSTEM DESIGNER"
+    }
+}

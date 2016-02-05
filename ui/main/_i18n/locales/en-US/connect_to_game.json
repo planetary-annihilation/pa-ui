@@ -1,0 +1,62 @@
+{
+    "ACCESS TO WORLD SIMULATION DENIED": {
+        "message": "ACCESS TO WORLD SIMULATION DENIED"
+    }, 
+    "ACCESSING WORLD SIMULATION": {
+        "message": "ACCESSING WORLD SIMULATION"
+    }, 
+    "ATTEMPTS REMAINING: __num_attempts_remaining__": {
+        "message": "ATTEMPTS REMAINING: __num_attempts_remaining__"
+    }, 
+    "CONNECTING TO SERVER": {
+        "message": "CONNECTING TO SERVER"
+    }, 
+    "CONNECTION TO SERVER FAILED": {
+        "message": "CONNECTION TO SERVER FAILED"
+    }, 
+    "CONNECTION TO SERVER LOST": {
+        "message": "CONNECTION TO SERVER LOST"
+    }, 
+    "CREATING WORLD SIMULATION": {
+        "message": "CREATING WORLD SIMULATION"
+    }, 
+    "FAILED TO GET PERMISSION": {
+        "message": "FAILED TO GET PERMISSION"
+    }, 
+    "FAILED TO JOIN GAME": {
+        "message": "FAILED TO JOIN GAME"
+    }, 
+    "FAILED TO LOAD GAME": {
+        "message": "FAILED TO LOAD GAME"
+    }, 
+    "FAILED TO START GAME": {
+        "message": "FAILED TO START GAME"
+    }, 
+    "FAILED TO START REPLAY": {
+        "message": "FAILED TO START REPLAY"
+    }, 
+    "LOGIN ACCEPTED": {
+        "message": "LOGIN ACCEPTED"
+    }, 
+    "LOGIN TO SERVER REJECTED": {
+        "message": "LOGIN TO SERVER REJECTED"
+    }, 
+    "REQUESTING PERMISSION": {
+        "message": "REQUESTING PERMISSION"
+    }, 
+    "Returning to Main Menu": {
+        "message": "Returning to Main Menu"
+    }, 
+    "STARTING GAME": {
+        "message": "STARTING GAME"
+    }, 
+    "UNABLE TO ACCESS WORLD SIMULATION": {
+        "message": "UNABLE TO ACCESS WORLD SIMULATION"
+    }, 
+    "WORLD SIMULATION WENT AWAY": {
+        "message": "WORLD SIMULATION WENT AWAY"
+    }, 
+    "You are starting an offline game, but your system does not meet the recommended specifications for offline play. Your gameplay experience may be negatively affected.": {
+        "message": "You are starting an offline game, but your system does not meet the recommended specifications for offline play. Your gameplay experience may be negatively affected."
+    }
+}

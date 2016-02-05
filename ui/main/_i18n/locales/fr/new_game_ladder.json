@@ -1,0 +1,53 @@
+{
+    "1v1": {
+        "message": "1 contre 1"
+    }, 
+    "Building planets": {
+        "message": "Construction de planètes"
+    }, 
+    "CONNECTION TO SERVER LOST": {
+        "message": "PERTE DE LA CONNEXION AU SERVEUR"
+    }, 
+    "Cancel": {
+        "message": "Annuler"
+    }, 
+    "Chat": {
+        "message": "Tchat"
+    }, 
+    "Empty": {
+        "message": "Vide"
+    }, 
+    "Leave": {
+        "message": "Quitter"
+    }, 
+    "Leaving the game will result in a match making timeout penalty.": {
+        "message": "Si vous quittez la partie, vous recevrez une pénalité temporaire."
+    }, 
+    "Main Menu": {
+        "message": "Menu principal"
+    }, 
+    "Opponent abandoned the game": {
+        "message": "L'adversaire a quitté la partie."
+    }, 
+    "Ranked Match": {
+        "message": "Match classé"
+    }, 
+    "Requeue": {
+        "message": "Se remettre en file d'attente"
+    }, 
+    "Returning to Main Menu": {
+        "message": "Retour au menu principal"
+    }, 
+    "System": {
+        "message": "Système"
+    }, 
+    "Waiting for opponent to connect": {
+        "message": "En attente de la connexion de l'adversaire"
+    }, 
+    "Warning": {
+        "message": "Avertissement"
+    }, 
+    "Your opponent abandoned the game and has received a time penalty.": {
+        "message": "L'adversaire a quitté la partie et a reçu une pénalité temporaire."
+    }
+}

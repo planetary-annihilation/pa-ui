@@ -1,0 +1,104 @@
+{
+    "AI Battle": {
+        "message": "AI Csata"
+    }, 
+    "Any": {
+        "message": "Minden"
+    }, 
+    "Can Join": {
+        "message": "Csatlakozhat"
+    }, 
+    "Can Play": {
+        "message": "J\u00e1tszhat\u00f3"
+    }, 
+    "Can Spectate": {
+        "message": "Van n\u00e9z\u0151 hely"
+    }, 
+    "Casual": {
+        "message": "Alkalmi j\u00e1t\u00e9k"
+    }, 
+    "Competitive": {
+        "message": "Kompetet\u00edv"
+    }, 
+    "Create Game": {
+        "message": "J\u00e1t\u00e9k L\u00e9trehoz\u00e1sa"
+    }, 
+    "Free For All": {
+        "message": "Mindenki mindenki ellen"
+    }, 
+    "Game": {
+        "message": "J\u00e1t\u00e9k"
+    }, 
+    "Game State": {
+        "message": "J\u00e1t\u00e9k \u00c1llapota"
+    }, 
+    "In Lobby": {
+        "message": "V\u00e1r\u00f3teremben"
+    }, 
+    "In Progress": {
+        "message": "Folyamatban"
+    }, 
+    "Join Game": {
+        "message": "Csatlakoz\u00e1s a j\u00e1t\u00e9khoz"
+    }, 
+    "Locked Game": {
+        "message": "Z\u00e1rtk\u00f6r\u0171 j\u00e1t\u00e9k"
+    }, 
+    "Mod": {
+        "message": "Mod"
+    }, 
+    "Mode": {
+        "message": "M\u00f3d"
+    }, 
+    "Mods": {
+        "message": "Modok"
+    }, 
+    "Multiplayer": {
+        "message": "T\u00f6bbj\u00e1t\u00e9kos"
+    }, 
+    "No max": {
+        "message": "Nincs max"
+    }, 
+    "No min": {
+        "message": "Nincs min"
+    }, 
+    "Number of Planets": {
+        "message": "Bolyg\u00f3k Sz\u00e1ma"
+    }, 
+    "Number of Players": {
+        "message": "J\u00e1t\u00e9kosok Sz\u00e1ma"
+    }, 
+    "Password": {
+        "message": "Jelsz\u00f3"
+    }, 
+    "Planets": {
+        "message": "Bolyg\u00f3k"
+    }, 
+    "Players": {
+        "message": "J\u00e1t\u00e9kosok"
+    }, 
+    "Region": {
+        "message": "R\u00e9gi\u00f3"
+    }, 
+    "Slots": {
+        "message": "F\u00e9r\u0151helyek"
+    }, 
+    "Spectate": {
+        "message": "Megfigyel\u00e9s"
+    }, 
+    "Spectators": {
+        "message": "N\u00e9z\u0151k"
+    }, 
+    "Status": {
+        "message": "\u00c1llapot"
+    }, 
+    "Tag": {
+        "message": "C\u00edmke"
+    }, 
+    "Team Armies": {
+        "message": "T\u00f6bb j\u00e1t\u00e9kos seregenk\u00e9nt"
+    }, 
+    "Testing": {
+        "message": "Tesztel\u00e9s"
+    }
+}

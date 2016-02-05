@@ -1,0 +1,119 @@
+{
+    "ABSURD": {
+        "message": "\u8352\u8c2c"
+    }, 
+    "Active Wars": {
+        "message": "\u8fdb\u884c\u4e2d\u7684\u6218\u4e89"
+    }, 
+    "Annihilate enemies on claimed systems to collect their Tech.": {
+        "message": "\u6b7c\u706d\u654c\u5bf9\u661f\u7cfb\u4e0a\u7684\u6307\u6325\u5b98\u6765\u63a0\u593a\u4ed6\u4eec\u7684\u79d1\u6280. "
+    }, 
+    "Annihilated": {
+        "message": "\u5df2\u6b7c\u706d"
+    }, 
+    "Annihilation is final.": {
+        "message": "\u4f60\u7684\u6700\u7ec8\u76ee\u6807\u662f\u6b7c\u706d\u6240\u6709\u654c\u4eba."
+    }, 
+    "Archived Wars": {
+        "message": "\u5df2\u5b8c\u6210\u7684\u6218\u4e89"
+    }, 
+    "Choose a loadout to give your Commander different starting Tech configurations.": {
+        "message": "\u9009\u62e9\u4e00\u4e2a\u5957\u4ef6, \u4e0d\u540c\u7684\u5957\u4ef6\u80fd\u8ba9\u4f60\u7684\u6307\u6325\u5b98\u5728\u5f00\u5c40\u65f6\u62e5\u6709\u4e0d\u540c\u7684\u79d1\u6280."
+    }, 
+    "Commander": {
+        "message": "\u6307\u6325\u5b98"
+    }, 
+    "Details": {
+        "message": "\u8be6\u60c5"
+    }, 
+    "Difficulty:": {
+        "message": "\u96be\u5ea6\uff1a"
+    }, 
+    "EPIC": {
+        "message": "\u53f2\u8bd7\u7ea7"
+    }, 
+    "Explore unclaimed systems to recover Tech.": {
+        "message": "\u63a2\u7d22\u65e0\u4e3b\u661f\u7cfb\u6765\u56de\u6536\u79d1\u6280."
+    }, 
+    "Faction": {
+        "message": "\u52bf\u529b"
+    }, 
+    "Go to War": {
+        "message": "\u53c2\u52a0\u6218\u4e89"
+    }, 
+    "HARD": {
+        "message": "\u56f0\u96be"
+    }, 
+    "How to Play": {
+        "message": "\u5982\u4f55\u6e38\u620f"
+    }, 
+    "LARGE": {
+        "message": "\u5927\u578b"
+    }, 
+    "LOCKED": {
+        "message": "\u9501\u5b9a"
+    }, 
+    "Loadout": {
+        "message": "\u6307\u6325\u5b98\u5957\u4ef6"
+    }, 
+    "MEDIUM": {
+        "message": "\u4e2d\u578b"
+    }, 
+    "Move from star system to star system collecting Techs. Use those Techs to defeat the enemy faction leaders and conquer the galaxy!": {
+        "message": "\u5728\u661f\u7cfb\u95f4\u8dc3\u8fc1\u7684\u540c\u65f6\u6536\u96c6\u79d1\u6280, \u5229\u7528\u65b0\u79d1\u6280\u7684\u529b\u91cf\u51fb\u8d25\u654c\u5bf9\u52bf\u529b\u7684\u6307\u6325\u5b98\u5e76\u79f0\u9738\u5168\u94f6\u6cb3! "
+    }, 
+    "NORMAL": {
+        "message": "\u6b63\u5e38"
+    }, 
+    "Name": {
+        "message": "\u540d\u5b57\uff1a"
+    }, 
+    "Navigate the galaxy map by jumping from system to system.": {
+        "message": "\u5728\u661f\u7cfb\u95f4\u8dc3\u8fc1\u4ee5\u6e38\u89c8\u6574\u4e2a\u94f6\u6cb3."
+    }, 
+    "New Data Banks to store Techs can be found by exploring systems.": {
+        "message": "\u5728\u63a2\u7d22\u661f\u7cfb\u65f6\u53ef\u4ee5\u83b7\u5f97\u989d\u5916\u7684\u79d1\u6280\u680f"
+    }, 
+    "New War": {
+        "message": "\u65b0\u6218\u4e89"
+    }, 
+    "RELENTLESS": {
+        "message": "\u6b8b\u9177"
+    }, 
+    "SMALL": {
+        "message": "\u5c0f\u578b"
+    }, 
+    "Seed Value": {
+        "message": "\u79cd\u5b50\u503c"
+    }, 
+    "Setup": {
+        "message": "\u8bbe\u7f6e"
+    }, 
+    "Size:": {
+        "message": "\u89c4\u6a21\uff1a"
+    }, 
+    "Some systems have hidden Commander loadouts. Recover them for future Galactic Wars.": {
+        "message": "\u67d0\u4e9b\u661f\u7cfb\u53ef\u80fd\u85cf\u6709\u6307\u6325\u5b98\u7684\u5957\u4ef6, \u60f3\u529e\u6cd5\u627e\u5230\u5b83\u4eec\u4ee5\u6253\u8d62\u63a5\u8e35\u800c\u81f3\u7684\u6218\u6597. "
+    }, 
+    "Tech can be deleted to make room for new ones to download. Deleted and rejected Techs are lost for the remainder of the Galactic War.": {
+        "message": "\u4f60\u53ef\u4ee5\u5220\u9664\u79d1\u6280\u6765\u4e3a\u65b0\u79d1\u6280\u817e\u51fa\u7a7a\u95f4. \u6ce8\u610f, \u88ab\u5220\u9664\u6216\u88ab\u62d2\u7edd\u7684\u79d1\u6280\u5728\u672c\u6b21\u94f6\u6cb3\u6218\u4e89\u4e2d\u5c06\u65e0\u6cd5\u518d\u6b21\u83b7\u53d6."
+    }, 
+    "Tip:": {
+        "message": "\u63d0\u793a\uff1a"
+    }, 
+    "Tips": {
+        "message": "\u63d0\u793a"
+    }, 
+    "Turns:": {
+        "message": "\u56de\u5408\uff1a"
+    }, 
+    "UBER": {
+        "message": "UBER"
+    }, 
+    "Victory": {
+        "message": "\u80dc\u5229"
+    }, 
+    "Wins:": {
+        "message": "\u80dc\u5229\uff1a"
+    }
+}

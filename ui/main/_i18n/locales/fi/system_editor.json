@@ -1,0 +1,107 @@
+{
+    "Accept": {
+        "message": "Hyv\u00e4ksy"
+    }, 
+    "CLEAR SYSTEM": {
+        "message": "TYHJENN\u00c4 J\u00c4RJESTELM\u00c4"
+    }, 
+    "CLOSE": {
+        "message": "SULJE"
+    }, 
+    "Cancel": {
+        "message": "Peruuta"
+    }, 
+    "Discard": {
+        "message": "Hylk\u00e4\u00e4"
+    }, 
+    "Do you want to save this system?": {
+        "message": "Haluatko tallentaa t\u00e4m\u00e4n j\u00e4rjestelm\u00e4n?"
+    }, 
+    "EDIT PLANET": {
+        "message": "MUOKKAA PLANEETTAA"
+    }, 
+    "HIDE": {
+        "message": "PIILOTA"
+    }, 
+    "Height": {
+        "message": "Korkeus"
+    }, 
+    "MY PLANETS": {
+        "message": "PLANEETTANI"
+    }, 
+    "Mass": {
+        "message": "MASSA"
+    }, 
+    "NAME:": {
+        "message": "NIMI:"
+    }, 
+    "PREVIEW ALL": {
+        "message": "ESIKATSELE KAIKKI"
+    }, 
+    "Position": {
+        "message": "SIJAINTI"
+    }, 
+    "RECENT": {
+        "message": "VIIMEAIKAISET"
+    }, 
+    "REMOVE": {
+        "message": "POISTA"
+    }, 
+    "Radius": {
+        "message": "RADIUS"
+    }, 
+    "SAVE SYSTEM": {
+        "message": "TALLENNA J\u00c4RJESTELM\u00c4"
+    }, 
+    "SHOW": {
+        "message": "N\u00c4YT\u00c4"
+    }, 
+    "SIMULATE": {
+        "message": "SIMULOI"
+    }, 
+    "SYSTEM DESIGNER": {
+        "message": "SYSTEM DESIGNER"
+    }, 
+    "Save": {
+        "message": "Tallenna"
+    }, 
+    "System has no starting planet.": {
+        "message": "System has no starting planet."
+    }, 
+    "System radius is too large.": {
+        "message": "System radius is too large."
+    }, 
+    "System radius is too small.": {
+        "message": "System radius is too small."
+    }, 
+    "TEMPLATES": {
+        "message": "SAPLUUNAT"
+    }, 
+    "Temp": {
+        "message": "V\u00e4liaikainen"
+    }, 
+    "The planet is loading. This can take a long time.": {
+        "message": "Planeetta ladataan. T\u00e4m\u00e4 saattaa kest\u00e4\u00e4 kauan."
+    }, 
+    "The program will be unresponsive until the planet has finished.": {
+        "message": "Ohjelma ei vastaa ennen kuin planeetta on valmis."
+    }, 
+    "The system has been changed since it was last saved.": {
+        "message": "J\u00e4rjestelm\u00e4\u00e4 on muutettu viime tallennuksen j\u00e4lkeen."
+    }, 
+    "The system has not been saved.": {
+        "message": "J\u00e4rjestelm\u00e4\u00e4 ei ole tallennettu."
+    }, 
+    "Velocity": {
+        "message": "NOPEUS"
+    }, 
+    "Water": {
+        "message": "Vesi"
+    }, 
+    "X:": {
+        "message": "X:"
+    }, 
+    "Y:": {
+        "message": "Y:"
+    }
+}

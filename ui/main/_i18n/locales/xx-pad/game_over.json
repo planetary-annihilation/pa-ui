@@ -1,0 +1,118 @@
+{
+    "ANNIHILATION COMPLETE": {
+        "message": "\u0202\u019d\u019d\u03aa\u04c7\u03aa\u20a4\u0202\u4e01\u03aa\u0472\u019d \u04aa\u0472\u039c\u1e54\u20a4\u0190\u4e01\u0190\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9", 
+        "original": "ANNIHILATION COMPLETE"
+    }, 
+    "APM": {
+        "message": "\u0202\u1e54\u039c\u03a9", 
+        "original": "APM"
+    }, 
+    "Average": {
+        "message": "\u0202\u0477\u1f73\u0213\u0203\u0260\u1f73\u03a9\u03a9\u03a9", 
+        "original": "Average"
+    }, 
+    "Built": {
+        "message": "\u0e3f\u0574\u0457\u230a\u04ad\u03a9\u03a9", 
+        "original": "Built"
+    }, 
+    "Destroyed": {
+        "message": "\u0189\u1f73\u01a8\u04ad\u0213\u020f\u0443\u1f73\u0257\u03a9\u03a9\u03a9\u03a9", 
+        "original": "Destroyed"
+    }, 
+    "Determining ladder rank...": {
+        "message": "\u0189\u1f73\u04ad\u1f73\u0213\u028d\u0457\u019e\u0457\u019e\u0260 \u230a\u0203\u0257\u0257\u1f73\u0213 \u0213\u0203\u019e\u045c...\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9", 
+        "original": "Determining ladder rank..."
+    }, 
+    "Draw": {
+        "message": "\u0189\u0213\u0203\u1ff4\u03a9\u03a9", 
+        "original": "Draw"
+    }, 
+    "Duration:": {
+        "message": "\u0189\u0574\u0213\u0203\u04ad\u0457\u020f\u019e:\u03a9\u03a9\u03a9\u03a9", 
+        "original": "Duration:"
+    }, 
+    "Efficiency": {
+        "message": "\u0190\u0493\u0493\u0457\u03f2\u0457\u1f73\u019e\u03f2\u0443\u03a9\u03a9\u03a9\u03a9\u03a9", 
+        "original": "Efficiency"
+    }, 
+    "Energy": {
+        "message": "\u0190\u019e\u1f73\u0213\u0260\u0443\u03a9\u03a9\u03a9", 
+        "original": "Energy"
+    }, 
+    "Metal": {
+        "message": "\u039c\u1f73\u04ad\u0203\u230a\u03a9\u03a9", 
+        "original": "Metal"
+    }, 
+    "Produced": {
+        "message": "\u1e54\u0213\u020f\u0257\u0574\u03f2\u1f73\u0257\u03a9\u03a9\u03a9\u03a9", 
+        "original": "Produced"
+    }, 
+    "QUIT TO MAIN MENU": {
+        "message": "\u04a8\u1ee6\u03aa\u4e01 \u4e01\u0472 \u039c\u0202\u03aa\u019d \u039c\u0190\u019d\u1ee6\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9", 
+        "original": "QUIT TO MAIN MENU"
+    }, 
+    "REVIEW": {
+        "message": "\u211d\u0190\u0476\u03aa\u0190\u20a9\u03a9\u03a9\u03a9", 
+        "original": "REVIEW"
+    }, 
+    "Requeue": {
+        "message": "\u211d\u1f73\u0533\u0574\u1f73\u0574\u1f73\u03a9\u03a9\u03a9", 
+        "original": "Requeue"
+    }, 
+    "SPECTATE": {
+        "message": "\u1e60\u1e54\u0190\u04aa\u4e01\u0202\u4e01\u0190\u03a9\u03a9\u03a9\u03a9", 
+        "original": "SPECTATE"
+    }, 
+    "The battle ended in a draw.": {
+        "message": "\u4e01\u043d\u1f73 \u0411\u0203\u04ad\u04ad\u230a\u1f73 \u1f73\u019e\u0257\u1f73\u0257 \u0457\u019e \u0203 \u0257\u0213\u0203\u1ff4.\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9", 
+        "original": "The battle ended in a draw."
+    }, 
+    "The game has ended.": {
+        "message": "\u4e01\u043d\u1f73 \u0260\u0203\u028d\u1f73 \u043d\u0203\u01a8 \u1f73\u019e\u0257\u1f73\u0257.\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9", 
+        "original": "The game has ended."
+    }, 
+    "Total Oblivion": {
+        "message": "\u4e01\u020f\u04ad\u0203\u230a \u0472\u0411\u230a\u0457\u0477\u0457\u020f\u019e\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9", 
+        "original": "Total Oblivion"
+    }, 
+    "Units": {
+        "message": "\u1ee6\u019e\u0457\u04ad\u01a8\u03a9\u03a9", 
+        "original": "Units"
+    }, 
+    "Used": {
+        "message": "\u1ee6\u01a8\u1f73\u0257\u03a9\u03a9", 
+        "original": "Used"
+    }, 
+    "VICTORY IS YOURS": {
+        "message": "\u0476\u03aa\u04aa\u4e01\u0472\u211d\u0423 \u03aa\u1e60 \u0423\u0472\u1ee6\u211d\u1e60\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9", 
+        "original": "VICTORY IS YOURS"
+    }, 
+    "VIEW RESULTS": {
+        "message": "\u0476\u03aa\u0190\u20a9 \u211d\u0190\u1e60\u1ee6\u20a4\u4e01\u1e60\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9", 
+        "original": "VIEW RESULTS"
+    }, 
+    "VIEW STATS": {
+        "message": "\u0476\u03aa\u0190\u20a9 \u1e60\u4e01\u0202\u4e01\u1e60\u03a9\u03a9\u03a9\u03a9\u03a9", 
+        "original": "VIEW STATS"
+    }, 
+    "Winner:": {
+        "message": "\u20a9\u0457\u019e\u019e\u1f73\u0213:\u03a9\u03a9\u03a9", 
+        "original": "Winner:"
+    }, 
+    "Winners:": {
+        "message": "\u20a9\u0457\u019e\u019e\u1f73\u0213\u01a8:\u03a9\u03a9\u03a9\u03a9", 
+        "original": "Winners:"
+    }, 
+    "YOU'VE BEEN ANNIHILATED": {
+        "message": "\u0423\u0472\u1ee6'\u0476\u0190 \u0e3f\u0190\u0190\u019d \u0202\u019d\u019d\u03aa\u04c7\u03aa\u20a4\u0202\u4e01\u0190\u0189\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9", 
+        "original": "YOU'VE BEEN ANNIHILATED"
+    }, 
+    "You currently have an unknown rank status. Complete more games to determine your ladder ranking.": {
+        "message": "\u0423\u020f\u0574 \u03f2\u0574\u0213\u0213\u1f73\u019e\u04ad\u230a\u0443 \u043d\u0203\u0477\u1f73 \u0203\u019e \u0574\u019e\u045c\u019e\u020f\u1ff4\u019e \u0213\u0203\u019e\u045c \u01a8\u04ad\u0203\u04ad\u0574\u01a8. \u04aa\u020f\u028d\u2374\u230a\u1f73\u04ad\u1f73 \u028d\u020f\u0213\u1f73 \u0260\u0203\u028d\u1f73\u01a8 \u04ad\u020f \u0257\u1f73\u04ad\u1f73\u0213\u028d\u0457\u019e\u1f73 \u0443\u020f\u0574\u0213 \u230a\u0203\u0257\u0257\u1f73\u0213 \u0213\u0203\u019e\u045c\u0457\u019e\u0260.\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9", 
+        "original": "You currently have an unknown rank status. Complete more games to determine your ladder ranking."
+    }, 
+    "Your 1v1 Ladder rank is __rank_title__.": {
+        "message": "\u0423\u020f\u0574\u0213 1\u04771 \u20a4\u0203\u0257\u0257\u1f73\u0213 \u0213\u0203\u019e\u045c \u0457\u01a8 __rank_title__.\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9", 
+        "original": "Your 1v1 Ladder rank is __rank_title__."
+    }
+}

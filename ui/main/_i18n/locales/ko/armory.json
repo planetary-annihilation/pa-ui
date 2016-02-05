@@ -1,0 +1,89 @@
+{
+    "Account Name:": {
+        "message": "\uacc4\uc815 \uc774\ub984:"
+    }, 
+    "Add To Cart": {
+        "message": "\uc7a5\ubc14\uad6c\ub2c8\uc5d0 \ub2f4\uae30"
+    }, 
+    "Armory": {
+        "message": "\ubb34\uae30\uace0"
+    }, 
+    "Badges": {
+        "message": "\ubc43\uc9c0"
+    }, 
+    "CHECKOUT": {
+        "message": "CHECKOUT"
+    }, 
+    "Cancel": {
+        "message": "\ucde8\uc18c"
+    }, 
+    "Cart": {
+        "message": "\uc7a5\ubc14\uad6c\ub2c8"
+    }, 
+    "Commanders": {
+        "message": "\uc9c0\ud718\uad00"
+    }, 
+    "Confirmation code:": {
+        "message": "\uc778\uc99d \ucf54\ub4dc:"
+    }, 
+    "Confirmation of your purchase is provided below.": {
+        "message": "\ub2f9\uc2e0\uc774 \uad6c\ub9e4\ud55c \ud488\ubaa9\uc740 \uc544\ub798\uc5d0 \uc81c\uacf5\ub429\ub2c8\ub2e4."
+    }, 
+    "Continue Shopping": {
+        "message": "\uc1fc\ud551\uc744 \uacc4\uc18d\ud569\ub2c8\ub2e4."
+    }, 
+    "Credit applied:": {
+        "message": "\ud06c\ub808\ub527 \uc801\uc6a9 :"
+    }, 
+    "Designed in collaboration with": {
+        "message": "Designed in collaboration with"
+    }, 
+    "Go to Main Menu": {
+        "message": "\uba54\uc778 \uba54\ub274\ub85c \uac00\uae30"
+    }, 
+    "Here's your receipt.": {
+        "message": "\uc601\uc218\uc99d\uc785\ub2c8\ub2e4."
+    }, 
+    "Item": {
+        "message": "\ud488\ubaa9"
+    }, 
+    "Item is already in cart.": {
+        "message": "\uc0c1\ud488\uc774 \uc774\ubbf8 \uc7a5\ubc14\uad6c\ub2c8\uc5d0 \uc788\uc2b5\ub2c8\ub2e4"
+    }, 
+    "Kickstarter Backer": {
+        "message": "\ud0a5\uc2a4\ud0c0\ud130 \ud6c4\uc6d0\uc790"
+    }, 
+    "Price": {
+        "message": "\uac00\uaca9"
+    }, 
+    "REMOVE": {
+        "message": "\uc81c\uac70"
+    }, 
+    "Redeem": {
+        "message": "Redeem"
+    }, 
+    "Refresh": {
+        "message": "\uc0c8\ub85c\uace0\uce68"
+    }, 
+    "Return to Armory": {
+        "message": "\ubb34\uae30\uace0\ub85c \uadc0\ud658"
+    }, 
+    "Set As Default Commander": {
+        "message": "\uae30\ubcf8 \uc9c0\ud718\uad00\uc73c\ub85c \uc124\uc815"
+    }, 
+    "Thank you for your purchase.": {
+        "message": "\uad6c\ub9e4\ud574\uc8fc\uc154\uc11c \uac10\uc0ac\ud569\ub2c8\ub2e4."
+    }, 
+    "Total:": {
+        "message": "\ucd1d\ud569:"
+    }, 
+    "Updating...": {
+        "message": "\uc5c5\ub370\uc774\ud2b8\uc911..."
+    }, 
+    "Your cart is empty.": {
+        "message": "\uc7a5\ubc14\uad6c\ub2c8\uac00 \ube44\uc5b4\uc788\uc2b5\ub2c8\ub2e4."
+    }, 
+    "Your purchased items are now registered to your account and are accessible in the game.": {
+        "message": "\ub2f9\uc2e0\uc774 \uad6c\uc785\ud55c \ud56d\ubaa9\uc740 \uacc4\uc815\uc5d0 \ub4f1\ub85d\ub418\uace0 \uac8c\uc784\uc5d0\uc11c \uc2e4\ud589\ud560\uc218 \uc788\uc2b5\ub2c8\ub2e4"
+    }
+}

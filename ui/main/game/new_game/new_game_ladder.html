@@ -1,0 +1,340 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta content="text/html; charset=utf-8" http-equiv="Content-Type" />
+    <noloc><title>Ladder Lobby</title></noloc>
+    <link href="bundle://boot/boot.css" rel="stylesheet" type="text/css" />
+    <link href="new_game.css" rel="stylesheet" type="text/css" />
+    <link href="new_game_ladder.css" rel="stylesheet" type="text/css" />
+    <script src="bundle://boot/boot.js" type="text/javascript"></script>
+    <script src="js/ai.js" type="text/javascript"></script>
+    <script src="coui://ui/main/shared/js/commander_utility.js" type="text/javascript"></script>
+    <script src="coui://ui/main/shared/js/playfab.js" type="text/javascript"></script>
+    <script src="new_game_ladder.js" type="text/javascript"></script>
+    <script src="coui://ui/main/shared/js/star_system_templates.js" type="text/javascript"></script>
+</head>
+<body data-bind="click: closeDropDowns">
+    <!-- WAITING FOR PLAYER-->
+    <div data-bind='visible: showWaitingForOpponent' class="flex-container">
+        <div class="div_panel_bar_background" >
+            <div class="div-queue-title"><loc>Waiting for opponent to connect</loc></div>
+            <div class="div-queue-info">
+                <img class="img_loading_animation working std" src="coui://ui/main/shared/img/working.svg"/>
+            </div>
+            <div class="div_bottom_margin_bar">
+                <input type="button" value="Cancel" data-bind="click: leave, click_sound: 'default', rollover_sound: 'default'" />
+            </div>
+        </div>
+    </div>
+
+    <!-- GAME ABANDONED-->
+    <div data-bind='visible: showGameAbandoned' style='display: none;' class="flex-container">
+        <div class="div_panel_bar_background" >
+            <div class="div-queue-title error"><loc>Opponent abandoned the game</loc></div>
+            <div class="div-queue-info">
+                <loc>Your opponent abandoned the game and has received a time penalty.</loc>
+            </div>
+            <div class="div_bottom_margin_bar">
+                <input type="button" value="Requeue" data-bind="click: navToMatchMaking, click_sound: 'default', rollover_sound: 'default'" />
+                <input type="button" value="Main Menu" data-bind="click: navToStart, click_sound: 'default', rollover_sound: 'default'" />
+            </div>
+        </div>
+    </div>
+
+    <div data-bind='visible: showLobby' style='display: none;' id='content'>
+        <div class="background_glow"></div>
+
+        <!-- TITLE -->
+        <div class="section_title ranked">
+            <span style="text-transform:none;"><loc>1v1</loc></span> <loc>Ranked Match</loc>
+        </div>
+        <div class="content_titans_badge lobby" style="display: none;" data-bind="visible: isTitansGame">
+        </div>
+        <!-- CONTENT -->
+        <div class="section_content">
+            <div class="section_content_table lobby-width">
+                <div class="section_wrapper">
+                    <table class="lobby_table">
+                        <tbody>
+                            <tr>
+                                <!-- COL 1-->
+                                <td class="col_1" style="position:relative;">
+                                    <div style="height: 100%; width: 100%; overflow: auto; display:flex; flex-direction:column;">
+                                        <div style="position:relative; flex-shrink:0;">
+                                            <div class="game_settings">
+                                                <!-- SYSTEM SELECTION -->
+                                                <div class="section game_system">
+                                                    <div class="form-group" id="system">
+                                                        <div class="section_header" for="system" style="border:0px;">
+                                                            <loc>System</loc>
+                                                            <div class="system-loading" data-bind="visible: model.serverLoading()">
+                                                                <img src="coui://ui/main/shared/img/working.svg" class="working small" data-placement="left" data-bind="tooltip: '!LOC:Building planets'" />
+                                                            </div>
+                                                        </div>
+                                                        <!-- ko with: system -->
+                                                        <span class="system-name" data-bind="text: name"></span>
+                                                        <!-- /ko -->
+                                                        <div class="all-planets">
+                                                            <!-- ko foreach: planetBiomes -->
+                                                            <img style="height: 20px; width: 20px;" data-bind="attr: { src: 'coui://ui/main/shared/img/planets/small/' + $data + '.png' }" />
+                                                            <!-- /ko -->
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div style="position:relative; min-height:240px; flex-grow: 1;">
+                                            <!-- LOBBY CHAT -->
+                                            <div class="section game_chat">
+                                                <div class="form-group" id="chat-bar">
+                                                    <div class="section_header" for="chat">
+                                                        <loc>Chat</loc>
+                                                    </div>
+                                                    <div style="height: calc(100% - 58px); position: relative;">
+                                                        <div class="chat_container">
+                                                            <!-- ko foreach: chatMessages -->
+
+                                                            <!-- ko if: ($data.type === 'lobby') -->
+                                                            <div class="chat_message">
+                                                                <span class="player-name" data-bind="text: username"></span>
+                                                                <span class="separator">: </span>
+                                                                <span class="chat-msg" data-bind="text: payload"></span>
+                                                            </div>
+                                                            <!-- /ko -->
+
+                                                            <!-- ko if: ($data.type === 'server') -->
+                                                            <div class='server_message'>
+                                                                <span class="chat-msg server-msg" data-bind="text: payload"></span>
+                                                            </div>
+                                                            <!-- /ko -->
+
+                                                            <!-- /ko -->
+
+                                                            <span data-bind="autoscroll: chatMessages"></span>
+                                                        </div>
+                                                    </div>
+                                                    <form data-bind="submit: sendChat" id="send-chat">
+                                                        <input type="text" value="" class="input_text input_chat_text" data-bind="hasfocus: chatSelected" />
+                                                    </form>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </td>
+                                <!-- COL 2-->
+                                <td class="col_2">
+                                    <div class="game_roster">
+                                        <table class="roster_table">
+                                            <tbody>
+                                                <tr>
+                                                    <td class="players" style="height: 100%;">
+                                                        <div class="armies-wrapper">
+                                                            <div class="container_embed armies" data-bind="foreach: { data: armies, as: 'army' }">
+                                                                <div class="one-army">
+                                                                    <div class="army-header">
+                                                                        <span class="army-id" data-bind="text: ($root.teamDescription()) + ' ' + ($index() + 1)"></span>&nbsp;
+                                                                    </div>
+                                                                    <table style="width: 100%;">
+                                                                        <tbody>
+                                                                            <tr>
+                                                                                <td style="width: 100%;">
+                                                                                    <div class="slots" data-bind="foreach: { data: slots, as: 'slot' }">
+                                                                                        <div class="one-slot">
+                                                                                            <div class="slot-contents">
+                                                                                                <!-- ko if: slot.isEmpty -->
+                                                                                                <div>
+                                                                                                    <div class="slot-player empty">
+                                                                                                        <div class="div-player-join-cont">
+                                                                                                            <div class="slot-player-text-cont">
+                                                                                                                <span class="slot-player-text empty">
+                                                                                                                    <loc>Empty</loc>
+                                                                                                                </span>
+                                                                                                            </div>
+                                                                                                        </div>
+                                                                                                    </div>
+                                                                                                    <div class="fix"></div>
+                                                                                                </div>
+                                                                                                <!-- /ko -->
+
+                                                                                                <!-- ko if: slot.isPlayer -->
+                                                                                                <div>
+                                                                                                    <!-- ko if: $index() === 0 || !army.sharedArmy() -->
+
+                                                                                                    <!-- ko if: allowColorModification -->
+
+                                                                                                    <!-- ko if: model.showColorPicker && (model.showColorPickerForSlot(slot)) -->
+                                                                                                    <div class="div-color-picker-cont">
+
+
+                                                                                                            <!-- ko if: !$root.showSecondaryColorPicker() -->
+                                                                                                    <div class="dropdown-menu-cont" style="width: 279px;">
+                                                                                                        <div class="div-color-picker">
+                                                                                                            <!-- ko foreach: $root.colors -->
+                                                                                                            <div class="div-color-picker-item">
+                                                                                                                <div class="slot-color-primary-item"
+                                                                                                                    data-bind="click: function () { slot.colorIndex($index()) }, style: { 'background-color': $data.color }">
+                                                                                                                    <!-- ko if: $data.taken -->
+                                                                                                                    <div class="div-taken">
+                                                                                                                        <div class="slash"><noloc>/</noloc></div>
+                                                                                                                    </div>
+                                                                                                                    <!-- /ko -->
+                                                                                                                </div>
+                                                                                                            </div>
+                                                                                                            <!-- /ko -->
+                                                                                                        </div>
+                                                                                                    </div>
+                                                                                                    <!-- /ko -->
+
+                                                                                                    <!-- ko if: $root.showSecondaryColorPicker() -->
+                                                                                                    <div class="dropdown-menu-cont" style="width: 279px;">
+                                                                                                        <div class="div-color-picker">
+                                                                                                            <!-- ko foreach: $root.secondaryColors(slot) -->
+                                                                                                            <div class="div-color-picker-item">
+                                                                                                                <div class="slot-color-primary-item secondary"
+                                                                                                                    data-bind="click: function () { slot.secondaryColorIndex($index()) }, style: { 'background-color': $data }">
+                                                                                                                </div>
+                                                                                                            </div>
+                                                                                                            <!-- /ko -->
+                                                                                                        </div>
+                                                                                                    </div>
+                                                                                                    <!-- /ko -->
+
+
+                                                                                                    </div>
+                                                                                                    <!-- /ko -->
+
+                                                                                                    <div class="color-picker-combo" data-bind="css: { loading: isLoading }">
+                                                                                                    <div class="slot-color-primary" data-bind="style: { 'background-color': slot.primaryColor },
+                                                                                                                                               click: function () { model.toggleColorPickerSlot(slot, false) },
+                                                                                                                                               clickBubble: false,
+                                                                                                                                               css: { loading: isLoading }">
+                                                                                                        <span class="caret" style="margin: 30px 6px 0px 0px; float: right;"></span>
+                                                                                                    </div>
+                                                                                                    <div class="slot-color-secondary" data-bind="style: { 'background-color': slot.secondaryColor },
+                                                                                                                                                 click: function () { model.toggleColorPickerSlot(slot, true) },
+                                                                                                                                                 clickBubble: false,
+                                                                                                                                                 css: { loading: isLoading }">
+                                                                                                        <span class="caret" style="margin: 30px 6px 0px 0px; float: right;"></span>
+                                                                                                    </div>
+                                                                                                </div>
+                                                                                                    <!-- /ko -->
+
+
+                                                                                                    <!-- ko ifnot: allowColorModification -->
+                                                                                                    <div class="color-picker-combo" data-bind="css: { loading: isLoading }">
+                                                                                                    <div class="slot-color-primary" data-bind="style: { 'background-color': slot.primaryColor },
+                                                                                                                                               css: { loading: isLoading }">
+                                                                                                    </div>
+                                                                                                    <div class="slot-color-secondary" data-bind="style: { 'background-color': slot.secondaryColor },
+                                                                                                                                                 css: { loading: isLoading }">
+                                                                                                    </div>
+                                                                                                    </div>
+                                                                                                    <!-- /ko -->
+
+                                                                                                    <!-- /ko -->
+
+                                                                                                    <div class="slot-player" data-bind="css: { loading: isLoading }">
+
+                                                                                                        <!-- ko if: slot.containsThisPlayer -->
+
+                                                                                                        <!-- ko if: model.showCommanderPicker -->
+                                                                                                        <div class="div-commander-picker-cont">
+                                                                                                            <div class="dropdown-menu-cont" style="width: 635px;">
+                                                                                                                <div class="div-commander-picker">
+                                                                                                                    <!-- ko foreach: model.commanders -->
+                                                                                                                    <div class="div-commander-picker-item btn_std_ix" data-bind="click: function () { model.setCommander($index()) }">
+                                                                                                                        <img class="profile-commander" data-bind="attr: { src: CommanderUtility.bySpec.getProfileImage($data) }" />
+                                                                                                                        <div class="profile-commander-name" data-bind="text: CommanderUtility.bySpec.getName($data)"></div>
+                                                                                                                    </div>
+                                                                                                                    <!-- /ko -->
+                                                                                                                </div>
+                                                                                                            </div>
+                                                                                                        </div>
+                                                                                                        <!-- /ko -->
+                                                                                                        <!-- /ko -->
+
+                                                                                                        <!-- ko if: slot.containsThisPlayer -->
+                                                                                                        <div class="slot-player-commander" data-bind="click: function () { model.toggleCommanderPicker() },
+                                                                                                                                                      clickBubble: false,
+                                                                                                                                                      css: { loading: isLoading }">
+                                                                                                            <img class="profile-commander" data-bind="attr: { src: CommanderUtility.bySpec.getProfileImage(slot.commander()) }" />
+                                                                                                            <span class="caret" style="margin: -10px 6px 0px 0px; float: right;"></span>
+                                                                                                        </div>
+                                                                                                        <!-- /ko -->
+
+                                                                                                        <!-- ko ifnot: slot.containsThisPlayer -->
+                                                                                                        <div class="slot-player-commander" data-bind="css: { loading: isLoading }">
+                                                                                                            <img class="profile-commander" data-bind="attr: { src: CommanderUtility.bySpec.getProfileImage(slot.commander()) }" />
+                                                                                                        </div>
+                                                                                                        <!-- /ko -->
+
+                                                                                                        <div class="slot-player-text truncate" style="" data-bind="text: slot.playerName"></div>
+
+                                                                                                        <div class="slot-controls">
+                                                                                                            <div class="slot-player-loading" data-bind="visible: isLoading">
+                                                                                                                <img class="working small" src="coui://ui/main/shared/img/working.svg" data-bind="tooltip: '!LOC:Building planets'" />
+                                                                                                            </div>
+                                                                                                        </div>
+                                                                                                    </div>
+                                                                                                    <div class="fix"></div>
+                                                                                                </div>
+                                                                                                <!-- /ko -->
+                                                                                            </div>
+                                                                                        </div>
+                                                                                    </div>
+                                                                                </td>
+                                                                            </tr>
+                                                                        </tbody>
+                                                                    </table>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </td>
+                                                </tr>
+                                            </tbody>
+                                        </table>
+                                    </div>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+
+        <!-- COMMIT -->
+        <div class="div_commit_cont">
+            <div id="game-bar" class="lobby-width">
+
+                <div style="float: right; display: block;">
+                    <div id="start-error" data-bind="text: gameIsNotOkInfo"></div>
+
+                    <div class="btn_std" data-bind="click: function () { model.showAbandonWarning(true) }" style="margin: 0px -5px;">
+                        <div class="btn_label" style="width: 150px;">
+                            <loc>Leave</loc>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- abandon warning -->
+    <div class="div-dialog-container" data-bind="visible: showAbandonWarning" style='display: none;'>
+        <div class="div-dialog-panel">
+            <div class="div-dialog-body">
+                <div class="div-dialog-title warning"><loc>Warning</loc></div>
+                <div class="div-dialog-message"><loc>Leaving the game will result in a match making timeout penalty.</loc></div>
+                <div class="div-dialog-commit">
+                    <input type="button" value="Leave" data-bind="click: leave, click_sound: 'default', rollover_sound: 'default'" />
+                    <input type="button" value="Cancel" data-bind="click: function () { model.showAbandonWarning(false) }, click_sound: 'default', rollover_sound: 'default'" />
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <panel id="cinematic" src="coui://ui/main/game/new_game/new_game_cinematic.html" style="display: none" fit="dock" data-bind="visible: showCommanderCinematic"></panel>
+</body>
+</html>

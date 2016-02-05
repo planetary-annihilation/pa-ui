@@ -1,0 +1,83 @@
+{
+    "Account Name:": {
+        "message": "Hesap Ad\u0131:"
+    }, 
+    "Add To Cart": {
+        "message": "Sepete Ekle"
+    }, 
+    "Badges": {
+        "message": "Rozetlerim"
+    }, 
+    "CHECKOUT": {
+        "message": "\u00d6DE"
+    }, 
+    "Cancel": {
+        "message": "\u0130PTAL"
+    }, 
+    "Cart": {
+        "message": "Sepet"
+    }, 
+    "Commanders": {
+        "message": "Kumandanlar"
+    }, 
+    "Confirmation code:": {
+        "message": "Onay Kodu:"
+    }, 
+    "Confirmation of your purchase is provided below.": {
+        "message": "Sat\u0131n ald\u0131\u011f\u0131n\u0131za dair onay a\u015fa\u011f\u0131dad\u0131r."
+    }, 
+    "Continue Shopping": {
+        "message": "Ali\u015fveri\u015fe Devam Et"
+    }, 
+    "Credit applied:": {
+        "message": "Kredi uyguland\u0131:"
+    }, 
+    "Designed in collaboration with": {
+        "message": "\u0130\u015fbirli\u011fiyle dizayn edilmi\u015ftir"
+    }, 
+    "Go to Main Menu": {
+        "message": "Ana Men\u00fcye Git"
+    }, 
+    "Here's your receipt.": {
+        "message": "Faturan\u0131z burdad\u0131r."
+    }, 
+    "Item": {
+        "message": "\u00dcr\u00fcn"
+    }, 
+    "Item is already in cart.": {
+        "message": "\u00dcr\u00fcn zaten sepetinizde."
+    }, 
+    "Kickstarter Backer": {
+        "message": "Kickstarter Destekcileri"
+    }, 
+    "Price": {
+        "message": "Fiyat"
+    }, 
+    "REMOVE": {
+        "message": "\u00c7IKAR"
+    }, 
+    "Redeem": {
+        "message": "\u00d6de"
+    }, 
+    "Return to Armory": {
+        "message": "Cephaneli\u011fe D\u00f6n"
+    }, 
+    "Set As Default Commander": {
+        "message": "Varsay\u0131lan Kumandan Olarak Ata"
+    }, 
+    "Thank you for your purchase.": {
+        "message": "Sat\u0131n ald\u0131\u011f\u0131n\u0131z i\u00e7in te\u015fekk\u00fcrler."
+    }, 
+    "Total:": {
+        "message": "Toplam:"
+    }, 
+    "Updating...": {
+        "message": "G\u00fcncelleniyor..."
+    }, 
+    "Your cart is empty.": {
+        "message": "Sepetiniz bo\u015f."
+    }, 
+    "Your purchased items are now registered to your account and are accessible in the game.": {
+        "message": "Sat\u0131n ald\u0131\u011f\u0131n\u0131z \u00fcr\u00fcnler hesab\u0131n\u0131za \u015fimdi kaydedildi ve oyun i\u00e7inden ula\u015fabilirsiniz."
+    }
+}

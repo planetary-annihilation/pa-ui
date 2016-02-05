@@ -1,0 +1,119 @@
+﻿body {
+    height: 100%;
+    width: 100%;
+    color: #fff;
+    margin: 0;
+    padding: 0;
+    font-size: 1em;
+    font-size: 16px;
+    font-family: 'Sansation Regular TTF';
+    text-align: left;
+}
+
+table {
+    border-collapse: collapse;
+    padding: 0;
+}
+
+td {
+    border-collapse: collapse;
+    margin: 0;
+    padding: 0;
+    vertical-align: top;
+    position: relative;
+}
+
+tr {
+    border-collapse: collapse;
+    margin: 0;
+    padding: 0;
+}
+
+th {
+    font-weight: normal;
+}
+
+input[type="text"] {
+    -webkit-user-select: text;
+}
+
+input[type="button"], input[type="submit"], button.btn-default {
+    background: #0D0D0D;
+    border-radius: 0px;
+    box-shadow: inset 0px 0px 8px rgba(255,255,255,.50);
+    border: 1px solid #666;
+    color: white;
+    text-transform: uppercase;
+    font-family: 'Sansation Bold';
+    font-size: 14px;
+    padding: 8px 12px;
+}
+
+
+    input[type="button"]:hover, input[type="submit"]:hover, .button:hover {
+        background: #262626;
+        border: 1px solid rgba(255,255,255,1);
+    }
+
+
+    input[type="button"]:active, input[type="submit"]:active {
+        background: #000;
+        border: 1px solid rgba(255,255,255,1);
+    }
+
+.div_primary_msg {
+    font-size: 26px;
+    font-family: 'Sansation Bold';
+    text-shadow: 0px 0px 10px rgba(255,255,255,.5);
+}
+
+.div_confirm_msg {
+    margin: 0px 0px 20px;
+}
+
+.div_receipt_info {
+    margin: 0px 0px 20px;
+}
+
+/* CART STYLES */
+.div_cart_cont {
+    width: 800px;
+    margin: 20px auto 0px;
+}
+
+.tbl_cart {
+    height: 100%;
+    width: 100%;
+    text-align: left;
+}
+
+.tbl_cart_header {
+    border-bottom: 1px solid #333333;
+}
+
+.btn_remove_item {
+    margin: 0px 8px 0px 0px;
+}
+
+.product_title {
+}
+
+.product_price {
+}
+
+.footer_subtotal {
+    text-align: right;
+    font-weight: bold;
+    border-top: 1px solid #333333;
+}
+
+.lbl_subtotal {
+    margin: 0px 8px 0px 0px;
+}
+
+.div_cart_commit_btns {
+    height: 80px;
+    margin: 8px 0px 0px 0px;
+    padding-top: 4px;
+    border-top: 1px solid #333333;
+}

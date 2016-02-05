@@ -1,0 +1,787 @@
+body {
+    white-space: nowrap;
+}
+
+.body_panel {
+    height: auto;
+    width: 100%;
+    margin: 0px 0px 0px 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 400px;
+}
+
+/* UTILITY */
+.receiveMouse {
+    pointer-events: all;
+}
+
+.ignoreMouse {
+    pointer-events: none;
+}
+
+/* SPECIAL WEAPON ALERT  */
+
+.div_special_weapon_alert {
+    width: 100%;
+    border: 1px solid rgba(255,0,0,.5);
+    border-width: 1px 0;
+    background: -webkit-radial-gradient(top,rgba(255, 0, 0, 0.8) 0%, rgba(255, 61, 0, 0.8) 20%,rgba(0, 0, 0, 0.5));
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 0;
+}
+
+.btn_special_weapon {
+    width: 630px;
+    font-size: 16px;
+    font-family: 'Sansation Bold';
+    color: #fff;
+    text-shadow: 0 0 5px #FFF500;
+    border-image: url('img/alerts/bground_alert_special_rest.png') 72 72 0 72 fill;
+    border-width: 71px 71px 0 71px;
+    margin: -8px 0 -4px 0;
+    position: relative;
+    display: flex;
+    -webkit-animation: fadeout;
+    -webkit-transition: .3s ease-out;
+}
+
+    .btn_special_weapon:hover {
+        border-image: url('img/alerts/bground_alert_special_hover.png') 72 72 0 72 fill;
+    }
+
+    .btn_special_weapon:active {
+        border-image: url('img/alerts/bground_alert_special_active.png') 72 72 0 72 fill;
+    }
+
+    .btn_special_weapon > .wrapper {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: -69px 0 0 0;
+        flex-grow: 1;
+    }
+
+.icon_special_alert {
+    flex-shrink: 0;
+}
+
+.text_special_alert {
+    white-space: normal;
+    line-height: 1;
+    margin: 0 20px 0 0;
+    flex-grow: 1;
+}
+
+.div_special_weapon_alert .btn_win_close {
+    height: 20px;
+    width: 20px;
+    border: 1px solid #FFF;
+    opacity: .6;
+    flex-shrink: 0;
+}
+
+    .div_special_weapon_alert .btn_win_close:hover {
+        opacity: 1;
+    }
+
+    .div_special_weapon_alert .btn_win_close:active {
+        opacity: .8;
+    }
+
+
+/* COMBAT ALERT */
+
+div.combat_stack {
+    height: 30px;
+    width: 620px;
+    border: 30px solid rgba(0, 0, 0, 0);
+    border-bottom: 0 solid rgba(255, 0, 0, .3);
+    border-top: 30px solid rgba(255, 0, 0, .3);
+    margin: 6px 0 0 0;
+    display: flex;
+    align-items: center;
+
+    position: relative;
+    top: -30px;
+    margin-bottom: -30px;
+    opacity: 0;
+
+    pointer-events: none;
+}
+
+div.combat_stack.displayed {
+    pointer-events: all;
+    opacity: 1;
+    top: 0px;
+    margin-bottom: 0px;
+    -webkit-transition: all .1s ease-out;
+}
+
+div.combat_stack .empty {
+    border-bottom: 0 solid rgba(0, 0, 0, .3);
+    border-top: 30px solid rgba(0, 0, 0, .3);
+}
+
+    div.combat_stack > .wrapper {
+        height: 30px;
+        width: 100%;
+        margin-top: -30px;
+        display: flex;
+        align-items: center;
+    }
+
+div.combat {
+    height: 28px;
+    width: 64px;
+    color: #FFF;
+    background: rgba(143, 0, 0, 1);
+    border: 1px solid #DB0000;
+    margin: 0 4px 0 0;
+    box-shadow: 0 0 12px #DB0000;
+    position: relative;
+    -webkit-animation: combatappear .05s ease-out forwards;
+    -webkit-transition: background .1s ease-out;
+}
+
+div.combat.minor-warning {
+    /* color when we first start showing */
+    background: rgba(200, 200, 200, 1);
+}
+div.combat.major-warning {
+    /* sustaining heavy or important losses, but no major deaths */
+
+}
+div.combat.minor-losses {
+    background: rgba(200, 200, 200, 1);
+}
+div.combat.major-losses {
+    background: rgba(200, 200, 200, 1);
+}
+div.combat.flash {
+    background: rgba(200, 200, 200, 1);
+}
+
+    div.combat:hover {
+        background: red;
+        border: 1px solid #fff;
+    }
+
+    div.combat:active {
+        background: rgba(143, 0, 0, 1);
+        border: 1px solid #fff;
+    }
+
+
+.combat > .wrapper {
+    height: 100%;
+    width: 100%;
+    background: -webkit-radial-gradient(top, rgba(255, 184, 0, 1) 0%,rgba(143, 0, 0, 0) 100%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    position: relative;
+}
+
+div.combat .close {
+    height: 7px;
+    width: 7px;
+    float: right;
+    margin: 0px -15px 0px 0px;
+    background: url('img/alerts/icon_alert_close_white.png');
+    opacity: .15;
+    position: absolute;
+    right: 0px;
+    top: 0px;
+}
+
+/*div.combat .close:hover {
+        opacity: 1;
+    }
+
+    div.combat .close:hover {
+        opacity: .8;
+    }*/
+
+div.combat .slot-1 .slot-unit {
+    margin-left: -12px;
+}
+
+div.combat .slot-2 .slot-unit {
+    margin-left: -8px;
+}
+
+
+div.combat .slot-planet {
+    height: 24px;
+    width: 24px;
+    position: relative;
+    flex-shrink: 0;    
+}
+
+div.combat .unit_loss {
+    height: 16px;
+    background: rgb(184, 0, 0);
+    padding: 1px 4px 0;
+    border: 1px solid #DB0000;
+    font-family: "Trebuchet MS";
+    font-size: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    bottom: -1px;
+    right: -1px;
+    z-index: 2;
+}
+
+div.combat .loss_summary {
+    position: absolute;
+    top: 30px;
+    z-index: 2;
+    background: rgba(0,0,0,.98);
+    opacity: 0;
+    pointer-events: none;
+    -webkit-transition: all .1s ease-out;
+}
+
+div.combat .loss_summary.show {
+    opacity: 1;
+}
+
+div.combat .loss-group {
+    display: inline-block;
+    position: relative;
+}
+
+    div.combat .loss-group img {
+        height: 52px;
+        width: 52px;
+        /*margin: -8px -8px;*/
+    }
+
+    div.combat .loss-group .subscript {
+        position: absolute;
+        left: 32px;
+        top: 26px;
+        color: rgb(255, 128, 128);
+    }
+
+/* STANDARD UNIT ALERT */
+
+.div_standard_alert_stack {
+    height: 52px;
+    width: 560px;
+    margin: 0px 0px 0px 0px;
+    display: flex;
+    align-items: center;
+    overflow-x: hidden;
+}
+
+.div_unit_alert {
+    color: #FFF;
+    border: 1px solid rgba(255,255,255,.25);
+    position: relative;
+    margin: 0px 1px 0 0;
+    flex-shrink: 0;
+    -webkit-transition: all 2s ease-in-out;
+}
+
+.div_army_color {
+    height: 38px;
+    width: 12px;
+    position: absolute;
+    top: 1px;
+    left: 1px;
+    margin: 0px 0px 0px 0px;
+    border-right: 1px solid rgba(255,255,255,.25);
+}
+
+.div_army_color_fill {
+    height: 100%;
+    width: 100%;
+    background: linear-gradient(to bottom, rgba(0,0,0,.4) 0%, rgba(0,0,0,.3) 10%, rgba(0,0,0,0) 90%);
+}
+
+.div_unit_alert_container {
+    display: flex;
+    align-items: center;
+    margin: 0px 0px 0px 0px;
+}
+
+.div_unit_alert .close {
+    height: 7px;
+    width: 7px;
+    float: right;
+    margin: 0px -15px 0px 0px;
+    background: url('img/alerts/icon_alert_close_white.png');
+    opacity: .15;
+    position: absolute;
+    right: 0px;
+    top: 0px;
+}
+
+    .div_unit_alert .close:hover {
+        opacity: 1;
+    }
+
+    .div_unit_alert .close:hover {
+        opacity: .8;
+    }
+
+
+.div_unit_alert_commander {
+    border-image: url('img/alerts/bground_alert_red_rest.png') 12 27 25 27 fill;
+    -webkit-animation: fadeout;
+    -webkit-transition: .3s ease-out;
+}
+
+    .div_unit_alert_commander:hover {
+        border-image: url('img/alerts/bground_alert_red_hover.png') 12 27 25 27 fill;
+        -webkit-animation: none;
+        -webkit-transition: none;
+    }
+
+    .div_unit_alert_commander:active {
+        border-image: url('img/alerts/bground_alert_red_active.png') 12 27 25 27 fill;
+    }
+
+    .div_unit_alert_commander img {
+        -webkit-filter: url(#xfrm_red);
+    }
+
+.div_unit_alert_ready {
+    background: rgba(0, 141, 0, 0.75);
+    box-shadow: inset 0 0 10px rgba(0, 141, 0, 1);
+    -webkit-animation: fadeout;
+    -webkit-transition: .3s ease-out;
+}
+
+    .div_unit_alert_ready:hover {
+        background: rgba(0, 141, 0, 1);
+        -webkit-animation: none;
+        -webkit-transition: none;
+    }
+
+    .div_unit_alert_ready img {
+        -webkit-filter: url(#xfrm_green);
+    }
+
+    .div_unit_alert_ready:active {
+        background: rgba(0, 141, 0, 0.75);
+    }
+
+.div_unit_alert_death {
+    border-image: url('img/alerts/bground_alert_black_rest.png') 12 27 25 27 fill;
+    -webkit-animation: fadeout;
+    -webkit-transition: .3s ease-out;
+}
+
+    .div_unit_alert_death:hover {
+        border-image: url('img/alerts/bground_alert_black_hover.png') 12 27 25 27 fill;
+        -webkit-animation: none;
+        -webkit-transition: none;
+    }
+
+    .div_unit_alert_death:active {
+        border-image: url('img/alerts/bground_alert_black_active.png') 12 27 25 27 fill;
+    }
+
+    .div_unit_alert_death img {
+        -webkit-filter: url(#xfrm_black);
+    }
+
+.div_unit_alert_misc {
+    background: rgba(70,70,70,.75);
+    box-shadow: inset 0 0 10px rgba(70,70,70,1);
+    -webkit-animation: fadeout;
+    -webkit-transition: .3s ease-out;
+}
+
+    .div_unit_alert_misc:hover {
+        background: rgba(70,70,70,1);
+        -webkit-animation: none;
+        -webkit-transition: none;
+    }
+
+    .div_unit_alert_misc:active {
+        background: rgba(70,70,70,.75);
+    }
+
+    .div_unit_alert_misc img {
+        -webkit-filter: url(#xfrm_white);
+    }
+
+.div_unit_alert .icon_alert {
+    height: 52px;
+    width: 52px;
+    display: block;
+    margin: -6px 0;
+    flex-shrink: 0;
+}
+
+.div_unit_alert .text_alert {
+    width: 220px;
+    margin: 0px;
+    padding: 6px 30px 8px 6px;
+    font-family: "Sansation Regular TTF";
+    font-weight: normal;
+    font-size: 13px;
+    text-align: left;
+    text-shadow: 0px 0px 10px rgba(255,255,255,.5);
+    white-space: normal;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    -webkit-animation: labelappear .5s ease-out forwards;
+}
+
+.text_center {
+    line-height: 1;
+    display: block;
+}
+
+@-webkit-keyframes labelopen {
+    0% {
+        max-width: 0;
+    }
+
+    100% {
+        max-width: 100%;
+    }
+}
+
+@-webkit-keyframes labelappear {
+    0% {
+        opacity: 0;
+    }
+
+    50% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+@-webkit-keyframes labelclose {
+    0% {
+        max-width: 290px;
+    }
+
+    100% {
+        max-width: 0px;
+    }
+}
+
+@-webkit-keyframes labeldisappear {
+    from {
+        opacity: 1;
+    }
+
+    to {
+        opacity: 0;
+    }
+}
+
+@-webkit-keyframes containerdisappear {
+    0% {
+        opacity: 1;
+    }
+
+    20% {
+        opacity: .5;
+    }
+
+    40% {
+        opacity: 1;
+    }
+
+    60% {
+        opacity: .5;
+    }
+
+    80% {
+        opacity: 1;
+    }
+
+    100% {
+        opacity: 0;
+    }
+}
+
+
+.container {
+    height: auto;
+    width: auto;
+    background: url(coui://ui/main/game/live_game/img/alerts/icon_camera.png) center right no-repeat;
+    padding: 0;
+    margin: 0 10px 0 0;
+    flex-grow: 1;
+    -webkit-animation: labelopen .5s ease-out forwards;
+}
+
+.text {
+    color: white;
+    white-space: nowrap;
+    float: left;
+    border: 1px solid yellow;
+    -webkit-animation: labelappear .5s ease-out forwards;
+}
+
+.container_close {
+    max-width: 300px;
+    -webkit-animation: labelclose 10000.0s ease-out forwards;
+}
+
+.container_disappear {
+    display: inline-block;
+    margin: 0px 0px 0px 0px;
+    position: relative;
+    -webkit-animation: containerdisappear .5s ease-out forwards;
+}
+
+.text_close {
+    height: 20px;
+    text-wrap: none;
+    white-space: nowrap;
+    color: white;
+    -webkit-animation: labeldisappear .2s ease-out forwards;
+}
+
+@-webkit-keyframes combatappear {
+    0% {
+        width: 0px;
+    }
+
+    100% {
+        width: 64px;
+    }
+
+}
+
+@-webkit-keyframes animated_flash_red {
+    0% {
+        background: rgba(141, 0, 0, 0.80);
+    }
+
+    100% {
+        background: rgba(141, 0, 0, 0.1);
+    }
+}
+
+@-webkit-keyframes animated_flash_green {
+    0% {
+        background: rgba(0, 141, 0, 0.80);
+    }
+
+    100% {
+        background: rgba(0, 141, 0, 0.1);
+    }
+}
+
+@-webkit-keyframes animated_flash_black {
+    0% {
+        background: rgba(0, 0, 0, 0.80);
+    }
+
+    100% {
+        background: rgba(0, 0, 0, 1);
+    }
+}
+
+@-webkit-keyframes animated_flash_white {
+    0% {
+        background: rgba(70, 70, 70, 0.80);
+    }
+
+    100% {
+        background: rgba(70, 70, 70, 1);
+    }
+}
+
+@-webkit-keyframes animated_flash_cyan {
+    from {
+        background-color: transparent;
+    }
+
+    to {
+        background-color: #00ffff;
+    }
+}
+
+
+/* COMMANDER DEATH ALERT */
+
+.div_commander_death_cont {
+    height: 42px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    -webkit-animation: closedeathalert .5s;
+    -webkit-animation-delay: 4.5s;
+    -webkit-animation-fill-mode: forwards;
+}
+
+.div_commander_death_alert {
+    height: 42px;
+    width: 100%;
+    background: radial-gradient(37% 100%, rgb(255, 0, 0) 0, rgba(255, 61, 0, 0.2) 100%);
+    border: 1px solid rgb(255, 92, 0);
+    border-width: 1px 0;
+    box-shadow: 0 0 80px rgb(255, 92, 0);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    -webkit-animation: deathalert 3s linear;
+}
+
+    .div_commander_death_alert > .wrapper {
+        height: 100%;
+        width: 100%;
+        font-family: "Sansation Bold";
+        font-size: 16px;
+        text-shadow: 0 0 4px rgb(255, 112, 0);
+        box-shadow: inset 0px 0px 20px rgb(255,112,0);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        -webkit-animation: labelappear .5s linear forwards;
+    }
+
+.commander_icon_border {
+    border-color: rgba(0,0,0,.3);
+    border-width: 0 10px;
+    border-style: solid;
+    margin: 0 20px 0 0;
+    flex-shrink: 0;
+}
+
+.commander_icon {
+    border: 1px solid rgba(0,0,0,.1);
+    border-width: 0 1px;
+    box-shadow: inset 0 0 20px rgba(0,0,0,.5);
+}
+
+.commander_alert {
+    height: 100%;
+    width: 458px;
+    line-height: 1;
+    display: flex;
+    align-items: center;
+    white-space: normal;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+
+    .commander_alert > .msg {
+        text-overflow: ellipsis;
+        overflow: hidden;
+    }
+
+        .commander_alert > .msg > p {
+            display: inline-block;
+            margin: 0;
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            max-width: 300px;
+        }
+
+@-webkit-keyframes closedeathalert {
+    0% {
+        opacity: 1;
+        display: block;
+    }
+
+    100% {
+        opacity: 0;
+        display: none;
+        height: 0;
+    }
+}
+
+
+@-webkit-keyframes deathalert {
+    0% {
+        height: 0;
+        width: 0;
+        opacity: 0;
+        display: flex;
+    }
+
+    10% {
+        height: 42px;
+        width: 0;
+        opacity: 1;
+    }
+
+    20% {
+        width: 100%;
+        opacity: 1;
+    }
+
+    100% {
+        width: 100%;
+        opacity: 1;
+    }
+}
+
+
+
+.div_animated_flash_red {
+    -webkit-animation-name: animated_flash_red;
+    -webkit-animation-duration: 0.4s;
+    -webkit-animation-timing-function: linear;
+    -webkit-animation-iteration-count: 4;
+    -webkit-animation-direction: alternate;
+    -webkit-animation-play-state: running;
+}
+
+.div_animated_flash_green {
+    -webkit-animation-name: animated_flash_green;
+    -webkit-animation-duration: 0.4s;
+    -webkit-animation-timing-function: linear;
+    -webkit-animation-iteration-count: 4;
+    -webkit-animation-direction: alternate;
+    -webkit-animation-play-state: running;
+}
+
+.div_animated_flash_black {
+    -webkit-animation-name: animated_flash_black;
+    -webkit-animation-duration: 0.4s;
+    -webkit-animation-timing-function: linear;
+    -webkit-animation-iteration-count: 4;
+    -webkit-animation-direction: alternate;
+    -webkit-animation-play-state: running;
+}
+
+.div_animated_flash_white {
+    -webkit-animation-name: animated_flash_white;
+    -webkit-animation-duration: 0.4s;
+    -webkit-animation-timing-function: linear;
+    -webkit-animation-iteration-count: 4;
+    -webkit-animation-direction: alternate;
+    -webkit-animation-play-state: running;
+}
+
+.div_animated_flash_cyan {
+    -webkit-animation-name: animated_flash_cyan;
+    -webkit-animation-duration: 0.4s;
+    -webkit-animation-timing-function: linear;
+    -webkit-animation-iteration-count: 4;
+    -webkit-animation-direction: alternate;
+    -webkit-animation-play-state: running;
+}
+
+
+.div_animated_expand_label {
+    -webkit-animation: labelopen 2s;
+}

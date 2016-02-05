@@ -1,0 +1,221 @@
+{
+    "2m": {
+        "message": "2m"
+    }, 
+    "ALLY": {
+        "message": "SOJUSZNIK"
+    }, 
+    "ANNIHILATE": {
+        "message": "UNICESTWIENIE"
+    }, 
+    "APS:": {
+        "message": "APS:"
+    }, 
+    "ARMY": {
+        "message": "ARMIA"
+    }, 
+    "AT WILL": {
+        "message": "BEZ ROZKAZU"
+    }, 
+    "Accept": {
+        "message": "Akceptuj"
+    }, 
+    "Activate planetary laser": {
+        "message": "Aktywuj laser planetarny"
+    }, 
+    "Alliance Request": {
+        "message": "Propozycja sojuszu"
+    }, 
+    "Alliance requested": {
+        "message": "Zaproponowano sojusz"
+    }, 
+    "Allied": {
+        "message": "W sojuszu z:"
+    }, 
+    "Allied With:": {
+        "message": "W sojuszu z:"
+    }, 
+    "Anti-nuke - Intercepts incoming nuclear missiles.": {
+        "message": "Obrona antynuklearna \u2013 przechwytuje nadlatuj\u0105ce rakiety nuklearne."
+    }, 
+    "Awesome": {
+        "message": "Super"
+    }, 
+    "BP:": {
+        "message": "BP:"
+    }, 
+    "BUILD MODE": {
+        "message": "TRYB BUDOWY"
+    }, 
+    "CONNECTION TO SERVER LOST": {
+        "message": "UTRACONO PO\u0141\u0104CZENIE Z SERWEREM"
+    }, 
+    "CONTINUOUS": {
+        "message": "CI\u0104G\u0141A"
+    }, 
+    "Cancel": {
+        "message": "Anuluj"
+    }, 
+    "Change orbit": {
+        "message": "Zmie\u0144 orbit\u0119"
+    }, 
+    "Close": {
+        "message": "Zamknij"
+    }, 
+    "Count": {
+        "message": "Liczba"
+    }, 
+    "DEV MODE": {
+        "message": "TRYB DEV"
+    }, 
+    "DMG:": {
+        "message": "DMG:"
+    }, 
+    "ECONOMY": {
+        "message": "GOSPODARKA"
+    }, 
+    "EFF:": {
+        "message": "EFF:"
+    }, 
+    "ENERGY ORDERS": {
+        "message": "TRYBY DZIA\u0141ANIA"
+    }, 
+    "Efficiency": {
+        "message": "Wydajno\u015b\u0107"
+    }, 
+    "Enemy Contact!": {
+        "message": "Zlokalizowano nieprzyjaciela!"
+    }, 
+    "Exit Game?": {
+        "message": "Wyj\u015b\u0107 z gry?"
+    }, 
+    "FIRE ORDERS": {
+        "message": "TRYBY ATAKU"
+    }, 
+    "Fabber": {
+        "message": "Fabrykator"
+    }, 
+    "Factory": {
+        "message": "Fabryka"
+    }, 
+    "GAME PAUSED": {
+        "message": "GRA WSTRZYMANA"
+    }, 
+    "HOLD": {
+        "message": "ZATRZYMAJ"
+    }, 
+    "HOLD POSITION": {
+        "message": "UTRZYMAJ POZYCJ\u0118"
+    }, 
+    "Ignore": {
+        "message": "Ignoruj"
+    }, 
+    "LR-96 -Pacifier- Missile": {
+        "message": "Rakieta LR-96 -Pacyfikator-"
+    }, 
+    "MANUEVER": {
+        "message": "MANEWR"
+    }, 
+    "MOVE ORDERS": {
+        "message": "ROZKAZY RUCHU"
+    }, 
+    "Mobile": {
+        "message": "Mobilno\u015b\u0107"
+    }, 
+    "NORMAL": {
+        "message": "NORMALNE"
+    }, 
+    "Nuclear missile - Long range, large area damage, projectile.": {
+        "message": "Rakieta nuklearna - du\u017cy zasi\u0119g oraz obszar zniszcze\u0144, pocisk."
+    }, 
+    "OFF": {
+        "message": "WY\u0141\u0104CZ"
+    }, 
+    "ON": {
+        "message": "W\u0141\u0104CZ"
+    }, 
+    "PLAYER": {
+        "message": "GRACZ"
+    }, 
+    "Pick a location inside one of the green zones to spawn your Commander.": {
+        "message": "Wybierz punkt w \u015brodku jednej z zielonych stref, by wyl\u0105dowa\u0107 dow\u00f3dc\u0105."
+    }, 
+    "Ping!": {
+        "message": "Ping!"
+    }, 
+    "Position targeted. Click to confirm.": {
+        "message": "Pozycja wybrana. Kliknij, by potwierdzi\u0107."
+    }, 
+    "RESC": {
+        "message": "RESC"
+    }, 
+    "RETURN FIRE": {
+        "message": "ODPOWIEDZ OGNIEM"
+    }, 
+    "ROAM": {
+        "message": "WOLNY"
+    }, 
+    "Request pending": {
+        "message": "Propozycja oczekuje"
+    }, 
+    "Returning to Main Menu": {
+        "message": "Powr\u00f3t do Menu G\u0142\u00f3wnego"
+    }, 
+    "SANDBOX": {
+        "message": "SANDBOX"
+    }, 
+    "SR-24 -Shield- Missile Defense": {
+        "message": "SR-24 -Tarcza- Os\u0142ona przeciwrakietowa"
+    }, 
+    "START ANNIHILATION": {
+        "message": "ROZPOCZNIJ ANIHILACJ\u0118"
+    }, 
+    "Select a new gravity well.": {
+        "message": "Wybierz nowy poziom si\u0142y grawitacji."
+    }, 
+    "Select a planet to attack.": {
+        "message": "Wybierz planet\u0119, kt\u00f3r\u0105 chcesz zaatakowa\u0107."
+    }, 
+    "Select a planet to destroy.": {
+        "message": "Wybierz planet\u0119, kt\u00f3r\u0105 chcesz zniszczy\u0107:"
+    }, 
+    "Set course for annihilation": {
+        "message": "Obierz kurs na unicestwienie"
+    }, 
+    "Set target spot": {
+        "message": "Ustaw cel"
+    }, 
+    "Then confirm destination to set course.": {
+        "message": "Nast\u0119pnie potwierd\u017a miejsce docelowe, aby obra\u0107 kurs."
+    }, 
+    "Unknown": {
+        "message": "Nieznany"
+    }, 
+    "Waiting for other players to select a spawn location.": {
+        "message": "Oczekiwanie, a\u017c inni gracze wybior\u0105 miejsce odrodzenia:"
+    }, 
+    "Yes": {
+        "message": "Tak"
+    }, 
+    "destroyed.": {
+        "message": "- zniszczono"
+    }, 
+    "launched!": {
+        "message": "- wystrzelono!"
+    }, 
+    "located.": {
+        "message": "- zlokalizowano"
+    }, 
+    "lost.": {
+        "message": "- zniszczono"
+    }, 
+    "ready.": {
+        "message": "- uko\u0144czono"
+    }, 
+    "under attack.": {
+        "message": "- pod ostrza\u0142em"
+    }, 
+    "v": {
+        "message": "v"
+    }
+}

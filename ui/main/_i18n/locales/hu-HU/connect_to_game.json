@@ -1,0 +1,26 @@
+{
+    "CONNECTION TO SERVER FAILED": {
+        "message": "NEM SIKER\u00dcLT KAPCSOL\u00d3DNI A SZERVERHEZ"
+    }, 
+    "CONNECTION TO SERVER LOST": {
+        "message": "MEGSZAKADT A KAPCSOLAT A SZERVERREL"
+    }, 
+    "FAILED TO JOIN GAME": {
+        "message": "NEM SIKER\u00dcLT CSATLAKOZNI A J\u00c1T\u00c9KHOZ"
+    }, 
+    "FAILED TO START GAME": {
+        "message": "A J\u00c1T\u00c9K IND\u00cdT\u00c1SA SIKERTELEN"
+    }, 
+    "FAILED TO START REPLAY": {
+        "message": "A VISSZAJ\u00c1TSZ\u00c1S IND\u00cdT\u00c1SA SIKERTELEN"
+    }, 
+    "LOGIN ACCEPTED": {
+        "message": "BEJELENTKEZ\u00c9S ELFOGADVA"
+    }, 
+    "LOGIN TO SERVER REJECTED": {
+        "message": "SZERVERRE VAL\u00d3 BEJELENTKEZ\u00c9S ELUTAS\u00cdTVA"
+    }, 
+    "Returning to Main Menu": {
+        "message": "Visszat\u00e9r\u00e9s a f\u0151men\u00fcbe"
+    }
+}

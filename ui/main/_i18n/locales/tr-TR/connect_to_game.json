@@ -1,0 +1,26 @@
+{
+    "CONNECTION TO SERVER FAILED": {
+        "message": "SUNUCUYLA BA\u011eLANTI BA\u015eARISIZ"
+    }, 
+    "CONNECTION TO SERVER LOST": {
+        "message": "SUNUCUYLA BA\u011eLANTI KAYBOLDU"
+    }, 
+    "FAILED TO JOIN GAME": {
+        "message": "OYUNA G\u0130R\u0130\u015e SA\u011eLANAMADI"
+    }, 
+    "FAILED TO START GAME": {
+        "message": "OYUN BA\u015eLATILAMADI"
+    }, 
+    "FAILED TO START REPLAY": {
+        "message": "TEKRARIN BA\u015eLATILMASI GER\u00c7EKLE\u015eT\u0130R\u0130LEMED\u0130"
+    }, 
+    "LOGIN ACCEPTED": {
+        "message": "SUNUCUYA BAGLANTI KABUL ED\u0130LD\u0130"
+    }, 
+    "LOGIN TO SERVER REJECTED": {
+        "message": "SUNUCUYA BA\u011eLANTI REDDED\u0130LD\u0130"
+    }, 
+    "Returning to Main Menu": {
+        "message": "Ana Men\u00fcye Geri D\u00f6n\u00fcl\u00fcyor"
+    }
+}

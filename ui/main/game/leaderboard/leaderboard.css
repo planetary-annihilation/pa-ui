@@ -1,0 +1,314 @@
+﻿body {
+}
+
+
+.section_content {
+    height: calc(100% - 140px);
+    line-height:1.2;
+}
+
+.section_controls {
+    height:auto;
+}
+
+.col_1 {
+    width: 240px;
+    flex-shrink: 0;
+    display:flex;
+    flex-direction:column;
+}
+
+.div_user_rank {
+    text-align: center;
+    font-family: 'Sansation Bold';
+    font-size: 20px;
+    background:#1d1d1d;
+    margin: 0px 0px 12px 12px;
+    padding:8px;
+}
+
+    .div_user_rank .title_bar {
+        text-transform: uppercase;
+        text-shadow:0px 0px 20px #fc0;
+    }
+
+    .div_user_rank .category {
+        margin: 0px 0px 16px 0px;
+    }
+
+        .div_user_rank .category .stat {
+            font-size: 24px;
+            text-shadow: 0px 0px 40px #00b3ff;
+            margin: 0px 0px 0px 0px;
+        }
+
+        .div_user_rank .category .label {
+            font-size: 14px;
+            color: #999;
+        }
+
+        .div_user_rank .category .username {
+            margin: 8px 0px 0px;
+            color: white;
+            text-shadow: 0px 0px 20px #00b3ff;
+        }
+
+        .div_user_rank .category .badge {
+            background:none;
+            border-radius:0;
+        }
+
+        .div_user_rank .category .badge_label {
+            font-size:14px;
+            text-transform:uppercase;
+        }
+
+
+.tab_cont {
+    flex-shrink: 0;
+    display: flex;
+    margin: 12px 0px 0px 0px;
+    background: #1d1d1d;
+    justify-content: center;
+    border-bottom: 1px solid #333;
+}
+
+.tab_level {
+    min-width: 200px;
+}
+
+    .tab_level img {
+        margin: -4px 8px 0px 0px;
+    }
+
+.tab_wrapper {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+}
+
+.tab_watermark {
+    font-family: 'Sansation Regular';
+    font-size: 20px;
+    color: #999;
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 120px 0px 0px 0px;
+}
+
+.tab_loading {
+    margin: 120px 0px 0px 0px;
+}
+
+.tab-content {
+    overflow: auto;
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+.tab-content .tab-pane {
+}
+
+    .tab-content > .active {
+        display:flex;
+        flex-direction:column;
+    }
+
+.tab-content .tab-pane .content {
+    display:flex;
+    flex-direction:column;
+    border: 1px solid cyan;
+}
+
+    .tab_wrapper .tab-content .tab-pane .list {
+        overflow: auto;
+        flex-grow:1;
+    }
+
+    .tab_wrapper .tab-content .tab-pane .row_exception {
+        flex-shrink:0;
+    }
+
+    .tab_wrapper .tab-content .tab-pane .row_totals {
+        flex-shrink:0;
+    }
+
+.tab-pane {
+    display: flex;
+    flex-direction: column;
+}
+
+#bronze .row_player {
+    text-shadow: 0px 0px 10px #e76c5f;
+}
+
+    #bronze .row_player_yourself {
+        background: linear-gradient(to top, #000 25%, #47221E 100%);
+        border-top: 1px solid #e76c5f;
+    }
+
+#silver .row_player {
+    text-shadow: 0px 0px 10px #d5d5d5;
+}
+
+    #silver .row_player_yourself {
+        background: linear-gradient(to top, #000 25%, #6D6D6D 100%);
+        border-top: 1px solid #d5d5d5;
+    }
+
+#gold .row_player {
+    text-shadow: 0px 0px 10px #ffb800;
+}
+
+    #gold .row_player_yourself {
+        background: linear-gradient(to top, #000 25%, #A87900 100%);
+        border-top: 1px solid #ffb800;
+    }
+
+#platinum .row_player {
+    text-shadow: 0px 0px 10px #0f0;
+}
+
+    #platinum .row_player_yourself {
+        background: linear-gradient(to top, #000 25%, #009200 100%);
+        border-top: 1px solid #0f0;
+    }
+
+#uber .row_player {
+    text-shadow: 0px 0px 10px #f00;
+}
+
+    #uber .row_player_yourself {
+        background: linear-gradient(to top, #000 25%, #740000 100%);
+        border-top: 1px solid #f00;
+    }
+
+.row_player {
+    display: flex;
+    align-items: center;
+    font-family: 'Sansation Bold';
+    font-size: 18px;
+    margin: 0px 0px 12px 0px;
+    border: 1px solid #1D1D1D;
+    box-shadow: 0px 0px 10px #000;
+}
+
+    .row_player .rank,
+    .row_player_header .rank {
+        width:120px;
+        text-align: center;
+        font-size: 24px;
+        margin:0px 12px 0px 0px;
+    }
+
+
+    .row_player .rank {
+        height: 40px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    #bronze .row_player .rank {
+        background: url('coui://ui/main/game/leaderboard/img/slot_bground_bronze.png') center center no-repeat;
+    }
+
+    #silver .row_player .rank {
+        background: url('coui://ui/main/game/leaderboard/img/slot_bground_silver.png') center center no-repeat;
+    }
+
+    #gold .row_player .rank {
+        background: url('coui://ui/main/game/leaderboard/img/slot_bground_gold.png') center center no-repeat;
+    }
+
+    #platinum .row_player .rank {
+        background: url('coui://ui/main/game/leaderboard/img/slot_bground_platinum.png') center center no-repeat;
+    }
+
+    #uber .row_player .rank {
+        background: url('coui://ui/main/game/leaderboard/img/slot_bground_uber.png') center center no-repeat;
+    }
+
+
+    .row_player .commander {
+        display:none;
+    }
+
+    .row_player .username,
+    .row_player_header .username {
+        width: 480px;
+        display: flex;
+        align-items: center;
+        line-height: 1.2;
+    }
+
+    .row_player .timestamp,
+    .row_player_header .timestamp {
+        width:35%;
+        min-width: 400px;
+        display:flex;
+        align-items: center;
+    }
+
+    .row_player .timestamp .string {
+        width:160px;
+        font-family: 'Sansation Regular';
+    }
+
+    .row_player .replay {
+        margin:0px 16px 0px 0px;
+    }
+
+.row_player_header {
+    display: flex;
+    align-items: center;
+    font-family: 'Sansation Regular TTF';
+    font-size: 18px;
+    margin:0px;
+    flex-shrink: 0;
+}
+
+    .row_player_header .rank,
+    .row_player_header .username,
+    .row_player_header .timestamp {
+        font-family: 'Sansation Regular';
+        font-size: 14px;
+        border: 0px;
+        padding: 8px 0px;
+    }
+
+.row_totals {
+    font-size: 16px;
+    font-family: 'Sansation Regular';
+    padding:8px 0px;
+}
+
+.vert_ellipsis {
+    font-family: 'Sansation Bold';
+    font-size: 40px;
+    margin: -16px 0px 16px 48px;
+    line-height: .2;
+}
+
+#rank_stats {
+
+}
+
+    #rank_stats .inactive_message {
+        font-family: 'Sansation Regular TTF';
+        font-size: 13px;
+        color: #e6e6e6;
+    }
+
+    #rank_stats .rank_inactive {
+        color: #fc0;
+        text-shadow: none;
+        font-size: 16px;
+    }
+
+.badge_inactive {
+    opacity: 0.2;
+}

@@ -1,0 +1,60 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <meta locns="live_game" />
+        <noloc><title>Live Game: Message</title></noloc>
+        <link href="bundle://boot/boot.css" rel="stylesheet" type="text/css" />
+        <link href="live_game_message.css" rel="stylesheet" type="text/css" />
+        <script src="bundle://boot/boot.js" type="text/javascript"></script>
+        <script src="live_game_message.js" type="text/javascript"></script>
+    </head>
+    <body class="body_panel">
+        <body-dock>
+        <div class="div_message_display_cont" style="position: relative;">
+            <div class="div_instruct_bar">
+                <div class="message_display_text" data-bind="text: message">
+                    This is a test message.
+                </div>
+                <div class="message_helper" data-bind="visible: helper">
+                    <div class="message_helper_item">
+                        <div class="helper_img">
+                            <img class="img_mouse" src="coui://ui/main/game/live_game/img/help/img_mouse_pan_45.png" />
+                        </div>
+                        <div class="helper_text">
+                            <loc>Hold the mouse wheel down and drag to pan.</loc>
+                        </div>
+                    </div>
+                    <div class="message_helper_item">
+                        <div class="helper_img">
+                            <img class="img_mouse" src="coui://ui/main/game/live_game/img/help/img_mouse_scroll_45.png" />
+                        </div>
+                        <div class="helper_text" style="margin:0px 0px 0px -4px;">
+                            <loc>Scroll mouse wheel to zoom in and out.</loc>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- ko if: buttonLabel -->
+            <div class="div_commit_bar">
+                <!-- IF START -->
+                <div class="div_commit_background">
+                    <div class="text" id="text_slide_top">
+                        <span><loc>ANNIHILATE EVERYTHING</loc></span>
+                    </div>
+                </div>
+                <div class="div_commit_foreground">
+                    <div class="btn_commit_border">
+                        <input class="btn_message btn_spawn_commander" data-bind="click: clickButton, visible: buttonLabel, attr: { value: buttonLabel }, click_sound: '/VO/Computer/ui_match_start_button_annihilate', rollover_sound: 'default'" type="button" />
+                    </div>
+                </div>
+                <!-- IF ANNIHILATE PLANET -->
+                <!--
+                    <input class="btn_message btn_attack" data-bind="click: clickButton, visible: buttonLabel, attr: { value: buttonLabel }, click_sound: 'default', rollover_sound: 'default'" type="button" />
+                -->
+            </div>
+            <!-- /ko -->
+        </div>
+        </body-dock>
+    </body>
+</html>

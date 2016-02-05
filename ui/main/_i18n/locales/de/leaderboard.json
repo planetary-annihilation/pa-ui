@@ -1,0 +1,113 @@
+{
+    "1 day ago": {
+        "message": "Vor 1 Tag"
+    }, 
+    "1 hour ago": {
+        "message": "Vor 1 Stunde"
+    }, 
+    "1 minute ago": {
+        "message": "Vor 1 Minute"
+    }, 
+    "1 second ago": {
+        "message": "Vor 1 Sekunde"
+    }, 
+    "1 week ago": {
+        "message": "Vor 1 Woche"
+    }, 
+    "Bronze": {
+        "message": "Bronze"
+    }, 
+    "Failed to load this leaderboard level.": {
+        "message": "Diese Bestenrangliste konnte nicht geladen werden."
+    }, 
+    "Gold": {
+        "message": "Gold"
+    }, 
+    "Inactive": {
+        "message": "Inaktiv"
+    }, 
+    "Just now": {
+        "message": "Gerade"
+    }, 
+    "Last Match Played": {
+        "message": "Letzte gespielte Partie"
+    }, 
+    "Leaderboards": {
+        "message": "Bestenranglisten"
+    }, 
+    "Level rank": {
+        "message": "Rang in diesem Level"
+    }, 
+    "Loading Leaderboard": {
+        "message": "Lädt Bestenrangliste"
+    }, 
+    "Match games played": {
+        "message": "Gespielte Partien"
+    }, 
+    "No ranked players at this level.": {
+        "message": "Keine platzierten Spieler auf diesem Level"
+    }, 
+    "No recent matches played.": {
+        "message": "Keine kürzlich gespielten Partien"
+    }, 
+    "One ranked player at this level.": {
+        "message": "Ein platzierter Spieler auf diesem Level"
+    }, 
+    "Platinum": {
+        "message": "Platin"
+    }, 
+    "Play ranked match": {
+        "message": "Spiele Partie aus der Rangliste"
+    }, 
+    "Player": {
+        "message": "Spieler"
+    }, 
+    "Provisional": {
+        "message": "Vorläufig"
+    }, 
+    "Rank": {
+        "message": "Rang"
+    }, 
+    "Rank pending until enough match games are played.": {
+        "message": "Rang noch nicht festgelegt, da noch nicht genügend Partien gespielt wurden."
+    }, 
+    "Silver": {
+        "message": "Silber"
+    }, 
+    "This leaderboard level is currently empty.": {
+        "message": "Diese Bestenrangliste ist momentan noch leer."
+    }, 
+    "Uber": {
+        "message": "Uber"
+    }, 
+    "Unknown": {
+        "message": "Unbekannt"
+    }, 
+    "Unranked": {
+        "message": "Nicht platziert"
+    }, 
+    "Watch Replay": {
+        "message": "Wiederholungsspiel ansehen"
+    }, 
+    "Your rank": {
+        "message": "Dein Rang"
+    }, 
+    "__n__ days ago": {
+        "message": "Vor __n__ Tagen"
+    }, 
+    "__n__ hours ago": {
+        "message": "Vor __n__ Stunden"
+    }, 
+    "__n__ minutes ago": {
+        "message": "Vor __n__ Minuten"
+    }, 
+    "__n__ seconds ago": {
+        "message": "Vor __n__ Sekunden"
+    }, 
+    "__n__ weeks ago": {
+        "message": "Vor __n__ Wochen"
+    }, 
+    "__num_players__ ranked players at this level.": {
+        "message": "__num_players__ platzierte Spieler auf diesem Level."
+    }
+}

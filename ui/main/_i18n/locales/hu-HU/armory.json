@@ -1,0 +1,89 @@
+{
+    "Account Name:": {
+        "message": "Sz\u00e1mla Megnevez\u00e9se:"
+    }, 
+    "Add To Cart": {
+        "message": "Kos\u00e1rba."
+    }, 
+    "Armory": {
+        "message": "Fegyvert\u00e1r"
+    }, 
+    "Badges": {
+        "message": "Jelv\u00e9nyek"
+    }, 
+    "CHECKOUT": {
+        "message": "P\u00c9NZT\u00c1R"
+    }, 
+    "Cancel": {
+        "message": "M\u00e9gse"
+    }, 
+    "Cart": {
+        "message": "Kos\u00e1r"
+    }, 
+    "Commanders": {
+        "message": "Parancsnokok"
+    }, 
+    "Confirmation code:": {
+        "message": "Meger\u0151s\u00edt\u0151 k\u00f3d:"
+    }, 
+    "Confirmation of your purchase is provided below.": {
+        "message": "A v\u00e1s\u00e1rl\u00e1sodr\u00f3l sz\u00f3l\u00f3 nyugt\u00e1t al\u00e1bb olvashatod."
+    }, 
+    "Continue Shopping": {
+        "message": "V\u00e1s\u00e1rl\u00e1s Folytat\u00e1sa"
+    }, 
+    "Credit applied:": {
+        "message": "J\u00f3v\u00e1\u00edr\u00e1s a k\u00f6vetkez\u0151nek:"
+    }, 
+    "Designed in collaboration with": {
+        "message": "K\u00e9sz\u00fclt a k\u00f6vetkez\u0151 szem\u00e9ly egy\u00fcttm\u0171k\u00f6d\u00e9s\u00e9vel:"
+    }, 
+    "Go to Main Menu": {
+        "message": "Kil\u00e9p\u00e9s a F\u0151men\u00fcbe"
+    }, 
+    "Here's your receipt.": {
+        "message": "Itt a sz\u00e1ml\u00e1d."
+    }, 
+    "Item": {
+        "message": "T\u00e9tel"
+    }, 
+    "Item is already in cart.": {
+        "message": "Az \u00e1rucikk m\u00e1r a kos\u00e1rban van."
+    }, 
+    "Kickstarter Backer": {
+        "message": "Kickstarteres T\u00e1mogat\u00f3"
+    }, 
+    "Price": {
+        "message": "\u00c1r"
+    }, 
+    "REMOVE": {
+        "message": "ELT\u00c1VOL\u00cdT\u00c1S"
+    }, 
+    "Redeem": {
+        "message": "Bev\u00e1lt"
+    }, 
+    "Refresh": {
+        "message": "\u00dajrat\u00f6lt\u00e9s"
+    }, 
+    "Return to Armory": {
+        "message": "Visszat\u00e9r\u00e9s a fegyvert\u00e1rba."
+    }, 
+    "Set As Default Commander": {
+        "message": "Be\u00e1ll\u00edt\u00e1s Alap\u00e9rtelmezett Parancsnokk\u00e9nt"
+    }, 
+    "Thank you for your purchase.": {
+        "message": "K\u00f6sz\u00f6nj\u00fck a v\u00e1s\u00e1rl\u00e1st."
+    }, 
+    "Total:": {
+        "message": "V\u00e9g\u00f6sszeg:"
+    }, 
+    "Updating...": {
+        "message": "Friss\u00edt\u00e9s..."
+    }, 
+    "Your cart is empty.": {
+        "message": "A kosarad \u00fcres."
+    }, 
+    "Your purchased items are now registered to your account and are accessible in the game.": {
+        "message": "A v\u00e1s\u00e1rolt t\u00e9teleidet regisztr\u00e1ltuk a sz\u00e1ml\u00e1dra \u00e9s el\u00e9rhet\u0151ek j\u00e1t\u00e9kon bel\u00fcl."
+    }
+}

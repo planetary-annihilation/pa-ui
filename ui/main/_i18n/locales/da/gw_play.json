@@ -1,0 +1,77 @@
+{
+    "AI:": {
+        "message": "AI:"
+    }, 
+    "Abandon War": {
+        "message": "Abandon War"
+    }, 
+    "Card:": {
+        "message": "Card:"
+    }, 
+    "Date:": {
+        "message": "Dato:"
+    }, 
+    "Delete Tech": {
+        "message": "Slet Teknologi"
+    }, 
+    "Dismiss": {
+        "message": "AFVIS"
+    }, 
+    "Download Tech": {
+        "message": "Download Teknologi"
+    }, 
+    "Exit": {
+        "message": "Exit"
+    }, 
+    "Explore": {
+        "message": "Udforsk"
+    }, 
+    "Fight": {
+        "message": "K\u00e6mp"
+    }, 
+    "Give tech": {
+        "message": "Give tech"
+    }, 
+    "History:": {
+        "message": "Historie:"
+    }, 
+    "Jump": {
+        "message": "Hop"
+    }, 
+    "Load game": {
+        "message": "Indl\u00e6s spil"
+    }, 
+    "Preparing for battle": {
+        "message": "Forbereder til kamp"
+    }, 
+    "Record:": {
+        "message": "Rekord:"
+    }, 
+    "Reject Tech": {
+        "message": "Afvis Teknologi"
+    }, 
+    "Save": {
+        "message": "Gem"
+    }, 
+    "Scanning System": {
+        "message": "Scanner System"
+    }, 
+    "Settings": {
+        "message": "Indstillinger"
+    }, 
+    "TECHS": {
+        "message": "TECHS"
+    }, 
+    "Turn State:": {
+        "message": "Turn State:"
+    }, 
+    "Unlock Commander": {
+        "message": "Unlock Commander"
+    }, 
+    "loss": {
+        "message": "tab"
+    }, 
+    "win /": {
+        "message": "win /"
+    }
+}

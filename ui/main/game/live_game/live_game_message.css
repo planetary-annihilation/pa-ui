@@ -1,0 +1,157 @@
+.body_panel {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    
+    display: flex;
+    flex-grow: 0;
+    flex-shrink: 0;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: stretch;
+}
+
+/* UTILITY */
+.receiveMouse {
+    pointer-events: all;
+}
+
+.ignoreMouse {
+    pointer-events: none;
+}
+
+/*----- Message
+-----------------------------------------------------------------*/
+
+.div_message_display_cont {
+    width: 100%;
+    border-radius: 0px;
+    margin: 0 auto;
+    position:relative;
+    text-align:center;
+}
+
+.div_instruct_bar {
+    width: 100%;
+    background: rgba(0,0,0,.55);
+}
+
+.message_display_text {
+    font-family: 'Sansation Bold';
+    font-size: 24px;
+    color: #fff;
+    padding: 10px 0px 10px 0px;
+    color: white;
+    text-shadow: 0px 0px 30px #00b3ff;
+}
+
+.message_helper, .message_helper div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-shrink:0;
+}
+
+.message_helper {
+    background: rgba(0,0,0,.5);
+    padding: 8px 0px;
+    font-size: 16px;
+}
+
+.message_helper_item {
+    margin-right: 24px;
+}
+
+.helper_img {
+    margin: 0px 8px 0px 0px;
+}
+
+.img_mouse {
+    height: auto;
+}
+
+.div_commit_bar {
+    width: 100%;
+    background: rgba(0,0,0,.8);
+}
+
+.div_commit_background {
+    z-index: -1;
+    width: 100%;
+    position: absolute;
+    height: 100%;
+    z-index: -1;
+    text-align: center;
+}
+
+    .div_commit_background .text {
+        width: 2200px;
+        font-size: 172px;
+        font-family: 'Sansation Bold';
+        color: rgba(255,0,0,1);
+        margin: -25px 0px 0px 0px;
+        text-align: left;
+        position:absolute;
+    }
+
+
+.div_commit_foreground {
+    padding: 20px 10px 32px;
+    border: 1px solid rgba(255,255,255,.1);
+    border-width: 1px 0px 1px 0px;
+    box-shadow: 0px 0px 40px #000;
+}
+
+.btn_commit_border {
+    display: inline-block;
+    box-shadow: 0px 0px 100px rgba(255,0,0,.7);
+}
+
+input[type="button"] {
+    font-size: 28px;
+    padding: 18px 40px;
+    color: #fff;
+    text-transform:uppercase;
+}
+
+input.btn_spawn_commander {
+    color: #fff;
+    text-shadow: 0px 0px 40px #ff0000;
+    box-shadow: inset 0px 0px 10px rgba(255,255,255,.2);
+}
+
+input.btn_spawn_commander:hover {
+    background:#380000;
+}
+
+input.btn_spawn_commander:active {
+    background:#ff0000;
+}
+
+input.btn_attack {
+    color: #fff;
+    text-shadow: 0px 0px 40px #ff0000;
+    box-shadow: 0px 0px 130px rgba(255,0,0,.7);
+}
+
+@-webkit-keyframes slide_to_left {
+    0% {
+        left: 30%;
+    }
+
+    100% {
+        left: -2200px;
+    }
+}
+
+#text_slide_top {
+    -webkit-animation-name: slide_to_left;
+    -webkit-animation-duration: 60s;
+    -webkit-animation-timing-function: linear;
+    -webkit-animation-iteration-count: 1;
+    -webkit-animation-direction: normal;
+    -webkit-animation-delay: 0;
+    -webkit-animation-play-state: running;
+    -webkit-animation-fill-mode: forwards;
+}

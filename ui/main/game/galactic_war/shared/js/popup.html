@@ -1,0 +1,13 @@
+<div class="div_popup_overlay" data-bind="visible: showPopUp" style="display:none">
+    <div class="div_popup">
+        <div class="div_popup_panel">
+            <div class="interior">
+                <div class="div_popup_primary_msg" data-bind="html: popUpPrimaryMsg"></div>
+                <div class="commit attendmouse">
+                    <input type="button" value="" class="btn_std btn_panel" data-bind="visible: popUpPrimaryButtonTag, click: popUpPrimaryButtonAction, value: loc(popUpPrimaryButtonTag()), click_sound: 'default', rollover_sound: 'default'" style="font-size:16px;" />
+                    <input type="button" value="" class="btn_std btn_panel" data-bind="visible: popUpSecondaryButtonTag, click: popUpSecondaryButtonAction, value: loc(popUpSecondaryButtonTag()), click_sound: 'default', rollover_sound: 'default'" style="font-size:16px;" />
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

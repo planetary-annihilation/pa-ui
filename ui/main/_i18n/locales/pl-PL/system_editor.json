@@ -1,0 +1,107 @@
+{
+    "Accept": {
+        "message": "Akceptuj"
+    }, 
+    "CLEAR SYSTEM": {
+        "message": "WYCZY\u015a\u0106 SYSTEM"
+    }, 
+    "CLOSE": {
+        "message": "ZAMKNIJ"
+    }, 
+    "Cancel": {
+        "message": "Anuluj"
+    }, 
+    "Discard": {
+        "message": "Odrzu\u0107"
+    }, 
+    "Do you want to save this system?": {
+        "message": "Chcesz zapisac ten system?"
+    }, 
+    "EDIT PLANET": {
+        "message": "EDYTUJ PLANET\u0118"
+    }, 
+    "HIDE": {
+        "message": "UKRYJ"
+    }, 
+    "Height": {
+        "message": "WYSOKO\u015a\u0106"
+    }, 
+    "MY PLANETS": {
+        "message": "MOJE PLANETY"
+    }, 
+    "Mass": {
+        "message": "MASA"
+    }, 
+    "NAME:": {
+        "message": "NAZWA:"
+    }, 
+    "PREVIEW ALL": {
+        "message": "PODGL\u0104D CA\u0141O\u015aCI"
+    }, 
+    "Position": {
+        "message": "POZYCJA"
+    }, 
+    "RECENT": {
+        "message": "NIEDAWNE"
+    }, 
+    "REMOVE": {
+        "message": "USU\u0143"
+    }, 
+    "Radius": {
+        "message": "WIELKO\u015a\u0106"
+    }, 
+    "SAVE SYSTEM": {
+        "message": "ZAPISZ SYSTEM"
+    }, 
+    "SHOW": {
+        "message": "POKA\u017b"
+    }, 
+    "SIMULATE": {
+        "message": "SYMULUJ"
+    }, 
+    "SYSTEM DESIGNER": {
+        "message": "EDYTOR SYSTEMU"
+    }, 
+    "Save": {
+        "message": "Zapisz"
+    }, 
+    "System has no starting planet.": {
+        "message": "System nie posiada planety startowej."
+    }, 
+    "System radius is too large.": {
+        "message": "Zbyt du\u017cy zasi\u0119g systemu."
+    }, 
+    "System radius is too small.": {
+        "message": "Zbyt ma\u0142y zasi\u0119g systemu."
+    }, 
+    "TEMPLATES": {
+        "message": "SZABLONY"
+    }, 
+    "Temp": {
+        "message": "TEMP"
+    }, 
+    "The planet is loading. This can take a long time.": {
+        "message": "Planeta jest wczytywana. Mo\u017ce to zaj\u0105\u0107 dlu\u017csz\u0105 chwil\u0119."
+    }, 
+    "The program will be unresponsive until the planet has finished.": {
+        "message": "Aplikacja b\u0119dzie nieodpowiada\u0107 dop\u00f3ki planeta nie zostanie sko\u0144czona."
+    }, 
+    "The system has been changed since it was last saved.": {
+        "message": "Ten system zostal zmieniony od czasu ostatniego zapisu."
+    }, 
+    "The system has not been saved.": {
+        "message": "System nie zosta\u0142 zapisany."
+    }, 
+    "Velocity": {
+        "message": "PR\u0118DKO\u015a\u0106"
+    }, 
+    "Water": {
+        "message": "WODA"
+    }, 
+    "X:": {
+        "message": "X"
+    }, 
+    "Y:": {
+        "message": "Y:"
+    }
+}

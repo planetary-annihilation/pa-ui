@@ -1,0 +1,26 @@
+{
+    "Annihilated": {
+        "message": "Annihilated"
+    }, 
+    "Close": {
+        "message": "Sulje"
+    }, 
+    "Delete Archive": {
+        "message": "Delete Archive"
+    }, 
+    "Discards": {
+        "message": "Discards"
+    }, 
+    "Final Tech": {
+        "message": "Final Tech"
+    }, 
+    "Turns:": {
+        "message": "Turns:"
+    }, 
+    "Victory": {
+        "message": "Victory"
+    }, 
+    "Wins:": {
+        "message": "Wins:"
+    }
+}

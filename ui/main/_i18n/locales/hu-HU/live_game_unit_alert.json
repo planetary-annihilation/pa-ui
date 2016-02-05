@@ -1,0 +1,29 @@
+{
+    "Allied": {
+        "message": "Sz\u00f6vets\u00e9ges"
+    }, 
+    "Enemy Contact!": {
+        "message": "Ellens\u00e9ges \u00c9rintkez\u00e9s!"
+    }, 
+    "Ping!": {
+        "message": "Jel\u00f6l\u00e9s!"
+    }, 
+    "destroyed.": {
+        "message": "elpuszt\u00edtva."
+    }, 
+    "launched!": {
+        "message": "kil\u0151ve!"
+    }, 
+    "located.": {
+        "message": "\u00e9szlelve."
+    }, 
+    "lost.": {
+        "message": "elvesztett."
+    }, 
+    "ready.": {
+        "message": "k\u00e9sz."
+    }, 
+    "under attack.": {
+        "message": "megt\u00e1madt\u00e1k."
+    }
+}

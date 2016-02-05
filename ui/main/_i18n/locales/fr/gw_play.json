@@ -1,0 +1,83 @@
+{
+    "Acquire": {
+        "message": "Obtenir"
+    }, 
+    "All progress and Tech will be lost.": {
+        "message": "Votre progression et vos technologies seront perdues."
+    }, 
+    "Are you sure you want to abandon this Galactic War?": {
+        "message": "Êtes-vous sûr de vouloir abandonner cette Guerre galactique ?"
+    }, 
+    "Continue": {
+        "message": "Continuer"
+    }, 
+    "Data Cache Discovered": {
+        "message": "Dépôt de données découvert"
+    }, 
+    "Delete Tech": {
+        "message": "Effacer la technologie"
+    }, 
+    "Dismiss Tech": {
+        "message": "Rejeter la technologie"
+    }, 
+    "Duplicate Tech": {
+        "message": "Reproduire la technologie"
+    }, 
+    "Exit": {
+        "message": "Quitter"
+    }, 
+    "Explore": {
+        "message": "Explorer"
+    }, 
+    "Fight": {
+        "message": "Combattre"
+    }, 
+    "Game Menu": {
+        "message": "Menu du jeu"
+    }, 
+    "Jump": {
+        "message": "Sauter"
+    }, 
+    "Loading...": {
+        "message": "Chargement..."
+    }, 
+    "Preparing for battle": {
+        "message": "Préparation de la bataille"
+    }, 
+    "Restart": {
+        "message": "Recommencer"
+    }, 
+    "Save": {
+        "message": "SAUVEGARDER"
+    }, 
+    "Saving...": {
+        "message": "Sauvegarde en cours..."
+    }, 
+    "Scanning System": {
+        "message": "Analyse du système"
+    }, 
+    "Select a technology to develop using this data.": {
+        "message": "Sélectionner une technologie à développer à l'aide de ces données."
+    }, 
+    "Settings": {
+        "message": "Paramètres"
+    }, 
+    "Social Bar": {
+        "message": "Barre sociale"
+    }, 
+    "TECHS": {
+        "message": "TECHNOLOGIES"
+    }, 
+    "Tech Bank is full. To develop new technology, select an existing tech and delete it to open a slot.": {
+        "message": "La banque de technologies est pleine. Si vous souhaitez développer une nouvelle technologie, sélectionnez une technique et effacez-la pour libérer un emplacement."
+    }, 
+    "Turns:": {
+        "message": "Tours :"
+    }, 
+    "Unlock Commander": {
+        "message": "Déverrouiller le Commandeur"
+    }, 
+    "Wins:": {
+        "message": "Victoires :"
+    }
+}

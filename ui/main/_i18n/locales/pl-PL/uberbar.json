@@ -1,0 +1,110 @@
+{
+    "Accept": {
+        "message": "Akceptuj"
+    }, 
+    "Appear Offline": {
+        "message": "Pojaw si\u0119 jako \"Niepod\u0142\u0105czony\""
+    }, 
+    "Away": {
+        "message": "Nieobecny"
+    }, 
+    "Block": {
+        "message": "Blokuj"
+    }, 
+    "CANCEL": {
+        "message": "ANULUJ"
+    }, 
+    "CHANGE": {
+        "message": "ZMIE\u0143"
+    }, 
+    "Change Display Name": {
+        "message": "Zmie\u0144 wy\u015bwietlan\u0105 nazw\u0119"
+    }, 
+    "Change your display name?": {
+        "message": "Zmieni\u0107 wy\u015bwietlan\u0105 nazw\u0119 ?"
+    }, 
+    "Chat": {
+        "message": "Czat"
+    }, 
+    "Do Not Disturb": {
+        "message": "Nie Przeszkadza\u0107"
+    }, 
+    "Friends": {
+        "message": "Znajomi"
+    }, 
+    "Ignore": {
+        "message": "Ignoruj"
+    }, 
+    "Invite to Chat": {
+        "message": "Zapro\u015b do rozmowy"
+    }, 
+    "Invite to game": {
+        "message": "Zapro\u015b do gry"
+    }, 
+    "Join Game": {
+        "message": "Do\u0142\u0105cz do gry"
+    }, 
+    "New Display Name:": {
+        "message": "Nowa wy\u015bwietlana nazwa:"
+    }, 
+    "No pending notifications.": {
+        "message": "Brak oczekuj\u0105cych powiadomie\u0144."
+    }, 
+    "Offline": {
+        "message": "Niepo\u0142\u0105czony"
+    }, 
+    "Online": {
+        "message": "Po\u0142\u0105czony"
+    }, 
+    "Pending Invite": {
+        "message": "Oczekuj\u0105ce zaproszenia"
+    }, 
+    "Recent": {
+        "message": "Niedawne"
+    }, 
+    "Remove": {
+        "message": "Usu\u0144"
+    }, 
+    "Search Results": {
+        "message": "Wyniki wyszukiwania"
+    }, 
+    "Send Friend Request": {
+        "message": "Wy\u015blij Pro\u015bb\u0119 o Przyja\u017a\u0144"
+    }, 
+    "Unblock": {
+        "message": "Odblokuj"
+    }, 
+    "Unfriend": {
+        "message": "Usu\u0144 znajomego"
+    }, 
+    "Users": {
+        "message": "U\u017cytkownicy"
+    }, 
+    "[B]": {
+        "message": "[B]"
+    }, 
+    "[CHAT]": {
+        "message": "[CZAT]"
+    }, 
+    "[F]": {
+        "message": "[F]"
+    }, 
+    "[I]": {
+        "message": "[I]"
+    }, 
+    "[REMOVE]": {
+        "message": "[USU\u0143]"
+    }, 
+    "[Tags:": {
+        "message": "[Tagi:"
+    }, 
+    "invited you to a game.": {
+        "message": "zaprosi\u0142 Ci\u0119 do gry."
+    }, 
+    "invited you to chat.": {
+        "message": "zaprosi\u0142 ci\u0119 do rozmowy."
+    }, 
+    "wants to be your friend.": {
+        "message": "chce by\u0107 Twoim znajomym."
+    }
+}

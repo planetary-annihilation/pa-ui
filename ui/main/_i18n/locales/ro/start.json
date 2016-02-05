@@ -1,0 +1,140 @@
+{
+    "Account information sent": {
+        "message": "Informa\u0163ii despre Cont trimise"
+    }, 
+    "Accounts linked": {
+        "message": "Conturi legate"
+    }, 
+    "An email with a link to recover your account was sent to username@domain.com.": {
+        "message": "Un email cu un link pentru a v\u0103 recupera contul a fost trimis la username@domain.com."
+    }, 
+    "Armory": {
+        "message": "Depozit de arme"
+    }, 
+    "CONTINUE TO MAIN MENU": {
+        "message": "CONTINU\u0102 C\u0102TRE MENIUL PRINCIPAL"
+    }, 
+    "CREATE ACCOUNT AND LINK": {
+        "message": "CREEAZ\u0102 CONT \u015eI LEAG\u0102-L"
+    }, 
+    "Channels Streaming": {
+        "message": "Canale care Transmit"
+    }, 
+    "Click here.": {
+        "message": "Apas\u0103 aici."
+    }, 
+    "Confirm Password:": {
+        "message": "Confirm\u0103 Parola:"
+    }, 
+    "Email address already exists": {
+        "message": "Adresa de email exist\u0103 deja"
+    }, 
+    "Email address is invalid": {
+        "message": "Adresa de email este invalid\u0103"
+    }, 
+    "Email:": {
+        "message": "Email:"
+    }, 
+    "Forgot username or password?": {
+        "message": "Ai uitat numele de utilizator sau parola?"
+    }, 
+    "Incorrect username or password. Please check your entry and try again.": {
+        "message": "Nume de utilizator sau parol\u0103 incorecte. V\u0103 rug\u0103m verifica\u0163i \u015fi \u00eencerca\u0163i din nou."
+    }, 
+    "New Build Available:": {
+        "message": "Versiune Nou\u0103 Disponibil\u0103"
+    }, 
+    "Password": {
+        "message": "Parola"
+    }, 
+    "Passwords are different": {
+        "message": "Parolele sunt diferite"
+    }, 
+    "Please choose a default region.": {
+        "message": "Alege o regiune de baz\u0103."
+    }, 
+    "Please try again later. If this error persists, please contact support and check the forums.": {
+        "message": "Please try again later. If this error persists, please contact support and check the forums."
+    }, 
+    "Please try to link your account at": {
+        "message": "V\u0103 rug\u0103m s\u0103 v\u0103 lega\u0163i contul la"
+    }, 
+    "Problem with Steam Account.": {
+        "message": "Problem\u0103 cu Contul Steam."
+    }, 
+    "Quit": {
+        "message": "P\u0103r\u0103se\u015fte"
+    }, 
+    "RETURN TO SIGN IN": {
+        "message": "\u00ceNTOARCE-TE PENTRU A TE CONECTA"
+    }, 
+    "Reconnecting to Game": {
+        "message": "Reconect\u00e2nd la Joc"
+    }, 
+    "Settings": {
+        "message": "Set\u0103ri"
+    }, 
+    "Sign in": {
+        "message": "Conecteaz\u0103-te"
+    }, 
+    "System Designer": {
+        "message": "Proiectant de Sisteme"
+    }, 
+    "There are no regions available for this build version.": {
+        "message": "There are no regions available for this build version."
+    }, 
+    "This shouldn't happen. Please contact us at": {
+        "message": "Asta nu ar trebui s\u0103 se \u00eent\u00e2mple. V\u0103 rug\u0103m s\u0103 ne contacta\u0163i la"
+    }, 
+    "This title has not been activated.": {
+        "message": "Acest titlu nu a fost activat."
+    }, 
+    "Twitch": {
+        "message": "Twitch"
+    }, 
+    "Unable to Sign In": {
+        "message": "Conectare Nereu\u015fit\u0103"
+    }, 
+    "User account has not been linked to steam.": {
+        "message": "Contul de utilizator nu a fost legat de steam."
+    }, 
+    "Username": {
+        "message": "Nume de Utilizator"
+    }, 
+    "Username already exists": {
+        "message": "Numele de utilizator exist\u0103 deja"
+    }, 
+    "Videos": {
+        "message": "Clipuri Video"
+    }, 
+    "You are already assigned to a game.": {
+        "message": "E\u015fti deja alocat unui joc."
+    }, 
+    "You can change the region later in the settings menu.": {
+        "message": "You can change the region later in the settings menu."
+    }, 
+    "You need a new client to play the game. Steam users may need to restart Steam to get the new client.": {
+        "message": "Ai nevoie de un client nou pentru a juca jocul. Utilizatorii Steam vor trebui s\u0103 reporneasc\u0103 Steam pentru a ob\u0163ine noul client."
+    }, 
+    "Your account has been banned.": {
+        "message": "Contul dumneavoastr\u0103 a fost interzis."
+    }, 
+    "Your account has been banned. If you believe this is in error, contact us at": {
+        "message": "Contul t\u0103u a fost interzis. Dac\u0103 a fost o eroare, contacteaz\u0103-ne la"
+    }, 
+    "Your default region is currently unavailable. Please choose a different region.": {
+        "message": "Regiunea dumneavoastr\u0103 nu este momentan disponibil\u0103. V\u0103 rug\u0103m s\u0103 alege\u0163i alt\u0103 regiune."
+    }, 
+    "Your steam account does not own this application.": {
+        "message": "Contul t\u0103u Steam nu de\u0163ine aceast\u0103 aplica\u0163ie."
+    }, 
+    "set by code": {
+        "message": "seteaz\u0103 dup\u0103 cod"
+    }, 
+    "viewers": {
+        "message": "spectatori"
+    }, 
+    "\u00a9 2014 Uber Entertainment Inc.": {
+        "message": "\u00a9 2014 Uber Entertainment Inc."
+    }
+}

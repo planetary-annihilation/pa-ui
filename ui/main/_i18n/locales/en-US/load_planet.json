@@ -1,0 +1,59 @@
+{
+    "CANCEL": {
+        "message": "CANCEL"
+    }, 
+    "DELETE": {
+        "message": "DELETE"
+    }, 
+    "Delete": {
+        "message": "Delete"
+    }, 
+    "Delete this system?": {
+        "message": "Delete this system?"
+    }, 
+    "Edit System": {
+        "message": "Edit System"
+    }, 
+    "Export": {
+        "message": "Export"
+    }, 
+    "Import": {
+        "message": "Import"
+    }, 
+    "Load System": {
+        "message": "Load System"
+    }, 
+    "Metal Spots: __num_metal_spots__": {
+        "message": "Metal Spots: __num_metal_spots__"
+    }, 
+    "New system": {
+        "message": "New system"
+    }, 
+    "No Metal": {
+        "message": "No Metal"
+    }, 
+    "Radius: __radius__": {
+        "message": "Radius: __radius__"
+    }, 
+    "SHOW PLANETS": {
+        "message": "SHOW PLANETS"
+    }, 
+    "SHOW SYSTEMS": {
+        "message": "SHOW SYSTEMS"
+    }, 
+    "Starting Planet": {
+        "message": "Starting Planet"
+    }, 
+    "System Designer": {
+        "message": "System Designer"
+    }, 
+    "Thrusters Required": {
+        "message": "Thrusters Required"
+    }, 
+    "__min_players__-__max_players__ Players": {
+        "message": "__min_players__-__max_players__ Players"
+    }, 
+    "__num_players__ Players": {
+        "message": "__num_players__ Players"
+    }
+}

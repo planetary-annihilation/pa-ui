@@ -1,0 +1,26 @@
+{
+    "Annihilated": {
+        "message": "Vernietigd"
+    }, 
+    "Close": {
+        "message": "Sluiten"
+    }, 
+    "Delete Archive": {
+        "message": "Verwijder Archief"
+    }, 
+    "Discards": {
+        "message": "Afgedankt"
+    }, 
+    "Final Tech": {
+        "message": "Laatste Tech"
+    }, 
+    "Turns:": {
+        "message": "Beurten:"
+    }, 
+    "Victory": {
+        "message": "Victorie"
+    }, 
+    "Wins:": {
+        "message": "Overwinningen:"
+    }
+}

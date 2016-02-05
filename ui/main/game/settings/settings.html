@@ -1,0 +1,279 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html class="use-ui-scale" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta content="text/html; charset=utf-8" http-equiv="Content-Type" />
+    <noloc><title>Game Settings</title></noloc>
+    <link href="bundle://boot/boot.css" rel="stylesheet" type="text/css" />
+
+    <script src="bundle://boot/boot.js" type="text/javascript"></script>
+    <script src="coui://ui/main/shared/js/thirdparty/slider/js/bootstrap-slider.js" type="text/javascript"></script>
+    <script src="settings.js" type="text/javascript"></script>
+    <link href="coui://ui/main/shared/js/thirdparty/slider/css/slider.css" rel="stylesheet" type="text/css" />
+    <link href="coui://ui/main/shared/css/landing_page.css" rel="stylesheet" type="text/css" />
+    <link href="settings.css" rel="stylesheet" type="text/css" />
+</head>
+<body data-bind="css: { body_panel: inPanel }, event: { keydown: captureKey, keyup: captureCurrentCombo }">
+
+    <!--- VISUAL TREATMENTS --->
+    <div class="background_glow"></div>
+
+    <!-- TITLE -->
+    <div class="section_title section_title_centered">
+        <loc>Settings</loc>
+    </div>
+    <div class="content_titans_badge modal_page" style="display: none;" data-bind="visible: api.content.usingTitans, css: { in_game: inPanel }">
+    </div>
+
+    <!-- CONTENT --->
+    <div class="section_content_top_bar">
+        <!-- TABS -->
+        <div class="tab_cont">
+            <div class="tabs">
+                <ul class="nav-pills">
+                    <!-- ko foreach: settingGroups -->
+                    <li data-bind="css: { 'active': $index() === $root.activeSettingsGroupIndex() }">
+                        <a data-toggle="pill" href="#ui"
+                            data-bind="click_sound: 'default',
+                            rollover_sound: 'default',
+                            text: loc ( model.settingDefinitions()[$data].title ),
+                            click: function () { model.activeSettingsGroupIndex($index()) }"></a>
+                    </li>
+                    <!-- /ko -->
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="section_content" style="background: rgba(0, 0, 0, 0.65);">
+            <div class="section_wrapper">
+
+                <script type="text/html" id="setting-template">
+
+                    <!-- ko ifnot: $data.type() === 'keybind' -->
+                    <label for="settings_item" data-bind="text: loc( $data.title() )"></label>
+
+                    <!-- ko if: $data.type() === 'select' -->
+                    <select class="selectpicker form-control" name="dropdown"
+                        data-bind="options: $data.options,
+                        optionsValue: function (item) { return item.value },
+                        optionsText: function (item) { return loc( item.text ) },
+                        selectPicker: $data.value,
+                        attr: { disabled: !$data.isEnabled }">
+                    </select>
+                    <!-- /ko -->
+
+                    <!-- ko if: $data.type() === 'slider' -->
+                    <input type="text" id="Text2" class="slider" value=""
+                        data-slider-handle="square" data-slider-orientation="horizontal" data-slider-selection="none" data-slider-tooltip="hide"
+                        data-bind="slider: { value: $data.value, options: $data.options }" />
+                    <!-- /ko -->
+                    <!-- /ko -->
+
+                    <!-- ko if: $data.type() === 'keybind' -->
+                    <div class="one-keybind" data-bind="click: $data.setAsActiveKey">
+                        <div class="label_cont">
+                            <label data-bind="text: loc( $data.title() )"></label>
+                        </div>
+                        <div class="bind_cont">
+                            <input type="text" class="form-control" disabled data-bind="value: $data.value, css: { active: active }" />
+                            <div class="close" data-bind="click: $data.clear, click_sound: 'default', rollover_sound: 'default', visible: $data.showClear, clickBubble: false"></div>
+                        </div>
+                        <div class="conflict" data-bind="visible: $data.hasConflict">
+                            <span class="prefix" data-bind="text: conflictLabel"></span>
+                            <!-- ko foreach: $data.conflicts -->
+                                <!--ko if: $index() != 0-->
+                                <span class="separator">/</span>
+                                <!--/ko-->
+                                <span class="item">
+                                    <span class="label_cont">
+                                        <label data-bind="text: loc($data.title())"></label>
+                                    </span>
+                                </span>
+                            <!-- /ko -->
+                        </div>
+                    </div>
+                    <!-- /ko -->
+                </script>
+
+                <div class="container_centered container_settings">
+
+                    <div class="option-list graphics" id="settings_group_0" data-bind="visible: ($root.activeSettingsGroupIndex() === 0), deferBindingsUntilVisible: true">
+                        <div class="form-group">
+                            <div class="sub-group top">
+                                <div class="option" data-bind="template: { name: 'setting-template', data: $root.settingsItemMap()['graphics.quality'] }"></div>
+                            </div>
+                            <div class="sub-group">
+                                <div class="option" data-bind="template: { name: 'setting-template', data: $root.settingsItemMap()['graphics.texture'] }"></div>
+                                <div class="option" data-bind="template: { name: 'setting-template', data: $root.settingsItemMap()['graphics.headlights'] }"></div>
+                                <div class="option" data-bind="template: { name: 'setting-template', data: $root.settingsItemMap()['graphics.shadows'] }"></div>
+                                <div class="option" data-bind="template: { name: 'setting-template', data: $root.settingsItemMap()['graphics.ambient_occlusion'] }"></div>
+                                <div class="option" data-bind="template: { name: 'setting-template', data: $root.settingsItemMap()['graphics.anti_aliasing'] }"></div>
+                                <div class="option" data-bind="template: { name: 'setting-template', data: $root.settingsItemMap()['graphics.hdr'] }"></div>
+                            </div>
+                            <div class="sub-group">
+                                <div class="option" data-bind="template: { name: 'setting-template', data: $root.settingsItemMap()['graphics.resolution_scaling'] }"></div>
+                            </div>
+                            <div class="sub-group">
+                                <div class="option" data-bind="template: { name: 'setting-template', data: $root.settingsItemMap()['graphics.display_mode'] }"></div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="option-list audio" data-bind="visible: ($root.activeSettingsGroupIndex() === 1), deferBindingsUntilVisible: true">
+                        <div class="form-group">
+                            <div class="sub-group top">
+                                <div class="option slider" data-bind="template: { name: 'setting-template', data: $root.settingsItemMap()['audio.master'] }"></div>
+                            </div>
+                            <div class="sub-group">
+                                <div class="option slider" data-bind="template: { name: 'setting-template', data: $root.settingsItemMap()['audio.music'] }"></div>
+                                <div class="option slider" data-bind="template: { name: 'setting-template', data: $root.settingsItemMap()['audio.voice'] }"></div>
+                                <div class="option slider" data-bind="template: { name: 'setting-template', data: $root.settingsItemMap()['audio.sfx'] }"></div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="option-list camera" data-bind="visible: ($root.activeSettingsGroupIndex() === 2), deferBindingsUntilVisible: true">
+                        <div class="form-group">
+                            <div class="sub-group top">
+                                <div class="option slider" data-bind="template: { name: 'setting-template', data: $root.settingsItemMap()['camera.mouse_pan_speed'] }"></div>
+                                <div class="option slider" data-bind="template: { name: 'setting-template', data: $root.settingsItemMap()['camera.key_pan_speed'] }"></div>
+                                <div class="option slider" data-bind="template: { name: 'setting-template', data: $root.settingsItemMap()['camera.zoom_speed'] }"></div>
+                                <div class="option slider" data-bind="template: { name: 'setting-template', data: $root.settingsItemMap()['camera.camera_friction'] }"></div>
+                            </div>
+                            <div class="sub-group">
+                                <div class="option" data-bind="template: { name: 'setting-template', data: $root.settingsItemMap()['camera.edge_scroll_options'] }"></div>
+                            </div>
+                            <div class="sub-group">
+                                <div class="option" data-bind="template: { name: 'setting-template', data: $root.settingsItemMap()['camera.pole_lock'] }"></div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="option-list ui" data-bind="visible: ($root.activeSettingsGroupIndex() === 3), deferBindingsUntilVisible: true">
+                        <div class="form-group">
+                            <div class="sub-group top" data-bind="visible: api.content.ownsTitans()">
+                                <div class="option" data-bind="template: { name: 'setting-template', data: $root.settingsItemMap()['ui.active_expansion'] }, css: { disabled: $root.inPanel }"></div>
+                            </div>
+                            <div class="sub-group-title"><loc>User Interface</loc></div>
+                            <div class="sub-group top">
+                                <div class="option" data-bind="template: { name: 'setting-template', data: $root.settingsItemMap()['ui.language'] }, css: { disabled: $root.inPanel }"></div>
+                                <div class="option slider" data-bind="template: { name: 'setting-template', data: $root.settingsItemMap()['ui.ui_scale'] }"></div>
+                            </div>
+                            <div class="sub-group">
+                                <div class="option" data-bind="template: { name: 'setting-template', data: $root.settingsItemMap()['ui.show_unit_icons'] }"></div>
+                                <div class="option" data-bind="template: { name: 'setting-template', data: $root.settingsItemMap()['ui.show_metal_spot_icons'] }"></div>
+                                <div class="option slider" data-bind="template: { name: 'setting-template', data: $root.settingsItemMap()['ui.icon_display_distance'] }"></div>
+                            </div>
+                            <div class="sub-group">
+                                <div class="option" data-bind="template: { name: 'setting-template', data: $root.settingsItemMap()['ui.show_stat_bars'] }"></div>
+                            </div>
+                            <div class="sub-group">
+                                <div class="option" data-bind="template: { name: 'setting-template', data: $root.settingsItemMap()['ui.show_orders'] }"></div>
+                                <div class="option" data-bind="template: { name: 'setting-template', data: $root.settingsItemMap()['ui.order_behavior'] }"></div>
+                            </div>
+                            <div class="sub-group">
+                                <div class="option" data-bind="template: { name: 'setting-template', data: $root.settingsItemMap()['ui.show_build_previews'] }"></div>
+                                <div class="option" data-bind="template: { name: 'setting-template', data: $root.settingsItemMap()['ui.build_preview_behavior'] }"></div>
+                            </div>
+                            <div class="sub-group">
+                                <div class="option" data-bind="template: { name: 'setting-template', data: $root.settingsItemMap()['ui.orbital_shell'] }"></div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="option-list server" data-bind="visible: ($root.activeSettingsGroupIndex() === 4), deferBindingsUntilVisible: true">
+                        <div class="form-group">
+                            <div class="option">
+                                <label for="uberNetRegion">
+                                    <loc>SERVER</loc>
+                                </label>
+                                <select class="selectpicker form-control" id="uberNetRegion" name="dropdown"
+                                    data-bind="options: uberNetRegions, optionsText: function (item) { return item.Name; }, optionsValue: function (item) { return item.Name; }, selectPicker: selectedUberNetRegion">
+                                </select>
+                            </div>
+                        </div>
+                        <div class="warn-group">
+                            <div class="option" data-bind="template: { name: 'setting-template', data: $root.settingsItemMap()['server.local'] }"></div>
+                            <div class="warning" style="display: none" data-bind="visible: showNoLocalServerWarning">
+                                <loc>Local server is not available on your configuration.  (64-bit OS required)</loc>
+                            </div>
+                            <div class="warning" style="display: none" data-bind="visible: showDiscourageLocalServerWarning">
+                                <loc>Local server is not recommended on your configuration.  (4 CPU cores and 8GB of memory recommended.)</loc>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="option-list keyboard" data-bind="visible: ($root.activeSettingsGroupIndex() === 5), deferBindingsUntilVisible: true">
+                        <!-- TABS -->
+                        <div class="tab_cont">
+                            <div class="tabs">
+                                <ul class="nav-pills">
+                                    <!-- ko foreach: keybindGroupTitles -->
+                                    <li data-bind="css: { 'active': $index() === $root.activeKeyboardGroupIndex() }">
+                                        <a data-toggle="pill" href="#ui"
+                                            data-bind="click_sound: 'default',
+                                            rollover_sound: 'default',
+                                            text: loc ( $data ),
+                                            click: function () { $root.activeKeyboardGroupIndex($index()) }"></a>
+                                    </li>
+                                    <!-- /ko -->
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="section_cont">
+                            <!-- ko foreach: $root.keybindGroupTitles() -->
+                            <div class="one-keybind-group clearfix" data-bind="visible: $index() === $root.activeKeyboardGroupIndex()">
+                                <!-- ko foreach: $root.keybindSubGroupTitles($data) -->
+                                <div class="sub-group-title" data-bind="text: loc( $data )"></div>
+                                <!-- ko foreach: $root.keybindSubGroupData($parent, $data) -->
+                                <div data-bind="template: { name: 'setting-template', data: $root.settingsItemMap()[$data] }"></div>
+                                <!-- /ko -->
+                                <!-- /ko -->
+                            </div>
+                            <!-- /ko -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </div>
+    <!-- COMMIT -->
+    <div class="div_commit_cont centered">
+        <div class="container_centered">
+            <div class="div_commit_btns">
+                <div style="position: absolute; left: 0">
+                    <div id="command" class="btn_std"
+                        data-bind="click: restoreGroupDefaults, click_sound: 'default', rollover_sound: 'default', css: { disabled: isDefault }">
+                        <div class="btn_label small">
+                            <loc>Restore Tab Defaults</loc>
+                        </div>
+                    </div>
+                    <div id="command" class="btn_std"
+                        data-bind="click: restoreDefaults, click_sound: 'default', rollover_sound: 'default', css: { disabled: isDefault }">
+                        <div class="btn_label small">
+                            <loc>Restore All Defaults</loc>
+                        </div>
+                    </div>
+                </div>
+                <div class="btn_std" data-bind="click: save, click_sound: 'default', rollover_sound: 'default', css: { disabled: clean }">
+                    <div class="btn_label" style="width:175px;">
+                        <loc>Save</loc>
+                    </div>
+                </div>
+                <div class="btn_std" data-bind="click: back, click_sound: 'default', rollover_sound: 'default'">
+                    <div class="btn_label" style="min-width:100px;">
+                        <!-- ko if: clean -->
+                            <loc>Close</loc>
+                        <!-- /ko -->
+                        <!-- ko ifnot: clean -->
+                            <loc>Cancel</loc>
+                        <!-- /ko -->
+                    </div>
+                    <!-- /ko -->
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>

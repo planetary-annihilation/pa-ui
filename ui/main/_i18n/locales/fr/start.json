@@ -1,0 +1,308 @@
+{
+    "1v1": {
+        "message": "1 contre 1"
+    }, 
+    "ABANDON": {
+        "message": "ABANDONNER"
+    }, 
+    "AI Skirmish": {
+        "message": "Escarmouche IA"
+    }, 
+    "Armory": {
+        "message": "Armurerie"
+    }, 
+    "Audio Engine:": {
+        "message": "Moteur audio :"
+    }, 
+    "Before you jump in...": {
+        "message": "Avant de sauter..."
+    }, 
+    "Cancel": {
+        "message": "Annuler"
+    }, 
+    "Click to play the Credits Galaxy": {
+        "message": "Cliquez pour voir les Crédits Galaxie"
+    }, 
+    "Close": {
+        "message": "Fermer"
+    }, 
+    "Community Videos": {
+        "message": "Vidéos de la communauté"
+    }, 
+    "Connecting to PlayFab": {
+        "message": "Connexion à PlayFab"
+    }, 
+    "Continue Tutorial": {
+        "message": "Poursuivre le didacticiel"
+    }, 
+    "Cosmic Edition Commanders": {
+        "message": "Commandeurs de l'édition cosmique"
+    }, 
+    "Custom": {
+        "message": "Personnalisé"
+    }, 
+    "Dismiss": {
+        "message": "Exclure"
+    }, 
+    "EXIT": {
+        "message": "QUITTER"
+    }, 
+    "Enable Offline Play": {
+        "message": "Activer le jeu hors ligne"
+    }, 
+    "Extra special thanks to our:": {
+        "message": "Un grand merci à nos :"
+    }, 
+    "Founding Commanders": {
+        "message": "Commandeurs fondateurs"
+    }, 
+    "Galactic War": {
+        "message": "Guerre galactique"
+    }, 
+    "Gameplay Unavailable": {
+        "message": "Gameplay non disponible"
+    }, 
+    "If you ignore this recommendation by enabling offline play, you may experience degraded performance.": {
+        "message": "Si vous ne tenez pas compte de cette recommandation en activant les parties hors ligne, les performances et votre expérience de jeu risquent d'en pâtir."
+    }, 
+    "Incorrect username or password. Please check your entry and try again.": {
+        "message": "Nom d'utilisateur ou mot de passe incorrect. Veuillez vérifier votre saisie et réessayer."
+    }, 
+    "Invalid session ticket, please log in again.": {
+        "message": "Billet de session non valable. Veuillez vous reconnecter."
+    }, 
+    "It appears that Planetary Annihilation crashed the last time you played it. This crash might be due to a problem in the installed graphics drivers.": {
+        "message": "Planetary Annihilation s'est arrêté lors de votre dernière partie. C'est peut-être dû à un problème lié aux pilotes graphiques installés."
+    }, 
+    "LATER": {
+        "message": "PLUS TARD"
+    }, 
+    "Last match played": {
+        "message": "Dernière partie"
+    }, 
+    "Latest Post:": {
+        "message": "Dernier message"
+    }, 
+    "Latest update": {
+        "message": "Dernière mise à jour"
+    }, 
+    "Leaderboards": {
+        "message": "Classements"
+    }, 
+    "Learn the basics. Command a Titan. Smash a planet.": {
+        "message": "Apprenez les bases. Commandez un Titan. Détruisez une planète."
+    }, 
+    "Looks like you have a tutorial already in progress.": {
+        "message": "Vous avez déjà un didacticiel en cours."
+    }, 
+    "Minimize": {
+        "message": "Minimiser"
+    }, 
+    "More Info": {
+        "message": "Plus d'infos"
+    }, 
+    "Multiplayer": {
+        "message": "Multijoueur"
+    }, 
+    "New Build Available:": {
+        "message": "Nouvelle version disponible"
+    }, 
+    "No thanks. I got this.": {
+        "message": "Non merci, ça va aller."
+    }, 
+    "None of this would have been possible without your generosity, and we are grateful that you took the chance and believed in our vision.": {
+        "message": "Rien de tout ça n'aurait été possible sans votre générosité. Nous vous remercions de nous avoir fait confiance et d'avoir cru à notre vision."
+    }, 
+    "OK": {
+        "message": "OK"
+    }, 
+    "Offline Play Disabled": {
+        "message": "Jeu hors ligne désactivé"
+    }, 
+    "Offline Play Unavailable": {
+        "message": "Jeu hors ligne indisponible"
+    }, 
+    "Often these types of crashes can be resolved by making sure you have the latest graphics driver from __vendor_name__ \u2014 and we [strong]strongly recommend[/strong] that you visit their driver website to download and install the latest version.": {
+        "message": "Bien souvent, il est possible d'éviter ce genre de problèmes en se procurant la dernière version du pilote graphique __vendor_name__ —. Nous vous [strong]recommandons vivement[/strong] de la télécharger sur leur site et de l'installer."
+    }, 
+    "Oops! We can't find the game in your account.  If you are a Steam user, please restart Steam and try again.  If the problem persists, contact us at __email__": {
+        "message": "Aïe ! Nous ne trouvons pas le jeu dans votre compte. Si vous êtes un utilisateur de Steam, veuillez redémarrer Steam et réessayer. Si le problème persiste, envoyez-nous un courriel à __email__"
+    }, 
+    "Oops! Your account seems to be in an invalid state. If you are a Steam user, please restart Steam and try again. If the problem persists, contact us at __email__": {
+        "message": "Aïe ! Votre compte n'est pas valide. Si vous êtes un utilisateur de Steam, veuillez redémarrer Steam et réessayer. Si le problème persiste, envoyez-nous un courriel à __email__"
+    }, 
+    "Open __vendor_name__'s Driver Website": {
+        "message": "Ouvrir le site des pilotes : __vendor_name__"
+    }, 
+    "Password": {
+        "message": "Mot de passe"
+    }, 
+    "Play Tutorial": {
+        "message": "Voir le didacticiel"
+    }, 
+    "Player Guide": {
+        "message": "Guide"
+    }, 
+    "Please choose a default region.": {
+        "message": "Veuillez choisir une région par défaut."
+    }, 
+    "Please try again later.  If this error persists, please contact support and check the forums.": {
+        "message": "Veuillez réessayer. Si l'erreur persiste, veuillez contacter le service client et consulter les forums."
+    }, 
+    "Possible Graphics Driver Crash Detected": {
+        "message": "Possible erreur de pilote graphique détectée."
+    }, 
+    "Quit": {
+        "message": "Quitter"
+    }, 
+    "RECONNECT": {
+        "message": "SE RECONNECTER"
+    }, 
+    "Ranked Match": {
+        "message": "Match classé"
+    }, 
+    "Replays": {
+        "message": "Replays"
+    }, 
+    "Restart From Beginning": {
+        "message": "Recommencer du début"
+    }, 
+    "Resume last saved:": {
+        "message": "Reprendre la dernière sauvegarde."
+    }, 
+    "Saved Games": {
+        "message": "Parties sauvegardées"
+    }, 
+    "Settings": {
+        "message": "Paramètres"
+    }, 
+    "Sign in": {
+        "message": "SE CONNECTER"
+    }, 
+    "Sign in with your PlayFab ID": {
+        "message": "Connexion avec votre identifiant PlayFab."
+    }, 
+    "Single Player": {
+        "message": "Mode solo"
+    }, 
+    "System Designer": {
+        "message": "Créateur du système"
+    }, 
+    "Thank you for your support!": {
+        "message": "Merci pour votre soutien !"
+    }, 
+    "The game will require an internet connection to play.": {
+        "message": "Vous avez besoin d'une connexion internet pour jouer."
+    }, 
+    "The leaderboard is currently empty.": {
+        "message": "Le classement est actuellement vide."
+    }, 
+    "The next level of play in the PA universe. Available now!": {
+        "message": "Passez à la vitesse supérieure dans l'univers de PA. Disponible dès maintenant !"
+    }, 
+    "There are no regions available for this build version.": {
+        "message": "Il n'y a pas de régions disponibles pour cette version."
+    }, 
+    "There are no streams currently.": {
+        "message": "Il n'y a actuellement aucune diffusion."
+    }, 
+    "There is a problem with Steam. Please restart Steam and try again, or contact us at __email__": {
+        "message": "Il y a un problème avec Steam. Veuillez redémarrer Steam et réessayer, ou nous envoyer un courriel à __email__"
+    }, 
+    "This shouldn't happen. Please contact us at  __email__": {
+        "message": "Ce problème ne devrait pas se produire. Veuillez nous contacter à : __email__."
+    }, 
+    "To those who contributed to our Kickstarter campaign, we'd like to thank you for all the support.": {
+        "message": "Nous souhaitons remercier tous ceux ayant participé à notre campagne Kickstarter."
+    }, 
+    "Top Ranked Players": {
+        "message": "Joueurs les mieux classés"
+    }, 
+    "Try the TITANS Tutorial": {
+        "message": "Essayez le didacticiel TITANS"
+    }, 
+    "Tutorial": {
+        "message": "Didacticiel"
+    }, 
+    "Twitch TV": {
+        "message": "Twitch TV"
+    }, 
+    "UI Library:": {
+        "message": "Bibliothèque IU"
+    }, 
+    "Unable to Sign In": {
+        "message": "Impossible de se connecter"
+    }, 
+    "Unable to link your Steam account (email address in use), contact us at __email__": {
+        "message": "Impossible de lier votre compte Steam (adresse e-mail déjà utilisée). Envoyez-nous un courriel à __email__"
+    }, 
+    "Unable to link your Steam account (email address invalid), contact us at __email__": {
+        "message": "Impossible de lier votre compte Steam (adresse e-mail invalide). Envoyez-nous un courriel à __email__"
+    }, 
+    "Unable to link your Steam account (unknown error __code__), contact us at __email__": {
+        "message": "Impossible de lier votre compte Steam (erreur inconnue __code__). Envoyez-nous un courriel à __email__"
+    }, 
+    "Unable to link your Steam account (username in use), contact us at __email__": {
+        "message": "Impossible de lier votre compte Steam (nom d'utilisateur déjà utilisé). Envoyez-nous un courriel à __email__"
+    }, 
+    "Unable to link your Steam account, try restarting the game or contact us at __email__": {
+        "message": "Impossible de lier votre compte Steam. Veuillez redémarrer le jeu ou nous envoyer un courriel à __email__"
+    }, 
+    "Unknown Error authenticating, possibly related to firewall or antivirus settings.  Please contact support if problem persists. (__error_code__)": {
+        "message": "Erreur inconnue d'identification. Ce problème peut-être lié à votre pare-feu ou aux paramètres de votre antivirus. Veuillez contacter le service client si le problème persiste. (__error_code__)"
+    }, 
+    "Username": {
+        "message": "Nom d'utilisateur"
+    }, 
+    "Version:": {
+        "message": "Version :"
+    }, 
+    "Video list could not be retrieved.": {
+        "message": "La liste vidéo n'a pas pu être récupérée."
+    }, 
+    "View Intro": {
+        "message": "Voir l'intro"
+    }, 
+    "View Leaderboards": {
+        "message": "Voir les classements"
+    }, 
+    "View full column": {
+        "message": "Voir la colonne entière"
+    }, 
+    "Watch Replay": {
+        "message": "Voir le replay"
+    }, 
+    "You are already assigned to a game.": {
+        "message": "Une partie vous a déjà été assignée."
+    }, 
+    "You can change the region later in the settings menu.": {
+        "message": "Il est possible de modifier la région plus tard dans les Paramètres."
+    }, 
+    "You must have played 5 ranked games to receive a rank": {
+        "message": "Vous devez participer à 5 parties classées pour obtenir un rang."
+    }, 
+    "You need a new client to play the game. Steam users may need to restart Steam to get the new client.": {
+        "message": "Il vous faut un nouveau client pour jouer au jeu. Il est possible que les utilisateurs de Steam doivent redémarrer Steam pour obtenir le nouveau client."
+    }, 
+    "Your account has been banned. If you believe this is in error, contact us at __email__": {
+        "message": "Votre compte a été banni. Si vous pensez qu'il s'agit d'une erreur, veuillez nous contacter à : __email__."
+    }, 
+    "Your default region is currently unavailable.  Please choose a different region.": {
+        "message": "Votre région par défaut est actuellement indisponible. Veuillez en choisir une autre."
+    }, 
+    "Your machine does not meet the recommended system requirements for offline play \u2014 for offline mode we recommend at least 8 gigabytes of RAM and a Quad Core processor.": {
+        "message": "Votre machine ne satisfait pas la configuration requise pour les parties hors ligne. Pour le jeu hors ligne, nous vous conseillons de disposer au minimum de 8 giga octets de RAM et d'un processeur Quad Core."
+    }, 
+    "Your machine is not capable of running Planetary Annihilation offline \u2014 offline mode requires a 64-bit processor as well as a 64-bit operating system.": {
+        "message": "Votre machine n'est pas capable de faire tourner Planetary Annihilation. Pour le mode hors ligne, un processeur 64 bits ainsi qu'un système d'exploitation 64 bits sont nécessaires."
+    }, 
+    "Your system does not meet the requirements for offline play. Please sign in to play on PlayFab servers, or in [strong]Settings[/strong], manually set local server to [strong]On[/strong].": {
+        "message": "Votre système ne satisfait pas la configuration requise pour les parties hors ligne. Veuillez vous inscrire aux serveurs PlayFab pour jouer ou réglez manuellement le serveur local sur [strong]Activé[/strong] dans les [strong]Paramètres[/strong]."
+    }, 
+    "__rank_title__ Rank": {
+        "message": "Rang : __rank_title__"
+    }, 
+    "__viewer_count__ viewers": {
+        "message": "Vues : __viewer_count__"
+    }
+}

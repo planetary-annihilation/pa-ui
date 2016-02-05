@@ -1,0 +1,302 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta locns="live_game" />
+    <noloc><title>Live Game: Action Bar</title></noloc>
+    <link href="bundle://boot/boot.css" rel="stylesheet" type="text/css" />
+    <link href="live_game_action_bar.css" rel="stylesheet" type="text/css" />
+    <script src="bundle://boot/boot.js" type="text/javascript"></script>
+    <script src="js/constants.js" type="text/javascript"></script>
+    <script src="live_game_action_bar.js" type="text/javascript"></script>
+</head>
+    <body class="body_panel">
+        <div class="div_command_bar_top_cont" style="display:none;" data-bind="css: {show: showCommands, persisting: wasShowingCommands}, style:{display:'block'}">
+            <div class="div_command_bar receiveMouse">
+                <div class="div_command_bar_cont">
+                    <div class="div_command_item" data-cmd-idx="0" data-bind="css: {show: allowMove}, click: function () { setCommandIndex(0) }">
+                        <a href="#" id="cmd_move" data-placement="left" data-tooltipkey="command_mode_move" data-bind="tooltip: tooltipMove, css: { div_command_item_active: isMove() },
+                                click_sound: 'default',
+                                rollover_sound: 'default'">
+                            <img class="icon_command" src="coui://ui/main/shared/img/icons/icons_command_move.png" />
+                        </a>
+                        <span class="span_hotkey" id="key_move" data-bind="text: model.keybindsForCommandModes()[0], visible: (model.keybindsForCommandModes()[0] && model.keybindsForCommandModes()[0].length)"></span>
+                    </div>
+                    <div class="div_command_item" data-placement="left" data-cmd-idx="1" data-bind="css: {show: allowAttack}, click: function () { setCommandIndex(1) }">
+                        <a href="#" id="cmd_attack" data-placement="left" data-tooltipkey="command_mode_attack" data-bind="tooltip: tooltipAttack, css: { div_command_item_active: isAttack() },
+                            click_sound: 'default',
+                            rollover_sound: 'default'">
+                            <img class="icon_command" src="coui://ui/main/shared/img/icons/icons_command_attack.png" />
+                        </a>
+                        <span class="span_hotkey" id="key_attack" data-bind="text: model.keybindsForCommandModes()[1], visible: (model.keybindsForCommandModes()[1] && model.keybindsForCommandModes()[1].length)"></span>
+                    </div>
+                    <div class="div_command_item" data-placement="left" data-cmd-idx="12" data-bind="css: {show: allowFireSecondaryWeapon}, click: function () { setCommandIndex(12) }">
+                        <a href="#" id="cmd_fire2nd" data-placement="left" data-tooltipkey="command_mode_alt_fire" data-bind="tooltip: tooltipAltFire, css: { div_command_item_active: isFireSecondaryWeapon() },
+                            click_sound: 'default',
+                            rollover_sound: 'default'">
+                            <img class="icon_command" src="coui://ui/main/shared/img/icons/icons_command_attack_special.png" />
+                        </a>
+                        <span class="span_hotkey" id="key_fire2nd" data-bind="text: model.keybindsForCommandModes()[2], visible: (model.keybindsForCommandModes()[2] && model.keybindsForCommandModes()[2].length)"></span>
+                    </div>
+                    <div class="div_command_item" data-placement="left" data-cmd-idx="14" data-bind="css: {show: allowMassTeleport}, click: function () { setCommandIndex(14) }">
+                        <a href="#" id="cmd_fire2nd" data-placement="left" data-tooltipkey="command_mode_mass_teleport" data-bind="tooltip: tooltipMassTeleport, css: { div_command_item_active: isMassTeleport() },
+                            click_sound: 'default',
+                            rollover_sound: 'default'">
+                            <img class="icon_command" src="coui://ui/main/shared/img/icons/icons_command_mass_teleport.png" />
+                        </a>
+                        <span class="span_hotkey" id="key_fire2nd" data-bind="text: model.keybindsForCommandModes()[2], visible: (model.keybindsForCommandModes()[2] && model.keybindsForCommandModes()[2].length)"></span>
+                    </div>
+                    <div class="div_command_item" data-placement="left" data-cmd-idx="2" data-bind="css: {show: allowAssist}, click: function () { setCommandIndex(2) }">
+                        <a href="#" id="cmd_assist" data-placement="left" data-tooltipkey="command_mode_assist" data-bind="tooltip: tooltipAssist, css: { div_command_item_active: isAssist() },
+                            click_sound: 'default',
+                            rollover_sound: 'default'">
+                            <img class="icon_command" src="coui://ui/main/shared/img/icons/icons_command_assist.png" />
+                        </a>
+                        <span class="span_hotkey" id="key_assist" data-bind="text: model.keybindsForCommandModes()[3], visible: (model.keybindsForCommandModes()[3] && model.keybindsForCommandModes()[3].length)"></span>
+                    </div>
+                    <div class="div_command_item" data-placement="left" data-cmd-idx="3" data-bind="css: {show: allowRepair}, click: function () { setCommandIndex(3) }">
+                        <a href="#" id="cmd_repair" data-placement="left" data-tooltipkey="command_mode_repair" data-bind="tooltip: tooltipRepair, css: { div_command_item_active: isRepair() },
+                            click_sound: 'default',
+                            rollover_sound: 'default'">
+                            <img class="icon_command" src="coui://ui/main/shared/img/icons/icons_command_repair.png" />
+                        </a>
+                        <span class="span_hotkey" id="key_repair" data-bind="text: model.keybindsForCommandModes()[4], visible: (model.keybindsForCommandModes()[4] && model.keybindsForCommandModes()[4].length)"></span>
+                    </div>
+                    <div class="div_command_item" data-placement="left" data-cmd-idx="4" data-bind="css: {show: allowReclaim}, click: function () { setCommandIndex(4) }">
+                        <a href="#" id="cmd_reclaim" data-placement="left" data-tooltipkey="command_mode_reclaim" data-bind="tooltip: tooltipReclaim, css: { div_command_item_active: isReclaim() },
+                            click_sound: 'default',
+                            rollover_sound: 'default'">
+                            <img class="icon_command" src="coui://ui/main/shared/img/icons/icons_command_reclaim.png" />
+                        </a>
+                        <span class="span_hotkey" id="key_reclaim" data-bind="text: model.keybindsForCommandModes()[5], visible: (model.keybindsForCommandModes()[5] && model.keybindsForCommandModes()[5].length)"></span>
+                    </div>
+                    <div class="div_command_item" data-cmd-idx="5" data-bind="css: {show: allowPatrol}, click: function () { setCommandIndex(5) }">
+                        <a href="#" id="cmd_patrol" data-placement="left" data-tooltipkey="command_mode_patrol" data-bind="tooltip: tooltipPatrol, css: { div_command_item_active: isPatrol() },
+                            click_sound: 'default',
+                            rollover_sound: 'default'">
+                            <img class="icon_command" src="coui://ui/main/shared/img/icons/icons_command_patrol.png" />
+                        </a>
+                        <span class="span_hotkey" id="key_patrol" data-bind="text: model.keybindsForCommandModes()[6], visible: (model.keybindsForCommandModes()[6] && model.keybindsForCommandModes()[6].length)"></span>
+                    </div>
+                    <div class="div_command_item" data-placement="left" data-cmd-idx="6" data-bind="css: {show: allowUse}, click: function () { setCommandIndex(6) }">
+                        <a href="#" id="cmd_use" data-placement="left" data-bind="tooltip: tooltipUse, css: { div_command_item_active: isUse() },
+                            click_sound: 'default',
+                            rollover_sound: 'default'">
+                            <img class="icon_command" src="coui://ui/main/shared/img/icons/icons_command_use.png" />
+                        </a>
+                        <span class="span_hotkey" id="key_use" data-bind="text: model.keybindsForCommandModes()[7], visible: (model.keybindsForCommandModes()[7] && model.keybindsForCommandModes()[7].length)"></span>
+                    </div>
+                    <div class="div_command_item" data-placement="left" title="S.MOVE" data-cmd-idx="7" data-bind="css: {show: allowSpecialMove}, click: function () { setCommandIndex(7) }">
+                        <a href="#" id="cmd_special" data-placement="left" data-tooltipkey="command_mode_special_move" data-bind="tooltip: tooltipSpecialMove, css: { div_command_item_active: isSpecialMove() },
+                            click_sound: 'default',
+                            rollover_sound: 'default'">
+                            <img class="icon_command" src="coui://ui/main/shared/img/icons/icons_command_move_special.png" />
+                        </a>
+                        <span class="span_hotkey" id="key_special" data-bind="text: model.keybindsForCommandModes()[8], visible: (model.keybindsForCommandModes()[8] && model.keybindsForCommandModes()[8].length)"></span>
+                    </div>
+                    <div class="div_command_item" data-placement="left" data-cmd-idx="9" data-bind="css: {show: allowUnload}, click: function () { setCommandIndex(9) }">
+                        <a href="#" id="cmd_unload" data-placement="left" data-tooltipkey="command_mode_unload" data-bind="tooltip: tooltipUnload, css: { div_command_item_active: isUnload() },
+                            click_sound: 'default',
+                            rollover_sound: 'default'">
+                            <img class="icon_command" src="coui://ui/main/shared/img/icons/icons_command_unload.png" />
+                        </a>
+                        <span class="span_hotkey" id="key_unload" data-bind="text: model.keybindsForCommandModes()[9], visible: (model.keybindsForCommandModes()[9] && model.keybindsForCommandModes()[9].length)"></span>
+                    </div>
+                    <div class="div_command_item" data-placement="left" data-cmd-idx="10" data-bind="css: {show: allowLoad}, click: function () { setCommandIndex(10) }">
+                        <a href="#" id="cmd_load" data-placement="left" data-tooltipkey="command_mode_load" data-bind="tooltip: tooltipLoad, css: { div_command_item_active: isLoad() },
+                                click_sound: 'default',
+                                rollover_sound: 'default'">
+                            <img class="icon_command" src="coui://ui/main/shared/img/icons/icons_command_load.png" />
+                        </a>
+                        <span class="span_hotkey" id="key_load" data-bind="text: model.keybindsForCommandModes()[10], visible: (model.keybindsForCommandModes()[10] && model.keybindsForCommandModes()[10].length)"></span>
+                    </div>
+                    <div class="div_command_item" data-placement="left" data-cmd-idx="-1" data-bind="css: {show: allowStop}, click: function () { setCommandIndex(-1) }">
+                        <a href="#" id="cmd_stop" data-placement="left" data-tooltipkey="stop_command" data-bind="tooltip: tooltipStop, css: { div_command_item_active: false },
+                                click_sound: 'default',
+                                rollover_sound: 'default'">
+                            <img class="icon_command" src="coui://ui/main/shared/img/icons/icons_command_stop.png" />
+                        </a>
+                        <span class="span_hotkey" id="key_stop" data-bind="text: model.keybindsForCommandModes()[12], visible: (model.keybindsForCommandModes()[12] && model.keybindsForCommandModes()[12].length)"></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="div_orders_bar_top_cont" style="display:none;" data-bind="css: {show: showOrders, persisting: wasShowingOrders}, style:{display:'block'}">
+            <div class="div_orders_bar receiveMouse">
+                <div class="div_orders_bar_cont">
+                    <div class="div_command_item order_fire_item" data-bind="css: {show: allowFireOrders}, event: { mouseenter: function () { setHoverIndex(0) }, mouseleave: clearHoverIndex  }">
+                        <div class="background border"></div>
+                        <div id="cmd_order_fire" class="cmd_order" data-bind="
+                                click_sound: 'default',
+                                rollover_sound: 'default',
+                                click: toggleFireOrderIndex">
+                            <img class="icon_command icon_order" data-bind="attr: { src: selectedFireOrderImage }" />
+                            <span class="span_hotkey" id="key_order_fire" data-bind="text: model.keybindsForOrders()[0]"></span>
+                        </div>
+                        <div class="div_order_item_menu order_fire_menu" data-bind="css: { show: hoverIndex() === 0 }">
+                            <div class="order_menu_title">
+                                <loc>FIRE ORDERS</loc>
+                            </div>
+                            <div class="div_order_menu_cont">
+                                <div class="div_order_menu_item btn_std_ix" data-bind="click: selectionFireAtWill,
+                                        click_sound: 'default',
+                                        rollover_sound: 'default'"
+                                    onmouseover="document.getElementById('tt_ord01').style.display = 'block';"
+                                    onmouseout="document.getElementById('tt_ord01').style.display = 'none';">
+                                    <img class="icon_command icon_order"
+                                        src="img/orders_bar/icons_orders_fire_at_will.png" />
+                                </div>
+                                <div class="div_order_menu_item btn_std_ix" data-bind="click: selectionReturnFire,
+                                        click_sound: 'default',
+                                        rollover_sound: 'default'"
+                                    onmouseover="document.getElementById('tt_ord02').style.display = 'block';"
+                                    onmouseout="document.getElementById('tt_ord02').style.display = 'none';">
+                                    <img class="icon_command icon_order"
+                                        src="img/orders_bar/icons_orders_fire_return.png" />
+                                </div>
+                                <div class="div_order_menu_item btn_std_ix" data-bind="click: selectionHoldFire,
+                                        click_sound: 'default',
+                                        rollover_sound: 'default'"
+                                    onmouseover="document.getElementById('tt_ord03').style.display = 'block';"
+                                    onmouseout="document.getElementById('tt_ord03').style.display = 'none';">
+                                    <img class="icon_command icon_order"
+                                        src="img/orders_bar/icons_orders_fire_hold.png" />
+                                </div>
+                            </div>
+                            <div class="tooltip_order" id="tt_ord01">
+                                <loc>AT WILL</loc>
+                            </div>
+                            <div class="tooltip_order" id="tt_ord02">
+                                <loc>RETURN FIRE</loc>
+                            </div>
+                            <div class="tooltip_order" id="tt_ord03">
+                                <loc>HOLD</loc>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="div_command_item order_move_item" data-bind="css: {show: allowMoveOrders}, event: { mouseenter: function () { setHoverIndex(1) }, mouseleave: clearHoverIndex  }">
+                        <div class="background border"></div>
+                        <div id="cmd_order_move" class="cmd_order" data-bind="
+                                click_sound: 'default',
+                                rollover_sound: 'default',
+                                click: toggleMoveOrderIndex">
+                            <img class="icon_command icon_order" data-bind="attr: { src: selectedMoveOrderImage }" />
+                            <span class="span_hotkey" id="key_order_move" data-bind="text: model.keybindsForOrders()[1]"></span>
+                        </div>
+                        <div class="div_order_item_menu order_move_menu" data-bind="css: {show: hoverIndex() === 1}">
+                            <div class="order_menu_title">
+                                <loc>MOVE ORDERS</loc>
+                            </div>
+                            <div class="div_order_menu_cont">
+                                <div class="div_order_menu_item btn_std_ix" data-bind="click: selectionManeuver,
+                                    click_sound: 'default',
+                                    rollover_sound: 'default'"
+                                    onmouseover="document.getElementById('tt_ord04').style.display = 'block';"
+                                    onmouseout="document.getElementById('tt_ord04').style.display = 'none';">
+                                    <img class="icon_command icon_order" src="img/orders_bar/icons_orders_move_maneuver.png" />
+                                </div>
+                                <div class="div_order_menu_item btn_std_ix" data-bind="click: selectionRoam,
+                                    click_sound: 'default',
+                                    rollover_sound: 'default'"
+                                    onmouseover="document.getElementById('tt_ord05').style.display = 'block';"
+                                    onmouseout="document.getElementById('tt_ord05').style.display = 'none';">
+                                    <img class="icon_command icon_order" src="img/orders_bar/icons_orders_move_roam.png" />
+                                </div>
+                                <div class="div_order_menu_item btn_std_ix" data-bind="click: selectionHoldPosition,
+                                    click_sound: 'default',
+                                    rollover_sound: 'default'"
+                                    onmouseover="document.getElementById('tt_ord06').style.display = 'block';"
+                                    onmouseout="document.getElementById('tt_ord06').style.display = 'none';">
+                                    <img class="icon_command icon_order" src="img/orders_bar/icons_orders_move_hold.png" />
+                                </div>
+                            </div>
+                            <div class="tooltip_order" id="tt_ord04">
+                                <loc>MANEUVER</loc>
+                            </div>
+                            <div class="tooltip_order" id="tt_ord05">
+                                <loc>ROAM</loc>
+                            </div>
+                            <div class="tooltip_order" id="tt_ord06">
+                                <loc>HOLD POSITION</loc>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="div_command_item order_energy_item" data-bind="css: {show: allowEnergyOrders}, event: { mouseenter: function () { setHoverIndex(2) }, mouseleave: clearHoverIndex }">
+                        <div class="background border"></div>
+                        <div id="cmd_order_energy" class="cmd_order" data-bind="
+                                rollover_sound: 'default',
+                                click: toggleEnergyOrderIndex">
+                            <img class="icon_command icon_order" data-bind="attr: { src: selectedEnergyOrderImage }" />
+                            <span class="span_hotkey" id="key_order_energy" data-bind="text: model.keybindsForOrders()[2]"></span>
+                        </div>
+                        <div class="div_order_item_menu order_energy_menu narrow" data-bind="css: {show: hoverIndex() === 2}">
+                            <div class="order_menu_title">
+                                <loc>ENERGY ORDERS</loc>
+                            </div>
+                            <div class="div_order_menu_cont">
+                                <div class="div_order_menu_item btn_std_ix" data-bind="click: selectionConsume,
+                                    rollover_sound: 'default'"
+                                    onmouseover="document.getElementById('tt_ord07').style.display = 'block';"
+                                    onmouseout="document.getElementById('tt_ord07').style.display = 'none';">
+                                    <img class="icon_command icon_order" src="img/orders_bar/icons_orders_energy_consume.png" />
+                                </div>
+                                <div class="div_order_menu_item btn_std_ix" data-bind="click: selectionConserve,
+                                    rollover_sound: 'default'"
+                                    onmouseover="document.getElementById('tt_ord08').style.display = 'block';"
+                                    onmouseout="document.getElementById('tt_ord08').style.display = 'none';">
+                                    <img class="icon_command icon_order" src="img/orders_bar/icons_orders_energy_hold.png" />
+                                </div>
+                                <!-- removed for now -->
+                                <!--<div class="div_order_menu_item btn_std_ix" data-bind="click: selectionAuto,
+                                             click_sound: 'default',
+                                             rollover_sound: 'default'">
+                                    <img class="icon_command icon_order" src="img/orders_bar/icons_orders_energy_auto.png" />
+                                </div>-->
+                            </div>
+                            <div class="tooltip_order" id="tt_ord07">
+                                <loc>ON</loc>
+                            </div>
+                            <div class="tooltip_order" id="tt_ord08">
+                                <loc>OFF</loc>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="div_command_item order_buildstance_item" data-bind="css: {show: allowBuildStanceOrders}, event: { mouseenter: function () { setHoverIndex(3) }, mouseleave: clearHoverIndex  }">
+                        <div class="background border"></div>
+                        <div id="cmd_order_build" class="cmd_order" data-bind="
+                                rollover_sound: 'default',
+                                click: toggleBuildStanceOrderIndex">
+                            <img class="icon_command icon_order" data-bind="attr: { src: selectedBuildStanceOrderImage }" />
+                            <span class="span_hotkey" id="key_order_build" data-bind="text: model.keybindsForOrders()[3]"></span>
+                        </div>
+                        <div class="div_order_item_menu order_build_stance_menu narrow" data-bind="css: {show: hoverIndex() === 3}">
+                            <div class="order_menu_title">
+                                <loc>BUILD MODE</loc>
+                            </div>
+                            <div class="div_order_menu_cont">
+                                <div class="div_order_menu_item btn_std_ix" data-bind="click: selectionBuildStanceNormal,
+                                    rollover_sound: 'default'"
+                                    onmouseover="document.getElementById('tt_ord09').style.display = 'block';"
+                                    onmouseout="document.getElementById('tt_ord09').style.display = 'none';">
+                                    <img class="icon_command icon_order" src="img/orders_bar/icons_orders_build_stance_normal.png" />
+                                </div>
+                                <div class="div_order_menu_item btn_std_ix" data-bind="click: selectionBuildStanceContinuous,
+                                    rollover_sound: 'default'"
+                                    onmouseover="document.getElementById('tt_ord10').style.display = 'block';"
+                                    onmouseout="document.getElementById('tt_ord10').style.display = 'none';">
+                                    <img class="icon_command icon_order" src="img/orders_bar/icons_orders_build_stance_continuous.png" />
+                                </div>
+                            </div>
+                            <div class="tooltip_order" id="tt_ord09">
+                                <loc>NORMAL</loc>
+                            </div>
+                            <div class="tooltip_order" id="tt_ord10">
+                                <loc>CONTINUOUS</loc>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

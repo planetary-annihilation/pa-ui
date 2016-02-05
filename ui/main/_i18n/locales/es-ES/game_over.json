@@ -1,0 +1,92 @@
+{
+    "ANNIHILATION COMPLETE": {
+        "message": "ANIQUILACIÓN COMPLETADA"
+    }, 
+    "APM": {
+        "message": "APM"
+    }, 
+    "Average": {
+        "message": "Media"
+    }, 
+    "Built": {
+        "message": "Construidas"
+    }, 
+    "Destroyed": {
+        "message": "Destruidas"
+    }, 
+    "Determining ladder rank...": {
+        "message": "Determinando tu rango..."
+    }, 
+    "Draw": {
+        "message": "Demanda"
+    }, 
+    "Duration:": {
+        "message": "Duración:"
+    }, 
+    "Efficiency": {
+        "message": "Eficiencia"
+    }, 
+    "Energy": {
+        "message": "Energía"
+    }, 
+    "Metal": {
+        "message": "Metal"
+    }, 
+    "Produced": {
+        "message": "Total"
+    }, 
+    "QUIT TO MAIN MENU": {
+        "message": "VOLVER AL MENÚ PRINCIPAL"
+    }, 
+    "REVIEW": {
+        "message": "REVISAR"
+    }, 
+    "Requeue": {
+        "message": "Volver a la cola"
+    }, 
+    "SPECTATE": {
+        "message": "OBSERVAR"
+    }, 
+    "The battle ended in a draw.": {
+        "message": "La batalla terminó en empate."
+    }, 
+    "The game has ended.": {
+        "message": "Se ha terminado la partida."
+    }, 
+    "Total Oblivion": {
+        "message": "El olvido es ahora tu hogar"
+    }, 
+    "Units": {
+        "message": "Unidades"
+    }, 
+    "Used": {
+        "message": "Utilizado"
+    }, 
+    "VICTORY IS YOURS": {
+        "message": "LA VICTORIA ES TUYA"
+    }, 
+    "VIEW RESULTS": {
+        "message": "VER RESULTADOS"
+    }, 
+    "VIEW STATS": {
+        "message": "VER ESTADÍSTICAS"
+    }, 
+    "View Winner": {
+        "message": "Ver ganador"
+    }, 
+    "Winner:": {
+        "message": "Ganador:"
+    }, 
+    "Winners:": {
+        "message": "Ganadores:"
+    }, 
+    "YOU'VE BEEN ANNIHILATED": {
+        "message": "TE HAN ANIQUILADO"
+    }, 
+    "You currently have an unknown rank status. Complete more games to determine your ladder ranking.": {
+        "message": "Tu rango aún no ha sido determinado. Completa más partidas para establecerlo."
+    }, 
+    "Your 1v1 Ladder rank is __rank_title__.": {
+        "message": "Tu rango en 1 contra 1 es __rank_title__."
+    }
+}

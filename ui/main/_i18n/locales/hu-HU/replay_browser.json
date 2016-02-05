@@ -1,0 +1,68 @@
+{
+    "(+ __aiCount__ AI)": {
+        "message": "(+ __aiCount__ AI)"
+    }, 
+    "(Updating...)": {
+        "message": "(Friss\u00edt\u00e9s...)"
+    }, 
+    "(no info available)": {
+        "message": "(nincs el\u00e9rhet\u0151 inform\u00e1ci\u00f3)"
+    }, 
+    "All Recent Games": {
+        "message": "\u00d6sszes Legut\u00f3bbi J\u00e1t\u00e9k"
+    }, 
+    "BuildVersion": {
+        "message": "J\u00e1t\u00e9kverzi\u00f3"
+    }, 
+    "Duration": {
+        "message": "Id\u0151tartam"
+    }, 
+    "FAILED TO RETRIEVE REPLAY LIST": {
+        "message": "NEM SIKER\u00dcLT EL\u0150HOZNI A VISSZAJ\u00c1TSZ\u00c1SI LIST\u00c1T"
+    }, 
+    "Game": {
+        "message": "J\u00e1t\u00e9k"
+    }, 
+    "Highest Rated (TBD)": {
+        "message": "Legjobbra \u00c9rt\u00e9kelt (TBD)"
+    }, 
+    "Lobby Id": {
+        "message": "V\u00e1r\u00f3termi ID"
+    }, 
+    "Longest Game Duration": {
+        "message": "Leghosszabb J\u00e1t\u00e9k Id\u0151tartama"
+    }, 
+    "Most Recent": {
+        "message": "Leg\u00fajabb"
+    }, 
+    "Most Viewed (TBD)": {
+        "message": "Legn\u00e9zettebb (TBD)"
+    }, 
+    "My Games Only": {
+        "message": "Csak az \u00e9n J\u00e1t\u00e9kaim"
+    }, 
+    "Replays": {
+        "message": "Visszaj\u00e1tsz\u00e1sok"
+    }, 
+    "Returning to Main Menu": {
+        "message": "Visszat\u00e9r\u00e9s a f\u0151men\u00fcbe"
+    }, 
+    "Search": {
+        "message": "Keres\u00e9s"
+    }, 
+    "Sorted By": {
+        "message": "Rendez\u00e9s"
+    }, 
+    "View": {
+        "message": "N\u00e9zet"
+    }, 
+    "Watch Direct Lobby Id:": {
+        "message": "K\u00f6zvetlen V\u00e1r\u00f3termi ID megtekint\u00e9se:"
+    }, 
+    "Watch Replay": {
+        "message": "Visszaj\u00e1tsz\u00e1s Megtekint\u00e9se"
+    }, 
+    "__gwClientNames__: Galactic War \"__gwWarName__\" (turn __gwTurn__, __gwSystemName__), vs. __gwAiArmies__": {
+        "message": "__gwClientNames__: Galactic War \"__gwWarName__\" (turn __gwTurn__, __gwSystemName__), vs. __gwAiArmies__"
+    }
+}

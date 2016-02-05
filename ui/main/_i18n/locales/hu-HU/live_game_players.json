@@ -1,0 +1,50 @@
+{
+    "ALLY": {
+        "message": "SZ\u00d6VETS\u00c9GES"
+    }, 
+    "ARMY": {
+        "message": "SEREG"
+    }, 
+    "Accept": {
+        "message": "Elfogad"
+    }, 
+    "Alliance Request": {
+        "message": "Sz\u00f6vets\u00e9g K\u00e9relem"
+    }, 
+    "Alliance requested": {
+        "message": "Sz\u00f6vetkez\u00e9s k\u00e9relmezve"
+    }, 
+    "Allied With:": {
+        "message": "Sz\u00f6vets\u00e9gben vele:"
+    }, 
+    "Count": {
+        "message": "Darab"
+    }, 
+    "ECONOMY": {
+        "message": "NYERSANYAG"
+    }, 
+    "Efficiency": {
+        "message": "Hat\u00e9konys\u00e1g"
+    }, 
+    "Fabber": {
+        "message": "Gy\u00e1rt\u00f3"
+    }, 
+    "Factory": {
+        "message": "Gy\u00e1r"
+    }, 
+    "Ignore": {
+        "message": "Figyelmen k\u00edv\u00fcl hagy"
+    }, 
+    "Mobile": {
+        "message": "Mozg\u00f3"
+    }, 
+    "PLAYER": {
+        "message": "J\u00c1T\u00c9KOS"
+    }, 
+    "RESC": {
+        "message": "NYERSI"
+    }, 
+    "Request pending": {
+        "message": "F\u00fcgg\u0151ben l\u00e9v\u0151 k\u00e9relem"
+    }
+}

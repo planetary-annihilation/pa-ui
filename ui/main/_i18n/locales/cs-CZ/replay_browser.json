@@ -1,0 +1,68 @@
+{
+    "(+ __aiCount__ AI)": {
+        "message": "(+ __aiCount__ AI)"
+    }, 
+    "(Updating...)": {
+        "message": "(Aktualizace...)"
+    }, 
+    "(no info available)": {
+        "message": "(nejsou k dispozici \u017e\u00e1dn\u00e9 informace)"
+    }, 
+    "All Recent Games": {
+        "message": "V\u0161echny hry z posledn\u00ed doby"
+    }, 
+    "BuildVersion": {
+        "message": "Verze sestaven\u00ed"
+    }, 
+    "Duration": {
+        "message": "Trv\u00e1n\u00ed"
+    }, 
+    "FAILED TO RETRIEVE REPLAY LIST": {
+        "message": "Nepoda\u0159ilo se nahr\u00e1t z\u00e1znamov\u00fd list."
+    }, 
+    "Game": {
+        "message": "Hra"
+    }, 
+    "Highest Rated (TBD)": {
+        "message": "Nejl\u00e9pe hodnocen\u00e9 (bude ur\u010d.)"
+    }, 
+    "Lobby Id": {
+        "message": "M\u00edstnost \u010d."
+    }, 
+    "Longest Game Duration": {
+        "message": "Nejdel\u0161\u00ed trv\u00e1n\u00ed hry"
+    }, 
+    "Most Recent": {
+        "message": "Nejnov\u011bj\u0161\u00ed"
+    }, 
+    "Most Viewed (TBD)": {
+        "message": "Nejsledovan\u011bj\u0161\u00ed (bude ur\u010d.)"
+    }, 
+    "My Games Only": {
+        "message": "Pouze moje hry"
+    }, 
+    "Replays": {
+        "message": "Z\u00e1znamy"
+    }, 
+    "Returning to Main Menu": {
+        "message": "N\u00e1vrat do Hlavn\u00edho Menu"
+    }, 
+    "Search": {
+        "message": "Hledat"
+    }, 
+    "Sorted By": {
+        "message": "\u0158azeno podle"
+    }, 
+    "View": {
+        "message": "Prohl\u00ed\u017eet"
+    }, 
+    "Watch Direct Lobby Id:": {
+        "message": "Sledovat p\u0159\u00edmo m\u00edstnost \u010d.:"
+    }, 
+    "Watch Replay": {
+        "message": "Sledovat z\u00e1znam"
+    }, 
+    "__gwClientNames__: Galactic War \"__gwWarName__\" (turn __gwTurn__, __gwSystemName__), vs. __gwAiArmies__": {
+        "message": "__gwClientNames__: Galaktick\u00e1 v\u00e1lka \"__gwWarName__\" (turn __gwTurn__, __gwSystemName__), vs. __gwAiArmies__"
+    }
+}

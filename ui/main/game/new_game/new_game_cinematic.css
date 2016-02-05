@@ -1,0 +1,218 @@
+.body_panel {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    justify-content: center;
+    font-family: "Sansation Bold";
+}
+
+body-dock {
+    overflow: hidden;
+    height: 100%;
+    white-space: nowrap;
+    background-color:#000;
+    background-image: url('uncached://pa/ui/backgrounds/default.png');
+    background-size: cover;
+    opacity: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: stretch;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+body-dock.fade {
+    opacity: 1;
+    -webkit-transition: 1s;
+}
+
+.player {
+    display: inline-block;
+    max-width: 40%;
+    position: relative;
+    white-space: nowrap;
+    flex-grow: 1;
+    z-index: 0;
+    border: 1px solid rgba(0,173,255,.1);
+    background: linear-gradient(to bottom, rgba(0,0,0,.4) 0%, rgba(0,0,0,.4) 100%);
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 0;
+    flex-shrink: 0;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+}
+
+.offset {
+    position: absolute;
+    height: 80%;
+    left: 0;
+    right: 0;
+}
+
+.snug .offset {
+    height: 60%;
+}
+
+.topTeam {
+    top: 0;
+    -webkit-transition: 1s;
+}
+
+.offTop {
+    top: -200%;
+    -webkit-transition: 1s;
+}
+
+.bottomTeam {
+    bottom: 0;
+    -webkit-transition: 1s;
+}
+
+.offBottom {
+    bottom: -200%;
+    -webkit-transition: 1s;
+}
+
+.card {
+    position: relative;
+    flex-grow: 1;
+}
+
+.background {
+    opacity: .35;
+    box-shadow: 0px 0px 10px black;
+    position: absolute;
+    top: 0em;
+    right: 30px;
+    bottom: 0em;
+    left: 30px;
+    z-index: -1;
+    margin: 0px 6%;
+    display:flex;
+    align-content:center;
+}
+
+.background_bar {
+    width: 7%;
+    opacity: .8;
+    border: 1px solid rgba(255,255,255,.2);
+    position: absolute;
+    top: 0em;
+    right: 30px;
+    bottom: 0em;
+    left: 30px;
+    z-index: -1;
+    margin: 0px 6%;
+    display: flex;
+    align-content: center;
+}
+
+.topTeam .background {
+    top: 0;
+}
+
+    .topTeam .background .gradient {
+        height: 100%;
+        width: 100%;
+        background: linear-gradient(to bottom, rgba(0,0,0,1) 0%, rgba(0,0,0,0) 75%);
+    }
+
+    .topTeam .background_bar {
+        border-width: 0px 1px 1px 1px;
+    }
+
+    .topTeam .background_bar .gradient {
+        height: 100%;
+        width: 100%;
+        background: linear-gradient(to bottom, rgba(0,0,0,.7) 0%, rgba(0,0,0,0) 55%);
+    }
+
+
+
+.bottomTeam .background {
+    bottom: 0;
+}
+
+    .bottomTeam .background .gradient {
+        height: 100%;
+        width: 100%;
+        background: linear-gradient(to top, rgba(0,0,0,1) 0%, rgba(0,0,0,0) 75%);
+    }
+
+.bottomTeam .background_bar {
+    border-width: 1px 1px 0px 1px;
+}
+
+    .bottomTeam .background_bar .gradient {
+        height: 100%;
+        width: 100%;
+        background: linear-gradient(to top, rgba(0,0,0,.7) 0%, rgba(0,0,0,0) 55%);
+    }
+
+.commander {
+    position: absolute;
+    top: 10px;
+    right: 5px;
+    bottom: 10px;
+    left: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.topTeam .commander {
+    justify-content: flex-end;
+}
+
+.bottomTeam .commander {
+    justify-content: flex-start;
+}
+
+.commander img {
+    max-height: 100%;
+    max-width: 150%;
+}
+
+.crowded .commander img {
+    max-height: 60%;
+}
+
+.crowded .bottomTeam.odd .commander {
+    justify-content: flex-end;
+}
+
+.crowded .topTeam.odd .commander {
+    justify-content: flex-start;
+}
+
+.name {
+    text-align: center;
+    white-space: normal;
+    font-size: 28px;
+    text-shadow: 0px 0px 20px #00b3ff;
+    color: #00b3ff;
+    padding:10px 0px;
+}
+
+.bottomTeam .name {
+    order: -1;
+    margin-top: 0.5em;
+}
+
+.topTeam .name {
+    order: 0;
+    margin-bottom: 0.5em;
+}
+

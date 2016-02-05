@@ -1,0 +1,26 @@
+{
+    "Activate planetary laser": {
+        "message": "Activate planetary laser"
+    }, 
+    "Change orbit": {
+        "message": "Change orbit"
+    }, 
+    "Select a new gravity well.": {
+        "message": "Select a new gravity well."
+    }, 
+    "Select a planet to attack.": {
+        "message": "Select a planet to attack."
+    }, 
+    "Select a planet to destroy.": {
+        "message": "Select a planet to destroy."
+    }, 
+    "Set course for annihilation": {
+        "message": "Set course for annihilation"
+    }, 
+    "Set target spot": {
+        "message": "Set target spot"
+    }, 
+    "Then confirm destination to set course.": {
+        "message": "Then confirm destination to set course."
+    }
+}

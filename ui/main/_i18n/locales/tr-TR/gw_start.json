@@ -1,0 +1,98 @@
+{
+    "ABSURD": {
+        "message": "SA\u00c7MA"
+    }, 
+    "Active Wars": {
+        "message": "Aktif Sava\u015flar"
+    }, 
+    "Annihilate enemies on claimed systems to collect their Tech.": {
+        "message": "Ele ge\u00e7irilmi\u015f sistemlerdeki d\u00fc\u015fmanlar\u0131n Teknolojilerini toplamak i\u00e7in onlar\u0131 yok et."
+    }, 
+    "Annihilated": {
+        "message": "Yok edildi!"
+    }, 
+    "Annihilation is final.": {
+        "message": "Yok etme son."
+    }, 
+    "Archived Wars": {
+        "message": "Ar\u015fivlenmi\u015f Sava\u015flar"
+    }, 
+    "Choose a loadout to give your Commander different starting Tech configurations.": {
+        "message": "Kumandan\u0131n\u0131za farkl\u0131 ba\u015flang\u0131\u00e7 Teknoloji yap\u0131land\u0131rmalar\u0131 vermek i\u00e7in bir y\u00fck \u00e7\u0131k\u0131\u015f\u0131 se\u00e7in."
+    }, 
+    "Difficulty:": {
+        "message": "Zorluk Seviyesi:"
+    }, 
+    "EPIC": {
+        "message": "EP\u0130K"
+    }, 
+    "Explore unclaimed systems to recover Tech.": {
+        "message": "Teknolojileri kurtarmak i\u00e7in ele ge\u00e7irilmemi\u015f sistemleri tara."
+    }, 
+    "Faction": {
+        "message": "Grup"
+    }, 
+    "Go to War": {
+        "message": "Sava\u015fa Git"
+    }, 
+    "HARD": {
+        "message": "ZOR"
+    }, 
+    "How to Play": {
+        "message": "Nas\u0131l Oynan\u0131r"
+    }, 
+    "LARGE": {
+        "message": "B\u00dcY\u00dcK"
+    }, 
+    "MEDIUM": {
+        "message": "ORTA"
+    }, 
+    "Move from star system to star system collecting Techs. Use those Techs to defeat the enemy faction leaders and conquer the galaxy!": {
+        "message": "Y\u0131ld\u0131z sisteminden, teknoloji toplayan y\u0131ld\u0131z sistemlerine gidiniz.Bu Teknolojileri d\u00fc\u015fman grup liderlerini yenmek i\u00e7in kullan\u0131n\u0131z ve galaksiyi ele ge\u00e7iriniz."
+    }, 
+    "NORMAL": {
+        "message": "NORMAL"
+    }, 
+    "Name": {
+        "message": "\u0130sim"
+    }, 
+    "Navigate the galaxy map by jumping from system to system.": {
+        "message": "Sistemden sisteme ge\u00e7i\u015f yaparak galaksi haritas\u0131nda dola\u015f."
+    }, 
+    "New Data Banks to store Techs can be found by exploring systems.": {
+        "message": "Teknolojileri biriktiren yeni veri bankalar\u0131, sistemler ara\u015ft\u0131rarak bulunabilir."
+    }, 
+    "New War": {
+        "message": "Yeni Sava\u015f"
+    }, 
+    "RELENTLESS": {
+        "message": "ACIMASIZ"
+    }, 
+    "SMALL": {
+        "message": "K\u00dc\u00c7\u00dcK"
+    }, 
+    "Seed Value": {
+        "message": "Tohum De\u011feri"
+    }, 
+    "Size:": {
+        "message": "Boyut:"
+    }, 
+    "Some systems have hidden Commander loadouts. Recover them for future Galactic Wars.": {
+        "message": "Baz\u0131 sistemlerde gizli Kumandan y\u00fck \u00e7\u0131k\u0131\u015flar\u0131 var.Onlar\u0131,ilerideki Galaksi Sava\u015flar\u0131 i\u00e7in kurtar."
+    }, 
+    "Tech can be deleted to make room for new ones to download. Deleted and rejected Techs are lost for the remainder of the Galactic War.": {
+        "message": "Yeni Teknolojilere yer a\u00e7mak i\u00e7in Teknoloji silinebilir.Silinen ve kabul edilmeyen Teknolojiler,Galaktik savasda kalanlar i\u00e7in kay\u0131pt\u0131r."
+    }, 
+    "Tips": {
+        "message": "\u0130pu\u00e7lar\u0131"
+    }, 
+    "Turns:": {
+        "message": "S\u0131ralar:"
+    }, 
+    "UBER": {
+        "message": "UBER"
+    }, 
+    "Victory": {
+        "message": "Zafer!"
+    }
+}

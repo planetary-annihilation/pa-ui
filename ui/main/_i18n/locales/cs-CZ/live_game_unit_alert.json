@@ -1,0 +1,29 @@
+{
+    "Allied": {
+        "message": "Allied"
+    }, 
+    "Enemy Contact!": {
+        "message": "Nep\u0159\u00e1telsk\u00fd kontakt!"
+    }, 
+    "Ping!": {
+        "message": "Ozna\u010dit!"
+    }, 
+    "destroyed.": {
+        "message": "Zni\u010den"
+    }, 
+    "launched!": {
+        "message": "Odp\u00e1len!"
+    }, 
+    "located.": {
+        "message": "nalezen"
+    }, 
+    "lost.": {
+        "message": "ztraceno."
+    }, 
+    "ready.": {
+        "message": "P\u0159ipraven"
+    }, 
+    "under attack.": {
+        "message": "Pod \u00fatokem."
+    }
+}

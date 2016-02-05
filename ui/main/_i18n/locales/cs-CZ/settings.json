@@ -1,0 +1,902 @@
+{
+    "1100 (recommended for 480p)": {
+        "message": "1100 (doporu\u010deno pro 480p)"
+    }, 
+    "2000 (recommended for 720p)": {
+        "message": "2000 (doporu\u010deno pro 720p)"
+    }, 
+    "3200 (recommended for 1080p)": {
+        "message": "3200 (doporu\u010deno pro 1080p)"
+    }, 
+    "500 (recommended for 240p)": {
+        "message": "500 (doporu\u010deno pro 240p)"
+    }, 
+    "700 (recommended for 360p)": {
+        "message": "700 (doporu\u010deno pro 360p)"
+    }, 
+    "ALL": {
+        "message": "V\u0160E"
+    }, 
+    "ALWAYS": {
+        "message": "PO\u0158\u00c1D"
+    }, 
+    "Ambient Occlusion": {
+        "message": "Ambient Occlusion"
+    }, 
+    "Anti-Aliasing": {
+        "message": "Anti-Aliasing"
+    }, 
+    "Audio": {
+        "message": "Zvuk"
+    }, 
+    "Bitrate": {
+        "message": "Bitrate"
+    }, 
+    "Build Preview Behavior": {
+        "message": "Build Preview Behavior"
+    }, 
+    "CUSTOM": {
+        "message": "VLASTN\u00cd"
+    }, 
+    "Camera": {
+        "message": "Kamera"
+    }, 
+    "Camera Friction": {
+        "message": "Camera Friction"
+    }, 
+    "Cancel": {
+        "message": "Zru\u0161it"
+    }, 
+    "Display Mode": {
+        "message": "Display Mode"
+    }, 
+    "ENABLE MICROPHONE": {
+        "message": "POVOLIT MIKROFON"
+    }, 
+    "ENABLE STREAMING (Takes effect immediately)": {
+        "message": "POVOLIT STREAMOV\u00c1N\u00cd (Zm\u011bny se projev\u00ed okam\u017eit\u011b)"
+    }, 
+    "ENABLE SYSTEM SOUNDS": {
+        "message": "POVOLIT SYST\u00c9MOV\u00c9 ZVUKY"
+    }, 
+    "Edge Scroll Options": {
+        "message": "Edge Scroll Options"
+    }, 
+    "FOV": {
+        "message": "FOV"
+    }, 
+    "FPS": {
+        "message": "FPS"
+    }, 
+    "FULLSCREEN": {
+        "message": "FULLSCREEN"
+    }, 
+    "FXAA": {
+        "message": "FXAA"
+    }, 
+    "Graphics": {
+        "message": "Grafika"
+    }, 
+    "HDR": {
+        "message": "HDR"
+    }, 
+    "HIGH": {
+        "message": "VYSOK\u00dd"
+    }, 
+    "Headlights": {
+        "message": "Headlights"
+    }, 
+    "ICON DISPLAY DISTANCE": {
+        "message": "ICON DISPLAY DISTANCE"
+    }, 
+    "Key Pan Speed": {
+        "message": "Key Pan Speed"
+    }, 
+    "Keyboard": {
+        "message": "Kl\u00e1vesnice"
+    }, 
+    "LOW": {
+        "message": "N\u00cdZK\u00dd"
+    }, 
+    "Language": {
+        "message": "Jazyk"
+    }, 
+    "Livestream Settings": {
+        "message": "Nastaven\u00ed \u017eiv\u00e9ho streamu"
+    }, 
+    "MEDIUM": {
+        "message": "ST\u0158EDN\u00cd"
+    }, 
+    "Master Volume": {
+        "message": "Celkov\u00e1 hlasitost"
+    }, 
+    "Mouse Pan Speed": {
+        "message": "Mouse Pan Speed"
+    }, 
+    "Music Volume": {
+        "message": "Hlasitost hudby"
+    }, 
+    "NATIVE (100%)": {
+        "message": "NATIVE (100%)"
+    }, 
+    "NEVER": {
+        "message": "NIKDY"
+    }, 
+    "OFF": {
+        "message": "OFF"
+    }, 
+    "OFF (MOUSELOCK)": {
+        "message": "OFF (MOUSELOCK)"
+    }, 
+    "OFF (NO MOUSELOCK)": {
+        "message": "OFF (KURZOR NEUZAM\u010cEN)"
+    }, 
+    "ON": {
+        "message": "ON"
+    }, 
+    "Orbital Shell": {
+        "message": "Orbit\u00e1ln\u00ed pl\u00e1\u0161\u0165"
+    }, 
+    "Order Preview Behavior": {
+        "message": "Order Preview Behavior"
+    }, 
+    "Password": {
+        "message": "Heslo"
+    }, 
+    "Pole Lock": {
+        "message": "Uzamknout p\u00f3l"
+    }, 
+    "Quality Preset": {
+        "message": "P\u0159ednastaven\u00ed kvality"
+    }, 
+    "RANGE DEPENDENT": {
+        "message": "RANGE DEPENDENT"
+    }, 
+    "RESTORE ALL DEFAULTS": {
+        "message": "Obnovit p\u016fvodn\u00ed nastaven\u00ed"
+    }, 
+    "RESTORE DEFAULTS": {
+        "message": "Obnovit p\u016fvodn\u00ed"
+    }, 
+    "Resolution": {
+        "message": "Rozli\u0161en\u00ed"
+    }, 
+    "Resolution Scaling": {
+        "message": "Rozli\u0161en\u00ed m\u011b\u0159\u00edtka"
+    }, 
+    "SELECTED": {
+        "message": "VYBR\u00c1NO"
+    }, 
+    "SERVER": {
+        "message": "SERVER"
+    }, 
+    "SHIFT": {
+        "message": "SHIFT"
+    }, 
+    "SIGN IN": {
+        "message": "P\u0158IHL\u00c1SIT"
+    }, 
+    "SIGN OUT": {
+        "message": "ODHL\u00c1SIT"
+    }, 
+    "SUBSAMPLE (50%)": {
+        "message": "SUBSAMPLE (50%)"
+    }, 
+    "SUBSAMPLE (75%)": {
+        "message": "SUBSAMPLE (75%)"
+    }, 
+    "SUPERSAMPLE (110%)": {
+        "message": "SUPERSAMPLE (110%)"
+    }, 
+    "SUPERSAMPLE (150%)": {
+        "message": "SUPERSAMPLE (150%)"
+    }, 
+    "SUPERSAMPLE (175%)": {
+        "message": "SUPERSAMPLE (175%)"
+    }, 
+    "Save": {
+        "message": "Ulo\u017eit"
+    }, 
+    "Save And Close": {
+        "message": "Ulo\u017eit a ukon\u010dit"
+    }, 
+    "Server": {
+        "message": "Server"
+    }, 
+    "Settings": {
+        "message": "Nastaven\u00ed"
+    }, 
+    "Shadows": {
+        "message": "St\u00edny"
+    }, 
+    "Show Build Previews": {
+        "message": "Show Build Previews"
+    }, 
+    "Show Metal Spot Icons": {
+        "message": "Uk\u00e1zat ikony kovov\u00fdch ulo\u017ei\u0161\u0165"
+    }, 
+    "Show Order Previews": {
+        "message": "Show Order Previews"
+    }, 
+    "Show Stat Bars": {
+        "message": "Zobrazit statistickou li\u0161tu"
+    }, 
+    "Show Unit Icons": {
+        "message": "Zobrazit ikony jednotek"
+    }, 
+    "Show/Hide game stats": {
+        "message": "Zobrazit/Schovat hern\u00ed statistiky"
+    }, 
+    "Show/Hide pip": {
+        "message": "Zobrazit/Schovat pip"
+    }, 
+    "Sign in with Your Twitch ID": {
+        "message": "P\u0159ihlaste se pomoc\u00ed sv\u00e9ho Twitch ID"
+    }, 
+    "Signed in as": {
+        "message": "Jste p\u0159ihl\u00e1\u0161eni jako"
+    }, 
+    "Sound Effects Volume": {
+        "message": "Hlasitost zvukov\u00fdch efekt\u016f"
+    }, 
+    "Twitch chat": {
+        "message": "Twitch chat"
+    }, 
+    "UBER": {
+        "message": "UBER"
+    }, 
+    "UI": {
+        "message": "UI"
+    }, 
+    "VALUE DEPENDENT": {
+        "message": "VALUE DEPENDENT"
+    }, 
+    "Virtual Texture": {
+        "message": "Virtual Texture"
+    }, 
+    "Voice Volume": {
+        "message": "Voice Volume"
+    }, 
+    "WINDOWED": {
+        "message": "WINDOWED"
+    }, 
+    "Zoom Speed": {
+        "message": "Rychlost p\u0159ibl\u00ed\u017een\u00ed"
+    }, 
+    "abort": {
+        "message": "zru\u0161it"
+    }, 
+    "alerts": {
+        "message": "upozorn\u011bn\u00ed"
+    }, 
+    "align to pole": {
+        "message": "Vyrovnat k p\u00f3lu"
+    }, 
+    "alt fire": {
+        "message": "alternativn\u00ed \u00fatok"
+    }, 
+    "assist": {
+        "message": "asistovat"
+    }, 
+    "attack": {
+        "message": "\u00fatok"
+    }, 
+    "bug report": {
+        "message": "Hl\u00e1\u0161en\u00ed chyb"
+    }, 
+    "build": {
+        "message": "postavit"
+    }, 
+    "build avatar": {
+        "message": "build avatar"
+    }, 
+    "build avatar factory": {
+        "message": "build avatar factory"
+    }, 
+    "build bar groups": {
+        "message": "build bar groups"
+    }, 
+    "build item 1": {
+        "message": "postavit polo\u017eku 1"
+    }, 
+    "build item 10": {
+        "message": "postavit polo\u017eku 10"
+    }, 
+    "build item 11": {
+        "message": "postavit polo\u017eku 11"
+    }, 
+    "build item 12": {
+        "message": "postavit polo\u017eku 12"
+    }, 
+    "build item 13": {
+        "message": "postavit polo\u017eku 13"
+    }, 
+    "build item 14": {
+        "message": "postavit polo\u017eku 14"
+    }, 
+    "build item 15": {
+        "message": "postavit polo\u017eku 15"
+    }, 
+    "build item 2": {
+        "message": "vyrobit postavit polo\u017eku 2"
+    }, 
+    "build item 3": {
+        "message": "postavit polo\u017eku 3"
+    }, 
+    "build item 4": {
+        "message": "postavit polo\u017eku 4"
+    }, 
+    "build item 5": {
+        "message": "postavit polo\u017eku 5"
+    }, 
+    "build item 6": {
+        "message": "postavit polo\u017eku 6"
+    }, 
+    "build item 7": {
+        "message": "postavit polo\u017eku 7"
+    }, 
+    "build item 8": {
+        "message": "postavit polo\u017eku 8"
+    }, 
+    "build item 9": {
+        "message": "postavit polo\u017eku 9"
+    }, 
+    "build items": {
+        "message": "build items"
+    }, 
+    "build loop": {
+        "message": "build loop"
+    }, 
+    "build once": {
+        "message": "Postavit jednou"
+    }, 
+    "build orders": {
+        "message": "Stavebn\u00ed p\u0159\u00edkazy"
+    }, 
+    "capture anchor": {
+        "message": "Ulo\u017eit upevn\u011bn\u00ed"
+    }, 
+    "capture anchor 1": {
+        "message": "Ulo\u017eit upevn\u011bn\u00ed 1"
+    }, 
+    "capture anchor 10": {
+        "message": "Ulo\u017eit upevn\u011bn\u00ed 10"
+    }, 
+    "capture anchor 2": {
+        "message": "Ulo\u017eit upevn\u011bn\u00ed 2"
+    }, 
+    "capture anchor 3": {
+        "message": "Ulo\u017eit upevn\u011bn\u00ed 3"
+    }, 
+    "capture anchor 4": {
+        "message": "Ulo\u017eit upevn\u011bn\u00ed 4"
+    }, 
+    "capture anchor 5": {
+        "message": "Ulo\u017eit upevn\u011bn\u00ed 5"
+    }, 
+    "capture anchor 6": {
+        "message": "Ulo\u017eit upevn\u011bn\u00ed 6"
+    }, 
+    "capture anchor 7": {
+        "message": "Ulo\u017eit upevn\u011bn\u00ed 7"
+    }, 
+    "capture anchor 8": {
+        "message": "Ulo\u017eit upevn\u011bn\u00ed 8"
+    }, 
+    "capture anchor 9": {
+        "message": "Ulo\u017eit upevn\u011bn\u00ed 9"
+    }, 
+    "capture group 0": {
+        "message": "capture group 0"
+    }, 
+    "capture group 1": {
+        "message": "capture group 1"
+    }, 
+    "capture group 2": {
+        "message": "capture group 2"
+    }, 
+    "capture group 3": {
+        "message": "capture group 3"
+    }, 
+    "capture group 4": {
+        "message": "capture group 4"
+    }, 
+    "capture group 5": {
+        "message": "capture group 5"
+    }, 
+    "capture group 6": {
+        "message": "capture group 6"
+    }, 
+    "capture group 7": {
+        "message": "capture group 7"
+    }, 
+    "capture group 8": {
+        "message": "capture group 8"
+    }, 
+    "capture group 9": {
+        "message": "capture group 9"
+    }, 
+    "chronocam": {
+        "message": "chronokamera"
+    }, 
+    "communication": {
+        "message": "Komunikace"
+    }, 
+    "copy to pip": {
+        "message": "copy to pip"
+    }, 
+    "copy unit": {
+        "message": "kop\u00edrovat jednotku"
+    }, 
+    "crash": {
+        "message": "p\u00e1d"
+    }, 
+    "decrease camera pan speed": {
+        "message": "decrease camera pan speed"
+    }, 
+    "dev mode": {
+        "message": "v\u00fdvoj\u00e1\u0159sk\u00fd m\u00f3d"
+    }, 
+    "direction": {
+        "message": "direction"
+    }, 
+    "disable navigation debug info": {
+        "message": "disable navigation debug info"
+    }, 
+    "dismiss alert notification": {
+        "message": "Zru\u0161it upozorn\u011bn\u00ed"
+    }, 
+    "enable navigation debug info": {
+        "message": "enable navigation debug info"
+    }, 
+    "energy off": {
+        "message": "Energie vypnuta"
+    }, 
+    "energy on": {
+        "message": "energie zapnuta"
+    }, 
+    "fire at will": {
+        "message": "p\u00e1lit dle uv\u00e1\u017een\u00ed"
+    }, 
+    "free move backward": {
+        "message": "free move backward"
+    }, 
+    "free move down": {
+        "message": "Voln\u00fd pohyb dol\u016f"
+    }, 
+    "free move forward": {
+        "message": "Voln\u00fd pohyb vp\u0159ed"
+    }, 
+    "free move left": {
+        "message": "Voln\u00fd pohyb doleva"
+    }, 
+    "free move right": {
+        "message": "free move right"
+    }, 
+    "free move up": {
+        "message": "Voln\u00fd pohyb nahoru"
+    }, 
+    "free movement": {
+        "message": "Voln\u00fd pohyb"
+    }, 
+    "free pitch backward": {
+        "message": "free pitch backward"
+    }, 
+    "free pitch forward": {
+        "message": "free pitch forward"
+    }, 
+    "free roll left": {
+        "message": "free roll left"
+    }, 
+    "free roll right": {
+        "message": "free roll right"
+    }, 
+    "free yaw left": {
+        "message": "Voln\u00e9 sto\u010den\u00ed doleva"
+    }, 
+    "free yaw right": {
+        "message": "free yaw right"
+    }, 
+    "free zoom in": {
+        "message": "Voln\u00e9 p\u0159ibl\u00ed\u017een\u00ed"
+    }, 
+    "free zoom out": {
+        "message": "Voln\u00e9 odd\u00e1len\u00ed"
+    }, 
+    "general": {
+        "message": "general"
+    }, 
+    "hold fire": {
+        "message": "nest\u0159\u00edlet"
+    }, 
+    "hold position": {
+        "message": "Dr\u017eet pozici"
+    }, 
+    "increase camera pan speed": {
+        "message": "increase camera pan speed"
+    }, 
+    "jump to next planet": {
+        "message": "sko\u010dit na dal\u0161\u00ed planetu"
+    }, 
+    "jump to previous planet": {
+        "message": "P\u0159edchoz\u00ed planeta"
+    }, 
+    "last pseudo frame": {
+        "message": "last pseudo frame"
+    }, 
+    "load": {
+        "message": "na\u010d\u00edst"
+    }, 
+    "maneuver": {
+        "message": "man\u00e9vrovat"
+    }, 
+    "modes": {
+        "message": "m\u00f3dy"
+    }, 
+    "move": {
+        "message": "pohyb"
+    }, 
+    "move down": {
+        "message": "Pohyb dol\u016f"
+    }, 
+    "move left": {
+        "message": "Pohyb doleva"
+    }, 
+    "move right": {
+        "message": "Pohyb doprava"
+    }, 
+    "move up": {
+        "message": "pohyb nahoru"
+    }, 
+    "navigate back/exit": {
+        "message": "navigovat zp\u011bt/pry\u010d"
+    }, 
+    "next pseudo frame": {
+        "message": "next pseudo frame"
+    }, 
+    "normal chat": {
+        "message": "norm\u00e1ln\u00ed chat"
+    }, 
+    "paste unit": {
+        "message": "Vlo\u017eit jednotku"
+    }, 
+    "patrol": {
+        "message": "Hl\u00eddkovat"
+    }, 
+    "pause game": {
+        "message": "Pozastavit hru"
+    }, 
+    "pause time": {
+        "message": "pauza"
+    }, 
+    "picture-in-picture": {
+        "message": "obraz v obraze"
+    }, 
+    "ping": {
+        "message": "ozna\u010dit\\n"
+    }, 
+    "planet jump": {
+        "message": "planet\u00e1rn\u00ed skok"
+    }, 
+    "play backwards at 100%": {
+        "message": "P\u0159ehr\u00e1t pozp\u00e1tku na 100%"
+    }, 
+    "play backwards at 50%": {
+        "message": "P\u0159ehr\u00e1t pozp\u00e1tku na 50%"
+    }, 
+    "play forward at 100%": {
+        "message": "p\u0159ehr\u00e1t dop\u0159edu na 100%"
+    }, 
+    "play forward at 50%": {
+        "message": "p\u0159ehr\u00e1t dop\u0159edu na 50%"
+    }, 
+    "publish server mods": {
+        "message": "publikovat serverov\u00e9 m\u00f3dy"
+    }, 
+    "quick profile": {
+        "message": "Rychl\u00fd n\u00e1hled"
+    }, 
+    "recall anchor": {
+        "message": "Vyvolat upevn\u011bn\u00ed"
+    }, 
+    "recall anchor 0": {
+        "message": "Vyvolat upevn\u011bn\u00ed 0"
+    }, 
+    "recall anchor 1": {
+        "message": "Vyvolat upevn\u011bn\u00ed 1"
+    }, 
+    "recall anchor 2": {
+        "message": "Vyvolat upevn\u011bn\u00ed 2"
+    }, 
+    "recall anchor 3": {
+        "message": "Vyvolat upevn\u011bn\u00ed 3"
+    }, 
+    "recall anchor 4": {
+        "message": "Vyvolat upevn\u011bn\u00ed 4"
+    }, 
+    "recall anchor 5": {
+        "message": "Vyvolat upevn\u011bn\u00ed 5"
+    }, 
+    "recall anchor 6": {
+        "message": "Vyvolat upevn\u011bn\u00ed 6"
+    }, 
+    "recall anchor 7": {
+        "message": "Vyvolat upevn\u011bn\u00ed 7"
+    }, 
+    "recall anchor 8": {
+        "message": "Vyvolat upevn\u011bn\u00ed 8"
+    }, 
+    "recall anchor 9": {
+        "message": "Vyvolat upevn\u011bn\u00ed 9"
+    }, 
+    "recall group 0": {
+        "message": "vyvolat skupinu 0"
+    }, 
+    "recall group 1": {
+        "message": "vyvolat skupinu 1"
+    }, 
+    "recall group 2": {
+        "message": "vyvolat skupinu 2"
+    }, 
+    "recall group 3": {
+        "message": "vyvolat skupinu 3"
+    }, 
+    "recall group 4": {
+        "message": "vyvolat skupinu 4"
+    }, 
+    "recall group 5": {
+        "message": "vyvolat skupinu 5"
+    }, 
+    "recall group 6": {
+        "message": "vyvolat skupinu 6"
+    }, 
+    "recall group 7": {
+        "message": "vyvolat skupinu 7"
+    }, 
+    "recall group 8": {
+        "message": "vyvolat skupinu 8"
+    }, 
+    "recall group 9": {
+        "message": "vyvolat skupinu 9"
+    }, 
+    "reclaim": {
+        "message": "reclaim"
+    }, 
+    "reload view": {
+        "message": "obnovit pohled"
+    }, 
+    "repair": {
+        "message": "Opravit"
+    }, 
+    "resume at latest time": {
+        "message": "resume at latest time"
+    }, 
+    "return fire": {
+        "message": "op\u011btovat palbu"
+    }, 
+    "roam": {
+        "message": "toulat se"
+    }, 
+    "run twitch commercial": {
+        "message": "spustit reklamu twitch"
+    }, 
+    "select air group": {
+        "message": "Vybrat leteckou jednotku"
+    }, 
+    "select all air combat units": {
+        "message": "Vybrat v\u0161echny leteck\u00e9 bojov\u00e9 jednotky"
+    }, 
+    "select all air combat units on screen": {
+        "message": "Vybrat v\u0161echny leteck\u00e9 bojov\u00e9 jednotky na obrazovce"
+    }, 
+    "select all combat units": {
+        "message": "Vybrat v\u0161echny bojov\u00e9 jednotky"
+    }, 
+    "select all combat units on screen": {
+        "message": "Vybrat v\u0161echny bojov\u00e9 jednotky na obrazovce"
+    }, 
+    "select all factories": {
+        "message": "Vybrat v\u0161echny tov\u00e1rny"
+    }, 
+    "select all factories on screen": {
+        "message": "select all factories on screen"
+    }, 
+    "select all idle factories": {
+        "message": "Vybrat v\u0161echny ne\u010dinn\u00e9 tov\u00e1rny"
+    }, 
+    "select all idle factories on screen": {
+        "message": "Vybrat v\u0161echny ne\u010dinn\u00e9 tov\u00e1rny na obrazovce"
+    }, 
+    "select all land combat units": {
+        "message": "Vybrat v\u0161echny pozemn\u00ed bojov\u00e9 jednotky"
+    }, 
+    "select all land combat units on screen": {
+        "message": "vybrat v\u0161echny jednotky na obrazovce"
+    }, 
+    "select all matching units on screen": {
+        "message": "select all matching units on screen"
+    }, 
+    "select all naval combat units": {
+        "message": "Vybrat v\u0161echny n\u00e1mo\u0159n\u00ed bojov\u00e9 jednotky"
+    }, 
+    "select all naval combat units on screen": {
+        "message": "Vybrat v\u0161echny n\u00e1mo\u0159n\u00ed bojov\u00e9 jednotky na obrazovce"
+    }, 
+    "select bot group": {
+        "message": "vybrat skupinu bot\u016f"
+    }, 
+    "select combat group": {
+        "message": "Vybrat bojovou skupinu"
+    }, 
+    "select commander": {
+        "message": "vybrat velitele"
+    }, 
+    "select factory group": {
+        "message": "vybrat tov\u00e1rn\u00ed skupinu"
+    }, 
+    "select idle fabbers": {
+        "message": "Vybrat v\u0161echny ne\u010dinn\u00e9 konstrukt\u00e9ry"
+    }, 
+    "select orbital group (buildings)": {
+        "message": "vybrat orbit\u00e1ln\u00ed skupinu (budovy)"
+    }, 
+    "select orbital group (units)": {
+        "message": "vybrat orbit\u00e1ln\u00ed skupinu (jednotky)"
+    }, 
+    "select sea group": {
+        "message": "Vybrat n\u00e1mo\u0159n\u00ed skupinu"
+    }, 
+    "select utility group": {
+        "message": "vybrat technickou skupinu"
+    }, 
+    "select vehicle group": {
+        "message": "vybrat skupinu pro vozidla"
+    }, 
+    "self destruct selected unit": {
+        "message": "autodestrukce vybran\u00e9 jednotky"
+    }, 
+    "set army from hover": {
+        "message": "set army from hover"
+    }, 
+    "set debug camera": {
+        "message": "set debug camera"
+    }, 
+    "set default camera": {
+        "message": "nastavit v\u00fdchoz\u00ed kameru"
+    }, 
+    "set free camera": {
+        "message": "Voln\u00e1 kamera"
+    }, 
+    "set planet camera": {
+        "message": "nastavit kameru planety"
+    }, 
+    "show/hide UI": {
+        "message": "zobrazit/schovat UI"
+    }, 
+    "show/hide performance panel": {
+        "message": "zobrazi/schovat panel s v\u00fdkonnost\u00ed"
+    }, 
+    "show/hide visual aid overlays": {
+        "message": "show/hide visual aid overlays"
+    }, 
+    "smooth zoom in": {
+        "message": "hladk\u00e9 p\u0159ibl\u00ed\u017een\u00ed"
+    }, 
+    "smooth zoom out": {
+        "message": "Hladk\u00e9 odd\u00e1len\u00ed"
+    }, 
+    "special move": {
+        "message": "special move"
+    }, 
+    "stop": {
+        "message": "Zastavit"
+    }, 
+    "streaming": {
+        "message": "streamov\u00e1n\u00ed"
+    }, 
+    "swap pip": {
+        "message": "swap pip"
+    }, 
+    "team chat": {
+        "message": "t\u00fdmov\u00fd chat"
+    }, 
+    "toggle FOW": {
+        "message": "zapnout FOW"
+    }, 
+    "toggle audio logging": {
+        "message": "Zapnout zvukov\u00e9 nahr\u00e1v\u00e1n\u00ed"
+    }, 
+    "toggle build orders": {
+        "message": "P\u0159epnout stavebn\u00ed rozkazy"
+    }, 
+    "toggle console": {
+        "message": "Zapnout konzoli"
+    }, 
+    "toggle debug camera": {
+        "message": "toggle debug camera"
+    }, 
+    "toggle energy orders": {
+        "message": "toggle energy orders"
+    }, 
+    "toggle fire orders": {
+        "message": "P\u0159epnout bojov\u00e9 rozkazy"
+    }, 
+    "toggle free camera": {
+        "message": "Zapnout volnou kameru"
+    }, 
+    "toggle fullscreen": {
+        "message": "zapnout na celou obrazovku"
+    }, 
+    "toggle move orders": {
+        "message": "toggle move orders"
+    }, 
+    "toggle music": {
+        "message": "Zapnout hudbu"
+    }, 
+    "toggle nav debug": {
+        "message": "toggle nav debug"
+    }, 
+    "toggle pip mirror": {
+        "message": "toggle pip mirror"
+    }, 
+    "toggle twitch microphone": {
+        "message": "Zapnout mikrofon twitch"
+    }, 
+    "toggle twitch streaming": {
+        "message": "Zapnout streamov\u00e1n\u00ed twitch"
+    }, 
+    "toggle twitch system audio recording": {
+        "message": "Zapnout z\u00e1znam zvuku twitch"
+    }, 
+    "track selection with camera": {
+        "message": "track selection with camera"
+    }, 
+    "tracking & alignment": {
+        "message": "tracking & alignment"
+    }, 
+    "tuning": {
+        "message": "tuning"
+    }, 
+    "unit capture groups": {
+        "message": "unit capture groups"
+    }, 
+    "unit commands": {
+        "message": "P\u0159\u00edkazy jednotky"
+    }, 
+    "unit orders": {
+        "message": "rozkazy jednotek"
+    }, 
+    "unit recall groups": {
+        "message": "unit recall groups"
+    }, 
+    "unit selection": {
+        "message": "V\u00fdb\u011br jednotek"
+    }, 
+    "units": {
+        "message": "Jednotky"
+    }, 
+    "unload": {
+        "message": "vylo\u017eit"
+    }, 
+    "zoom": {
+        "message": "P\u0159ibl\u00ed\u017eit"
+    }, 
+    "zoom in": {
+        "message": "P\u0159ibl\u00ed\u017eit"
+    }, 
+    "zoom out": {
+        "message": "odd\u00e1lit"
+    }, 
+    "zoom to air": {
+        "message": "zoom to air"
+    }, 
+    "zoom to celestial": {
+        "message": "zoom to celestial"
+    }, 
+    "zoom to orbital": {
+        "message": "P\u0159ibl\u00ed\u017eit na orbitu"
+    }, 
+    "zoom to surface": {
+        "message": "p\u0159ibl\u00ed\u017eit k povrchu"
+    }
+}

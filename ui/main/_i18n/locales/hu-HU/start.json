@@ -1,0 +1,221 @@
+{
+    "AI Skirmish": {
+        "message": "AI Harc"
+    }, 
+    "Account information sent": {
+        "message": "Fi\u00f3kinform\u00e1ci\u00f3k elk\u00fcldve"
+    }, 
+    "Accounts linked": {
+        "message": "Fi\u00f3kok \u00f6sszekapcsolva"
+    }, 
+    "Already have a PlayFab account?": {
+        "message": "M\u00e1r van PlayFab fi\u00f3kod?"
+    }, 
+    "An email with a link to recover your account was sent to username@domain.com.": {
+        "message": "A vissza\u00e1ll\u00edt\u00f3 linket elk\u00fcldt\u00fck egy emailben a k\u00f6vetkez\u0151 c\u00edmre: username@domain.com."
+    }, 
+    "Armory": {
+        "message": "Fegyvert\u00e1r"
+    }, 
+    "Audio Engine:": {
+        "message": "Audio Motor:"
+    }, 
+    "CONTINUE TO MAIN MENU": {
+        "message": "FOLYTAT\u00c1S A F\u0150MEN\u00dcRE"
+    }, 
+    "CREATE ACCOUNT AND LINK": {
+        "message": "FI\u00d3K L\u00c9TREHOZ\u00c1S \u00c9S \u00d6SSZEKAPCSOL\u00c1S"
+    }, 
+    "Channels Streaming": {
+        "message": "\u00c9l\u0151 K\u00f6zvet\u00edt\u00e9sek"
+    }, 
+    "Click here.": {
+        "message": "Kattints ide."
+    }, 
+    "Click to play the Credits Galaxy": {
+        "message": "Kattints a St\u00e1blista Galaxis lej\u00e1tsz\u00e1s\u00e1hoz"
+    }, 
+    "Confirm Password:": {
+        "message": "Jelsz\u00f3 Meger\u0151s\u00edt\u00e9se:"
+    }, 
+    "Connecting to PlayFab": {
+        "message": "Csatlakoz\u00e1s a PlayFab-hez"
+    }, 
+    "Cosmic Edition Commanders": {
+        "message": "Cosmic Edition Parancsnokok"
+    }, 
+    "Create a PlayFab account to link with Steam": {
+        "message": "Hozz l\u00e9tre egy PlayFab fi\u00f3kot, melyet \u00f6sszekapcsolsz a Steammel"
+    }, 
+    "Don't have an PlayFab account?": {
+        "message": "Don't have an PlayFab account?"
+    }, 
+    "Email address already exists": {
+        "message": "Email c\u00edm m\u00e1r haszn\u00e1latban van."
+    }, 
+    "Email address is invalid": {
+        "message": "\u00c9rv\u00e9nytelen email c\u00edm"
+    }, 
+    "Email:": {
+        "message": "Email:"
+    }, 
+    "Extra special thanks to our:": {
+        "message": "K\u00fcl\u00f6n hatalmas k\u00f6sz\u00f6net: "
+    }, 
+    "Forgot username or password?": {
+        "message": "Elfelejtetted a felhaszn\u00e1l\u00f3neved vagy jelszavad?"
+    }, 
+    "Founding Commanders": {
+        "message": "Parancsnokok Keres\u00e9se"
+    }, 
+    "Galactic War": {
+        "message": "Galaktikus H\u00e1bor\u00fa"
+    }, 
+    "Incorrect username or password. Please check your entry and try again.": {
+        "message": "Hib\u00e1s felhaszn\u00e1l\u00f3n\u00e9v vagy jelsz\u00f3. K\u00e9rj\u00fck ellen\u0151rizd a bevitelt, \u00e9s pr\u00f3b\u00e1ld \u00fajra."
+    }, 
+    "Link PlayFab with Steam": {
+        "message": "PlayFab \u00e9s Steam \u00f6sszekapcsol\u00e1sa"
+    }, 
+    "Multiplayer": {
+        "message": "T\u00f6bbj\u00e1t\u00e9kos"
+    }, 
+    "New Build Available:": {
+        "message": "\u00daj Friss\u00edt\u00e9s El\u00e9rhet\u0151:"
+    }, 
+    "None of this would have been possible without your generosity, and we are grateful that you took the chance and believed in our vision.": {
+        "message": "Mindez nem lett volna lehets\u00e9ges a nagylelk\u0171s\u00e9ged n\u00e9lk\u00fcl, \u00e9s h\u00e1l\u00e1sak vagyunk, hogy es\u00e9lyt adt\u00e1l nek\u00fcnk \u00e9s hitt\u00e9l a koncepci\u00f3nkban."
+    }, 
+    "Password": {
+        "message": "Jelsz\u00f3"
+    }, 
+    "Passwords are different": {
+        "message": "A jelszavak nem egyeznek"
+    }, 
+    "PlayFab Username:": {
+        "message": "PlayFab Felhaszn\u00e1l\u00f3n\u00e9v:"
+    }, 
+    "PlayFab account already linked to a different Steam account": {
+        "message": "A PlayFab fi\u00f3k m\u00e1r \u00f6ssze van kapcsolva egy m\u00e1sik Steam fi\u00f3kkal"
+    }, 
+    "Please choose a default region.": {
+        "message": "K\u00e9rj\u00fck v\u00e1lassz egy alap\u00e9rtelmezett r\u00e9gi\u00f3t."
+    }, 
+    "Please try again later. If this error persists, please contact support and check the forums.": {
+        "message": "K\u00e9rj\u00fck pr\u00f3b\u00e1ld meg k\u00e9s\u0151bb. Ha a probl\u00e9ma tov\u00e1bbra is fenn \u00e1ll, k\u00e9rj\u00fck vedd fel a kapcsolatot a t\u00e1mogat\u00e1ssal \u00e9s l\u00e1togasd meg a f\u00f3rumot."
+    }, 
+    "Please try to link your account at": {
+        "message": "K\u00e9rj\u00fck pr\u00f3b\u00e1ld meg \u00f6sszekapcsolni a fi\u00f3kodat a k\u00f6vetkez\u0151 c\u00edmen:"
+    }, 
+    "Problem with Steam Account.": {
+        "message": "Probl\u00e1ma a Steam Fi\u00f3kkal."
+    }, 
+    "Quit": {
+        "message": "Kil\u00e9p\u00e9s"
+    }, 
+    "RETURN TO SIGN IN": {
+        "message": "T\u00c9RJ VISSZA A BEJELENTKEZ\u00c9SHEZ"
+    }, 
+    "Reconnecting to Game": {
+        "message": "\u00dajracsatlakoz\u00e1s a j\u00e1t\u00e9khoz"
+    }, 
+    "Replays": {
+        "message": "Visszaj\u00e1tsz\u00e1sok"
+    }, 
+    "Settings": {
+        "message": "Be\u00e1ll\u00edt\u00e1sok"
+    }, 
+    "Sign in": {
+        "message": "Bejelentkez\u00e9s"
+    }, 
+    "Sign in with your PlayFab ID": {
+        "message": "Sign in with your PlayFab ID"
+    }, 
+    "Sign into your PlayFab account.": {
+        "message": "Jelentkezz be a PlayFab fi\u00f3kodba."
+    }, 
+    "Single Player": {
+        "message": "Egyszem\u00e9lyes J\u00e1t\u00e9k"
+    }, 
+    "System Designer": {
+        "message": "Naprendszer tervez\u0151"
+    }, 
+    "Thank you for your support!": {
+        "message": "K\u00f6sz\u00f6nj\u00fck t\u00e1mogat\u00e1sod!"
+    }, 
+    "There are no regions available for this build version.": {
+        "message": "Nincs el\u00e9rhet\u0151 r\u00e9gi\u00f3 ehhez a  j\u00e1t\u00e9kverzi\u00f3hoz."
+    }, 
+    "There is a problem with Steam. Please restart Steam and try again or login using your PlayFab credentials.": {
+        "message": "Probl\u00e9ma ad\u00f3dott a Steammel. K\u00e9rj\u00fck ind\u00edtsd \u00fajra a Steam-et, majd pr\u00f3b\u00e1ld \u00fajra, vagy jelentkezz be a PlayFab hiteles\u00edt\u0151iddel."
+    }, 
+    "This shouldn't happen. Please contact us at": {
+        "message": "Ennek nem szabadna t\u00f6rt\u00e9nnie. K\u00e9rj\u00fck keress fel minket ezen a c\u00edmen:"
+    }, 
+    "This title has not been activated.": {
+        "message": "A c\u00edm nem lett aktiv\u00e1lva."
+    }, 
+    "To those who contributed to our Kickstarter campaign, we'd like to thank you for all the support.": {
+        "message": "Szeretn\u00e9nk megk\u00f6sz\u00f6nni mindazok t\u00e1mogat\u00e1s\u00e1t, akik hozz\u00e1j\u00e1rultak a Kickstarter kamp\u00e1nyunkhoz."
+    }, 
+    "Twitch": {
+        "message": "Twitch"
+    }, 
+    "Unable to Sign In": {
+        "message": "Sikertelen bejelentkez\u00e9s"
+    }, 
+    "User account has not been linked to steam.": {
+        "message": "Felhaszn\u00e1l\u00f3i fi\u00f3k nincs \u00f6sszekapcsolva a steammel."
+    }, 
+    "Username": {
+        "message": "Felhaszn\u00e1l\u00f3n\u00e9v"
+    }, 
+    "Username already exists": {
+        "message": "Felhaszn\u00e1l\u00f3n\u00e9v m\u00e1r l\u00e9tezik"
+    }, 
+    "Version:": {
+        "message": "Verzi\u00f3:"
+    }, 
+    "Videos": {
+        "message": "Vide\u00f3k"
+    }, 
+    "Visit our website \u00bb": {
+        "message": "Visit our website \u00bb"
+    }, 
+    "You are already assigned to a game.": {
+        "message": "Jelenleg hozz\u00e1 vagy rendelve egy folyamatban l\u00e9v\u0151 j\u00e1t\u00e9khoz."
+    }, 
+    "You can change the region later in the settings menu.": {
+        "message": "A r\u00e9gi\u00f3dat megv\u00e1ltoztathatod k\u00e9s\u0151bb a be\u00e1ll\u00edt\u00e1sokban."
+    }, 
+    "You need a new client to play the game. Steam users may need to restart Steam to get the new client.": {
+        "message": "\u00daj kliensre lesz sz\u00fcks\u00e9g a j\u00e1t\u00e9k futtat\u00e1s\u00e1hoz. A Steam felhaszn\u00e1l\u00f3knak lehet, hogy \u00fajra kell ind\u00edtaniuk a Steamet, hogy megkapj\u00e1k az \u00faj klienst."
+    }, 
+    "Your Steam ID and PlayFab accounts have been successfully linked.": {
+        "message": "A Steam ID \u00e9s PlayFab fi\u00f3kjaid sikeresen \u00f6sszekapcsol\u00f3dtak."
+    }, 
+    "Your account has been banned.": {
+        "message": "A fi\u00f3kodat kitiltott\u00e1k."
+    }, 
+    "Your account has been banned. If you believe this is in error, contact us at": {
+        "message": "A fi\u00f3kodat kitiltott\u00e1k. Ha szerinted ez egy hiba folyt\u00e1n t\u00f6rt\u00e9nt, l\u00e9pj vel\u00fcnk kapcsolatba a k\u00f6vetkez\u0151 c\u00edmen:"
+    }, 
+    "Your default region is currently unavailable. Please choose a different region.": {
+        "message": "Az alap\u00e9rtelmezett r\u00e9gi\u00f3d jelenleg nem el\u00e9rhet\u0151. K\u00e9rj\u00fck v\u00e1lassz egy m\u00e1sik r\u00e9gi\u00f3t."
+    }, 
+    "Your steam account does not own this application.": {
+        "message": "A steam fi\u00f3kod nem tartalmazza ezt az alkalmaz\u00e1st."
+    }, 
+    "set by code": {
+        "message": "k\u00f3d \u00e1ltal meghat\u00e1rozott"
+    }, 
+    "viewers": {
+        "message": "n\u00e9z\u0151k"
+    }, 
+    "| UI Library: Coherent Labs, copyright \u00a9 2012-2014": {
+        "message": "| UI Library: Coherent Labs, copyright \u00a9 2012-2014"
+    }, 
+    "\u00a9 2014 Uber Entertainment Inc.": {
+        "message": "\u00a9 2014 Uber Entertainment Inc."
+    }
+}

@@ -1,0 +1,89 @@
+{
+    "Account Name:": {
+        "message": "Nazwa konta:"
+    }, 
+    "Add To Cart": {
+        "message": "Dodaj do koszyka"
+    }, 
+    "Armory": {
+        "message": "Zbrojownia"
+    }, 
+    "Badges": {
+        "message": "Odznaki"
+    }, 
+    "CHECKOUT": {
+        "message": "KASA"
+    }, 
+    "Cancel": {
+        "message": "Anuluj"
+    }, 
+    "Cart": {
+        "message": "Koszyk"
+    }, 
+    "Commanders": {
+        "message": "Dow\u00f3dcy"
+    }, 
+    "Confirmation code:": {
+        "message": "Kod potwierdzaj\u0105cy:"
+    }, 
+    "Confirmation of your purchase is provided below.": {
+        "message": "Potwierdzenie zakupu znajduje si\u0119 poni\u017cej."
+    }, 
+    "Continue Shopping": {
+        "message": "Kontynuuj zakupy"
+    }, 
+    "Credit applied:": {
+        "message": "Kredyt nadano:"
+    }, 
+    "Designed in collaboration with": {
+        "message": "Zaprojektowano we wsp\u00f3\u0142pracy z"
+    }, 
+    "Go to Main Menu": {
+        "message": "Przejd\u017a do menu g\u0142\u00f3wnego"
+    }, 
+    "Here's your receipt.": {
+        "message": "Tw\u00f3j paragon."
+    }, 
+    "Item": {
+        "message": "Przedmiot"
+    }, 
+    "Item is already in cart.": {
+        "message": "Przedmiot jest ju\u017c w koszyku."
+    }, 
+    "Kickstarter Backer": {
+        "message": "Sponsor z Kickstartera"
+    }, 
+    "Price": {
+        "message": "Cena"
+    }, 
+    "REMOVE": {
+        "message": "USU\u0143"
+    }, 
+    "Redeem": {
+        "message": "Wykorzystaj"
+    }, 
+    "Refresh": {
+        "message": "Od\u015bwie\u017c"
+    }, 
+    "Return to Armory": {
+        "message": "Powr\u00f3t do zbrojowni"
+    }, 
+    "Set As Default Commander": {
+        "message": "Ustaw jako domy\u015blnego dow\u00f3dc\u0119"
+    }, 
+    "Thank you for your purchase.": {
+        "message": "Dzi\u0119kujemy za zakup."
+    }, 
+    "Total:": {
+        "message": "\u0141\u0105cznie:"
+    }, 
+    "Updating...": {
+        "message": "Aktualizacja..."
+    }, 
+    "Your cart is empty.": {
+        "message": "Tw\u00f3j koszyk jest pusty."
+    }, 
+    "Your purchased items are now registered to your account and are accessible in the game.": {
+        "message": "Zakupione przedmioty s\u0105 teraz zarejestrowane na twoim koncie i s\u0105 dost\u0119pne w grze."
+    }
+}

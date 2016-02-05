@@ -1,0 +1,14 @@
+{
+    "Draw": {
+        "message": "\u041d\u0406\u0427\u0418\u042f"
+    }, 
+    "GW GAME OVER": {
+        "message": "\u041a\u0406\u041d\u0415\u0426\u042c \u0413\u0420\u0418"
+    }, 
+    "Winner:": {
+        "message": "\u041f\u0415\u0420\u0415\u041c\u041e\u0416\u0415\u0426\u042c:"
+    }, 
+    "Winners:": {
+        "message": "\u041f\u0415\u0420\u0415\u041c\u041e\u0416\u0426\u0406:"
+    }
+}

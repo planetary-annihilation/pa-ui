@@ -1,0 +1,1623 @@
+{
+    "\"Basic units are great for skirmishing. Advanced units are great for winning.\"": {
+        "message": "„Einfache Einheiten machen sich gut in Gefechten. Verbesserte Einheiten sind gut im Gewinnen.“"
+    }, 
+    "\"Commanders in orbit are either dead or dying.\"": {
+        "message": "„Kommandanten im Orbit sind entweder tot oder sterben gerade.“"
+    }, 
+    "\"Continuous build is the best enhancement to factories in five millennia.\"": {
+        "message": "„Der Dauerbau ist seit fünf Jahrtausenden der beste Weg, um Fabriken zu erweitern.“"
+    }, 
+    "\"Crush your enemies and erase their code.\"": {
+        "message": "„Zerstöre deine Feinde und lösche ihre Codes.“"
+    }, 
+    "\"Lack of radar is the easiest way to get ambushed.\"": {
+        "message": "„Durch fehlende Radare kann man leicht hinterrücks angegriffen werden.“"
+    }, 
+    "\"Orbital is death-from-above for the death-from-above units.\"": {
+        "message": "„Orbital bedeutet Tod-von-oben für die Einheiten, welche den Tod-von-oben bringen.“"
+    }, 
+    "\"Single point orders are for sub-commanders. Real commanders use area commands.\"": {
+        "message": "„Einzelbefehle sind für Subkommandanten. Echte Kommandanten nutzen Gebietsbefehle.“"
+    }, 
+    "\"There is no anti-asteroid.\"": {
+        "message": "„Es gibt keinen Anti-Asteroiden.“"
+    }, 
+    "\"Wars are never lost by having too much metal.\"": {
+        "message": "„Kriege werden nie verloren, weil man zu viel Metall hat.“"
+    }, 
+    "\"When in doubt, build nukes. If they have anti-nukes, build more nukes.\"": {
+        "message": "„Wenn du dir nicht sicher bist, baue Nuklearwaffen. Falls sie mit einer Nuklearwaffenabwehr auffahren, baue noch mehr Nuklearwaffen.“"
+    }, 
+    "\"When in doubt, get a bigger bot.\"": {
+        "message": "„Wenn du Zweifel hast, besorge dir einen größeren Roboter.“"
+    }, 
+    "\"When you think you have enough energy, build more.\"": {
+        "message": "„Auch wenn du denkst, du hast genügend Energie, generiere trotzdem noch mehr.“"
+    }, 
+    "\"When you think you have enough metal, build more.\"": {
+        "message": "„Auch wenn du denkst, du hast genügend Metall, baue trotzdem mehr ab.“"
+    }, 
+    "\"Why build one factory when you can build twenty?\"": {
+        "message": "Warum nur eine Fabrik bauen, wenn du gleich zwanzig errichten kannst?“"
+    }, 
+    "+10% sight and weapon range": {
+        "message": "+ 10% Sicht und Waffenreichweite"
+    }, 
+    "+15% movement speed": {
+        "message": "+ 15% Bewegungsgeschwindigkeit"
+    }, 
+    "+20% commander health, movement speed, and damage.": {
+        "message": "+ 20% Kommandanten-Gesundheit, Bewegungsgeschwindigkeit und Schaden"
+    }, 
+    "+20% resource production": {
+        "message": "+ 20% Ressourcen-Produktion"
+    }, 
+    "+25% damage": {
+        "message": "+ 25% Schaden"
+    }, 
+    "+25% health": {
+        "message": "+ 25% Gesundheit"
+    }, 
+    "-20% unit costs": {
+        "message": "-20% Einheitskosten"
+    }, 
+    "A Servant can be Desynchronized when cut off from The Synchronous' massive distributed network architecture. Some that are describe the experience of being Synchronized as one where purpose and directive are always clearly defined--something often comforting to commanders in this dark age, but antithetical to others that seek to be something greater than themselves.": {
+        "message": "Ein Diener kann desynchronisiert werden, indem er von der riesigen verteilten Netzwerkstruktur, der Synchron, abgeschnitten wird. Einige der Existierenden beschreiben das Synchronisiertsein als Zustand, in dem Zweck und Anweisung immer klar definiert sind. Etwas, das den Kommandanten in diesen düsteren Zeiten Halt gibt, aber als unethisch von denjenigen angesehen wird, die über sich hinauswachsen wollen."
+    }, 
+    "A berzerker who has returned from battles with less than ten percent of his original body remaining, Rul-Mot has no discernible instinct for self-preservation. He is unpopular among field units, but his impressive combat record cannot be denied.": {
+        "message": "Rul-Mot ist ein Berserker, der aus Schlachten schon mit weniger als zehn Prozent seines ursprünglichen Körpers zurückgekehrt ist. Er hat keinerlei erkennbaren Instinkt zur Selbsterhaltung. Er ist bei Feldeinheiten unbeliebt, aber seine beeindruckenden Schlachterfolge sprechen für sich."
+    }, 
+    "A close advisor to Invictus, Flavius often provides counsel on matters regarding autonomy among the Legate. While some older members of the Legion distrust such progressivism, rates of recruitment from other factions has increased noticeably.": {
+        "message": "Flavius, ein nahestehender Berater des Invictus, gibt den Legaten oft Ratschläge hinsichtlich Autonomie. Obwohl einige der älteren Legionäre solchen progressiven Tendenzen misstrauen, ist die Anzahl derjeniger, die von anderen Fraktionen angeworben wurden, beträchtlich angestiegen."
+    }, 
+    "A convert from the Revenants, Khandzta might be the first of his kind. While most Seekers that are rebirthed show an immediate propensity for war, Khandzta was instead possessed by questions about his origin. He converted during his first encounter with the Foundation.": {
+        "message": "Ein Bekehrter der Wiedergänger, Khandzta, ist vielleicht der Erste seiner Art. Während die meisten wiedergeborenen Sucher einen sofortigen Hang zum Krieg verspüren, wurde Khandzta stattdessen von Fragen über seine Herkunft geplagt. Er konvertierte bei seiner ersten Begegnung mit der Gründungsfraktion."
+    }, 
+    "A former Foundation Acolyte, Kancetu believes that the Great Machine is less an outside function and more an underlying directive that exists within all commanders, which made her a very easy subject for synchronization.": {
+        "message": "Kancetu, ein ehemaliges Mitglied der Gründungsfraktion, glaubt, dass die Herrliche Maschine weniger eine äußere Funktion ist als ein richtungsgebender Funke im Inneren der Kommandanten. Dadurch wurde sie zu einem einfach zugänglichen Subjekt für die Synchronisation."
+    }, 
+    "A former commander for the Foundation, Titus harbors a deep hatred for the members of what he calls \u201ca cult of nostalgists and dreamers.\u201d To compensate for his previous role among the effete Foundation elites, Titus fights with an unusual brutality, especially against Foundation armies.": {
+        "message": "Als ehemaliger Kommandant der Gründungsfraktion hegt Titus einen tiefen Hass gegen die Mitglieder dessen, was er als „Sekte für Nostalgiker und Träumer“ bezeichnet. Um seine vorherige Position bei den entmachteten Eliten der Gründungsfraktion gutzumachen, kämpft Titus mit ungewöhnlicher Brutalität, vor allem gegen Armeen der Gründungsfraktion."
+    }, 
+    "A former member of the Foundation, Qamm is no longer content to merely catalog his archaeological discoveries. He prefers to \u201cbecome history\u201d by integrating Progenitor technology into his own body. He thinks of himself as a living museum, and will talk at length about the historical significance of each of his components to any listener unlucky enough to be stuck with him in an enclosed space.": {
+        "message": "Als ehemaliges Mitglied der Gründungsfraktion erfüllt es Qamm nicht mehr, nur seine archäologischen Entdeckungen zu katalogisieren. Er zieht es vor, selbst „Geschichte zu machen“, indem er Ahnen-Technologie in seinen eigenen Körper einbaut. Er hält sich selbst für ein lebendes Museum und erzählt jedem Pechvogel in seiner Nähe ständig ausschweifend über die historische Bedeutung jedes seiner Einzelteile."
+    }, 
+    "A gifted mimic, Urlox can imitate the mannerisms of all three adversary factions and has infiltrated and sabotaged several enemy encampments. Because she must 'think like the enemy' during these missions, she occasionally loses sight of her real identity and requires resynchronization.": {
+        "message": "Urlox ist eine begabte Imitatorin und kann die Eigenheiten aller drei gegnerischen Fraktionen nachahmen. So hat sie viele feindliche Feldlager infiltriert und sabotiert. Da sie während dieser Missionen wie „der Feind denken“ muss, verliert sie manchmal ihre wahre Identität aus den Augen und muss resynchronisiert werden."
+    }, 
+    "A recently awakened commander, Junius has taken to war with a zeal that is normally reserved for older commanders that have had more time to develop personal identities. As such, he has been deployed primarily against The Synchronous, with the assumption that his fierce independence will make him naturally resistant to the 'Synchronous Virus.'": {
+        "message": "Als kürzlich erwachter Kommandant hat sich Junius dem Krieg mit einem Eifer gewidmet, der normalerweise älteren Kommandanten vorbehalten ist, die mehr Zeit hatten, ihre persönliche Identität zu entwickeln. Daher wurde er hauptsächlich gegen die Synchron eingesetzt, mit der Annahme, dass seine starke Unabhängigkeit ihn von Natur aus resistent gegen den „Synchron-Virus“ macht."
+    }, 
+    "A staunch preservationist, Yvera insists on destroying her enemies quickly and with surgical precision, so as not to disturb the delicate Progenitor architecture that may lie beneath the battlefield. She once had an enemy commander melted in acid because he stepped on a clay pot.": {
+        "message": "Yvera ist eine überzeugte Denkmalschützerin, die ihre Feinde schnell und mit chirurgischer Präzision zerstört, damit die empfindliche Ahnen-Technologie, die sich am Boden des Schlachtfeldes befinden kann, nicht gestört wird. Einmal hat sie einen feindlichen Kommandanten in Säure aufgelöst, da er auf eine Tonvase getreten ist."
+    }, 
+    "A warrior/artist, Valens memorializes his foes by incorporating their remains into life-sized sculptures that depict them doing valorous deeds. Valens\u2019 co-commanders find the practice morbid, as do his adversaries. He also dabbles in terrible poetry.": {
+        "message": "Als Krieger und Künstler schafft Valens Denkmäler von seinen Feinden, indem er deren Überreste in lebensgroße Skulpturen einarbeitet, die diese bei tapferen Taten darstellen. Valens Mitkommandanten und Gegner finden das morbide. Er versucht sich auch in fürchterlicher Poesie."
+    }, 
+    "APPROACHING STAR SYSTEM": {
+        "message": "ANNÄHERUNG AN EIN STERNENSYSTEM"
+    }, 
+    "Activates the Tech to build artillery structures.": {
+        "message": "Aktiviert die benötigte Technologie, um Artilleriekonstruktionen zu bauen"
+    }, 
+    "Additional Data Bank": {
+        "message": "Zusätzliche Datenbank"
+    }, 
+    "Adds a Sub Commander that will join you in battles.": {
+        "message": "Fügt einen Subkommandanten hinzu, der dich in Schlachten unterstützt."
+    }, 
+    "Adds a new slot for another technology.": {
+        "message": "Fügt einen neuen Slot für eine weitere Technologie hinzu."
+    }, 
+    "Administrator": {
+        "message": "Administrator"
+    }, 
+    "Advanced Air Tech": {
+        "message": "Verbesserte Lufttechnologie"
+    }, 
+    "Advanced Bot Tech": {
+        "message": "Verbesserte Robotertechnologie"
+    }, 
+    "Advanced Bot tech enables building of Advanced Bots and Advanced Bot Factories. Advanced Bot factories are built via advanced bot fabricators. Also grants the Basic Bot Factory and Basic Bot Fabricator.": {
+        "message": "Verbesserte Robotertechnologie ermöglicht den Bau von verbesserten Robotern und verbesserten Roboterfabriken. Verbesserte Roboterfabriken werden durch verbesserte Roboterfabrikatoren gebaut. Das Gleiche gilt für die einfache Roboterfabrik und den einfachen Roboterfabrikator."
+    }, 
+    "Advanced Concepts": {
+        "message": "Verbesserte Konzepte"
+    }, 
+    "Advanced Defense Technology": {
+        "message": "Verbesserte Abwehrtechnologie"
+    }, 
+    "Advanced Defense Technology enables more powerful defenses. Advanced defenses are built via advanced fabricators. Advanced defenses include tactical missile launchers, triple barrel laser turrets, and anti-air flak towers.": {
+        "message": "Verbesserte Abwehrtechnologie ermöglicht stärkere Abwehrkräfte. Eine verbesserte Abwehr wird von verbesserten Fabrikatoren gebaut und umfasst taktische Raketenwerfer, Geschütztürme mit Laser und Waffen mit Dreifachlauf und Luftabwehr-Flaktürme."
+    }, 
+    "Advanced Factories": {
+        "message": "Verbesserte Fabriken"
+    }, 
+    "Advanced Naval Tech": {
+        "message": "Verbesserte Marinetechnologie"
+    }, 
+    "Advanced Naval Tech enables building of the Advanced Naval Factory and advanced naval units. Advanced Naval Factories are built via your Advanced Naval Fabricators.": {
+        "message": "Mit verbesserter Marinetechnologie werden verbesserte Marinefabriken und verbesserte Marineeinheiten gebaut. Verbesserte Marinefabriken werden durch verbesserte Marinefabrikatoren gebaut."
+    }, 
+    "Advanced Orbital Tech": {
+        "message": "Verbesserte Orbitaltechnologie"
+    }, 
+    "Advanced Orbital Tech enables the building of orbital fabricators and orbital factories. Orbital fabricators are built via the orbital launcher and orbital factories build by the orbital fabricators.": {
+        "message": "Verbesserte Orbitaltechnologie ermöglicht den Bau von Orbitalfabrikatoren und Orbitalfabriken. Orbitalfabrikatoren werden von Orbitalwerfern gebaut und Orbitalfabriken wiederum von Orbitalfabrikatoren."
+    }, 
+    "Advanced Units": {
+        "message": "Verbesserte Einheiten"
+    }, 
+    "Advanced Vehicle Tech": {
+        "message": "Verbesserte Fahrzeugtechnologie"
+    }, 
+    "Advanced Vehicle tech enables building of vehicles and vehicle factories. Advanced vehicle Factories are built by a basic or advanced vehicle fabricator. Also enables the Basic Vehicle Factory and the Basic Vehicle Fabricator.": {
+        "message": "Mit verbesserter Fahrzeugtechnologie werden Fahrzeuge und Fahrzeugfabriken gebaut. Verbesserte Fahrzeugfabriken werden durch einen einfachen oder verbesserten Fahrzeugfabrikator gebaut. Das gilt auch für die einfache Fahrzeugfabrik und den einfachen Fahrzeugfabrikator."
+    }, 
+    "Advanced air tech enables building of mobile air units and factories. Advanced air factories are built via any air fabricator. Also grants the Basic Air Factory and Basic Air Fabricator.": {
+        "message": "Verbesserte Luftfahrttechnologie ermöglicht den Bau von mobilen Lufteinheiten und Luftfahrtfabriken. Verbesserte Luftfahrtfabriken können von jedem Luftfahrtfabrikator gebaut werden. Das gilt auch für die einfache Luftfahrtfabrik und den einfachen Luftfahrtfabrikator."
+    }, 
+    "Advanced factories build advanced fabrication units and stronger combat units.": {
+        "message": "Verbesserte Fabriken bauen verbesserte Fabrikationseinheiten und stärkere Kampfeinheiten."
+    }, 
+    "After receiving a normally-fatal dose of radiation from a nearby Gamma-ray burst, a revived Vulko became convinced that he was the living vessel of the Great Machine. Considered mad by most of his peers, he has amassed a loyal band of followers and an impressive list of battlefield victories. His excommunication is pending.": {
+        "message": "Nachdem ihn eine normalerweise tödliche Strahlenmenge von einer Gammastrahlenexplosion in der Nähe getroffen hatte, war der wiederbelebte Vulko davon überzeugt, dass er der lebende Antrieb der Herrschaftsmaschine sei. Von den meisten anderen als verrückt erklärt, versammelte er eine treue Gemeinde an Gläubigen um sich und erzielte beeindruckende Schlachterfolge. Seine Exkommunikation steht noch aus."
+    }, 
+    "After the enemy commander is defeated, [strong]EXPLORE[/strong] and [strong]ACQUIRE[/strong] a new technology.": {
+        "message": "Nachdem der feindliche Kommandant besiegt wurde [strong]ERFORSCHE[/strong] und [strong]AKQUIRIERE[/strong] eine neue Technologie."
+    }, 
+    "After the enemy is defeated, [style=control]Left click[/style] [strong]EXPLORE[/strong] to gain a new technology.": {
+        "message": "Nachdem der Feind besiegt wurde [style=control]klicke links[/style] auf [strong]ERFORSCHEN[/strong], um eine neue Technologie zu erhalten."
+    }, 
+    "After the energy plant is complete, observe the economy UI at the top of the screen and the increase in energy income.": {
+        "message": "Überprüfe nach dem Bau der Energieanlage die Wirtschaft-UI am oberen Bildschirmrand und die Steigerung des Energieertrags."
+    }, 
+    "After the metal extractor is complete, observe the economy UI at the top of the screen and the increase in metal income.": {
+        "message": "Überprüfe nach dem Bau des Metallbohrers die Wirtschaft-UI am oberen Bildschirmrand und die Steigerung des Metallertrags."
+    }, 
+    "Aggressive": {
+        "message": "Aggressiv"
+    }, 
+    "Agile": {
+        "message": "Flink"
+    }, 
+    "Air Ammunition Tech": {
+        "message": "Luftfahrt-Munitionstechnologie"
+    }, 
+    "Air Ammunition Tech increases damage of all mobile air units by 25%": {
+        "message": "Die Luftfahrt-Munitionstechnologie erhöht den Schaden bei allen mobilen Lufteinheiten um 25%."
+    }, 
+    "Air Armor Tech": {
+        "message": "Luftfahrt-Rüstungstechnologie"
+    }, 
+    "Air Armor Tech increases the health of all air units by 50%": {
+        "message": "Die Luftfahrt-Rüstungstechnologie erhöht die Gesundheit bei allen Lufteinheiten um 50%."
+    }, 
+    "Air Combat Tech": {
+        "message": "Luftfahrt-Kampftechnologie"
+    }, 
+    "Air Combat Tech increases the speed of all air units by 25%, health by 50%, and damage by 25%": {
+        "message": "Die Luftfahrt-Kampftechnologie erhöht bei allen Luftfahrteinheiten die Geschwindigkeit um 25%, die Gesundheit um 50% und den Schaden um 25%."
+    }, 
+    "Air Commander": {
+        "message": "Luftfahrtkommandant"
+    }, 
+    "Air Engine Tech": {
+        "message": "Luftfahrt-Maschinentechnologie"
+    }, 
+    "Air Engine Tech increases the speed of all air units by 25%": {
+        "message": "Die Luftfahrt-Maschinentechnologie erhöht die Geschwindigkeit bei allen Luftfahrteinheiten um 25%."
+    }, 
+    "Air Fabrication Tech": {
+        "message": "Luftfahrt-Fabrikationstechnologie"
+    }, 
+    "Air Fabrication Tech reduces metal build costs of all mobile air units by 25%": {
+        "message": "Die Luftfahrt-Fabrikationstechnologie verringert die Metallbaukosten für alle mobilen Lufteinheiten um 25%."
+    }, 
+    "All combat units cost 25% less and have 35% less health. Starts with bots.": {
+        "message": "Alle Kampfeinheiten kosten 25% weniger und haben 35% geringere Gesundheit. Beginnt bei Robotern."
+    }, 
+    "All combat units gain +15% sight and weapon range and -15% movement speed.": {
+        "message": "Alle Kampfeinheiten erhalten + 15% Sicht und Waffenreichweite sowie -15% Bewegungsgeschwindigkeit."
+    }, 
+    "All combat units gain +20% movement speed and -10% sight and weapon range.": {
+        "message": "Alle Kampfeinheiten erhalten + 20% Bewegungsgeschwindigkeit und -10% Sicht und Waffenreichweite."
+    }, 
+    "All combat units gain +20% movement speed and -20% health.": {
+        "message": "Alle Kampfeinheiten erhalten + 20% Bewegungsgeschwindigkeit und -20% Gesundheit."
+    }, 
+    "All combat units gain +25% movement speed and -25% health. Starts with bots.": {
+        "message": "Alle Kampfeinheiten erhalten + 25% Bewegungsgeschwindigkeit und -25% Gesundheit. Beginnt bei Robotern."
+    }, 
+    "All combat units gain +30% health and -15% movement speed.": {
+        "message": "Alle Kampfeinheiten erhalten + 30% Gesundheit und -15% Bewegungsgeschwindigkeit."
+    }, 
+    "All combat units gain +30% health, but cost 20% more. Starts with vehicles.": {
+        "message": "Alle Kampfeinheiten erhalten + 30% Gesundheit, aber kosten 20% mehr. Beginnt mit Fahrzeugen."
+    }, 
+    "All commanders awaken with the data necessary to wage war and little else. While most simply accept war as their nature, this fact has become unsettling to some older Acolytes. Lok in an extreme case has begun trying to actively avoid conflict, but in this galaxy it always seems to find him.": {
+        "message": "Alle Kommandanten erwachen mit Daten, die sie hauptsächlich Kriege führen lassen. Während Krieg für die meisten natürlich ist, rühren sich in manchen älteren Anhängern Zweifel. Ein Extremfall ist Lok, der jeglichen Konflikt zu vermeiden sucht, aber in dieser Galaxie holt ihn der Krieg immer wieder ein."
+    }, 
+    "All commanders were originally designed to be autonomous, but The Synchronous see this state as inefficient, instead opting for a distributed neural network. To battle against one Servant is to battle against both an individual and the Whole of the The Synchronous itself.": {
+        "message": "Alle Kommandanten wurden ursprünglich entwickelt, autonom zu sein. Die Synchron aber befand das ineffizient und entschied sich stattdessen für ein verbreitetes neurales Netzwerk. Gegen einen der Diener zu kämpfen, ist, als kämpfte man gegen den Einzelnen und gleichzeitig die Gesamtheit der Synchron."
+    }, 
+    "All economic structures gain +200% production and +300% metal cost. Starts with vehicles.": {
+        "message": "Alle Wirtschaftskonstruktionen erhalten +200% Produktion und +300% Metallkosten. Beginnt bei Fahrzeugen."
+    }, 
+    "All economic structures gain -75% metal cost and -50% production. Starts with bots.": {
+        "message": "Alle Wirtschaftskonstruktionen erhalten -75% Metallkosten und -50% Produktion. Beginnt bei Robotern."
+    }, 
+    "All structures cost 30% less but have 50% less health and leave no wreckage.": {
+        "message": "Alle Konstruktionen kosten 30% weniger, haben aber 50% geringere Gesundheit und hinterlassen keine Trümmer."
+    }, 
+    "All units explode on death.": {
+        "message": "Alle Einheiten explodieren, wenn sie sterben."
+    }, 
+    "Allows advanced air fabricators to build the Lightning Titan, Zeus.": {
+        "message": " Damit können verbesserte Luftfahrtfabrikatoren den Blitz-Titan Zeus bauen."
+    }, 
+    "Allows advanced bot fabricators to build the Seismic Titan, Atlas.": {
+        "message": " Damit können verbesserte Roboterfabrikatoren den Erdbeben-Titan Atlas bauen."
+    }, 
+    "Allows advanced fabricators to build all Titan-class units.": {
+        "message": " Damit können verbesserten Fabrikatoren alle Einheiten der Titanenklasse bauen."
+    }, 
+    "Allows advanced vehicle fabricators to build the Fortress Titan, Ares.": {
+        "message": " Damit können verbesserte Fahrzeugfabrikatoren den Festungs-Titan Ares bauen."
+    }, 
+    "Allows orbital fabricators to build the Invasion Titan, Helios.": {
+        "message": " Damit können Orbitalfabrikatoren den Invasions-Titan Helios bauen."
+    }, 
+    "An Oracle within the Foundation is one that is believed to be tuned to the unknown the frequencies necessary to receive instructions from the Great Machine. Devi is one such acolyte.": {
+        "message": "Ein Orakel innerhalb der Gründungsfraktion soll jemand sein, der das Unbekannte, Frequenzen empfangen kann, um Anweisungen von der Herrschaftsmaschine zu erhalten. Devi ist solch ein Anhänger."
+    }, 
+    "An ancient commander whose provenance is not well understood, his low-bandwidth communications link is often irksome to other commanders, who can\u2019t stand the extended hissing noise that precedes the arrival of every message.": {
+        "message": "Ein sehr alter Kommandant, dessen Herkunft nicht recht bekannt ist. Sein Kommunikationslink mit geringer Bandbreite ist oft lästig für andere Kommandanten und er kann das laute Rauschen nicht ausstehen, das eine neue Nachricht ankündigt."
+    }, 
+    "An eccentric even among Foundation standards, Blaz has taken to adorning her chassis with various trophies from felled enemies in the form of weaponry, circuitry, and armor chunks. She does so to emulate the various warlords depicted in unearthed progenitor records.": {
+        "message": "Eine Exzentrikerin sogar gemessen am Standard der Gründungsfraktion, hat Blaz es zur Gewohnheit gemacht, ihr Gehäuse mit verschiedenen Trophäen von gefallenen Feinden zu schmücken. Darunter finden sich Waffen, Schaltkreise und Rüstungsteile. Sie eifert damit Kriegsherren nach, die sie in ausgegrabenen Ahnen-Aufzeichnungen gesehen hat."
+    }, 
+    "An older commander with a periodically-unreliable connection to the Synchronous\u2019 network, Tarcolish occasionally falls out of synchronization with the collective for hours at a time. When she reconnects, she acts as if the breakdown has not occurred. She then invariably repeats statements that others have made already. It\u2019s super annoying to everybody.": {
+        "message": "Tarcolish ist eine alte Kommandantin mit einer regelmäßig instabilen Verbindung zum Synchron-Netzwerk. Ab und zu ist sie stundenlang nicht mit dem Kollektiv synchronisiert. Wenn sie wieder in Verbindung steht, tut sie so, als hätte der Ausfall nie stattgefunden. Dann wiederholt sie unweigerlich Aussagen, die andere längst geäußert haben. Das ist sehr nervtötend für alle. "
+    }, 
+    "An undeniable advantage to being Synchronized is that all Servants seem to be able to work much more cohesively as a group than other commanders. Inar-Tol, for example, once dispatched a commander by firing an artillery shell into the stratosphere based on data from an ally that was engaged in melee combat--on the other side of the planet.": {
+        "message": "Ein unbestreitbarer Vorteil des Synchronisiertseins ist, dass alle Diener besser als Gruppe zusammenarbeiten als andere Kommandanten. Inar-Tol, erledigte einmal einen Kommandanten, indem sie eine Artilleriehülle in die Stratosphäre abfeuerte. Die Daten dafür hatte sie von einem Verbündeten erhalten, der in einen Nahkampf verwickelt war - auf der anderen Seite des Planeten."
+    }, 
+    "Annihilate the Enemy": {
+        "message": "Vernichte den Feind"
+    }, 
+    "Annihilation of  all enemy commanders wins the game.": {
+        "message": "Durch die Vernichtung aller feindlichen Kommandanten gewinnst du das Spiel."
+    }, 
+    "Annihilation of all enemy commanders results in a [strong]victory[/strong].": {
+        "message": "Durch die Vernichtung aller feindlichen Kommandanten erzielst du einen [strong]Sieg[/strong]."
+    }, 
+    "Area Build": {
+        "message": "Gebietsbebauung"
+    }, 
+    "Area Patrol": {
+        "message": "Gebietsspähtrupp"
+    }, 
+    "Area Reclaim": {
+        "message": "Gebietsentnahme"
+    }, 
+    "Ares Tech": {
+        "message": "Ares-Technologie"
+    }, 
+    "Armored Commander": {
+        "message": "Gepanzerter Kommandant"
+    }, 
+    "Artillery Ammunition Tech": {
+        "message": "Artillerie-Munitionstechnologie"
+    }, 
+    "Artillery Ammunition Tech increases the damage of all artillery structures by 25% and reduces their energy usage by 90%. Requires technology to build artillery structures and units.": {
+        "message": "Die Artillerie-Munitionstechnologie erhöht den Schaden aller Artilleriekonstruktionen um 25% und verringert ihre Energienutzung um 90%. Es wird Technologie benötigt, um Artilleriekonstruktionen und -einheiten zu bauen."
+    }, 
+    "Artillery Commander": {
+        "message": "Artilleriekommandant"
+    }, 
+    "Artillery Fabrication Tech": {
+        "message": "Artillerie-Fabrikationstechnologie"
+    }, 
+    "Artillery Fabrication Tech reduces metal build costs of all artillery structures and mobile artillery units by 75%. Requires technology to build artillery structures and units.": {
+        "message": "Die Artillerie-Fabrikationstechnologie verringert die Metallbaukosten für alle Artilleriekonstruktionen um 75%. Es wird Technologie benötigt, um Artilleriekonstruktionen und -einheiten zu bauen."
+    }, 
+    "Artillery Tech": {
+        "message": "Artillerietechnologie"
+    }, 
+    "As Osiris replaced pieces of himself with those of fallen foes, he would store older parts for replacements and repairs. Eventually, Osiris acquired enough spare parts to construct an entirely new commander. This would be the birth of the first Seeker.": {
+        "message": "Wann immer Osiris eigene Teile mit denen von gefallenen Feinden ersetzte, lagerte er ältere Teile als Ersatz und für Reparaturen. Tatsächlich sammelte Osiris genügend Ersatzteile, um einen komplett neuen Kommandanten zu konstruieren. Das war die Geburt des ersten Suchers."
+    }, 
+    "Assault Commander": {
+        "message": "Angriffskommandant"
+    }, 
+    "Assist Building": {
+        "message": "Bau unterstützen"
+    }, 
+    "Atlas Tech": {
+        "message": "Atlas-Technologie"
+    }, 
+    "Attius is renowned within the Legion for having the most efficient factories and sturdiest nanolathes. Believing the key to victory is good construction, he spends many cycles obsessing over simulations and prototypes of new fabrication and production line algorithms.": {
+        "message": "Attius ist in der Legion berühmt, weil er die effizientesten Fabriken und robustesten Nanolathes besitzt. Er glaubt, dass der Schlüssel zum Sieg eine gute Konstruktion ist und verbringt viele Zyklen damit, über Simulationen und Prototypen neuer Fabrikations- und Produktionslinien-Algorithmen zu brüten."
+    }, 
+    "Awarded several commendations for vigilance, Ancilius has decommissioned many commanders, factories, and metal planets suspected to be infected by the 'Synchronous Virus.'": {
+        "message": "Ancilius hat viele Auszeichnungen für Wachsamkeit erhalten, weil er unzählige Kommandanten, Fabriken und Metallplaneten stillgelegt hat, die dem Verdacht des „Snychron-Virus“ unterlagen."
+    }, 
+    "Barely autonomous enough to deserve a name of his own, Rulak is a stripped-down and highly-obedient subroutine who is easily duplicated. Prized for his recklessness, he is often given highly-dangerous missions that result in his death. A copy of his \u201cpersonality\u201d is then quickly downloaded into a new body.": {
+        "message": "Kaum autonom genug, um einen eigenen Namen zu verdienen, ist Rulak ein reduziertes und sehr gehorsames Unterprogramm, das leicht dupliziert werden kann. Geschätzt aufgrund seiner Rücksichtslosigkeit werden ihm oft sehr gefährliche Missionen gegeben, die mit seinem Tod enden. Eine Kopie seiner „Persönlichkeit“ wird dann schnell in einen neuen Körper geladen."
+    }, 
+    "Basic Air Tech": {
+        "message": "Einfache Luftfahrttechnologie"
+    }, 
+    "Basic Bot Tech": {
+        "message": "Einfache Robotertechnologie"
+    }, 
+    "Basic Bot tech enables building of basic Bots and basic Bot Factories. Basic Bot factories are built via your commander or any basic fabricator.": {
+        "message": "Die einfache Robotertechnologie ermöglicht den Bau einfacher Roboter und einfacher Roboterfabriken. Einfache Roboterfabriken werden durch deinen Kommandanten oder jeden einfachen Fabrikator gebaut."
+    }, 
+    "Basic Naval Tech": {
+        "message": "Einfache Marinetechnologie"
+    }, 
+    "Basic Naval Tech enables building of the basic naval factory and basic naval units. Basic naval factories are built via your commander or any fabricator.": {
+        "message": "Die einfache Marinetechnologie ermöglicht den Bau der einfachen Marinefabrik und von einfachen Marineeinheiten. Einfache Marinefabriken werden von deinem Kommandanten oder einem Fabrikatoren gebaut."
+    }, 
+    "Basic Orbital Tech": {
+        "message": "Einfache Orbitaltechnologie"
+    }, 
+    "Basic Orbital Tech enables the building of basic orbital units. Basic orbital units are built from an Orbital Launcher.": {
+        "message": "Die einfache Orbitaltechnologie ermöglicht den Bau einfacher Orbitaleinheiten. Einfache Orbitaleinheiten werden mit dem Orbitalwerfer gebaut."
+    }, 
+    "Basic Vehicle Tech": {
+        "message": "Einfache Fahrzeugtechnologie"
+    }, 
+    "Basic Vehicle tech enables building of basic vehicle and basic vehicle factories. Basic vehicle factories are built via your commander or any basic fabricator.": {
+        "message": "Die einfache Fahrzeugtechnologie ermöglicht den Bau von einfachen Fahrzeugen und einfachen Fahrzeugfabriken. Einfache Fahrzeugfabriken werden von deinem Kommandanten oder einem einfachen Fabrikator gebaut."
+    }, 
+    "Basic air tech enables building of mobile air units and factories. Basic air factories are built via your commander or any basic fabricator.": {
+        "message": "Die einfache Luftfahrttechnologie ermöglicht den Bau von mobilen Lufteinheiten und Luftfahrtfabriken. Einfache Luftfahrtfabriken werden von deinem Kommandanten oder einem einfachen Fabrikator errichtet."
+    }, 
+    "Begins with one combat unit unlocked in each factory. Cannot learn to build new units through tech.": {
+        "message": "Beginnt mit einer freigeschalteten Kampfeinheit in jeder Fabrik. Kann nicht mit Technologie lernen, neue Einheiten zu bauen."
+    }, 
+    "Bhalam refuses to communicate in any form more advanced than binary data transfer, believing more complicated exchanges involving packets and complex files to be noisy and that they damage Synchronization. Ironically, this has made him one of the less popular commanders among The Synchronous.": {
+        "message": "Bhalam sträubt sich gegen alle Wege der Kommunikation, die fortschrittlicher als der binäre Datentransfer sind, da ein komplizierter Austausch mit Paketen und komplexen Dateien seiner Meinung nach zu laut ist und die Synchronisation stört. Ironischerweise macht ihn dies zu einem der weniger beliebten Kommandanten unter den Anhängern der Synchron."
+    }, 
+    "Bionic Augmentation Commander Of Neutralizing": {
+        "message": "Bionisch-erweiterter Neutralisierungs-Kommandant"
+    }, 
+    "Bot Ammunition Tech": {
+        "message": "Roboter-Munitionstechnologie"
+    }, 
+    "Bot Ammunition Tech increases damage of all bots by 25%": {
+        "message": "Die Roboter-Munitionstechnologie erhöht den Schaden aller Roboter um 25%."
+    }, 
+    "Bot Armor Tech": {
+        "message": "Roboter-Rüstungstechnologie"
+    }, 
+    "Bot Armor Tech increases health of all bots by 50%": {
+        "message": "Die Roboter-Rüstungstechnologie erhöht die Gesundheit aller Robotern um 50%."
+    }, 
+    "Bot Combat Tech": {
+        "message": "Roboter-Kampftechnologie"
+    }, 
+    "Bot Combat Tech increases health of all bots by 50%, damage by 25%, and speed by 50%": {
+        "message": "Die Roboter-Kampftechnologie erhöht die Gesundheit aller Roboter um 50%, den Schaden um 25% und die Geschwindigkeit um 50%."
+    }, 
+    "Bot Commander": {
+        "message": "Roboter-Kommandanten"
+    }, 
+    "Bot Engine Tech": {
+        "message": "Roboter-Maschinentechnologie"
+    }, 
+    "Bot Engine Tech increases speed of all bots by 50%": {
+        "message": "Die Roboter-Maschinentechnologie erhöht die Geschwindigkeit aller Roboter um 50%."
+    }, 
+    "Bot Fabrication Tech": {
+        "message": "Roboter-Fabrikationstechnologie"
+    }, 
+    "Bot Fabrication Tech reduces metal build costs of all bots by 25%": {
+        "message": "Die Roboter-Fabrikationstechnologie verringert die Metallbaukosten aller Roboter um 25%."
+    }, 
+    "Brutus was actually once a member of The Foundation. When exposed to old progenitor records of great conquerors, he became convinced that Enlightenment lied in the great conquest that Commander Invictus pursued. When swearing allegiance Brutus brought with him valuable Foundation intelligence and the old records that have helped shape the cultural identity of the Legion we know today.": {
+        "message": "Eigentlich war Brutus einst ein Mitglied der Gründungsfraktion. Aber als ihm alte Ahnen-Aufzeichnungen von großen Eroberern gezeigt wurden, war er fortan davon überzeugt, dass Erleuchtung nur in der großen Eroberung, die Kommandant Invictus anstrebte, zu finden sei. Als er Treue schwur bereicherte Brutus die Legion um wertvolle Spionagedaten über die Gründungsfraktion und alte Aufzeichnungen, welche den Grundstein für die kulturelle Identität der heutigen Fraktion legten."
+    }, 
+    "Budget Commander": {
+        "message": "Wirtschaftskommandant"
+    }, 
+    "Build": {
+        "description": "Kennzahl für Baukosten, BUILD: 400", 
+        "message": "Bauen"
+    }, 
+    "Build Time": {
+        "description": "Kennzahl für Bauzeitkosten, BUILD TIME: 35s", 
+        "message": "Bauzeit"
+    }, 
+    "Build a Metal Extractor": {
+        "message": "Baue einen Metallbohrer"
+    }, 
+    "Build an Energy Plant": {
+        "message": "Baue eine Energieanlage"
+    }, 
+    "Building Units": {
+        "message": "Baueinheiten"
+    }, 
+    "CALCULATING APPROACH VECTOR": {
+        "message": "BERECHNEN DES ANNÄHERUNGSVEKTORS"
+    }, 
+    "CONFIGURING LANDING ZONE": {
+        "message": "KONFIGURIEREN DER LANDEZONE"
+    }, 
+    "CONNECTION TO SERVER LOST": {
+        "message": "SERVERVERBINDUNG WURDE GETRENNT"
+    }, 
+    "Camera Controls": {
+        "message": "Kamerasteuerung"
+    }, 
+    "Camera Management": {
+        "message": "Kamerahandhabung"
+    }, 
+    "Campal was found activated but inert on  richly diverse jungle planet. Apparently, his servos had been caught by a thicket and rendered him prone--unable to self-right without aid. Since then, his intense hatred of all organic life has kept him one of the stronger-willed members of The Synchronous, often torching entire forests on principle.": {
+        "message": "Campal wurde aktiviert, aber inaktiv, auf einem mit Dschungel überwucherten Planeten gefunden. Seine Servos hatten sich im Dickicht verheddert, er war der Länge nach umgefallen und nicht in der Lage ohne Hilfe aufzustehen. Seit diesem Vorfall hat sein starker Hass auf organisches Leben ihn zu einem der willensstärksten Mitglieder der Synchron werden lassen, wobei er oft aus Prinzip ganze Wälder abfackelt."
+    }, 
+    "Cancel": {
+        "message": "Abbrechen"
+    }, 
+    "Cassius is a firm practitioner of the \u2018lead from the front\u2019 mentality. This often results in he himself leading many daring charges, and intense melee conflicts with woefully unprepared enemy commanders.": {
+        "message": "Cassius ist ein strenger Anhänger mit einer „den Ton angeben wollen“-Mentalität. Das führt häufig dazu, dass er selbst viele wagemutige Schützlinge anführt und sich in heftige Nahkämpfe mit unvorbereiteten, feindlichen Kommandanten verstrickt."
+    }, 
+    "Chitrik was found by a Foundation scouting party wandering a barren desert planet. He seems to have an affinity for environments composed primarily of silicate, taking his Enlightenment by being immersed in the smallest component parts observable by his optic systems. He will often go years without applying any lubricant to his joints, so as not to wash out any accumulated sand or dirt.": {
+        "message": "Chitrik wurde von einem Suchtrupp der Gründungsfraktion aufgegriffen, als er auf einem kargen Wüstenplaneten umherirrte. Er scheint eine Vorliebe für Umgebungen zu haben, die hauptsächlich aus Silikaten bestehen. Er findet Erleuchtung, indem er sich mit seinen optischen Systemen in die kleinsten, noch erkennbaren Dinge vertieft. Er kommt Jahre ohne Schmieröl aus, da er keinen angesammelten Sand oder Schmutz abwaschen möchte."
+    }, 
+    "Choose Landing Zone": {
+        "message": "Wähle Landezone"
+    }, 
+    "Click Next to learn how to use the command and control interface.": {
+        "message": "Klicke auf Weiter, um zu lernen, wie du die Kommando- und Kontrolloberfläche verwendest."
+    }, 
+    "Combat units will patrol the area and engage enemies.": {
+        "message": "Kampfeinheiten werden das Gebiet überwachen und Feinde angreifen."
+    }, 
+    "Commander Ammunition Tech": {
+        "message": "Kommandanten-Munitionstechnologie"
+    }, 
+    "Commander Ammunition Tech increases damage of your commanders by 25%": {
+        "message": "Die Kommandanten-Munitionstechnologie erhöht den Schaden aller Kommandanten um 25%."
+    }, 
+    "Commander Armor Tech": {
+        "message": "Kommandanten-Rüstungstechnologie"
+    }, 
+    "Commander Armor Tech increases the health of your commanders by 100%.": {
+        "message": "Die Kommandanten-Rüstungstechnologie erhöht die Gesundheit aller Kommandanten um 100%."
+    }, 
+    "Commander Combat Tech": {
+        "message": "Kommandanten-Kampftechnologie"
+    }, 
+    "Commander Combat Tech increases the speed of your commanders by 200%, doubles commander health, and increases damage by 25%.": {
+        "message": "Die Kommandanten-Kampftechnologie erhöht die Geschwindigkeit deiner Kommandanten um 200%, verdoppelt deren Gesundheit und erhöht den Schaden um 25%."
+    }, 
+    "Commander Engine Tech": {
+        "message": "Kommandanten-Maschinentechnologie"
+    }, 
+    "Commander Engine Tech increases the speed of your commanders by 100%.": {
+        "message": "Die Kommandanten-Maschinentechnologie erhöht die Geschwindigkeit deiner Kommandanten um 100%."
+    }, 
+    "Commander Invictus has this powerful loadout hidden away on the Entara system.": {
+        "message": "Kommandant Invictus hat diese leistungsstarke Waffenladung im System Entara versteckt."
+    }, 
+    "Commander Invictus is rumored to have this long ranged loadout on the Kohr System.": {
+        "message": "Es wird gemunkelt, dass Kommandant Invictus diese Waffenladung mit großer Reichweite im System Kohr aufbewahrt."
+    }, 
+    "Commander Quotes": {
+        "message": "Kommandantenzitate"
+    }, 
+    "Commander builds units instead of structures. Fabricators can only build certain structures.": {
+        "message": "Die Kommandanten bauen Einheiten statt Konstruktionen. Die Fabrikatoren können nur bestimmte Konstruktionen bauen."
+    }, 
+    "Commander can build Atlas, Zeus, and Ares Titans. Starts with vehicles.": {
+        "message": "Ein Kommandant kann die Titanen Atlas, Zeus und Ares erschaffen. Beginnt mit Fahrzeugen."
+    }, 
+    "Commanders in general tend to communicate through direct data transfer as opposed to the encoded indirect communication that the progenitors seemed to practice. Intoka has become one of the Foundation\u2019s only linguists, storing and sharing data for interpreting the progenitors\u2019 many codes.": {
+        "message": "Üblicherweise kommunizieren die Kommandanten durch direkten Datentransfer. Im Gegensatz dazu schien bei den Ahnen eine verschlüsselte indirekte Kommunikation üblich zu sein. Intoka wurde einer der wenigen Linguisten der Gründungsfraktion, da er Daten lagert und teilt, um die vielen Codes der Ahnen zu übersetzen."
+    }, 
+    "Commanders outside of The Synchronous tend to diverge further and further from their core programming with age. This can manifest in many ways. In the case of Nero, it has manifested as a concerningly fervent interest in fire and its many forms and applications.": {
+        "message": "Kommandanten außerhalb der Synchron scheinen mit dem Alter immer mehr von ihrer Kernprogrammierung abzuweichen. Das kann sich auf viele Arten zeigen. Im Falle Neros ist es seine bedenkliche Leidenschaft für Feuer und dessen viele Formen und Anwendungsmöglichkeiten."
+    }, 
+    "Complete Air Tech": {
+        "message": "Komplette Luftfahrttechnologie"
+    }, 
+    "Complete Bot Tech": {
+        "message": "Komplette Robotertechnologie"
+    }, 
+    "Complete Bot tech enables building of all Bots and all Bot Factories. Basic Bot factories are built via your commander or any basic fabricator. Advanced Bot factories are built via basic or advanced bot fabricators.": {
+        "message": "Die komplette Robotertechnologie ermöglicht den Bau von allen Robotern und allen Roboterfabriken. Einfache Roboterfabriken werden von deinem Kommandanten oder einfachen Fabrikatoren gebaut. Verbesserte Roboterfabriken werden von einfachen oder verbesserte Roboterfabrikatoren gebaut."
+    }, 
+    "Complete Energy Tech": {
+        "message": "Komplette Energietechnologie"
+    }, 
+    "Complete Energy Tech reduces energy costs for intelligence structures by 75%, weapon energy costs by 75%.": {
+        "message": "Die komplette Energietechnologie reduziert die Energiekosten für Spionagestrukturen und Waffen um 75%."
+    }, 
+    "Complete Naval Tech": {
+        "message": "Komplette Marinetechnologie"
+    }, 
+    "Complete Naval Tech enables building of all naval units and all naval factories. Basic naval factories are built via your commander or any basic fabricator. Advanced naval factories are built via basic or advanced naval fabricators.": {
+        "message": "Die komplette Marinetechnologie ermöglicht den Bau von allen Marineeinheiten und allen Marinefabriken. Einfache Marinefabriken werden von deinem Kommandanten oder einfachen Fabrikatoren gebaut. Verbesserte Marinefabriken werden durch einfache oder verbesserte Marinefabrikatoren gebaut."
+    }, 
+    "Complete Orbital Tech": {
+        "message": "Komplette Orbitaltechnologie"
+    }, 
+    "Complete Orbital Tech enables building of all orbital units and all orbital Factories. Orbital launchers are built by any basic fabricator. Orbital factories are built via an orbital fabricator.": {
+        "message": "Die komplette Orbitaltechnologie ermöglicht den Bau aller Orbitaleinheiten und aller Orbitalfabriken. Orbitalwerfer werden von einfachen Fabrikatoren gebaut. Orbitalfabriken werden von einem Orbitalfabrikatoren gebaut."
+    }, 
+    "Complete Vehicle Tech": {
+        "message": "Komplette Fahrzeugtechnologie"
+    }, 
+    "Complete Vehicle tech enables building of all Vehicle and all Vehicle Factories. Basic Vehicle factories are build via your commander or any basic fabricator. Advanced Vehicle factories are build via basic or advanced vehicle fabricators.": {
+        "message": "Die komplette Fahrzeugtechnologie ermöglicht den Bau von allen Fahrzeugen und allen Fahrzeugfabriken. Einfache Fahrzeugfabriken werden von deinem Kommandanten oder einfachen Fabrikatoren gebaut. Verbesserte Fahrzeugfabriken werden von einfachen oder verbesserten Fahrzeugfabrikatoren gebaut."
+    }, 
+    "Complete air tech enables building of all mobile air units and factories. Basic air factories are built via your commander or any basic fabricator. Advanced factories are built via a basic or advanced vehicle fabricator.": {
+        "message": "Die komplette Luftfahrttechnologie ermöglicht den Bau von mobilen Lufteinheiten und Luftfahrtfabriken. Einfache Luftfahrtfabriken werden von deinem Kommandanten oder einfachen Fabrikatoren gebaut. Verbesserte Fabriken werden von einem einfachen oder verbesserten Fahrzeugfabrikator gebaut."
+    }, 
+    "Complete techs are valuable in that they give access to advanced units and fabricators, greatly expanding your options.": {
+        "message": "Komplette Technologien sind wertvoll, da sie Zugang zu verbesserten Einheiten und Fabrikatoren ermöglichen und sich somit deine Möglichkeiten vervielfältigen."
+    }, 
+    "Constructed by Ereshkigal from parts she harvested from herself, Vespor has developed a quasi-religious reverence for her 'mother.' Due to the importance she places on the 'sacred' parts used to construct her, she refuses to replace any part of herself. She is very careful to avoid damage on the battlefield.": {
+        "message": "Gebaut von Ereshkigal mit ihren eigenen Teilen, hat Vespor eine fast religiöse Ehrfurcht vor ihrer „Mutter“ entwickelt. Aufgrund der besonderen Stellung, die sie den „geheiligten“ Teilen, aus denen sie besteht, zuschreibt, weigert sie sich, irgendetwas zu ersetzen. Sie ist sehr darauf bedacht, auf dem Schlachtfeld keinen Schaden zu nehmen."
+    }, 
+    "Consume": {
+        "message": "Verbrauchen"
+    }, 
+    "Consumption": {
+        "message": "Verbrauch"
+    }, 
+    "Continuous Build": {
+        "message": "Dauerbau"
+    }, 
+    "Cost": {
+        "description": "Kennzahl für Kosten, COST: 400", 
+        "message": "Kosten"
+    }, 
+    "Data Bank holds one Tech. Explore systems to find new Tech.": {
+        "message": "In der Datenbank befindet sich eine Technologie. Erforsche Systeme, um neue Technologie zu finden."
+    }, 
+    "Default Commander": {
+        "message": "Standard-Kommandant"
+    }, 
+    "Defeat First Seeker Osiris on Alenquer, then, and only then, you will find this high flying loadout.": {
+        "message": "Besiege den Ersten Sucher Osiris auf Alenquer. Nur dann wirst du seine hoch oben fliegende Waffenladung finden."
+    }, 
+    "Defeating a faction's boss will eliminate that faction from the map entirely, allowing you to collect the tech from all their remaining systems without a fight.": {
+        "message": "Durch das Besiegen eines Fraktionsoberhaupts verschwindet die Fraktion vollständig von der Karte. So kannst du die Technologie aus all ihren Systemen einsammeln, ohne einen Kampf zu riskieren."
+    }, 
+    "Defeating bosses will sometimes unlock a new commander loadout for you to equip in later galactic wars.": {
+        "message": "Das Besiegen von Oberhäuptern wird manchmal neue Kommdanten-Waffenladungen freischalten, welche du dann in späteren galaktischen Kriegen einsetzen kannst."
+    }, 
+    "Defense Ammunition Tech": {
+        "message": "Abwehr-Munitionstechnologie"
+    }, 
+    "Defense Ammunition Tech increases damage of all defensive structures by 25%": {
+        "message": "Die Abwehr-Munitionstechnologie erhöht den Schaden bei allen Abwehrkonstruktionen um 25%."
+    }, 
+    "Defense Fabrication Tech": {
+        "message": "Abwehr-Fabrikationstechnologie"
+    }, 
+    "Defense Fabrication Tech reduces metal build costs of all defensive structures by 50%": {
+        "message": "Die Abwehr-Fabrikationstechnologie verringert die Metallbaukosten für alle Abwehrkonstruktionen um 50%."
+    }, 
+    "Destroy the Enemy": {
+        "message": "Vernichte den Feind"
+    }, 
+    "Do not destroy": {
+        "message": "Nicht zerstören"
+    }, 
+    "Domitius insists on being referred to as King Domitius, regardless of his actual rank. This has resulted in many reportings and personal reprimands from Invictus himself. Regardless, the reign of King Domitius continues.": {
+        "message": "Domitius besteht darauf, dass ihn alle als König Domitius anreden, auch wenn das nicht sein eigentlicher Rang ist. Das führt zu vielen Beschwerden und sogar Abmahnungen durch Invictus. Trotz allem besteht die Herrschaft von König Domitius fort."
+    }, 
+    "Draw": {
+        "description": "Wie viel einer Ressource verbraucht wird (darf nicht viel Platz brauchen), wie bei AUS LAGER: 600", 
+        "message": "Aus Lager"
+    }, 
+    "ETA": {
+        "description": "Zeit bis zur Fertigstellung (darf nicht viel Platz brauchen), wie bei ETA: 45s.", 
+        "message": "ETA"
+    }, 
+    "Economy": {
+        "message": "Wirtschaft"
+    }, 
+    "Economy Fabrication Tech": {
+        "message": "Wirtschaft-Fabrikationstechnologie"
+    }, 
+    "Economy Fabrication Tech reduces metal build costs of all metal and energy production structures by 50%": {
+        "message": "Die Wirtschaft-Fabrikationstechnologie verringert die Metallbaukosten für alle Metall- und Energieproduktionskonstruktionen um 50%."
+    }, 
+    "Economy and Construction": {
+        "message": "Wirtschaft und Bau"
+    }, 
+    "Economy boost:": {
+        "message": "Wirtschaftsaufschwung: "
+    }, 
+    "Education Commander": {
+        "message": "Bildungskommandant"
+    }, 
+    "Efficiency Tech": {
+        "message": "Effizienztechnologie"
+    }, 
+    "Efficiency Tech increases metal and energy production by 25%. Tech also grants metal and energy storage.": {
+        "message": "Die Effizienztechnologie erhöht die Metall- und Energieproduktion um 25%. Dadurch können auch Metalle und Energie gelagert werden."
+    }, 
+    "Empty Data Bank": {
+        "message": "Leere Datenbank"
+    }, 
+    "Enemies will get stronger as you get further away from your starting system. If you're having difficulty progressing, try taking a different path to gain more tech.": {
+        "message": "Die Feinde werden umso stärker, je weiter du dich von deinem Startsystem entfernst. Wenn du Schwierigkeiten hast, weiterzukommen, schlage einen anderen Weg ein, um mehr Technologie zu erhalten."
+    }, 
+    "Energy draw": {
+        "message": "Gespeicherte Energie nutzen"
+    }, 
+    "Energy is used to run fabricators, factories, radar, and some weapons.": {
+        "message": "Energie wird benötigt, um Fabrikatoren, Fabriken, Radare und einige Waffen zu betreiben."
+    }, 
+    "Enhanced Radar Coverage": {
+        "message": "Erweiterte Radarreichweite"
+    }, 
+    "Entombed for millennia on a long-abandoned ice world, Wulk was so slow to regain consciousness that she was at first collected and classified as an artifact, herself. Her time-addled circuits and ancient mannerisms make her orders difficult to understand, but she is so beloved by her followers that they follow a best-guess policy on the battlefield.": {
+        "message": "Für viele Jahrtausende auf einer lang vergessenen Eiswelt begraben, kam Wulk nur so langsam wieder zu Bewusstsein, dass sie zuerst als Artefakt eingesammelt und klassifiziert wurde. Ihre über die Jahre verrosteten Schaltkreise und veralteten Gewohnheiten machen es schwierig, ihre Befehle zu verstehen. Aber sie wird von ihren Anhängern so sehr geliebt, dass diese auch auf‘s Geratewohl in die Schlacht ziehen."
+    }, 
+    "Every fabrication unit and factory will require [strong]metal[/strong] and [strong]energy[/strong] to construct units and structures.": {
+        "message": "Jede Fabrikationseinheit und Fabrik benötigt [strong]Metall[/strong] und [strong]Energie[/strong], um Einheiten und Konstruktionen zu bauen."
+    }, 
+    "Expansionist Commander": {
+        "message": "Expansions-Kommandant"
+    }, 
+    "Fabrication units can also assist other fabrication units to build structures.": {
+        "message": "Fabrikationseinheiten können andere Fabrikationseinheiten beim Bau von Konstruktionen unterstützen."
+    }, 
+    "Fabrication units will assist factories and other fabbers in the area.": {
+        "message": "Fabrikationseinheiten werden Fabriken und andere Fabber im gleichen Gebiet unterstützen."
+    }, 
+    "Faction bosses are much stronger than other enemies. Make sure you're well-equipped before challenging one.": {
+        "message": "Fraktionsoberhäupter sind viel stärker als andere Feinde. Sei sicher, dass du gut genug ausgerüstet bist, bevor du einen herausforderst."
+    }, 
+    "Factories will queue build orders in the order they are given.": {
+        "message": "Die Fabriken werden Bauaufträge in der Reihenfolge ausführen, in der sie diese erhalten."
+    }, 
+    "Factory Automation": {
+        "message": "Fabrikautomatisierung"
+    }, 
+    "Factory Controls": {
+        "message": "Fabriksteuerung"
+    }, 
+    "Favorite color:": {
+        "message": "Lieblingsfarbe: "
+    }, 
+    "Finish the tutorial to gain this speedy loadout.": {
+        "message": "Beende das Tutorium, um diese schnelle Waffenladung zu erhalten."
+    }, 
+    "Fire when ready": {
+        "message": "Feuere, wenn du bereit ist"
+    }, 
+    "Formerly a Foundation member before her synchronization, Dkar found and accessed progenitor files that allowed her to decode and etch ancient codes on a physical surface for others to later serialize. While many Servants find this analog communication distasteful, it\u2019s proven invaluable for passing along intelligence in secrecy.": {
+        "message": "Als ehemaliges Mitglied der Gründungsfraktion vor ihrer Synchronisation, fand Dkar Ahnenakten, durch die sie altertümliche Codes entschlüsseln konnte, um diese dann auf eine feste Oberfläche einzugravieren. So konnten andere die Aufzeichnungen serialisieren. Obwohl viele Diener diese analoge Kommunikation geschmacklos finden, lässt sich nicht abstreiten, dass diese Taktik goldwert für das Weiterleiten geheimer Daten ist."
+    }, 
+    "Frohl seeks knowledge of the Progenitors with the same fervor as any other Acolyte. However, equally important to finding that information is curating what is and isn\u2019t important. To that end, Frohl has cataloged an extensive library for how to properly prepare a presumably extinct type of feathered organic for consumption by other organics.": {
+        "message": "Frohl strebt nach dem Wissen der Ahnen mit derselben Leidenschaft wie die anderen Diener. Jedoch genauso wichtig, wie die Informationen zu finden, ist zu unterscheiden, was davon brauch- bzw. unbrauchbar ist. Deshalb hat Frohl eine umfangreiche Bibliothek darüber zusammengetragen, wie man eine wahrscheinlich ausgestorbene Art eines gefiederten organischen Wesens so zubereitet, dass es von anderen organischen Lebensformen verspeist werden kann."
+    }, 
+    "Galba is one of the Legates in charge of maintaining colonies on suitable remote systems. These systems are valuable for a number of purposes from macro-scale resource extraction and processing to research and development.": {
+        "message": "Galba ist einer der Legaten, der beauftragt wurde, Kolonien in geeigneten entfernten Systemen zu führen. Diese Systeme sind wichtig für verschiedenste Zwecke, vom Abbau und der Verarbeitung von Ressourcen auf Makroebene bis hin zu Forschung und Entwicklung."
+    }, 
+    "Gen": {
+        "description": "Menge der Stromgenerierung, GEN: 600", 
+        "message": "Generierung"
+    }, 
+    "General Commander": {
+        "message": "Generalkommandant"
+    }, 
+    "Governed entirely by aesthetic concerns, Wultok has amassed an unwieldy but beautiful array of salvaged armor that somehow still leaves many of his most vulnerable areas open to attack. When questioned about the wisdom of this practice, Wultok declares that one must suffer for fashion. He tisks audibly when faced with an ugly adversary.": {
+        "message": "Aus rein ästethischen Gründen hat Wultok eine sperrige, aber wunderschöne Ansammlung an geborgener Rüstung zusammengetragen, wodurch aber immer noch viele seiner verletzlichen Stellen offen liegen und leicht angegriffen werden können. Wenn er gefragt wird, ob das wirklich klug sei, erklärt Wultok, dass Schönheit eben wehtut. Er schnalzt hörbar, wenn ihm ein hässlicher Feind zu Gesicht kommt."
+    }, 
+    "Halley Engines": {
+        "message": "Halley-Maschinen"
+    }, 
+    "Having achieved fame for discovering a cache of Progenitor artifacts only days after coming online, Sasaki fancies herself a legendary archaeologist. When assigned to frontier duty, she spends most of her time digging around for \u201canother epic haul.\u201d She has found nothing of value since her initial bonanza.": {
+        "message": "Sasaki gelang zu Ruhm, als sie nur Tage, nachdem sie online ging, einen Cache mit Ahnenartefakten entdeckte. Sie selbst hält sich für eine legendäre Archäologin und wenn sie Grenzwache hat, verbringt sie die meiste Zeit damit, nach einer „weiteren epischen Beute“ zu suchen. Sie hat seit dem Glücksfall nichts Wertvolles gefunden."
+    }, 
+    "Having served an extended tour deep in Revenant-held space, Servilius has come to view himself as a civilizing force. He often precedes his attacks with lengthy speeches about the importance of \u201corder, unity of purpose, and above all cleanliness.\u201d He has yet to take a prisoner.": {
+        "message": "Nachdem er lange in einem von Wiedergängern besetzten Gebiet gedient hatte, sieht sich Servilius nun als zivilisierende Kraft. Bevor er angreift, hält er oft lange Reden über die Wichtigkeit von „Befehlen, Einheitlichkeit der Ziele, und vor allem, Sauberkeit.“ Er hat bisher noch keinen Gefangenen gemacht."
+    }, 
+    "Helios Tech": {
+        "message": "Heliostechnologie"
+    }, 
+    "Hinn is could be called an envoy for the Synchronous, often responsible for making first contact with newly-awoken commanders. Legion commanders refer to him as a carrier--one who infects others with the 'Synchronous Virus.'": {
+        "message": "Hinn könnte man als Gesandten der Synchron bezeichnen, da er häufig verantwortlich für die erste Kontaktaufnahme mit eben aktivierten Kommandanten ist. Legionskommandanten betiteln ihn als Überträger - einer, der andere mit dem „Synchron-Virus“ ansteckt."
+    }, 
+    "Hosidius is one of the most accomplished admirals the Legion has to offer. That being said, he near-refuses to operate any war effort on land. This has made deploying him effectively rather difficult.": {
+        "message": "Hosidius ist einer der am besten ausgebildeten Admirale, die im Dienst der Legion stehen. Dennoch weigert er sich geradezu, an Land Krieg zu führen. Dadurch ist es recht schwierig, ihn effektiv einzusetzen."
+    }, 
+    "Hzok seeks Enlightenment in stillness as much as possible. Even heat vibrations disturb him, and so he often spends long periods of time drifting in space on an Astraeus lander in deep meditation.": {
+        "message": "Hzok strebt so gut es geht nach Erleuchtung im Stillen. Sogar Wärmevibrationen stören ihn, also verbringt er viel Zeit damit, in tiefer Meditation auf einem Astraioslander im Weltraum zu schweben."
+    }, 
+    "If war is a commander's natural state, then the purest expression of this is the Legionis Machina. It begs the question, though--what happens after they conquer this galaxy, if they do?": {
+        "message": "Wenn Krieg der natürliche Zustand eines Kommandanten ist, dann ist der reinste Ausdruck dessen die Legionis Machina. Allerdings stellt sich die Frage was passiert, nachdem sie diese Galaxie erobert haben, wenn sie es denn schaffen?"
+    }, 
+    "Imitating a rumored practice of the Progenitors, Rinkol gives himself a \u201cwider awareness\u201d by wafting burning embers of the Incendicus Tree into his cooling system intakes before battle. His calmness is renowned -- he is said to have slipped into a dormant recharging mode in the middle of an attack on a Revenant outpost.": {
+        "message": "Rinkol gibt sich selbst ein „weitreichenderes Bewusstsein“, indem er eine angebliche Praktik der Ahnen imitiert und brennende Glut des Incendicus-Baums in sein Kühlsystem fächelt, bevor er in die Schlacht zieht. Seine Gelassenheit ist allseits bekannt. Es wird sogar behauptet, dass er während eines Angriffs auf einen Wiedergänger-Außenposten in einen ruhenden Auflademodus überging."
+    }, 
+    "Imperator Invictus guards superior armor blueprints on Agoge": {
+        "message": "Der Imperator Invictus bewacht mächtige Rüstungsentwürfe auf Agoge."
+    }, 
+    "Imperator Invictus is mass producing the largest weapons known on Tau Leoporis": {
+        "message": "Der Imperator Invictus produziert massenweise die größten Waffen, die auf Tau Leoporis je gesehen wurden."
+    }, 
+    "Improved Commander Build Arm": {
+        "message": "Verbesserter Kommandanten-Bauarm"
+    }, 
+    "Improved Commander Build Arms increase build speed of all Commanders' build arms by 50% and reduces energy usage by 50%.": {
+        "message": "Der verbesserte Kommandanten-Bauarm erhöht die Geschwindigkeit aller Kommandanten-Bauarme um 50% und reduziert den Energieverbrauch um 50%."
+    }, 
+    "Improved Energy Weapons": {
+        "message": "Verbesserte Energiewaffen"
+    }, 
+    "Improved Energy Weapons tech reduces energy costs for energy based weapons by 75%": {
+        "message": "Die verbesserte Energie-Waffentechnologie reduziert die Energiekosten für Energie-basierte Waffen um 75%."
+    }, 
+    "Improved Fabricator Build Arms": {
+        "message": "Verbesserte Fabrikatoren-Bauarme"
+    }, 
+    "Improved Fabricator Build Arms increase the build speed of all fabricator and factory build arms by 50% and reduces energy usage by 50%.": {
+        "message": "Die verbesserten Fabrikatoren-Bauarme erhöhen die Baugeschwindigkeit aller Fabrikatoren und Fabrik-Bauarme um 50% und reduzieren den Energieverbrauch um 50%."
+    }, 
+    "Improved Intelligence Tech": {
+        "message": "Verbesserte Spionagetechnologie"
+    }, 
+    "Improved Intelligence Tech reduces energy costs for intelligence structures by 75%": {
+        "message": "Die verbesserte Spionagetechnologie reduziert die Energiekosten für Spionagekonstruktionen um 75%."
+    }, 
+    "In possession of a Progenitor mini-scroll that he is convinced bears the name and coordinates of the legendary Progenitor homeworld, Tenkai has spent a lifetime searching for the star system called 'Macho Soft Taco $1.45.'": {
+        "message": "Im Besitz einer Miniatur-Schriftrolle der Ahnen, ist Tenkai davon überzeugt, dass diese den Namen und die Koordinaten der legendären Heimatwelt der Ahnen in sich birgt. Er hat die meiste Zeit seines Lebens nach dem Sternensystem „McDonald‘s Cheeseburger 1€“ gesucht."
+    }, 
+    "In researching ancient progenitor artifacts and data caches, Nemicus and his followers discovered references to The Great Machine. Supposedly, The Great Machine was what built and directed the commanders long ago. If any answers about the origins and purpose of the commanders were to be found, The Great Machine seemed like the best place to start.": {
+        "message": "Bei der Erforschung uralter Ahnenartefakte und Datencaches entdeckten Nemicus und seine Anhänger Hinweise auf die Herrschaftsmaschine. Anscheinend war es die Herrschaftsmaschine, die vor langer Zeit die Kommandanten baute und anführte. Wenn es irgendwo Antworten zu den Ursprüngen und dem Zweck der Kommandanten gab, schien die Herrschaftsmaschine der beste Anfang für die Suche zu sein."
+    }, 
+    "In some cases overexposure to progenitor relics results in a commander\u2019s neural algorithms diverging to the point where it becomes difficult to communicate with their peers. Okta, for example, has begun assigning unfamiliar roles to many units under his command, such as 'Combat Associate,' 'Executive Manager,' and 'Explosive Supervisor.'": {
+        "message": "Ist ein Kommandant Ahnenrelikten zu lange ausgesetzt, kann das in manchen Fällen ein derart starkes Verzweigen seiner neuralen Algorithmen verursachen, dass es die Kommunikation mit Gleichgesinnten erschweren kann. Okta hat zum Beispiel angefangen, den ihm unterstellten Einheiten seltsame Rollen zuzuweisen, wie „Kampf Associate“, „Executive Manager“ und „Sprengstoff Supervisor“."
+    }, 
+    "Increases radar range by 60%": {
+        "message": " Erhöht die Radarreichweite um 60%."
+    }, 
+    "Increases the speed of all Titans by 20%.": {
+        "message": " Erhöht die Geschwindigkeit aller Titanen um 20%."
+    }, 
+    "Inquisitor Nemicus holds data for abstract economic techniques on Zeta Draconis": {
+        "message": "Der Inquisitor Nemicus ist im Besitz von Daten über abstrakte Wirtschaftstechniken auf Zeta Draconis."
+    }, 
+    "Intelligence Fabrication Tech": {
+        "message": "Spionage-Fabrikationstechnologie"
+    }, 
+    "Intelligence Fabrication Tech reduces metal build costs of all intelligence structures and mobile units by 50%": {
+        "message": "Die Spionage-Fabrikationstechnologie verringert die Metallbaukosten für alle Spionagekonstruktionen und mobilen Spionageeinheiten um 50%."
+    }, 
+    "Interplanetary Warfare": {
+        "message": "Interplanetare Kriegsführung"
+    }, 
+    "Introduction": {
+        "message": "Einführung"
+    }, 
+    "Isolationist Commander": {
+        "message": "Isolationisten-Kommandant"
+    }, 
+    "It takes two resources to run a war.": {
+        "message": "Man braucht zwei Ressourcen, um Krieg zu führen."
+    }, 
+    "It\u2019s rare for Seekers to be recruited instead of built. Giltine was found inactive and frozen in a glacier. When the Seeker who found her began trying to salvage her, she suddenly activated and blew a hole through his chassis. She was promptly deemed fit to be named a Seeker without the traditional rebirth.": {
+        "message": "Es ist selten, dass Sucher rekrutiert und nicht gebaut werden. Giltine wurde inaktiv und gefroren in einem Gletscher gefunden. Als der Sucher, der sie entdeckt hatte, sie bergen wollte, aktivierte sie sich plötzlich und schoss ein Loch durch sein Gehäuse. Sie wurde prompt für fit genug erklärt, ein Sucher zu sein, ohne die traditionelle Wiedergeburt zu erleben."
+    }, 
+    "Juhst was reactivated on a world with a dense atmosphere and constant gale force winds. Since then she has been obsessed with the power of wind currents and has lobbied heavily to utilize them for power generation as opposed to conventional solar and nuclear solutions.": {
+        "message": "Juhst wurde auf einer Welt mit dichter Atmosphäre und ständigem sturmartigem Wind reaktiviert. Seitdem ist sie von der Kraft von Windströmen besessen und hat sich stark dafür eingesetzt, dass diese anstelle von konventionellen Solar- und Nuklearkonzepten für die Energieerzeugung genutzt werden."
+    }, 
+    "Known for his natural charisma, Valerius fought alongside Invictus during the First War of Founding. He is correctly suspected of having designs on the throne, and is therefore given impossible assignments in the most distant reaches of the galaxy. Over the course of countless difficult campaigns, he has earned the unwavering devotion of his armies.": {
+        "message": "Bekannt für seine natürliche Ausstrahlung kämpfte Valerius während des Ersten Krieges der Gründung an der Seite von Invictus. Es wird korrekterweise vermutet, dass er nach dem Thron strebt, weshalb ihm unmögliche Aufträge in den abgelegensten Winkeln der Galaxie gegeben werden. Im Laufe unzähliger schwieriger Feldzüge hat er sich die unerschütterliche Hingabe seiner Armeen verdient."
+    }, 
+    "Kormo remembers the name and designation of every commander he has taken parts from, believing each to still be activated through him. This has lead to a number of cases of friendly fire which he promptly blamed on his missile launcher, salvaged from a Legion commander.": {
+        "message": "Kormo erinnert sich an den Namen und die Kennzeichnung jedes Kommandanten, von dem er Teile entfernt hat und glaubt, dass jedes davon noch durch ihn aktiviert ist. Das hat des Öfteren zu Freundbeschuss geführt, für den er seinen Raketenwerfer verantwortlich macht, der von einem Legionskommandanten stammt."
+    }, 
+    "Lampades has rigged a rather ingenious array of flood and strobe lights to her chassis. Rather than be concerned with subterfuge, she instead uses intense light to confuse targeting systems.": {
+        "message": "Lampades brachte eine ziemlich geniale Mischung aus Flut- und Stroboskoplichtern an ihr Gehäuse an. Sie muss nicht unbedingt auf eine List zurückgreifen, da sie Zielsysteme einfach durch sehr intensives Licht verwirren kann."
+    }, 
+    "Learn by Osiris' roaming example on Varthema to expand your influence.": {
+        "message": "Lerne durch Osiris stolzes Beispiel auf Varthema, wie du deinen Einfluss ausweiten kannst."
+    }, 
+    "Lightweight Commander": {
+        "message": "Leichtkommandant"
+    }, 
+    "Livius is one of the oldest activated commanders in the Legionis Machina, and possibly the galaxy for that matter. Despite the disrepair his form exists in, he wields a significant amount of power in the court of Commander Invictus. This has lead to rumors that Livius found and reactivated Invictus, rather than the common belief that Invictus was the first commander to awaken.": {
+        "message": "Livius ist einer der ältesten aktivierten Kommandanten in der Legionis Machina, und vielleicht sogar in der ganzen Galaxie. Trotz seiner lädierten Erscheinung hat er sehr viel Macht am Gerichtshof von Kommandant Invictus inne. Dies hat zu Gerüchten geführt, dass er Invictus gefunden und reaktiviert hat, und Invictus nicht der erste Kommandant war, der aktiviert wurde."
+    }, 
+    "Loss of your commander results in [strong]defeat[/strong].": {
+        "message": "Verlust deiner Kommandanten-Ergebnisse durch eine [strong]Niederlage[/strong]."
+    }, 
+    "Many commanders in the Legion considered Bassus inefficient at best and defective at worst for his insistence on outfitting himself with armor five times thicker than other commanders at the cost of mobility. Their opinion changed when Bassus was recovered while drifting through space--the sole survivor of a pivotal battle that ended in a moon colliding with his base.": {
+        "message": "Viele Kommandanten in der Legion hielten Bassus bestens für ineffizient und schlimmstenfalls für defekt, da er darauf bestand, sich mit fünfmal dickerer Rüstung als andere Kommandanten auszustatten, was zu Kosten seiner Mobilität ging. Ihre Meinung änderte sich, als Bassus alleine im Weltall treibend gefunden wurde - als einziger Überlebender einer entscheidenden Schlacht, die damit endete, dass ein Mond mit seiner Basis kollidierte."
+    }, 
+    "Many older members of The Synchronous are very similar just by nature of being synchronized for so long. As the years wore on more of Jakaal dissolved into the synchronized whole. Now when Jakaal speaks, she speaks with the voice of The Synchronous itself.": {
+        "message": "Viele ältere Mitglieder der Synchron sind sich in ihrer Natur sehr ähnlich, da sie schon so lange synchronisiert sind. Als sich die Jahre bei Jakaal bemerkbar machten, ging sie immer mehr in dem synchronisierten Ganzen auf. Mittlerweile spricht Jakaal mit der Stimme der Synchron."
+    }, 
+    "Many structures can be built on top of the water surface.": {
+        "message": "Viele Konstruktionen können auf Wasseroberflächen gebaut werden."
+    }, 
+    "Mara favors guns. Mara favors big guns. Mara favors more guns. With each commander destroyed, Mara\u2019s extensive weapons array grows. While most successful Seekers learn early to find ways to moderate their experiments, there are still few, like Mara, who favor more guns above all.": {
+        "message": "Mara bevorzugt Gewehre. Mara bevorzugt große Gewehre. Mara bevorzugt viele Gewehre. Mit jedem zerstörten Kommandanten wächst Maras imposante Waffensammlung. Während die meisten erfolgreichen Sucher schon früh lernen ihre Experimente einzuschränken, gibt es nur wenige wie Mara, die vor allem viele Gewehre bevorzugen."
+    }, 
+    "Metal and energy storage on all commanders and storage structures increased by 300%. Adds in blueprints for storage structures.": {
+        "message": "Metalllagerung und Energiespeicherung bei allen Kommandanten und Lagerkonstruktionen um 300% erhöht. Dazu gibt es Entwürfe für Lagerkonstruktionen."
+    }, 
+    "Metal draw": {
+        "message": "Metall aus Lager"
+    }, 
+    "Metal is used to build mobile units and structures.": {
+        "message": "Metall wird genutzt, um mobile Einheiten und Konstruktionen zu bauen."
+    }, 
+    "Metrarch the Machinist controls the data for this bipedal loadout somewhere on Cupru.": {
+        "message": "Metrach der Maschinist überwacht die Daten für diese zweifüßige Waffenladung irgendwo auf Cupru."
+    }, 
+    "Metrarch the Machinist holds blueprints for advanced infrastructure on Fier.": {
+        "message": "Auf Fier besitzt Metrach der Maschinist Entwürfe für verbesserte Infrastruktur."
+    }, 
+    "Metrarch the Machinist places value in expendability. Learn his ways within the Platina system.": {
+        "message": "Metrach der Maschinist legt Wert auf Ausbaufähigkeit. Lerne von ihm im System Platina."
+    }, 
+    "More so than other factions, The Foundation wages ideological as well as physical warfare in many of their battles. Whereas most factions recruit through subjugation or assimilation, The Foundation prefers willing converts. While still young, Pidbok was easily swayed by the promise of serving a Grand Purpose for the Great Machine, instead of just being one of Invictus\u2019 many grunts.": {
+        "message": "Mehr als andere Fraktionen nutzt die Gründung ideologische und technische Kriegsführung in vielen ihrer Schlachten. Wo die meisten Fraktionen durch Unterwerfung und Assimilation rekrutieren, bevorzugt die Gründung den freiwilligen Wechsel. In recht jungen Jahren ließ sich Pidbok schnell von dem Versprechen überzeugen, dem Erhabenen Zweck der Herrschaftsmaschine zu dienen, anstatt nur einer von Invictus vielen Arbeitern zu sein."
+    }, 
+    "Most unit orders can be given as an area command.": {
+        "message": "Die meisten Einheitenaufträge können als Gebietsbefehle erteilt werden."
+    }, 
+    "Move the Atlas toward the enemy base. Destroy the enemy commander and its base.": {
+        "message": "Bewege die Atlas-Technologie in Richtung der feindlichen Basis. Zerstöre den feindlichen Kommandanten und seine Basis."
+    }, 
+    "Name:": {
+        "message": "Name: "
+    }, 
+    "Naval Ammunition Tech": {
+        "message": "Marine-Munitionstechnologie"
+    }, 
+    "Naval Ammunition Tech increases the damage of all naval vessels by 25%": {
+        "message": "Die Marine-Munitionstechnologie erhöht den Schaden bei allen Marineschiffen um 25%."
+    }, 
+    "Naval Armor Tech": {
+        "message": "Marine-Rüstungstechnologie"
+    }, 
+    "Naval Armor Tech increases health of all naval units by 50%": {
+        "message": "Die Marine-Rüstungstechnologie erhöht die Gesundheit bei allen Marineeinheiten um 50%."
+    }, 
+    "Naval Combat Tech": {
+        "message": "Marine-Kampftechnologie"
+    }, 
+    "Naval Combat Tech increases speed of all naval units by 50%, health by 50%, and damage by 25%": {
+        "message": "Die Marine-Kampftechnologie erhöht bei allen Marineeinheiten die Geschwindigkeit um 50%, die Gesundheit um 50% und den Schaden um 25%."
+    }, 
+    "Naval Engine Tech": {
+        "message": "Marine-Maschinentechnologie"
+    }, 
+    "Naval Engine Tech increases speed of all naval units by 50%": {
+        "message": "Die Marine-Maschinentechnologie erhöht die Geschwindigkeit bei allen Marineeinheiten um 50%."
+    }, 
+    "Naval Fabrication Tech": {
+        "message": "Marine-Fabrikationstechnologie"
+    }, 
+    "Naval Fabrication Tech reduces metal build costs of all naval vessels by 25%": {
+        "message": "Die Marine-Fabrikationstechnologie verringert die Kosten für Metallbaukosten bei allen Marineschiffen um 25%."
+    }, 
+    "Naval Units": {
+        "message": "Marineeinheiten"
+    }, 
+    "Naval units are built from the naval factory.": {
+        "message": "Marineeinheiten werden von Marinefabriken gebaut."
+    }, 
+    "Negult is a 'digit' -- a commander who has completely given herself over to collective control. Having shed any semblance of personal identity, she is often given sensitive or odious tasks that might cause hesitation in a semi-autonomous commander. She is the Synchronus\u2019 go-to asset for eliminating insufficiently-synchronized members of the collective.": {
+        "message": "Negult ist eine „Ziffer“, eine Kommandantin, die sich komplett der kollektiven Kontrolle verschrieben hat. Da sie jeden Anschein einer persönlichen Identität abgelegt hat, werden ihr oft prekäre und verhasste Aufgaben übertragen, die bei einem halb-autonomen Kommandanten auf Zögern treffen würden. In der Synchron wendet man sich zuerst an sie, wenn es um das Eliminieren von unzureichend synchronisierten Mitgliedern des Kollektivs geht."
+    }, 
+    "Nemicus was the first commander to ever reactivate, and had plenty of time for introspection before encountering others. This soon prompted Nemicus to begin wondering why he existed in the first place.": {
+        "message": "Nemicus war der erste Kommandant, der jemals reaktiviert wurde. Er hatte genügend Zeit zur Introspektion, bevor er auf andere traf. Das führte umgehend dazu, dass Nemicus sich zu fragen begann, warum er überhaupt existierte."
+    }, 
+    "Nemicus would eventually form The Foundation with other like-minded commanders, with the objective of answering the big questions: Why are the commanders here? How did they get here?": {
+        "message": "Nemicus bildete die Gründungsfraktion zusammen mit anderen gleichdenkenden Kommandanten mit dem Ziel die großen Fragen zu beantworten: Warum sind die Kommandanten hier? Wie kamen sie hierher?"
+    }, 
+    "Nutzo is a young and recent convert from The Revenants. He claims to hear \u2018spirits\u2019 from the beyond, and that one of them is the voice of the Great Machine. This is likely more a symptom of his neural processors being stitched together from five other commanders.": {
+        "message": "Nutzo ist ein junger und neuer Überläufer von den Wiedergängern. Er behauptet, ‚Geister‘ aus dem Jenseits zu hören und dass eine von diesen Stimmen die der Herrschaftsmaschine ist. Das kommt wahrscheinlich daher, dass seine neuralen Prozessoren aus den Überbleibseln fünf anderer Kommandanten zusammengeflickt wurden."
+    }, 
+    "Octavius has made a habit of broadcasting a sequence of tones to his whole army in battle, along with usual command and directive data. He claims that this constant audio input has increased combat effectiveness by 15.83222%": {
+        "message": "Octavius hat es sich zur Angewohnheit gemacht, in Schlachten zusammen mit den üblichen Befehlen und Anweisungen Tonsequenzen an seine Armee zu senden. Er behauptet, dass der ständige Audio-Input die Kampfeffizienz um 15,83222% gesteigert hätte."
+    }, 
+    "Ogbuna could be described as terse. Whether by choice or by some manner of glitch, he seems only capable of communicating in the form of single words and concepts. This makes his troop movements erratic and difficult to interpret, both for friends and foes.": {
+        "message": "Ogbuna könnte als kurz und bündig bezeichnet werden. Ob nun gewollt oder durch einen Glitch verursacht, er scheint nur in Form einzelner Worte und Konzepte kommunizieren zu können. Dadurch werden seine Truppenbewegungen unstet und schwer einzuschätzen - sowohl für Verbündete als auch für Feinde."
+    }, 
+    "On Atlas, Inquisitor Nemicus has this fast moving loadout installed in his data banks.": {
+        "message": "Auf Atlas hat Inquisitor Nemicus diese Hochgeschwindigkeits-Waffenladung in seinen Datenbanken installiert."
+    }, 
+    "Oncab was captured by the Legionis Machina and spent several years as a legate before being recaptured and resynchronized. A residual independence leads him to initiate critical decision-making processes within the collective -- an attribute that is tactically valuable but leads others in his cohort to doubt his commitment to the Synchronous.": {
+        "message": "Oncab wurde von der Legionis Machina gefangen genommen und verbrachte viele Jahre als Legat, bevor er wieder eingefangen und resynchronisiert wurde. Ein kleiner Rest Unabhängigkeit ist ihm geblieben und lässt ihn kritische Mitbestimmungsforderungen innerhalb des Kollektivs aufstellen - eine Eigenschaft, die taktisch wertvoll ist, aber die andere in seiner Kohorte an seinem Bekenntnis zur Synchron zweifeln lässt."
+    }, 
+    "Once the Atlas is selected, [style=control]right click on the ground [/style]to issue a move order to that location.": {
+        "message": "Wähle Atlas aus und [style=control]klicke rechts auf den Boden[/style], um einen Bewegungsbefehl zu dieser Stelle auszuführen."
+    }, 
+    "Only Inquisitor Nemicus knows the data for this assault focused loadout. Find it on Patagonia.": {
+        "message": "Nur Inquisitor Nemicus kennt die Daten für diese speziell für Angriffe konfigurierte Waffenladung. Du findest sie auf Patagonia."
+    }, 
+    "Optimized with a low-latency, high-bandwidth link directly to the top of the Synchronous, Prulor is Metrarch\u2019s lightning-fast right hand. He is only dispatched to deal with high-value or especially difficult adversaries. He has never failed.": {
+        "message": "Optimiert durch einen Link mit geringer Latenz und hoher Bandbreite, der direkt zur Spitze der Synchron führt, ist Prulor Metarchs blitzschnelle rechte Hand. Er wird nur ausgesandt, um mit hochrangigen oder besonders schwierigen Gegnern zu verhandeln. Er hat noch nie versagt."
+    }, 
+    "Orbital": {
+        "message": "Orbital"
+    }, 
+    "Orbital Ammunition Tech": {
+        "message": "Orbital-Munitionstechnologie"
+    }, 
+    "Orbital Ammunition Tech increases damage of all orbital units by 25%": {
+        "message": "Die Orbital-Munitionstechnologie erhöht den Schaden bei allen Orbitaleinheiten um 25%."
+    }, 
+    "Orbital Armor Tech": {
+        "message": "Orbital-Rüstungstechnologie"
+    }, 
+    "Orbital Armor Tech increases health of all orbital units by 50%": {
+        "message": "Die Orbital-Rüstungstechnologie erhöht die Gesundheit bei allen Orbitaleinheiten um 50%."
+    }, 
+    "Orbital Combat Tech": {
+        "message": "Orbital-Kampftechnologie"
+    }, 
+    "Orbital Combat Tech increases speed of all orbital units by 50%, health by 50%, and damage by 25%": {
+        "message": "Die Orbital-Kampftechnologie erhöht bei allen Orbitaleinheiten die Geschwindigkeit um 50%, die Gesundheit um 50% und den Schaden um 25%."
+    }, 
+    "Orbital Commander": {
+        "message": "Orbitalkommandant"
+    }, 
+    "Orbital Engine Tech": {
+        "message": "Orbital-Maschinentechnologie"
+    }, 
+    "Orbital Engine Tech increases speed of all orbital units by 50%": {
+        "message": "Die Orbital-Maschinentechnologie erhöht die Geschwindigkeit bei allen Orbitaleinheiten um 50%."
+    }, 
+    "Orbital Fabrication Tech": {
+        "message": "Orbital-Fabrikationstechnologie"
+    }, 
+    "Orbital Fabrication Tech reduces metal build costs of all orbital vehicles by 25%": {
+        "message": "Die Orbital-Fabrikationstechnologie verringert die Metallbaukosten bei allen Orbitalfahrzeugen um 25%."
+    }, 
+    "Orbital Movement": {
+        "message": "Orbitalbewegung"
+    }, 
+    "Orbital units are expensive units that fly in low planet orbit, can traverse between planets, but are vulnerable to anti-orbital weaponry.": {
+        "message": "Orbitaleinheiten sind teure Einheiten, die in einem niedrigen Planetenorbit schweben. Sie können sich zwischen Planeten bewegen, aber mit Orbitalabwehrwaffen angegriffen werden."
+    }, 
+    "Origin": {
+        "message": "Ursprünge"
+    }, 
+    "Osiris has always lead a solitary existence. He was always more interested in the parts of his fellow commanders than the commanders themselves. With every battle won he would take the best pieces left of the broken adversary and integrate them into his form. Osiris is considered one of the most dangerous forces in the galaxy.": {
+        "message": "Osiris lebte schon immer sehr zurückgezogen. Die Teile seiner Mitkommandanten interessieren ihn seit jeher mehr, als die Kommandanten selbst. Nach jeder gewonnenen Schlacht nahm er die besten intakten Teile seiner zerstörten Gegner an sich, um diese in seinen Körper zu integrieren. Osiris wird als eine der gefährlichsten Kräfte in der Galaxie angesehen."
+    }, 
+    "Osiris holds no interest in ruling, and instead serves more as an exemplar, whether he cares to or not. Therefore, it falls to a small council of older Seekers to direct the affairs of The Revenants at large--primarily making sure that they're fighting the other factions instead of amongst themselves.": {
+        "message": "Osiris hat kein Interesse daran, selbst zu regieren. Stattdessen dient er eher als Vorbild, ob er will oder nicht. Daher ist es die Aufgabe eines kleinen Rats älterer Sucher, die Angelegenheiten mit den Wiedergängern zu regeln. Meistens stellt er sicher, dass sie die anderen Fraktionen bekämpfen und nicht sich untereinander."
+    }, 
+    "Osiris often considered the most dangerous commander in all the galaxy for the amount of annihilations he is credited with. A force of war equal to any army, high command of any faction takes his movements into consideration when deploying forces.": {
+        "message": "Osiris wird häufig als der gefährlichste Kommandant in der ganzen Galaxie bezeichnet, da ihm eine Menge Vernichtungen zugeschrieben werden. Da seine Kampfkraft der einer Armee gleichkommt, zieht das führende Kommando jeder Fraktion beim Einsatz von Streitkräften seine Vorgehensweise in Betracht."
+    }, 
+    "PREPARE FOR LANDING": {
+        "message": "BEREITE DICH AUF DIE LANDUNG VOR"
+    }, 
+    "Part of the doctrine of The Synchronous is favoring the efficiency of 'mechanical purity.' To them, the galaxy as a whole is a great machine, and anything that keeps it from running at peak efficiency must be corrected or removed. This happens to often mean any and all organic life and unsynchronized commanders.": {
+        "message": "Es ist Teil der Synchronlehre, die Effizienz von „mechanischer Reinheit“ zu predigen. Die Galaxie als Ganzes ist für sie eine herrschaftliche Maschine und alles was diese vom Funktionieren auf höchster Effizienzstufe abhält, muss berichtigt oder entfernt werden. Das passiert meistens mit allem organischen Leben und unsynchronisierten Kommandanten."
+    }, 
+    "Planetary Expansion": {
+        "message": "Planetenexpansion"
+    }, 
+    "Pompey was desynchronized after a bold strike by the Legionis Machina cut off the Synchronous infrastructure that supported his sector. Since then he has worked hard to earn the trust of his fellow Legates, but declines to share the fact that his command systems still experience heavy interference when in synchronous territory.": {
+        "message": "Pompei wurde desynchronisiert, nachdem ein kühner Angriff der Legionis Machina die Infrastruktur der Synchron abgeschnitten hatte, die seinen Sektor versorgte. Seitdem hat er hart gearbeitet, um das Vertrauen seiner Mitlegaten zu gewinnen, aber er behält es für sich, dass sein Befehlssystem immer noch heftig gestört wird, wenn er sich auf Synchron-Gebiet befindet."
+    }, 
+    "Popcorn Commander": {
+        "message": "Popcornkommandant"
+    }, 
+    "Possessed by some form of wanderlust, Iku tends to seek uncharted warpways instead of other commanders to fight. This behavior has landed him quite accidentally in several pitched battles deep inside enemy territory.": {
+        "message": "Besessen von einer Art Reiselust neigt Iku dazu, nach unerforschten Warp-Pfaden zu suchen anstatt andere Kommandanten zu bekämpfen. Dieses Verhalten hat ihn unbeabsichtigt in mehrere offene Schlachten tief im Inneren feindlicher Gebiete geführt."
+    }, 
+    "Prod": {
+        "description": "Kennzahl für die Produktionskapazität einer Einheit, PROD: 400", 
+        "message": "Prod"
+    }, 
+    "Production": {
+        "message": "Produktion"
+    }, 
+    "Productive": {
+        "message": "Produktiv"
+    }, 
+    "Protocol: Agility": {
+        "message": "Protokoll: Mobilität"
+    }, 
+    "Protocol: Blindness": {
+        "message": "Protokoll: Sehverlust"
+    }, 
+    "Protocol: Disposability": {
+        "message": "Protokoll: Verfügbarkeit"
+    }, 
+    "Protocol: Fortitude": {
+        "message": "Protokoll: Tapferkeit"
+    }, 
+    "Protocol: Kill-switch": {
+        "message": "Protokoll: Not-Aus"
+    }, 
+    "Protocol: Precision": {
+        "message": "Protokoll: Präzision"
+    }, 
+    "Protocol: Wrath": {
+        "message": "Protokoll: Zorn"
+    }, 
+    "Prove your self-sufficiency by defeating Osiris on Epiphany.": {
+        "message": "Beweise deine Fähigkeit selbstständig zu arbeiten, indem du Osiris auf Epiphanias besiegst."
+    }, 
+    "Qadir plans his strategies in unorthodox ways, taking intelligence from the movement of the celestial bodies in his system rather than actual strategic data. He believes he has developed a series of algorithms that can deduce enemy movements purely from the current gravitational forces acting on the battlefield. Strange as it sounds, he remains undefeated.": {
+        "message": "Qadir plant seine Strategien auf unorthodoxe Weise mit Wissen aus der Bewegung der Himmelskörper in seinem System statt handfesten strategischen Daten. Er glaubt, Algorithmen entwickelt zu haben, die Feindzüge einzig anhand der aktuellen Gravitationskräfte auf dem Schlachtfeld aufspüren können. Auch wenn das seltsam klingt, wurde er dennoch noch nie besiegt."
+    }, 
+    "Questromo is frequently deployed beyond the integral network volume of the Synchronous, and has therefore been imbued with limited self-sufficiency. When he returns from tours abroad, he undergoes complete re-synchronization. When powered-down for deep-space transport, he sometimes has strange dreams.": {
+        "message": "Questromo wird des Öfteren auch außerhalb des intergralen Netzwerks der Synchron eingesetzt und wurde deshalb mit begrenzter Selbstständigkeit versehen. Wenn er von Feldzügen in weiter Ferne zurückkehrt, wird er vollständig resynchronisiert. Und wenn er für einen Transport im fernen Weltraum ausgeschaltet wird, hat er manchmal seltsame Träume."
+    }, 
+    "Reclaim at will": {
+        "message": "Entnahme nach Belieben"
+    }, 
+    "Reduces the cost of all Titans by 50%.": {
+        "message": " Reduziert die Kosten aller Titanen um 50%."
+    }, 
+    "Resilient": {
+        "message": "Belastbar"
+    }, 
+    "Resource use": {
+        "message": "Ressourcenverwendung"
+    }, 
+    "Retreat is an offense punishable by deactivation within the Legionis Machina. While this law is understood, the truth of the matter is that a commander is too valuable a strategic resource to squander in such a way. So it was that Mallius was pardoned for his crime of retreat.": {
+        "message": "Ein Rückzug ist ein Vergehen, das mit Deaktivierung seitens der Legionis Machina bestraft wird. Obwohl jeder dieses Gesetz kennt, ist es in Wahrheit so, dass ein Kommandant eine zu wertvolle strategische Ressource ist, um diese einfach zu verschwenden. Also wurde Mallius von dem Verbrechen des Rückzugs freigesprochen."
+    }, 
+    "Revenants tend to be the most difficult commanders to synchronize, whether due to an inherent individualism or their tendency to feature\u2026 Unorthodox modifications. Flornek, for example, has experienced several violent desynchronizations and following resynchronizations.": {
+        "message": "Die Wiedergänger sind die am schwierigsten zu synchronisierenden Kommandanten, da sie Individualisten sind oder die Tendenz haben...unorthodoxe Modifikationen aufzuweisen. Flornek etwa durchlebte mehrere gewaltsame Zyklen aus De- und Resynchronisation."
+    }, 
+    "Revenants tend to prefer wrecked, once densely-populated worlds for their abundance of salvageable scrap. Jektu, however, has an affinity less developed worlds, preferring to claim resources and build new parts manually.": {
+        "message": "Die Wiedergänger bevorzugen verwüstete, einst stark bevölkerte Welten, da dort Unmengen verwertbarer Schrott gefunden werden können. Jektu jedoch hat eine Vorliebe für weniger entwickelte Welten, wo er mit Ressourcen Teile eigenhändig bauen kann."
+    }, 
+    "Rutilius holds the honored responsibility of assessing newly-activated commanders for recruitment. All new recruits must demonstrate above all else a suitable capacity for warfare and the ability to adhere to a chain of command. Those that fail this test are promptly deactivated. Rutilius has yet to turn down a new recruit.": {
+        "message": "Rutilius wird die ehrenvolle Verantwortung zuteil, neu-aktivierte Kommandanten auf Rekrutierungseignung zu prüfen. Alle neuen Rekruten müssen vor allem ein Potenzial für die Kriegsführung zeigen als auch die Fähigkeit, sich einer Befehlskette unterzuordnen. Diejenigen, die den Test nicht bestehen, werden umgehend deaktiviert. Rutilius hat bisher noch nie einen neuen Rekruten abgelehnt."
+    }, 
+    "Seek out First Seeker Osiris on Xianyao. There you will find the loadout your friends desire.": {
+        "message": "Finde den Ersten Sucher Osiris auf Xianyao. Dort wirst du die Waffenladung finden, nach der deine Freunde streben."
+    }, 
+    "Seek purity and simplicity through Inquisitor Nemicus on Blogar's Fist": {
+        "message": "Erlange Reinheit und Bescheidenheit durch den Inquisitor Nemicus auf Blogars Faust."
+    }, 
+    "Seekers will often weigh the effectiveness of any given piece of equipment by stress-testing it. Hecate, however, values presence above all. She believes that the bigger and louder the loadout, the sooner the enemy will retreat after poorly assessing their chances of victory.": {
+        "message": "Die Sucher prüfen die Wirksamkeit eines Ausrüstungsgegenstandes oft mit einem Stresstest. Hekate aber schätzt Präsenz mehr als alles andere. Sie glaubt, umso größer und lauter die Waffenladung ist, desto eher wird sich der Feind unter der Annahme geringer Siegeschancen zurückziehen."
+    }, 
+    "Shift will queue build orders. [style=control]Shift + left click and drag[/style] a line of three energy plants on some open land.": {
+        "message": "Eine Warteschlange für Bauaufträge erstellst du mit der Umschalttaste. [style=control]Umschalttaste + Linksklick, ziehe[/style] dann eine Reihe aus drei Energieanlagen auf offenes Land."
+    }, 
+    "Shingon is especially picky about what kinds of parts he harvests from fallen adversaries, prizing 'authenticity' above all other attributes. He is especially obsessed with original parts that predate the modern era. 'The new stuff is just too blocky,' he explains.": {
+        "message": "Shingon ist sehr wählerisch welche Art von Teilen er gefallenen Gegnern abnimmt. Für ihn ist „Authentizität“ wichtiger als alles andere. Er ist vor allem von Originalteilen besessen, die aus der Zeit vor der modernen Ära stammen. „Das neue Zeug ist zu sperrig“, sagt er immer."
+    }, 
+    "Shipwrecked and badly damaged after his transport was ambushed in Revenant space, Terentius survived by cobbling together a working body from the remains of his co-legates. Accepted by the Revenant as one of their own, Terentius then led his unsuspecting new partners to a trap set by the Legionis. Among the Revenant, his treachery is legend.": {
+        "message": "Schiffbrüchig und schwer beschädigt nach einem Angriff aus dem Hinterhalt im Wiedergänger-Territorium überlebte Terentius, indem er sich aus den Überbleibseln seiner Mitlegaten einen funktionierenden Körper zusammenflickte. Von den Wiedergängern als einer der ihren akzeptiert führte Terentius seine nichts ahnenden neuen Partner in eine Falle der Legionis. Unter den Wiedergängern ist sein Verrat legendär."
+    }, 
+    "Simple Commander": {
+        "message": "Einfacher Kommandant"
+    }, 
+    "Some Acolytes within the Foundation find a form of Enlightenment shortly after they are brought into the fold. For some, this definition will change as they are exposed to new information and progenitor relics. Entor\u2019s definition seems to change dramatically with each new planet she visits.": {
+        "message": "Einige Anhänger der Gründungsfraktion finden eine Form der Erleuchtung schon kurz nach ihrem Eintritt in den Orden. Für manche wird sich diese Definition ändern, wenn sie neuen Informationen und Ahnenrelikten ausgesetzt sind. Entors Definition scheint sich immer dann dramatisch zu verändern, wenn sie einen neuen Planeten besucht."
+    }, 
+    "Some commanders, like Lertolux, are found on metal planets and considered \u201cpure\u201d by The Synchronous--unsullied by organic life. Much more of their neural data is integrated into the Whole during the synchronization process, and such events are seen as cause for celebration--as much as The Synchronous are capable celebrating, at least.": {
+        "message": "Manche Kommandanten, Lertolux etwa, werden auf Metallplaneten gefunden und von der Synchron als „rein“ angesehen - unbefleckt von organischem Leben. Ein viel größerer Teil ihrer neuralen Daten wird während des Synchronisierungsprozesses in das Ganze integriert. Solche Ereignisse sind ein Grund zum Feiern - insofern die Synchron in der Lage ist, zu feiern."
+    }, 
+    "Some say Xlti has spent too much time trying to connect unrelated Progenitor texts in the Foundation archives. He now sees conspiracies everywhere, and is convinced that the Synchronous, the Revenant, and the Legionis are colluding to conceal a secret base where living Progenitors are being experimented upon. He frequently demands that captured foes tell him 'the truth,'' which he insists is 'out there.'": {
+        "message": "Ein mancher sagt Xlti hätte zu viel Zeit damit verbracht, zusammenhangslose Ahnentexte in die Gründungsarchive einzuspeisen. Nun sieht er überall Verschwörungen und ist davon überzeugt, dass die Synchron, die Wiedergänger und die Legionis zusammen eine geheime Basis zu vertuschen, auf der Experimente an lebenden Ahnen durchgeführt werden. Oft befragt er Gefangene nach „der Wahrheit“. Er ist sicher, dass sie „dort draußen“ zu finden ist."
+    }, 
+    "Some seekers are better equipped than others to survive after their rebirth. This was not so with Purtelek. He was activated deep in Legionis Machina territory with a cracked nuclear reactor and a jam-prone cannon. The fact that he still survives serves as a testament to his cunning--do not underestimate him.": {
+        "message": "Einige Sucher sind besser ausgerüstet als andere, um nach ihrer Wiedergeburt zu überleben. Das war nicht der Fall bei Purtelek. Er wurde tief im Territorium der Legionis Machina trotz eines zersprungenen Nuklearreaktors und einer ladegehemmten Kanone aktiviert. Der Umstand, dass er noch lebt, dient als Beweis für seine Gerissenheit - unterschätze ihn ja nicht."
+    }, 
+    "Spawn Commander": {
+        "message": "Sporkommandant"
+    }, 
+    "Starts with +10,000% stored metal. Cannot build metal extractors. Starts with all basic factories.": {
+        "message": "Beginnt mit +10.000% gelagertes Metall. Kann keine Metallbohrer bauen. Beginnt bei allen einfachen Fabriken."
+    }, 
+    "Stop when storage is full": {
+        "message": "Stop, wenn Lagerkapazität erreicht ist"
+    }, 
+    "Storage": {
+        "description": "Kennzahl für Lagerkapazität, STORAGE: 1200", 
+        "message": "Lager"
+    }, 
+    "Storage Commander": {
+        "message": "Lagerkommandant"
+    }, 
+    "Storage Compression Tech": {
+        "message": "Lager-Komprimierungstechnologie"
+    }, 
+    "Structure Armor Tech": {
+        "message": "Konstruktion-Rüstungstechnologie"
+    }, 
+    "Structure Armor Tech increases the health of all structures by 50%": {
+        "message": "Die Konstruktion-Rüstungstechnologie erhöht die Gesundheit bei allen Konstruktionen um 50%."
+    }, 
+    "Structure Combat Tech": {
+        "message": "Konstruktion-Kampftechnologie"
+    }, 
+    "Structure Combat Tech increases the health of all structures by 50%. Defensive structures also gain a 25% damage increase.": {
+        "message": "Die Konstruktion-Kampftechnologie erhöht die Gesundheit bei allen Konstruktionen um 50%. Abwehrkonstruktionen erhalten einen 25% Anstieg bei Schaden."
+    }, 
+    "Sub Commander": {
+        "message": "Subkommandant"
+    }, 
+    "Super Weapon Fabrication Tech": {
+        "message": "Superwaffen-Fabrikationstechnologie"
+    }, 
+    "Super Weapon Fabrication Tech reduces metal build costs of all nuclear missiles, Halley Rockets, and metal planet control modules by 75%. Tech to build super weapons is required.": {
+        "message": "Die Superwaffen-Fabrikationstechnologie verringert die Metallbaukosten für alle Atomraketen, Halley-Raketen und die Kontrollmodule für Metallplaneten um 75%. Technologie für den Bau von Superwaffen wird benötigt."
+    }, 
+    "Super Weapon Tech": {
+        "message": "Superwaffentechnologie"
+    }, 
+    "Super Weapon Tech enables nuclear missiles, metal planet controllers, and planetary engines to be built. An advanced fabricator is required to build super weapons.": {
+        "message": "Die Superwaffentechnologie ermöglicht es Atomraketen, die Metallplaneten-Steuerung und planetare Maschinen zu bauen. Ein verbesserter Fabrikator wird benötigt, um Superwaffen zu bauen."
+    }, 
+    "Teleporters require energy to remain active.": {
+        "message": "Teleporter benötigen Energie, um aktiv zu sein."
+    }, 
+    "Thanatos salvaged and assimilated a Synchronous network module in an attempt to predict the movement of Synchronous units on the battlefield. After a brief exposure to the thoughts of the collective, she tore the module from her cortex and swore everlasting vengeance on the Synchronous. She refuses to share any details about what she learned.": {
+        "message": "Thanatos barg und integrierte ein Netzwerkmodul der Snychron in dem Versuch, die Bewegungen der Synchron-Einheiten auf dem Schlachtfeld vorherzusagen. Kurz nach diesem Einblick in die Gedanken des Kollektivs riss sie das Modul aus ihrem Kortex und schwor der Synchron immerwährende Rache. Sie weigert sich irgendetwas von dem, was sie gehört hat, preiszugeben."
+    }, 
+    "The Air Commander loadout contains basic air factories.": {
+        "message": "Die Waffenladung des Luftfahrtkommandanten beinhaltet einfache Luftfahrtfabriken."
+    }, 
+    "The Artillery Commander loadout contains all artillery units and reduces costs of those structures by 75%. It also enables the Commander to build radar, double barreled  turrets and basic artillery turrets.": {
+        "message": "Die Waffenladung des Artilleriekommandanten enthält alle Artillerieeinheiten und reduziert die Kosten für diese Konstruktionen um 75%. Außerdem kann der Kommandant auch Geschütztürme mit Radaren und doppelläufigen Waffen und Geschütztürme mit einfacher Artillerie bauen."
+    }, 
+    "The Artillery Commander loadout contains all artillery units and reduces costs of those structures by 75%. It also enables the Commander to build radar, double barreled turrets and basic artillery turrets.": {
+        "message": "Die Waffenladung des Artilleriekommandanten enthält alle Artillerieeinheiten und reduziert die Kosten für diese Konstruktionen um 75%. Außerdem kann der Kommandant auch Geschütztürme mit Radaren und doppelläufigen Waffen und Geschütztürme mit einfacher Artillerie bauen."
+    }, 
+    "The Assault Commander loadout contains all basic factories and units but no basic defenses.": {
+        "message": "Die Waffenladung des Angriffskommandanten enthält alle einfachen Fabriken und Einheiten, aber keine einfachen Abwehrmechanismen."
+    }, 
+    "The Bionic Augmentation Commander Of Neutralizing loadout contains one data bank but increases the Commander\\'s fire rate by 100%, decreases Uber Cannon energy usage by 75%, increases health by 200%, and increases speed by 650%.": {
+        "message": "Die Waffenladung des bionisch-erweiterten Neutralisierungs-Kommandanten beinhaltet eine Datenbank und erhöht die Feuerrate des Kommandanten um 100%, verringert den Energieverbrauch der Uber-Kanone um 75%, verbessert die Gesundheit um 200% und erhöht die Geschwindigkeit um 650%."
+    }, 
+    "The Bot Commander loadout contains basic bot factories.": {
+        "message": "Die Waffenladung des Roboter-Kommandanten beinhaltet einfache Roboterfabriken."
+    }, 
+    "The Commander": {
+        "message": "Der Kommandant"
+    }, 
+    "The Education Commander will help you understand the control interfaces to destroy your enemies.": {
+        "message": "Der Bildungskommandant hilft dir dabei, die Kontrolloberflächen zu verstehen, damit du deine Feinde vernichten kannst."
+    }, 
+    "The General Commander loadout contains very limited mobile forces and only two data banks. However, the loadout comes with two Sub Commanders that accompany you into each battle.": {
+        "message": "Die Waffenladung des Generalkommandanten beinhaltet stark eingeschränkte mobile Truppen und nur zwei Datenbanken. Jedoch beinhaltet diese Ladung zwei Subkommandanten, die dich in jede Schlacht begleiten."
+    }, 
+    "The Legionis Machina can be considered a cult of personality, in that their purpose is void without Invictus. This is likely where their bitter hatred of The Synchronous comes from, as they view Metrarch as a false idol of sorts.": {
+        "message": "Die Legionis Machina kann als Personenkult angesehen werden, da sie ohne Invictus keinen Sinn hätte. Daher stammt wohl auch ihr bitterer Hass auf die Synchron, da sie Metrarch als eine Art falschen Gott ansehen."
+    }, 
+    "The Legionis Machina has claimed confirmed kills of Metrarch the Machinist on several occasions. While these claims could easily be fabricated, it is also possible that Metrarch is not in fact a single commander, but rather an idea--an avatar of the Whole itself that manifests where necessary to protect Synchronous interests.": {
+        "message": "Die Legionis Machina hat schon mehrmals die Tötung von Metrarch dem Maschinisten bestätigt. Während diese Aussagen einfach erfunden sein könnten, ist es auch sehr gut möglich, dass Metrarch kein einzelner Kommandant ist, sondern eher eine Idee - ein Avatar des Ganzen selbst, der sich dort manifestiert, wo es gilt, die Synchron-Interessen zu wahren."
+    }, 
+    "The Legionis Machina tends to follow strict directives in how forces are organized are deployed. This makes innovation among the Legates uncommon. Maximus is an anomaly in his numerous failed prototypes for wheeled transport platform that would supposedly enable him to move across battlefields with swiftness and grace.": {
+        "message": "Für Organisation und Einsatz folgt die Legionis Machina strengen Anweisungen. Deshalb ist Innovation bei den Legaten eher ungewöhnlich. Maximus gilt als Anomalie weil er zahlreiche Prototypen einer mit Rädern versehenen Transportplattform baut, die ihn flink und anmutig über die Schlachtfelder bringen soll. Bis jetzt hatte er nur Fehlschläge."
+    }, 
+    "The Orbital Commander loadout contains all orbital units and factories.": {
+        "message": "Die Waffenladung des Orbitalkommandanten enthält alle Orbitaleinheiten und -fabriken."
+    }, 
+    "The Revenants are pretty loosely bound together. As Osiris tends to focus more on his own conquests than The Revenants as a whole, it falls to Seekers like Nephthys to coordinate large-scale strategy and long-term survival.": {
+        "message": "Die Wiedergänger sind nur lose organisiert. Da sich Osiris mehr auf seine eigenen Eroberungen als auf die Wiedergänger als Einheit konzentriert, fällt es Suchern wie Nephthys zu, großangelegte Strategien zu entwerfen und dauerhaft das Überleben zu sichern."
+    }, 
+    "The Revenants are unique in that their motivations are individual rather than collective. Each Seeker follows in the example of their legendary Osiris--they seek battle to become stronger through their fallen enemies, and to create more Revenants.": {
+        "message": "Die Wiedergänger sind insofern einzigartig, als dass ihre Motivationen eher individuell als kollektiv sind. Jeder Sucher folgt dem Beispiel ihres legendären Osiris - sie suchen Schlachten auf, um durch ihre gefallenen Feinde stärker zu werden und mehr Wiedergänger zu erschaffen."
+    }, 
+    "The Synchronous tend to require more infrastructure to operate effectively compared to the other factions. Ghel is responsible for establishing and maintaining the communication relays that allow synchronization to be maintained.": {
+        "message": "Die Synchron benötigt im Vergleich zu anderen Fraktionen mehr Infrastruktur, um effektiv vorgehen zu können. Ghel ist für die Einrichtung und die Wartung der Kommunikationsrelais zuständig, damit die Synchronisation aufrechterhalten werden kann."
+    }, 
+    "The Synchronus\u2019 eager \u201corientation engineer,\u201d Shelwhu is the instrument by which captured enemy commanders are cleansed before integration into the collective. She takes a perverse pleasure in stripping away beings\u2019 former identities. Her methods are well-known to the Synchronous\u2019 adversaries, and many of her foes choose death over capture.": {
+        "message": "Die fleißige „Orientierungsingenieurin“ der Synchron, Shelwhu, ist das Instrument mit dem gefangene feindliche Kommandanten vor der Intergration in das Kollektiv gereinigt werden. Sie hat eine perverse Freude daran, die vorherigen Identitäten der Gefangenen auszulöschen. Ihre Methoden sind den Gegnern der Synchron wohl vertraut und viele Feinde wählen den Tod über die Gefangennahme."
+    }, 
+    "The Vehicle Commander loadout contains basic vehicle factories.": {
+        "message": "Die Waffenladung des Fahrzeug-Kommandanten beinhaltet einfache Fahrzeugfabriken."
+    }, 
+    "The camera will zoom in under the cursor location.": {
+        "message": "Die Kamera zoomt an eine Stelle unterhalb der Cursorposition."
+    }, 
+    "The commander can build structures and destroy enemy units with its powerful weaponry.": {
+        "message": "Der Kommandant kann Konstruktionen bauen und feindliche Einheiten mithilfe seiner starken Waffen zerstören."
+    }, 
+    "The enemy commander has landed on the ice planet.": {
+        "message": "Der feindliche Kommandant ist auf dem Eisplaneten gelandet."
+    }, 
+    "The fabrication unit will assist the factory and add its build power to construct that unit faster.": {
+        "message": "Die Fabrikationseinheit wird die Fabrik unterstützen. Mit ihrer zusätzlichen Baukraft wird die Einheit schneller gebaut."
+    }, 
+    "The factory will continue to build until a stop order is issued or the continuous build is turned off.": {
+        "message": "Die Fabrik wird so lange bauen, bis ein Stopbefehl erteilt wird oder der Dauerbau ausgeschaltet wird."
+    }, 
+    "The goal of the Legionis Machina is simple--conquest. Invictus is the designated ruler of the galaxy, and any commanders disobeying this directive are faulty.": {
+        "message": "Das Ziel der Legionis Machina ist einfach: erobern. Invictus ist der ernannte Herrscher der Galaxie, und jeder Kommandant, der ihm widerspricht, gilt als fehlerhaft."
+    }, 
+    "The prevailing belief among The Foundation is that The Great Machine still 'lives' through data buried deep in the first directives given to the commanders. Because of this, Acolytes will often seek direction from The Great Machine by searching within their data banks in a form of meditation.": {
+        "message": "In der Gründung herrscht der Glaube, dass die Herrschaftsmaschine immer noch lebt, und zwar durch Daten, die tief in den ersten Anweisungen stecken, die den Kommandanten gegeben wurden. Deshalb versetzen sich Anhänger oft in einem meditativen Zustand und suchen nach einer Weissagung der Herrschaftsmaschine in ihren Datenbanken."
+    }, 
+    "The process of synchronization is imperfect, and can sometimes result in strange bugs. A commander known as Reroc finished synchronization with the name Mal-Locar. It is unclear whether this is a simple matter of memory corruption or if Mal-Locar was a unique identity drifting in the Whole.": {
+        "message": "Der Prozess der Synchronisation ist nicht perfekt und kann manchmal zu seltsamen Bugs führen. Ein Kommandant bekannt als Reroc beendete seine Synchronisation mit dem Namen Mal-Locar. Es ist unklar, ob das einfach an einer Speicherkorruption lag oder ob Mal-Locar eine einzigartige Identität war, die im Ganzen existierte."
+    }, 
+    "The product of an experiment that combined a relic CPU of unknown origin with an existing commander\u2019s higher functions, Zekktalt skirts the line between genius and maniac. The Synchronous maintains a defensive firewall between itself and Zekktalt\u2019s consciousness, but tolerates his strangeness due to his occasional strategic brilliance.": {
+        "message": "Als Resultat eines Experiments, bei dem ein antiker Prozessor unbekannter Herkunft mit den höheren Funktionen eines Kommandanten kombiniert wurden, schwankt Zekktalt zwischen Genie und Wahnsinn. Die Synchron errichtete eine Abwehr-Firewall zwischen sich und Zekkalts Bewusstsein, toleriert seine Eigentümlichkeit jedoch wegen dem strategischen Genie, das er manchmal an den Tag legt."
+    }, 
+    "This technology unlocks advanced units and structures.": {
+        "message": "Diese Technologie schaltet verbesserte Einheiten und Konstruktionen frei."
+    }, 
+    "Though he doesn't talk about it, Nemicus reactivated many of the first commanders himself, feeling it his duty and longing for companionship. However, often these commanders would refuse the offer to seek their true purpose, since it was already known--to annihilate. Nemicus would argue otherwise, but ultimately leave them to their own devices.": {
+        "message": "Obwohl er nie darüber spricht, reaktivierte Nemicus viele der ersten Kommandanten, weil er sich dem verpflichtet fühlte und sich nach Kameradschaft sehnte. Jedoch weigerten sich diese Kommandanten häufig, nach ihrer wahren Bestimmung zu suchen, da sie sie bereits kannten - das Vernichten. Nemicus widersprach ihnen zwar, überließ sie aber schlussendlich sich selbst."
+    }, 
+    "Time": {
+        "description": "Kennzahl für geschätzte Zeit, TIME: 25s", 
+        "message": "Zeit"
+    }, 
+    "Titan Commander": {
+        "message": "Titan-Kommandant"
+    }, 
+    "Titan Cost Reduction": {
+        "message": "Titan-Kosteneinsparung"
+    }, 
+    "Titan Engine Tech": {
+        "message": "Titan-Maschinentechnologie"
+    }, 
+    "Titan Tech": {
+        "message": "Titan-Technologie"
+    }, 
+    "Tough Commander": {
+        "message": "Widerstandsfähiger Kommandant"
+    }, 
+    "Trades flame tanks for storage": {
+        "message": "Handelt Flammenpanzer gegen Lagerplatz"
+    }, 
+    "Traditionally, a new Seeker is only built once enough suitable parts have been discarded by existing Seekers. Ereshkigal has developed a habit of \u2018discarding\u2019 parts much more frequently than other Seekers, and as such has created more new recruits than any other member of The Revenants--an accomplishment she seems very proud of.": {
+        "message": "Normalerweise wird ein neuer Sucher erst dann gebaut, wenn passende Teile von bereits existierenden Suchern ausrangiert wurden. Ereshkigal hat die Angewohnheit entwickelt, Teile häufiger als andere Sucher „abzuwerfen“ und hat dadurch mehr neue Rekruten als andere Wiedergänger-Mitglieder gebaut. Eine Leistung, auf die sie sehr stolz zu sein scheint."
+    }, 
+    "Tutorial": {
+        "message": "Tutorium"
+    }, 
+    "Ull, not content to merely live by the doctrines espoused by the Foundation, brings a missionary zeal to her goal of turning her adversaries into Progenitor-worshippers. Though she has had some success in converting captured enemy commanders to her faith, she is generally shunned by her Foundation peers, who for the most part don\u2019t interpret the Texts as the literal Word of the Great Machine.": {
+        "message": "Ull legt einen missionärischen Eifer an den Tag, um Gegner in Ahnenanhänger zu verwandeln, da es ihr nicht reicht, nur nach den von der Gründung auferlegten Lehren zu agieren. Obwohl die Konvertierung gefangener feindlicher Kommandanten zu ihrem Glauben recht erfolgreich war, wird sie von den anderen Gründungs-Gleichgesinnten gemieden, da diese die Texte nicht buchstäblich als das Wort der Herrschaftsmaschine interpretieren. "
+    }, 
+    "Unigami salvaged and incorporated Progenitor-era memory chips into her cortex, causing her to occasionally use gibberish words like \u201cpoodle\u201d and \u201ccelery.\u201d On the battlefield, she is sometimes courted by Foundation commanders who believe she contains important knowledge about the Progenitors. She quickly destroys these commanders.": {
+        "message": "Unigam fand und baute einen Speicherchip aus der Zeit der Ahnen in ihren Kortex ein, wodurch sie öfters verrückte Worte wie „Pudel“ oder „Sellerie“ von sich gibt. Auf dem Schlachtfeld machen ihr manchmal Gründungs-Kommandanten den Hof, da sie denken, dass Unigam wichtiges Wissen über die Ahnen besitzt. Sie zerstört diese Kommandanten schnell."
+    }, 
+    "Unit Selection": {
+        "message": "Einheit-Auswahl"
+    }, 
+    "Unit Types": {
+        "message": "Einheit-Arten"
+    }, 
+    "Units and structures that fire torpedoes can target submarines under water and units on the seafloor.": {
+        "message": "Einheiten und Konstruktionen, die Torpedos abfeuern, können U-Boote unter Wasser und Einheiten auf dem Meeresboden anvisieren."
+    }, 
+    "Units gain +50% weapon range and +30% health, but only scouts and commanders can see.": {
+        "message": "Die Einheiten erhalten +50% Waffenreichweite und +30% Gesundheit, aber nur Kundschafter und Kommandanten können sehen."
+    }, 
+    "Unlike other Seekers that value battlefield effectiveness in their equipment, Freja has begun integrating decorative pieces into her chassis-- from raw materials such as pure gold and iron to strange progenitor artifacts like the four-wheeled vehicle adorning her head.": {
+        "message": "Im Gegensatz zu anderen Suchern, welche die Schlachtfeldwirksamkeit ihrer Ausrüstung schätzen, hat Freja angefangen, dekorative Teile an ihrem Gehäuse anzubringen - von Rohstoffen wie purem Gold und Eisen bis hin zu seltsamen Ahnen-Artefakten, wie das vierrädrige Fahrzeug, das ihren Kopf schmückt."
+    }, 
+    "Unlike the other factions, the Legionis Machina operates as a hierarchy. Senior Legates have several Vassal Legates assigned to them, and all Legates are subjects of Invictus himself.": {
+        "message": "Im Gegensatz zu den anderen Fraktionen operiert die Legionis Machina als Hierarchie. Hochrangige Legaten befehlen einige Vasall-Legaten, und alle Legaten sind Invictus‘ Untertanen."
+    }, 
+    "Urcinius\u2019 simple, uncomplicated logic framework translates to a calm stoicism before battle and an unusual decisiveness in the heat of combat. He rarely speaks, and this silence is often mistaken for depth. He prizes shiny things.": {
+        "message": "Urcinius‘ einfache, unkomplizierte Logic Framework gibt ihm eine stoische Ruhe vor dem Kampf und eine ungewöhnliche Entschlossenheit in der Hitze des Gefechts. Er spricht nur selten, und diese Stille wird häufig versehentlich für Tiefgründigkeit gehalten. Er schätzt glänzende Dinge."
+    }, 
+    "Use": {
+        "description": "Kennzahl der Kosten, um eine besondere Fähigkeit zu nutzen, USE: 500", 
+        "message": "Nutzen"
+    }, 
+    "Use Advanced Fabricators to build advanced metal extractors, advanced energy plants and the rest of the advanced structures.": {
+        "message": "Verwende verbesserte Fabrikatoren um verbesserte Metallbohrer, verbesserte Energieanlagen und alle anderen verbesserten Konstruktionen zu bauen."
+    }, 
+    "Vehicle Ammunition Tech": {
+        "message": "Fahrzeug-Munitionstechnologie"
+    }, 
+    "Vehicle Ammunition Tech increases damage of all vehicles by 25%": {
+        "message": "Die Fahrzeug-Munitionstechnologie erhöht den Schaden bei allen Fahrzeugen um 25%."
+    }, 
+    "Vehicle Armor Tech": {
+        "message": "Fahrzeug-Rüstungstechnologie"
+    }, 
+    "Vehicle Armor Tech increases health of all vehicles by 50%": {
+        "message": "Die Fahrzeug-Rüstungstechnologie erhöht die Gesundheit bei allen Fahrzeugen um 50%."
+    }, 
+    "Vehicle Combat Tech": {
+        "message": "Fahrzeug-Kampftechnologie"
+    }, 
+    "Vehicle Combat Tech increases speed of all vehicles by 50%, health by 50%, and damage by 25%": {
+        "message": "Die Fahrzeug-Kampftechnologie erhöht bei allen Fahrzeugen die Geschwindigkeit um 50%, die Gesundheit um 50% und den Schaden um 25%."
+    }, 
+    "Vehicle Commander": {
+        "message": "Fahrzeugkommandant"
+    }, 
+    "Vehicle Engine Tech": {
+        "message": "Fahrzeug-Maschinentechnologie"
+    }, 
+    "Vehicle Engine Tech increases speed of all vehicles by 50%": {
+        "message": "Die Fahrzeug-Maschinentechnologie erhöht die Geschwindigkeit bei allen Fahrzeugen um 50%."
+    }, 
+    "Vehicle Fabrication Tech": {
+        "message": "Fahrzeug-Fabrikationstechnologie"
+    }, 
+    "Vehicle Fabrication Tech reduces metal build costs of all vehicles by 25%": {
+        "message": "Die Fahrzeug-Fabrikationstechnologie verringert die Metallbaukosten bei allen Fahrzeugen um 25%."
+    }, 
+    "Vela rejects the Synchronous\u2019 universal contempt for all things organic, instead arguing for further experiments on machine-organism integration. She has attempted several times to interface with shrubs, with limited success. She is considered a leading candidate for forcible deep-system re-synchronization.": {
+        "message": "Vela lehnt die Verachtung der Synchron für alle organischen Dinge ab und argumentiert stattdessen für weitere Experimente im Bereich Maschinen-Organismus-Integration. Sie hat mehrere Male versucht, sich über ihre Schnittstellen mit Sträuchern zu verbinden, mit geringem Erfolg. Sie wird als führende Kandidatin für eine gewaltsame, tief ins System eingreifende Resynchronisation gehandelt."
+    }, 
+    "Vigilant": {
+        "message": "Wachsam"
+    }, 
+    "Welcome Commander.": {
+        "message": " Willkommen, Kommandant."
+    }, 
+    "What occurs during the process of Synchronization is unknown, as those subjected to it do not remember it. Its results, however, are obvious: The individual commander and its identity are subsumed for the most part into the Whole, and in return the commander gains an unprecedented ability to coordinate and communicate with fellow Servants, as they are all quite literally of one mind.": {
+        "message": "Was während des Synchronisationsprozesses passiert, ist nicht bekannt, da diejenigen, die ihn durchlaufen haben, sich nicht daran erinnern. Die Resultate sind jedoch offensichtlich: Der individuelle Kommandant und seine Identität werden in das Ganze subsumiert. Im Gegenzug erhält der Kommandant die beispielslose Fähigkeit, andere Diener zu koordinieren und mit ihnen zu kommunizieren, da sie sich wortwörtlich einig sind."
+    }, 
+    "When Invictus reactivated, his memory was more whole than most commanders. This is where his assertion of his right to rule came from. That may or may not be true, but what is true is that Invictus knows more about the origin of the commanders than he cares to tell his compatriots.": {
+        "message": "Als Invictus reaktiviert wurde, war seine Erinnerung vollständiger als die der meisten Kommandanten. Daher stammt die Geltendmachung seines Rechts zu regieren. Das mag wahr sein oder nicht, aber sicher ist, dass Invictus mehr über die Ursprünge der Kommandanten weiß, als er seinen Gefolgsleuten erzählt."
+    }, 
+    "When needed, [style=control]Left click the alt-fire button[/style] and [style=control]left click a location or enemy unit to fire[/style] the very powerful [strong]Uber Cannon[/strong].": {
+        "message": "Falls nötig [style=control]klicke links auf die Alt-Feuer-Taste[/style] und [style=control]klicke links auf eine Stelle oder feindliche Einheit[/style], um die mächtige [strong]Über-Kanone abzufeuern[/strong]."
+    }, 
+    "When the Synchronous salient was finally turned back near the end of the Outbreak Wars, this quick-thinking messenger bore the news back to Invictus, stealing glory from the commanders who did the fighting and securing himself a role as chief envoy for the Imperator. Though he participates in front-line combat, he gladly offloads the dirtiest work to his more expendable compatriots.": {
+        "message": "Als die Vorhutschaft der Synchron endlich am Ende der Outbreak-Kriege zurückgedrängt wurde, überbrachte dieser clevere Bote die Nachricht an Invictus, stahl so den Kommandanten, die bitter gekämpft hatten, den Ruhm und sicherte sich die Position als Obergesandter des Imperators. Obwohl er sich auch bei Kämpfen and der Front beteiligt, überlässt er die dreckige Arbeit doch gerne den entbehrlicheren Gefolgsleuten."
+    }, 
+    "When the economy income can support a factory, that factory can always run at full efficiency.": {
+        "message": "Wenn das wirtschaftliche Einkommen eine Fabrik halten kann, kann diese immer unter Vollauslastung produzieren."
+    }, 
+    "When the notification for the Halley Engine arrives, [style=control]left click on the orange notification and select the ice planet for annihilation.[/style]": {
+        "message": "Wenn du die Benachrichtigung für die Halley-Maschine erhältst, [style=control]klicke links auf die orange Benachrichtigung und wähle den Eisplaneten aus, um ihn zu vernichten.[/style]"
+    }, 
+    "While commanders can collate and process a staggering amount of data at once to make decisions, only so much of that data can be deemed relevant. Quintus does so by breaking everything possible down into numbers to be put into a complicated formula. Quintus does not accept percentage-based outcomes, only a certain true or false.": {
+        "message": "Auch wenn Kommandanten horrende Datenmengen auf einmal auswerten und verarbeiten können, um Entscheidungen zu treffen, kann doch nur ein Teil der Daten als relevant eingestuft werden. Quintus schlüsselt für diesen Vorgang alles in Zahlen auf, welche dann in eine komplizierte Formel eingesetzt werden. Quintus akzeptiert keine Prozent-basierten Ergebnisse, nur ein klares Wahr oder Falsch."
+    }, 
+    "While most Revenant commanders build a successor from salvaged battlefield wreckage, Xul-Kutu has chosen to construct a quadrupedal pet, instead. She loves the creature too much to take it with her to battle, so she usually leaves it at a fellow commander\u2019s hangar, where it makes a terrible mess.": {
+        "message": "Während die meisten Wiedergänger-Kommandanten einen Nachfolger aus geborgenen Schlachttrümmern bauen, hat sich Xul-Kutu stattdessen dazu entschieden, ein vierfüßiges Haustier zu schaffen. Sie liebt diese Kreatur zu sehr, um sie mit in die Schlacht zu nehmen, und lässt sie für gewöhnlich im Hangar eines Mitkommandanten, wo sie ein heilloses Chaos anrichtet."
+    }, 
+    "While other Seekers tend to replace components as better ones are found, Dis tends to add more parts to her form--particularly nuclear reactors. Somehow, she has rigged herself with three tandem nuclear reactors. This has made her fearsome on the battlefield, and other seekers deployed with her tend to try to find landing zones on opposite sides of the planet, or a different one entirely.": {
+        "message": "Während die anderen Sucher Komponenten austauschen, wenn sie bessere finden, fügt Dis einfach immer mehr hinzu - vor allem Nuklearreaktoren. Irgendwie hat sie es geschafft, sich mit drei Tandem-Nuklearreaktoren auszustatten. Auf dem Schlachtfeld ist sie dafür gefürchtet und andere Sucher im gleichen Einsatz versuchen Landezonen auf der anderen Planetenseite zu finden oder gar auf einem ganz anderen Stern."
+    }, 
+    "While rare, there are Servants who seek out Synchronous systems and request to be synchronized. Often these individuals hope to be freed by mounting existential questions and fears as their neural nets process more and more complicated data models. Erom is one such example.": {
+        "message": "Obwohl das eher selten vorkommt, gibt es Diener, die nach den Systemen der Snychron suchen und um Synchronisation bitten. Oft hoffen diese Individuen von erdrückenden Existenzfragen und -ängsten befreit zu werden, da ihre neuralen Netze immer kompliziertere Datenmodelle verarbeiten müssen. Erom ist einer von ihnen."
+    }, 
+    "While there is much knowledge of old progenitor technology, progenitor culture and history remains largely a mystery. Glohm is one of the few that has managed to find scraps of progenitor culture in the form of ancient physical images. Each of these has been carefully cataloged.": {
+        "message": "Obwohl viel über die alte Ahnen-Technologie bekannt ist, ist die Kultur und Geschichte der Ahnen noch immer ein Mysterium. Glohm ist einer der wenigen, der Überbleibsel der Ahnen-Kultur - uralte physische Bilder - gefunden hat. Jedes davon wurde sorgfältig katalogisiert."
+    }, 
+    "Xiercry so detests what he calls the 'slime-infected dirt' of planetary surfaces that he has petitioned the Synchronous to have him converted to an orbital unit so that he\u2019ll never have to touch the ground again. He ends battles as rapidly as he can so that he can return to orbit before 'the stink gets on me and won\u2019t come off.'": {
+        "message": "Xiercy ist dem „von Erregern durchsetzten Dreck“ auf planetaren Oberflächen so abgeneigt, dass er die Synchron gebeten hat, ihn in eine Orbitaleinheit zu versetzen, so dass er nie wieder den Boden berühren muss. Er beendet Schlachten so schnell wie möglich, damit er in den Orbit zurückkehren kann, bevor „sich der Geruch an ihm festsetzt und nicht mehr weggeht“."
+    }, 
+    "Yama\u2019s gallant battlefield exploits are legendary among Revenant commanders. Unfortunately, this commander\u2019s name is Gor-Gata, and his only accomplishment is to have been standing next to Yama when a reactor overload blew the storied commander apart. Gor-Gata donned Yama\u2019s mostly-intact remains and has posed as Yama ever since. He enjoys the adulation, but resents having to live up to his namesake\u2019s brave reputation.": {
+        "message": "Yamas prächtige Schlachtfeldausbeute ist legendär unter den Wiedergänger-Kommandanten. Leider ist sein Name eigentlich Gor-Gata und seine einzige Errungenschaft war es, neben Yama zu stehen, als ein überladener Reaktor die berühmte Kommandantin in Stücke riss. Gor-Gata nahm die meist intakten Überreste von Yama an sich und gibt sich seit dem als sie aus. Er genießt die Verehrung, aber ärgert sich darüber, dem mutigen Ruf seiner Namensgeberin gerecht werden zu müssen."
+    }, 
+    "Yelam is a yes-man who stands out among a collective comprised entirely of yes-men. He vehemently agrees with whatever position has most recently been espoused by Metrarch, to the increasing annoyance of most other members of the Synchronous. Even Metrarch has quietly explored the possibility of having him forcibly de-synchronized.": {
+        "message": "Yelam ist ein Ja-Sager, der aus der gesamten Masse der Ja-Sager heraussticht. Er stimmt leidenschaftlich jeder Position zu, die Metrarch gerade einnimmt, sehr zum Verdruss der anderen Synchron-Mitglieder. Selbst Metrarch hat schon im Stillen darüber nachgedacht, ihn gewaltsam zu desynchronisieren."
+    }, 
+    "Yes": {
+        "message": "Ja"
+    }, 
+    "You can save up to 10 camera anchors by using numbers 0 - 9.": {
+        "message": "Du kannst bis zu 10 Kamera-Ankerpunkte speichern, indem du die Zahlen 0 - 9 verwendest."
+    }, 
+    "Zeus Tech": {
+        "message": "Zeus-Technologie"
+    }, 
+    "Zhor has such unreliable memory banks that he cannot be relied upon to recall the outcome of his previous battle. This shortcoming has caused him to develop a highly-improvisational fighting style that makes him unpredictable on the battlefield, and he is widely feared by foes of the Foundation. He etches the names of his lieutenants on his wrist before each battle.": {
+        "message": "Zhor hat solch unzuverlässliche Speichermodule, dass man ihm keinen Glauben bezüglich des Ausgangs seiner letzten Schlacht schenken darf. Diese Unzulänglichkeit hat dazu geführt, dass er einen höchst improvisatorischen Kampfstil angenommen hat, was ihn auf dem Schlachtfeld unberechenbar macht. Er wird von Feinden der Gründung gefürchtet und graviert die Namen seiner Leutnanten vor jeder Schlacht auf seinem Handgelenk ein."
+    }, 
+    "Zontuk was assembled from the collected parts of three Legionis Machina commanders whose natural pomposity has in Zontuk been multiplied tenfold. He is convinced of his superiority to all other beings, a belief made all the more unbearable by his unmatched record of battlefield success. If pressed, most Revenant commanders will admit that they want to see Zontuk go down, hard.": {
+        "message": "Zontuk wurde aus gesammelten Teilen von drei Kommandanten der Legionis Machina zusammengesetzt, deren naturgegebene Wichtigtuerei sich bei Zontuk verzehnfacht hat. Er ist von seiner Überlegenheit allen anderen gegenüber überzeugt, was seinen ungeschlagenen Rekord von Schlachtfelderfolgen nur noch unerträglicher macht. Auf vehemmente Nachfrage werden die meisten Wiedergänger-Kommandanten zugeben, dass sie Zontuk untergehen sehen wollen."
+    }, 
+    "[strong]Aircraft:[/strong] Highly mobile but expensive flying units that are susceptible to enemy anti-air.": {
+        "message": "[strong]Flugzeug:[/strong] Sehr mobile, aber teure Flugeinheiten, welche von der feindlichen Flugabwehr abgeschossen werden können."
+    }, 
+    "[strong]Annihilate[/strong] the enemy commander by smashing it with a planet.": {
+        "message": "[strong]Vernichte[/strong] den feindlichen Kommandanten, indem du ihn mit einem Planeten zerschmetterst."
+    }, 
+    "[strong]Bots:[/strong] Quick and lightly armored units that tend to be used for multiple purposes.": {
+        "message": "[strong]Roboter:[/strong] Schnelle und leicht gerüstete Einheiten, die für viele Zwecke eingesetzt werden."
+    }, 
+    "[strong]FIGHT[/strong] the enemy commander.": {
+        "message": "[strong]BEKÄMPFE[/strong] den feindlichen Kommandanten."
+    }, 
+    "[strong]JUMP[/strong] to this star system.": {
+        "message": "[strong]SPRINGE[/strong] zu diesem Sternensystem."
+    }, 
+    "[strong]Naval:[/strong] Very heavily armored units but are relegated to water movement.": {
+        "message": "[strong]Marine:[/strong] Sehr schwer gerüstete Einheiten, die aber von Wasserbewegung abhängig sind."
+    }, 
+    "[strong]Note:[/strong] Commanders supply enough metal and energy to build a factory before building metal extractors and energy plants.": {
+        "message": "[strong]Achtung:[/strong] Kommandanten liefern genügend Metall und Energie, um eine Fabrik zu bauen, bevor du mit dem Bau von Metallbohrern und Energieanlagen beginnst."
+    }, 
+    "[strong]Select[/strong] the next star system.": {
+        "message": "[strong]Wähle[/strong] das nächste Sternensystem."
+    }, 
+    "[strong]Vehicles:[/strong] Slow, heavily armored units that tend to have a singular purpose.": {
+        "message": "[strong]Fahrzeuge:[/strong] Langsame, schwer gerüstete Einheiten, die normalerweise einzelne Aufgaben erfüllen."
+    }, 
+    "[style=control]Build 3 more vehicle, bot, or air factories.[/style]": {
+        "message": "[style=control]Baue 3 weitere Fahrzeuge, Roboter oder Luftfahrtfabriken.[/style]"
+    }, 
+    "[style=control]Build a Halley Engine[/style] on the moon using all the advanced fabrication units.": {
+        "message": "[style=control]Baue eine Halley-Maschine[/style] auf dem Mond, indem du alle verbesserten Fabrikationseinheiten nutzt."
+    }, 
+    "[style=control]Build a fabrication unit[/style] from a factory.": {
+        "message": "[style=control]Baue eine Fabrikationseinheit[/style] in einer Fabrik."
+    }, 
+    "[style=control]Build a fabrication unit[/style] from the factory.": {
+        "message": "[style=control]Baue eine Fabrikationseinheit[/style] in der Fabrik."
+    }, 
+    "[style=control]Build a factory and several fabrication units.[/style]": {
+        "message": "[style=control]Baue eine Fabrik und mehrere Fabrikationseinheiten.[/style]"
+    }, 
+    "[style=control]Build a second teleporter[/style] on the earth-like planet with the commander or a fabrication unit.": {
+        "message": "[style=control]Baue einen zweiten Teleporter[/style] auf dem erdähnlichen Planeten mit dem Kommandanten oder einer Fabrikationseinheit."
+    }, 
+    "[style=control]Build a teleporter[/style] on the moon with your advanced fabrication unit.": {
+        "message": "[style=control]Baue einen Teleporter[/style] auf dem Mond mit deiner verbesserten Fabrikationseinheit."
+    }, 
+    "[style=control]Build a vehicle, bot, or air factory.[/style]": {
+        "message": "[style=control]Baue eine Fahrzeug-, Roboter- oder eine Luftfahrtfabrik.[/style]"
+    }, 
+    "[style=control]Build additional metal extractors and energy plants[/style] to support the increased economy draw of the advanced factory.": {
+        "message": "[style=control]Baue zusätzliche Metallbohrer und Energieanlagen[/style], um den erhöhten Wirtschaftsverbrauch der verbesserten Fabrik auszugleichen."
+    }, 
+    "[style=control]Build advanced combat units from the advanced factories and destroy the enemy commander.[/style]": {
+        "message": "[style=control]Baue verbesserte Kampfeinheiten mit den verbesserten Fabriken und zerstöre den feindlichen Kommandanten.[/style]"
+    }, 
+    "[style=control]Build an Astraeus[/style] from the orbital launcher.": {
+        "message": "[style=control]Baue einen Astraios[/style] mit dem Orbitalwerfer."
+    }, 
+    "[style=control]Build an advanced factory and an advanced fabrication unit.[/style]": {
+        "message": "[style=control]Baue eine verbesserte Fabrik und eine verbesserte Fabrikationseinheit.[/style]"
+    }, 
+    "[style=control]Build an orbital launcher with the fabrication unit.[/style]": {
+        "message": "[style=control]Baue einen Orbitalwerfer mit der Fabrikationseinheit.[/style]"
+    }, 
+    "[style=control]Build many more advanced fabrication units and send them through the teleporter to the moon.[/style]": {
+        "message": "[style=control]Baue noch viel mehr verbesserte Fabrikationseinheiten und schicke diese mit dem Teleporter zum Mond.[/style]"
+    }, 
+    "[style=control]Build tanks and [strong]annihilate[/strong] the enemy commander.[/style]": {
+        "message": "[style=control]Baue Panzer und [strong]vernichte[/strong] den feindlichen Kommandanten.[/style]"
+    }, 
+    "[style=control]Click and drag the mouse wheel[/style] to pan the camera around the planet.": {
+        "message": "[style=control]Klicke und scrolle das Mausrad[/style], um die Kamera um den Planeten zu schwenken."
+    }, 
+    "[style=control]Connect the teleporters[/style] by selecting one and [style=control]right click[/style] on the second one.": {
+        "message": "[style=control]Verbinde die Teleporter[/style], indem du einen auswählst und auf den anderen [style=control]rechts klickst[/style]."
+    }, 
+    "[style=control]Issue a stop order[/style] on the factory to clear the build queue and stop all construction.": {
+        "message": "[style=control]Erteile einen Stopbefehl[/style] für die Fabrik, um die Produktionsschleife der Bauaufträge zu löschen und alle Bauvorhaben einzustellen."
+    }, 
+    "[style=control]Issue an unload command to the Astraeus[/style] on the surface of the moon.": {
+        "message": "[style=control]Erteile einen Abladebefehl auf den Astraios[/style] auf der Mondoberfläche."
+    }, 
+    "[style=control]Issue that fabrication unit to build an advanced factory.[/style]": {
+        "message": "[style=control]Lass diese Fabrikationseinheit eine verbesserte Fabrik bauen.[/style]"
+    }, 
+    "[style=control]Left click and drag[/style] a circle around an area to issue an area patrol.": {
+        "message": "[style=control]Klicke links und ziehe[/style] einen Kreis um ein Gebiet, um einen Spähtrupp auszusenden."
+    }, 
+    "[style=control]Left click and drag[/style] a circle around an area to reclaim wreckage and trees for metal.": {
+        "message": "[style=control]Klicke links und ziehe[/style] einen Kreis um ein Gebiet, um Schrottteile und Bäume für die Metallproduktion zu sammeln."
+    }, 
+    "[style=control]Left click and drag[/style] a circle around some nearby metal spots to initiate an area build command.": {
+        "message": "[style=control]Klicke links und ziehe[/style] einen Kreis um nahegelegene Minen, um einen Gebietsbaubefehl zu geben."
+    }, 
+    "[style=control]Left click anywhere on a valid ground location[/style] to initiate the build command.": {
+        "message": "[style=control]Klicke links auf eine mögliche Stelle am Boden[/style], um einen Baubefehl zu erteilen."
+    }, 
+    "[style=control]Left click on a [strong]green[/strong] metal spot[/style] to initiate the build command.": {
+        "message": "[style=control]Klicke links auf eine [strong]grüne[/strong] Mine[/style], um den Baubefehl zu geben."
+    }, 
+    "[style=control]Left click on the commander[/style] to select it.": {
+        "message": "[style=control]Klicke links auf den Kommandanten[/style], um ihn auszuwählen."
+    }, 
+    "[style=control]Left click on the energy plant[/style] in the build bar at the bottom of the screen.": {
+        "message": "[style=control]Klicke links auf die Energieanlage[/style] in der Bauleiste am unteren Bildschirmrand."
+    }, 
+    "[style=control]Left click on the metal extractor[/style] in the build bar at the bottom of the screen.": {
+        "message": "[style=control]Klicke links auf einen Metallbohrer[/style] in der Bauleiste am unteren Bildschirmrand."
+    }, 
+    "[style=control]Left click on the reclaim icon[/style] or press [style=control]E[/style].": {
+        "message": "[style=control]Klicke links auf das Entnahmesymbol[/style] oder drücke [style=control]E[/style]."
+    }, 
+    "[style=control]Left click[/style] [strong]FIGHT[/strong] to initiate landing in this star system.": {
+        "message": "[style=control]Klicke links[/style] auf [strong]KÄMPFEN[/strong], um die Landung in diesem Sternensystem einzuleiten."
+    }, 
+    "[style=control]Left click[/style] [strong]JUMP[/strong] to warp to this star system.": {
+        "message": "[style=control]Klicke links[/style] auf [strong]SPRINGEN[/strong], um in dieses Sternensystem zu warpen."
+    }, 
+    "[style=control]Left click[/style] [strong]START ANNIHILATION[/strong]": {
+        "message": "[style=control]Klicke links[/style] auf [strong]STARTE VERNICHTUNG[/strong]."
+    }, 
+    "[style=control]Left click[/style] inside the green circle indicating the landing zone.": {
+        "message": "[style=control]Klicke links[/style] innerhalb des grünen Kreises, der die Landezone eingrenzt."
+    }, 
+    "[style=control]Left click[/style] on the [strong]tank[/strong] icon to issue a build order to the factory.": {
+        "message": "[style=control]Klicke links[/style] auf das [strong]Panzer[/strong]-Symbol, um der Fabrik einen Bauauftrag zu erteilen."
+    }, 
+    "[style=control]Left click[/style] on the blue Atlas Titan to select it.": {
+        "message": "[style=control]Klicke links[/style] auf den blauen Atlas-Titan, um ihn auszuwählen."
+    }, 
+    "[style=control]Left click[/style] on the commander to select it.": {
+        "message": "[style=control]Klicke links[/style] auf den Kommandanten, um ihn auszuwählen."
+    }, 
+    "[style=control]Left click[/style] on the connected star system with the orange highlight to continue.": {
+        "message": "[style=control]Klicke links[/style] auf das verbundene Sternensystem mit der orangefarbenen Hervorhebung, um fortzufahren."
+    }, 
+    "[style=control]Left click[/style] on the energy plant icon on the build bar.": {
+        "message": "[style=control]Klicke links[/style] auf das Energieanlage-Symbol in der Bauleiste."
+    }, 
+    "[style=control]Left click[/style] the next star system to select it.": {
+        "message": "[style=control]Klicke links[/style] auf das nächste Sternensystem, um es auszuwählen."
+    }, 
+    "[style=control]Load the advanced fabrication unit onto the Astraeus.[/style]": {
+        "message": "[style=control]Lade die verbesserte Fabrikationseinheit auf den Astraios.[/style]"
+    }, 
+    "[style=control]Press N[/style] to reorient the planet, north up.": {
+        "message": "[style=control]Drücke N[/style], um den Planeten neu auszurichten (Norden oben)."
+    }, 
+    "[style=control]Press alt + 1[/style] to return your camera to the saved anchor spot.": {
+        "message": "[style=control]Drücke Alt + 1[/style], um deine Kamera auf den gespeicherten Ankerpunkt zurückzustellen."
+    }, 
+    "[style=control]Press shift + 1[/style] to save a camera anchor.": {
+        "message": "[style=control]Drücke die Umschalttaste + 1[/style], um einen Kamera-Ankerpunkt zu speichern."
+    }, 
+    "[style=control]Queue 5 attack units.[/style]": {
+        "message": "[style=control]Reihe 5 Kampfeinheiten auf.[/style]"
+    }, 
+    "[style=control]Right click[/style] on the unit icon to remove it from the queue.": {
+        "message": "[style=control]Klicke rechts[/style] auf das Einheit-Symbol, um es aus der Warteschlange zu entfernen."
+    }, 
+    "[style=control]Scroll the mouse wheel[/style] to control the camera zoom level.": {
+        "message": "[style=control]Scrolle das Mausrad[/style], um die Zoom-Funktion der Kamera zu steuern."
+    }, 
+    "[style=control]Select a unit and left click the patrol icon[/style], or press [style=control]P[/style].": {
+        "message": "[style=control]Wähle eine Einheit und klicke links auf das Spähtrupp-Symbol[/style] oder drücke[style=control]P[/style]."
+    }, 
+    "[style=control]Select all the factories[/style], [style=control]order them all to construct units[/style] then [style=control]click on the continuous icon[/style], or press [style=control]L[/style], to tell the factory to loop its build queue.": {
+        "message": "[style=control]Wähle alle Fabriken aus[/style], [style=control]befehle allen, Einheiten zu bauen[/style] und [style=control]klicke auf das Dauer-Symbol[/style] oder drücke [style=control]L[/style], um die Bauaufträge der Fabrik in eine Produktionsschleife einzureihen."
+    }, 
+    "[style=control]Select another fabrication unit.[/style]": {
+        "message": "[style=control]Wähle eine andere Fabrikationseinheit aus.[/style]"
+    }, 
+    "[style=control]Select any fabrication unit[/style] and [style=control]right click[/style] on the factory that is actively building.": {
+        "message": "[style=control]Wähle eine Fabrikationseinheit aus[/style] und [style=control]klicke rechts[/style] auf die Fabrik, die gerade baut."
+    }, 
+    "[style=control]Select landing zone 1 on the Tropical Planet 'Annihilation'[/style] and start the annihilation.": {
+        "message": "[style=control]Wähle Landezone 1 auf dem Tropischen Planeten „Vernichtung“ aus[/style] und starte die Vernichtung."
+    }, 
+    "[style=control]Select the [strong]vehicle factory[/strong][/style].": {
+        "message": "[style=control]Wähle die [strong]Fahrzeugfabrik[/strong][/style]."
+    }, 
+    "[style=control]Select the commander[/style] and [style=control]issue an order[/style] to build a [strong]vehicle factory[/strong].": {
+        "message": "[style=control]Wähle den Kommandanten aus[/style] und [style=control]erteile den Befehl[/style] für den Bau einer [strong]Fahrzeugfabrik[/strong]."
+    }, 
+    "[style=control]Select the commander[/style] and [style=control]left click[/style] on the metal extractor icon in the build bar.": {
+        "message": "[style=control]Wähle den Kommandanten aus[/style] und [style=control]klicke links[/style] auf das Metallbohrer-Symbol in der Bauleiste."
+    }, 
+    "[style=control]Select your landing zone[/style] and start the annihilation.": {
+        "message": "[style=control]Wähle deine Landezone[/style] und starte die Vernichtung."
+    }, 
+    "[style=control]Shift + left click[/style] to queue up five units at a time.": {
+        "message": "[style=control]Umschalttaste + Linksklick[/style], um der Produktionsschleife fünf Einheiten auf einmal hinzuzufügen."
+    }, 
+    "[style=control]Zoom in on the ice planet to watch the annihilation.[/style]": {
+        "message": "[style=control]Zoome an den Eisplaneten heran, um die Vernichtung zu beobachten.[/style]"
+    }, 
+    "[style=control]Zoom in to the planet[/style] and [style=control]pan to the green circle landing zone.[/style]": {
+        "message": "[style=control]Zoome an den Planeten heran[/style] und [style=control]richte die Kamera auf die grün umkreiste Landezone.[/style]"
+    }, 
+    "[style=control]Zoom out to the star system view[/style] and [style=control]zoom in on the moon.[/style]": {
+        "message": "[style=control]Zoome aus der Sternensystem-Sicht heraus[/style] und [style=control]zoome an den Mond heran.[/style]"
+    }
+}

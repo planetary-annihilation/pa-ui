@@ -1,0 +1,26 @@
+{
+    "Activate planetary laser": {
+        "message": "Ativar laser planet\u00e1rio"
+    }, 
+    "Change orbit": {
+        "message": "Mudar \u00f3rbita"
+    }, 
+    "Select a new gravity well.": {
+        "message": "Selecione um novo campo gravitacional."
+    }, 
+    "Select a planet to attack.": {
+        "message": "Escolha um planeta para atacar."
+    }, 
+    "Select a planet to destroy.": {
+        "message": "Escolha um planeta para destruir."
+    }, 
+    "Set course for annihilation": {
+        "message": "Definir rota de aniquila\u00e7\u00e3o"
+    }, 
+    "Set target spot": {
+        "message": "Selecione local do alvo"
+    }, 
+    "Then confirm destination to set course.": {
+        "message": "Ent\u00e3o confirme o dest\u00edno para definir a rota."
+    }
+}

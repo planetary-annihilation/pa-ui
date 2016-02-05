@@ -1,0 +1,92 @@
+{
+    "APPROVE": {
+        "message": "HYV\u00c4KSY"
+    }, 
+    "APPROVED USERS": {
+        "message": "HYV\u00c4KSYTYT K\u00c4YTT\u00c4J\u00c4T"
+    }, 
+    "Add": {
+        "message": "Lis\u00e4\u00e4"
+    }, 
+    "Add a Friend": {
+        "message": "Lis\u00e4\u00e4 kaveri"
+    }, 
+    "BLOCK": {
+        "message": "TORJU"
+    }, 
+    "BLOCKED USERS": {
+        "message": "TORJUTUT K\u00c4YTT\u00c4J\u00c4T"
+    }, 
+    "Cancel": {
+        "message": "Peruuta"
+    }, 
+    "Close": {
+        "message": "Sulje"
+    }, 
+    "Contact List Updated": {
+        "message": "Kontaktilista p\u00e4ivitetty"
+    }, 
+    "Contact Not Found": {
+        "message": "Kontaktia Ei L\u00f6ytynyt"
+    }, 
+    "Dismiss": {
+        "message": "Ohita"
+    }, 
+    "Filter contatcs by tag:": {
+        "message": "N\u00e4yt\u00e4 kontaktit merkinn\u00e4n mukaan:"
+    }, 
+    "Games you make will be hidden to these players.": {
+        "message": "Perustamasi pelit piilotetaan n\u00e4ilt\u00e4 pelaajilta."
+    }, 
+    "Name:": {
+        "message": "Nimi:"
+    }, 
+    "New Nickname:": {
+        "message": "Uusi Lempinimi"
+    }, 
+    "Players you have encountered recently.": {
+        "message": "Hiljattain kohtaamiasi pelaajia."
+    }, 
+    "Private games you make will only be visible to these players.": {
+        "message": "Tekem\u00e4si yksityiset pelit n\u00e4kyv\u00e4t vain n\u00e4ille pelaajille."
+    }, 
+    "RECENT": {
+        "message": "VIIMEISIN"
+    }, 
+    "REMOVE": {
+        "message": "POISTA"
+    }, 
+    "RENAME": {
+        "message": "UUDELLEENNIME\u00c4"
+    }, 
+    "Refresh Contacts": {
+        "message": "P\u00e4ivit\u00e4 kontaktit"
+    }, 
+    "Refreshing friends list.....": {
+        "message": "P\u00e4ivitet\u00e4\u00e4n kaverilistaa..."
+    }, 
+    "SOCIAL": {
+        "message": "YHTEIS\u00d6"
+    }, 
+    "Tag": {
+        "message": "Tag"
+    }, 
+    "Tag Friend:": {
+        "message": "Merkitse Kaveri:"
+    }, 
+    "Tags:": {
+        "message": "Merkit:"
+    }, 
+    "UBERDEX": {
+        "message": "UBERDEX"
+    }, 
+    "Uber Name": {
+        "message": "Uber-nimi"
+    }, 
+    "UberId:": {
+        "message": "Uber-ID:"
+    }, 
+    "or": {
+        "message": "tai"
+    }
+}

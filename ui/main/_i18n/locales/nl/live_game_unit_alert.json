@@ -1,0 +1,29 @@
+{
+    "Allied": {
+        "message": "Geallieerd"
+    }, 
+    "Enemy Contact!": {
+        "message": "Vijandig contact!"
+    }, 
+    "Ping!": {
+        "message": "Ping!"
+    }, 
+    "destroyed.": {
+        "message": "vernietigd."
+    }, 
+    "launched!": {
+        "message": "gelanceerd!"
+    }, 
+    "located.": {
+        "message": "gelokaliseerd."
+    }, 
+    "lost.": {
+        "message": "verloren."
+    }, 
+    "ready.": {
+        "message": "gereed."
+    }, 
+    "under attack.": {
+        "message": "wordt aangevallen."
+    }
+}

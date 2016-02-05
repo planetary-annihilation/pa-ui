@@ -1,0 +1,50 @@
+{
+    "ALLY": {
+        "message": "ALIADO"
+    }, 
+    "ARMY": {
+        "message": "EX\u00c9RCITO"
+    }, 
+    "Accept": {
+        "message": "Aceitar"
+    }, 
+    "Alliance Request": {
+        "message": "Requisi\u00e7\u00e3o de Alian\u00e7a"
+    }, 
+    "Alliance requested": {
+        "message": "Requisi\u00e7\u00e3o de alian\u00e7a"
+    }, 
+    "Allied With:": {
+        "message": "Aliado com:"
+    }, 
+    "Count": {
+        "message": "Contagem"
+    }, 
+    "ECONOMY": {
+        "message": "ECONOMIA"
+    }, 
+    "Efficiency": {
+        "message": "Efici\u00eancia"
+    }, 
+    "Fabber": {
+        "message": "Fabricador"
+    }, 
+    "Factory": {
+        "message": "F\u00e1brica"
+    }, 
+    "Ignore": {
+        "message": "Ignorar"
+    }, 
+    "Mobile": {
+        "message": "M\u00f3vel"
+    }, 
+    "PLAYER": {
+        "message": "JOGADOR"
+    }, 
+    "RESC": {
+        "message": "RESC"
+    }, 
+    "Request pending": {
+        "message": "Requisi\u00e7\u00e3o pendente"
+    }
+}

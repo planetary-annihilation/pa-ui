@@ -1,0 +1,77 @@
+{
+    "Build Efficiency": {
+        "message": "Build Efficiency"
+    }, 
+    "CLOSE": {
+        "message": "CLOSE"
+    }, 
+    "Command Rate": {
+        "message": "Command Rate"
+    }, 
+    "Draw": {
+        "message": "Draw"
+    }, 
+    "Energy Demand": {
+        "message": "Energy Demand"
+    }, 
+    "Energy Production": {
+        "message": "Energy Production"
+    }, 
+    "Energy Wasted": {
+        "message": "Energy Wasted"
+    }, 
+    "GAME SUMMARY": {
+        "message": "GAME SUMMARY"
+    }, 
+    "In Progress": {
+        "message": "In Progress"
+    }, 
+    "Metal Demand": {
+        "message": "Metal Demand"
+    }, 
+    "Metal Destruction Rate": {
+        "message": "Metal Destruction Rate"
+    }, 
+    "Metal Loss Rate": {
+        "message": "Metal Loss Rate"
+    }, 
+    "Metal Production": {
+        "message": "Metal Production"
+    }, 
+    "Metal Wasted": {
+        "message": "Metal Wasted"
+    }, 
+    "Retrieving Stats...": {
+        "message": "Retrieving Stats..."
+    }, 
+    "Total Units": {
+        "message": "Total Units"
+    }, 
+    "Unit Build Rate": {
+        "message": "Unit Build Rate"
+    }, 
+    "Unit Destruction Rate": {
+        "message": "Unit Destruction Rate"
+    }, 
+    "Unit Loss Rate": {
+        "message": "Unit Loss Rate"
+    }, 
+    "Units In Combat": {
+        "message": "Units In Combat"
+    }, 
+    "Units: Fabricators": {
+        "message": "Units: Fabricators"
+    }, 
+    "Units: Factory": {
+        "message": "Units: Factory"
+    }, 
+    "Units: Mobile": {
+        "message": "Units: Mobile"
+    }, 
+    "Winner:": {
+        "message": "Winner:"
+    }, 
+    "Winners:": {
+        "message": "Winners:"
+    }
+}

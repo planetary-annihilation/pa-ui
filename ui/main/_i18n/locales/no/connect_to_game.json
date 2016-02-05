@@ -1,0 +1,26 @@
+{
+    "CONNECTION TO SERVER FAILED": {
+        "message": "SERVERTILKOBLING MISLYKTES"
+    }, 
+    "CONNECTION TO SERVER LOST": {
+        "message": "SERVERTILKOBLING BRUTT"
+    }, 
+    "FAILED TO JOIN GAME": {
+        "message": "FORS\u00d8K P\u00c5 DELTAKELSE MISLYKTES"
+    }, 
+    "FAILED TO START GAME": {
+        "message": "MISLYKTES I \u00c5 STARTE SPILL"
+    }, 
+    "FAILED TO START REPLAY": {
+        "message": "REPRISEAVSPILLINGEN MISLYKTES"
+    }, 
+    "LOGIN ACCEPTED": {
+        "message": "INNLOGGING VELLYKKET"
+    }, 
+    "LOGIN TO SERVER REJECTED": {
+        "message": "INNLOGGING TIL SERVER BLE AVVIST"
+    }, 
+    "Returning to Main Menu": {
+        "message": "Returnerer til hovedmenyen"
+    }
+}

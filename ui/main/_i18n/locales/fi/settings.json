@@ -1,0 +1,50 @@
+{
+    "Cancel": {
+        "message": "Peruuta"
+    }, 
+    "ENABLE MICROPHONE": {
+        "message": "OTA MIKROFONI K\u00c4YTT\u00d6\u00d6N"
+    }, 
+    "ENABLE STREAMING (Takes effect immediately)": {
+        "message": "ENABLE STREAMING (Takes effect immediately)"
+    }, 
+    "ENABLE SYSTEM SOUNDS": {
+        "message": "OTA J\u00c4RJESTELM\u00c4N \u00c4\u00c4NET K\u00c4YTT\u00d6\u00d6N"
+    }, 
+    "Livestream Settings": {
+        "message": "Livestream Settings"
+    }, 
+    "OFF": {
+        "message": "OFF"
+    }, 
+    "ON": {
+        "message": "ON"
+    }, 
+    "Password": {
+        "message": "Salasana"
+    }, 
+    "RESTORE ALL DEFAULTS": {
+        "message": "RESTORE ALL DEFAULTS"
+    }, 
+    "RESTORE DEFAULTS": {
+        "message": "PALAUTA OLETUKSET"
+    }, 
+    "SERVER": {
+        "message": "SERVER"
+    }, 
+    "Save": {
+        "message": "TALLENNA"
+    }, 
+    "Save And Close": {
+        "message": "Save And Close"
+    }, 
+    "Settings": {
+        "message": "Asetukset"
+    }, 
+    "Sign in with Your Twitch ID": {
+        "message": "Kirjaudu sis\u00e4\u00e4n Twitch-tunnuksellasi"
+    }, 
+    "Signed in as": {
+        "message": "Kirjautunut sis\u00e4\u00e4n tunnuksella"
+    }
+}

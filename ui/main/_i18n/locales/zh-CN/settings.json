@@ -1,0 +1,902 @@
+{
+    "1100 (recommended for 480p)": {
+        "message": "1100 (480P\u63a8\u8350)"
+    }, 
+    "2000 (recommended for 720p)": {
+        "message": "2000 (720P\u63a8\u8350)"
+    }, 
+    "3200 (recommended for 1080p)": {
+        "message": "3200 (1080P\u63a8\u8350)"
+    }, 
+    "500 (recommended for 240p)": {
+        "message": "500 (240P\u63a8\u8350)"
+    }, 
+    "700 (recommended for 360p)": {
+        "message": "700 (360P\u63a8\u8350)"
+    }, 
+    "ALL": {
+        "message": "\u5168\u90e8"
+    }, 
+    "ALWAYS": {
+        "message": "\u603b\u662f"
+    }, 
+    "Ambient Occlusion": {
+        "message": "\u73af\u5883\u5149\u906e\u853d"
+    }, 
+    "Anti-Aliasing": {
+        "message": "\u6297\u952f\u9f7f(AA)"
+    }, 
+    "Audio": {
+        "message": "\u97f3\u9891"
+    }, 
+    "Bitrate": {
+        "message": "\u7801\u7387"
+    }, 
+    "Build Preview Behavior": {
+        "message": "\u5efa\u9020\u8fdb\u5ea6\u663e\u793a\u6a21\u5f0f"
+    }, 
+    "CUSTOM": {
+        "message": "\u81ea\u5b9a"
+    }, 
+    "Camera": {
+        "message": "\u89c6\u89d2"
+    }, 
+    "Camera Friction": {
+        "message": "\u9635\u8425\u89c6\u89d2"
+    }, 
+    "Cancel": {
+        "message": "\u53d6\u6d88"
+    }, 
+    "Display Mode": {
+        "message": "\u663e\u793a\u6a21\u5f0f"
+    }, 
+    "ENABLE MICROPHONE": {
+        "message": "\u542f\u7528\u9ea6\u514b\u98ce"
+    }, 
+    "ENABLE STREAMING (Takes effect immediately)": {
+        "message": "\u542f\u52a8\u76f4\u64ad\uff08\u5373\u65f6\u751f\u6548\uff09"
+    }, 
+    "ENABLE SYSTEM SOUNDS": {
+        "message": "\u542f\u7528\u7cfb\u7edf\u97f3\u6548"
+    }, 
+    "Edge Scroll Options": {
+        "message": "\u8fb9\u7f18\u6eda\u52a8\u9009\u9879"
+    }, 
+    "FOV": {
+        "message": "\u89c6\u91ce"
+    }, 
+    "FPS": {
+        "message": "FPS"
+    }, 
+    "FULLSCREEN": {
+        "message": "\u5168\u5c4f\u5e55"
+    }, 
+    "FXAA": {
+        "message": "FXAA"
+    }, 
+    "Graphics": {
+        "message": "\u56fe\u5f62"
+    }, 
+    "HDR": {
+        "message": "HDR"
+    }, 
+    "HIGH": {
+        "message": "\u9ad8"
+    }, 
+    "Headlights": {
+        "message": "\u9ad8\u4eae"
+    }, 
+    "ICON DISPLAY DISTANCE": {
+        "message": "\u56fe\u6807\u663e\u793a\u8303\u56f4"
+    }, 
+    "Key Pan Speed": {
+        "message": "\u952e\u76d8\u6eda\u52a8\u901f\u5ea6"
+    }, 
+    "Keyboard": {
+        "message": "\u952e\u76d8"
+    }, 
+    "LOW": {
+        "message": "\u4f4e"
+    }, 
+    "Language": {
+        "message": "\u8bed\u8a00"
+    }, 
+    "Livestream Settings": {
+        "message": "\u76f4\u64ad\u8bbe\u5b9a"
+    }, 
+    "MEDIUM": {
+        "message": "\u4e2d\u7b49"
+    }, 
+    "Master Volume": {
+        "message": "\u4e3b\u97f3\u91cf"
+    }, 
+    "Mouse Pan Speed": {
+        "message": "\u9f20\u6807\u6eda\u52a8\u901f\u5ea6"
+    }, 
+    "Music Volume": {
+        "message": "\u80cc\u666f\u97f3\u4e50\u97f3\u91cf"
+    }, 
+    "NATIVE (100%)": {
+        "message": "\u539f\u751f(100%)"
+    }, 
+    "NEVER": {
+        "message": "\u4ece\u4e0d"
+    }, 
+    "OFF": {
+        "message": "\u5173"
+    }, 
+    "OFF (MOUSELOCK)": {
+        "message": "\u5173\u95ed (\u9f20\u6807\u9501\u5b9a)"
+    }, 
+    "OFF (NO MOUSELOCK)": {
+        "message": "\u5173\u95ed (\u65e0\u6307\u9488\u9501\u5b9a)"
+    }, 
+    "ON": {
+        "message": "\u5f00"
+    }, 
+    "Orbital Shell": {
+        "message": "\u8f68\u9053\u5c42\u663e\u793a"
+    }, 
+    "Order Preview Behavior": {
+        "message": "\u547d\u4ee4\u7ebf\u8def\u663e\u793a\u6a21\u5f0f"
+    }, 
+    "Password": {
+        "message": "\u5bc6\u7801"
+    }, 
+    "Pole Lock": {
+        "message": "\u81ea\u8f6c\u8f74\u9501\u5b9a"
+    }, 
+    "Quality Preset": {
+        "message": "\u56fe\u5f62\u8d28\u91cf"
+    }, 
+    "RANGE DEPENDENT": {
+        "message": "\u8303\u56f4\u4f9d\u8d56"
+    }, 
+    "RESTORE ALL DEFAULTS": {
+        "message": "\u5168\u90e8\u521d\u59cb\u5316"
+    }, 
+    "RESTORE DEFAULTS": {
+        "message": "\u521d\u59cb\u5316"
+    }, 
+    "Resolution": {
+        "message": "\u5206\u8fa8\u7387"
+    }, 
+    "Resolution Scaling": {
+        "message": "\u6750\u8d28\u5206\u8fa8\u7387"
+    }, 
+    "SELECTED": {
+        "message": "\u5df2\u9009\u4e2d"
+    }, 
+    "SERVER": {
+        "message": "\u670d\u52a1\u5668"
+    }, 
+    "SHIFT": {
+        "message": "SHIFT\u952e"
+    }, 
+    "SIGN IN": {
+        "message": "\u767b\u5f55"
+    }, 
+    "SIGN OUT": {
+        "message": "\u767b\u51fa"
+    }, 
+    "SUBSAMPLE (50%)": {
+        "message": "\u4e8c\u6b21\u91c7\u6837(50%)"
+    }, 
+    "SUBSAMPLE (75%)": {
+        "message": "\u4e8c\u6b21\u91c7\u6837 (75%)"
+    }, 
+    "SUPERSAMPLE (110%)": {
+        "message": "\u8d85\u7ea7\u91c7\u6837(100%)"
+    }, 
+    "SUPERSAMPLE (150%)": {
+        "message": "\u8d85\u7ea7\u91c7\u6837(150%)"
+    }, 
+    "SUPERSAMPLE (175%)": {
+        "message": "\u8d85\u7ea7\u91c7\u6837(175%)"
+    }, 
+    "Save": {
+        "message": "\u4fdd\u5b58"
+    }, 
+    "Save And Close": {
+        "message": "\u4fdd\u5b58\u5e76\u5173\u95ed"
+    }, 
+    "Server": {
+        "message": "\u670d\u52a1\u5668"
+    }, 
+    "Settings": {
+        "message": "\u8bbe\u5b9a"
+    }, 
+    "Shadows": {
+        "message": "\u9634\u5f71"
+    }, 
+    "Show Build Previews": {
+        "message": "\u663e\u793a\u5efa\u9020\u9884\u89c8"
+    }, 
+    "Show Metal Spot Icons": {
+        "message": "\u663e\u793a\u91d1\u5c5e\u77ff\u56fe\u6807"
+    }, 
+    "Show Order Previews": {
+        "message": "\u663e\u793a\u547d\u4ee4\u9884\u89c8"
+    }, 
+    "Show Stat Bars": {
+        "message": "\u663e\u793a\u72b6\u6001\u680f"
+    }, 
+    "Show Unit Icons": {
+        "message": "\u663e\u793a\u5355\u4f4d\u56fe\u6807"
+    }, 
+    "Show/Hide game stats": {
+        "message": "\u663e\u793a/\u9690\u85cf\u6e38\u620f\u72b6\u6001"
+    }, 
+    "Show/Hide pip": {
+        "message": "\u663e\u793a/\u9690\u85cf \u753b\u4e2d\u753b"
+    }, 
+    "Sign in with Your Twitch ID": {
+        "message": "\u767b\u9646\u4f60\u7684Twitch ID"
+    }, 
+    "Signed in as": {
+        "message": "\u767b\u5f55\u7684\u5e10\u53f7\u4e3a"
+    }, 
+    "Sound Effects Volume": {
+        "message": "\u97f3\u6548\u97f3\u91cf"
+    }, 
+    "Twitch chat": {
+        "message": "Twitch\u804a\u5929"
+    }, 
+    "UBER": {
+        "message": "UBER"
+    }, 
+    "UI": {
+        "message": "\u754c\u9762"
+    }, 
+    "VALUE DEPENDENT": {
+        "message": "\u6570\u503c\u4f9d\u8d56"
+    }, 
+    "Virtual Texture": {
+        "message": "\u865a\u62df\u7eb9\u7406"
+    }, 
+    "Voice Volume": {
+        "message": "\u8bed\u97f3\u97f3\u91cf"
+    }, 
+    "WINDOWED": {
+        "message": "\u7a97\u53e3\u5316"
+    }, 
+    "Zoom Speed": {
+        "message": "\u7f29\u653e\u901f\u5ea6"
+    }, 
+    "abort": {
+        "message": "\u7ec8\u6b62"
+    }, 
+    "alerts": {
+        "message": "\u63d0\u793a"
+    }, 
+    "align to pole": {
+        "message": "\u884c\u661f\u8f74\u5fc3\u56de\u4f4d"
+    }, 
+    "alt fire": {
+        "message": "\u5f3a\u5236\u653b\u51fb"
+    }, 
+    "assist": {
+        "message": "\u534f\u52a9"
+    }, 
+    "attack": {
+        "message": "\u653b\u51fb"
+    }, 
+    "bug report": {
+        "message": "BUG\u53cd\u9988"
+    }, 
+    "build": {
+        "message": "\u5efa\u9020"
+    }, 
+    "build avatar": {
+        "message": "\u5efa\u9020\u6307\u6325\u5b98"
+    }, 
+    "build avatar factory": {
+        "message": "\u5efa\u9020\u6307\u6325\u5b98\u5de5\u5382"
+    }, 
+    "build bar groups": {
+        "message": "\u5efa\u9020\u680f\u4f4d"
+    }, 
+    "build item 1": {
+        "message": "\u5efa\u9020\u9879\u76ee 1"
+    }, 
+    "build item 10": {
+        "message": "\u5efa\u9020\u9879\u76ee 10"
+    }, 
+    "build item 11": {
+        "message": "\u5efa\u9020\u9879\u76ee 11"
+    }, 
+    "build item 12": {
+        "message": "\u5efa\u9020\u9879\u76ee 12"
+    }, 
+    "build item 13": {
+        "message": "\u5efa\u9020\u9879\u76ee 13"
+    }, 
+    "build item 14": {
+        "message": "\u5efa\u9020\u9879\u76ee 14"
+    }, 
+    "build item 15": {
+        "message": "\u5efa\u9020\u9879\u76ee 15"
+    }, 
+    "build item 2": {
+        "message": "\u5efa\u9020\u9879\u76ee 2"
+    }, 
+    "build item 3": {
+        "message": "\u5efa\u9020\u9879\u76ee 3"
+    }, 
+    "build item 4": {
+        "message": "\u5efa\u9020\u9879\u76ee 4"
+    }, 
+    "build item 5": {
+        "message": "\u5efa\u9020\u9879\u76ee 5"
+    }, 
+    "build item 6": {
+        "message": "\u5efa\u9020\u9879\u76ee 6"
+    }, 
+    "build item 7": {
+        "message": "\u5efa\u9020\u9879\u76ee 7"
+    }, 
+    "build item 8": {
+        "message": "\u5efa\u9020\u9879\u76ee 8"
+    }, 
+    "build item 9": {
+        "message": "\u5efa\u9020\u9879\u76ee 9"
+    }, 
+    "build items": {
+        "message": "\u5efa\u9020\u9879\u76ee"
+    }, 
+    "build loop": {
+        "message": "\u5efa\u9020\u5faa\u73af"
+    }, 
+    "build once": {
+        "message": "\u5355\u6b21\u5efa\u9020"
+    }, 
+    "build orders": {
+        "message": "\u5efa\u9020\u6a21\u5f0f"
+    }, 
+    "capture anchor": {
+        "message": "\u50a8\u5b58\u89c6\u89d2\u4f4d\u7f6e"
+    }, 
+    "capture anchor 1": {
+        "message": "\u8bbe\u5b9a\u5230\u89c6\u89d2\u4f4d\u7f6e 1"
+    }, 
+    "capture anchor 10": {
+        "message": "\u8bbe\u5b9a\u5230\u89c6\u89d2\u4f4d\u7f6e 10"
+    }, 
+    "capture anchor 2": {
+        "message": "\u8bbe\u5b9a\u5230\u89c6\u89d2\u4f4d\u7f6e 2"
+    }, 
+    "capture anchor 3": {
+        "message": "\u8bbe\u5b9a\u5230\u89c6\u89d2\u4f4d\u7f6e 3"
+    }, 
+    "capture anchor 4": {
+        "message": "\u8bbe\u5b9a\u5230\u89c6\u89d2\u4f4d\u7f6e 4"
+    }, 
+    "capture anchor 5": {
+        "message": "\u8bbe\u5b9a\u5230\u89c6\u89d2\u4f4d\u7f6e 5"
+    }, 
+    "capture anchor 6": {
+        "message": "\u8bbe\u5b9a\u5230\u89c6\u89d2\u4f4d\u7f6e 6"
+    }, 
+    "capture anchor 7": {
+        "message": "\u8bbe\u5b9a\u5230\u89c6\u89d2\u4f4d\u7f6e 7"
+    }, 
+    "capture anchor 8": {
+        "message": "\u8bbe\u5b9a\u5230\u89c6\u89d2\u4f4d\u7f6e 8"
+    }, 
+    "capture anchor 9": {
+        "message": "\u8bbe\u5b9a\u5230\u89c6\u89d2\u4f4d\u7f6e 9"
+    }, 
+    "capture group 0": {
+        "message": "\u8bbe\u5b9a\u5355\u4f4d\u5206\u7ec4 0"
+    }, 
+    "capture group 1": {
+        "message": "\u8bbe\u5b9a\u5355\u4f4d\u5206\u7ec4 1"
+    }, 
+    "capture group 2": {
+        "message": "\u8bbe\u5b9a\u5355\u4f4d\u5206\u7ec4 2"
+    }, 
+    "capture group 3": {
+        "message": "\u8bbe\u5b9a\u5355\u4f4d\u5206\u7ec4 3"
+    }, 
+    "capture group 4": {
+        "message": "\u8bbe\u5b9a\u5355\u4f4d\u5206\u7ec4 4"
+    }, 
+    "capture group 5": {
+        "message": "\u8bbe\u5b9a\u5355\u4f4d\u5206\u7ec4 8"
+    }, 
+    "capture group 6": {
+        "message": "\u8bbe\u5b9a\u5355\u4f4d\u5206\u7ec4 6"
+    }, 
+    "capture group 7": {
+        "message": "\u8bbe\u5b9a\u5355\u4f4d\u5206\u7ec4 7"
+    }, 
+    "capture group 8": {
+        "message": "\u8bbe\u5b9a\u5355\u4f4d\u5206\u7ec4 8"
+    }, 
+    "capture group 9": {
+        "message": "\u8bbe\u5b9a\u5355\u4f4d\u5206\u7ec4 9"
+    }, 
+    "chronocam": {
+        "message": "\u56de\u653e\u6a21\u5f0f"
+    }, 
+    "communication": {
+        "message": "\u901a\u8baf"
+    }, 
+    "copy to pip": {
+        "message": "\u590d\u5236\u5230\u753b\u4e2d\u753b"
+    }, 
+    "copy unit": {
+        "message": "\u590d\u5236\u5355\u4f4d"
+    }, 
+    "crash": {
+        "message": "\u5d29\u6e83"
+    }, 
+    "decrease camera pan speed": {
+        "message": "\u964d\u4f4e\u89c6\u89d2\u5e73\u79fb\u901f\u5ea6"
+    }, 
+    "dev mode": {
+        "message": "\u5f00\u53d1\u6a21\u5f0f"
+    }, 
+    "direction": {
+        "message": "\u65b9\u5411"
+    }, 
+    "disable navigation debug info": {
+        "message": "\u5173\u95ed\u5bfc\u822a\u8c03\u8bd5\u4fe1\u606f"
+    }, 
+    "dismiss alert notification": {
+        "message": "\u5173\u95ed\u4fe1\u606f\u63d0\u9192"
+    }, 
+    "enable navigation debug info": {
+        "message": "\u5f00\u542f\u5bfc\u822a\u5bfc\u822a\u4fe1\u606f"
+    }, 
+    "energy off": {
+        "message": "\u5173\u95e8\u7535\u6e90"
+    }, 
+    "energy on": {
+        "message": "\u8017\u80fd\u5f00\u542f"
+    }, 
+    "fire at will": {
+        "message": "\u81ea\u7531\u653b\u51fb"
+    }, 
+    "free move backward": {
+        "message": "\u5411\u540e\u79fb\u52a8"
+    }, 
+    "free move down": {
+        "message": "\u5411\u4e0b\u79fb\u52a8"
+    }, 
+    "free move forward": {
+        "message": "\u5411\u524d\u79fb\u52a8"
+    }, 
+    "free move left": {
+        "message": "\u5411\u5de6\u79fb\u52a8"
+    }, 
+    "free move right": {
+        "message": "\u5411\u53f3\u79fb\u52a8"
+    }, 
+    "free move up": {
+        "message": "\u5411\u4e0a\u79fb\u52a8"
+    }, 
+    "free movement": {
+        "message": "\u81ea\u7531\u89c6\u89d2"
+    }, 
+    "free pitch backward": {
+        "message": "\u5411\u4e0b\u504f\u8f6c"
+    }, 
+    "free pitch forward": {
+        "message": "\u5411\u4e0a\u504f\u8f6c"
+    }, 
+    "free roll left": {
+        "message": "\u5411\u5de6\u7ffb\u6eda"
+    }, 
+    "free roll right": {
+        "message": "\u5411\u53f3\u7ffb\u6eda"
+    }, 
+    "free yaw left": {
+        "message": "\u5411\u5de6\u504f\u8f6c"
+    }, 
+    "free yaw right": {
+        "message": "\u5411\u53f3\u504f\u8f6c"
+    }, 
+    "free zoom in": {
+        "message": "\u653e\u5927"
+    }, 
+    "free zoom out": {
+        "message": "\u7f29\u5c0f"
+    }, 
+    "general": {
+        "message": "\u901a\u7528"
+    }, 
+    "hold fire": {
+        "message": "\u505c\u706b"
+    }, 
+    "hold position": {
+        "message": "\u4fdd\u6301\u539f\u4f4d"
+    }, 
+    "increase camera pan speed": {
+        "message": "\u63d0\u5347\u89c6\u89d2\u5e73\u79fb\u901f\u5ea6"
+    }, 
+    "jump to next planet": {
+        "message": "\u5207\u6362\u81f3\u4e0b\u4e00\u884c\u661f"
+    }, 
+    "jump to previous planet": {
+        "message": "\u5207\u6362\u5230\u4e0a\u4e00\u884c\u661f"
+    }, 
+    "last pseudo frame": {
+        "message": "\u6700\u540e\u4e00\u5e27"
+    }, 
+    "load": {
+        "message": "\u642d\u8f7d"
+    }, 
+    "maneuver": {
+        "message": "\u53d8\u8f68"
+    }, 
+    "modes": {
+        "message": "\u6a21\u5f0f"
+    }, 
+    "move": {
+        "message": "\u79fb\u52a8"
+    }, 
+    "move down": {
+        "message": "\u4e0b\u65b9\u79fb\u52a8"
+    }, 
+    "move left": {
+        "message": "\u5de6\u79fb"
+    }, 
+    "move right": {
+        "message": "\u53f3\u79fb"
+    }, 
+    "move up": {
+        "message": "\u5411\u524d\u79fb\u52a8"
+    }, 
+    "navigate back/exit": {
+        "message": "\u5bfc\u822a \u540e\u9000/\u9000\u51fa"
+    }, 
+    "next pseudo frame": {
+        "message": "\u4e0b\u4e00\u5e27"
+    }, 
+    "normal chat": {
+        "message": "\u6b63\u5e38\u804a\u5929"
+    }, 
+    "paste unit": {
+        "message": "\u7c98\u8d34\u5355\u4f4d"
+    }, 
+    "patrol": {
+        "message": "\u5de1\u903b"
+    }, 
+    "pause game": {
+        "message": "\u6682\u505c\u6e38\u620f"
+    }, 
+    "pause time": {
+        "message": "\u6682\u505c\u65f6\u95f4"
+    }, 
+    "picture-in-picture": {
+        "message": "\u753b\u4e2d\u753b"
+    }, 
+    "ping": {
+        "message": "\u626b\u63cf"
+    }, 
+    "planet jump": {
+        "message": "\u884c\u661f\u5207\u6362"
+    }, 
+    "play backwards at 100%": {
+        "message": "\u5168\u901f\u5feb\u5012"
+    }, 
+    "play backwards at 50%": {
+        "message": "\u534a\u901f\u5012\u653e"
+    }, 
+    "play forward at 100%": {
+        "message": "\u5168\u901f\u64ad\u653e"
+    }, 
+    "play forward at 50%": {
+        "message": "\u534a\u901f\u64ad\u653e"
+    }, 
+    "publish server mods": {
+        "message": "\u53d1\u5e03\u670d\u52a1\u5668\u63d2\u4ef6"
+    }, 
+    "quick profile": {
+        "message": "\u5feb\u901f\u8f7d\u5165\u914d\u7f6e"
+    }, 
+    "recall anchor": {
+        "message": "\u5207\u6362\u5230\u89c6\u89d2"
+    }, 
+    "recall anchor 0": {
+        "message": "\u5207\u6362\u5230\u89c6\u89d2\u4f4d\u7f6e 0"
+    }, 
+    "recall anchor 1": {
+        "message": "\u5207\u6362\u5230\u89c6\u89d2\u4f4d\u7f6e 1"
+    }, 
+    "recall anchor 2": {
+        "message": "\u5207\u6362\u5230\u89c6\u89d2\u4f4d\u7f6e 2"
+    }, 
+    "recall anchor 3": {
+        "message": "\u5207\u6362\u5230\u89c6\u89d2\u4f4d\u7f6e 3"
+    }, 
+    "recall anchor 4": {
+        "message": "\u5207\u6362\u5230\u89c6\u89d2\u4f4d\u7f6e 4"
+    }, 
+    "recall anchor 5": {
+        "message": "\u5207\u6362\u5230\u89c6\u89d2\u4f4d\u7f6e 5"
+    }, 
+    "recall anchor 6": {
+        "message": "\u5207\u6362\u5230\u89c6\u89d2\u4f4d\u7f6e 6"
+    }, 
+    "recall anchor 7": {
+        "message": "\u5207\u6362\u5230\u89c6\u89d2\u4f4d\u7f6e 7"
+    }, 
+    "recall anchor 8": {
+        "message": "\u5207\u6362\u5230\u89c6\u89d2\u4f4d\u7f6e 8"
+    }, 
+    "recall anchor 9": {
+        "message": "\u5207\u6362\u5230\u89c6\u89d2\u4f4d\u7f6e 9"
+    }, 
+    "recall group 0": {
+        "message": "\u9009\u62e9\u7ec4 0"
+    }, 
+    "recall group 1": {
+        "message": "\u9009\u62e9\u7ec4 1"
+    }, 
+    "recall group 2": {
+        "message": "\u9009\u62e9\u7ec4 2"
+    }, 
+    "recall group 3": {
+        "message": "\u9009\u62e9\u7ec4 3"
+    }, 
+    "recall group 4": {
+        "message": "\u9009\u62e9\u7ec4 4"
+    }, 
+    "recall group 5": {
+        "message": "\u9009\u62e9\u7ec4 5"
+    }, 
+    "recall group 6": {
+        "message": "\u9009\u62e9\u7ec4 6"
+    }, 
+    "recall group 7": {
+        "message": "\u9009\u62e9\u7ec4 7"
+    }, 
+    "recall group 8": {
+        "message": "\u9009\u62e9\u7ec4 8"
+    }, 
+    "recall group 9": {
+        "message": "\u9009\u62e9\u7ec4 9"
+    }, 
+    "reclaim": {
+        "message": "\u5360\u9886"
+    }, 
+    "reload view": {
+        "message": "\u91cd\u8f7d\u89c6\u56fe"
+    }, 
+    "repair": {
+        "message": "\u7ef4\u4fee"
+    }, 
+    "resume at latest time": {
+        "message": "\u6062\u590d\u5230\u5b9e\u65f6"
+    }, 
+    "return fire": {
+        "message": "\u8fd8\u51fb"
+    }, 
+    "roam": {
+        "message": "\u8def\u5f84"
+    }, 
+    "run twitch commercial": {
+        "message": "\u663e\u793aTwitch\u76f4\u64ad\u5e7f\u544a"
+    }, 
+    "select air group": {
+        "message": "\u9009\u62e9\u7a7a\u519b\u5355\u4f4d"
+    }, 
+    "select all air combat units": {
+        "message": "\u9009\u62e9\u6240\u6709\u7a7a\u519b\u6218\u6597\u5355\u4f4d"
+    }, 
+    "select all air combat units on screen": {
+        "message": "\u9009\u62e9\u5f53\u524d\u5c4f\u5e55\u4e2d\u6240\u6709\u7a7a\u519b\u6218\u6597\u5355\u4f4d"
+    }, 
+    "select all combat units": {
+        "message": "\u9009\u62e9\u6240\u6709\u6218\u6597\u5355\u4f4d"
+    }, 
+    "select all combat units on screen": {
+        "message": "\u9009\u62e9\u5f53\u524d\u5c4f\u5e55\u4e2d\u6240\u6709\u6218\u6597\u5355\u4f4d"
+    }, 
+    "select all factories": {
+        "message": "\u9009\u62e9\u6240\u6709\u5de5\u5382"
+    }, 
+    "select all factories on screen": {
+        "message": "\u9009\u62e9\u5f53\u524d\u5c4f\u5e55\u4e2d\u6240\u6709\u5de5\u5382"
+    }, 
+    "select all idle factories": {
+        "message": "\u9009\u62e9\u6240\u6709\u7a7a\u95f2\u5de5\u5382"
+    }, 
+    "select all idle factories on screen": {
+        "message": "\u9009\u62e9\u5f53\u524d\u5c4f\u5e55\u4e2d\u6240\u6709\u7a7a\u95f2\u5de5\u5382"
+    }, 
+    "select all land combat units": {
+        "message": "\u9009\u62e9\u6240\u6709\u9646\u519b\u6218\u6597\u5355\u4f4d"
+    }, 
+    "select all land combat units on screen": {
+        "message": "\u9009\u62e9\u5f53\u524d\u5c4f\u5e55\u4e2d\u6240\u6709\u9646\u519b\u5355\u4f4d"
+    }, 
+    "select all matching units on screen": {
+        "message": "\u9009\u62e9\u5f53\u524d\u5c4f\u5e55\u4e2d\u6240\u6709\u5339\u914d\u7684\u5355\u4f4d"
+    }, 
+    "select all naval combat units": {
+        "message": "\u9009\u62e9\u6240\u6709\u6d77\u519b\u6218\u6597\u5355\u4f4d"
+    }, 
+    "select all naval combat units on screen": {
+        "message": "\u9009\u62e9\u5f53\u524d\u5c4f\u5e55\u4e2d\u6240\u6709\u6d77\u519b\u6218\u6597\u5355\u4f4d"
+    }, 
+    "select bot group": {
+        "message": "\u9009\u62e9\u673a\u5668\u4eba\u7ec4"
+    }, 
+    "select combat group": {
+        "message": "\u9009\u62e9\u6218\u6597\u5355\u4f4d\u7ec4"
+    }, 
+    "select commander": {
+        "message": "\u9009\u62e9\u6307\u6325\u5b98"
+    }, 
+    "select factory group": {
+        "message": "\u9009\u62e9\u5de5\u5382\u7ec4"
+    }, 
+    "select idle fabbers": {
+        "message": "\u9009\u62e9\u7a7a\u95f2\u5de5\u7a0b\u5355\u4f4d"
+    }, 
+    "select orbital group (buildings)": {
+        "message": "\u9009\u62e9\u8f68\u9053\u8bbe\u65bd"
+    }, 
+    "select orbital group (units)": {
+        "message": "\u9009\u62e9\u8f68\u9053\u5355\u4f4d"
+    }, 
+    "select sea group": {
+        "message": "\u9009\u62e9\u6d77\u519b\u5355\u4f4d"
+    }, 
+    "select utility group": {
+        "message": "\u9009\u62e9\u529f\u80fd\u7ec4"
+    }, 
+    "select vehicle group": {
+        "message": "\u9009\u62e9\u8f66\u8f86\u7ec4"
+    }, 
+    "self destruct selected unit": {
+        "message": "\u81ea\u6bc1\u6240\u9009\u5355\u4f4d"
+    }, 
+    "set army from hover": {
+        "message": "\u60ac\u6d6e\u9f20\u6807\u9009\u62e9\u90e8\u961f"
+    }, 
+    "set debug camera": {
+        "message": "\u8bbe\u5b9a\u8c03\u8bd5\u89c6\u89d2"
+    }, 
+    "set default camera": {
+        "message": "\u8bbe\u5b9a\u9ed8\u8ba4\u89c6\u89d2"
+    }, 
+    "set free camera": {
+        "message": "\u8fdb\u5165\u81ea\u7531\u89c6\u89d2"
+    }, 
+    "set planet camera": {
+        "message": "\u8bbe\u5b9a\u884c\u661f\u89c6\u89d2"
+    }, 
+    "show/hide UI": {
+        "message": "\u663e\u793a/\u9690\u85cf \u754c\u9762"
+    }, 
+    "show/hide performance panel": {
+        "message": "\u663e\u793a/\u9690\u85cf \u6027\u80fd\u9762\u677f"
+    }, 
+    "show/hide visual aid overlays": {
+        "message": "\u663e\u793a/\u9690\u85cf\u89c6\u89c9\u5e2e\u52a9"
+    }, 
+    "smooth zoom in": {
+        "message": "\u5e73\u6ed1\u653e\u5927"
+    }, 
+    "smooth zoom out": {
+        "message": "\u5e73\u6ed1\u7f29\u5c0f"
+    }, 
+    "special move": {
+        "message": "\u7279\u6b8a\u52a8\u4f5c"
+    }, 
+    "stop": {
+        "message": "\u505c\u6b62"
+    }, 
+    "streaming": {
+        "message": "\u76f4\u64ad\u4e2d"
+    }, 
+    "swap pip": {
+        "message": "\u5207\u6362\u753b\u4e2d\u753b\u4e0e\u4e3b\u753b\u9762"
+    }, 
+    "team chat": {
+        "message": "\u56e2\u961f\u804a\u5929"
+    }, 
+    "toggle FOW": {
+        "message": "\u5207\u6362\u6218\u573a\u8ff7\u96fe"
+    }, 
+    "toggle audio logging": {
+        "message": "\u5207\u6362\u8bed\u97f3\u8bb0\u5f55"
+    }, 
+    "toggle build orders": {
+        "message": "\u5207\u6362\u5efa\u9020\u6a21\u5f0f"
+    }, 
+    "toggle console": {
+        "message": "\u5207\u6362\u63a7\u5236\u53f0"
+    }, 
+    "toggle debug camera": {
+        "message": "\u5207\u6362\u8c03\u8bd5\u89c6\u89d2"
+    }, 
+    "toggle energy orders": {
+        "message": "\u5207\u6362\u8017\u80fd\u6a21\u5f0f"
+    }, 
+    "toggle fire orders": {
+        "message": "\u5207\u6362\u653b\u51fb\u6a21\u5f0f"
+    }, 
+    "toggle free camera": {
+        "message": "\u5207\u6362\u81ea\u7531\u89c6\u89d2"
+    }, 
+    "toggle fullscreen": {
+        "message": "\u5207\u6362\u5168\u5c4f\u663e\u793a"
+    }, 
+    "toggle move orders": {
+        "message": "\u5207\u6362\u79fb\u52a8\u6a21\u5f0f"
+    }, 
+    "toggle music": {
+        "message": "\u5207\u6362\u97f3\u4e50"
+    }, 
+    "toggle nav debug": {
+        "message": "\u5207\u6362\u539f\u751f\u8c03\u8bd5"
+    }, 
+    "toggle pip mirror": {
+        "message": "\u5207\u6362\u661f\u7403\u80cc\u9762\u663e\u793a"
+    }, 
+    "toggle twitch microphone": {
+        "message": "\u5207\u6362Twitch\u9ea6\u514b\u98ce\u5f55\u97f3"
+    }, 
+    "toggle twitch streaming": {
+        "message": "\u5207\u6362Twitch\u76f4\u64ad\u72b6\u6001"
+    }, 
+    "toggle twitch system audio recording": {
+        "message": "Twitch\u7cfb\u7edf\u97f3\u9891\u5f55\u5236"
+    }, 
+    "track selection with camera": {
+        "message": "\u89c6\u89d2\u8ddf\u8e2a\u6240\u9009"
+    }, 
+    "tracking & alignment": {
+        "message": "\u8ddf\u8e2a\u4e0e\u5bf9\u9f50"
+    }, 
+    "tuning": {
+        "message": "\u8f6c\u5411"
+    }, 
+    "unit capture groups": {
+        "message": "\u8bbe\u7f6e\u5355\u4f4d\u7f16\u7ec4"
+    }, 
+    "unit commands": {
+        "message": "\u5355\u4f4d\u6307\u4ee4"
+    }, 
+    "unit orders": {
+        "message": "\u5355\u4f4d\u547d\u4ee4"
+    }, 
+    "unit recall groups": {
+        "message": "\u5355\u4f4d\u7f16\u7ec4\u9009\u62e9"
+    }, 
+    "unit selection": {
+        "message": "\u5355\u4f4d\u9009\u62e9"
+    }, 
+    "units": {
+        "message": "\u5355\u4f4d"
+    }, 
+    "unload": {
+        "message": "\u5378\u4e0b"
+    }, 
+    "zoom": {
+        "message": "\u7f29\u653e"
+    }, 
+    "zoom in": {
+        "message": "\u653e\u5927"
+    }, 
+    "zoom out": {
+        "message": "\u653e\u5927"
+    }, 
+    "zoom to air": {
+        "message": "\u7f29\u653e\u81f3\u7a7a\u4e2d"
+    }, 
+    "zoom to celestial": {
+        "message": "\u7f29\u653e\u81f3\u884c\u661f"
+    }, 
+    "zoom to orbital": {
+        "message": "\u7f29\u653e\u81f3\u884c\u661f\u8f68\u9053"
+    }, 
+    "zoom to surface": {
+        "message": "\u7f29\u653e\u81f3\u884c\u661f\u8868\u9762"
+    }
+}

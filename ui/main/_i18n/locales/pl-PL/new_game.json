@@ -1,0 +1,122 @@
+{
+    "- Host": {
+        "message": "- Host"
+    }, 
+    "AI Commander": {
+        "message": "Dow\u00f3dca SI"
+    }, 
+    "Add AI": {
+        "message": "Dodaj SI"
+    }, 
+    "Add AI Commander": {
+        "message": "Dodaj dow\u00f3dc\u0119 SI"
+    }, 
+    "Add Slot": {
+        "message": "Dodaj miejsce"
+    }, 
+    "Alliance Victory": {
+        "message": "Zwyci\u0119stwo sojuszu"
+    }, 
+    "Browse...": {
+        "message": "Przegl\u0105daj..."
+    }, 
+    "CONNECTION TO SERVER LOST": {
+        "message": "UTRACONO PO\u0141\u0104CZENIE Z SERWEREM"
+    }, 
+    "Chat": {
+        "message": "Czat"
+    }, 
+    "Cheats": {
+        "message": "Oszustwa"
+    }, 
+    "Dynamic Alliances": {
+        "message": "Dynamiczne sojusze"
+    }, 
+    "Empty": {
+        "message": "Pusty"
+    }, 
+    "Free For All": {
+        "message": "FFA"
+    }, 
+    "Friends": {
+        "message": "Dla znajomych"
+    }, 
+    "Game Lobby": {
+        "message": "Lobby gry"
+    }, 
+    "Game Mode": {
+        "message": "Tryb gry"
+    }, 
+    "Global Spectator Chat": {
+        "message": "Czat dla widz\u00f3w"
+    }, 
+    "Join": {
+        "message": "Do\u0142\u0105cz"
+    }, 
+    "Kick": {
+        "message": "Wyrzu\u0107"
+    }, 
+    "Leave": {
+        "message": "Opu\u015b\u0107"
+    }, 
+    "New System": {
+        "message": "Nowy system"
+    }, 
+    "Open to:": {
+        "message": "Gra:"
+    }, 
+    "Player Slot": {
+        "message": "Miejsce dla gracza"
+    }, 
+    "Player chooses spot on starting planet": {
+        "message": "Gracz wybiera pozycj\u0119 na startowej planecie"
+    }, 
+    "Players)": {
+        "message": "Gracze)"
+    }, 
+    "Private": {
+        "message": "Prywatna"
+    }, 
+    "Public": {
+        "message": "Publiczna"
+    }, 
+    "Ready": {
+        "message": "Got\u00f3w"
+    }, 
+    "Remove": {
+        "message": "Usu\u0144"
+    }, 
+    "Returning to Main Menu": {
+        "message": "Powr\u00f3t do menu g\u0142\u00f3wnego"
+    }, 
+    "SHARE ARMY": {
+        "message": "WSP\u00d3LNA ARMIA"
+    }, 
+    "Server Mods": {
+        "message": "Modyfikacje serwera"
+    }, 
+    "Spectate": {
+        "message": "Obserwuj"
+    }, 
+    "Spectators": {
+        "message": "Obserwatorzy"
+    }, 
+    "Start Game": {
+        "message": "Rozpocznij Gr\u0119"
+    }, 
+    "System": {
+        "message": "System"
+    }, 
+    "Tag:": {
+        "message": "Tag:"
+    }, 
+    "Team Armies": {
+        "message": "Dru\u017cyny"
+    }, 
+    "Title": {
+        "message": "Tytu\u0142"
+    }, 
+    "You must have friends to play a friends-only game.": {
+        "message": "Musisz mie\u0107 znajomych, by rozegra\u0107 gr\u0119 tylko dla znajomych."
+    }
+}

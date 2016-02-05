@@ -1,0 +1,26 @@
+{
+    "CONNECTION TO SERVER FAILED": {
+        "message": "VERBINDUNG ZU SERVER FEHLGESCHLAGEN"
+    }, 
+    "CONNECTION TO SERVER LOST": {
+        "message": "Verbindung zum Server verloren"
+    }, 
+    "FAILED TO JOIN GAME": {
+        "message": "SPIELBEITRITT FEHLGESCHLAGEN"
+    }, 
+    "FAILED TO START GAME": {
+        "message": "Fehler beim Starten des Spiels"
+    }, 
+    "FAILED TO START REPLAY": {
+        "message": "STARTEN DER WIEDERHOLUNG FEHLGESCHLAGEN"
+    }, 
+    "LOGIN ACCEPTED": {
+        "message": "EINLOGGEN OK"
+    }, 
+    "LOGIN TO SERVER REJECTED": {
+        "message": "Verbindung zum Server abgelehnt "
+    }, 
+    "Returning to Main Menu": {
+        "message": "Zur\u00fcckkehren zum Hauptmen\u00fc"
+    }
+}

@@ -1,0 +1,283 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <noloc><title>Live Game: Game Over</title></noloc>
+    <script src="bundle://boot/boot.js" type="text/javascript"></script>
+    <link href="bundle://boot/boot.css" rel="stylesheet" type="text/css" />
+    <script src="coui://ui/main/shared/js/matchmaking_utility.js" type="text/javascript"></script>
+    <script src="game_over.js" type="text/javascript"></script>
+    <link href="game_over.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+    <div data-bind="visible: true, css: { 'fadein': $root.doFadeIn(), 'hide': !$root.doFadeIn() }" style="width:100%; display: none;">
+
+        <!-- ko if: showViewResultsButton -->
+        <div class="div_notification_bar">
+            <div class="div_notification">
+                <div class="message">
+                    <loc>The game has ended.</loc>
+                </div>
+                <div style="box-shadow: 0px 0px 20px #000;">
+                    <input type="button" value="VIEW RESULTS" data-bind="click: displayVictorStats, click_sound: 'default', rollover_sound: 'default'" />
+                </div>
+            </div>
+        </div>
+        <!-- /ko -->
+
+        <div class="div_panel_bar_background" data-bind="css: { 'div_panel_bar_background_victory': $root.playerIsWinner(), 'div_panel_bar_background_defeated': $root.showPlayerDefeated(), 'div_panel_bar_background_spectate': $root.showAnnihilationComplete() }" >
+           
+            <!--- WINNER --->
+            <!-- ko if: playerIsWinner -->
+            <div class="div_end_game_msg">
+                <div class="end_msg victory">
+                    <loc>VICTORY IS YOURS</loc>
+                </div>
+                <div class="username victory" data-bind="text: displayName"></div>
+            </div>
+            <!-- /ko -->
+
+            <!--- DEFEATED --->
+            <!-- ko if: showPlayerDefeated -->
+            <div class="div_end_game_msg">
+                <div class="end_msg defeated">
+                    <loc>YOU'VE BEEN ANNIHILATED</loc>
+                </div>
+                <div class="username defeated" data-bind="text: displayName"></div>
+            </div>
+            <!-- /ko -->
+
+            <!--- SPECTATING END --->
+            <!-- ko if: showAnnihilationComplete -->
+
+             <!-- ko ifnot: draw -->
+            <div class="div_end_game_msg">
+                <div class="end_msg spectate">
+                    <loc>ANNIHILATION COMPLETE</loc>
+                </div>
+                <div class="username summary">
+                    <span data-bind="text: game_over_msg"></span>
+                </div>
+            </div>
+             <!-- /ko -->
+
+            <!--- DRAW --->
+            <!-- ko if: draw -->
+            <div class="div_end_game_msg">
+                <div class="end_msg spectate">
+                    <loc>Total Oblivion</loc>
+                </div>
+                <div class="username summary"><loc>The battle ended in a draw.</loc></div>
+            </div>
+            <!-- /ko -->
+
+            <!-- /ko -->
+     
+            <!--- STATS --->
+            <div class="div_stat_panel">
+                <div class="div_stat_panel_contents">
+                    <!-- ko with: stats -->
+                    <div class="div_player_stats">
+                        <div class="div_stat_perf">
+                            <!--- EFFICIENCY -->
+                            <div class="div_stat">
+                                <div class="column_title">
+                                    <loc>Efficiency</loc>
+                                </div>
+                                <div class="column_stats">
+                                    <div class="stat_number">
+                                        <span data-bind="text: ($data.efficiency || 0).toFixed(1)"></span>%
+                                    </div>
+                                    <div class="stat_label">
+                                        <loc>Average</loc>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="div_stat_separator"></div>
+
+                            <!--- METAL -->
+                            <div class="div_stat">
+                                <div class="column_title">
+                                    <loc>Metal</loc>
+                                </div>
+                                <div style="display: flex;">
+                                    <div class="column_stats">
+                                        <div class="stat_number">
+                                            <span data-bind="text: (model.formatedRateString($data.metal_produced))"></span>
+                                        </div>
+                                        <div class="stat_label">
+                                            <loc>Produced</loc>
+                                        </div>
+                                    </div>
+                                    <div class="column_stats">
+                                        <div class="stat_number">
+                                            <span data-bind="text: ((100 * ($data.metal_produced - $data.metal_wasted) / $data.metal_produced) || 0).toFixed(1)"></span>%
+                                        </div>
+                                        <div class="stat_label">
+                                            <loc>Used</loc>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="div_stat_separator"></div>
+
+                            <!--- ENERGY -->
+                            <div class="div_stat">
+                                <div class="column_title">
+                                    <loc>Energy</loc>
+                                </div>
+                                <div style="display: flex;">
+                                    <div class="column_stats">
+                                        <div class="stat_number">
+                                            <span data-bind="text: (model.formatedRateString($data.energy_produced))"></span>
+                                        </div>
+                                        <div class="stat_label">
+                                            <loc>Produced</loc>
+                                        </div>
+                                    </div>
+                                    <div class="column_stats">
+                                        <div class="stat_number">
+                                            <span data-bind="text: ((100 * ($data.energy_produced - $data.energy_wasted) / $data.energy_produced) || 0).toFixed(1)"></span>%
+                                        </div>
+                                        <div class="stat_label">
+                                            <loc>Used</loc>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="div_stat_separator"></div>
+
+                            <!--- APM -->
+                            <div class="div_stat">
+                                <div class="column_title">
+                                    <loc>APM</loc>
+                                </div>
+                                <div class="column_stats">
+                                    <div class="stat_number">
+                                        <span data-bind="text: ($data.commands_given_delta || 0).toFixed(1)"></span>
+                                    </div>
+                                    <div class="stat_label">
+                                        <loc>Average</loc>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="div_stat_separator"></div>
+
+                            <!--- UNITS -->
+                            <div class="div_stat">
+                                <div class="column_title">
+                                    <loc>Units</loc>
+                                </div>
+                                <div style="display: flex;">
+                                    <div class="column_stats">
+                                        <div class="stat_number">
+                                            <span data-bind="text: $data.units_build"></span>
+                                        </div>
+                                        <div class="stat_label">
+                                            <loc>Built</loc>
+                                        </div>
+                                    </div>
+                                    <div class="column_stats">
+                                        <div class="stat_number">
+                                            <span data-bind="text: $data.units_destroyed"></span>
+                                        </div>
+                                        <div class="stat_label">
+                                            <loc>Destroyed</loc>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="div_stat_duration">
+                            <span style="margin: 0px 8px 0px 0px;">
+                                <loc>Duration:</loc>
+                            </span>
+                            <span data-bind="text: UberUtility.createTimeString($data.duration)"></span>
+                        </div>
+                    </div>
+                    <!-- /ko -->
+                    <div class="ranking_bar" data-bind="visible: $root.showLeague()">
+                        <div class="rank_badges">
+                            <div class="rank_loading" data-bind="visible: $root.showLeagueLoading()">
+                                <div class="badge_animation" id="badge_load_0"></div>
+                                <div class="badge_animation" id="badge_load_1"></div>
+                                <div class="badge_animation" id="badge_load_2"></div>
+                                <div class="badge_animation" id="badge_load_3"></div>
+                                <div class="badge_animation" id="badge_load_4"></div>
+                            </div>
+                            <div data-bind="visible: !$root.showLeagueLoading()">
+                                <div data-bind="visible: $root.haveLeague()">
+                                    <img class="badge_rank" src="" data-bind="attr: { src: $root.league1Src() }" />
+                                    <img class="badge_rank" src="" data-bind="attr: { src: $root.league2Src() }" />
+                                    <img class="badge_rank" src="" data-bind="attr: { src: $root.league3Src() }" />
+                                    <img class="badge_rank" src="" data-bind="attr: { src: $root.league4Src() }" />
+                                    <img class="badge_rank" src="" data-bind="attr: { src: $root.league5Src() }" />
+                                </div>
+                                <div data-bind="visible: !$root.haveLeague()">
+                                    <img class="badge_rank" src="coui://ui/main/shared/img/level_badges/badge_level_0_96px.png" />
+                                </div>
+                            </div>
+                        </div>
+                        <div id="rank_status">
+                            <div class="rank_status_loading" data-bind="visible: $root.showLeagueLoading()">
+                                <span><loc>Determining ladder rank...</loc></span>
+                            </div>
+                            <div data-bind="visible: !$root.showLeagueLoading()">
+                                <div data-bind="visible: $root.haveLeague()">
+                                    <span data-bind="vars: { rank_title: $root.leagueText() }">
+                                        <loc>Your 1v1 Ladder rank is __rank_title__.</loc>
+                                    </span>
+                                </div>
+                                <div data-bind="visible: !$root.haveLeague()">
+                                    <span>
+                                        <loc>You currently have an unknown rank status. Complete more games to determine your ladder ranking.</loc>
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="div_stats_panel_options">
+
+                    <!-- ko ifnot: gameOver -->
+                    <div>
+                        <input type="button" value="SPECTATE" id="" class="" data-bind="click: navToReview, click_sound: 'default', rollover_sound: 'default'" />
+                    </div>
+                    <!-- /ko -->
+                    <div>
+                        <input type="button" value="VIEW STATS" id="" class=""
+                            data-bind="click: navToReviewStats, click_sound: 'default', rollover_sound: 'default'" />
+                    </div>
+
+                    <!-- ko if: gameOver -->
+                    <div>
+                        <input type="button" value="REVIEW" id="" class="" data-bind="click: navToReview, enable: connected, click_sound: 'default', rollover_sound: 'default'" />
+                    </div>
+                    <!-- /ko -->
+                    <!-- ko foreach: menuButtons -->
+                    <div>
+                        <input type="button" id="Button2" class="" data-bind="value: $data.label, click: $data.click, click_sound: 'default', rollover_sound: 'default'" />
+                    </div>
+                    <!-- /ko -->
+                    <div data-bind="visible: ranked">
+                        <input type="button" value="Requeue" id="" class="" data-bind="click: navToMatchMaking, click_sound: 'default', rollover_sound: 'default'" />
+                    </div>
+
+                    <div>
+                        <input type="button" value="QUIT TO MAIN MENU" id="Button2" class="" data-bind="click: navToMainMenu, click_sound: 'default', rollover_sound: 'default'" />
+                    </div>
+
+                </div>
+                <div class="div_bottom_bar_trim" style="height:20px; width:100%; background:rgba(0,0,0,.3);"></div>
+            </div>
+    </div>
+
+    </div>
+</body>

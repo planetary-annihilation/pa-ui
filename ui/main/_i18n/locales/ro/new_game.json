@@ -1,0 +1,86 @@
+{
+    "- Host": {
+        "message": ": Gazd\u0103"
+    }, 
+    "AI Commander": {
+        "message": "Comandant IA"
+    }, 
+    "Add AI Commander": {
+        "message": "Adaug\u0103 Comandant IA"
+    }, 
+    "Add Slot": {
+        "message": "Adaug\u0103 Slot"
+    }, 
+    "CONNECTION TO SERVER LOST": {
+        "message": "CONEXIUNEA C\u0102TRE SERVER A FOST PIERDUT\u0102"
+    }, 
+    "Chat": {
+        "message": "Conversa\u0163ie"
+    }, 
+    "Empty": {
+        "message": "Gol"
+    }, 
+    "Free For All": {
+        "message": "Fiecare Pentru El"
+    }, 
+    "Friends": {
+        "message": "Prieteni"
+    }, 
+    "Game Lobby": {
+        "message": "Lobby de Joc"
+    }, 
+    "Game Mode": {
+        "message": "Mod de Joc:"
+    }, 
+    "Join": {
+        "message": "Al\u0103tur\u0103"
+    }, 
+    "Kick": {
+        "message": "D\u0103 afar\u0103"
+    }, 
+    "Leave": {
+        "message": "P\u0103r\u0103se\u015fte"
+    }, 
+    "Open to:": {
+        "message": "Deschide pentru:"
+    }, 
+    "Player Slot": {
+        "message": "Slot de Jucator"
+    }, 
+    "Private": {
+        "message": "Privat"
+    }, 
+    "Public": {
+        "message": "Public"
+    }, 
+    "Ready": {
+        "message": "Gata"
+    }, 
+    "Remove": {
+        "message": "Elimin\u0103"
+    }, 
+    "Returning to Main Menu": {
+        "message": "Revenind la Meniul Principal"
+    }, 
+    "SHARE ARMY": {
+        "message": "\u00ceMPARTE ARMATA"
+    }, 
+    "Spectate": {
+        "message": "Observ\u0103"
+    }, 
+    "Spectators": {
+        "message": "SPECTATORI"
+    }, 
+    "Start Game": {
+        "message": "\u00cencepe Joc"
+    }, 
+    "System": {
+        "message": "Sistem:"
+    }, 
+    "Team Armies": {
+        "message": "Armatele Echipei"
+    }, 
+    "You must have friends to play a friends-only game.": {
+        "message": "Trebuie s\u0103 ai prieteni pentru a juca un joc \u00eentre prieteni."
+    }
+}

@@ -1,0 +1,123 @@
+﻿body {
+    background-color: rgba(0,0,0,0);
+    background-image: none;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: absolute;
+}
+
+.div_user_pause {
+    position: absolute;
+    top: 30px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+    .user_pause_bar {
+        height: 40px;
+        width: 630px;
+        font-size: 24px;
+        box-shadow: none;
+        padding: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border: 40px solid rgba(0, 0, 0, 0);
+        border-bottom: 0 solid #000;
+        border-top: 40px solid #000;
+        position: relative;
+    }
+
+.user_pause_bar > .background_glow {
+            width: 100%;
+            height: 40px;
+            margin: -40px 0 0 0;
+            background: -webkit-radial-gradient(top, rgba(255, 245, 0, 0.8) 0%, rgba(255, 204, 0, 0.8) 20%, rgba(0, 0, 0, 0) 65% );
+            -webkit-animation: pause_glow 2.2s infinite ease-in-out;
+            position: absolute;
+}
+
+        .user_pause_bar > .wrapper {
+            width: 100%;
+            height: 40px;
+            font-family: "Sansation Bold";
+            text-shadow: 0 0 20px;
+            margin: -40px 0 0 0;
+            position: relative;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            z-index:2;
+        }
+
+.div_panel_bar_background {
+    width: 100%;
+    position: relative;
+    box-shadow: 0px 0px 100px #000;
+    text-align: center;
+    background-color: rgba(0,0,0,.5);
+}
+
+.div_panel_primary_msg {
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.div_options_bar {
+    width: 100%;
+    background: rgba(0,0,0,.6);
+    display: flex;
+    flex-direction:row;
+    align-content: center;
+    justify-content: center;
+    padding: 10px 0px;
+}
+
+input[type="button"] {
+    font-size: 18px;
+    padding: 12px 36px;
+    box-shadow: 0px 0px 20px #000;
+}
+
+.div_bottom_margin_bar {
+    height: 20px;
+    width: 100%;
+    background: rgba(0,0,0,.3);
+}
+
+.img_loading_animation.working.std.options_bar {
+    margin-right: 6px;
+}
+
+.btn_commit.user_resume {
+    font-size: 12px;
+    padding: 6px 20px 6px;
+    margin: 0 0 0 16px;
+    text-transform: uppercase;
+    position: absolute;
+    top: 6px;
+    right: 8px;
+}
+
+@-webkit-keyframes pause_glow {
+
+    0% {
+        opacity: .4;
+    }
+
+    50% {
+        opacity: 1;
+    }
+
+    100% {
+        opacity: .4;
+    }
+
+} 

@@ -1,0 +1,316 @@
+﻿#systems, #planets {
+    overflow-x: hidden;
+    overflow-y: scroll;
+    height: 100%;
+}
+
+.title {
+    white-space: nowrap;
+}
+
+.tab-wrapper {
+    height: calc(100% - 20px);
+    width: 100%;
+    overflow: auto;
+    margin: 8px 0px;
+    display: flex;
+    justify-content: center;
+    position: absolute;
+}
+
+.one-planet {
+    width: 247px;
+    height: 180px;
+    float: left;
+    margin: 0;
+    padding: 10px;
+}
+
+.one-planet img.biome {
+        height: 100px;
+        width: 100px;
+    }
+
+
+.one-system, .one-planet {
+    width: 100%;
+    margin: 0px 24px 16px 0px;
+    padding: 0px 0px;
+    border: 1px solid rgba(20, 122, 161, 0.5);
+    box-shadow: 0px 0px 50px rgba(0, 179, 255, 0.1);
+    -webkit-animation: tile_fadeout;
+    -webkit-transition: .3s ease-out;
+    position: relative;
+}
+
+    .one-system:hover, one-planet:hover {
+        color: #FFFFFF;
+        text-shadow: 0px 0px 10px #FFFFFF;
+        border-color: #00B3FF;
+        box-shadow: 0px 0px 50px rgba(0, 179, 255, 0.5);
+        -webkit-animation: none;
+        -webkit-transition: none;
+    }
+
+    .one-system:active {
+        color: #FFFFFF;
+        text-shadow: 0px 0px 10px #FFFFFF;
+        background: #00B3FF;
+        border-color: #00B3FF;
+        box-shadow: 0px 0px 50px rgba(0, 179, 255, 1);
+    }
+
+.one_system_selected {
+    padding: 0px 0px;
+    position: relative;
+    border: 1px solid rgba(20, 122, 161, 0.5);
+    box-shadow: 0px 0px 50px rgba(0, 179, 255, 0.1);
+    background: #1E7AA1;
+    border-color: #00B3FF;
+    box-shadow: inset 0px 0px 10px #00B3FF;
+}
+
+.one-system img.icon {
+    height: 300px;
+    width: 300px;
+    margin-top: 30px;
+    margin-left: 30px;
+}
+
+.system-background {
+    height: 100%;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: -50px 66%;
+    opacity: .2;
+    position: absolute;
+    top: 0;
+}
+
+.system-properties {
+    height:100%;
+    width:100%;
+    background: linear-gradient(to bottom, rgba(6,33,45,.8) 0%, rgba(0,0,0,0) 100%);
+    padding:10px;
+    display: flex;
+    align-items:center;
+}
+
+ .system-title {
+    width: 30%;
+    font-family: "Sansation Bold";
+    font-size: 20px;
+    text-shadow: 0px 0px 20px rgb(0, 179, 255);
+    color: #fff;
+    line-height: 1.2;
+    margin:0px 10px 0px 0px;
+    word-break: break-word;
+}
+
+.system-player-reco {    
+    width:120px;
+}
+
+.system-planet-grp {
+    width: 380px;
+    display:flex;
+    flex-grow: 1;
+    flex-wrap: wrap;
+}
+
+.system-thumb {
+    height: 220px;
+    background:url('coui://ui/main/game/load_planet/img_system_thumb_background.png') bottom center no-repeat;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+}
+    .system-thumb .position {
+        height: 200px;
+        overflow: hidden;
+    }
+
+@-webkit-keyframes tile_fadeout {
+    to {
+        background: #1E7AA1;
+        border-color: #00B3FF;
+        color: #fff;
+        text-shadow: 0px 0px 10px rgba(255,255,255,.5);
+    }
+
+    from {
+        background: none;
+        border-color: transparent;
+        box-shadow: none;
+        color: inherit;
+        text-shadow: inherit;
+    }
+}
+
+.left_action_buttons {
+    position: absolute;
+    left: 230px;
+}
+
+.left_action_buttons > div {
+    display: inline-block;
+}
+
+.planet_thumb {
+    height: 28px;
+    width: 28px;
+    margin: 4px 8px 4px 0px;
+    flex-shrink:0;
+}
+
+#detail-pane-wrapper {
+    width: 100%;
+    border: 1px solid transparent;
+    padding: 0px 0px 10px;
+    position: relative;
+    display: flex;
+}
+
+#detail-pane {
+    height: 100%;
+    width: 100%;
+    font-family: 'Sansation Bold';
+    font-size: 16px;
+    color: #fff;
+    line-height: 1.4;
+    padding: 8px 16px 8px;
+    position: absolute;
+    top: 0px;
+    bottom: 8px;
+    overflow-y: scroll;
+    overflow: auto;
+}
+
+    #detail-pane h3 {
+        font-family: 'Sansation Bold';
+        font-size: 20px;
+        color: #fff;
+        text-shadow: 0px 0px 20px #00b3ff;
+        margin-top:0;
+    }
+
+    #detail-pane .section {
+        margin:0px 0px 16px 0px;
+    }
+
+    #detail-pane .row > div {
+    }
+
+    .form-group label,
+    #detail-pane .col-header {
+        font-family:"Sansation Bold";
+        font-size:12px;
+        color:#666;
+        text-transform:uppercase;
+        text-shadow:0px 0px 0px;
+        margin:0px 0px 4px 0px;
+    }
+
+    #detail-pane .col-planets {
+    }
+
+
+    #detail-pane .one-planet-detail {
+        margin: 10px 10px 0 0;
+        display: flex;
+    }
+
+        #detail-pane .one-planet-detail .planet-biome {
+            margin-right: 8px;
+            position: relative;
+            height: 40px;
+            width: 45px;
+            flex-shrink: 0;
+        }
+
+            #detail-pane .one-planet-detail .planet-biome img {
+                height:40px;
+                width:40px;
+                position: absolute;
+            }
+
+            #detail-pane .one-planet-detail .planet-biome span {
+            }
+
+        #detail-pane .one-planet-detail .planet-name {
+            word-break: break-word;
+        }
+
+    #detail-pane .item {
+        border: 1px solid #000;
+        padding: 4px 8px;
+        margin: -1px 0px 0px 0px;
+        box-shadow: inset 0px 0px 3px rgba(255, 255, 255, 0.15);
+    }
+
+    #detail-pane .item .text {
+        text-shadow:0px 0px 20px #00b3ff;
+
+    }
+
+    #detail-pane .item .highlighted {
+        color: #0f0;
+        text-shadow:0px 0px 20px rgba(0,255,0,.3)
+    }
+
+    #detail-pane .item .open {
+        font-family: 'Sansation Regular TTF';
+        font-size: 14px;
+        color: #0F0;
+        text-shadow: 0px 0px 10px #0F0;
+        padding: 3px 0px;
+    }
+
+.thruster_count {
+    height: 18px;
+    width: 16px;
+    background: url('coui://ui/main/game/server_browser/img/icon_thruster.png') top center no-repeat;
+    position: absolute;
+    z-index: 2;
+    font-size: 11px;
+    text-align: center;
+    bottom: 0px;
+    color: #00b3ff;
+    font-family: trebuchet MS;
+}
+
+.planet-properties {
+    flex-grow:1;
+}
+
+.planet-scale, .planet-radius, .planet-metal {
+    font-family: 'Sansation Regular TTF';
+    font-size: 13px;
+    color: #999;
+}
+
+.planet-start {
+    float: right;
+} 
+
+.system-planet-grp {
+    margin: 0px 0px 0px 0px;
+    padding: 0px 16px 0px 4px;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+}
+
+.div_planet {
+    height: 20px; 
+    width: 20px;
+    margin: 4px;
+}
+
+.img_start {
+    height: 16px; 
+    width: 16px;
+    position: relative;
+    top: -12px;
+    right: -10px;
+}

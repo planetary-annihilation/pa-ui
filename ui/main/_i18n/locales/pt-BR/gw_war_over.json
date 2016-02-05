@@ -1,0 +1,26 @@
+{
+    "Annihilated": {
+        "message": "Aniquilado"
+    }, 
+    "Close": {
+        "message": "Fechar"
+    }, 
+    "Delete Archive": {
+        "message": "Deletar Arquivo"
+    }, 
+    "Discards": {
+        "message": "Descartados"
+    }, 
+    "Final Tech": {
+        "message": "Tecnologia Final"
+    }, 
+    "Turns:": {
+        "message": "Turnos:"
+    }, 
+    "Victory": {
+        "message": "VIt\u00f3ria"
+    }, 
+    "Wins:": {
+        "message": "Vit\u00f3rias:"
+    }
+}

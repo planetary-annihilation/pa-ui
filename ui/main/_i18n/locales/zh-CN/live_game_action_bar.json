@@ -1,0 +1,44 @@
+{
+    "AT WILL": {
+        "message": "\u81ea\u7531\u653b\u51fb"
+    }, 
+    "BUILD MODE": {
+        "message": "\u751f\u4ea7\u6a21\u5f0f"
+    }, 
+    "CONTINUOUS": {
+        "message": "\u5faa\u73af"
+    }, 
+    "ENERGY ORDERS": {
+        "message": "\u80fd\u91cf\u72b6\u6001"
+    }, 
+    "FIRE ORDERS": {
+        "message": "\u653b\u51fb\u6307\u4ee4"
+    }, 
+    "HOLD": {
+        "message": "\u539f\u5730\u5f85\u547d"
+    }, 
+    "HOLD POSITION": {
+        "message": "\u539f\u5730\u5f85\u547d"
+    }, 
+    "MANUEVER": {
+        "message": "\u5236\u52a8"
+    }, 
+    "MOVE ORDERS": {
+        "message": "\u79fb\u52a8\u6a21\u5f0f"
+    }, 
+    "NORMAL": {
+        "message": "\u6b63\u5e38"
+    }, 
+    "OFF": {
+        "message": "\u5173\u95ed"
+    }, 
+    "ON": {
+        "message": "\u5f00\u542f"
+    }, 
+    "RETURN FIRE": {
+        "message": "\u8fd8\u51fb"
+    }, 
+    "ROAM": {
+        "message": "\u968f\u673a\u79fb\u52a8"
+    }
+}

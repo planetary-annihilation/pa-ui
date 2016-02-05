@@ -1,0 +1,92 @@
+{
+    "APPROVE": {
+        "message": "ZATWIERD\u0179"
+    }, 
+    "APPROVED USERS": {
+        "message": "Zaakceptowani znajomi"
+    }, 
+    "Add": {
+        "message": "Dodaj"
+    }, 
+    "Add a Friend": {
+        "message": "Dodaj znajomego"
+    }, 
+    "BLOCK": {
+        "message": "BLOKUJ"
+    }, 
+    "BLOCKED USERS": {
+        "message": "ZABLOKOWANI"
+    }, 
+    "Cancel": {
+        "message": "Anuluj"
+    }, 
+    "Close": {
+        "message": "Zamknij"
+    }, 
+    "Contact List Updated": {
+        "message": "Lista kontakt\u00f3w zaktualizowana"
+    }, 
+    "Contact Not Found": {
+        "message": "Nie znaleziono kontaktu"
+    }, 
+    "Dismiss": {
+        "message": "Odwo\u0142aj"
+    }, 
+    "Filter contatcs by tag:": {
+        "message": "Filtruj kontakty po tagu:"
+    }, 
+    "Games you make will be hidden to these players.": {
+        "message": "Gry, kt\u00f3re stworzysz, nie b\u0119d\u0105 widoczne dla tych graczy."
+    }, 
+    "Name:": {
+        "message": "Imi\u0119:"
+    }, 
+    "New Nickname:": {
+        "message": "Nowy Nick:"
+    }, 
+    "Players you have encountered recently.": {
+        "message": "Gracze, z kt\u00f3rymi niedawno gra\u0142e\u015b."
+    }, 
+    "Private games you make will only be visible to these players.": {
+        "message": "Prywatne gry, kt\u00f3re stworzysz, b\u0119d\u0105 widoczne tylko dla tych graczy."
+    }, 
+    "RECENT": {
+        "message": "NIEDAWNE"
+    }, 
+    "REMOVE": {
+        "message": "USU\u0143"
+    }, 
+    "RENAME": {
+        "message": "ZMIE\u0143 NAZW\u0118"
+    }, 
+    "Refresh Contacts": {
+        "message": "Od\u015bwie\u017c kontakty"
+    }, 
+    "Refreshing friends list.....": {
+        "message": "Od\u015bwie\u017canie listy znajomych....."
+    }, 
+    "SOCIAL": {
+        "message": "SPO\u0141ECZNO\u015a\u0106"
+    }, 
+    "Tag": {
+        "message": "Tag"
+    }, 
+    "Tag Friend:": {
+        "message": "Otaguj znajomego:"
+    }, 
+    "Tags:": {
+        "message": "Tagi:"
+    }, 
+    "UBERDEX": {
+        "message": "UBERDEKS"
+    }, 
+    "Uber Name": {
+        "message": "Konto Uber"
+    }, 
+    "UberId:": {
+        "message": "UberId:"
+    }, 
+    "or": {
+        "message": "lub"
+    }
+}

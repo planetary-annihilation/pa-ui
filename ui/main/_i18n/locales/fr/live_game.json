@@ -1,0 +1,587 @@
+{
+    "ALLIANCES": {
+        "message": "ALLIANCES"
+    }, 
+    "ALLY": {
+        "message": "ALLIÉ"
+    }, 
+    "ALT-FIRE": {
+        "message": "TIR ALTERNATIF"
+    }, 
+    "ANNIHILATE EVERYTHING": {
+        "message": "TOUT ANNIHILER"
+    }, 
+    "ANNIHILATED": {
+        "message": "ANNIHILÉ"
+    }, 
+    "APS:": {
+        "message": "APS :"
+    }, 
+    "ARMY": {
+        "message": "ARMÉE"
+    }, 
+    "ASSIST": {
+        "message": "AIDE"
+    }, 
+    "AT WILL": {
+        "message": "À VOLONTÉ"
+    }, 
+    "ATTACK": {
+        "message": "ATTAQUE"
+    }, 
+    "ATTACKING": {
+        "message": "ATTAQUE"
+    }, 
+    "Abandon War": {
+        "message": "Abandonner la guerre"
+    }, 
+    "Accept": {
+        "message": "Accepter"
+    }, 
+    "Activate planetary laser": {
+        "message": "Activer le laser planétaire"
+    }, 
+    "Add": {
+        "message": "Ajouter"
+    }, 
+    "Advanced": {
+        "message": "Avancé"
+    }, 
+    "Air": {
+        "message": "Aérien"
+    }, 
+    "All catalysts online on __planet_name__! Click here to annihilate!": {
+        "message": "Tous les catalyseurs sont en ligne sur la planète __planet_name__ ! Cliquez ici pour annihiler !"
+    }, 
+    "Alliance Request": {
+        "message": "Requête d'alliance"
+    }, 
+    "Alliance requested": {
+        "message": "Requête d'alliance envoyée"
+    }, 
+    "Allied With:": {
+        "message": "Allié avec :"
+    }, 
+    "Allied __unit_name__ lost.": {
+        "message": "Perte de l'allié __unit_name__."
+    }, 
+    "Allies": {
+        "message": "Alliés"
+    }, 
+    "Anti-nuke - Intercepts incoming nuclear missiles.": {
+        "message": "Antinucléaire. Intercepte les missiles nucléaires."
+    }, 
+    "Are you sure you want to abandon this Galactic War?[br](All progress and Tech will be lost.)": {
+        "message": "Êtes-vous sûr de vouloir abandonner cette Guerre galactique ?[br](Votre progression et vos technologies seront perdues.)"
+    }, 
+    "BUILD MODE": {
+        "message": "MODE CONSTRUCTION"
+    }, 
+    "Bot": {
+        "message": "Robot"
+    }, 
+    "Bounty Econ Multiplier": {
+        "message": "Multiplicateur économique de prime"
+    }, 
+    "Bounty kill rewarded. Econ multipliers enabled.": {
+        "message": "Prime d'élimination attribuée. Multiplicateurs économiques activés."
+    }, 
+    "Build Efficiency": {
+        "message": "Rendement de construction"
+    }, 
+    "CONNECTION TO SERVER LOST": {
+        "message": "PERTE DE LA CONNEXION AU SERVEUR"
+    }, 
+    "CONTINUOUS": {
+        "message": "FLUX TENDU"
+    }, 
+    "Cancel": {
+        "message": "Annuler"
+    }, 
+    "Cancel Fire": {
+        "message": "Annuler le tir"
+    }, 
+    "Cancel Move": {
+        "message": "Annuler le déplacement"
+    }, 
+    "Capture main view": {
+        "message": "Capturer la vue principale"
+    }, 
+    "Change orbit": {
+        "message": "Changer d'orbite"
+    }, 
+    "Chrono Cam": {
+        "message": "Chronocam"
+    }, 
+    "Chrono Cam Replay": {
+        "message": "Replay de la chronocam"
+    }, 
+    "Close": {
+        "message": "Fermer"
+    }, 
+    "Commander": {
+        "message": "Commandeur"
+    }, 
+    "Continue Tutorial": {
+        "message": "Poursuivre le didacticiel"
+    }, 
+    "Continue War": {
+        "message": "Poursuivre la guerre"
+    }, 
+    "Count": {
+        "message": "Nombre"
+    }, 
+    "DMG": {
+        "message": "DÉG"
+    }, 
+    "DMG:": {
+        "message": "DÉG :"
+    }, 
+    "DPS:": {
+        "message": "DPS"
+    }, 
+    "DRAW": {
+        "message": "ÉGALITÉ"
+    }, 
+    "Destroy selected units?": {
+        "message": "Détruire les unités sélectionnées ?"
+    }, 
+    "ECONOMY": {
+        "message": "ÉCONOMIE"
+    }, 
+    "ENERGY ORDERS": {
+        "message": "ORDRES D'ENERGIE"
+    }, 
+    "Efficiency": {
+        "message": "Rendement"
+    }, 
+    "Enemy Contact!": {
+        "message": "Contact ennemi !"
+    }, 
+    "Energy": {
+        "message": "Énergie"
+    }, 
+    "Energy Efficiency": {
+        "message": "Rendement énergique"
+    }, 
+    "Energy Expended": {
+        "message": "Énergie dépensée"
+    }, 
+    "Energy Produced": {
+        "message": "Énergie produite"
+    }, 
+    "Energy Storage": {
+        "message": "Réserve d'énergie"
+    }, 
+    "Exit Game?": {
+        "message": "Quitter la partie ?"
+    }, 
+    "FABRICATING": {
+        "message": "FABRICATION"
+    }, 
+    "FIRE ORDERS": {
+        "message": "ORDRES DE TIR"
+    }, 
+    "Fabber": {
+        "message": "Constructeur"
+    }, 
+    "Factory": {
+        "message": "Usine"
+    }, 
+    "Fire Weapon": {
+        "message": "Tirer"
+    }, 
+    "Follow alerts": {
+        "message": "Suivre les alertes"
+    }, 
+    "GAME PAUSED": {
+        "message": "PARTIE EN PAUSE"
+    }, 
+    "Game Menu": {
+        "message": "Menu de la partie"
+    }, 
+    "Game Ready": {
+        "message": "Partie prête"
+    }, 
+    "Game Settings": {
+        "message": "Paramètres de la partie"
+    }, 
+    "Game has been paused. You will receive a victory if your opponent does not reconnect within 180 seconds.": {
+        "message": "La partie est en pause. Vous remporterez une victoire si votre adversaire ne se reconnecte pas d'ici 180 secondes."
+    }, 
+    "Game starts in": {
+        "message": "La partie commence dans"
+    }, 
+    "HEALTH": {
+        "message": "PV"
+    }, 
+    "HOLD": {
+        "message": "TENIR"
+    }, 
+    "HOLD POSITION": {
+        "message": "TENIR POSITION"
+    }, 
+    "Halleys active on __planet_name__! Click here to annihilate!": {
+        "message": "Les Halleys sont actifs sur la planète __planet_name__ ! Cliquez ici pour annihiler !"
+    }, 
+    "Hold the mouse wheel down and drag to pan.": {
+        "message": "Maintenez la molette de la souris enfoncée et faites glisser pour déplacer la vue."
+    }, 
+    "Ignore": {
+        "message": "Ignorer"
+    }, 
+    "LOAD": {
+        "message": "CHARGER"
+    }, 
+    "LR-96 -Pacifier- Missile": {
+        "message": "LR-96 -Pacifier- Missile"
+    }, 
+    "MANEUVER": {
+        "message": "MANŒUVRE"
+    }, 
+    "MOVE": {
+        "message": "DÉPLACER"
+    }, 
+    "MOVE ORDERS": {
+        "message": "ORDRES DE DÉPLACEMENT"
+    }, 
+    "Metal": {
+        "message": "Métal"
+    }, 
+    "Metal Efficiency": {
+        "message": "Rendement du métal"
+    }, 
+    "Metal Expended": {
+        "message": "Métal dépensé"
+    }, 
+    "Metal Produced": {
+        "message": "Métal produit"
+    }, 
+    "Metal Storage": {
+        "message": "Réserve de métal"
+    }, 
+    "Mobile": {
+        "message": "Mobile"
+    }, 
+    "NORMAL": {
+        "message": "NORMAL"
+    }, 
+    "Names can only include letters [a-Z] and numbers [0-9].": {
+        "message": "Les noms ne peuvent comporter que des lettres [a-Z] et des chiffres[0-9]."
+    }, 
+    "Naval": {
+        "message": "Naval"
+    }, 
+    "Net Energy Income": {
+        "message": "Recettes d'énergie nettes"
+    }, 
+    "Net Metal Income": {
+        "message": "Recettes de métal nettes"
+    }, 
+    "Next": {
+        "message": "Suivant"
+    }, 
+    "Not enough energy": {
+        "message": "Énergie insuffisante"
+    }, 
+    "Not enough metal": {
+        "message": "Métal insuffisant"
+    }, 
+    "Not enough metal or energy": {
+        "message": "Métal ou énergie insuffisants"
+    }, 
+    "Nuclear missile - Long range, large area damage, projectile.": {
+        "message": "Missile nucléaire. Projectile de longue portée infligeant des dégâts sur une zone élargie."
+    }, 
+    "OFF": {
+        "message": "DÉSACTIVÉ"
+    }, 
+    "ON": {
+        "message": "ACTIVÉ"
+    }, 
+    "Opponent disconnected": {
+        "message": "Adversaire déconnecté"
+    }, 
+    "Orbital": {
+        "message": "Orbite"
+    }, 
+    "PATROL": {
+        "message": "PATROUILLE"
+    }, 
+    "PLAYER": {
+        "message": "JOUEUR"
+    }, 
+    "PROD": {
+        "message": "PROD"
+    }, 
+    "Pause Game": {
+        "message": "Mettre la partie en pause"
+    }, 
+    "Pick a location inside one of the green zones to spawn your Commander.": {
+        "message": "Sélectionnez un lieu à l'intérieur de l'une des zones vertes pour faire apparaître votre Commandeur."
+    }, 
+    "Pin to opposite side": {
+        "message": "Fixer de l'autre côté"
+    }, 
+    "Ping": {
+        "message": "Ping"
+    }, 
+    "Ping!": {
+        "message": "Ping !"
+    }, 
+    "Play From Here": {
+        "message": "Jouer à partir d'ici"
+    }, 
+    "Player Guide": {
+        "message": "Guide"
+    }, 
+    "Position targeted. Click to confirm.": {
+        "message": "Position ciblée. Cliquez pour confirmer."
+    }, 
+    "Prev": {
+        "message": "Préc."
+    }, 
+    "Quit": {
+        "message": "Quitter"
+    }, 
+    "Quit Game": {
+        "message": "Quitter la partie"
+    }, 
+    "Quit to Main Menu": {
+        "message": "Retourner au menu principal"
+    }, 
+    "READY": {
+        "message": "PRÊT"
+    }, 
+    "RECLAIM": {
+        "message": "RÉCUPÉRER"
+    }, 
+    "RECLAIMING": {
+        "message": "RÉCUPÉRATION"
+    }, 
+    "REPAIR": {
+        "message": "RÉPARER"
+    }, 
+    "RESC": {
+        "message": "RESS"
+    }, 
+    "RETURN FIRE": {
+        "message": "TIR DE RIPOSTE"
+    }, 
+    "ROAM": {
+        "message": "ERRER"
+    }, 
+    "Request pending": {
+        "message": "Requête envoyée"
+    }, 
+    "Resume": {
+        "message": "Reprendre"
+    }, 
+    "Resume Game": {
+        "message": "Reprendre la partie"
+    }, 
+    "Resume from here?": {
+        "message": "Reprendre à partir d'ici ?"
+    }, 
+    "Return to Galactic War": {
+        "message": "Retour à la Guerre galactique"
+    }, 
+    "Returning to Main Menu": {
+        "message": "Retour au menu principal"
+    }, 
+    "Rewinding Time": {
+        "message": "Retour en arrière"
+    }, 
+    "SELECTING": {
+        "message": "SÉLECTION"
+    }, 
+    "SHARED ENERGY:": {
+        "message": "ÉNERGIE PARTAGÉE : "
+    }, 
+    "SHARED METAL:": {
+        "message": "MÉTAL PARTAGÉ : "
+    }, 
+    "SPECIAL-MOVE": {
+        "message": "DÉPLACEMENT SPÉCIAL"
+    }, 
+    "SR-24 -Shield- Missile Defense": {
+        "message": "SR-24 -Bouclier- Défense contre les missiles"
+    }, 
+    "START ANNIHILATION": {
+        "message": "COMMENCER L'ANNIHILATION"
+    }, 
+    "STOP": {
+        "message": "ARRÊTER"
+    }, 
+    "STORAGE": {
+        "message": "STOCKAGE"
+    }, 
+    "Save": {
+        "message": "Sauvegarder"
+    }, 
+    "Save Game": {
+        "message": "Sauvegarder la partie"
+    }, 
+    "Save complete": {
+        "message": "Sauvegarde effectuée"
+    }, 
+    "Save game?": {
+        "message": "Sauvegarder la partie ?"
+    }, 
+    "Saving game": {
+        "message": "Sauvegarde de la partie"
+    }, 
+    "Scroll mouse wheel to zoom in and out.": {
+        "message": "Faites tourner la molette de la souris pour effectuer un zoom avant ou arrière."
+    }, 
+    "Second Camera PIP": {
+        "message": "Incrustation d'une seconde caméra"
+    }, 
+    "Select a new gravity well.": {
+        "message": "Sélectionnez un nouveau puits gravitationnel."
+    }, 
+    "Select a planet to attack.": {
+        "message": "Sélectionnez une planète à attaquer."
+    }, 
+    "Select a planet to destroy.": {
+        "message": "Sélectionnez une planète à détruire."
+    }, 
+    "Select all advanced units in view": {
+        "message": "Sélectionnez toutes les unités avancées à l'écran"
+    }, 
+    "Select all air units in view": {
+        "message": "Sélectionnez toutes les unités aériennes à l'écran"
+    }, 
+    "Select all bot units in view": {
+        "message": "Sélectionnez tous les robots à l'écran"
+    }, 
+    "Select all fabber units in view": {
+        "message": "Sélectionnez tous les constructeurs à l'écran"
+    }, 
+    "Select all naval units in view": {
+        "message": "Sélectionnez toutes les unités navales à l'écran"
+    }, 
+    "Select all orbital units in view": {
+        "message": "Sélectionnez toutes les unités orbitales à l'écran"
+    }, 
+    "Select all vehicle units in view": {
+        "message": "Sélectionnez tous les véhicules à l'écran"
+    }, 
+    "Send to Annihilate": {
+        "message": "Expédier pour annihiler"
+    }, 
+    "Set course for annihilation": {
+        "message": "Définir la trajectoire de l'annihilation"
+    }, 
+    "Set target spot": {
+        "message": "Définir l'emplacement de la cible"
+    }, 
+    "Social Bar": {
+        "message": "Barre sociale"
+    }, 
+    "Surrender": {
+        "message": "Capituler"
+    }, 
+    "Surrender Game?": {
+        "message": "Concéder la victoire ?"
+    }, 
+    "Swap cameras": {
+        "message": "Échanger les caméras"
+    }, 
+    "TRANSPORT": {
+        "message": "TRANSPORT"
+    }, 
+    "Then confirm destination to set course.": {
+        "message": "Confirmez ensuite la destination pour définir la trajectoire."
+    }, 
+    "This process can take a while.": {
+        "message": "Ce processus peut prendre un certain temps."
+    }, 
+    "UNLOAD": {
+        "message": "DÉCHARGER"
+    }, 
+    "USE": {
+        "message": "UTILISER"
+    }, 
+    "Unknown": {
+        "message": "Inconnu"
+    }, 
+    "Vehicle": {
+        "message": "Véhicule"
+    }, 
+    "WORLD SIMULATION WENT AWAY": {
+        "message": "LA SIMULATION DE PLANÈTE N'EST PLUS DISPONIBLE"
+    }, 
+    "Waiting for other players to select a spawn location.": {
+        "message": "Veuillez patienter pendant que d'autres joueurs sélectionnent leur point d'apparition."
+    }, 
+    "Yes": {
+        "message": "Oui"
+    }, 
+    "__num_idle_fabbers__ Idle": {
+        "message": "__num_idle_fabbers__ : inactifs"
+    }, 
+    "__num_idle_factories__ Idle": {
+        "message": "__num_idle_factories__ : inactives"
+    }, 
+    "__unit_name__ arrived.": {
+        "message": "__unit_name__ : arrivé."
+    }, 
+    "__unit_name__ destroyed.": {
+        "message": "__unit_name__ : détruit."
+    }, 
+    "__unit_name__ idle.": {
+        "message": "__unit_name__ : inactif"
+    }, 
+    "__unit_name__ launched!": {
+        "message": "__unit_name__ : lancé !"
+    }, 
+    "__unit_name__ located.": {
+        "message": "__unit_name__ : localisé."
+    }, 
+    "__unit_name__ lost.": {
+        "message": "__unit_name__ : perdu."
+    }, 
+    "__unit_name__ ready.": {
+        "message": "__unit_name__ prêt."
+    }, 
+    "__unit_name__ under attack.": {
+        "message": "__unit_name__ : attaqué."
+    }, 
+    "__victim_name__ has been annihilated.": {
+        "message": "__victim_name__ : annihilé."
+    }, 
+    "__victim_name__ was annihilated by __killer_name__.": {
+        "message": "__victim_name__ a été annihilé par __victim_name__."
+    }, 
+    "air": {
+        "message": "aérien"
+    }, 
+    "ammo": {
+        "message": "munition"
+    }, 
+    "army": {
+        "message": "armée"
+    }, 
+    "bot": {
+        "message": "robot"
+    }, 
+    "combat": {
+        "message": "combat"
+    }, 
+    "factory": {
+        "message": "usine"
+    }, 
+    "orbital": {
+        "message": "orbite"
+    }, 
+    "sea": {
+        "message": "marin"
+    }, 
+    "utility": {
+        "message": "service"
+    }, 
+    "vehicle": {
+        "message": "véhicule"
+    }
+}

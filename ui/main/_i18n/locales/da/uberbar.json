@@ -1,0 +1,110 @@
+{
+    "Accept": {
+        "message": "Accepter"
+    }, 
+    "Appear Offline": {
+        "message": "Vis Som Offline"
+    }, 
+    "Away": {
+        "message": "V\u00e6k"
+    }, 
+    "Block": {
+        "message": "Bloker"
+    }, 
+    "CANCEL": {
+        "message": "LUK"
+    }, 
+    "CHANGE": {
+        "message": "CHANGE"
+    }, 
+    "Change Display Name": {
+        "message": "Skift Kaldenavn"
+    }, 
+    "Change your display name?": {
+        "message": "Change your display name?"
+    }, 
+    "Chat": {
+        "message": "Chat"
+    }, 
+    "Do Not Disturb": {
+        "message": "Forstyr Venligst Ikke"
+    }, 
+    "Friends": {
+        "message": "Venner"
+    }, 
+    "Ignore": {
+        "message": "Ignorer"
+    }, 
+    "Invite to Chat": {
+        "message": "Inviter til Chat"
+    }, 
+    "Invite to game": {
+        "message": "Inviter til spil"
+    }, 
+    "Join Game": {
+        "message": "Deltag i Spil"
+    }, 
+    "New Display Name:": {
+        "message": "Nyt Kaldenavn:"
+    }, 
+    "No pending notifications.": {
+        "message": "Ingen ventende notifikationer."
+    }, 
+    "Offline": {
+        "message": "Offline"
+    }, 
+    "Online": {
+        "message": "Online"
+    }, 
+    "Pending Invite": {
+        "message": "Pending Invite"
+    }, 
+    "Recent": {
+        "message": "Nyligt"
+    }, 
+    "Remove": {
+        "message": "Fjern"
+    }, 
+    "Search Results": {
+        "message": "Search Results"
+    }, 
+    "Send Friend Request": {
+        "message": "Send Friend Request"
+    }, 
+    "Unblock": {
+        "message": "Unblock"
+    }, 
+    "Unfriend": {
+        "message": "Fjern fra venne-liste"
+    }, 
+    "Users": {
+        "message": "Brugere"
+    }, 
+    "[B]": {
+        "message": "B"
+    }, 
+    "[CHAT]": {
+        "message": "Chat"
+    }, 
+    "[F]": {
+        "message": "V"
+    }, 
+    "[I]": {
+        "message": "I"
+    }, 
+    "[REMOVE]": {
+        "message": "FJERN"
+    }, 
+    "[Tags:": {
+        "message": "M\u00e6rker"
+    }, 
+    "invited you to a game.": {
+        "message": "inviterede dig til et spil."
+    }, 
+    "invited you to chat.": {
+        "message": "inviterede dig til chat."
+    }, 
+    "wants to be your friend.": {
+        "message": "vil gerne v\u00e6re din ven."
+    }
+}

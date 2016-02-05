@@ -1,0 +1,132 @@
+{
+    "alt_fire": {
+        "description": "live_game_action_bar:alt_fire:(no description)", 
+        "message": "\u0202\u20a4\u4e01-\u03dc\u03aa\u211d\u0190\u03a9\u03a9\u03a9\u03a9", 
+        "original": "ALT-FIRE"
+    }, 
+    "assist": {
+        "description": "live_game_action_bar:assist:(no description)", 
+        "message": "\u0202\u1e60\u1e60\u03aa\u1e60\u4e01\u03a9\u03a9\u03a9", 
+        "original": "ASSIST"
+    }, 
+    "at_will": {
+        "description": "live_game_action_bar:at_will:(no description)", 
+        "message": "\u0202\u4e01 \u20a9\u03aa\u20a4\u20a4\u03a9\u03a9\u03a9", 
+        "original": "AT WILL"
+    }, 
+    "attack": {
+        "description": "live_game_action_bar:attack:(no description)", 
+        "message": "\u0202\u4e01\u4e01\u0202\u04aa\u04a0\u03a9\u03a9\u03a9", 
+        "original": "ATTACK"
+    }, 
+    "build_mode": {
+        "description": "live_game_action_bar:build_mode:(no description)", 
+        "message": "\u0e3f\u1ee6\u03aa\u20a4\u0189 \u039c\u0472\u0189\u0190\u03a9\u03a9\u03a9\u03a9\u03a9", 
+        "original": "BUILD MODE"
+    }, 
+    "continuous": {
+        "description": "live_game_action_bar:continuous:(no description)", 
+        "message": "\u04aa\u0472\u019d\u4e01\u03aa\u019d\u1ee6\u0472\u1ee6\u1e60\u03a9\u03a9\u03a9\u03a9\u03a9", 
+        "original": "CONTINUOUS"
+    }, 
+    "energy_off": {
+        "description": "live_game_action_bar:energy_off:(no description)", 
+        "message": "\u0472\u03dc\u03dc\u03a9", 
+        "original": "OFF"
+    }, 
+    "energy_on": {
+        "description": "live_game_action_bar:energy_on:(no description)", 
+        "message": "\u0472\u019d\u03a9", 
+        "original": "ON"
+    }, 
+    "energy_orders": {
+        "description": "live_game_action_bar:energy_orders:(no description)", 
+        "message": "\u0190\u019d\u0190\u211d\u01f4\u0423 \u0472\u211d\u0189\u0190\u211d\u1e60\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9", 
+        "original": "ENERGY ORDERS"
+    }, 
+    "fire_orders": {
+        "description": "live_game_action_bar:fire_orders:(no description)", 
+        "message": "\u03dc\u03aa\u211d\u0190 \u0472\u211d\u0189\u0190\u211d\u1e60\u03a9\u03a9\u03a9\u03a9\u03a9", 
+        "original": "FIRE ORDERS"
+    }, 
+    "hold": {
+        "description": "live_game_action_bar:hold:(no description)", 
+        "message": "\u04c7\u0472\u20a4\u0189\u03a9\u03a9", 
+        "original": "HOLD"
+    }, 
+    "hold_position": {
+        "description": "live_game_action_bar:hold_position:(no description)", 
+        "message": "\u04c7\u0472\u20a4\u0189 \u1e54\u0472\u1e60\u03aa\u4e01\u03aa\u0472\u019d\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9", 
+        "original": "HOLD POSITION"
+    }, 
+    "load": {
+        "description": "live_game_action_bar:load:(no description)", 
+        "message": "\u20a4\u0472\u0202\u0189\u03a9\u03a9", 
+        "original": "LOAD"
+    }, 
+    "maneuver": {
+        "description": "live_game_action_bar:maneuver:(no description)", 
+        "message": "\u039c\u0202\u019d\u1ee6\u0190\u0476\u0190\u211d\u03a9\u03a9\u03a9\u03a9", 
+        "original": "MANEUVER"
+    }, 
+    "move": {
+        "description": "live_game_action_bar:move:(no description)", 
+        "message": "\u039c\u0472\u0476\u0190\u03a9\u03a9", 
+        "original": "MOVE"
+    }, 
+    "move_orders": {
+        "description": "live_game_action_bar:move_orders:(no description)", 
+        "message": "\u039c\u0472\u0476\u0190 \u0472\u211d\u0189\u0190\u211d\u1e60\u03a9\u03a9\u03a9\u03a9\u03a9", 
+        "original": "MOVE ORDERS"
+    }, 
+    "normal": {
+        "description": "live_game_action_bar:normal:(no description)", 
+        "message": "\u019d\u0472\u211d\u039c\u0202\u20a4\u03a9\u03a9\u03a9", 
+        "original": "NORMAL"
+    }, 
+    "patrol": {
+        "description": "live_game_action_bar:patrol:(no description)", 
+        "message": "\u1e54\u0202\u4e01\u211d\u0472\u20a4\u03a9\u03a9\u03a9", 
+        "original": "PATROL"
+    }, 
+    "reclaim": {
+        "description": "live_game_action_bar:reclaim:(no description)", 
+        "message": "\u211d\u0190\u04aa\u20a4\u0202\u03aa\u039c\u03a9\u03a9\u03a9", 
+        "original": "RECLAIM"
+    }, 
+    "repair": {
+        "description": "live_game_action_bar:repair:(no description)", 
+        "message": "\u211d\u0190\u1e54\u0202\u03aa\u211d\u03a9\u03a9\u03a9", 
+        "original": "REPAIR"
+    }, 
+    "return_fire": {
+        "description": "live_game_action_bar:return_fire:(no description)", 
+        "message": "\u211d\u0190\u4e01\u1ee6\u211d\u019d \u03dc\u03aa\u211d\u0190\u03a9\u03a9\u03a9\u03a9\u03a9", 
+        "original": "RETURN FIRE"
+    }, 
+    "roam": {
+        "description": "live_game_action_bar:roam:(no description)", 
+        "message": "\u211d\u0472\u0202\u039c\u03a9\u03a9", 
+        "original": "ROAM"
+    }, 
+    "special_move": {
+        "description": "live_game_action_bar:special_move:(no description)", 
+        "message": "\u1e60\u1e54\u0190\u04aa\u03aa\u0202\u20a4-\u039c\u0472\u0476\u0190\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9", 
+        "original": "SPECIAL-MOVE"
+    }, 
+    "stop": {
+        "description": "live_game_action_bar:stop:(no description)", 
+        "message": "\u1e60\u4e01\u0472\u1e54\u03a9\u03a9", 
+        "original": "STOP"
+    }, 
+    "unload": {
+        "description": "live_game_action_bar:unload:(no description)", 
+        "message": "\u1ee6\u019d\u20a4\u0472\u0202\u0189\u03a9\u03a9\u03a9", 
+        "original": "UNLOAD"
+    }, 
+    "use": {
+        "description": "live_game_action_bar:use:(no description)", 
+        "message": "\u1ee6\u1e60\u0190\u03a9", 
+        "original": "USE"
+    }
+}

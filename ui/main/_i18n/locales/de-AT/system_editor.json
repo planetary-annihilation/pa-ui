@@ -1,0 +1,107 @@
+{
+    "Accept": {
+        "message": "Aktzeptieren"
+    }, 
+    "CLEAR SYSTEM": {
+        "message": "System l\u00f6schen"
+    }, 
+    "CLOSE": {
+        "message": "Schlie\u00dfen"
+    }, 
+    "Cancel": {
+        "message": "Abbrechen"
+    }, 
+    "Discard": {
+        "message": "Verwerfen"
+    }, 
+    "Do you want to save this system?": {
+        "message": "System speichern?"
+    }, 
+    "EDIT PLANET": {
+        "message": "Planeten bearbeiten"
+    }, 
+    "HIDE": {
+        "message": "Verstecken"
+    }, 
+    "Height": {
+        "message": "H\u00f6he"
+    }, 
+    "MY PLANETS": {
+        "message": "Meine Planeten"
+    }, 
+    "Mass": {
+        "message": "Masse"
+    }, 
+    "NAME:": {
+        "message": "NAME:"
+    }, 
+    "PREVIEW ALL": {
+        "message": "Vorschau alle"
+    }, 
+    "Position": {
+        "message": "POSITION"
+    }, 
+    "RECENT": {
+        "message": "K\u00fcrzlich"
+    }, 
+    "REMOVE": {
+        "message": "Entfernen"
+    }, 
+    "Radius": {
+        "message": "RADIUS"
+    }, 
+    "SAVE SYSTEM": {
+        "message": "System speichern"
+    }, 
+    "SHOW": {
+        "message": "Zeige"
+    }, 
+    "SIMULATE": {
+        "message": "Simulieren"
+    }, 
+    "SYSTEM DESIGNER": {
+        "message": "System Disigner"
+    }, 
+    "Save": {
+        "message": "Sichern"
+    }, 
+    "System has no starting planet.": {
+        "message": "Das System hat keinen Anfangsplaneten."
+    }, 
+    "System radius is too large.": {
+        "message": "Der Systemradius ist zu gro\u00df."
+    }, 
+    "System radius is too small.": {
+        "message": "Der Systemradius ist zu klein."
+    }, 
+    "TEMPLATES": {
+        "message": "Vorlagen"
+    }, 
+    "Temp": {
+        "message": "Temp"
+    }, 
+    "The planet is loading. This can take a long time.": {
+        "message": "Planet l\u00e4dt, dies kann einen Moment dauern."
+    }, 
+    "The program will be unresponsive until the planet has finished.": {
+        "message": "Das Programm wird unempf\u00e4nglich bis der Planet fertig ist."
+    }, 
+    "The system has been changed since it was last saved.": {
+        "message": "Dieses System wurde seit dem letzten Speichern ver\u00e4ndert."
+    }, 
+    "The system has not been saved.": {
+        "message": "System wurde nicht gespeichert."
+    }, 
+    "Velocity": {
+        "message": "Geschwindigkeit"
+    }, 
+    "Water": {
+        "message": "Wasser"
+    }, 
+    "X:": {
+        "message": "X:"
+    }, 
+    "Y:": {
+        "message": "Y:"
+    }
+}

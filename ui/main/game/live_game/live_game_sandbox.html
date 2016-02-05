@@ -1,0 +1,63 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <noloc><title>Live Game: Sandbox</title></noloc>
+        <link href="bundle://boot/boot.css" rel="stylesheet" type="text/css" />
+        <link href="live_game_sandbox.css" rel="stylesheet" type="text/css" />
+        <script src="bundle://boot/boot.js" type="text/javascript"></script>
+        <script src="coui://ui/main/shared/js/build.js" type="text/javascript"></script>
+        <script src="live_game_sandbox.js" type="text/javascript"></script>
+    </head>
+    <body class="body_panel">
+        <div class="div_sandbox_dock border receiveMouse">
+            <div class="title" data-bind="click: toggleExpanded" style="font-size: 20px;">
+                <noloc>SANDBOX</noloc>
+                <span data-bind="visible: !sandbox_expanded()">&gt;</span>
+                <span data-bind="visible: sandbox_expanded"><noloc>v</noloc></span>
+            </div>
+            <!-- ko if: sandbox_expanded -->
+            <div class="div_sandbox_main" data-bind="hover: function () { model.sandbox_unit_hover(''); }">
+                <div class="div_sandbox_simcontrol_cont">
+                    <div class="div_sandbox_simcontrol_button" data-bind="click: pauseSim">
+                        <a href="#" data-bind="click_sound: 'default', rollover_sound: 'default'">
+                        <img src="img/chronocam/pause.png"/>
+                        </a>
+                    </div>
+                    <div class="div_sandbox_simcontrol_button" data-bind="click: playSim">
+                        <a href="#" data-bind="click_sound: 'default', rollover_sound: 'default'">
+                        <img src="img/chronocam/arrow_right.png" />
+                        </a>
+                    </div>
+                    <div class="div_sandbox_simcontrol_button" data-bind="click: sandbox_stepSim">
+                        <a href="#" data-bind="click_sound: 'default', rollover_sound: 'default'">
+                        <img src="img/chronocam/double_arrow_right.png" />
+                        </a>
+                    </div>
+                </div>
+                <div class="div_sandbox_unit_cont">
+
+                    <!-- ko foreach: sandbox_units -->
+                    <div class="div_sandbox_unit_item">
+                        <a href="#" data-bind="click: function () { model.sandbox_copy_unit($data); },
+                                               event: {
+                                                    mouseover: function () { model.sandbox_unit_hover(model.sandbox_units()[$index()].spec); },
+                                                    mouseout: function () { model.sandbox_unit_hover(''); }
+                                               }">
+                            <img class="img_build_unit" src="img/build_bar/units/build_unit_sample.png" data-bind="attr: { src: icon }" />
+                        </a>
+                    </div>
+                    <!-- /ko -->
+
+                </div>
+            </div>
+            <!-- /ko -->
+        </div>
+        <br />
+        <div class="div_sandbox_bottom_spacer ignoreMouse" data-bind="visible: sandbox_expanded">
+            <div class="div_sandbox_dock detach" data-bind="visible: sandbox_unit_hover">
+                <div class="div_sandbox_unit_hover" style="color: red" data-bind="text: sandbox_unit_hover"></div>
+            </div>
+        </div>
+    </body>
+</html>

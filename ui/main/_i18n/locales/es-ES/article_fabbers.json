@@ -1,0 +1,32 @@
+{
+    "Advanced Fabbers come from Advanced Factories and can build both basic and advanced structures": {
+        "message": "Los fabricantes avanzados se crean en las fábricas avanzadas y pueden usarse para construir tanto estructuras básicas como avanzadas."
+    }, 
+    "Basic Fabbers build basic structures and Advanced Factories": {
+        "message": "Los fabricantes básicos sirven para construir estructuras básicas y fábricas avanzadas."
+    }, 
+    "Fabbers are built by Vehicle, Air, Naval, Bot, and Orbital Factories": {
+        "message": "Los fabricantes se construyen en fábricas orbitales, navales, de aeronaves, de robots y de vehículos."
+    }, 
+    "Fabrication Units": {
+        "message": "Unidades de fabricación"
+    }, 
+    "Hold Shift + Left Click to queue up multiple build orders": {
+        "message": "Mantén pulsado Shift y haz clic en el botón izquierdo para poner varias construcciones en cola."
+    }, 
+    "Left Click units on Build Bar and select a space in the world to build": {
+        "message": "Haz clic con el botón izquierdo sobre las unidades en la barra de construcción y selecciona un lugar en el planeta para construir."
+    }, 
+    "PA Guide: Fabbers": {
+        "message": "Guía de PA: Fabricantes"
+    }, 
+    "Select a Fabber to get access to Build Bar": {
+        "message": "Selecciona un fabricante para poder acceder a la barra de construcción."
+    }, 
+    "[style=text_callout]Control + left click[/style] a unit to make a factory produce a single one of that unit before continuing with the rest of the build queue.": {
+        "message": "[style=text_callout]Pulsa Control y haz clic con el botón izquierdo del ratón[/style] sobre una unidad para hacer que una fábrica produzca una de esas unidades antes de continuar con el resto de la cola de construcción."
+    }, 
+    "[style=text_callout]Right Click[/style] or [style=text_callout]Shift + Right Click[/style] on units to reduce number of units in queue": {
+        "message": "[style=text_callout]Haz clic con el botón derecho del ratón[/style] o [style=text_callout]pulsa Shift y haz clic con el botón izquierdo[/style] sobre las unidades para reducir el número de unidades en la cola de construcción."
+    }
+}

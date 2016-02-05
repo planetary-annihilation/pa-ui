@@ -1,0 +1,86 @@
+{
+    "AI:": {
+        "message": "IA:"
+    }, 
+    "Abandon War": {
+        "message": "Abandonar Guerra"
+    }, 
+    "Card:": {
+        "message": "Cart\u00e3o:"
+    }, 
+    "Data Banks Full": {
+        "message": "Data Banks Full"
+    }, 
+    "Date:": {
+        "message": "Data:"
+    }, 
+    "Delete Tech": {
+        "message": "Excluir tecnologia"
+    }, 
+    "Dismiss": {
+        "message": "Dispensar"
+    }, 
+    "Download Tech": {
+        "message": "Baixar tecnologia"
+    }, 
+    "Duplicate Tech": {
+        "message": "Duplicate Tech"
+    }, 
+    "Exit": {
+        "message": "Sair"
+    }, 
+    "Explore": {
+        "message": "Explorar"
+    }, 
+    "Fight": {
+        "message": "Lutar"
+    }, 
+    "Give tech": {
+        "message": "Dar tecnologia"
+    }, 
+    "History:": {
+        "message": "Hist\u00f3rico:"
+    }, 
+    "Jump": {
+        "message": "Saltar"
+    }, 
+    "Load game": {
+        "message": "Carregar jogo"
+    }, 
+    "Preparing for battle": {
+        "message": "Preparando para a batalha"
+    }, 
+    "Record:": {
+        "message": "Registro:"
+    }, 
+    "Reject Tech": {
+        "message": "Rejeitar tecnologia"
+    }, 
+    "Save": {
+        "message": "Salvar"
+    }, 
+    "Scanning System": {
+        "message": "Escaneando o sistema"
+    }, 
+    "Settings": {
+        "message": "CONFIGURA\u00c7\u00d5ES"
+    }, 
+    "TECHS": {
+        "message": "TECNOLOGIAS"
+    }, 
+    "To download, open a data bank by deleting an undesired tech.": {
+        "message": "To download, open a data bank by deleting an undesired tech."
+    }, 
+    "Turn State:": {
+        "message": "Estado dos turnos:"
+    }, 
+    "Unlock Commander": {
+        "message": "Desbloquear comandante"
+    }, 
+    "loss": {
+        "message": "derrota"
+    }, 
+    "win /": {
+        "message": "vit\u00f3ria /"
+    }
+}

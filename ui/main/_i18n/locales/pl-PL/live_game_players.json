@@ -1,0 +1,50 @@
+{
+    "ALLY": {
+        "message": "SOJUSZNIK"
+    }, 
+    "ARMY": {
+        "message": "ARMIA"
+    }, 
+    "Accept": {
+        "message": "Akceptuj"
+    }, 
+    "Alliance Request": {
+        "message": "Propozycja sojuszu"
+    }, 
+    "Alliance requested": {
+        "message": "Zaproponowano sojusz"
+    }, 
+    "Allied With:": {
+        "message": "W sojuszu z:"
+    }, 
+    "Count": {
+        "message": "Liczba"
+    }, 
+    "ECONOMY": {
+        "message": "GOSPODARKA"
+    }, 
+    "Efficiency": {
+        "message": "Wydajno\u015b\u0107"
+    }, 
+    "Fabber": {
+        "message": "Fabrykator"
+    }, 
+    "Factory": {
+        "message": "Fabryka"
+    }, 
+    "Ignore": {
+        "message": "Ignoruj"
+    }, 
+    "Mobile": {
+        "message": "Mobilno\u015b\u0107"
+    }, 
+    "PLAYER": {
+        "message": "GRACZ"
+    }, 
+    "RESC": {
+        "message": "RESC"
+    }, 
+    "Request pending": {
+        "message": "Propozycja oczekuje"
+    }
+}

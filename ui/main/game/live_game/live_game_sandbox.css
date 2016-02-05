@@ -1,0 +1,87 @@
+.body_panel {
+    min-height: 60px;
+    padding: 0 5px 5px 0px;
+}
+
+/* UTILITY */
+.receiveMouse {
+    pointer-events: all;
+}
+
+.ignoreMouse {
+    pointer-events: none;
+}
+
+/*----- SANDBOX
+-----------------------------------------------------------------*/
+
+.title {
+    display: block;
+}
+
+.div_sandbox_main {
+    width: 373px;
+}
+
+.div_sandbox_simcontrol_cont {
+}
+
+.div_sandbox_simcontrol_button {
+    height: 30px;
+    width: 30px;
+    display: inline-block;
+    margin-left: -8px;
+}
+
+    .div_sandbox_simcontrol_button img {
+        height: 30px;
+        width: 30px;
+    }
+
+.div_sandbox_unit_item {
+    height: 36px;
+    width: 36px;
+    display: inline-block;
+}
+
+    .div_sandbox_unit_item img {
+        width: 100%;
+        height: 100%;
+    }
+
+    .div_sandbox_unit_item img:hover {
+        background:#00b3ff;
+    }
+
+    .div_sandbox_unit_item img:active {
+        background:#1e7aa1;
+    }
+
+.div_sandbox_unit_hover {
+    font-size: 14px;
+}
+
+
+
+
+.div_sandbox_dock {
+    padding-top:4px;
+    font-size: 200%;
+    box-shadow:0px 0px 5px #000;
+    background-color: rgba(0,0,0,0.5);
+    display:inline-block;
+}
+
+.div_sandbox_dock.border {
+    border-top:1px solid #1e7aa1;
+}
+
+.div_sandbox_dock.detach {
+    margin-top: 5px;
+    
+}
+
+.div_sandbox_bottom_spacer {
+    height: 25px;
+    min-width: 700px;
+}

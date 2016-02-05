@@ -1,0 +1,110 @@
+{
+    "Accept": {
+        "message": "Aktzeptieren"
+    }, 
+    "Appear Offline": {
+        "message": "Als Offline"
+    }, 
+    "Away": {
+        "message": "Abwesend"
+    }, 
+    "Block": {
+        "message": "Blockieren"
+    }, 
+    "CANCEL": {
+        "message": "Abbrechen"
+    }, 
+    "CHANGE": {
+        "message": "\u00c4NDERN"
+    }, 
+    "Change Display Name": {
+        "message": "Displayname \u00e4ndern"
+    }, 
+    "Change your display name?": {
+        "message": "Ihren Displaynamen \u00e4ndern?"
+    }, 
+    "Chat": {
+        "message": "Chat"
+    }, 
+    "Do Not Disturb": {
+        "message": "Nicht st\u00f6ren"
+    }, 
+    "Friends": {
+        "message": "Freunde"
+    }, 
+    "Ignore": {
+        "message": "Ignorieren"
+    }, 
+    "Invite to Chat": {
+        "message": "Zum Chat einladen"
+    }, 
+    "Invite to game": {
+        "message": "Zu Spiel einladen"
+    }, 
+    "Join Game": {
+        "message": "Spiel beitreten"
+    }, 
+    "New Display Name:": {
+        "message": "Neuer Displayname:"
+    }, 
+    "No pending notifications.": {
+        "message": "Keine anstehenden Meldungen"
+    }, 
+    "Offline": {
+        "message": "Offline"
+    }, 
+    "Online": {
+        "message": "Online"
+    }, 
+    "Pending Invite": {
+        "message": "Ausstehende Einladung"
+    }, 
+    "Recent": {
+        "message": "K\u00fcrzlich"
+    }, 
+    "Remove": {
+        "message": "Entfernen"
+    }, 
+    "Search Results": {
+        "message": "Suchergebnisse"
+    }, 
+    "Send Friend Request": {
+        "message": "Freundschaftsanfrage senden"
+    }, 
+    "Unblock": {
+        "message": "Entsperren"
+    }, 
+    "Unfriend": {
+        "message": "Freund l\u00f6schen"
+    }, 
+    "Users": {
+        "message": "Benutzer"
+    }, 
+    "[B]": {
+        "message": "[B]"
+    }, 
+    "[CHAT]": {
+        "message": "[CHAT]"
+    }, 
+    "[F]": {
+        "message": "[F]"
+    }, 
+    "[I]": {
+        "message": "[I]"
+    }, 
+    "[REMOVE]": {
+        "message": "[ENTFERNEN]"
+    }, 
+    "[Tags:": {
+        "message": "[Stichw\u00f6rter:"
+    }, 
+    "invited you to a game.": {
+        "message": "Hat sie zu einem Spiel eingeladen"
+    }, 
+    "invited you to chat.": {
+        "message": "hat dich zum Chat eingeladen."
+    }, 
+    "wants to be your friend.": {
+        "message": "Will mit ihnen befreundet sein"
+    }
+}

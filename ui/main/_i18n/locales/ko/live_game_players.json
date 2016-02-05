@@ -1,0 +1,50 @@
+{
+    "ALLY": {
+        "message": "\ub3d9\ub9f9"
+    }, 
+    "ARMY": {
+        "message": "ARMY"
+    }, 
+    "Accept": {
+        "message": "\uc218\ub77d"
+    }, 
+    "Alliance Request": {
+        "message": "\ub3d9\ub9f9 \uc81c\uc758"
+    }, 
+    "Alliance requested": {
+        "message": "\ub3d9\ub9f9\uc774 \uc81c\uc548\ub418\uc5c8\uc2b5\ub2c8\ub2e4."
+    }, 
+    "Allied With:": {
+        "message": "Allied with:"
+    }, 
+    "Count": {
+        "message": "Count"
+    }, 
+    "ECONOMY": {
+        "message": "ECONOMY"
+    }, 
+    "Efficiency": {
+        "message": "\ud6a8\uc728"
+    }, 
+    "Fabber": {
+        "message": "Fabber"
+    }, 
+    "Factory": {
+        "message": "\uacf5\uc7a5"
+    }, 
+    "Ignore": {
+        "message": "\ubb34\uc2dc\ud558\uae30"
+    }, 
+    "Mobile": {
+        "message": "Mobile"
+    }, 
+    "PLAYER": {
+        "message": "\ud50c\ub808\uc774\uc5b4"
+    }, 
+    "RESC": {
+        "message": "RESC"
+    }, 
+    "Request pending": {
+        "message": "Request pending"
+    }
+}

@@ -1,0 +1,44 @@
+{
+    "ANNIHILATION COMPLETE": {
+        "message": "MEGSEMMIS\u00cdT\u00c9S BEFEJEZVE"
+    }, 
+    "APM": {
+        "message": "M\u0171velet/ perc"
+    }, 
+    "Average": {
+        "message": "\u00c1tlag"
+    }, 
+    "Built": {
+        "message": "\u00c9p\u00edtett"
+    }, 
+    "Destroyed": {
+        "message": "Elpuszt\u00edtva"
+    }, 
+    "Draw": {
+        "message": "D\u00d6NTETLEN"
+    }, 
+    "Efficiency": {
+        "message": "Hat\u00e9konys\u00e1g"
+    }, 
+    "GW GAME OVER": {
+        "message": "GH J\u00c1T\u00c9K V\u00c9GE"
+    }, 
+    "The game has ended.": {
+        "message": "A j\u00e1t\u00e9k v\u00e9get \u00e9rt."
+    }, 
+    "Used": {
+        "message": "Felhaszn\u00e1lva"
+    }, 
+    "VICTORY IS YOURS": {
+        "message": "TI\u00c9D A GY\u0150ZELEM"
+    }, 
+    "Winner:": {
+        "message": "Gy\u0151ztes:"
+    }, 
+    "Winners:": {
+        "message": "Gy\u0151ztesek:"
+    }, 
+    "YOU'VE BEEN ANNIHILATED": {
+        "message": "MEGSEMMIS\u00dcLT\u00c9L"
+    }
+}

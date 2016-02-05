@@ -1,0 +1,179 @@
+{
+    "- Host": {
+        "message": "- Host"
+    }, 
+    "AI Commander": {
+        "message": "Comandante IA"
+    }, 
+    "AI:": {
+        "message": "IA: "
+    }, 
+    "Add AI": {
+        "message": "Aggiungi IA"
+    }, 
+    "Add AI Commander": {
+        "message": "Aggiungi Comandante IA"
+    }, 
+    "Add Slot": {
+        "message": "Aggiungi slot"
+    }, 
+    "Add Team": {
+        "message": "Aggiungi squadra"
+    }, 
+    "Alliance Victory": {
+        "message": "Vittoria alleanza"
+    }, 
+    "Bounty Mode": {
+        "message": "Modalità Ricompensa"
+    }, 
+    "Bounty Value": {
+        "message": "Valore Ricompensa"
+    }, 
+    "Browse systems...": {
+        "message": "Scorri i sistemi..."
+    }, 
+    "Building planets": {
+        "message": "Creazione pianeti"
+    }, 
+    "Building planets...": {
+        "message": "Creazione pianeti in corso..."
+    }, 
+    "CONNECTION TO SERVER LOST": {
+        "message": "CONNESSIONE AL SERVER INTERROTTA"
+    }, 
+    "Chat": {
+        "message": "Chat"
+    }, 
+    "Cheats": {
+        "message": "Cheat"
+    }, 
+    "Default": {
+        "message": "Predefinito"
+    }, 
+    "Dynamic Alliances": {
+        "message": "Alleanze dinamiche"
+    }, 
+    "Econ Rate": {
+        "message": "Economia"
+    }, 
+    "Empty": {
+        "message": "Vuoto"
+    }, 
+    "Free For All": {
+        "message": "Tutti"
+    }, 
+    "Friends": {
+        "message": "Amici"
+    }, 
+    "Game Lobby": {
+        "message": "Sala d'attesa della partita"
+    }, 
+    "Game Mode": {
+        "message": "Modalità partita"
+    }, 
+    "Global Spectator Chat": {
+        "message": "Chat spettatori globali"
+    }, 
+    "Join": {
+        "message": "Partecipa"
+    }, 
+    "Kick": {
+        "message": "Espelli"
+    }, 
+    "Large Planets": {
+        "message": "Pianeti grandi"
+    }, 
+    "Leave": {
+        "message": "Abbandona"
+    }, 
+    "Open to:": {
+        "message": "Aperta a:"
+    }, 
+    "Password (optional)": {
+        "message": "Password (facoltativa)"
+    }, 
+    "Player Slot": {
+        "message": "Slot giocatore"
+    }, 
+    "Player chooses spot on starting planet": {
+        "message": "Il giocatore può scegliere la posizione sul pianeta"
+    }, 
+    "Players)": {
+        "message": "Giocatori)"
+    }, 
+    "Private": {
+        "message": "Privata"
+    }, 
+    "Public": {
+        "message": "Pubblica"
+    }, 
+    "Random": {
+        "message": "Casuale"
+    }, 
+    "Ready": {
+        "message": "Pronto"
+    }, 
+    "Remove": {
+        "message": "Rimuovi"
+    }, 
+    "Returning to Main Menu": {
+        "message": "Stai per tornare al menu principale"
+    }, 
+    "SHARE ARMY": {
+        "message": "CONDIVIDI ESERCITO"
+    }, 
+    "SPECTATORS": {
+        "message": "SPETTATORI"
+    }, 
+    "Sandbox": {
+        "message": "Sandbox"
+    }, 
+    "Select System": {
+        "message": "Seleziona sistema"
+    }, 
+    "Server Mods": {
+        "message": "Mod del server"
+    }, 
+    "Slot": {
+        "message": "Slot"
+    }, 
+    "Slot __slot_number__": {
+        "message": "Slot __slot_number__"
+    }, 
+    "Slots are empty.": {
+        "message": "Gli slot sono vuoti."
+    }, 
+    "Spectate": {
+        "message": "Assisti"
+    }, 
+    "Spectators": {
+        "message": "Spettatori"
+    }, 
+    "Start Game": {
+        "message": "Avvia partita"
+    }, 
+    "Symmetrical": {
+        "message": "Simmetrica"
+    }, 
+    "System": {
+        "message": "Sistema"
+    }, 
+    "Tag:": {
+        "message": "Tag:"
+    }, 
+    "Team": {
+        "message": "Squadra"
+    }, 
+    "Team Armies": {
+        "message": "Eserciti squadra"
+    }, 
+    "Team __team_number__": {
+        "message": "Squadra __team_number__"
+    }, 
+    "Title": {
+        "message": "Titolo"
+    }, 
+    "You must have friends to play a friends-only game.": {
+        "message": "Devi avere degli amici per giocare a una partita solo per amici."
+    }
+}

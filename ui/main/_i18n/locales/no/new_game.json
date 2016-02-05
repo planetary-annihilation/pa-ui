@@ -1,0 +1,122 @@
+{
+    "- Host": {
+        "message": "- Vert"
+    }, 
+    "AI Commander": {
+        "message": "AI-kommand\u00f8r"
+    }, 
+    "Add AI": {
+        "message": "Legg til AI"
+    }, 
+    "Add AI Commander": {
+        "message": "Legg til AI-kommand\u00f8r"
+    }, 
+    "Add Slot": {
+        "message": "Flere spillere"
+    }, 
+    "Alliance Victory": {
+        "message": "Allianse-seier"
+    }, 
+    "Browse...": {
+        "message": "Bla gjennom..."
+    }, 
+    "CONNECTION TO SERVER LOST": {
+        "message": "SERVERTILKOBLING BRUTT"
+    }, 
+    "Chat": {
+        "message": "Chat"
+    }, 
+    "Cheats": {
+        "message": "Juks"
+    }, 
+    "Dynamic Alliances": {
+        "message": "Dynamiske allianser"
+    }, 
+    "Empty": {
+        "message": "Tom"
+    }, 
+    "Free For All": {
+        "message": "Alle mot alle"
+    }, 
+    "Friends": {
+        "message": "Venner"
+    }, 
+    "Game Lobby": {
+        "message": "Spill-lobby"
+    }, 
+    "Game Mode": {
+        "message": "Kampmodus"
+    }, 
+    "Global Spectator Chat": {
+        "message": "Global tilskuerprat"
+    }, 
+    "Join": {
+        "message": "Delta"
+    }, 
+    "Kick": {
+        "message": "Spark"
+    }, 
+    "Leave": {
+        "message": "Forlat"
+    }, 
+    "New System": {
+        "message": "Nytt system"
+    }, 
+    "Open to:": {
+        "message": "Tilgang:"
+    }, 
+    "Player Slot": {
+        "message": "Spillerplass"
+    }, 
+    "Player chooses spot on starting planet": {
+        "message": "Spiller velger omr\u00e5de p\u00e5 startplaneten "
+    }, 
+    "Players)": {
+        "message": "Spillere)"
+    }, 
+    "Private": {
+        "message": "Privat"
+    }, 
+    "Public": {
+        "message": "\u00c5pen"
+    }, 
+    "Ready": {
+        "message": "Klar"
+    }, 
+    "Remove": {
+        "message": "Fjern"
+    }, 
+    "Returning to Main Menu": {
+        "message": "Returnerer til hovedmenyen"
+    }, 
+    "SHARE ARMY": {
+        "message": "DEL H\u00c6R"
+    }, 
+    "Server Mods": {
+        "message": "Servermods"
+    }, 
+    "Spectate": {
+        "message": "Se p\u00e5"
+    }, 
+    "Spectators": {
+        "message": "Observat\u00f8rer"
+    }, 
+    "Start Game": {
+        "message": "Start kampen"
+    }, 
+    "System": {
+        "message": "System"
+    }, 
+    "Tag:": {
+        "message": "Angivelse:"
+    }, 
+    "Team Armies": {
+        "message": "Lag"
+    }, 
+    "Title": {
+        "message": "Tittel"
+    }, 
+    "You must have friends to play a friends-only game.": {
+        "message": "Du m\u00e5 ha venner for \u00e5 spille en kamp \u00e5pen kun for venner."
+    }
+}

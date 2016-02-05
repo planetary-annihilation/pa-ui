@@ -1,0 +1,119 @@
+{
+    "ABSURD": {
+        "message": "ABSURD"
+    }, 
+    "Active Wars": {
+        "message": "\uc9c4\ud589\uc911\uc778 \uc804\uc7c1"
+    }, 
+    "Annihilate enemies on claimed systems to collect their Tech.": {
+        "message": "Annihilate enemies on claimed systems to collect their Tech."
+    }, 
+    "Annihilated": {
+        "message": "Annihilated"
+    }, 
+    "Annihilation is final.": {
+        "message": "\ub0a8\uae40\uc5c6\uc774 \uc804\uba78\uc2dc\ud0a4\uc2ed\uc2dc\uc624."
+    }, 
+    "Archived Wars": {
+        "message": "Archived Wars"
+    }, 
+    "Choose a loadout to give your Commander different starting Tech configurations.": {
+        "message": "\ub2e4\ub978 \uc2dc\uc791 \uae30\uc220 \uc124\uc815\uc744 \uc704\ud574 \uc9c0\ud718\uad00\uc758 \ub85c\ub4dc\uc544\uc6c3\uc744 \uc120\ud0dd\ud558\uc138\uc694. "
+    }, 
+    "Commander": {
+        "message": "\uc9c0\ud718\uad00"
+    }, 
+    "Details": {
+        "message": "\uc0c1\uc138"
+    }, 
+    "Difficulty:": {
+        "message": "\ub09c\uc774\ub3c4:\\n"
+    }, 
+    "EPIC": {
+        "message": "EPIC"
+    }, 
+    "Explore unclaimed systems to recover Tech.": {
+        "message": "Explore unclaimed systems to recover Tech."
+    }, 
+    "Faction": {
+        "message": "\ud30c\ubc8c"
+    }, 
+    "Go to War": {
+        "message": "\uc804\uc7a5\uc73c\ub85c"
+    }, 
+    "HARD": {
+        "message": "\uc5b4\ub824\uc6c0"
+    }, 
+    "How to Play": {
+        "message": "\uac8c\uc784 \ubc29\ubc95"
+    }, 
+    "LARGE": {
+        "message": "\ub300\ud615"
+    }, 
+    "LOCKED": {
+        "message": "\uc7a0\uae40"
+    }, 
+    "Loadout": {
+        "message": "\ub85c\ub4dc\uc544\uc6c3"
+    }, 
+    "MEDIUM": {
+        "message": "MEDIUM"
+    }, 
+    "Move from star system to star system collecting Techs. Use those Techs to defeat the enemy faction leaders and conquer the galaxy!": {
+        "message": "\uc131\uacc4 \uc0ac\uc774\ub97c \uc624\uac00\uba70 \uae30\uc220\uc744 \uc218\uc9d1\ud558\uace0, \uadf8 \uae30\uc220\ub4e4\uc744 \uc0ac\uc6a9\ud574 \uc801 \uc138\ub825\uacfc \ub9ac\ub354\ub97c \ud328\ubc30\uc2dc\ud0a4\uace0 \uc740\ud558\ub97c \uc815\ubcf5\ud558\ub77c!"
+    }, 
+    "NORMAL": {
+        "message": "\ubcf4\ud1b5"
+    }, 
+    "Name": {
+        "message": "\uc774\ub984"
+    }, 
+    "Navigate the galaxy map by jumping from system to system.": {
+        "message": "Navigate the galaxy map by jumping from system to system."
+    }, 
+    "New Data Banks to store Techs can be found by exploring systems.": {
+        "message": "\ub370\uc774\ud130\ubc45\ud06c\ub294 \uc131\uacc4\ub97c \ud0d0\ud5d8\ud558\ub2e4\uac00 \ubc1c\uacac\ud55c \uae30\uc220\uc744 \ucd94\uac00\ub85c \uc800\uc7a5\ud560 \uc218 \uc788\uc2b5\ub2c8\ub2e4."
+    }, 
+    "New War": {
+        "message": "\uc0c8\ub85c\uc6b4 \uc804\uc7c1"
+    }, 
+    "RELENTLESS": {
+        "message": "RELENTLESS"
+    }, 
+    "SMALL": {
+        "message": "\uc791\uc74c"
+    }, 
+    "Seed Value": {
+        "message": "Seed Value"
+    }, 
+    "Setup": {
+        "message": "Setup"
+    }, 
+    "Size:": {
+        "message": "\ud06c\uae30:"
+    }, 
+    "Some systems have hidden Commander loadouts. Recover them for future Galactic Wars.": {
+        "message": "\uc5b4\ub5a4 \uc2dc\uc2a4\ud15c\uc740 \uc228\uaca8\uc9c4 \uc9c0\ud718\uad00 \ub85c\ub4dc\uc544\uc6c3\uc774 \uc788\uc2b5\ub2c8\ub2e4. \uc740\ud558\uc804\uc7c1\uc758 \ubbf8\ub798\ub97c \uc704\ud574 \ub418\ucc3e\uc73c\uc138\uc694."
+    }, 
+    "Tech can be deleted to make room for new ones to download. Deleted and rejected Techs are lost for the remainder of the Galactic War.": {
+        "message": "Tech can be deleted to make room for new ones to download. Deleted and rejected Techs are lost for the remainder of the Galactic War."
+    }, 
+    "Tip:": {
+        "message": "\ud301:"
+    }, 
+    "Tips": {
+        "message": "\uc870\uc5b8"
+    }, 
+    "Turns:": {
+        "message": "Turns:"
+    }, 
+    "UBER": {
+        "message": "UBER"
+    }, 
+    "Victory": {
+        "message": "\uc2b9\ub9ac"
+    }, 
+    "Wins:": {
+        "message": "\uc2b9\ub9ac:"
+    }
+}

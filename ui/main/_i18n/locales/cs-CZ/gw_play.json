@@ -1,0 +1,86 @@
+{
+    "AI:": {
+        "message": "AI:"
+    }, 
+    "Abandon War": {
+        "message": "Opustit v\u00e1lku"
+    }, 
+    "Card:": {
+        "message": "Karta:"
+    }, 
+    "Data Banks Full": {
+        "message": "Data Banks Full"
+    }, 
+    "Date:": {
+        "message": "Datum:"
+    }, 
+    "Delete Tech": {
+        "message": "Smazat technologii"
+    }, 
+    "Dismiss": {
+        "message": "Rozpustit"
+    }, 
+    "Download Tech": {
+        "message": "St\u00e1hnout technologii"
+    }, 
+    "Duplicate Tech": {
+        "message": "Duplicate Tech"
+    }, 
+    "Exit": {
+        "message": "Konec"
+    }, 
+    "Explore": {
+        "message": "Prozkoumat"
+    }, 
+    "Fight": {
+        "message": "Boj"
+    }, 
+    "Give tech": {
+        "message": "D\u00e1t technologii"
+    }, 
+    "History:": {
+        "message": "Historie:"
+    }, 
+    "Jump": {
+        "message": "Sko\u010dit"
+    }, 
+    "Load game": {
+        "message": "Na\u010d\u00edst hru"
+    }, 
+    "Preparing for battle": {
+        "message": "P\u0159\u00edpraven k boji"
+    }, 
+    "Record:": {
+        "message": "Z\u00e1znam:"
+    }, 
+    "Reject Tech": {
+        "message": "Odm\u00edtnout technologii"
+    }, 
+    "Save": {
+        "message": "Ulo\u017eit"
+    }, 
+    "Scanning System": {
+        "message": "Skenov\u00e1n\u00ed systemu"
+    }, 
+    "Settings": {
+        "message": "Nastaven\u00ed"
+    }, 
+    "TECHS": {
+        "message": "TECH."
+    }, 
+    "To download, open a data bank by deleting an undesired tech.": {
+        "message": "To download, open a data bank by deleting an undesired tech."
+    }, 
+    "Turn State:": {
+        "message": "Oto\u010dit budovu:"
+    }, 
+    "Unlock Commander": {
+        "message": "Odemknout Komand\u00e9ra"
+    }, 
+    "loss": {
+        "message": "Prohra"
+    }, 
+    "win /": {
+        "message": "V\u00edt\u011bzstv\u00ed /"
+    }
+}

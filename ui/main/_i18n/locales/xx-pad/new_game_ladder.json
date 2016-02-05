@@ -1,0 +1,70 @@
+{
+    "1v1": {
+        "message": "1\u04771\u03a9", 
+        "original": "1v1"
+    }, 
+    "Building planets": {
+        "message": "\u0e3f\u0574\u0457\u230a\u0257\u0457\u019e\u0260 \u2374\u230a\u0203\u019e\u1f73\u04ad\u01a8\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9", 
+        "original": "Building planets"
+    }, 
+    "CONNECTION TO SERVER LOST": {
+        "message": "\u04aa\u0472\u019d\u019d\u0190\u04aa\u4e01\u03aa\u0472\u019d \u4e01\u0472 \u1e60\u0190\u211d\u0476\u0190\u211d \u20a4\u0472\u1e60\u4e01\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9", 
+        "original": "CONNECTION TO SERVER LOST"
+    }, 
+    "Cancel": {
+        "message": "\u04aa\u0203\u019e\u03f2\u1f73\u230a\u03a9\u03a9\u03a9", 
+        "original": "Cancel"
+    }, 
+    "Chat": {
+        "message": "\u04aa\u043d\u0203\u04ad\u03a9\u03a9", 
+        "original": "Chat"
+    }, 
+    "Empty": {
+        "message": "\u0190\u028d\u2374\u04ad\u0443\u03a9\u03a9", 
+        "original": "Empty"
+    }, 
+    "Leave": {
+        "message": "\u20a4\u1f73\u0203\u0477\u1f73\u03a9\u03a9", 
+        "original": "Leave"
+    }, 
+    "Leaving the game will result in a match making timeout penalty.": {
+        "message": "\u20a4\u1f73\u0203\u0477\u0457\u019e\u0260 \u04ad\u043d\u1f73 \u0260\u0203\u028d\u1f73 \u1ff4\u0457\u230a\u230a \u0213\u1f73\u01a8\u0574\u230a\u04ad \u0457\u019e \u0203 \u028d\u0203\u04ad\u03f2\u043d \u028d\u0203\u045c\u0457\u019e\u0260 \u04ad\u0457\u028d\u1f73\u020f\u0574\u04ad \u2374\u1f73\u019e\u0203\u230a\u04ad\u0443.\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9", 
+        "original": "Leaving the game will result in a match making timeout penalty."
+    }, 
+    "Main Menu": {
+        "message": "\u039c\u0203\u0457\u019e \u039c\u1f73\u019e\u0574\u03a9\u03a9\u03a9\u03a9", 
+        "original": "Main Menu"
+    }, 
+    "Opponent abandoned the game": {
+        "message": "\u0472\u2374\u2374\u020f\u019e\u1f73\u019e\u04ad \u0203\u0411\u0203\u019e\u0257\u020f\u019e\u1f73\u0257 \u04ad\u043d\u1f73 \u0260\u0203\u028d\u1f73\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9", 
+        "original": "Opponent abandoned the game"
+    }, 
+    "Ranked Match": {
+        "message": "\u211d\u0203\u019e\u045c\u1f73\u0257 \u039c\u0203\u04ad\u03f2\u043d\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9", 
+        "original": "Ranked Match"
+    }, 
+    "Requeue": {
+        "message": "\u211d\u1f73\u0533\u0574\u1f73\u0574\u1f73\u03a9\u03a9\u03a9", 
+        "original": "Requeue"
+    }, 
+    "Returning to Main Menu": {
+        "message": "\u211d\u1f73\u04ad\u0574\u0213\u019e\u0457\u019e\u0260 \u04ad\u020f \u039c\u0203\u0457\u019e \u039c\u1f73\u019e\u0574\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9", 
+        "original": "Returning to Main Menu"
+    }, 
+    "System": {
+        "message": "\u1e60\u0443\u01a8\u04ad\u1f73\u028d\u03a9\u03a9\u03a9", 
+        "original": "System"
+    }, 
+    "Waiting for opponent to connect": {
+        "message": "\u20a9\u0203\u0457\u04ad\u0457\u019e\u0260 \u0493\u020f\u0213 \u020f\u2374\u2374\u020f\u019e\u1f73\u019e\u04ad \u04ad\u020f \u03f2\u020f\u019e\u019e\u1f73\u03f2\u04ad\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9", 
+        "original": "Waiting for opponent to connect"
+    }, 
+    "Warning": {
+        "message": "\u20a9\u0203\u0213\u019e\u0457\u019e\u0260\u03a9\u03a9\u03a9", 
+        "original": "Warning"
+    }, 
+    "Your opponent abandoned the game and has received a time penalty.": {
+        "message": "\u0423\u020f\u0574\u0213 \u020f\u2374\u2374\u020f\u019e\u1f73\u019e\u04ad \u0203\u0411\u0203\u019e\u0257\u020f\u019e\u1f73\u0257 \u04ad\u043d\u1f73 \u0260\u0203\u028d\u1f73 \u0203\u019e\u0257 \u043d\u0203\u01a8 \u0213\u1f73\u03f2\u1f73\u0457\u0477\u1f73\u0257 \u0203 \u04ad\u0457\u028d\u1f73 \u2374\u1f73\u019e\u0203\u230a\u04ad\u0443.\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9", 
+        "original": "Your opponent abandoned the game and has received a time penalty."
+    }
+}

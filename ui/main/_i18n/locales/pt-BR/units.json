@@ -1,0 +1,548 @@
+{
+    "ARKYD": {
+        "message": "ARKYD"
+    }, 
+    "Advanced Air Factory": {
+        "message": "Advanced Air Factory"
+    }, 
+    "Advanced Bot Factory": {
+        "message": "F\u00e1brica de Bots Avan\u00e7ada"
+    }, 
+    "Advanced Combat Fabrication Bot": {
+        "message": "Advanced Combat Fabrication Bot"
+    }, 
+    "Advanced Energy Plant": {
+        "message": "Usina El\u00e9trica Avan\u00e7ada"
+    }, 
+    "Advanced Fab Aircraft": {
+        "message": "Nave Construtora Avan\u00e7ada"
+    }, 
+    "Advanced Fabrication Bot": {
+        "message": "Bot Construtor Avan\u00e7ado"
+    }, 
+    "Advanced Fabrication Ship": {
+        "message": "Nave Construtora Avan\u00e7ada"
+    }, 
+    "Advanced Fabrication Vehicle": {
+        "message": "Ve\u00edculo Construtor Avan\u00e7ado"
+    }, 
+    "Advanced Laser Defense Tower": {
+        "message": "Torre Laser Defensiva Avan\u00e7ada"
+    }, 
+    "Advanced Metal Extractor": {
+        "message": "Extrator de Metal Avan\u00e7ado"
+    }, 
+    "Advanced Naval Factory": {
+        "message": "F\u00e1brica Naval Avan\u00e7ada"
+    }, 
+    "Advanced Radar": {
+        "message": "Radar Avan\u00e7ado"
+    }, 
+    "Advanced Radar Satellite": {
+        "message": "Sat\u00e9lite Radar Avan\u00e7ado"
+    }, 
+    "Advanced Sonar": {
+        "message": "Sonar Avan\u00e7ado"
+    }, 
+    "Advanced Tank: Anti-land and anti-ship guns": {
+        "message": "Advanced Tank: Anti-land and anti-ship guns"
+    }, 
+    "Advanced Torpedo Launcher": {
+        "message": "Advanced Torpedo Launcher"
+    }, 
+    "Advanced Vehicle Factory": {
+        "message": "F\u00e1brica de Ve\u00edculos Avan\u00e7ada"
+    }, 
+    "Advanced artillery- Equipped with long range anti-land, and anti-ship gun.": {
+        "message": "Artilharia avan\u00e7ada - Equipada com armas de longo alcance contra unidades terrestres e navais."
+    }, 
+    "Advanced fabricator combatant- Wired to repair units and build battlefield structures. Can only build units for which it has a blueprint.": {
+        "message": "Construtor avan\u00e7ado de combate - Destinado a reparar unidades e construir estruturas no campo de batalha. Pode apenas construir unidades para as quais j\u00e1 possua projetos."
+    }, 
+    "Advanced fabricator- Builds orbital satellites and ships.": {
+        "message": "Construtor avan\u00e7ado - Constr\u00f3i sat\u00e9lites orbitais e naves."
+    }, 
+    "Advanced fabricator- Wired to build naval structures.": {
+        "message": "Advanced fabricator- Wired to build naval structures."
+    }, 
+    "Advanced fabricator- Wired to build structures.": {
+        "message": "Advanced fabricator- Wired to build structures."
+    }, 
+    "Advanced manufacturing- Builds air units.": {
+        "message": "Advanced manufacturing- Builds air units."
+    }, 
+    "Advanced manufacturing- Builds bots.": {
+        "message": "Advanced manufacturing- Builds bots."
+    }, 
+    "Advanced manufacturing- Builds land vehicles.": {
+        "message": "Advanced manufacturing- Builds land vehicles."
+    }, 
+    "Advanced manufacturing- Builds naval units.": {
+        "message": "Manufatura b\u00e1sica - Constr\u00f3i ve\u00edculos terrestres."
+    }, 
+    "Advanced manufacturing- Builds orbital satellites.": {
+        "message": "Advanced manufacturing- Builds orbital satellites."
+    }, 
+    "Advanced manufacturing- Produces energy.": {
+        "message": "Manufatura avan\u00e7ada - Produz energia."
+    }, 
+    "Advanced manufacturing- Produces metal, can only be placed on metal deposits.": {
+        "message": "Manufatura avan\u00e7ada - Produz metal, apenas pode ser colocado em jazidas de metal."
+    }, 
+    "Advanced radar satellite- Detects a vast area for enemy land, sea, and air units.": {
+        "message": "Sat\u00e9lite radar avan\u00e7ado - Detecta inimigos em uma vasta \u00e1rea. Detecta unidades terrestres, a\u00e9reas e mar\u00edtimas."
+    }, 
+    "Advanced radar- Detects nearby enemy land, sea, and air units.": {
+        "message": "Radar avan\u00e7ado - Detecta inimigos nas proximidades atrav\u00e9s da terra, mar e ar."
+    }, 
+    "Advanced sonar- Detects underwater units.": {
+        "message": "Sonar avan\u00e7ado - Detecta unidades submersas."
+    }, 
+    "Advanced turret- Equipped with anti-air turret.": {
+        "message": "Bateria avan\u00e7ada - Equipada com baterias antia\u00e9reas."
+    }, 
+    "Advanced turret- Equipped with direct fire anti-land, and anti-ship defenses.": {
+        "message": "Bateria avan\u00e7ada - Equipada com defesas contra unidades terrestres e mar\u00edtimas."
+    }, 
+    "Air Factory": {
+        "message": "F\u00e1brica A\u00e9rea"
+    }, 
+    "Air Transport- Load a land unit for rapid long distance travel.": {
+        "message": "Transporte A\u00e9reo - Carrega e aterrissa unidades em um longo trajeto. "
+    }, 
+    "All Terrain Bot: Can crawl almost anywhere.": {
+        "message": "Bot para todos os terrenos: Pode se arrastar para qualquer lugar."
+    }, 
+    "Analysis: Controls things. Big things.": {
+        "message": "An\u00e1lise: Controla coisas. Coisas enormes."
+    }, 
+    "Anchor": {
+        "message": "Anchor"
+    }, 
+    "Ant": {
+        "message": "Ant"
+    }, 
+    "Anti-Nuke Launcher": {
+        "message": "Lan\u00e7ador Anti-Ogiva"
+    }, 
+    "Anti-nuke - Intercepts incoming nuclear missiles.": {
+        "message": "Anti ogiva - Intercepta m\u00edsseis nucleares a caminho."
+    }, 
+    "Anti-nuke launcher- Equipped with advanced anti-nuclear missile weapon.": {
+        "message": "Anti-nuke launcher- Equipped with advanced anti-nuclear missile weapon."
+    }, 
+    "Artillery ship- Long range advanced guided missiles.": {
+        "message": "Artillery ship- Long range advanced guided missiles."
+    }, 
+    "Assault bot- Equipped with advanced anti-land and anti-ship lasers.": {
+        "message": "Bot de assalto - Equipado com lasers avan\u00e7ados contra unidades terrestres e navais."
+    }, 
+    "Assault bot- Equipped with basic anti-land and anti-ship lasers.": {
+        "message": "Assault bot- Equipped with basic anti-land and anti-ship lasers."
+    }, 
+    "Assault: Anti-land and anti-ship lasers": {
+        "message": "Assault: Anti-land and anti-ship lasers"
+    }, 
+    "Astraeus": {
+        "message": "Astraeus"
+    }, 
+    "Avenger": {
+        "message": "Vingador"
+    }, 
+    "Barracuda": {
+        "message": "Barracuda"
+    }, 
+    "Basic artillery- Equipped with medium range anti-land, and anti-ship gun.": {
+        "message": "Artilharia b\u00e1sica - Equipada com armas de m\u00e9dio alcance contra unidades terrestres e mar\u00edtimas."
+    }, 
+    "Basic defense- No weapon, high health.": {
+        "message": "Defesa b\u00e1sica - Sem armas, alta durabilidade."
+    }, 
+    "Basic fabricator combatant- Wired to build mines and repair units. Can only build units for which it has a blueprint.": {
+        "message": "Construtor b\u00e1sico de combate - Destinado a depositar minas e reparar unidades. Pode apenas construir unidades para as quais j\u00e1 possu\u00ed projetos."
+    }, 
+    "Basic fabricator- Wired to build naval structures.": {
+        "message": "Construtor b\u00e1sico - Destinado a construir estruturas navais."
+    }, 
+    "Basic fabricator- Wired to build structures.": {
+        "message": "Basic fabricator- Wired to build structures."
+    }, 
+    "Basic manufacturing- Builds air units.": {
+        "message": "Basic manufacturing- Builds air units."
+    }, 
+    "Basic manufacturing- Builds and launches satellites and other units.": {
+        "message": "Manufatura b\u00e1sica - Constr\u00f3i e lan\u00e7a sat\u00e9lites e outras unidades."
+    }, 
+    "Basic manufacturing- Builds bots.": {
+        "message": "Basic manufacturing- Builds bots."
+    }, 
+    "Basic manufacturing- Builds land vehicles.": {
+        "message": "Montador b\u00e1sico - Constr\u00f3i ve\u00edculos terrestres."
+    }, 
+    "Basic manufacturing- Builds naval units.": {
+        "message": "Basic manufacturing- Builds naval units."
+    }, 
+    "Basic manufacturing- Produces energy.": {
+        "message": "Basic manufacturing- Produces energy."
+    }, 
+    "Basic manufacturing- Produces metal, can only be placed on metal deposits.": {
+        "message": "Manufatura b\u00e1sica - Produz metal, pode ser apenas constru\u00eddo em jazidas de metal."
+    }, 
+    "Basic radar satellite- Detects a large area for enemy land, sea, and air units.": {
+        "message": "Sat\u00e9lite radar b\u00e1sico - Detecta inimigos em uma grande \u00e1rea atrav\u00e9s em terra, ar ou mar."
+    }, 
+    "Basic radar- Detects nearby enemy land, sea, and air units.": {
+        "message": "Radar b\u00e1sico - Detecta unidades em terra, ar ou mar nas proximidades."
+    }, 
+    "Basic sonar- Detects underwater units.": {
+        "message": "Basic sonar- Detects underwater units."
+    }, 
+    "Basic turret- Equipped with anti-air missiles.": {
+        "message": "Bateria b\u00e1sica - Equipada com m\u00edsseis antia\u00e9reos."
+    }, 
+    "Basic turret- Equipped with direct fire anti-land, and anti-ship defenses.": {
+        "message": "Basic turret- Equipped with direct fire anti-land, and anti-ship defenses."
+    }, 
+    "Battleship- Long range advanced anti-ship, and anti-land guns.": {
+        "message": "Encoura\u00e7ado - Armas de longo alcance contra unidades navais e terrestres."
+    }, 
+    "Bluehawk": {
+        "message": "Bluehawk"
+    }, 
+    "Bolo": {
+        "message": "Bolo"
+    }, 
+    "Bomb bot- Equipped with Self Destruction mechanism.": {
+        "message": "Bot Suicida - Equipado com mecanismos de autodestrui\u00e7\u00e3o."
+    }, 
+    "Bomber- Equipped with advanced anti-land and anti-naval tactical missiles.": {
+        "message": "Bombardeiro - Equipado com m\u00edsseis avan\u00e7ados contra unidades terrestres e mar\u00edtimas."
+    }, 
+    "Bomber- Equipped with basic anti-land and anti-naval bombs.": {
+        "message": "Bombardeiro - Equipado com bombas b\u00e1sicas contra unidades terrestres e navais."
+    }, 
+    "Boom": {
+        "message": "Boom"
+    }, 
+    "Bot Factory": {
+        "message": "Bot Factory"
+    }, 
+    "Bumblebee": {
+        "message": "Blumblebee"
+    }, 
+    "Catalyst": {
+        "message": "Catalyst"
+    }, 
+    "Catapult": {
+        "message": "Catapulta"
+    }, 
+    "Combat Fabrication Bot": {
+        "message": "Bot Construtor de Combate"
+    }, 
+    "Combat bot- Equipped with basic anti-air missiles.": {
+        "message": "Combat bot- Equipped with basic anti-air missiles."
+    }, 
+    "Combat vehicle- Equipped with basic anti-air missiles.": {
+        "message": "Combat vehicle- Equipped with basic anti-air missiles."
+    }, 
+    "Defense satellite- Heavy orbital offensive and defensive platform with basic laser.": {
+        "message": "Sat\u00e9lite defensivo - Plataforma ofensiva e defensiva pesada equipada com lasers b\u00e1sicos."
+    }, 
+    "Delta V Engine- Used to move small to medium celestial bodies.": {
+        "message": "Motor V Delta - Usado para mover corpos celestiais pequenos ou m\u00e9dios."
+    }, 
+    "Destroyer- Basic anti-land and anti-ship guns.": {
+        "message": "Contratorpedeiro - Armas b\u00e1sicas contra unidades terrestres e navais."
+    }, 
+    "Dolphin": {
+        "message": "Dolphin"
+    }, 
+    "Dox": {
+        "message": "Dox"
+    }, 
+    "Energy Plant": {
+        "message": "Usina El\u00e9trica"
+    }, 
+    "Energy Storage": {
+        "message": "Energy Storage"
+    }, 
+    "Fabrication Aircraft": {
+        "message": "Fabrication Aircraft"
+    }, 
+    "Fabrication Bot": {
+        "message": "Bot Construtor"
+    }, 
+    "Fabrication Ship": {
+        "message": "Navio Construtor"
+    }, 
+    "Fabrication Sub": {
+        "message": "Construtor Submarino"
+    }, 
+    "Fabrication Vehicle": {
+        "message": "Ve\u00edculo de Fabrica\u00e7\u00e3o"
+    }, 
+    "Fabricator: Builds naval structures": {
+        "message": "Construtor: Constr\u00f3i estruturas navais"
+    }, 
+    "Fighter- Equipped with advanced anti-air missiles.": {
+        "message": "Ca\u00e7a - Equipado com m\u00edsseis antia\u00e9reos avan\u00e7ados."
+    }, 
+    "Fighter- Equipped with basic anti-air missiles.": {
+        "message": "Ca\u00e7a - Equipado com m\u00edsseis antia\u00e9reos b\u00e1sicos."
+    }, 
+    "Firefly": {
+        "message": "Firefly"
+    }, 
+    "Flak Cannon": {
+        "message": "Flak Cannon"
+    }, 
+    "Flame tank- Short ranged, heavy armored vehicle.": {
+        "message": "Flame tank- Short ranged, heavy armored vehicle."
+    }, 
+    "Flux": {
+        "message": "Fluxo"
+    }, 
+    "Frigate- Basic anti-air missiles and anti-ship guns.": {
+        "message": "Fragata - M\u00edsseis antia\u00e9reos e armas contra unidades navais."
+    }, 
+    "Galata Turret": {
+        "message": "Bateria Galata"
+    }, 
+    "Gas mining and metal creation satellite. Only works above gas giant planets.": {
+        "message": "Gas mining and metal creation satellite. Only works above gas giant planets."
+    }, 
+    "Gil-E": {
+        "message": "Gil-E"
+    }, 
+    "Grenadier": {
+        "message": "Granadeiro"
+    }, 
+    "Grenadier- Basic assault weapons dealing area effect damage.": {
+        "message": "Granadeiro - Armas b\u00e1sicas de assalto com dano em \u00e1rea."
+    }, 
+    "Gunboat- Light weaponry, fast speed": {
+        "message": "Batedor - R\u00e1pido e com armas leves."
+    }, 
+    "Gunship- Equipped with strong anti-ground. No anti-air capabilities.": {
+        "message": "Gunship - Equipado poderosas armas contra unidades terrestres. N\u00e3o possu\u00ed armamentos antia\u00e9reo."
+    }, 
+    "Halley": {
+        "message": "Halley"
+    }, 
+    "Heavy tank- Advanced short range, heavily armored vehicle.": {
+        "message": "Heavy tank- Advanced short range, heavily armored vehicle."
+    }, 
+    "Holkins": {
+        "message": "Holkins"
+    }, 
+    "Hornet": {
+        "message": "Hornet"
+    }, 
+    "Hummingbird": {
+        "message": "Hummingbird"
+    }, 
+    "Inferno": {
+        "message": "Inferno"
+    }, 
+    "Ion defense platform- Designed to take out orbital units above it.": {
+        "message": "Plataforma Defensiva Ion - Projetada para destruir unidades orbitais e al\u00e9m."
+    }, 
+    "Jellyfish": {
+        "message": "Jellyfish"
+    }, 
+    "Jig": {
+        "message": "Jig"
+    }, 
+    "Kestrel": {
+        "message": "Kestrel"
+    }, 
+    "LR-96 -Pacifier- Missile": {
+        "message": "LR-96 -Pacifier-Missile"
+    }, 
+    "Land Mine": {
+        "message": "Land Mine"
+    }, 
+    "Land mine- Detonates when enemy units are in proximity.": {
+        "message": "Mina terrestre - Detona\u00e7\u00e3o por proximidade de unidades inimigas."
+    }, 
+    "Laser Defense Tower": {
+        "message": "Torre Laser Defensiva"
+    }, 
+    "Laser tank- Equipped with advanced anti-land and anti-ship guns.": {
+        "message": "Tanque laser - Equipado com armas avan\u00e7adas contra unidades terrestres e navais."
+    }, 
+    "Leveler": {
+        "message": "Leveler"
+    }, 
+    "Leviathan": {
+        "message": "Leviathan"
+    }, 
+    "Light tank- Equipped with basic anti-land and anti-ship guns.": {
+        "message": "Tanque leve - Equipado com armas b\u00e1sicas contra ve\u00edculos terrestres e a\u00e9reos."
+    }, 
+    "Manufacturing- Increases maximum energy storage capacity.": {
+        "message": "Manufatura - Aumenta a capacidade m\u00e1xima de energia armazenada."
+    }, 
+    "Manufacturing- Increases maximum metal storage capacity.": {
+        "message": "Manufacturing- Increases maximum metal storage capacity."
+    }, 
+    "Manufacturing- Orbital energy generation.": {
+        "message": "Manufatura - Gera\u00e7\u00e3o de energia orbital."
+    }, 
+    "Metal Extractor": {
+        "message": "Extrator de Metal"
+    }, 
+    "Metal Storage": {
+        "message": "Dep\u00f3sito de Metal"
+    }, 
+    "Mortar tank- Equipped with advanced mobile artillery.": {
+        "message": "Tanque morteiro - Equipado com artilharia m\u00f3vel avan\u00e7ada."
+    }, 
+    "Narwhal": {
+        "message": "Narwhal"
+    }, 
+    "Naval Factory": {
+        "message": "F\u00e1brica Naval"
+    }, 
+    "Nuclear Missile Launcher": {
+        "message": "Lan\u00e7ador de M\u00edsseis Nucleares"
+    }, 
+    "Nuclear missile - Long range, large area damage, projectile": {
+        "message": "M\u00edssil nuclear - Proj\u00e9til de longo alcance e de grande \u00e1rea de impacto."
+    }, 
+    "Nuclear missile launcher- Equipped with advanced long range, large area damage, nuclear missile.": {
+        "message": "Nuclear missile launcher- Equipped with advanced long range, large area damage, nuclear missile."
+    }, 
+    "Orbital Fabrication Bot": {
+        "message": "Orbital Fabrication Bot"
+    }, 
+    "Orbital Factory": {
+        "message": "F\u00e1brica Orbital"
+    }, 
+    "Orbital Launcher": {
+        "message": "Lan\u00e7ado Orbital"
+    }, 
+    "Orbital and Deepspace Radar": {
+        "message": "Radar Orbital de Longo Alcance"
+    }, 
+    "Orbital and deepspace radar- Orbital and Celestial radar telemetry.": {
+        "message": "Radar orbital de longo alcance - Telemetria orbital e celestial."
+    }, 
+    "Orbital fighter- Fast moving orbital fighter for offense and defense.": {
+        "message": "Ca\u00e7a orbital - Ca\u00e7a orbital \u00e1gil de ataque e defesa."
+    }, 
+    "Orbital lander- Load it up, get units to other planets.": {
+        "message": "Orbital lander- Load it up, get units to other planets."
+    }, 
+    "Orbital laser platform- Rains death from above.": {
+        "message": "Orbital laser platform- Rains death from above."
+    }, 
+    "Orca": {
+        "message": "Orca"
+    }, 
+    "Pelican": {
+        "message": "Pelicano"
+    }, 
+    "Pelter": {
+        "message": "Pelter"
+    }, 
+    "Peregrine": {
+        "message": "Peregrine"
+    }, 
+    "Radar": {
+        "message": "Radar"
+    }, 
+    "Recluse": {
+        "message": "Recluso"
+    }, 
+    "SR-24 -Shield- Missile Defense": {
+        "message": "SR-24-Escudo- M\u00edsseis Defensivos"
+    }, 
+    "SXX-1304 Laser Platform": {
+        "message": "SXX-1304 Plataforma Laser"
+    }, 
+    "Scout- Weak, fast speed.": {
+        "message": "Batedor - Fraco, r\u00e1pido."
+    }, 
+    "Sea mine- Detonates when ships are in proximity.": {
+        "message": "Mina naval - Detona\u00e7\u00e3o por proximidade."
+    }, 
+    "Sheller": {
+        "message": "Sheller"
+    }, 
+    "Single Laser Defense Tower": {
+        "message": "Torre Defensiva de Laser \u00danico"
+    }, 
+    "Skitter": {
+        "message": "Skitter"
+    }, 
+    "Slammer": {
+        "message": "Slammer"
+    }, 
+    "Sniper- Long range advanced anti-land, and anti-ship bot.": {
+        "message": "Franco-atirador - Bot avan\u00e7ado de longo alcance contra unidades terrestres e mar\u00edtimas. "
+    }, 
+    "Solar Array": {
+        "message": "Solar Array"
+    }, 
+    "Sonar": {
+        "message": "Sonar"
+    }, 
+    "Spinner": {
+        "message": "Spinner"
+    }, 
+    "Stinger": {
+        "message": "Stinger"
+    }, 
+    "Stingray": {
+        "message": "Stingray"
+    }, 
+    "Sub Class: Anti-sub and anti-ship torpedoes, long range ballistic nuclear missile": {
+        "message": "Sub Class: Anti-sub and anti-ship torpedoes, long range ballistic nuclear missile"
+    }, 
+    "Submarine Class: Anti-sub and anti-ship torpedoes": {
+        "message": "Classe Submarino: Torpedos contra unidades submarinas e navais"
+    }, 
+    "Tactical missile bot- Medium range advanced artillery bot.": {
+        "message": "Bot de m\u00edssil t\u00e1tico - Bot de artilharia com alcance m\u00e9dio."
+    }, 
+    "Tactical missile launcher- Equipped with advanced long range anti-land missile launcher.": {
+        "message": "Lan\u00e7ador de m\u00edsseis t\u00e1ticos - Equipado com lan\u00e7adores de m\u00edsseis avan\u00e7ado de longo alcance contra unidades terrestres."
+    }, 
+    "Tank: Anti-land and anti-ship guns": {
+        "message": "Tanque: Armas contra unidades terrestres e a\u00e9reas."
+    }, 
+    "Teleporter": {
+        "message": "Teleporter"
+    }, 
+    "Teleporter: Teleports units from one to another.": {
+        "message": "Teletransporte: Teletransporta unidades de um local ao outro."
+    }, 
+    "Torpedo Launcher": {
+        "message": "Torpedo Launcher"
+    }, 
+    "Torpedo Launcher- Advanced anti-ship defense.": {
+        "message": "Lan\u00e7ador de Torpedos - Defesas avan\u00e7adas contra unidades navais."
+    }, 
+    "Torpedo Launcher- Basic anti-ship defense.": {
+        "message": "Lan\u00e7ador de Torpedos - Defesas b\u00e1sicas contra unidades mar\u00edtimas."
+    }, 
+    "Umbrella": {
+        "message": "Umbrella"
+    }, 
+    "Unit Cannon": {
+        "message": "Unit Cannon"
+    }, 
+    "Unit Cannon: Long range unit dispersal": {
+        "message": "Canh\u00e3o de Unidade: unidade de dispers\u00e3o de longo alcance"
+    }, 
+    "Vanguard": {
+        "message": "Vanguard"
+    }, 
+    "Vehicle Factory": {
+        "message": "F\u00e1brica de Ve\u00edculos"
+    }, 
+    "Wall": {
+        "message": "Muro"
+    }
+}

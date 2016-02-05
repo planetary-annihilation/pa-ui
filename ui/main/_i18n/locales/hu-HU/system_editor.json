@@ -1,0 +1,107 @@
+{
+    "Accept": {
+        "message": "Elfogad"
+    }, 
+    "CLEAR SYSTEM": {
+        "message": "NAPRENDSZER KI\u00dcR\u00cdT\u00c9SE"
+    }, 
+    "CLOSE": {
+        "message": "BEZ\u00c1R\u00c1S"
+    }, 
+    "Cancel": {
+        "message": "M\u00e9gse"
+    }, 
+    "Discard": {
+        "message": "Elvet\u00e9s"
+    }, 
+    "Do you want to save this system?": {
+        "message": "Szeretn\u00e9d elmenteni ezt a rendszert?"
+    }, 
+    "EDIT PLANET": {
+        "message": "BOLYG\u00d3 SZERKESZT\u00c9SE"
+    }, 
+    "HIDE": {
+        "message": "ELREJT\u00c9S"
+    }, 
+    "Height": {
+        "message": "Magass\u00e1g"
+    }, 
+    "MY PLANETS": {
+        "message": "BOLYG\u00d3IM"
+    }, 
+    "Mass": {
+        "message": "T\u00d6MEG"
+    }, 
+    "NAME:": {
+        "message": "N\u00c9V:"
+    }, 
+    "PREVIEW ALL": {
+        "message": "\u00d6SSZES EL\u0150N\u00c9ZETE"
+    }, 
+    "Position": {
+        "message": "POZ\u00cdCI\u00d3"
+    }, 
+    "RECENT": {
+        "message": "LEGUT\u00d3BBI"
+    }, 
+    "REMOVE": {
+        "message": "ELT\u00c1VOL\u00cdT\u00c1S"
+    }, 
+    "Radius": {
+        "message": "SUG\u00c1R"
+    }, 
+    "SAVE SYSTEM": {
+        "message": "NAPRENDSZER MENT\u00c9SE"
+    }, 
+    "SHOW": {
+        "message": "MUTAT\u00c1S"
+    }, 
+    "SIMULATE": {
+        "message": "SZIMUL\u00c1CI\u00d3"
+    }, 
+    "SYSTEM DESIGNER": {
+        "message": "NAPRENDSZER TERVEZ\u0150"
+    }, 
+    "Save": {
+        "message": "Ment\u00e9s"
+    }, 
+    "System has no starting planet.": {
+        "message": "A naprendszernek nincs kezd\u0151bolyg\u00f3ja."
+    }, 
+    "System radius is too large.": {
+        "message": "A rendszer sugara t\u00fal nagy."
+    }, 
+    "System radius is too small.": {
+        "message": "A rendszer sugara t\u00fal kicsi."
+    }, 
+    "TEMPLATES": {
+        "message": "SABLONOK"
+    }, 
+    "Temp": {
+        "message": "Kl\u00edma"
+    }, 
+    "The planet is loading. This can take a long time.": {
+        "message": "A bolyg\u00f3 t\u00f6lt\u0151dik. Ez eltarthat egy darabig."
+    }, 
+    "The program will be unresponsive until the planet has finished.": {
+        "message": "A program nem v\u00e1laszol am\u00edg a bolyg\u00f3 nincs k\u00e9sz."
+    }, 
+    "The system has been changed since it was last saved.": {
+        "message": "A rendszer megv\u00e1ltozott a legutols\u00f3 ment\u00e9s \u00f3ta."
+    }, 
+    "The system has not been saved.": {
+        "message": "A naprendszer nem lett elmentve."
+    }, 
+    "Velocity": {
+        "message": "SEBESS\u00c9G"
+    }, 
+    "Water": {
+        "message": "V\u00edz"
+    }, 
+    "X:": {
+        "message": "X:"
+    }, 
+    "Y:": {
+        "message": "Y:"
+    }
+}

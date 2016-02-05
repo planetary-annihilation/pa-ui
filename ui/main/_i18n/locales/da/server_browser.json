@@ -1,0 +1,95 @@
+{
+    "AI Battle": {
+        "message": "AI Battle"
+    }, 
+    "Any": {
+        "message": "Any"
+    }, 
+    "Casual": {
+        "message": "Casual"
+    }, 
+    "Competitive": {
+        "message": "Competitive"
+    }, 
+    "Create Game": {
+        "message": "Start Et Spil"
+    }, 
+    "Free For All": {
+        "message": "Alle mod alle"
+    }, 
+    "Game": {
+        "message": "Spillet"
+    }, 
+    "Game State": {
+        "message": "Game State"
+    }, 
+    "In Lobby": {
+        "message": "I Lobby"
+    }, 
+    "In Progress": {
+        "message": "Igang"
+    }, 
+    "Join Game": {
+        "message": "Deltag i Spil"
+    }, 
+    "Locked Game": {
+        "message": "L\u00e5st Spil"
+    }, 
+    "Mod": {
+        "message": "Mod"
+    }, 
+    "Mode": {
+        "message": "Spiltype"
+    }, 
+    "Mods": {
+        "message": "Mods"
+    }, 
+    "Multiplayer": {
+        "message": "Multiplayer"
+    }, 
+    "No max": {
+        "message": "No max"
+    }, 
+    "No min": {
+        "message": "No min"
+    }, 
+    "Number of Planets": {
+        "message": "Number of Planets"
+    }, 
+    "Number of Players": {
+        "message": "Number of Players"
+    }, 
+    "Password": {
+        "message": "Kodeord"
+    }, 
+    "Planets": {
+        "message": "Planeter"
+    }, 
+    "Players": {
+        "message": "Spillere"
+    }, 
+    "Region": {
+        "message": "Omr\u00e5de"
+    }, 
+    "Slots": {
+        "message": "Pladser"
+    }, 
+    "Spectate": {
+        "message": "V\u00e6r tilskuer"
+    }, 
+    "Spectators": {
+        "message": "Tilskuere"
+    }, 
+    "Status": {
+        "message": "Status"
+    }, 
+    "Tag": {
+        "message": "Tag"
+    }, 
+    "Team Armies": {
+        "message": "Hold"
+    }, 
+    "Testing": {
+        "message": "Testing"
+    }
+}

@@ -1,0 +1,119 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <meta locns="live_game" />
+        <noloc><title>Live Game: Build Bar</title></noloc>
+        <link href="bundle://boot/boot.css" rel="stylesheet" type="text/css" />
+        <link href="live_game_build_bar.css" rel="stylesheet" type="text/css" />
+        <script src="bundle://boot/boot.js" type="text/javascript"></script>
+        <script src="coui://ui/main/shared/js/build.js" type="text/javascript"></script>
+		<script src="./js/preview.js" type="text/javascript"></script>
+        <script src="live_game_build_bar.js" type="text/javascript"></script>
+    </head>
+    <body class="body_panel">
+        <body-dock>
+        <svg xmlns="http://www.w3.org/2000/svg" version="1.1" x="0" y="0" width="0" height="0">
+            <defs>
+                <filter id="xfrm_green" x="0" y="0" width="100%" height="100%">
+                    <feColorMatrix  result="mat2" in="SourceGraphic"
+                        type="matrix"
+                        values= "0  0   0   0   0
+                                 0  1   0   0   0
+                                 0  0   0   0   0
+                                 1  1  -1   1   0" />
+                </filter>
+                <filter id="xfrm_red" x="0" y="0" width="100%" height="100%">
+                    <feColorMatrix  result="mat2" in="SourceGraphic"
+                        type="matrix"
+                        values= "0  1   0   0   0
+                                 0  0   0   0   0
+                                 0  0   0   0   0
+                                 1  1  -1   1   0" />
+                </filter>
+                <filter id="xfrm_black" x="0" y="0" width="100%" height="100%">
+                    <feColorMatrix  result="mat2" in="SourceGraphic"
+                        type="matrix"
+                        values= "0  .2   0   0   0
+                                 0  .2   0   0   0
+                                 0  .2   0   0   0
+                                 1  1  -1   1   0" />
+                </filter>
+                <filter id="xfrm_white" x="0" y="0" width="100%" height="100%">
+                    <feColorMatrix  result="mat2" in="SourceGraphic"
+                        type="matrix"
+                        values= "0  1   0   0   0
+                                 0  1   0   0   0
+                                 0  1   0   0   0
+                                 1  1  -1   1   0" />
+                </filter>
+
+                <filter id="maskfilter">
+                    <feColorMatrix in="SourceAlpha" type="matrix"
+                                   values="0 0 0 1 0
+                                           0 0 0 1 0
+                                           0 0 0 1 0
+                                           0 0 0 1 0"></feColorMatrix>
+                </filter>
+
+                <mask id="player-mask">
+                    <image width="12px" height="12px" xlink:href="img/players_list_panel/icon_player_fill.png" filter="url(#maskfilter)"></image>
+                </mask>
+            </defs>
+        </svg>
+
+        <div class="div_build_bar_hide" style="display: none" data-bind="visible: showBuildBar">
+            <div class="div_build_bar_menu_cont ignoreMouse">
+                <div class="div_build_bar_menu_tabs">
+                    <!-- ko foreach: buildSet() && buildSet().tabs() -->
+                    <div class="div_build_bar_page"
+                         data-bind="css: { 'active_build_tab': active, 'inactive_build_tab': !active, div_short_build_bar_page: $data.skipLastRow(), div_long_build_bar_page: !$data.skipLastRow() }, visible: visible">
+                        <!-- ko foreach: items -->
+                        <div data-bind="visible: $data.visible()">
+                            <div class="div_build_item receiveMouse" data-bind="visible: empty, rollover_sound_exclusive: { sound: 'default', group: $index() }">
+                                <span class="img_build_unit" src="img/build_bar/img_blank.png"></span>
+                            </div>
+                            <div class="div_build_item receiveMouse" data-bind="
+                                        visible: filled,
+                                        event: {
+                                            mouseover: function () { model.setBuildHover($data.id) },
+                                            mouseout: model.clearBuildHover,
+                                            mousedown: function (data, event) { model.executeStartBuild(event, $data) }
+                                        },
+                                        css: { active: active },
+                                        rollover_sound_exclusive: { sound: 'default', group: $index() }"
+                                    ">
+                                <span class="span_build_count stat_num" data-bind="text: count, visible: count"></span>
+                                <span class="span_hotkey" data-bind="text: hotkey, visible: hotkey"></span>
+                                <img class="img_build_unit" data-bind="attr: { src: buildIcon }" />
+                            </div>
+                        </div>
+                        <!-- /ko  -->
+                    </div>
+                    <!-- /ko  -->
+                </div>
+            </div>
+            <div class="div_build_bar_tab_cont receiveMouse">
+                <div class="div_build_bar_tab_background">
+                    <div class="div_build_bar_tab_background_inner">
+                        <div class="tab_grp">
+                            <!-- ko foreach: buildSet() && buildSet().tabs() -->
+                            <span class="tab_grp_body" data-bind="visible: visible">
+                                <span class="span_build_bar_tab"
+                                    data-bind="
+                                    css: { span_build_bar_tab_active: active },
+                                    click: function () { $root.selectBuildGroup($data.group()); },
+                                    click_sound: 'default', rollover_sound: 'default'">
+                                    <span class="span_hotkey tab" data-bind="text: $data.hotkey(), visible: $data.hotkey()"></span>
+                                    <span class="span_build_bar_tab_label" data-bind="text: loc($data.label())"></span>
+                                </span>
+                            </span>
+                            <!-- /ko  -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </body-dock>
+    </body>
+</html>

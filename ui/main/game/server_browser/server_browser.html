@@ -1,0 +1,496 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta content="text/html; charset=utf-8" http-equiv="Content-Type" />
+<noloc><title>Game Browser</title></noloc>
+<link href="bundle://boot/boot.css" rel="stylesheet" type="text/css" />
+<link href="coui://ui/main/shared/css/landing_page.css" rel="stylesheet" type="text/css" />
+<link href="server_browser.css" rel="stylesheet" type="text/css" />
+<script src="bundle://boot/boot.js" type="text/javascript"></script>
+<script src="server_browser.js" type="text/javascript"></script>
+</head>
+<body>
+<!--- VISUAL TREATMENTS ---->
+<!-- TITLE -->
+<div class="section_title">
+    <div class="content">
+        <div class="btn_std_ix btn_back_small" data-bind="click: back">
+            <span class="glyphicon glyphicon-chevron-left carat"></span>
+        </div>
+        <div class="title">
+            <loc>Multiplayer</loc>
+        </div>
+        <div class="content_titans_badge" style="display: none;" data-bind="visible: api.content.usingTitans">
+        </div>
+    </div>
+</div>
+<!-- CONTENT --->
+<div class="section_content_top_bar"> <!-- FOR TABS -->
+</div>
+<div class="section_content">
+<div class="section_content_table overall_width">
+    <div class="section_wrapper">
+        <!-- ko if: !remoteServerAvailable() && !failedToRetrieveGameList() -->
+        <div class="server_message_bar"><loc>No connection to PlayFab servers was found. New games will be hosted locally.</loc></div>
+        <!-- /ko -->
+        <!-- ko if: failedToRetrieveGameList -->
+        <div class="server_message_bar"><loc>Could not retrieve game list because no network connection could be found.</loc></div>
+        <!-- /ko -->
+        <div class="column_wrapper">
+            <!-- COL 1-->
+            <div class="col_1">
+                <div class="section_controls">
+                    <div style="border-bottom: 1px solid #333; margin: 8px 0px;">
+                        <div class="btn_std" id="Div1" style="width:100%;" data-bind="css: { btn_std_disabled: !canCreateGame() }, click: createGame">
+                            <div class="btn_label" style="">
+                                <loc>Create Game</loc>
+                            </div>
+                        </div>
+
+                        <!-- ko if: $root.disableServerOption -->
+                        <label class="label_checkbox label_checkbox_disabled" data-bind="click_sound: 'default', rollover_sound: 'default'">
+                            <input type="checkbox" disabled data-bind="checked: doCreateLocalGame"/>
+                                <loc>Host game locally</loc>
+                        </label>
+                        <!-- /ko -->
+
+                        <!-- ko ifnot: $root.disableServerOption -->
+                        <label class="label_checkbox" data-bind="click_sound: 'default', rollover_sound: 'default'">
+                            <input type="checkbox" data-bind="checked: doCreateLocalGame"/>
+                                <loc>Host game locally</loc>
+                        </label>
+                        <!-- /ko -->
+
+                    </div>
+
+                    <div class="form-group" data-bind="visible: hasUberNetRegions">
+                        <label for="region-filter">
+                            <loc>Region</loc>
+                        </label>
+                        <select class="selectpicker form-control" id="Select1"
+                            data-bind="options: regionNameList, selectPicker: regionFilter">
+                        </select>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="planets">
+                            <loc>Game State</loc>
+                        </label>
+                        <select class="selectpicker form-control" id="Select2" name="game-state" data-bind="selectPicker: gameStateFilter">
+
+                            <option value="any">Any</option>
+
+                            <option value="inlobby">In Lobby</option>
+
+                            <option value="inprogress">In Progress</option>
+                        </select>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="game-status">
+                            <loc>Status</loc>
+                        </label>
+                        <select class="selectpicker form-control" id="game-status" name="game-status" data-bind="selectPicker: gameStatusFilter">
+                            <option value="any">Any</option>
+
+                            <option value="canplay">Can Play</option>
+
+                            <option value="canspectate">Can Spectate</option>
+
+                            <option value="canjoin">Can Join</option>
+                        </select>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="game-mode">
+                            <loc>Mode</loc>
+                        </label>
+                        <select class="selectpicker form-control" id="game-mode" name="game-mode" data-bind="selectPicker: gameModeFilter">
+                            <option value="any">Any</option>
+
+                            <option value="freeforall">Free For All</option>
+
+                            <option value="teamarmies">Team Armies</option>
+                        </select>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="bounty-mode">
+                            <loc>Bounty Mode</loc>
+                        </label>
+                        <select class="selectpicker form-control" id="bounty-mode" name="bounty-mode" data-bind="options: bountyModeFilterOptions, optionsText: bountyModeFilterOptionText, selectPicker: bountyModeFilter">
+                        </select>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="planets">
+                            <loc>Number of Planets</loc>
+                        </label>
+                        <div class="filter_controls">
+                            <div class="count_filters">
+                                <select class="form-control selectpicker" name="planets_min" data-bind="selectPicker: planetCountMinFilter">
+                                    <option value="any">No min</option>
+                                    <option value="2">2</option>
+                                    <option value="3">3</option>
+                                    <option value="4">4</option>
+                                    <option value="5">5</option>
+                                    <option value="6">6</option>
+                                    <option value="7">7</option>
+                                    <option value="8">8</option>
+                                    <option value="9">9</option>
+                                    <option value="10">10</option>
+                                </select>
+                            </div>
+                            <div style="display:flex; align-items:center; justify-content:center; text-align:center; flex-grow:1; ">
+                                -
+                            </div>
+                            <div class="count_filters">
+                                <select class="form-control selectpicker" name="planets_min" data-bind="selectPicker: planetCountMaxFilter">
+                                    <option value="any">No max</option>
+                                    <option value="1">1</option>
+                                    <option value="2">2</option>
+                                    <option value="3">3</option>
+                                    <option value="4">4</option>
+                                    <option value="5">5</option>
+                                    <option value="6">6</option>
+                                    <option value="7">7</option>
+                                    <option value="8">8</option>
+                                    <option value="9">9</option>
+                                    <option value="10">10</option>
+                                </select>
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <div class="form-group">
+                        <label for="players">
+                            <loc>Number of Players</loc>
+                        </label>
+                        <div class="filter_controls">
+                            <div class="count_filters">
+                                <select class="form-control selectpicker" name="players_min" data-bind="selectPicker: playerCountMinFilter" style="display:none;">
+                                    <option value="any">No min</option>
+                                    <option value="2">2</option>
+                                    <option value="3">3</option>
+                                    <option value="4">4</option>
+                                    <option value="5">5</option>
+                                    <option value="6">6</option>
+                                    <option value="7">7</option>
+                                    <option value="8">8</option>
+                                    <option value="9">9</option>
+                                    <option value="10">10</option>
+                                </select>
+                            </div>
+                            <div style="display:flex; align-items:center; justify-content:center; text-align:center; flex-grow:1; ">
+                                -
+                            </div>
+                            <div class="count_filters">
+                                <select class="form-control selectpicker" name="players_max" data-bind="selectPicker: playerCountMaxFilter">
+                                    <option value="any">No max</option>
+                                    <option value="2">2</option>
+                                    <option value="3">3</option>
+                                    <option value="4">4</option>
+                                    <option value="5">5</option>
+                                    <option value="6">6</option>
+                                    <option value="7">7</option>
+                                    <option value="8">8</option>
+                                    <option value="9">9</option>
+                                    <option value="10">10</option>
+                                </select>
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <div class="form-group">
+                        <label for="game-tag">
+                            <loc>Tag</loc>
+                        </label>
+                        <select class="selectpicker form-control" id="Select3" name="game-tag" data-bind="selectPicker: gameTagFilter">
+                            <option value="any">Any</option>
+                            <option value="Casual">Casual</option>
+                            <option value="Competitive">Competitive</option>
+                            <option value="AI Battle">AI Battle</option>
+                            <option value="Testing">Testing</option>
+                        </select>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="modded-games">
+                            <loc>Mods</loc>
+                        </label>
+                        <select class="selectpicker form-control" id="Select5" data-bind="options: moddedGameFilterOptions, optionsText: moddedGameFilterOptionText, selectPicker: moddedGameFilter">
+                        </select>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="locked-game"><loc>LOCKED</loc></label>
+                        <select class="selectpicker form-control" id="locked-game" name="locked-game" data-bind="selectPicker: lockedFilter">
+                            <option value="any">Any</option>
+                            <option value="locked">Locked</option>
+                            <option value="open">Open</option>
+                        </select>
+                    </div>
+                </div>
+            </div>
+            <!-- COL 2-->
+            <div class="col_2">
+                <div class="div_data_table">
+                    <div class="table_glow"></div>
+                    <div class="wrapper">
+                        <div class="row" id="game-list-header">
+                            <div class="col-md-3 game">
+                                <loc>Game</loc>
+                            </div>
+                            <div class="col-md-2 planets">
+                                <loc>Planets</loc>
+                            </div>
+                            <div class="col-md-2 mode">
+                                <loc>Mode</loc>
+                            </div>
+                            <div class="col-md-1 modded">
+                                <loc>Mod</loc>
+                            </div>
+                            <div class="col-md-1 slots">
+                                <loc>Slots</loc>
+                            </div>
+                            <div class="col-md-1 spectate">
+                                <loc>Spectate</loc>
+                            </div>
+                            <div class="col-md-2 region">
+                                <loc>Region</loc>
+                                <span style="float: right; margin-top: 5px; margin-right: 5px" class="glyphicon glyphicon-lock"></span>
+                            </div>
+                        </div>
+                        <div id="game-list" data-bind="foreach: filteredGameList">
+                            <div class="row one-game btn_std_ix"
+                                    data-bind="css: { 'ui-selected': ((lobby_id || host) === model.currentSelectedGameHost()), 'retired': $data.retired },
+                                            click: $parent.setSelected">
+                                <div class="col-md-3 game">
+                                    <span data-bind="text: name"></span>
+                                    <span class="lbl_titans" style="display: none;" data-bind="visible: $data.titans, css: { lbl_titans_missing : $data.is_missing_content }"><noloc>Titans</noloc></span>
+                                    <span></span></div>
+                                <div class="col-md-2 planets">
+
+                                    <!-- ko foreach: simplePlanets -->
+                                    <!-- ko if: $data -->
+                                    <div class="div_planet">
+                                        <img style="height: 20px; width: 20px;" data-bind="attr: { src: 'coui://ui/main/shared/img/planets/small/' + $data.biome + '.png' }" />
+                                        <img data-bind="visible: $data.start" class="img_start" src="coui://ui/main/game/live_game/img/planet_list_panel/icon_planet_start.png" />                                                  
+                                    </div>
+                                    <!-- /ko -->                                               
+                                    <!-- /ko -->
+
+                                    <!-- ko if: !biomes || !biomes.length -->
+                                    <loc>Not Selected</loc>
+                                    <!-- /ko -->
+                                </div>
+                                <div class="col-md-2 mode"><span data-bind="locText: $root.gameModeText(mode)"></span></div>
+                                <div class="col-md-1 modded" data-bind="text: modded"></div>
+                                <div class="col-md-1 slots" data-bind="text: player_display"></div>
+                                <div class="col-md-1 spectate" data-bind="text: spectator_display"></div>
+                                <div class="col-md-2 region">
+                                    <span class="region" data-bind="text: region"></span>
+                                    <span class="glyphicon" style="float: right; margin-right: -6px" data-bind="css: { 'glyphicon-lock': locked }"></span>
+                                    <!-- TODO: To test for if you're missing an expansion pack: missing_content.length > 0 -->
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- COL 3-->
+            <div class="col_3" style="width:280px;">
+                <div id="detail-pane-wrapper" data-bind="visible: currentSelectedGame">
+                    <div id="detail-pane" data-bind="with: currentSelectedGame">
+                        <div>
+                            <h3 data-bind="text: name"></h3>
+                            <div class="lbl_titans details" style="display: none;" data-bind="visible: $data.titans, css: { lbl_titans_missing: $data.is_missing_content }, vars: { expansion_name: 'Titans' }"><loc>__expansion_name__ Expansion</loc></div>
+                        </div>
+                        <div class="section col-mode">
+                            <div class="col-header">
+                                <loc>Mode</loc>
+                            </div>
+                            <div class="item">
+                                <div class="text" data-bind="text: mode"></div>
+                            </div>
+                            <!-- ko if: bounty_mode -->
+                            <div class="item">
+                                <div class="text">
+                                    <loc>Bounty Mode</loc>
+                                </div>
+                            </div>
+                            <!-- /ko -->
+                            <!-- ko if: sandbox -->
+                            <div class="item">
+                                <div class="text">
+                                    <loc>Sandbox</loc>
+                                </div>
+                            </div>
+                            <!-- /ko -->
+                        </div>
+                        <div class="section col-players">
+                            <div class="col-header">
+                                <loc>Players</loc>
+                            </div>
+                            <div data-bind="foreach: player_detail">
+                                <div class="item">
+                                    <div class="text" data-bind="text: $data, css: { open: $data === 'Open slot' }"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="section col-players" data-bind="visible: spectator_detail.length">
+                            <div class="col-header">
+                                <loc>Spectators</loc>
+                            </div>
+                            <div data-bind="foreach: spectator_detail">
+                                <div class="item">
+                                    <div data-bind="text: $data, css: { open: $data === 'Open slot' }"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="section col-planets">
+                            <div class="col-header">
+                                <loc>Planets</loc>
+                            </div>
+                            <div data-bind="foreach: planet_detail" class="planet-detail">
+                                <div class="one-planet item">
+                                    <div class="planet-biome">
+                                        <img src="" data-bind="attr: { src: 'coui://ui/main/shared/img/planets/' + $data.biome + '-big.png' }" width="40" />
+                                        <div class="thruster_count" data-bind="visible: $data.move_thrust > 0">
+                                            <div style="margin:-1px 0px 0px 0px;" data-bind="text: $data.move_thrust, visible: $data.move_thrust > 0"></div>
+                                        </div>
+                                        <img data-bind="visible: $data.starting_planet" class="img_side_panel_start" src="coui://ui/main/game/live_game/img/planet_list_panel/icon_planet_start.png" /> 
+                                        
+                                    </div>
+                                    <div>
+                                        <div class="planet-name text" data-bind="text: $data.name"></div>
+                                        <div class="planet-radius" data-bind="vars: { radius: $data.radius }"><loc>Radius __radius__</loc></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="section col-mods" data-bind="visible: mod_names.length">
+                            <div class="col-header">
+                                <loc>Mods</loc>
+                            </div>
+                            <div data-bind="foreach: mod_names">
+                                <div class="item" data-bind="text: $data"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</div>
+<!-- COMMIT -->
+<div class="div_commit_cont">
+
+     <div class="div_commit_secondary_options">
+
+          <button id="refresh" data-bind="click: manualRefresh, click_sound: 'default', rollover_sound: 'default'">
+                <loc>Refresh</loc>
+         </button>
+
+        <label class="label_checkbox" data-bind="click_sound: 'default', rollover_sound: 'default'">
+            <input type="checkbox" data-bind="checked: autoRefresh"/>
+                <loc>Auto refresh</loc>
+        </label>
+
+         <!-- ko if: devMode -->
+        <button id="rejoin_local" style="margin-left: 45px" data-bind="click: enterLastSelectedGame, css: { disabled: (!model.lastSelectedGame()) }, click_sound: 'default', rollover_sound: 'default'">
+         <loc>Rejoin Local Game</loc>
+        </button>
+        <!--/ko-->
+    </div>
+
+    <div id="game-bar">
+        <!-- ko with:currentSelectedGame -->
+            <!-- ko if:retired -->
+            <div id="retired_msg">
+                <loc>This game is no longer available.</loc>
+            </div>
+            <!--/ko-->
+        <!--/ko-->
+
+        <div id="join" style="min-width: 280px;" data-bind="click: tryToJoinGame, css: { btn_std: (model.canJoinGame()), btn_std_disabled: (!model.canJoinGame()) }, click_sound: 'default', rollover_sound: 'default'">
+            <div class="btn_label">
+                <loc>Join Game</loc>
+            </div>
+        </div>
+
+        <div id="spectate" style="min-width: 180px;" data-bind="click: tryToSpectateGame, css: { btn_std: canSpectateGame, btn_std_disabled: (!model.canSpectateGame()) }, click_sound: 'default', rollover_sound: 'default'">
+            <div class="btn_label">
+                <loc>Spectate</loc>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+
+<!-- PASSWORD MODAL -->
+<div class="modal fade" id="getPassword" tabindex="-1" role="dialog" aria-labelledby="getPasswordLabel" aria-hidden="true" data-show="false">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                <h4 class="modal-title" id="getPasswordLabel">
+                    <loc>Locked Game</loc>
+                </h4>
+            </div>
+            <div class="modal-body">
+                <div class="form-group">
+                    <label for="password">
+                        <loc>Password</loc>
+                    </label>
+                    <input type="password" class="form-control" id="password" placeholder="Enter game password" data-bind="value: privateGamePassword" />
+                </div>
+            </div>
+            <div class="modal-footer">
+                <button id="passwordJoin" data-bind="click: joinWithPassword, click_sound: 'default', rollover_sound: 'default'">
+                    <loc>Join Game</loc>
+                </button>
+            </div>
+        </div>
+        <!-- /.modal-content -->
+    </div>
+    <!-- /.modal-dialog -->
+</div>
+<!-- /.modal -->
+
+<!-- MISSING CONTENT MODAL -->
+<div class="modal fade" id="buyContent" tabindex="-1" role="dialog" aria-labelledby="buyContentLabel" aria-hidden="true" data-show="false">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                <h4 class="modal-title" id="buyContentLabel">
+                    <loc>Required Expansion Pack</loc>
+                </h4>
+            </div>
+            <div class="modal-body">
+                <p data-bind="vars: { expansion_name: missingContentDescription() }"><loc>The game you are trying to join requires the [style=content_description]__expansion_name__[/style] expansion for Planetary Annihilation.</loc></p>
+            </div>
+            <div class="modal-footer">
+                <button type="submit" id="contentBuy" data-bind="click: buyMissingContent, click_sound: 'default', rollover_sound: 'default', visible: signedInToUbernet">
+                    <loc>Buy Expansion</loc>
+                </button>
+                <button id="contentBuyCancel" data-dismiss="modal" data-bind="click_sound: 'default', rollover_sound: 'default'">
+                    <loc>Cancel</loc>
+                </button>
+            </div>
+        </div>
+        <!-- /.modal-content -->
+    </div>
+    <!-- /.modal-dialog -->
+</div>
+<!-- /.modal -->
+
+
+</body>
+</html>

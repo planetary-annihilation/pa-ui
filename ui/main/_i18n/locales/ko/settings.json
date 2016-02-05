@@ -1,0 +1,902 @@
+{
+    "1100 (recommended for 480p)": {
+        "message": "1100 (480p\uc5d0 \uad8c\uc7a5\ub428)"
+    }, 
+    "2000 (recommended for 720p)": {
+        "message": "2000 (720p\uc5d0 \uad8c\uc7a5\ub428)"
+    }, 
+    "3200 (recommended for 1080p)": {
+        "message": "3200 (1080p\uc5d0 \uad8c\uc7a5\ub428)"
+    }, 
+    "500 (recommended for 240p)": {
+        "message": "500 (240\uc5d0 \uad8c\uc7a5\ub428)"
+    }, 
+    "700 (recommended for 360p)": {
+        "message": "700 (360p\uc5d0 \uad8c\uc7a5\ub428)"
+    }, 
+    "ALL": {
+        "message": "\uc804\uccb4"
+    }, 
+    "ALWAYS": {
+        "message": "\ud56d\uc0c1"
+    }, 
+    "Ambient Occlusion": {
+        "message": "\uc5e0\ube44\ub10c\ud2b8 \uc624\ud074\ub8e8\uc83c"
+    }, 
+    "Anti-Aliasing": {
+        "message": "\uc548\ud2f0 \uc568\ub9ac\uc5b4\uc2f1"
+    }, 
+    "Audio": {
+        "message": "\uc624\ub514\uc624"
+    }, 
+    "Bitrate": {
+        "message": "\ube44\ud2b8\ub808\uc774\ud2b8"
+    }, 
+    "Build Preview Behavior": {
+        "message": "\uac74\uc124 \uc804\uc5d0 \ubbf8\ub9ac\ubcf4\uae30"
+    }, 
+    "CUSTOM": {
+        "message": "\ucee4\uc2a4\ud140"
+    }, 
+    "Camera": {
+        "message": "\uce74\uba54\ub77c"
+    }, 
+    "Camera Friction": {
+        "message": "\uce74\uba54\ub77c \uc800\ud56d"
+    }, 
+    "Cancel": {
+        "message": "\ucde8\uc18c"
+    }, 
+    "Display Mode": {
+        "message": "\uc804\uc2dc \ubaa8\ub4dc"
+    }, 
+    "ENABLE MICROPHONE": {
+        "message": "\ub9c8\uc774\ud06c \ud65c\uc131\ud654"
+    }, 
+    "ENABLE STREAMING (Takes effect immediately)": {
+        "message": "\uc2a4\ud2b8\ub9ac\ubc0d \ud65c\uc131\ud654(\ubc14\ub85c \uc801\uc6a9\ub428)"
+    }, 
+    "ENABLE SYSTEM SOUNDS": {
+        "message": "\ud589\uc131\uacc4 \uc18c\ub9ac \uc0ac\uc6a9"
+    }, 
+    "Edge Scroll Options": {
+        "message": "\uc5e3\uc9c0 \uc2a4\ud06c\ub864 \uc635\uc158"
+    }, 
+    "FOV": {
+        "message": "FOV"
+    }, 
+    "FPS": {
+        "message": "FPS"
+    }, 
+    "FULLSCREEN": {
+        "message": "\uc804\uccb4\ud654\uba74"
+    }, 
+    "FXAA": {
+        "message": "FXAA"
+    }, 
+    "Graphics": {
+        "message": "\uadf8\ub798\ud53d"
+    }, 
+    "HDR": {
+        "message": "HDR"
+    }, 
+    "HIGH": {
+        "message": "\ub192\uc74c"
+    }, 
+    "Headlights": {
+        "message": "\ud5e4\ub4dc\ub77c\uc774\ud2b8"
+    }, 
+    "ICON DISPLAY DISTANCE": {
+        "message": "\uc544\uc774\ucf58 \ud45c\uc2dc \uac70\ub9ac"
+    }, 
+    "Key Pan Speed": {
+        "message": "\ud0a4\ubcf4\ub4dc \ud32c \uc18d\ub3c4"
+    }, 
+    "Keyboard": {
+        "message": "\ud0a4\ubcf4\ub4dc"
+    }, 
+    "LOW": {
+        "message": "\ub0ae\uc74c"
+    }, 
+    "Language": {
+        "message": "\uc5b8\uc5b4"
+    }, 
+    "Livestream Settings": {
+        "message": "\ub77c\uc774\ube0c\uc2a4\ud2b8\ub9bc \uc124\uc815"
+    }, 
+    "MEDIUM": {
+        "message": "\uc911\uac04"
+    }, 
+    "Master Volume": {
+        "message": "\uc804\uccb4 \uc74c\ud5a5"
+    }, 
+    "Mouse Pan Speed": {
+        "message": "\ub9c8\uc6b0\uc2a4 \ud32c \uc18d\ub3c4"
+    }, 
+    "Music Volume": {
+        "message": "\uc74c\uc545 \ubcfc\ub968"
+    }, 
+    "NATIVE (100%)": {
+        "message": "\ub124\uc774\ud2f0\ube0c (100%)"
+    }, 
+    "NEVER": {
+        "message": "\uc808\ub300"
+    }, 
+    "OFF": {
+        "message": "\ub044\uae30"
+    }, 
+    "OFF (MOUSELOCK)": {
+        "message": "\ub044\uae30 (\ub9c8\uc6b0\uc2a4\ub77d)"
+    }, 
+    "OFF (NO MOUSELOCK)": {
+        "message": "\ub044\uae30 (\ub9c8\uc6b0\uc2a4 \ub77d \uc5c6\uc74c)"
+    }, 
+    "ON": {
+        "message": "\ucf1c\uae30"
+    }, 
+    "Orbital Shell": {
+        "message": "\uada4\ub3c4 \uc258"
+    }, 
+    "Order Preview Behavior": {
+        "message": "\uba85\ub839 \ubbf8\ub9ac \ubcf4\uae30"
+    }, 
+    "Password": {
+        "message": "\uc554\ud638"
+    }, 
+    "Pole Lock": {
+        "message": "\uadf9\uc810 \uace0\uc815"
+    }, 
+    "Quality Preset": {
+        "message": "\ud004\ub7ec\ud2f0 \ud504\ub9ac\uc14b"
+    }, 
+    "RANGE DEPENDENT": {
+        "message": "\uc758\uc874 \ubc94\uc704"
+    }, 
+    "RESTORE ALL DEFAULTS": {
+        "message": "\ubaa8\ub450 \uae30\ubcf8\uac12\uc73c\ub85c \ubcf5\uad6c"
+    }, 
+    "RESTORE DEFAULTS": {
+        "message": "\uae30\ubcf8\uac12\uc73c\ub85c \ubcf5\uad6c"
+    }, 
+    "Resolution": {
+        "message": "\ud574\uc0c1\ub3c4"
+    }, 
+    "Resolution Scaling": {
+        "message": "\ud574\uc0c1\ub3c4 \uc870\uc808"
+    }, 
+    "SELECTED": {
+        "message": "\uc120\ud0dd\ub428"
+    }, 
+    "SERVER": {
+        "message": "\uc11c\ubc84"
+    }, 
+    "SHIFT": {
+        "message": "\uc2dc\ud504\ud2b8"
+    }, 
+    "SIGN IN": {
+        "message": "\ub85c\uadf8\uc778"
+    }, 
+    "SIGN OUT": {
+        "message": "\ub85c\uadf8\uc544\uc6c3"
+    }, 
+    "SUBSAMPLE (50%)": {
+        "message": "\uc11c\ube0c\uc0d8\ud50c (50%)"
+    }, 
+    "SUBSAMPLE (75%)": {
+        "message": "\uc288\ud37c\uc0d8\ud50c (75%)"
+    }, 
+    "SUPERSAMPLE (110%)": {
+        "message": "\uc288\ud37c\uc0d8\ud50c (110%)"
+    }, 
+    "SUPERSAMPLE (150%)": {
+        "message": "\uc288\ud37c\uc0d8\ud50c(150%)"
+    }, 
+    "SUPERSAMPLE (175%)": {
+        "message": "\uc288\ud37c\uc0d8\ud50c(175%)"
+    }, 
+    "Save": {
+        "message": "\uc800\uc7a5"
+    }, 
+    "Save And Close": {
+        "message": "\uc800\uc7a5\ud558\uace0 \ub2eb\uae30"
+    }, 
+    "Server": {
+        "message": "\uc11c\ubc84"
+    }, 
+    "Settings": {
+        "message": "\uc124\uc815"
+    }, 
+    "Shadows": {
+        "message": "\uadf8\ub9bc\uc790"
+    }, 
+    "Show Build Previews": {
+        "message": "\uac74\uc124 \ubbf8\ub9ac\ubcf4\uae30"
+    }, 
+    "Show Metal Spot Icons": {
+        "message": "\uba54\ud0c8 \uc704\uce58 \uc544\uc774\ucf58 \ubcf4\uc774\uae30"
+    }, 
+    "Show Order Previews": {
+        "message": "\uba85\ub839 \ubbf8\ub9ac\ubcf4\uae30"
+    }, 
+    "Show Stat Bars": {
+        "message": "\uc0c1\ud0dc\ubc14 \ubcf4\uc5ec\uc8fc\uae30"
+    }, 
+    "Show Unit Icons": {
+        "message": "\uc720\ub2db \uc544\uc774\ucf58 \ubcf4\uc774\uae30"
+    }, 
+    "Show/Hide game stats": {
+        "message": "\uac8c\uc784 \uc0c1\ud669 \ubcf4\uc774\uae30/\uac10\ucd94\uae30"
+    }, 
+    "Show/Hide pip": {
+        "message": "PIP \ubcf4\uc774\uae30/\uc228\uae30\uae30"
+    }, 
+    "Sign in with Your Twitch ID": {
+        "message": "Twitch ID\ub85c \ub85c\uadf8\uc778\ud558\uae30"
+    }, 
+    "Signed in as": {
+        "message": "\ub85c\uadf8\uc778 : "
+    }, 
+    "Sound Effects Volume": {
+        "message": "\ud6a8\uacfc\uc74c \ubcfc\ub968"
+    }, 
+    "Twitch chat": {
+        "message": "\ud2b8\uc704\uce58 \ucc44\ud305"
+    }, 
+    "UBER": {
+        "message": "UBER"
+    }, 
+    "UI": {
+        "message": "UI"
+    }, 
+    "VALUE DEPENDENT": {
+        "message": "\uc758\uc874 \uac12"
+    }, 
+    "Virtual Texture": {
+        "message": "\ubc84\ucd94\uc5bc \ud14d\uc2a4\uccd0"
+    }, 
+    "Voice Volume": {
+        "message": "\uc74c\uc131 \ubcfc\ub968"
+    }, 
+    "WINDOWED": {
+        "message": "\ucc3d \ubaa8\ub4dc"
+    }, 
+    "Zoom Speed": {
+        "message": "\uc90c \uc18d\ub3c4"
+    }, 
+    "abort": {
+        "message": "\ud3ec\uae30"
+    }, 
+    "alerts": {
+        "message": "\uacbd\ubcf4"
+    }, 
+    "align to pole": {
+        "message": "\uadf9\uc810\uc5d0 \uc815\ub82c"
+    }, 
+    "alt fire": {
+        "message": "\uace0\ub3c4 \uacf5\uaca9"
+    }, 
+    "assist": {
+        "message": "\uc5b4\uc2dc\uc2a4\ud2b8"
+    }, 
+    "attack": {
+        "message": "\uacf5\uaca9"
+    }, 
+    "bug report": {
+        "message": "\ubc84\uadf8 \uc2e0\uace0"
+    }, 
+    "build": {
+        "message": "\uac74\uc124"
+    }, 
+    "build avatar": {
+        "message": "\uc544\ubc14\ud0c0 \uc0dd\uc0b0"
+    }, 
+    "build avatar factory": {
+        "message": "\uc544\ubc14\ud0c0 \uacf5\uc7a5 \uac74\uc124"
+    }, 
+    "build bar groups": {
+        "message": "\uac74\uc124 \ub9c9\ub300 \uadf8\ub8f9"
+    }, 
+    "build item 1": {
+        "message": "\uac74\uc124 \uc544\uc774\ud15c 1"
+    }, 
+    "build item 10": {
+        "message": "\uac74\uc124 \uc544\uc774\ud15c 10"
+    }, 
+    "build item 11": {
+        "message": "\uac74\uc124 \uc544\uc774\ud15c 11"
+    }, 
+    "build item 12": {
+        "message": "\uac74\uc124 \uc544\uc774\ud15c 12"
+    }, 
+    "build item 13": {
+        "message": "\uac74\uc124 \uc544\uc774\ud15c 13"
+    }, 
+    "build item 14": {
+        "message": "\uac74\uc124 \uc544\uc774\ud15c 14"
+    }, 
+    "build item 15": {
+        "message": "\uac74\uc124 \uc544\uc774\ud15c 15"
+    }, 
+    "build item 2": {
+        "message": "\uac74\uc124 \uc544\uc774\ud15c 2"
+    }, 
+    "build item 3": {
+        "message": "\uac74\uc124 \uc544\uc774\ud15c 3"
+    }, 
+    "build item 4": {
+        "message": "\uac74\uc124 \uc544\uc774\ud15c 4"
+    }, 
+    "build item 5": {
+        "message": "\uac74\uc124 \uc544\uc774\ud15c 5"
+    }, 
+    "build item 6": {
+        "message": "\uac74\uc124 \uc544\uc774\ud15c 6"
+    }, 
+    "build item 7": {
+        "message": "\uac74\uc124 \uc544\uc774\ud15c 7"
+    }, 
+    "build item 8": {
+        "message": "\uac74\uc124 \uc544\uc774\ud15c 8"
+    }, 
+    "build item 9": {
+        "message": "\uac74\uc124 \uc544\uc774\ud15c 9"
+    }, 
+    "build items": {
+        "message": "\uac74\uc124 \uc544\uc774\ud15c"
+    }, 
+    "build loop": {
+        "message": "\uac74\uc124 \ub8e8\ud504"
+    }, 
+    "build once": {
+        "message": "\ud55c\ubc88\ub9cc \uac74\uc124"
+    }, 
+    "build orders": {
+        "message": "\uac74\uc124 \uba85\ub839"
+    }, 
+    "capture anchor": {
+        "message": "\uc575\ucee4 \uc810\ub839"
+    }, 
+    "capture anchor 1": {
+        "message": "\ud3ec\ud68d \uc575\ucee4 1"
+    }, 
+    "capture anchor 10": {
+        "message": "\ud3ec\ud68d \uc575\ucee4 10"
+    }, 
+    "capture anchor 2": {
+        "message": "\ud3ec\ud68d \uc575\ucee4 2"
+    }, 
+    "capture anchor 3": {
+        "message": "\ud3ec\ud68d \uc575\ucee4 3"
+    }, 
+    "capture anchor 4": {
+        "message": "\ud3ec\ud68d \uc575\ucee4 4"
+    }, 
+    "capture anchor 5": {
+        "message": "\ud3ec\ud68d \uc575\ucee4 5"
+    }, 
+    "capture anchor 6": {
+        "message": "\ud3ec\ud68d \uc575\ucee4 6"
+    }, 
+    "capture anchor 7": {
+        "message": "\ud3ec\ud68d \uc575\ucee4 7"
+    }, 
+    "capture anchor 8": {
+        "message": "\ud3ec\ud68d \uc575\ucee4 8"
+    }, 
+    "capture anchor 9": {
+        "message": "\ud3ec\ud68d \uc575\ucee4 9"
+    }, 
+    "capture group 0": {
+        "message": "\uadf8\ub8f90 \uc9c0\uc815"
+    }, 
+    "capture group 1": {
+        "message": "\uadf8\ub8f91 \uc9c0\uc815"
+    }, 
+    "capture group 2": {
+        "message": "\uadf8\ub8f92 \uc9c0\uc815"
+    }, 
+    "capture group 3": {
+        "message": "\uadf8\ub8f93 \uc9c0\uc815"
+    }, 
+    "capture group 4": {
+        "message": "\uadf8\ub8f94 \uc9c0\uc815"
+    }, 
+    "capture group 5": {
+        "message": "\uadf8\ub8f95 \uc9c0\uc815"
+    }, 
+    "capture group 6": {
+        "message": "\uadf8\ub8f96 \uc9c0\uc815"
+    }, 
+    "capture group 7": {
+        "message": "\uadf8\ub8f97 \uc9c0\uc815"
+    }, 
+    "capture group 8": {
+        "message": "\uadf8\ub8f98 \uc9c0\uc815"
+    }, 
+    "capture group 9": {
+        "message": "\uadf8\ub8f99 \uc9c0\uc815"
+    }, 
+    "chronocam": {
+        "message": "\ud06c\ub85c\ub178\ucea0"
+    }, 
+    "communication": {
+        "message": "\uc5f0\ub77d"
+    }, 
+    "copy to pip": {
+        "message": "PIP\ub85c \ubcf5\uc0ac"
+    }, 
+    "copy unit": {
+        "message": "\uc720\ub2db \ubcf5\uc0ac"
+    }, 
+    "crash": {
+        "message": "\ucda9\ub3cc"
+    }, 
+    "decrease camera pan speed": {
+        "message": "\uce74\uba54\ub77c \ud32c \uc18d\ub3c4 \uac10\uc18c"
+    }, 
+    "dev mode": {
+        "message": "\uac1c\ubc1c \ubaa8\ub4dc"
+    }, 
+    "direction": {
+        "message": "\ubc29\ud5a5"
+    }, 
+    "disable navigation debug info": {
+        "message": "\ub124\ube44\uac8c\uc774\uc158 \ub514\ubc84\uadf8 \uc815\ubcf4 \ub044\uae30"
+    }, 
+    "dismiss alert notification": {
+        "message": "\uacbd\uace0 \uc54c\ub9bc \ub044\uae30"
+    }, 
+    "enable navigation debug info": {
+        "message": "\ub124\ube44\uac8c\uc774\uc158 \ub514\ubc84\uadf8 \uc815\ubcf4 \ucf1c\uae30"
+    }, 
+    "energy off": {
+        "message": "\uc5d0\ub108\uc9c0 \ub044\uae30"
+    }, 
+    "energy on": {
+        "message": "\uc5d0\ub108\uc9c0 \ucf1c\uae30"
+    }, 
+    "fire at will": {
+        "message": "\uc790\uc728\uc0ac\uaca9"
+    }, 
+    "free move backward": {
+        "message": "\uc790\uc720 \ub4a4\ub85c \uc774\ub3d9"
+    }, 
+    "free move down": {
+        "message": "\uc790\uc720 \uc544\ub798\ub85c \uc774\ub3d9"
+    }, 
+    "free move forward": {
+        "message": "\uc790\uc720 \uc55e\uc73c\ub85c \uc774\ub3d9"
+    }, 
+    "free move left": {
+        "message": "\uc790\uc720 \uc67c\ucabd \uc774\ub3d9"
+    }, 
+    "free move right": {
+        "message": "\uc790\uc720 \uc624\ub978\ucabd \uc774\ub3d9"
+    }, 
+    "free move up": {
+        "message": "\uc790\uc720 \uc704\ub85c \uc774\ub3d9"
+    }, 
+    "free movement": {
+        "message": "\uc790\uc720 \uc6c0\uc9c1\uc784"
+    }, 
+    "free pitch backward": {
+        "message": "\uc790\uc720 \ub4a4\ub85c \ud53c\uce58"
+    }, 
+    "free pitch forward": {
+        "message": "\uc790\uc720 \uc55e\uc73c\ub85c \ud53c\uce58"
+    }, 
+    "free roll left": {
+        "message": "\uc790\uc720 \uc624\ub978\ucabd \ub864"
+    }, 
+    "free roll right": {
+        "message": "\uc790\uc720 \uc67c\ucabd \ub864"
+    }, 
+    "free yaw left": {
+        "message": "\uc790\uc720 \uc67c\ucabd \uc694"
+    }, 
+    "free yaw right": {
+        "message": "\uc790\uc720 \uc624\ub978\ucabd \uc694"
+    }, 
+    "free zoom in": {
+        "message": "\uc790\uc720 \uc90c\uc778"
+    }, 
+    "free zoom out": {
+        "message": "\uc790\uc720 \uc90c \uc544\uc6c3"
+    }, 
+    "general": {
+        "message": "\uc77c\ubc18"
+    }, 
+    "hold fire": {
+        "message": "\uc0ac\uaca9 \uc911\uc9c0"
+    }, 
+    "hold position": {
+        "message": "\uc704\uce58 \uc0ac\uc218"
+    }, 
+    "increase camera pan speed": {
+        "message": "\uce74\uba54\ub77c \ud68c\uc804 \uc18d\ub3c4 \uc99d\uac00"
+    }, 
+    "jump to next planet": {
+        "message": "\ub2e4\uc74c \ud589\uc131\uc73c\ub85c \uc810\ud504"
+    }, 
+    "jump to previous planet": {
+        "message": "\uc774\uc804 \ud589\uc131\uc73c\ub85c \uc810\ud504"
+    }, 
+    "last pseudo frame": {
+        "message": "\ucd5c\uc885 \ubaa8\uc870 \ud504\ub808\uc784"
+    }, 
+    "load": {
+        "message": "\ubd88\ub7ec\uc624\uae30"
+    }, 
+    "maneuver": {
+        "message": "\uae30\ub3d9"
+    }, 
+    "modes": {
+        "message": "\ubaa8\ub4dc"
+    }, 
+    "move": {
+        "message": "\uc774\ub3d9"
+    }, 
+    "move down": {
+        "message": "\uc544\ub798\ub85c \uc774\ub3d9"
+    }, 
+    "move left": {
+        "message": "\uc88c\uce21\uc73c\ub85c \uc774\ub3d9"
+    }, 
+    "move right": {
+        "message": "\uc6b0\uce21\uc73c\ub85c \uc774\ub3d9"
+    }, 
+    "move up": {
+        "message": "\uc704\ub85c \uc774\ub3d9"
+    }, 
+    "navigate back/exit": {
+        "message": "\ub124\ube44\uac8c\uc774\ud2b8 \ub4a4\ub85c/\uc885\ub8cc"
+    }, 
+    "next pseudo frame": {
+        "message": "\uc774\uc804 \ubaa8\uc870(pseudo) \ud504\ub808\uc784"
+    }, 
+    "normal chat": {
+        "message": "\uc77c\ubc18 \ucc44\ud305"
+    }, 
+    "paste unit": {
+        "message": "\uc720\ub2db \ubd99\uc5ec\ub123\uae30"
+    }, 
+    "patrol": {
+        "message": "\uc21c\ucc30"
+    }, 
+    "pause game": {
+        "message": "\uac8c\uc784 \uc77c\uc2dc\uc815\uc9c0"
+    }, 
+    "pause time": {
+        "message": "\uc77c\uc2dc\uc815\uc9c0 \uc2dc\uac04"
+    }, 
+    "picture-in-picture": {
+        "message": "\ud53d\ucc98 \uc778 \ud53d\ucc98"
+    }, 
+    "ping": {
+        "message": "\ud551"
+    }, 
+    "planet jump": {
+        "message": "\ud589\uc131 \uc810\ud504"
+    }, 
+    "play backwards at 100%": {
+        "message": "\ub4a4\ub85c \uc7ac\uc0dd 100%"
+    }, 
+    "play backwards at 50%": {
+        "message": "\ub4a4\ub85c \uc7ac\uc0dd 50%"
+    }, 
+    "play forward at 100%": {
+        "message": "\uc55e\uc73c\ub85c \uc7ac\uc0dd 100%"
+    }, 
+    "play forward at 50%": {
+        "message": "\uc55e\uc73c\ub85c \uc7ac\uc0dd 50%"
+    }, 
+    "publish server mods": {
+        "message": "\uc11c\ubc84 \ubaa8\ub4dc \ubc30\ud3ec"
+    }, 
+    "quick profile": {
+        "message": "\ube60\ub978 \ud504\ub85c\ud544"
+    }, 
+    "recall anchor": {
+        "message": "\uc575\ucee4 \ud638\ucd9c"
+    }, 
+    "recall anchor 0": {
+        "message": "\uc575\ucee4 \ud638\ucd9c 0"
+    }, 
+    "recall anchor 1": {
+        "message": "\uc575\ucee4 \ud638\ucd9c 1"
+    }, 
+    "recall anchor 2": {
+        "message": "\uc575\ucee4 \ud638\ucd9c 2"
+    }, 
+    "recall anchor 3": {
+        "message": "\uc575\ucee4 \ud638\ucd9c 3"
+    }, 
+    "recall anchor 4": {
+        "message": "\uc575\ucee4 \ud638\ucd9c 4"
+    }, 
+    "recall anchor 5": {
+        "message": "\uc575\ucee4 \ud638\ucd9c 5"
+    }, 
+    "recall anchor 6": {
+        "message": "\uc575\ucee4 \ud638\ucd9c 6"
+    }, 
+    "recall anchor 7": {
+        "message": "\uc575\ucee4 \ud638\ucd9c 7"
+    }, 
+    "recall anchor 8": {
+        "message": "\uc575\ucee4 \ud638\ucd9c 8"
+    }, 
+    "recall anchor 9": {
+        "message": "\uc575\ucee4 \ud638\ucd9c 9"
+    }, 
+    "recall group 0": {
+        "message": "\uadf8\ub8f90 \ud638\ucd9c"
+    }, 
+    "recall group 1": {
+        "message": "\uadf8\ub8f91 \ud638\ucd9c"
+    }, 
+    "recall group 2": {
+        "message": "\uadf8\ub8f92 \ud638\ucd9c"
+    }, 
+    "recall group 3": {
+        "message": "\uadf8\ub8f93 \ud638\ucd9c"
+    }, 
+    "recall group 4": {
+        "message": "\uadf8\ub8f94 \ud638\ucd9c"
+    }, 
+    "recall group 5": {
+        "message": "\uadf8\ub8f95 \ud638\ucd9c"
+    }, 
+    "recall group 6": {
+        "message": "\uadf8\ub8f96 \ud638\ucd9c"
+    }, 
+    "recall group 7": {
+        "message": "\uadf8\ub8f97 \ud638\ucd9c"
+    }, 
+    "recall group 8": {
+        "message": "\uadf8\ub8f98 \ud638\ucd9c"
+    }, 
+    "recall group 9": {
+        "message": "\uadf8\ub8f99 \ud638\ucd9c"
+    }, 
+    "reclaim": {
+        "message": "\ud68c\uc218"
+    }, 
+    "reload view": {
+        "message": "\ubdf0 \uc0c8\ub85c\uace0\uce68"
+    }, 
+    "repair": {
+        "message": "\uc218\ub9ac"
+    }, 
+    "resume at latest time": {
+        "message": "\ucd5c\uadfc \uc2dc\uac04\uc5d0\uc11c \uc7ac\uac1c"
+    }, 
+    "return fire": {
+        "message": "\ubc18\uaca9"
+    }, 
+    "roam": {
+        "message": "\uc790\uc728 \uc774\ub3d9"
+    }, 
+    "run twitch commercial": {
+        "message": "\ud2b8\uc704\uce58 \ubc29\uc1a1 \uc2e4\ud589"
+    }, 
+    "select air group": {
+        "message": "\ube44\ud589 \uadf8\ub8f9 \uc120\ud0dd"
+    }, 
+    "select all air combat units": {
+        "message": "\ubaa8\ub4e0 \ube44\ud589\uc804\ud22c \uc720\ub2db \uc120\ud0dd"
+    }, 
+    "select all air combat units on screen": {
+        "message": "\ud654\uba74\uc758 \ubaa8\ub4e0 \ube44\ud589\uc804\ud22c \uc720\ub2db \uc120\ud0dd"
+    }, 
+    "select all combat units": {
+        "message": "\ubaa8\ub4e0 \uc804\ud22c \uc720\ub2db \uc120\ud0dd"
+    }, 
+    "select all combat units on screen": {
+        "message": "\ud654\uba74\uc758 \ubaa8\ub4e0 \uc804\ud22c \uc720\ub2db \uc120\ud0dd"
+    }, 
+    "select all factories": {
+        "message": "\ubaa8\ub4e0 \uacf5\uc7a5 \uc120\ud0dd"
+    }, 
+    "select all factories on screen": {
+        "message": "\ud654\uba74\uc758 \ubaa8\ub4e0 \uacf5\uc7a5 \uc120\ud0dd"
+    }, 
+    "select all idle factories": {
+        "message": "\ubaa8\ub4e0 \ub300\uae30\uc911\uc778 \uacf5\uc7a5 \uc120\ud0dd"
+    }, 
+    "select all idle factories on screen": {
+        "message": "\ud654\uba74\uc758 \ubaa8\ub4e0 \ub300\uae30\uc911\uc778 \uacf5\uc7a5 \uc120\ud0dd"
+    }, 
+    "select all land combat units": {
+        "message": "\ubaa8\ub4e0 \uc9c0\uc0c1 \uc804\ud22c \uc720\ub2db \uc120\ud0dd"
+    }, 
+    "select all land combat units on screen": {
+        "message": "\ud654\uba74\uc758 \ubaa8\ub4e0 \uc721\uc0c1\uc804\ud22c \uc720\ub2db \uc120\ud0dd"
+    }, 
+    "select all matching units on screen": {
+        "message": "\ud654\uba74\uc548\uc758 \ub9e4\uce6d\ub41c \uc720\ub2db \ubaa8\ub450 \uc120\ud0dd"
+    }, 
+    "select all naval combat units": {
+        "message": "\ubaa8\ub4e0 \ud574\uc0c1\uc804\ud22c \uc720\ub2db \uc120\ud0dd"
+    }, 
+    "select all naval combat units on screen": {
+        "message": "\ud654\uba74\uc758 \ubaa8\ub4e0 \ud574\uc0c1\uc804\ud22c \uc720\ub2db \uc120\ud0dd"
+    }, 
+    "select bot group": {
+        "message": "\ubd07 \uadf8\ub8f9 \uc120\ud0dd"
+    }, 
+    "select combat group": {
+        "message": "\uc804\ud22c \uadf8\ub8f9 \uc120\ud0dd"
+    }, 
+    "select commander": {
+        "message": "\uc9c0\ud718\uad00 \uc120\ud0dd"
+    }, 
+    "select factory group": {
+        "message": "\uacf5\uc7a5 \uadf8\ub8f9 \uc120\ud0dd"
+    }, 
+    "select idle fabbers": {
+        "message": "\ub300\uae30\uc911\uc778 \uc81c\uc791\uc720\ub2db \uc120\ud0dd"
+    }, 
+    "select orbital group (buildings)": {
+        "message": "\uada4\ub3c4 \uadf8\ub8f9 \uc120\ud0dd (\uac74\ubb3c)"
+    }, 
+    "select orbital group (units)": {
+        "message": "\uada4\ub3c4 \uadf8\ub8f9 \uc120\ud0dd (\uc720\ub2db)"
+    }, 
+    "select sea group": {
+        "message": "\ud574\uc0c1 \uadf8\ub8f9 \uc120\ud0dd"
+    }, 
+    "select utility group": {
+        "message": "\uc2dc\uc124\ubb3c \uadf8\ub8f9 \uc120\ud0dd"
+    }, 
+    "select vehicle group": {
+        "message": "\ucc28\ub7c9 \uadf8\ub8f9 \uc120\ud0dd"
+    }, 
+    "self destruct selected unit": {
+        "message": "\uc120\ud0dd\ub41c \uc720\ub2db \uc790\ud3ed"
+    }, 
+    "set army from hover": {
+        "message": "\ud638\ubc84 \ubd80\ub300 \uc124\uc815"
+    }, 
+    "set debug camera": {
+        "message": "\ub514\ubc84\uadf8 \uce74\uba54\ub77c \uc124\uc815"
+    }, 
+    "set default camera": {
+        "message": "\uae30\ubcf8 \uce74\uba54\ub77c \uc124\uc815"
+    }, 
+    "set free camera": {
+        "message": "\uc790\uc720 \uce74\uba54\ub77c \uc124\uc815"
+    }, 
+    "set planet camera": {
+        "message": "\ud589\uc131 \uce74\uba54\ub77c \uc124\uc815"
+    }, 
+    "show/hide UI": {
+        "message": "UI \ubcf4\uc774\uae30/\uc228\uae30\uae30"
+    }, 
+    "show/hide performance panel": {
+        "message": "\ud37c\ud3ec\uba3c\uc2a4 \ud328\ub110 \ubcf4\uc774\uae30/\uc228\uae30\uae30"
+    }, 
+    "show/hide visual aid overlays": {
+        "message": "\uc2dc\uac01 \uc9c0\uc6d0 \uc624\ubc84\ub808\uc774 \ubcf4\uc774\uae30/\uc228\uae30\uae30"
+    }, 
+    "smooth zoom in": {
+        "message": "\ubd80\ub4dc\ub7ec\uc6b4 \uc90c \uc778"
+    }, 
+    "smooth zoom out": {
+        "message": "\ubd80\ub4dc\ub7ec\uc6b4 \uc90c \uc544\uc6c3"
+    }, 
+    "special move": {
+        "message": "\ud2b9\uc218 \uc774\ub3d9"
+    }, 
+    "stop": {
+        "message": "\uc815\uc9c0"
+    }, 
+    "streaming": {
+        "message": "\uc2a4\ud2b8\ub9ac\ubc0d"
+    }, 
+    "swap pip": {
+        "message": "PIP \uc804\ud658"
+    }, 
+    "team chat": {
+        "message": "\ud300 \ucc44\ud305"
+    }, 
+    "toggle FOW": {
+        "message": "FOW \ud1a0\uae00"
+    }, 
+    "toggle audio logging": {
+        "message": "\uc624\ub514\uc624 \uae30\ub85d \ud1a0\uae00"
+    }, 
+    "toggle build orders": {
+        "message": "\uac74\uc124 \uba85\ub839 \ud1a0\uae00"
+    }, 
+    "toggle console": {
+        "message": "\ucf58\uc194 \ud1a0\uae00"
+    }, 
+    "toggle debug camera": {
+        "message": "\ub514\ubc84\uadf8 \uce74\uba54\ub77c \ud1a0\uae00"
+    }, 
+    "toggle energy orders": {
+        "message": "\uc5d0\ub108\uc9c0 \uba85\ub839 \ud1a0\uae00"
+    }, 
+    "toggle fire orders": {
+        "message": "\ubc1c\uc0ac \uba85\ub839 \ud1a0\uae00"
+    }, 
+    "toggle free camera": {
+        "message": "\uc790\uc720 \uce74\uba54\ub77c \ud1a0\uae00"
+    }, 
+    "toggle fullscreen": {
+        "message": "\uc804\uccb4\ud654\uba74 \ud1a0\uae00"
+    }, 
+    "toggle move orders": {
+        "message": "\uc774\ub3d9 \uba85\ub839 \ud1a0\uae00"
+    }, 
+    "toggle music": {
+        "message": "\uc74c\uc545 \ud1a0\uae00"
+    }, 
+    "toggle nav debug": {
+        "message": "\ub124\ube44 \ub514\ubc84\uadf8 \ud1a0\uae00"
+    }, 
+    "toggle pip mirror": {
+        "message": "PIP \ubbf8\ub7ec \ud1a0\uae00"
+    }, 
+    "toggle twitch microphone": {
+        "message": "\ud2b8\uc704\uce58 \ub9c8\uc774\ud06c \ud1a0\uae00"
+    }, 
+    "toggle twitch streaming": {
+        "message": "\ud2b8\uc704\uce58 \uc2a4\ud2b8\ub9ac\ubc0d \ud1a0\uae00"
+    }, 
+    "toggle twitch system audio recording": {
+        "message": "\ud2b8\uc704\uce58 \uc2dc\uc2a4\ud15c \uc624\ub514\uc624 \uae30\ub85d \ud1a0\uae00"
+    }, 
+    "track selection with camera": {
+        "message": "\uce74\uba54\ub77c \ub300\uc0c1 \ucd94\uc801"
+    }, 
+    "tracking & alignment": {
+        "message": "\ucd94\uc801 & \uc815\ub82c"
+    }, 
+    "tuning": {
+        "message": "\ud29c\ub2dd"
+    }, 
+    "unit capture groups": {
+        "message": "\uc720\ub2db \ud3ec\ud68d \uadf8\ub8f9"
+    }, 
+    "unit commands": {
+        "message": "\uc720\ub2db \uba85\ub839"
+    }, 
+    "unit orders": {
+        "message": "\uc720\ub2db \uba85\ub839"
+    }, 
+    "unit recall groups": {
+        "message": "\uc720\ub2db \uadf8\ub8f9 \ud638\ucd9c"
+    }, 
+    "unit selection": {
+        "message": "\uc720\ub2db \uc120\ud0dd"
+    }, 
+    "units": {
+        "message": "\uc720\ub2db\ub4e4"
+    }, 
+    "unload": {
+        "message": "\ub0b4\ub9ac\uae30"
+    }, 
+    "zoom": {
+        "message": "\ud655\ub300"
+    }, 
+    "zoom in": {
+        "message": "\uc90c \uc778"
+    }, 
+    "zoom out": {
+        "message": "\uc90c\uc544\uc6c3"
+    }, 
+    "zoom to air": {
+        "message": "\uacf5\uc911\uc73c\ub85c \uc90c"
+    }, 
+    "zoom to celestial": {
+        "message": "\ucc9c\uccb4\uc5d0 \uc90c"
+    }, 
+    "zoom to orbital": {
+        "message": "\uada4\ub3c4\ub85c \uc90c"
+    }, 
+    "zoom to surface": {
+        "message": "\ud45c\uba74 \ud655\ub300"
+    }
+}

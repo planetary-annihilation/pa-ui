@@ -1,0 +1,68 @@
+{
+    "(+ __aiCount__ AI)": {
+        "message": "(+ __aiZ\u00e4hlung__ AI)"
+    }, 
+    "(Updating...)": {
+        "message": "Aktualisieren"
+    }, 
+    "(no info available)": {
+        "message": "(keine Info verf\u00fcgbar)"
+    }, 
+    "All Recent Games": {
+        "message": "Alle neuen Spiele"
+    }, 
+    "BuildVersion": {
+        "message": "Build-Version"
+    }, 
+    "Duration": {
+        "message": "Dauer"
+    }, 
+    "FAILED TO RETRIEVE REPLAY LIST": {
+        "message": "ANFORDERN DER WIEDERHOLUNGSLISTE FEHLGESCHLAGEN"
+    }, 
+    "Game": {
+        "message": "Spiel"
+    }, 
+    "Highest Rated (TBD)": {
+        "message": "H\u00f6chste Bewertung (TBD)"
+    }, 
+    "Lobby Id": {
+        "message": "Lobby ID"
+    }, 
+    "Longest Game Duration": {
+        "message": "L\u00e4ngste Spieldauer"
+    }, 
+    "Most Recent": {
+        "message": "Neueste"
+    }, 
+    "Most Viewed (TBD)": {
+        "message": "Meistgesehen (TBD)"
+    }, 
+    "My Games Only": {
+        "message": "Nur meine Spiele"
+    }, 
+    "Replays": {
+        "message": "Wiederholungen"
+    }, 
+    "Returning to Main Menu": {
+        "message": "Zur\u00fcckkehren zum Hauptmen\u00fc"
+    }, 
+    "Search": {
+        "message": "Suchen"
+    }, 
+    "Sorted By": {
+        "message": "Sortiert nach"
+    }, 
+    "View": {
+        "message": "Ansehen"
+    }, 
+    "Watch Direct Lobby Id:": {
+        "message": "Direct Lobby ID ansehen"
+    }, 
+    "Watch Replay": {
+        "message": "Wiedergabe ansehen"
+    }, 
+    "__gwClientNames__: Galactic War \"__gwWarName__\" (turn __gwTurn__, __gwSystemName__), vs. __gwAiArmies__": {
+        "message": "__gwUSERnamen__: Galaktischer Krieg\"__gwKriegName__\" (Runde __gwRunde__, __gwSystemName__), vs. __gwAiArmeen__"
+    }
+}

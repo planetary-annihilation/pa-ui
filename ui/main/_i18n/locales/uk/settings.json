@@ -1,0 +1,92 @@
+{
+    "Ambient Occlusion": {
+        "message": "AMBIENT OCCLUSION"
+    }, 
+    "Anti-Aliasing": {
+        "message": "\u0417\u0413\u041b\u0410\u0414\u0416\u0423\u0412\u0410\u041d\u041d\u042f"
+    }, 
+    "Audio": {
+        "message": "\u0417\u0412\u0423\u041a"
+    }, 
+    "Camera": {
+        "message": "\u041a\u0410\u041c\u0415\u0420\u0410"
+    }, 
+    "Camera Friction": {
+        "message": "\u0417\u0421\u0423\u0412 \u041a\u0410\u041c\u0415\u0420\u0418"
+    }, 
+    "Cancel": {
+        "message": "\u0421\u041a\u0410\u0421\u0423\u0412\u0410\u0422\u0418"
+    }, 
+    "Display Mode": {
+        "message": "\u0420\u0415\u0416\u0418\u041c \u0412\u0418\u0412\u0415\u0414\u0415\u041d\u041d\u042f"
+    }, 
+    "Graphics": {
+        "message": "\u0413\u0420\u0410\u0424\u0406\u041a\u0410"
+    }, 
+    "HDR": {
+        "message": "HDR"
+    }, 
+    "Headlights": {
+        "message": "\u0424\u0410\u0420\u0418"
+    }, 
+    "Key Pan Speed": {
+        "message": "\u0428\u0412\u0418\u0414\u041a\u0406\u0421\u0422\u042c \u041a\u0423\u0420\u0421\u041e\u0420\u0410"
+    }, 
+    "Keyboard": {
+        "message": "\u041a\u041b\u0410\u0412\u0406\u0410\u0422\u0423\u0420\u0410"
+    }, 
+    "Master Volume": {
+        "message": "\u0417\u0410\u0413\u0410\u041b\u042c\u041d\u0410 \u0413\u0423\u0427\u041d\u0406\u0421\u0422\u042c"
+    }, 
+    "Mouse Pan Speed": {
+        "message": "\u0428\u0412\u0418\u0414\u041a\u0406\u0421\u0422\u042c \u041a\u0423\u0420\u0421\u041e\u0420\u0410"
+    }, 
+    "Orbital Shell": {
+        "message": "\u041e\u0420\u0411\u0406\u0422\u0410\u041b\u042c\u041d\u0418\u0419 \u0428\u0410\u0420"
+    }, 
+    "Quality Preset": {
+        "message": "\u042f\u041a\u0406\u0421\u0422\u042c"
+    }, 
+    "RESTORE DEFAULTS": {
+        "message": "\u0412\u0406\u0414\u041d\u041e\u0412\u0418\u0422\u0418 \u041f\u041e \u0417\u0410\u041c\u041e\u0412\u0427\u0423\u0412\u0410\u041d\u041d\u042e"
+    }, 
+    "Resolution Scaling": {
+        "message": "\u041c\u0410\u0421\u0428\u0422\u0410\u0411 \u0420\u041e\u0417\u0414\u0406\u041b\u042c\u041d\u041e\u0421\u0422\u0406"
+    }, 
+    "SIGN IN": {
+        "message": "\u0423\u0412\u0406\u0419\u0422\u0418"
+    }, 
+    "SIGN OUT": {
+        "message": "\u0412\u0418\u0419\u0422\u0418"
+    }, 
+    "Save And Close": {
+        "message": "\u0417\u0411\u0415\u0420\u0415\u0413\u0422\u0418 \u0406 \u0417\u0410\u041a\u0420\u0418\u0422\u0418"
+    }, 
+    "Settings": {
+        "message": "\u041d\u0410\u041b\u0410\u0428\u0422\u0423\u0412\u0410\u041d\u041d\u042f"
+    }, 
+    "Shadows": {
+        "message": "\u0422\u0406\u041d\u0406"
+    }, 
+    "Show Build Previews": {
+        "message": "\u041f\u0415\u0420\u0415\u0414\u041e\u0413\u041b\u042f\u0414 \u0411\u0406\u041b\u0414\u0406\u0412"
+    }, 
+    "Show Metal Spot Icons": {
+        "message": "\u041f\u041e\u041a\u0410\u0417\u0423\u0412\u0410\u0422\u0418 \u0417\u041d\u0410\u0427\u041a\u0418 \u0422\u041e\u0427\u041e\u041a \u041c\u0415\u0422\u0410\u041b\u0423"
+    }, 
+    "Show Stat Bars": {
+        "message": "\u041f\u041e\u041a\u0410\u0417\u0423\u0412\u0410\u0422\u0418 \u0421\u041c\u0423\u0416\u041a\u0418 \u0416\u0418\u0422\u0422\u042f"
+    }, 
+    "Show Unit Icons": {
+        "message": "\u041f\u041e\u041a\u0410\u0417\u0423\u0412\u0410\u0422\u0418 \u0406\u041a\u041e\u041d\u041a\u0418 \u042e\u041d\u0406\u0422\u0406\u0412"
+    }, 
+    "UI": {
+        "message": "\u0406\u041d\u0422\u0415\u0420\u0424\u0415\u0419\u0421"
+    }, 
+    "Virtual Texture": {
+        "message": "\u0412\u0406\u0420\u0422\u0423\u0410\u041b\u042c\u041d\u0406 \u0422\u0415\u041a\u0421\u0422\u0423\u0420\u0418"
+    }, 
+    "Zoom Speed": {
+        "message": "\u0428\u0412\u0418\u0414\u041a\u0406\u0421\u0422\u042c \u0417\u0423\u041c\u0423"
+    }
+}

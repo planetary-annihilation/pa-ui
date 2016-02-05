@@ -1,0 +1,26 @@
+{
+    "CONNECTION TO SERVER FAILED": {
+        "message": "CONEX\u00c3O COM O SERVIDOR FALHOU"
+    }, 
+    "CONNECTION TO SERVER LOST": {
+        "message": "CONEX\u00c3O COM O SERVIDOR PERDIDA"
+    }, 
+    "FAILED TO JOIN GAME": {
+        "message": "FALHA AO ENTRAR NO JOGO"
+    }, 
+    "FAILED TO START GAME": {
+        "message": "FALHA AO INICIAR O JOGO"
+    }, 
+    "FAILED TO START REPLAY": {
+        "message": "FALHA AO INICIAR O REPLAY"
+    }, 
+    "LOGIN ACCEPTED": {
+        "message": "CONEX\u00c3O ACEITA"
+    }, 
+    "LOGIN TO SERVER REJECTED": {
+        "message": "CONEX\u00c3O COM O SERVIDOR REJEITADA"
+    }, 
+    "Returning to Main Menu": {
+        "message": "Retornando ao Menu Principal"
+    }
+}

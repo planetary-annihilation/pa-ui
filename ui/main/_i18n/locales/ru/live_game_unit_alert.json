@@ -1,0 +1,29 @@
+{
+    "Allied": {
+        "message": "\u0421\u043e\u044e\u0437\u043d\u044b\u0439"
+    }, 
+    "Enemy Contact!": {
+        "message": "\u0417\u0430\u043c\u0435\u0447\u0435\u043d \u043f\u0440\u043e\u0442\u0438\u0432\u043d\u0438\u043a!"
+    }, 
+    "Ping!": {
+        "message": "\u0421\u0438\u0433\u043d\u0430\u043b!"
+    }, 
+    "destroyed.": {
+        "message": "\u0443\u043d\u0438\u0447\u0442\u043e\u0436\u0435\u043d."
+    }, 
+    "launched!": {
+        "message": "\u0437\u0430\u043f\u0443\u0449\u0435\u043d!"
+    }, 
+    "located.": {
+        "message": "\u043e\u0431\u043d\u0430\u0440\u0443\u0436\u0435\u043d."
+    }, 
+    "lost.": {
+        "message": "\u043f\u043e\u0442\u0435\u0440\u044f\u043d\u043e."
+    }, 
+    "ready.": {
+        "message": "\u0413\u043e\u0442\u043e\u0432!"
+    }, 
+    "under attack.": {
+        "message": "\u0430\u0442\u0430\u043a\u043e\u0432\u0430\u043d."
+    }
+}

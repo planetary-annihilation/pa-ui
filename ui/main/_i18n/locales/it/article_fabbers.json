@@ -1,0 +1,32 @@
+{
+    "Advanced Fabbers come from Advanced Factories and can build both basic and advanced structures": {
+        "message": "I fabbricatori avanzati vengono creati nelle fabbriche avanzate e possono costruire strutture normali e avanzate"
+    }, 
+    "Basic Fabbers build basic structures and Advanced Factories": {
+        "message": "I fabbricatori normali possono costruire strutture normali e fabbriche avanzate"
+    }, 
+    "Fabbers are built by Vehicle, Air, Naval, Bot, and Orbital Factories": {
+        "message": "I fabbricatori vengono creati nelle fabbriche di veicoli, aeree, navali, bot e orbitali"
+    }, 
+    "Fabrication Units": {
+        "message": "Unità fabbricatrici"
+    }, 
+    "Hold Shift + Left Click to queue up multiple build orders": {
+        "message": "Tieni premuto Maiusc e fai clic col pulsante sinistro del mouse per accodare più ordini di costruzione"
+    }, 
+    "Left Click units on Build Bar and select a space in the world to build": {
+        "message": "Fai clic col pulsante sinistro del mouse sulle unità nella Barra Costruzioni e seleziona un punto in cui avviare la costruzione"
+    }, 
+    "PA Guide: Fabbers": {
+        "message": "Guida di PA: Fabbricatori"
+    }, 
+    "Select a Fabber to get access to Build Bar": {
+        "message": "Per accedere alla Barra Costruzioni, seleziona un fabbricatore"
+    }, 
+    "[style=text_callout]Control + left click[/style] a unit to make a factory produce a single one of that unit before continuing with the rest of the build queue.": {
+        "message": "[style=text_callout]CTRL + fai clic col pulsante sinistro del mouse[/style] su un'unità per avviare la costruzione di un'unità di quel tipo prima di continuare col resto della coda."
+    }, 
+    "[style=text_callout]Right Click[/style] or [style=text_callout]Shift + Right Click[/style] on units to reduce number of units in queue": {
+        "message": "[style=text_callout]Fai clic col pulsante destro del mouse [/style] o [style=text_callout]Maiusc + fai clic col pulsante destro del mouse[/style] sulle unità per ridurre il loro numero in coda"
+    }
+}

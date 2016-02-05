@@ -1,0 +1,177 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta content="text/html; charset=utf-8" http-equiv="Content-Type" />
+    <noloc><title>Load Planet</title></noloc>
+    <link href="bundle://boot/boot.css" rel="stylesheet" type="text/css" />
+    <link href="coui://ui/main/shared/css/landing_page.css" rel="stylesheet" type="text/css" />
+    <link href="load_planet.css" rel="stylesheet" type="text/css" />
+    <script src="bundle://boot/boot.js" type="text/javascript"></script>
+    <script src="load_planet.js" type="text/javascript"></script>
+</head>
+<body>
+    <!--- VISUAL TREATMENTS ---->
+    <div class="background_glow"></div>
+    <!-- TITLE -->
+    <div class="section_title">
+        <div class="content">
+            <div class="btn_std_ix btn_back_small" data-bind="click: back">
+                <span class="glyphicon glyphicon-chevron-left carat"></span>
+            </div>
+            <div class="title" data-bind="locText: title">
+            </div>
+            <div class="content_titans_badge" style="display: none;" data-bind="visible: api.content.usingTitans">
+            </div>
+        </div>
+    </div>
+    <!-- CONTENT --->
+    <div class="section_content_top_bar"> <!-- FOR TABS -->
+    </div>
+    <div class="section_content">
+        <div class="section_content_table">
+            <div class="section_wrapper">
+                <!-- COL 1-->
+                <div class="col_1" style="width: 200px; flex-shrink: 0;" data-bind="visible: allowCreateNewSystem">
+                    <div class="section_controls">
+                        <button data-bind="click: navToNewSystem">
+                            <loc>New system</loc>
+                        </button>
+                        <button data-bind="click: importSystem">
+                            <loc>Import</loc>
+                        </button>
+                    </div>
+                </div>
+                <!-- COL 2-->
+                <div class="col_2">
+                    <div class="tab-wrapper">
+                        <div class="tab-content" style="width: 100%;">
+                            <div id="systems" class="tab-pane active" data-bind="visible: showSystems">
+                                <div id="system-list" data-bind="foreach: systems">
+                                    <div class="one-system" data-bind="click: function () { model.selectedSystemIndex($index()); },
+        css: { one_system_selected: model.selectedSystemIndex() == $index() }">
+                                        <div class="system-background" data-bind="style: { backgroundImage: $root.imageUrlForSystem($data) }"></div>
+                                        <div class="system-properties">
+                                            <div class="system-title" data-bind="text: $data.name">
+                                            </div>
+                                            <div class="system-planet-grp">
+                                                <!-- ko foreach: $root.sortPlanets($data.planets) -->
+                                                <div class="div_planet">
+                                                    <img style="height: 20px; width: 20px;" data-bind="attr: { src: 'coui://ui/main/shared/img/planets/small/' + $data.planet.biome + '.png' }" />
+                                                    <img data-bind="visible: $data.starting_planet" class="img_start" src="coui://ui/main/game/live_game/img/planet_list_panel/icon_planet_start.png" />                                                  
+                                                </div>
+                                                <!-- /ko -->
+                                            </div>
+                                            <div class="system-player-reco" data-bind="text: $root.generateDescription($data.players)">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- COL 3-->
+                <div class="col_3" style="width: 280px;">
+                    <div id="detail-pane-wrapper" data-bind="visible: selectedSystem">
+                        <div id="detail-pane" data-bind="with: selectedSystem">
+                            <h3 data-bind="text: name"></h3>
+                            <div class="section col-planets">
+                                <div data-bind="foreach: $root.sortPlanets($data.planets)">
+                                    <div class="one-planet-detail item">
+                                        <div class="planet-biome">
+                                            <img data-bind="attr: { src: $root.imageSourceForPlanet($data) }" width="40px" />
+                                            <div class="thruster_count" data-bind="visible: $data.required_thrust_to_move > 0, tooltip: '!LOC:Thrusters Required'">
+                                                <div style="margin: -1px 0px 0px 0px;" data-bind="text: $data.required_thrust_to_move, visible: $data.required_thrust_to_move > 0"></div>
+                                            </div>
+                                        </div>
+                                        <div class="planet-properties">
+                                            <div class="planet-start" data-bind="visible: $data.starting_planet, tooltip: '!LOC:Starting Planet'">
+                                                <img src="coui://ui/main/game/live_game/img/planet_list_panel/icon_planet_start.png" />
+                                            </div>
+                                            <div class="planet-name text" data-bind="text: $data.name"></div>
+                                            <div class="planet-radius" data-bind="vars: { radius: $data.planet.radius }"><loc>Radius: __radius__</loc></div>
+                                            <div class="planet-metal" data-bind="visible: $data.planet.metalClusters, vars: { num_metal_spots: $data.planet.metalClusters }"><loc>Metal Spots: __num_metal_spots__</loc></div>
+                                            <div class="planet-metal" data-bind="visible: !$data.planet.metalClusters"><loc>No Metal</loc></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- COMMIT -->
+    <div class="div_commit_cont">
+        <!-- ko if: showSystems -->
+        <div class="div_commit_secondary_options" style="padding-left: 220px;">
+            <!-- ko if: allowDeleteSystem -->
+            <button data-bind="click: function () { if (model.canDeleteSelected()) $('#confirm').modal('show') },
+                    css: { disabled: !model.canDeleteSelected() }">
+                    <loc>Delete</loc>
+            </button>
+            <!-- /ko -->
+            <!-- ko if: allowExportSystem -->
+            <button data-bind="click: $root.exportSystem, css: { disabled: !model.canExportSelected(), std: canExportSelected }">
+                    <loc>Export</loc>
+            </button>
+            <!-- /ko -->
+        </div>
+        <div data-bind="click: $root.loadSystem,
+                    css: { btn_hero_disabled: model.selectedSystemIndex() === -1, btn_hero: model.selectedSystemIndex() !== -1 }">
+            <div class="btn_label" style="padding: 0px 40px;">
+                <!-- ko if: allowCreateNewSystem -->
+                <span>
+                    <loc>Edit System</loc>
+                </span>
+                <!-- /ko -->
+                <!-- ko ifnot: allowCreateNewSystem -->
+                <span>
+                    <loc>Load System</loc>
+                </span>
+                <!-- /ko -->
+            </div>
+        </div>
+        <!--/ko  -->
+    </div>
+
+    <!--  MODAL -->
+    <div class="modal fade" id="confirm" tabindex="-1" role="dialog" aria-labelledby="getPasswordLabel" aria-hidden="true" data-show="false">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                    <!-- ko if: showSystems -->
+                    <h4 class="modal-title">
+                        <loc>Delete this system?</loc>
+                    </h4>
+                    <!--/ko -->
+                </div>
+                <div class="modal-body">
+                    <!-- ko if: showSystems -->
+                    <!-- ko with: selectedSystem -->
+                    <p data-bind="text: $data.name"></p>
+                    <!--/ko -->
+                    <!--/ko -->
+                </div>
+                <div class="modal-footer">
+                    <button class="btn_std" data-bind="click: model.delete, click_sound: 'default', rollover_sound: 'default'">
+                        <loc>DELETE</loc>
+                    </button>
+                    <button class="btn_std" data-bind="click: function () { $('#confirm').modal('hide') }, click_sound: 'default', rollover_sound: 'default'">
+                        <loc>CANCEL</loc>
+                    </button>
+                </div>
+            </div>
+            <!-- /.modal-content -->
+        </div>
+        <!-- /.modal-dialog -->
+    </div>
+    <!-- /.modal -->
+
+</body>
+</html>

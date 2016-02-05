@@ -1,0 +1,554 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <meta locns="live_game" />
+        <noloc><title>Live Game: Players</title></noloc>
+        <link href="bundle://boot/boot.css" rel="stylesheet" type="text/css" />
+        <link href="live_game_players.css" rel="stylesheet" type="text/css" />
+        <script src="bundle://boot/boot.js" type="text/javascript"></script>
+        <script src="js/constants.js" type="text/javascript"></script>
+        <script src="live_game_players.js" type="text/javascript"></script>
+    </head>
+    <body class="body_panel" data-bind="visible: show" style="display: none">
+        <svg xmlns="http://www.w3.org/2000/svg" version="1.1" x="0" y="0" width="0" height="0">
+            <defs>
+                <filter id="maskfilter">
+                    <feColorMatrix in="SourceAlpha" type="matrix"
+                                   values="0 0 0 1 0
+                                           0 0 0 1 0
+                                           0 0 0 1 0
+                                           0 0 0 1 0"></feColorMatrix>
+                </filter>
+
+                <mask id="player-mask">
+                    <image width="12px" height="12px" xlink:href="img/players_list_panel/icon_player_fill.png" filter="url(#maskfilter)"></image>
+                </mask>
+            </defs>
+        </svg>
+
+        <!-- ko ifnot: isSpectator -->
+        <div class="div_player_list_panel">
+            <div class="div_player_list_control">
+                <div class="div_player_list_control_cont">
+                        <!--- PLAYERS SUMMARY BAR--->
+                        <div class="div_player_summary">
+                            <div class="bar_fill">
+                            </div>
+                            <!-- ko ifnot: showPlayerListPanel -->
+                            <!-- ko with: player -->
+                            <div class="btn_player btn_player_known btn_std_ix" data-placement="bottom" data-bind="tooltip: model.playerToolTip($data), click: function () { api.select.commander(); api.camera.track(true); }">
+                                <div class="div_player_icon">
+                                    <div class="fill player_masked" data-bind="style: { backgroundColor: color }"></div>
+                                    <div class="outline">
+                                        <img src="img/players_list_panel/icon_player_outline.png" />
+                                    </div>
+                                </div>
+                                <!-- ko if: defeated -->
+                                <div class="status status_annihilated">
+                                </div>
+                                <!-- /ko -->
+                                <!-- ko if: disconnected && !defeated -->
+                                <div class="status status_disconnected">
+                                </div>
+                                <!-- /ko -->
+
+                                <!-- ko with: economyHandicap -->
+                                <!-- ko if: $data > 1.0 ||  $data < 1.0 -->
+                                <div class="div_economy_handicap">
+                                    <div class="wrapper">
+                                        <span class="lbl_x">
+                                            <noloc>x</noloc>
+                                        </span>
+                                        <span class="value" data-bind="text: $data"></span>
+                                    </div>
+                                </div>
+                                <!-- /ko -->
+                                <!-- /ko -->
+                                
+                            </div>
+                            <!-- /ko -->
+
+                            <!-- ko foreach: sortedPlayerList -->
+                            <!-- ko if: $data != model.player() -->
+                            <div class="btn_player" data-placement="bottom" data-bind="tooltip: model.playerToolTip($data), click: function (data) { model.lookAtPlayerIfKnown(data.id) }, css: { btn_player_known: model.isPlayerKnown($data.id) }">
+                                <div class="div_player_icon" data-bind="css: { div_player_icon_known: model.isPlayerKnown($data.id) }">
+                                    <div class="fill player_masked" data-bind="style: { backgroundColor: color }"></div>
+                                    <div class="outline">
+                                        <img src="img/players_list_panel/icon_player_outline.png" />
+                                    </div>
+                                </div>
+                                <!-- ko if: defeated -->
+                                <div class="status status_annihilated"></div>
+                                <!-- /ko -->
+                                <!-- ko if: disconnected && !defeated -->
+                                <div class="status status_disconnected"></div>
+                                <!-- /ko -->
+
+                                <!-- ko with: economyHandicap -->
+                                <!-- ko if: $data > 1.0 ||  $data < 1.0 -->
+                                <div class="div_economy_handicap">
+                                    <div class="wrapper">
+                                        <span class="lbl_x">
+                                            <noloc>x</noloc>
+                                        </span>
+                                        <span class="value" data-bind="text: $data"></span>
+                                    </div>
+                                </div>
+                                <!-- /ko -->
+                                <!-- /ko -->
+                            </div>
+                            <!-- /ko -->
+                            <!-- /ko -->
+                            <!-- /ko -->
+                        </div>
+                        <div class="list_control_btn" data-bind="click: togglePinPlayerListPanel, css: { div_animated_flash_cyan: model.newInvite }">
+                            <img data-bind="attr: { src: playerPanelToggleImage }" />
+                        </div>
+                    </div>
+                <!-- ko if: numAllianceRequests -->
+                <div class="notification_alliance receiveMouse" data-bind="click: togglePinPlayerListPanel">
+                    <span data-bind="text: allianceRequestsReceived().length"></span>
+                        <loc>Alliance Request</loc>
+                </div>
+                <!-- /ko -->
+            </div>
+
+            <!-- ko if: showPlayerListPanel -->
+            <div class="div_player_list_cont">
+                <div class="div_player_item_list_cont">
+
+                <!-- ko with: player -->
+                <div class="div_player_item me receiveMouse" data-bind="click: function () { api.select.commander(); api.camera.track(true); }">
+                    <div class="btn_player btn_player_known" data-bind="click: function () { api.select.commander(); api.camera.track(true); }" style="margin: 0px 0px 2px 0px;">
+                        <div class="div_player_icon">
+                            <div class="fill player_masked" data-bind="style: { backgroundColor: color }"></div>
+                            <div class="outline">
+                                <img src="img/players_list_panel/icon_player_outline.png" />
+                            </div>
+                        </div>
+                    </div>
+                    <div class="div_player_name_status">
+                        <div class="div_player_name" data-bind="text: name, style: { color: disconnected ? 'DarkGray' : 'White', color: defeated ? 'Red' + text - shadow : defeated ? '0px 0px 10px #f00' : '' }"></div>
+                        <div class="div_player_landing" data-bind="text: model.playerLandingText($data)"></div>
+                        <div class="div_player_defeated" data-bind="text: model.playerDefeatedText($data)"></div>
+                    </div>
+                    <!-- ko with: economyHandicap -->
+                    <!-- ko if: $data > 1.0 ||  $data < 1.0 -->
+                    <div class="div_economy_handicap ally_me_inline">
+                        <div class="wrapper">
+                            <span class="lbl_x">
+                                <noloc>x</noloc>
+                            </span>
+                            <span class="value" data-bind="text: $data"></span>
+                        </div>
+                    </div>
+                    <!-- /ko -->
+                    <!-- /ko -->
+                </div>
+                <!-- /ko -->
+
+                <!-- ko if: gameOptions().isFFA -->
+                <table class="tbl_alliance_mode">
+                    <tr class="header" data-bind="visible: gameOptions().dynamic_alliances">
+                        <th class="player"></th>
+                        <th class="ally" style="text-align:center;"><loc>ALLY</loc></th>
+                        <th class="resc" style="text-align:center;"><loc>RESC</loc></th>
+                    </tr>
+
+                    <!-- ko foreach: players -->
+                    <!-- ko if: $data != model.player() -->
+                    <tr data-bind="style: { backgroundColor: $parent.showAllianceRequestReceived($data) ? '' : 'Transparent' }">
+                        <td class="player" data-bind="click: function (data) { model.lookAtPlayerIfKnown(data.id) }">
+                            <div class="div_player_item">
+                                <div class="btn_player" data-bind="click: function (data) { model.lookAtPlayerIfKnown(data.id) }, css: { btn_player_known: model.isPlayerKnown($data.id) }">
+                                    <div class="div_player_icon" data-bind="css: { div_player_icon_known: model.isPlayerKnown($data.id) }">
+                                        <div class="fill player_masked" data-bind="style: { backgroundColor: color }"></div>
+                                        <div class="outline">
+                                            <img src="img/players_list_panel/icon_player_outline.png" />
+                                        </div>
+                                        <!-- ko if: defeated -->
+                                        <div class="status status_annihilated"></div>
+                                        <!-- /ko -->
+                                        <!-- ko if: disconnected && !defeated -->
+                                        <div class="status status_disconnected"></div>
+                                        <!-- /ko -->
+                                    </div>
+                                </div>
+                                <div class="div_player_name_status truncate">
+                                    <div data-bind="visible: ai" class="div_player_name ai">
+                                        <noloc>AI: </noloc>
+                                    </div>
+                                    <div class="div_player_name truncate" data-bind="text: name, css: { color_disconnected: disconnected, color_negative: defeated }">
+                                    </div>
+                                </div>
+                                <!-- ko with: economyHandicap -->
+                                <!-- ko if: $data > 1.0 ||  $data < 1.0 -->
+                                <div class="div_economy_handicap inline">
+                                    <div class="wrapper">
+                                        <span class="lbl_x">
+                                            <noloc>x</noloc>
+                                        </span>
+                                        <span class="value" data-bind="text: $data"></span>
+                                    </div>
+                                </div>
+                                <!-- /ko -->
+                                <!-- /ko -->
+                            </div>
+                            <div class="div_player_details" >
+                                <div class="div_player_status">
+                                    <span class="div_player_landing" data-bind="text: model.playerLandingText($data)"></span>
+                                    <span class="div_player_defeated" data-bind="text: model.playerDefeatedText($data)"></span>
+                                    <!-- ko if: $parent.showSentAllianceRequest($data) -->
+                                    <div class="div_player_alliance_requested"><loc>Request pending</loc></div>
+                                    <!-- /ko -->
+                                    <!-- ko if: $parent.showAllianceRequestReceived($data) -->
+                                    <div class="div_player_alliance_requested"><loc>Alliance requested</loc></div>
+                                    <!-- /ko -->
+                                </div>
+                            </div>
+                        </td>
+                        <!-- ko if: !ai && $parent.gameOptions().dynamic_alliances-->
+                        <!-- ko if: $parent.showAllianceRequestReceived($data) -->
+                        <td class="ally" colspan="2">
+                            <div class="btn_alliance btn_std_ix" data-bind="click_sound: 'default', rollover_sound: 'default', click: function () { model.acceptAllianceRequest($data) }">
+                                <loc>Accept</loc>
+                            </div>
+                            <div class="btn_alliance btn_std_ix" style="margin-top:4px;" data-bind="click_sound: 'default', rollover_sound: 'default', click: function () { model.ignoreAllianceRequest($data) }">
+                                <loc>Ignore</loc>
+                            </div>
+                        </td>
+                        <!-- /ko -->
+                        <!-- ko ifnot: $parent.showAllianceRequestReceived($data) -->
+                        <td class="ally">
+                            <div class="ctrl_alliance_option">
+                                <!-- ko if: $parent.showRequestAlliance($data) -->
+                                    <img style="height:14px; width:14px;" src="img/players_list_panel/checkbox_unchecked.png" data-bind="click: function () { model.sendAllianceRequest($data) }" />
+                                <!-- /ko -->
+                                <!-- ko if: $parent.showSentAllianceRequest($data) -->
+                                    <img style="height:14px; width:14px;" src="img/players_list_panel/checkbox_pending.png" data-bind="click: function () { }" />
+                                <!-- /ko -->
+                                <!-- ko if: $parent.showAllied($data) -->
+                                    <img style="height:14px; width:14px;" src="img/players_list_panel/checkbox_checked.png" data-bind="click: function () { model.setDiplomaticState($data.id, 'hostile') }" />
+                                <!-- /ko -->
+                                <!-- ko if: $parent.showAlliedLocked($data) -->
+                                    <img style="height:14px; width:14px;" src="img/players_list_panel/checkbox_checked_and_locked.png" />
+                                <!-- /ko -->
+                            </div>
+                        </td>
+
+                        <!-- ko if: $parent.isAlly($data) -->
+                        <td class="resc">
+                            <div class="ctrl_alliance_option">
+                            <!-- ko if: $parent.isSharingEco($data) -->
+                                <img style="height:14px; width:14px;" src="img/players_list_panel/checkbox_checked.png" data-bind="click: function () { model.setDiplomaticState($data.id, 'allied') }" />
+                            <!-- /ko -->
+                            <!-- ko ifnot: $parent.isSharingEco($data) -->
+                                <img style="height:14px; width:14px;" src="img/players_list_panel/checkbox_unchecked.png" data-bind="click: function () { model.setDiplomaticState($data.id, 'allied_eco') }" />
+                            <!-- /ko -->
+                            </div>
+                        </td>
+                        <!-- /ko -->
+
+                        <!-- ko ifnot: $parent.isAlly($data) -->
+                        <td class="resc">
+                            <div class="ctrl_alliance_option_disabled"></div>
+                        </td>
+                        <!-- /ko -->
+
+                        <!-- /ko -->
+                        <!-- /ko -->
+                        <td>
+
+                        </td>
+                    </tr>
+
+                    <!-- ko if: allies.length -->
+                    <tr>
+                        <td colspan="3">
+                            <div class="div_player_allies ignoreMouse">
+                                <div style="float: left"><loc>Allied With:</loc></div>
+                                <!-- ko foreach : allies -->
+                                <div class="div_player_list_ally">
+                                    <div class="div_player_icon div_player_icon_known">
+                                        <div class="fill player_masked" data-bind="style: { backgroundColor: color }"></div>
+                                        <div class="outline">
+                                            <img src="img/players_list_panel/icon_player_outline.png" />
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- /ko -->
+                            </div>
+                        </td>
+                    </tr>
+                    <!-- /ko -->
+
+                    <!-- /ko -->
+                    <!-- /ko -->
+                </table>
+                <!-- /ko -->
+                <!--- TEAM ARMIES --->
+                <!-- ko ifnot: gameOptions().isFFA -->
+
+                    <!-- ko foreach: sortedPlayersArray -->
+                    <div style="border-bottom:1px solid rgba(0,179,255,.25); padding-bottom:8px; margin-bottom:8px;">
+
+                    <!-- ko foreach: $data-->
+                        <!-- ko ifnot: $data == model.player()-->
+                        <div class="div_player_item team" data-bind="click: function (data) { model.lookAtPlayerIfKnown($data.id) }">
+                            <div class="div_player_item">
+                                <div class="btn_player" data-bind="click: function (data) { model.lookAtPlayerIfKnown($data.id) }, css: { btn_player_known: model.isPlayerKnown($data.id) }">
+                                    <div class="div_player_icon" data-bind="css: { div_player_icon_known: model.isPlayerKnown($data.id) }">
+                                        <div class="fill player_masked" data-bind="style: { backgroundColor: color }"></div>
+                                        <div class="outline">
+                                            <img src="img/players_list_panel/icon_player_outline.png" />
+                                        </div>
+                                        <!-- ko if: defeated -->
+                                        <div class="status status_annihilated"></div>
+                                        <!-- /ko -->
+                                        <!-- ko if: disconnected && !defeated -->
+                                        <div class="status status_disconnected"></div>
+                                        <!-- /ko -->
+                                    </div>
+                                </div>
+                                <div class="div_player_name_status truncate">
+                                    <div data-bind="visible: ai" class="div_player_name ai">
+                                        <noloc>AI: </noloc>
+                                    </div>
+                                    <div class="div_player_name truncate" data-bind="text: name, css: { color_disconnected: disconnected, color_negative: defeated }"></div>
+                                </div>
+                            </div>
+                            <div class="div_player_details team" >
+                                <div class="div_player_status">
+                                    <span class="div_player_landing" data-bind="text: model.playerLandingText($data)"></span>
+                                    <span class="div_player_defeated" data-bind="text: model.playerDefeatedText($data)"></span>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- /ko -->
+                    <!-- /ko -->
+
+                    </div>
+                    <div style="height: 4px"></div>
+                    <!-- /ko -->
+                <!-- /ko -->
+                </div>
+            </div>
+            <!-- /ko -->
+        </div>
+        <!-- /ko -->
+
+        <!-- ko if: isSpectator -->
+        <div class="div_spectator_panel">
+            <div class="div_player_list_control">
+                <div class="div_player_list_control_cont div_spectator_list_control_cont">
+                    <div class="bar_fill">
+                    </div>
+                    <!--- SPECTATORS BAR--->
+                    <div class="div_player_summary">
+                        <!-- ko ifnot: showSpectatorPanel -->
+                        <!-- ko foreach: players -->
+                        <div class="btn_player" data-placement="bottom" data-bind="tooltip: $root.playerToolTip($data), click: function (data) { model.lookAtPlayerIfKnown(data.id) }, css: { btn_player_known: model.isPlayerKnown($data.id) }">
+                            <div class="div_player_icon">
+                                <div class="fill player_masked" data-bind="style: { backgroundColor: color }"></div>
+                                <div class="outline">
+                                    <img src="img/players_list_panel/icon_player_outline.png" />
+                                </div>
+                            </div>
+                            <!-- ko if: defeated -->
+                            <div class="status status_annihilated">
+                            </div>
+                            <!-- /ko -->
+                            <!-- ko if: disconnected && !defeated -->
+                            <div class="status status_disconnected">
+                            </div>
+                            <!-- /ko -->
+                            <!-- ko with: economyHandicap -->
+                            <!-- ko if: $data > 1.0 ||  $data < 1.0 -->
+                            <div class="div_economy_handicap">
+                                <div class="wrapper">
+                                    <span class="lbl_x">
+                                        <noloc>x</noloc>
+                                    </span>
+                                    <span class="value" data-bind="text: $data"></span>
+                                </div>
+                            </div>
+                            <!-- /ko -->
+                            <!-- /ko -->
+                        </div>
+                        <!-- /ko -->
+                        <!-- /ko -->
+                    </div>
+                    <div class="list_control_btn" data-bind="click: togglePinSpectatorPanel">
+                        <div style="display: inline-block; vertical-align: middle;">
+                            <img data-bind="attr: { src: spectatorPanelToggleImage }" />
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- ko if: showSpectatorPanel -->
+            <div class="div_player_list_cont" style="max-width:none;">
+                <div class="div_player_item_list_cont">
+                    <div class="div_spectator_panel_buttons">
+                        <div class="div_spectator_panel_button" data-bind="click: function () { spectatorPanelMode('economy') }, css: { div_spectator_panel_button_active: showEconomyData }">
+                            <loc>ECONOMY</loc>
+                        </div>
+                        <div class="div_spectator_panel_button" data-bind="click: function () { spectatorPanelMode('army') }, css: { div_spectator_panel_button_active: showArmyData } ">
+                            <loc>ARMY</loc>
+                        </div>
+                        <div class="div_spectator_panel_button" data-bind="click: function () { spectatorPanelMode('alliance') }, css: { div_spectator_panel_button_active: showAllianceData } ">
+                            <loc>ALLIANCES</loc>
+                        </div>
+                    </div>
+
+                    <table class="tbl_spectator_stats" style="font-family:'Trebuchet MS';">
+                        <tr style="text-transform:uppercase;">
+                            <th style="width: 30px; text-align: left;">
+                                <div class="btn_spectator_visibility btn_spectator_visibility_box" style="margin:0px 0px 0px 0px;" data-bind="click: visionSelectAll">
+                                    <img src="img/players_list_panel/icon_visibility_all.png" />
+                                </div>
+                            </th>
+                            <th style="width: 32px;">
+                            </th>
+                            <th style="width: 80px; padding: 0px 0px 0px 8px;"><loc>PLAYER</loc>
+                            </th>
+
+                            <!-- ko if: showEconomyData -->
+                            <th class="div_spectator_headers div_metal_header">
+                                <img src="img/status_bar/icon-status-metal.png" style="height: 12px;" />
+                            </th>
+                            <th class="div_spectator_headers div_energy_header">
+                                <img src="img/status_bar/icon-status-energy.png" style="height: 13px;" />
+                            </th>
+                            <th class="div_spectator_headers div_build_efficiency_header">
+                                <loc>Efficiency</loc>
+                            </th>
+                            <!-- /ko -->
+
+                            <!-- ko if: showArmyData -->
+                            <th class="div_spectator_headers div_army_size_header">
+                                <loc>Count</loc>
+                            </th>
+                            <th class="div_spectator_headers div_army_mobile_value_header">
+                                <loc>Mobile</loc>
+                            </th>
+                            <th class="div_spectator_headers div_army_fabber_value_header">
+                                <loc>Fabber</loc>
+                            </th>
+                            <th class="div_spectator_headers div_army_factory_value_header">
+                                <loc>Factory</loc>
+                            </th>
+                            <!-- /ko -->
+
+                            <!-- ko if: showAllianceData -->
+                            <th class="div_spectator_headers div_alliances_header">
+                                <loc>Allies</loc>
+                            </th>
+                            <!-- /ko -->
+                        </tr>
+
+                        <!-- ko foreach: players -->
+                        <tr>
+                            <td>
+                                <div class="btn_spectator_visibility btn_spectator_visibility_box" data-bind="click: function () { $parent.visionSelect($index(), event); }, style: { color: $parent.playerVisionFlags()[$index()] ? 'White' : 'Gray' } ">
+                                    <!-- ko if: $parent.playerVisionFlags()[$index()] -->
+                                    <img src="img/players_list_panel/icon_visibility.png"/>
+                                    <!-- /ko -->
+                                </div>
+                            </td>
+                            <td>
+                                <div class="btn_player div_player_list_item_known">
+                                    <div class="div_player_icon div_player_icon_known">
+                                        <div class="fill player_masked" data-bind="style: { backgroundColor: color }"></div>
+                                        <div class="outline">
+                                            <img src="img/players_list_panel/icon_player_outline.png" />
+                                        </div>
+                                    </div>
+                                     <!-- ko if: defeated -->
+                                    <div class="status status_annihilated">
+                                    </div>
+                                    <!-- /ko -->
+                                    <!-- ko if: disconnected -->
+                                    <div class="status status_disconnected">
+                                    </div>
+                                    <!-- /ko -->
+                                </div>
+                            </td>
+                            <td class="div_name_header div_spectator_player_info">
+                                <div class="div_name_block">
+                                    <span data-bind="visible: ai" class="div_player_name ai"><noloc>AI: </noloc></span>
+                                    <!-- ko if: defeated -->
+                                    <span data-bind="text: name" class="color_negative"></span>
+                                    <!-- /ko -->
+                                    <!-- ko ifnot: defeated -->
+                                    <span data-bind="text: name" class="color_normal"></span>
+                                    <!-- /ko -->
+
+                                    <!-- ko with: economyHandicap -->
+                                    <!-- ko if: $data > 1.0 ||  $data < 1.0 -->
+                                    <div class="div_economy_handicap spectator_inline">
+                                        <div class="wrapper">
+                                            <span class="lbl_x">
+                                                <noloc>x</noloc>
+                                            </span>
+                                            <span class="value" data-bind="text: $data"></span>
+                                        </div>
+                                    </div>
+                                    <!-- /ko -->
+                                    <!-- /ko -->
+                                </div>
+                            </td>
+
+                            <!-- ko if: $parent.showEconomyData -->
+                            <td class="div_metal_header div_spectator_player_info" style="padding-top: 5px;">
+                                <span data-bind="text: metalProductionStr, css: $parent.metalTextColorCSS($index())"></span>
+                            </td>
+                            <td class="div_energy_header div_spectator_player_info" style="padding-top: 5px;">
+                                <span data-bind="text: energyProductionStr, css: $parent.energyTextColorCSS($index())"></span>
+                            </td>
+                            <td class="div_build_efficiency_header div_spectator_player_info" style="padding-top: 5px;">
+                                <span data-bind="text: buildEfficiencyStr, css: $parent.efficiencyTextColorCSS($index())"></span>
+                            </td>
+                            <!-- /ko -->
+
+                            <!-- ko if: $parent.showArmyData -->
+                            <td class="div_army_size_header div_spectator_player_info" style="padding-top: 5px;">
+                                <span data-bind="text: armySize"></span>
+                            </td>
+                            <td class="div_army_mobile_value_header div_spectator_player_info" style="padding-top: 5px;">
+                                <span data-bind="text: mobileCount"></span>
+                            </td>
+                            <td class="div_army_fabber_value_header div_spectator_player_info" style="padding-top: 5px;">
+                                <span data-bind="text: fabberCount"></span>
+                            </td>
+                            <td class="div_army_factory_value_header div_spectator_player_info" style="padding-top: 5px;">
+                                <span data-bind="text: factoryCount"></span>
+                            </td>
+                            <!-- /ko -->
+
+                            <!-- ko if: $parent.showAllianceData -->
+                            <td class="div_army_size_header div_spectator_player_info" style="padding-top: 5px;">
+                                <!-- ko foreach : allies -->
+                                <div class="div_player_list_ally">
+                                    <div class="div_player_icon div_player_icon_known">
+                                        <div class="fill player_masked" data-bind="style: { backgroundColor: color }"></div>
+                                        <div class="outline">
+                                            <img src="img/players_list_panel/icon_player_outline.png" />
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- /ko -->
+                            </td>
+                            <!-- /ko -->
+
+                        </tr>
+                        <!-- /ko -->
+
+                    </table>
+                </div>
+            </div>
+            <!-- /ko -->
+        </div>
+        <!-- /ko -->
+    </body>
+</html>

@@ -1,0 +1,302 @@
+{
+    "Accept": {
+        "message": "Aceptar"
+    }, 
+    "Advanced Edit": {
+        "message": "Configuración avanzada"
+    }, 
+    "Advanced edit planet": {
+        "message": "Configuración avanzada del planeta"
+    }, 
+    "Auto": {
+        "message": "Automática"
+    }, 
+    "Base:": {
+        "message": "Base:"
+    }, 
+    "Biome:": {
+        "message": "Bioma:"
+    }, 
+    "Brushes:": {
+        "message": "Maleza:"
+    }, 
+    "CLEAR SYSTEM": {
+        "message": "REINICIAR SISTEMA"
+    }, 
+    "CLOSE": {
+        "message": "CERRAR"
+    }, 
+    "CSG": {
+        "message": "GCS"
+    }, 
+    "Cancel": {
+        "message": "Cancelar"
+    }, 
+    "Discard": {
+        "message": "Descartar"
+    }, 
+    "Do you want to save this system?": {
+        "message": "¿Quieres guardar este sistema?"
+    }, 
+    "EDIT PLANET": {
+        "message": "EDITAR PLANETA"
+    }, 
+    "Edit": {
+        "message": "Editar"
+    }, 
+    "GAMEPLAY": {
+        "message": "JUGABILIDAD"
+    }, 
+    "HIDE": {
+        "message": "OCULTAR"
+    }, 
+    "Height:": {
+        "message": "Altura:"
+    }, 
+    "Include:": {
+        "message": "Incluir:"
+    }, 
+    "Landing Zone Restrictions": {
+        "message": "Restricciones de la zona de aterrizaje"
+    }, 
+    "Landing Zones": {
+        "message": "Zonas de aterrizaje"
+    }, 
+    "MY PLANETS": {
+        "message": "MIS PLANETAS"
+    }, 
+    "Mass": {
+        "message": "Masa"
+    }, 
+    "Max Asteroid Count": {
+        "message": "Número máximo de asteroides"
+    }, 
+    "Max:": {
+        "message": "Máx.:"
+    }, 
+    "Metal Spots": {
+        "message": "Zonas metalúrgicas"
+    }, 
+    "Min:": {
+        "message": "Mín.:"
+    }, 
+    "NONE": {
+        "message": "CERO"
+    }, 
+    "Ok": {
+        "message": "Vale"
+    }, 
+    "Once in Advanced Edit mode, the planet will remain in this mode for future edits.": {
+        "message": "Si activas el modo de configuración avanzada para un planeta, este permanecerá en este modo cuando quieras editarlo en el futuro."
+    }, 
+    "PREVIEW ALL": {
+        "message": "PREVISUALIZAR TODO"
+    }, 
+    "Position": {
+        "message": "Posición"
+    }, 
+    "Preview": {
+        "message": "Vista preliminar"
+    }, 
+    "Properties": {
+        "message": "Propiedades"
+    }, 
+    "RECENT": {
+        "message": "RECIENTES"
+    }, 
+    "REMOVE": {
+        "message": "ELIMINAR"
+    }, 
+    "REMOVE ASTEROID BELT": {
+        "message": "ELIMINAR EL CINTURÓN DE ASTERIOIDES"
+    }, 
+    "Radius:": {
+        "message": "Radio:"
+    }, 
+    "SAVE SYSTEM": {
+        "message": "GUARDAR SISTEMA"
+    }, 
+    "SHOW": {
+        "message": "MOSTRAR"
+    }, 
+    "SIMULATE": {
+        "message": "SIMULAR"
+    }, 
+    "STOP": {
+        "message": "PARAR"
+    }, 
+    "Save": {
+        "message": "Guardar"
+    }, 
+    "Save as template": {
+        "message": "Guardar como plantilla"
+    }, 
+    "Seed:": {
+        "message": "Semilla:"
+    }, 
+    "Spawn Delay (in seconds)": {
+        "message": "Tiempo de generación (en segundos)"
+    }, 
+    "Spots:": {
+        "message": "Zonas:"
+    }, 
+    "Starting Asteroid Count": {
+        "message": "Número de asteroides inicial"
+    }, 
+    "Starting planet options": {
+        "message": "Opciones iniciales del planeta"
+    }, 
+    "System Designer": {
+        "message": "Diseñador del sistema"
+    }, 
+    "System Name:": {
+        "message": "Nombre del sistema"
+    }, 
+    "System radius is too large.": {
+        "message": "El radio del sistema es demasiado grande."
+    }, 
+    "System radius is too small.": {
+        "message": "El radio del sistema es demasiado pequeño."
+    }, 
+    "System requires at least one starting planet.": {
+        "message": "El sistema requiere al menos un planeta para comenzar."
+    }, 
+    "TEMPLATES": {
+        "message": "PLANTILLAS"
+    }, 
+    "TERRAIN": {
+        "message": "TERRENO"
+    }, 
+    "TERRAIN AND CSG": {
+        "message": "TERRENO Y GCS"
+    }, 
+    "Temp": {
+        "message": "Temp."
+    }, 
+    "Temp:": {
+        "message": "Temp.:"
+    }, 
+    "The planet is loading. This can take a long time.": {
+        "message": "Se está cargando el planeta. Este proceso puede llevar un rato."
+    }, 
+    "The program will be unresponsive until the planet has finished.": {
+        "message": "Hasta que se termine de cargar el planeta, el programa no funcionará."
+    }, 
+    "The system has been changed since it was last saved.": {
+        "message": "Ha habido cambios en el sistema desde la última vez que se guardó."
+    }, 
+    "The system has not been saved.": {
+        "message": "No se ha guardado el sistema."
+    }, 
+    "This planet has been customized. It must be fully built before modifying.": {
+        "message": "Se ha personalizado el sistema. Para modificarlo, tendrás que terminar de construirlo."
+    }, 
+    "Use [style=hotkey_title]__hotkey__[/style] to place a landing zone below the cursor.": {
+        "message": "Utiliza [style=hotkey_title]__hotkey__[/style] para situar una zona de aterrizaje bajo el cursor."
+    }, 
+    "Use [style=hotkey_title]__hotkey__[/style] to place a metal spot below the cursor.": {
+        "message": "Utiliza [style=hotkey_title]__hotkey__[/style] para situar una zona metalúrgica bajo el cursor."
+    }, 
+    "Use as a starting planet": {
+        "message": "Utilizar como planeta inicial"
+    }, 
+    "Variance:": {
+        "message": "Variación:"
+    }, 
+    "Velocity": {
+        "message": "Velocidad"
+    }, 
+    "Water": {
+        "message": "Agua"
+    }, 
+    "Water:": {
+        "message": "Agua:"
+    }, 
+    "X:": {
+        "message": "X:"
+    }, 
+    "Y:": {
+        "message": "Y:"
+    }, 
+    "You will have to fix the system before saving.": {
+        "message": "Antes de guardar el sistema, tendrás que fijarlo."
+    }, 
+    "You will not be able to revert back and use standard editing controls.": {
+        "message": "No podrás retroceder y utilizar los controles normales de edición."
+    }, 
+    "Zone:": {
+        "message": "Zona:"
+    }, 
+    "Zones:": {
+        "message": "Zonas:"
+    }, 
+    "biome": {
+        "message": "bioma"
+    }, 
+    "edit asteroid belt": {
+        "message": "editar cinturón de asteroides"
+    }, 
+    "edit planet": {
+        "message": "editar planeta"
+    }, 
+    "height": {
+        "message": "altura"
+    }, 
+    "height range": {
+        "message": "rango de altura"
+    }, 
+    "landing zone size": {
+        "message": "tamaño de la zona de aterrizaje"
+    }, 
+    "landing zones per army": {
+        "message": "zonas de aterrizaje por ejército"
+    }, 
+    "metal clusters": {
+        "message": "cúmulos de metal"
+    }, 
+    "metal density": {
+        "message": "densidad del metal"
+    }, 
+    "metal spots": {
+        "message": "zonas metalúrgicas"
+    }, 
+    "metal spots on asteroids": {
+        "message": "zonas metalúrgicas en los asteroides"
+    }, 
+    "planet name": {
+        "message": "nombre del planeta"
+    }, 
+    "preview landing zones by number of armies": {
+        "message": "ver las zonas de aterrizaje por cantidad de enemigos"
+    }, 
+    "radius": {
+        "message": "radio"
+    }, 
+    "seed": {
+        "message": "semilla"
+    }, 
+    "start spots": {
+        "message": "zonas de inicio"
+    }, 
+    "symmetry type": {
+        "message": "tipo de simetría"
+    }, 
+    "temperature": {
+        "message": "temperatura"
+    }, 
+    "terrain": {
+        "message": "terreno"
+    }, 
+    "terrain and gameplay": {
+        "message": "terreno y jugabilidad"
+    }, 
+    "thrusters required for attack": {
+        "message": "propulsores necesarios para atacar"
+    }, 
+    "water coverage": {
+        "message": "superficie líquida"
+    }, 
+    "water depth": {
+        "message": "profundidad del medio líquido"
+    }
+}

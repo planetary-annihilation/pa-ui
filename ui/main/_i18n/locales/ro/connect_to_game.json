@@ -1,0 +1,26 @@
+{
+    "CONNECTION TO SERVER FAILED": {
+        "message": "CONEXIUNEA C\u0102TRE SERVER NEREU\u015eIT\u0102"
+    }, 
+    "CONNECTION TO SERVER LOST": {
+        "message": "CONEXIUNEA C\u0102TRE SERVER PIERDUT\u0102"
+    }, 
+    "FAILED TO JOIN GAME": {
+        "message": "\u00ceNSCRIEREA \u00ceN JOC NEREU\u015eIT\u0102"
+    }, 
+    "FAILED TO START GAME": {
+        "message": "\u00ceNCEPEREA JOCULUI NEREU\u015eIT\u0102"
+    }, 
+    "FAILED TO START REPLAY": {
+        "message": "FAILED TO START REPLAY"
+    }, 
+    "LOGIN ACCEPTED": {
+        "message": "AUTENTIFICARE ACCEPTAT\u0102"
+    }, 
+    "LOGIN TO SERVER REJECTED": {
+        "message": "AUTENTIFICAREA PE SERVER RESPINS\u0102"
+    }, 
+    "Returning to Main Menu": {
+        "message": "Revenind la Meniul Principal"
+    }
+}

@@ -1,0 +1,29 @@
+{
+    "As Efficiency percentage lowers, all fabbers, factories and Commanders build slower": {
+        "message": "As Efficiency percentage lowers, all fabbers, factories and Commanders build slower"
+    }, 
+    "Build Metal Storage and Energy Storage to stockpile more resources": {
+        "message": "Build Metal Storage and Energy Storage to stockpile more resources"
+    }, 
+    "Economy and Resources": {
+        "message": "Economy and Resources"
+    }, 
+    "Energy and Metal resources get consumed while building": {
+        "message": "Energy and Metal resources get consumed while building"
+    }, 
+    "If you\u2019re consuming more than you are producing, build efficiency slows down": {
+        "message": "If you\u2019re consuming more than you are producing, build efficiency slows down"
+    }, 
+    "PA Guide: Economy": {
+        "message": "PA Guide: Economy"
+    }, 
+    "Resources build up over time": {
+        "message": "Resources build up over time"
+    }, 
+    "To generate Energy, build Energy Plants": {
+        "message": "To generate Energy, build Energy Plants"
+    }, 
+    "To generate Metal, build Metal Extractors": {
+        "message": "To generate Metal, build Metal Extractors"
+    }
+}

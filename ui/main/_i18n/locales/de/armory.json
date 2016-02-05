@@ -1,0 +1,95 @@
+{
+    "Account Name:": {
+        "message": "Benutzername:"
+    }, 
+    "Add To Cart": {
+        "message": "In den Einkaufswagen"
+    }, 
+    "Armory": {
+        "message": "Arsenal"
+    }, 
+    "Badges": {
+        "message": "Abzeichen"
+    }, 
+    "CHECKOUT": {
+        "message": "ZUR KASSE"
+    }, 
+    "Cancel": {
+        "message": "Abbrechen"
+    }, 
+    "Cart": {
+        "message": "Einkaufswagen"
+    }, 
+    "Commanders": {
+        "message": "Kommandanten"
+    }, 
+    "Confirmation code:": {
+        "message": "Bestätigungscode:"
+    }, 
+    "Confirmation of your purchase is provided below.": {
+        "message": "Die Bestätigung deines Einkaufs findest du unten."
+    }, 
+    "Continue Shopping": {
+        "message": "Weiter einkaufen"
+    }, 
+    "Coupon code": {
+        "message": "Gutscheincode"
+    }, 
+    "Credit applied:": {
+        "message": "Gutgeschriebener Betrag: "
+    }, 
+    "Designed in collaboration with": {
+        "message": "Entwickelt in Zusammenarbeit mit"
+    }, 
+    "Go to Main Menu": {
+        "message": "Gehe zum Hauptmenü"
+    }, 
+    "Here's your receipt.": {
+        "message": "Hier ist dein Beleg."
+    }, 
+    "Item": {
+        "message": "Item"
+    }, 
+    "Item is already in cart.": {
+        "message": "Item ist bereits im Einkaufswagen."
+    }, 
+    "Kickstarter Backer": {
+        "message": "Kickstarter-Unterstützer"
+    }, 
+    "PA: Titans": {
+        "message": "PA: Titanen"
+    }, 
+    "Price": {
+        "message": "Preis"
+    }, 
+    "REMOVE": {
+        "message": "ENTFERNEN"
+    }, 
+    "Redeem": {
+        "message": "Einlösen"
+    }, 
+    "Reset Default Commander": {
+        "message": "Standard-Kommandanten zurücksetzen"
+    }, 
+    "Return to Armory": {
+        "message": "Zurück zum Arsenal"
+    }, 
+    "Set As Default Commander": {
+        "message": "Als Standard-Kommandanten festlegen"
+    }, 
+    "Thank you for your purchase.": {
+        "message": "Danke für deinen Einkauf."
+    }, 
+    "Total:": {
+        "message": "Gesamtpreis: "
+    }, 
+    "Updating...": {
+        "message": "Aktualisierung..."
+    }, 
+    "Your cart is empty.": {
+        "message": "Dein Einkaufswagen ist leer."
+    }, 
+    "Your purchased items are now registered to your account and are accessible in the game.": {
+        "message": "Deine gekauften Items sind nun in deinem Konto gespeichert und können im Spiel eingesetzt werden."
+    }
+}

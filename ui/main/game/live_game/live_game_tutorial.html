@@ -1,0 +1,43 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <meta locns="live_game" />
+        <noloc><title>Live Game: Tutorial</title></noloc>
+        <link href="bundle://boot/boot.css" rel="stylesheet" type="text/css" />
+        <link href="live_game_tutorial.css" rel="stylesheet" type="text/css" />
+        <script src="bundle://boot/boot.js" type="text/javascript"></script>
+        <script src="live_game_tutorial.js" type="text/javascript"></script>
+    </head>
+    <body class="body_panel">
+        <!-- ko if: !!tutorial() -->
+        <div class="div_tutorial_cont">
+            <div class="corner_top"></div>
+            <div class="div_article">
+                <div class="content">
+                    <!--CONTENT TEMPLATE-->
+                    <div class="title" data-bind="text: currentTitle"></div>
+                    <!-- ko if: hasImage() -->
+                    <div class="image" data-bind="style: { 'background-image': currentImageUrl }"></div><!-- TODO: Image styles for BG -->
+                    <!-- /ko -->
+                    <div class="desc" data-bind="html: currentBodyHTML, resetScrollOnChange: currentBodyHTML"></div>
+                </div>
+            </div>
+            <div class="div_nav">
+                <div class="div_progress">
+                    <span data-bind="text: currentPageNumber"></span>/<span data-bind="text: pageCount"></span>
+                </div>
+                <button data-bind="click: goPrev, css: { disabled: !canGoPrev() }">
+                    <span class="glyphicon glyphicon-chevron-left carat"></span>
+                    <loc>Prev</loc>
+                </button>
+                <button data-bind="click: goNext, css: { disabled: !canGoNext() }">
+                    <loc>Next</loc>
+                    <span class="glyphicon glyphicon-chevron-right carat"></span>
+                </button>
+            </div>
+            <div class="corner_bottom"></div>
+        </div>
+        <!-- /ko -->
+    </body>
+</html>

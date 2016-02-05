@@ -1,0 +1,44 @@
+{
+    "AT WILL": {
+        "message": "\u041f\u041e \u0423\u0421\u041c\u041e\u0422\u0420\u0415\u041d\u0418\u042e"
+    }, 
+    "BUILD MODE": {
+        "message": "\u0420\u0415\u0416\u0418\u041c \u0421\u0422\u0420\u041e\u0418\u0422\u0415\u041b\u042c\u0421\u0422\u0412\u0410"
+    }, 
+    "CONTINUOUS": {
+        "message": "\u041d\u0435\u043f\u0440\u0435\u0440\u044b\u0432\u043d\u044b\u0439 \u0446\u0438\u043a\u043b"
+    }, 
+    "ENERGY ORDERS": {
+        "message": "\u041f\u0440\u0438\u043a\u0430\u0437\u044b \u044d\u043d\u0435\u0440\u0433\u043e\u0441\u043d\u0430\u0431\u0436\u0435\u043d\u0438\u044f"
+    }, 
+    "FIRE ORDERS": {
+        "message": "\u0411\u043e\u0435\u0432\u044b\u0435 \u043f\u0440\u0438\u043a\u0430\u0437\u044b"
+    }, 
+    "HOLD": {
+        "message": "\u0423\u0434\u0435\u0440\u0436\u0438\u0432\u0430\u0442\u044c"
+    }, 
+    "HOLD POSITION": {
+        "message": "\u0423\u0414\u0415\u0420\u0416\u0418\u0412\u0410\u0419\u0422\u0415 \u041f\u041e\u041b\u041e\u0416\u0415\u041d\u0418\u0415"
+    }, 
+    "MANUEVER": {
+        "message": "\u041c\u0430\u043d\u0435\u0432\u0440"
+    }, 
+    "MOVE ORDERS": {
+        "message": "\u041f\u0440\u0438\u043a\u0430\u0437\u044b \u043f\u0435\u0440\u0435\u043c\u0435\u0449\u0435\u043d\u0438\u044f"
+    }, 
+    "NORMAL": {
+        "message": "\u041d\u043e\u0440\u043c\u0430\u043b\u044c\u043d\u044b\u0439"
+    }, 
+    "OFF": {
+        "message": "\u0412\u044b\u043a\u043b"
+    }, 
+    "ON": {
+        "message": "\u0412\u043a\u043b"
+    }, 
+    "RETURN FIRE": {
+        "message": "\u041e\u0422\u0412\u0415\u0422\u041d\u042b\u0419 \u041e\u0413\u041e\u041d\u042c"
+    }, 
+    "ROAM": {
+        "message": "\u0411\u0440\u043e\u0434\u044f\u0442"
+    }
+}

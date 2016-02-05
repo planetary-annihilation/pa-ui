@@ -1,0 +1,818 @@
+{
+    "ALL": {
+        "message": "TOUT"
+    }, 
+    "ALWAYS": {
+        "message": "TOUJOURS"
+    }, 
+    "AUTO": {
+        "message": "AUTO"
+    }, 
+    "Active Product": {
+        "message": "Produit actif"
+    }, 
+    "Ambient Occlusion": {
+        "message": "Occlusion ambiante"
+    }, 
+    "Anti-Aliasing": {
+        "message": "Anticrénelage"
+    }, 
+    "Audio": {
+        "message": "Audio"
+    }, 
+    "Back": {
+        "message": "Retour"
+    }, 
+    "Build Preview Behavior": {
+        "message": "Comportement de l'aperçu de construction"
+    }, 
+    "CUSTOM": {
+        "message": "PERSONNALISÉ"
+    }, 
+    "Camera": {
+        "message": "Caméra"
+    }, 
+    "Camera Friction": {
+        "message": "Friction de la caméra"
+    }, 
+    "Cancel": {
+        "message": "Annuler"
+    }, 
+    "Classic": {
+        "message": "Classique"
+    }, 
+    "Close": {
+        "message": "Fermer"
+    }, 
+    "Conflict:": {
+        "message": "Conflit :"
+    }, 
+    "Display Mode": {
+        "message": "Mode d'affichage"
+    }, 
+    "Edge Scroll Options": {
+        "message": "Options de défilement aux bords"
+    }, 
+    "FOV": {
+        "message": "Profondeur de champ"
+    }, 
+    "FULLSCREEN": {
+        "message": "PLEIN ÉCRAN"
+    }, 
+    "FXAA": {
+        "message": "FXAA"
+    }, 
+    "Forward": {
+        "message": "Suite"
+    }, 
+    "GAMEPLAY": {
+        "message": "GAMEPLAY"
+    }, 
+    "GUI Size": {
+        "message": "Taille de l'interface graphique"
+    }, 
+    "Graphics": {
+        "message": "Graphismes"
+    }, 
+    "HDR": {
+        "message": "HDR"
+    }, 
+    "HIGH": {
+        "message": "ÉLEVÉ"
+    }, 
+    "Headlights": {
+        "message": "Phares"
+    }, 
+    "ICON DISPLAY DISTANCE": {
+        "message": "DISTANCE D'AFFICHAGE DES ICÔNES"
+    }, 
+    "Key Pan Speed": {
+        "message": "Vitesse de défilement du clavier"
+    }, 
+    "Keyboard": {
+        "message": "Clavier"
+    }, 
+    "LOW": {
+        "message": "BAS"
+    }, 
+    "Language": {
+        "message": "Langue"
+    }, 
+    "Local Server": {
+        "message": "Serveur local"
+    }, 
+    "Local server is not available on your configuration.  (64-bit OS required)": {
+        "message": "Le serveur local n'est pas disponible avec votre configuration (OS 64 bit requis)."
+    }, 
+    "Local server is not recommended on your configuration.  (4 CPU cores and 8GB of memory recommended.)": {
+        "message": "Un serveur local n'est pas recommandé avec votre configuration (processeur 4 cœurs et mémoire de 8 GO conseillés)."
+    }, 
+    "MEDIUM": {
+        "message": "MOYENNE"
+    }, 
+    "Master Volume": {
+        "message": "Volume général"
+    }, 
+    "Mouse Pan Speed": {
+        "message": "Vitesse de défilement de la souris"
+    }, 
+    "Music Volume": {
+        "message": "Volume de la musique"
+    }, 
+    "NATIVE (100%)": {
+        "message": "NATIF (100 %)"
+    }, 
+    "NEVER": {
+        "message": "JAMAIS"
+    }, 
+    "OFF": {
+        "message": "DÉSACTIVÉ"
+    }, 
+    "OFF (MOUSELOCK)": {
+        "message": "DÉSACTIVÉ (MOUSELOCK)"
+    }, 
+    "OFF (NO MOUSELOCK)": {
+        "message": "DÉSACTIVÉ (SANS MOUSELOCK)"
+    }, 
+    "ON": {
+        "message": "ACTIVÉ"
+    }, 
+    "Orbital Shell": {
+        "message": "Enveloppe orbitale"
+    }, 
+    "Order Preview Behavior": {
+        "message": "Comportement de l'aperçu d'ordre"
+    }, 
+    "Pole Lock": {
+        "message": "Verrouillage du pôle"
+    }, 
+    "Quality Preset": {
+        "message": "Paramètres graphiques prédéfinis"
+    }, 
+    "RANGE DEPENDENT": {
+        "message": "SELON LA PORTÉE"
+    }, 
+    "Resolution Scaling": {
+        "message": "Échelle de résolution"
+    }, 
+    "Restore All Defaults": {
+        "message": "Tout réinitialiser"
+    }, 
+    "Restore Tab Defaults": {
+        "message": "Réinitialiser l'onglet"
+    }, 
+    "SELECTED": {
+        "message": "SÉLECTIONNÉ"
+    }, 
+    "SERVER": {
+        "message": "SERVEUR"
+    }, 
+    "SHIFT": {
+        "message": "MAJUSCULE"
+    }, 
+    "SUBSAMPLE (50%)": {
+        "message": "SOUS-ÉCHANTILLONAGE (50 %)"
+    }, 
+    "SUBSAMPLE (75%)": {
+        "message": "SOUS-ÉCHANTILLONAGE (75 %)"
+    }, 
+    "SUPERSAMPLE (110%)": {
+        "message": "RÉÉCHANTILLONAGE (110 %)"
+    }, 
+    "SUPERSAMPLE (150%)": {
+        "message": "RÉÉCHANTILLONAGE (150 %)"
+    }, 
+    "SUPERSAMPLE (175%)": {
+        "message": "RÉÉCHANTILLONAGE (175 %)"
+    }, 
+    "Save": {
+        "message": "SAUVEGARDER"
+    }, 
+    "Server": {
+        "message": "Serveur"
+    }, 
+    "Settings": {
+        "message": "Paramètres"
+    }, 
+    "Shadows": {
+        "message": "Ombres"
+    }, 
+    "Show Build Previews": {
+        "message": "Afficher les aperçus de construction"
+    }, 
+    "Show Metal Spot Icons": {
+        "message": "Afficher les icônes des gisements de métal"
+    }, 
+    "Show Order Previews": {
+        "message": "Afficher les aperçus d'ordre"
+    }, 
+    "Show Stat Bars": {
+        "message": "Afficher les barres de statistiques"
+    }, 
+    "Show Unit Icons": {
+        "message": "Afficher les icônes des unités"
+    }, 
+    "Show/Hide game stats": {
+        "message": "Afficher/Masquer les statistiques de jeu"
+    }, 
+    "Show/Hide pip": {
+        "message": "Afficher/Masquer l'incrustation"
+    }, 
+    "Sound Effects Volume": {
+        "message": "Volume des effets sonores"
+    }, 
+    "UBER": {
+        "message": "UBER"
+    }, 
+    "User Interface": {
+        "message": "Interface utilisateur"
+    }, 
+    "VALUE DEPENDENT": {
+        "message": "SELON LA VALEUR"
+    }, 
+    "Virtual Texture": {
+        "message": "Texture virtuelle"
+    }, 
+    "Voice Volume": {
+        "message": "Volume des voix"
+    }, 
+    "WINDOWED": {
+        "message": "FENÊTRÉ"
+    }, 
+    "Zoom Speed": {
+        "message": "Vitesse du zoom"
+    }, 
+    "abort": {
+        "message": "interrompre"
+    }, 
+    "add landing zone": {
+        "message": "ajouter une zone d'atterrissage."
+    }, 
+    "add metal spot": {
+        "message": "ajouter un gisement de métal"
+    }, 
+    "add/remove": {
+        "message": "ajouter/enlever"
+    }, 
+    "alerts": {
+        "message": "alertes"
+    }, 
+    "align to pole": {
+        "message": "aligner sur le pôle"
+    }, 
+    "all chat": {
+        "message": "tchat global"
+    }, 
+    "alt fire": {
+        "message": "tir alternatif"
+    }, 
+    "assist": {
+        "message": "aider"
+    }, 
+    "attack": {
+        "message": "attaquer"
+    }, 
+    "bug report": {
+        "message": "signalement de bug"
+    }, 
+    "build": {
+        "message": "construction"
+    }, 
+    "build avatar": {
+        "message": "construction de l'avatar"
+    }, 
+    "build avatar factory": {
+        "message": "construction d'usine d'avatar"
+    }, 
+    "build bar groups": {
+        "message": "groupes de la barre de construction"
+    }, 
+    "build item __item_number__": {
+        "message": "construction de l'objet __item_number__"
+    }, 
+    "build items": {
+        "message": "construction des objets"
+    }, 
+    "build loop": {
+        "message": "construction en boucle"
+    }, 
+    "build once": {
+        "message": "construction unique"
+    }, 
+    "build orders": {
+        "message": "ordres de construction"
+    }, 
+    "camera": {
+        "message": "caméra"
+    }, 
+    "capture anchor": {
+        "message": "récupérer point de fixation"
+    }, 
+    "capture anchor __anchor_number__": {
+        "message": "récupérer point de fixation __anchor_number__"
+    }, 
+    "capture group __group_number__": {
+        "message": "récupérer groupe __group_number__"
+    }, 
+    "chronocam": {
+        "message": "chronocam"
+    }, 
+    "communication": {
+        "message": "communication"
+    }, 
+    "copy selected": {
+        "message": "copier la sélection"
+    }, 
+    "copy to pip": {
+        "message": "copier vers l'incrustation"
+    }, 
+    "copy unit": {
+        "message": "copier unité"
+    }, 
+    "crash": {
+        "message": "crash"
+    }, 
+    "decrease camera pan speed": {
+        "message": "réduire la vitesse de défilement de la caméra"
+    }, 
+    "delete selected": {
+        "message": "effacer la sélection"
+    }, 
+    "dev mode": {
+        "message": "mode développeur"
+    }, 
+    "direction": {
+        "message": "direction"
+    }, 
+    "disable navigation debug info": {
+        "message": "désactiver info de débug de navigation"
+    }, 
+    "disconnect twin": {
+        "message": "effacer pièce miroir"
+    }, 
+    "dismiss alert notification": {
+        "message": "rejeter la notification d'alerte"
+    }, 
+    "enable navigation debug info": {
+        "message": "activer info de débug de navigation"
+    }, 
+    "energy off": {
+        "message": "énergie désactivée"
+    }, 
+    "energy on": {
+        "message": "énergie activée"
+    }, 
+    "fire at will": {
+        "message": "feu à volonté"
+    }, 
+    "free move backward": {
+        "message": "déplacement libre arrière"
+    }, 
+    "free move down": {
+        "message": "déplacement libre bas"
+    }, 
+    "free move forward": {
+        "message": "déplacement libre avant"
+    }, 
+    "free move left": {
+        "message": "déplacement libre gauche"
+    }, 
+    "free move right": {
+        "message": "déplacement libre droite"
+    }, 
+    "free move up": {
+        "message": "déplacement libre haut"
+    }, 
+    "free movement": {
+        "message": "déplacement libre"
+    }, 
+    "free pitch backward": {
+        "message": "inclinaison libre arrière"
+    }, 
+    "free pitch forward": {
+        "message": "inclinaison libre avant"
+    }, 
+    "free roll left": {
+        "message": "basculement libre gauche"
+    }, 
+    "free roll right": {
+        "message": "basculement libre droite"
+    }, 
+    "free yaw left": {
+        "message": "inclinaison à gauche libre"
+    }, 
+    "free yaw right": {
+        "message": "inclinaison à droite libre"
+    }, 
+    "free zoom in": {
+        "message": "zoom avant libre"
+    }, 
+    "free zoom out": {
+        "message": "zoom arrière libre"
+    }, 
+    "general": {
+        "message": "général"
+    }, 
+    "grab csg": {
+        "message": "saisir modélisation solide"
+    }, 
+    "hold fire": {
+        "message": "interrompre tirs"
+    }, 
+    "hold position": {
+        "message": "tenir position"
+    }, 
+    "increase camera pan speed": {
+        "message": "augmenter la vitesse de défilement de la caméra"
+    }, 
+    "jump to next planet": {
+        "message": "sauter vers la prochaine planète"
+    }, 
+    "jump to previous planet": {
+        "message": "sauter vers la précédente planète"
+    }, 
+    "last pseudo frame": {
+        "message": "dernier cadre pseudo"
+    }, 
+    "load": {
+        "message": "charger"
+    }, 
+    "maneuver": {
+        "message": "manœuvre"
+    }, 
+    "manipulate": {
+        "message": "manipuler"
+    }, 
+    "mode": {
+        "message": "mode"
+    }, 
+    "modes": {
+        "message": "modes"
+    }, 
+    "move": {
+        "message": "déplacement"
+    }, 
+    "move csg down": {
+        "message": "faire descendre modélisation solide"
+    }, 
+    "move csg up": {
+        "message": "faire monter modélisation solide"
+    }, 
+    "move down": {
+        "message": "déplacement vers le bas"
+    }, 
+    "move left": {
+        "message": "déplacement à gauche"
+    }, 
+    "move right": {
+        "message": "déplacement à droite"
+    }, 
+    "move up": {
+        "message": "déplacement vers le haut"
+    }, 
+    "navigate back/exit": {
+        "message": "navigation arrière/quitter"
+    }, 
+    "next pseudo frame": {
+        "message": "prochain cadre pseudo"
+    }, 
+    "paste": {
+        "message": "coller"
+    }, 
+    "paste unit": {
+        "message": "coller unité"
+    }, 
+    "patrol": {
+        "message": "patrouiller"
+    }, 
+    "pause game": {
+        "message": "mettre le jeu en pause"
+    }, 
+    "pause time": {
+        "message": "arrêter le temps"
+    }, 
+    "picture-in-picture": {
+        "message": "incrustation"
+    }, 
+    "ping": {
+        "message": "ping"
+    }, 
+    "planet jump": {
+        "message": "sauter vers une planète"
+    }, 
+    "play backwards at 10%": {
+        "message": "retour rapide 10 %"
+    }, 
+    "play backwards at 100%": {
+        "message": "retour rapide 100 %"
+    }, 
+    "play backwards at 50%": {
+        "message": "retour rapide 50 %"
+    }, 
+    "play forward at 100%": {
+        "message": "avance rapide 100 %"
+    }, 
+    "play forward at 50%": {
+        "message": "avance rapide 50 %"
+    }, 
+    "play forwards at 10%": {
+        "message": "avance rapide 10 %"
+    }, 
+    "publish server mods": {
+        "message": "publier les mods de serveur"
+    }, 
+    "quick profile": {
+        "message": "profil rapide"
+    }, 
+    "recall anchor": {
+        "message": "rappeler point de fixation"
+    }, 
+    "recall anchor __anchor_number__": {
+        "message": "rappeler point de fixation __anchor_number__"
+    }, 
+    "recall group __group_number__": {
+        "message": "rapatrier groupe __group_number__"
+    }, 
+    "reclaim": {
+        "message": "récupérer"
+    }, 
+    "reload view": {
+        "message": "recharger vue"
+    }, 
+    "remove landing zone": {
+        "message": "enlever zone d'atterrissage."
+    }, 
+    "remove metal spot": {
+        "message": "enlever gisement de métal"
+    }, 
+    "repair": {
+        "message": "réparer"
+    }, 
+    "resume at latest time": {
+        "message": "reprendre au moment le plus récent"
+    }, 
+    "return fire": {
+        "message": "tir de riposte"
+    }, 
+    "roam": {
+        "message": "errer"
+    }, 
+    "rotate csg ccw": {
+        "message": "rotation antihoraire modélisation solide"
+    }, 
+    "rotate csg cw": {
+        "message": "rotation horaire modélisation solide"
+    }, 
+    "scale csg down": {
+        "message": "réduire modélisation solide"
+    }, 
+    "scale csg horizontally down": {
+        "message": "réduire modélisation solide horizontale"
+    }, 
+    "scale csg horizontally up": {
+        "message": "agrandir modélisation solide horizontale"
+    }, 
+    "scale csg up": {
+        "message": "agrandir modélisation solide"
+    }, 
+    "scale csg vertically down": {
+        "message": "réduire modélisation solide verticale"
+    }, 
+    "scale csg vertically up": {
+        "message": "agrandir modélisation solide verticale"
+    }, 
+    "select air group": {
+        "message": "sélectionner groupe aérien"
+    }, 
+    "select all air combat units": {
+        "message": "sélectionner toutes les unités de combat aériennes"
+    }, 
+    "select all air combat units on screen": {
+        "message": "sélectionner toutes les unités de combat aériennes à l'écran"
+    }, 
+    "select all combat units": {
+        "message": "sélectionner toutes les unités de combat"
+    }, 
+    "select all combat units on screen": {
+        "message": "sélectionner toutes les unités de combat à l'écran"
+    }, 
+    "select all factories": {
+        "message": "sélectionner toutes les usines"
+    }, 
+    "select all factories on screen": {
+        "message": "sélectionner toutes les usines à l'écran"
+    }, 
+    "select all idle factories": {
+        "message": "sélectionner toutes les usines inactives"
+    }, 
+    "select all idle factories on screen": {
+        "message": "sélectionner toutes les usines inactives à l'écran"
+    }, 
+    "select all land combat units": {
+        "message": "sélectionner toutes les unités de combat terrestres"
+    }, 
+    "select all land combat units on screen": {
+        "message": "sélectionner toutes les unités de combat terrestres à l'écran"
+    }, 
+    "select all matching units on screen": {
+        "message": "sélectionner toutes les unités de même type à l'écran"
+    }, 
+    "select all naval combat units": {
+        "message": "sélectionner toutes les unités de combat navales"
+    }, 
+    "select all naval combat units on screen": {
+        "message": "sélectionner toutes les unités de combat navales à l'écran"
+    }, 
+    "select bot group": {
+        "message": "sélectionner groupe de robots"
+    }, 
+    "select combat group": {
+        "message": "sélectionner groupe de combat"
+    }, 
+    "select commander": {
+        "message": "sélectionner Commandeur."
+    }, 
+    "select factory group": {
+        "message": "sélectionner groupe d'usines"
+    }, 
+    "select idle fabbers": {
+        "message": "sélectionner constructeurs inactifs"
+    }, 
+    "select orbital group (buildings)": {
+        "message": "sélectionner groupe orbital (bâtiments)"
+    }, 
+    "select orbital group (units)": {
+        "message": "sélectionner groupe orbital (unités)"
+    }, 
+    "select sea group": {
+        "message": "sélectionner groupe marin"
+    }, 
+    "select utility group": {
+        "message": "sélectionner groupe de service"
+    }, 
+    "select vehicle group": {
+        "message": "sélectionner groupe de véhicules"
+    }, 
+    "self destruct selected unit": {
+        "message": "autodestruction unité sélectionnée"
+    }, 
+    "set army from hover": {
+        "message": "définir armée sur passage de la souris"
+    }, 
+    "set debug camera": {
+        "message": "définir caméra de débug"
+    }, 
+    "set default camera": {
+        "message": "définir caméra par défaut"
+    }, 
+    "set free camera": {
+        "message": "définir caméra libre"
+    }, 
+    "set pathable csg": {
+        "message": "définir modélisation solide traversable"
+    }, 
+    "set planet camera": {
+        "message": "définir caméra de la planète"
+    }, 
+    "show player guide": {
+        "message": "afficher le guide"
+    }, 
+    "show/hide UI": {
+        "message": "afficher/masquer l'IU"
+    }, 
+    "show/hide performance panel": {
+        "message": "afficher/masquer le panneau de performances"
+    }, 
+    "show/hide visual aid overlays": {
+        "message": "afficher/masquer l'aide visuelle"
+    }, 
+    "skip backward 1s": {
+        "message": "reculer 1 s"
+    }, 
+    "skip forward 1s": {
+        "message": "avancer 1 s"
+    }, 
+    "smooth zoom in": {
+        "message": "léger zoom avant"
+    }, 
+    "smooth zoom out": {
+        "message": "léger zoom arrière"
+    }, 
+    "special move": {
+        "message": "déplacement spécial"
+    }, 
+    "stop": {
+        "message": "arrêter"
+    }, 
+    "swap pip": {
+        "message": "échanger incrustation"
+    }, 
+    "team chat": {
+        "message": "tchat de l'équipe"
+    }, 
+    "terrain editor": {
+        "message": "éditeur de terrain"
+    }, 
+    "toggle FOW": {
+        "message": "activer/désactiver brouillard de guerre"
+    }, 
+    "toggle audio logging": {
+        "message": "activer/désactiver enregistrement audio"
+    }, 
+    "toggle build orders": {
+        "message": "activer/désactiver ordres de construction"
+    }, 
+    "toggle console": {
+        "message": "activer/désactiver console"
+    }, 
+    "toggle debug camera": {
+        "message": "activer/désactiver caméra de débug"
+    }, 
+    "toggle edit metal spots": {
+        "message": "activer/désactiver édition de gisement de métal"
+    }, 
+    "toggle edit terrain mode": {
+        "message": "activer/désactiver édition de mode terrain"
+    }, 
+    "toggle energy orders": {
+        "message": "activer/désactiver ordres d'énergie"
+    }, 
+    "toggle fire orders": {
+        "message": "activer/désactiver ordres de tirs"
+    }, 
+    "toggle free camera": {
+        "message": "activer/désactiver caméra libre"
+    }, 
+    "toggle fullscreen": {
+        "message": "activer/désactiver plein écran"
+    }, 
+    "toggle move orders": {
+        "message": "activer/désactiver ordres de déplacement"
+    }, 
+    "toggle music": {
+        "message": "activer/désactiver musique"
+    }, 
+    "toggle nav debug": {
+        "message": "activer/désactiver débug de navigation"
+    }, 
+    "toggle pip mirror": {
+        "message": "activer/désactiver miroir d'incrustation"
+    }, 
+    "toggle show water": {
+        "message": "activer/désactiver affichage de l'eau"
+    }, 
+    "track selection with camera": {
+        "message": "suivre sélection avec caméra"
+    }, 
+    "tracking & alignment": {
+        "message": "suivi et alignement"
+    }, 
+    "tuning": {
+        "message": "réglages"
+    }, 
+    "unit capture groups": {
+        "message": "groupes de capture d'unités"
+    }, 
+    "unit commands": {
+        "message": "commandes d'unité"
+    }, 
+    "unit orders": {
+        "message": "ordres d'unité"
+    }, 
+    "unit recall groups": {
+        "message": "groupes de rappel d'unités"
+    }, 
+    "unit selection": {
+        "message": "sélection des unités"
+    }, 
+    "units": {
+        "message": "unités"
+    }, 
+    "unload": {
+        "message": "décharger"
+    }, 
+    "zoom": {
+        "message": "zoom"
+    }, 
+    "zoom in": {
+        "message": "zoom avant"
+    }, 
+    "zoom out": {
+        "message": "zoom arrière"
+    }, 
+    "zoom to air": {
+        "message": "zoomer en l'air"
+    }, 
+    "zoom to celestial": {
+        "message": "zoomer vers le ciel"
+    }, 
+    "zoom to combat": {
+        "message": "zoomer vers le combat"
+    }, 
+    "zoom to orbital": {
+        "message": "zoomer vers l'orbite"
+    }, 
+    "zoom to surface": {
+        "message": "zoomer vers la surface"
+    }
+}

@@ -1,0 +1,26 @@
+{
+    "Important Hotkeys": {
+        "message": "Scorciatoie da tastiera importanti"
+    }, 
+    "PA Guide: Basic Hotkeys": {
+        "message": "Guida di PA: Scorciatoie da tastiera principali"
+    }, 
+    "[style=hotkey_title]__hotkey__[/style] - Select Commander": {
+        "message": "[style=hotkey_title]__hotkey__[/style] - Seleziona il Comandante"
+    }, 
+    "[style=hotkey_title]__hotkey__[/style] - Select all of currently-selected unit(s) that are visible": {
+        "message": "[style=hotkey_title]__hotkey__[/style] - Seleziona tutte le unità visibili attualmente selezionate"
+    }, 
+    "[style=hotkey_title]__hotkey__[/style] - Select idle fabbers on screen": {
+        "message": "[style=hotkey_title]__hotkey__[/style] - Seleziona i fabbricatori in attesa sullo schermo"
+    }, 
+    "[style=hotkey_title]__hotkey__[/style] - Toggle energy orders": {
+        "message": "[style=hotkey_title]__hotkey__[/style] - Scorri gli ordini energia"
+    }, 
+    "[style=hotkey_title]__hotkey__[/style] - Toggle production": {
+        "message": "[style=hotkey_title]__hotkey__[/style] - Scorri la produzione"
+    }, 
+    "[style=hotkey_title]__hotkey__[/style] - Zoom to selected unit": {
+        "message": "[style=hotkey_title]__hotkey__[/style] - Centra la visuale sull'unità selezionata"
+    }
+}

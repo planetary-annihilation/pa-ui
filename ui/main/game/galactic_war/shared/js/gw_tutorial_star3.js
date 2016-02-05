@@ -1,0 +1,291 @@
+// !LOCNS:galactic_war
+define([
+    'shared/gw_tutorial_p3'
+], function(
+    planets3
+) {
+    return {
+        "name": "!LOC:Advanced Concepts",
+        "coordinates":[-0.6, 0.15, 0.75],
+        "biome":"earth",
+        "distance":3,
+        "explored": false,
+        "hasCard": false,
+        "cardList": [
+            "gwc_enable_tutorial_two"
+        ],
+        "history": [],
+        "ai": {
+            "commander": {
+                "ObjectName": "TankAeson",
+                "UnitSpec": "/pa/units/commanders/tutorial_ai_commander_3/tutorial_ai_commander_3.json",
+            },
+            "econ_rate": 1.0,
+            "color": [
+                [236, 34, 35],
+                [192, 192, 192]
+            ],
+            "team": 2,
+            "name": "Target",
+            "personality": {
+                "percent_vehicle": 1.00,
+                "percent_bot": 0.00,
+                "percent_air": 0.00,
+                "percent_naval": 0.00,
+                "percent_orbital": 0.00,
+                "metal_drain_check": 0.6,
+                "energy_drain_check": 0.6,
+                "metal_demand_check": 5.0,
+                "energy_demand_check": 5.0,
+                "micro_type": 0,
+                "go_for_the_kill": false,
+                "neural_data_mod": 2.0,
+                "personality_tags": [
+                    "Tutorial",
+                    "SlowerExpansion"
+                ],
+                "rampDifficulty": false,
+                "priority_scout_metal_spots": false,
+                "factory_build_delay_min": 60,
+                "factory_build_delay_max": 120,
+                "min_basic_fabbers": 1,
+                "max_basic_fabbers": 3,
+                "fabber_to_factory_ratio_basic": 1.5,
+                "fabber_to_factory_ratio_advanced": 1.0,
+                "fabber_alone_on_planet_mod": 2.0,
+                "min_advanced_fabbers": 1,
+                "max_advanced_fabbers": 1,
+                "basic_to_advanced_factory_ratio": 0,
+                "adv_eco_mod": 100.0,
+                "adv_eco_mod_alone": 100.0,
+                "unable_to_expand_delay": 12000,
+                "per_expansion_delay": 60000,
+                "enable_commander_danger_responses": false
+            },
+            "faction": 2
+        },
+        "system":{
+            "name":"!LOC:Advanced Concepts",
+            "isRandomlyGenerated": true,
+            "description": [
+                "<div class='figure_wrapper'>",
+                "   <img src='coui://ui/main/game/guide/article/img/img_mouse_lclick.png'/>",
+                "   <div class='text'>", "!LOC:[strong]JUMP[/strong] to this star system.", "</div>",
+                "</div>",
+                "<div class='figure_wrapper'>",
+                "   <img src='coui://ui/main/game/guide/article/img/img_mouse_lclick.png'/>",
+                "   <div class='text'>", "!LOC:[strong]FIGHT[/strong] the enemy commander.", "</div>",
+                "</div>",
+                "<div class='figure_wrapper'>",
+                "   <img src='coui://ui/main/game/guide/article/img/img_mouse_lclick.png'/>",
+                "   <div class='text'>", "!LOC:After the enemy commander is defeated, [strong]EXPLORE[/strong] and [strong]ACQUIRE[/strong] a new technology.", "</div>",
+                "</div>",
+                "<div class='figure_wrapper'>",
+                "   <img src='coui://ui/main/game/guide/article/img/img_mouse_lclick.png'/>",
+                "   <div class='text'>", "!LOC:[strong]Select[/strong] the next star system.", "</div>",
+                "</div>"
+            ],
+            "players":[2,100],
+            "planets": [planets3],
+            "tutorial":[
+               {
+                   "title": "!LOC:Area Build",
+                   "body": [
+                       "<span>",
+                        "<div class='figure_wrapper'>",
+                        "    <img class='visual' src='coui://ui/main/game/guide/article/img/img_mouse_lclick.png'/>",
+                        "    <div class='text'>", "!LOC:[style=control]Select your landing zone[/style] and start the annihilation.", "</div>",
+                        "</div>",
+                        "<div class='figure_wrapper'>",
+                        "    <img class='visual' src='coui://ui/main/game/guide/article/img/metal_extractor.png'/>",
+                        "    <div class='text'>", "!LOC:[style=control]Select the commander[/style] and [style=control]left click[/style] on the metal extractor icon in the build bar.", "</div>",
+                        "</div>",
+                        "<div class='figure_wrapper'>",
+                        "    <img class='visual' src='coui://ui/main/game/guide/article/img/img_mouse_lclick.png'/>",
+                        "    <div class='text'>", "!LOC:[style=control]Left click and drag[/style] a circle around some nearby metal spots to initiate an area build command.", "</div>",
+                        "</div>",
+                        "<div class='figure_wrapper'>",
+                        "    <img class='visual' src='coui://ui/main/game/guide/article/img/energy_plant.png'/>",
+                        "    <div class='text'>", "!LOC:[style=control]Left click[/style] on the energy plant icon on the build bar.", "</div>",
+                        "</div>",
+                        "<div class='figure_wrapper'>",
+                        "    <img class='visual' src='coui://ui/main/game/guide/article/img/img_mouse_lclick.png'/>",
+                        "    <div class='text'>", "!LOC:Shift will queue build orders. [style=control]Shift + left click and drag[/style] a line of three energy plants on some open land.", "</div>",
+                        "</div>",
+                        "</span>"
+                   ],
+                    "audio": "/VO/Computer/Tutorial/Tutorial_3/1",
+                    "delaySeconds": 9
+               },
+               {
+                   "title": "!LOC:Unit Types",
+                   "body": [
+                       "<span>",
+                        "<div class='figure_wrapper'>",
+                        "    <img class='visual' src='coui://ui/main/game/guide/article/img/tank_build_bar.png'/>",
+                        "    <div class='text'>", "!LOC:[strong]Vehicles:[/strong] Slow, heavily armored units that tend to have a singular purpose.", "</div>",
+                        "</div>",
+                        "<br>",
+                        "<div class='figure_wrapper'>",
+                        "    <img class='visual' src='coui://ui/main/game/guide/article/img/bot_icon.png'/>",
+                        "    <div class='text'>", "!LOC:[strong]Bots:[/strong] Quick and lightly armored units that tend to be used for multiple purposes.", "</div>",
+                        "</div>",
+                        "<br>",
+                        "<div class='figure_wrapper'>",
+                        "    <img class='visual' src='coui://ui/main/game/guide/article/img/air_icon.png'/>",
+                        "    <div class='text'>", "!LOC:[strong]Aircraft:[/strong] Highly mobile but expensive flying units that are susceptible to enemy anti-air.", "</div>",
+                        "</div>",
+                        "</span>"
+                   ],
+                    "audio": "/VO/Computer/Tutorial/Tutorial_3/2"
+               },
+               {
+                   "title": "!LOC:Factory Automation",
+                   "body": [
+                        "<span>",
+                        "!LOC:When the economy income can support a factory, that factory can always run at full efficiency.",
+                        "<br>",
+                        "<div class='figure_wrapper'>",
+                        "   <img class='visual' src='coui://ui/main/game/guide/article/img/vehicle_factory.png'/>",
+                        "   <img class='visual' src='coui://ui/main/game/guide/article/img/bot_factory.png'/>",
+                        "   <img class='visual' src='coui://ui/main/game/guide/article/img/air_factory.png'/>",
+                        "</div>",
+                        "!LOC:[style=control]Build a vehicle, bot, or air factory.[/style]",
+                        "<br>",
+                        "<br>",
+                        "<div class='figure_wrapper'>",
+                        "   <img class='visual' src='coui://ui/main/game/guide/article/img/fabrication_vehicle.png'/>",
+                        "   <img class='visual' src='coui://ui/main/game/guide/article/img/fabrication_bot.png'/>",
+                        "   <img class='visual' src='coui://ui/main/game/guide/article/img/fabrication_aircraft.png'/>",
+                        "</div>",
+                        "!LOC:[style=control]Build a fabrication unit[/style] from the factory.",
+                        "<br>",
+                        "<br>",
+                        "<div class='figure_wrapper'>",
+                        "   <img class='visual' src='coui://ui/main/game/guide/article/img/tank_build_bar.png'/>",
+                        "   <img class='visual' src='coui://ui/main/game/guide/article/img/bot_icon.png'/>",
+                        "   <img class='visual' src='coui://ui/main/game/guide/article/img/bomber_icon.png'/>",
+                        "</div>",
+                        "!LOC:[style=control]Queue 5 attack units.[/style]",
+                        "<br>",
+                   ],
+                    "audio": "/VO/Computer/Tutorial/Tutorial_3/3"
+               },
+               {
+                   "title": "!LOC:Continuous Build",
+                   "body": [
+                        "<div class='figure_wrapper'>",
+                        "   <img class='visual' src='coui://ui/main/game/guide/article/img/vehicle_factory.png'/>",
+                        "   <img class='visual' src='coui://ui/main/game/guide/article/img/bot_factory.png'/>",
+                        "   <img class='visual' src='coui://ui/main/game/guide/article/img/air_factory.png'/>",
+                        "</div>",
+                        "!LOC:[style=control]Build 3 more vehicle, bot, or air factories.[/style]",
+                        "<br>",
+                        "<br>",
+                        "!LOC:[style=control]Select all the factories[/style], [style=control]order them all to construct units[/style] then [style=control]click on the continuous icon[/style], or press [style=control]L[/style], to tell the factory to loop its build queue.",
+                        "<br>",
+                        "<br>",
+                        "<div class='figure_wrapper'>",
+                        "   <img class='visual' src='coui://ui/main/game/galactic_war/shared/img/non-continuous_icon.png'/>",
+                        "   <span class='visual glyphicon glyphicon-arrow-right'>",
+                        "   <img class='visual' src='coui://ui/main/game/galactic_war/shared/img/continuous_icon.png'/>",
+                        "</div>",
+                        "<br>",
+                        "<br>",
+                        "!LOC:The factory will continue to build until a stop order is issued or the continuous build is turned off.",
+                        "</span>"
+                   ],
+                    "audio": "/VO/Computer/Tutorial/Tutorial_3/4"
+               },
+               {
+                   "title": "!LOC:Assist Building",
+                   "body": [
+                       "<span>",
+                        "<div class='figure_wrapper'>",
+                        "   <img class='visual' src='coui://ui/main/game/guide/article/img/fabrication_vehicle.png'/>",
+                        "   <img class='visual' src='coui://ui/main/game/guide/article/img/fabrication_bot.png'/>",
+                        "   <img class='visual' src='coui://ui/main/game/guide/article/img/fabrication_aircraft.png'/>",
+                        "</div>",
+                        "<br>",
+                        "<div class='figure_wrapper'>",
+                        "    <img class='visual' src='coui://ui/main/game/guide/article/img/img_mouse_rclick.png'/>",
+                        "    <div class='text'>", "!LOC:[style=control]Select any fabrication unit[/style] and [style=control]right click[/style] on the factory that is actively building.", "</div>",
+                        "</div>",
+                        "<br>",
+                        "!LOC:The fabrication unit will assist the factory and add its build power to construct that unit faster.",
+                        "<br>",
+                        "<br>",
+                        "!LOC:Fabrication units can also assist other fabrication units to build structures.", 
+                        "</span>"
+                   ],
+                    "audio": "/VO/Computer/Tutorial/Tutorial_3/5"
+               },
+               {
+                   "title": "!LOC:Advanced Factories",
+                   "body": [
+                        "<span>",
+                        "!LOC:Advanced factories build advanced fabrication units and stronger combat units.",
+                        "<div class='figure_wrapper'>",
+                        "   <img class='visual' src='coui://ui/main/game/guide/article/img/fabrication_vehicle.png'/>",
+                        "   <img class='visual' src='coui://ui/main/game/guide/article/img/fabrication_bot.png'/>",
+                        "   <img class='visual' src='coui://ui/main/game/guide/article/img/fabrication_aircraft.png'/>",
+                        "</div>",
+                        "!LOC:[style=control]Build a fabrication unit[/style] from a factory.",
+                        "<br>",
+                        "<br>",
+                        "<div class='figure_wrapper'>",
+                        "   <img class='visual' src='coui://ui/main/game/guide/article/img/vehicle_factory_adv_icon.png'/>",
+                        "   <img class='visual' src='coui://ui/main/game/guide/article/img/bot_factory_adv_icon.png'/>",
+                        "   <img class='visual' src='coui://ui/main/game/guide/article/img/air_factory_adv_icon.png'/>",
+                        "</div>",
+                        "!LOC:[style=control]Issue that fabrication unit to build an advanced factory.[/style]",
+                        "<br>",
+                        "<br>",
+                        "!LOC:[style=control]Build additional metal extractors and energy plants[/style] to support the increased economy draw of the advanced factory.", 
+                        "</span>"
+                   ],
+                    "audio": "/VO/Computer/Tutorial/Tutorial_3/6"
+               },
+               {
+                   "title": "!LOC:Advanced Units",
+                   "body": [
+                       "<span>",
+                        "<div class='figure_wrapper'>",
+                        "   <img class='visual' src='coui://ui/main/game/guide/article/img/fabrication_vehicle_adv_icon.png'/>",
+                        "   <img class='visual' src='coui://ui/main/game/guide/article/img/fabrication_bot_adv_icon.png'/>",
+                        "   <img class='visual' src='coui://ui/main/game/guide/article/img/fabrication_aircraft_adv_icon.png'/>",
+                        "</div>",
+                        "!LOC:Use Advanced Fabricators to build advanced metal extractors, advanced energy plants and the rest of the advanced structures.", 
+                        "<br>",
+                        "<br>",
+                        "<div class='figure_wrapper'>",
+                        "   <img class='visual' src='coui://ui/main/game/guide/article/img/tank_laser_adv_icon.png'/>",
+                        "   <img class='visual' src='coui://ui/main/game/guide/article/img/assault_bot_adv_icon.png'/>",
+                        "   <img class='visual' src='coui://ui/main/game/guide/article/img/gunship_icon.png'/>",
+                        "</div>",
+                        "!LOC:[style=control]Build advanced combat units from the advanced factories and destroy the enemy commander.[/style]",
+                        "</span>"
+                   ],
+                    "audio": "/VO/Computer/Tutorial/Tutorial_3/7"
+               },
+               {
+                   "title": "!LOC:Commander Quotes",
+                   "body": [
+                        "<span>",
+                        "<i>",
+                        "<div class='text'>", '!LOC:"Continuous build is the best enhancement to factories in five millennia."', "</div>",
+                        "<br>",
+                        "<div class='text'>", '!LOC:"Basic units are great for skirmishing. Advanced units are great for winning."', "</div>",
+                        "<br>",
+                        "<div class='text'>", '!LOC:"When in doubt, build nukes. If they have anti-nukes, build more nukes."', "</div>",
+                        "<br>",
+                        "<div class='text'>", '!LOC:"Lack of radar is the easiest way to get ambushed."', "</div>",
+                        "</i>",
+                        "</span>",
+                   ],
+                    "audio": "/VO/Computer/Tutorial/Tutorial_3/8"
+               }
+            ]
+        }
+    }
+});

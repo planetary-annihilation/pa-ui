@@ -1,0 +1,104 @@
+{
+    "APPROVE": {
+        "message": "ACEPTAR"
+    }, 
+    "APPROVED USERS": {
+        "message": "USUARIOS ACEPTADOS"
+    }, 
+    "Add": {
+        "message": "Añadir"
+    }, 
+    "Add Contacts": {
+        "message": "Añadir contactos"
+    }, 
+    "Add a Friend": {
+        "message": "Añadir a un amigo"
+    }, 
+    "BLOCK": {
+        "message": "BLOQUEAR"
+    }, 
+    "BLOCKED USERS": {
+        "message": "USUARIOS BLOQUEADOS"
+    }, 
+    "Cancel": {
+        "message": "Cancelar"
+    }, 
+    "Close": {
+        "message": "Cerrar"
+    }, 
+    "Contact List Updated": {
+        "message": "Se ha actualizado la lista de contactos"
+    }, 
+    "Contact Not Found": {
+        "message": "No se ha encontrado a ese contacto"
+    }, 
+    "Current Nickname:": {
+        "message": "Apodo actual:"
+    }, 
+    "Dismiss": {
+        "message": "Descartar"
+    }, 
+    "Filter contacts by tag:": {
+        "message": "Filtrar contactos por etiqueta:"
+    }, 
+    "Games you make will be hidden to these players.": {
+        "message": "Estos jugadores no podrán ver las partidas que hayas creado."
+    }, 
+    "Name:": {
+        "message": "Nombre: "
+    }, 
+    "New Nickname:": {
+        "message": "Nuevo apodo: "
+    }, 
+    "New Tag:": {
+        "message": "Nueva etiqueta: "
+    }, 
+    "Players you have encountered recently.": {
+        "message": "Jugadores con los que has jugado recientemente."
+    }, 
+    "Private games you make will only be visible to these players.": {
+        "message": "Las partidas privadas que crees solo serán visibles para estos jugadores."
+    }, 
+    "RECENT": {
+        "message": "RECIENTES"
+    }, 
+    "REMOVE": {
+        "message": "ELIMINAR"
+    }, 
+    "RENAME": {
+        "message": "CAMBIAR EL NOMBRE"
+    }, 
+    "Refresh Contacts": {
+        "message": "Actualizar contactos"
+    }, 
+    "Refreshing friends list.....": {
+        "message": "Actualizando lista de contactos..."
+    }, 
+    "Rename": {
+        "message": "Cambiar el nombre"
+    }, 
+    "Rename Friend": {
+        "message": "Cambiar el nombre de un amigo"
+    }, 
+    "SOCIAL": {
+        "message": "INTERACCIÓN"
+    }, 
+    "Tag": {
+        "message": "Etiqueta"
+    }, 
+    "Tag Friend:": {
+        "message": "Etiquetar a amigo: "
+    }, 
+    "Tags:": {
+        "message": "Etiquetas: "
+    }, 
+    "UBERDEX": {
+        "message": "UBERDEX"
+    }, 
+    "Uber Name": {
+        "message": "Nombre Uber"
+    }, 
+    "or": {
+        "message": "o"
+    }
+}

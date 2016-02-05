@@ -1,0 +1,44 @@
+{
+    "AT WILL": {
+        "message": "AT WILL"
+    }, 
+    "BUILD MODE": {
+        "message": "BUILD MODE"
+    }, 
+    "CONTINUOUS": {
+        "message": "CONTINUOUS"
+    }, 
+    "ENERGY ORDERS": {
+        "message": "ENERGY ORDERS"
+    }, 
+    "FIRE ORDERS": {
+        "message": "FIRE ORDERS"
+    }, 
+    "HOLD": {
+        "message": "HOLD"
+    }, 
+    "HOLD POSITION": {
+        "message": "HOLD POSITION"
+    }, 
+    "MANUEVER": {
+        "message": "MAN\u00d8VRER"
+    }, 
+    "MOVE ORDERS": {
+        "message": "MOVE ORDERS"
+    }, 
+    "NORMAL": {
+        "message": "NORMAL"
+    }, 
+    "OFF": {
+        "message": "OFF"
+    }, 
+    "ON": {
+        "message": "ON"
+    }, 
+    "RETURN FIRE": {
+        "message": "RETURN FIRE"
+    }, 
+    "ROAM": {
+        "message": "ROAM"
+    }
+}

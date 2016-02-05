@@ -1,0 +1,255 @@
+.body_panel {
+    /* This works around an issue that is causing severe performance problems - KEF - 06.09.2014 */
+    display: flex;
+    flex-grow: 0;
+    flex-shrink: 0;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.body_panel {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    pointer-events: all;
+}
+
+.div_game_stats {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgba(0,0,0,.5);
+}
+
+.div_game_summary {
+    min-height: 550px;
+    min-width: 1280px;
+}
+
+.div_end_game_msg .end_msg {
+    height: 56px;
+    width: 100%;
+    font-size: 40px;
+    font-family: 'Sansation Bold';
+    color: #fff;
+    padding: 8px 0px 0px 0px;
+    text-shadow: 0px 0px 25px rgba(0, 0, 0, 1);
+}
+
+    .div_end_game_msg .end_msg.victory {
+        color: rgba(0, 179, 255, 1);
+    }
+
+    .div_end_game_msg .end_msg.defeated {
+        color: red;
+    }
+
+    .div_end_game_msg .end_msg.summary {
+        color: #fff;
+    }
+
+.div_end_game_msg .username {
+    height: 48px;
+    width: 100%;
+    font-family: 'Sansation Bold';
+    font-size: 36px;
+    background: rgba(0,0,0,.5);
+    padding: 6px 0px 0px 0px;
+}
+
+
+.div_game_summary_panel {
+    width: 100%;
+    margin: 0px 0px 0px 0px;
+}
+
+.div_game_summary .container {
+    height: 100%;
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+}
+
+table.game_summary {
+    width: 100%;
+    text-align: left;
+    font-family:'Sansation Bold';
+    font-size: 16px;
+}
+
+    table.game_summary tr td {
+        padding: 4px 2px;
+    }
+
+    table.game_summary tr.header_categories td {
+        padding-top: 10px;
+    }
+
+    table.game_summary tr th.border {
+        border-left: 1px solid #333;
+        padding-left: 12px;
+    }
+
+    table.game_summary tr td.border {
+        border-left: 1px solid #333;
+        padding-left: 12px;
+    }
+
+    table.game_summary tr.player {
+        text-shadow: 0px 0px 20px #00b3ff;
+    }
+
+    table.game_summary tr td.stat {
+        width: 100px;
+        font-size:16px;
+    }
+
+.header_categories {
+    font-size: 16px;
+    font-family: "Sansation Bold";
+    color: #0FF;
+    text-shadow: 0px 0px 20px #0FF;
+}
+
+
+span.team_color {
+    display: inline-block;
+    height: 15px;
+    width: 20px;
+    border: 1px solid #fff;
+    background: red;
+    margin-right: 6px;
+}
+
+span.team_username {
+    font-family: 'Sansation Bold';
+    font-size: 16px;
+}
+
+#graph_container {
+    height: 500px;
+    width: 100%;
+    text-align: left;
+    position:relative;
+}
+
+#graph {
+    width: 100%;
+    height: 100%;
+}
+
+.div_army_select_cont {
+    height: 100%;
+    max-width: 240px;
+    margin: 0px 12px 0px 0px;
+}
+
+.control_army_select {
+}
+
+    .control_army_select label {
+        width: 100%;
+        border: 1px solid #333;
+        margin: 0px 12px -1px 0px;
+        padding: 4px 0px 0px 0px;
+    }
+
+
+.control_username {
+    width: 100%;
+    padding: 8px 20px 8px 56px;
+    margin: -26px 0px 0px 0px;
+    float: left;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    font-family: 'Sansation Bold';
+    font-size: 16px;
+    font-weight: normal;
+    box-shadow: inset 0px 0px 20px rgba(30,122,161,.35);
+}
+
+.div_army_select span {
+    margin-right: 10px;
+}
+
+#stat-select-cont {
+    width: 200px;
+    margin: 0px 16px 0px 0px;
+}
+
+.one-stat-selector {
+    padding: 6px 8px;
+    border: 1px solid #333;
+    font-size: 13px;
+    margin-bottom: -1px;
+    color: #00b3ff;
+    box-shadow: inset 0px 0px 20px rgba(30,122,161,.35);
+}
+
+    .one-stat-selector.selected {
+        color: #FFFFFF;
+        text-shadow: 0px 0px 10px #FFFFFF;
+        background: #00B3FF;
+        border: 1px solid #00B3FF;
+        box-shadow: inset 0px 0px 10px #00B3FF;
+    }
+
+/*BOOTSTRAP TWEAKS TO MOVE*/
+
+.nav-pills > li {
+    float: left;
+    margin: 0px;
+}
+
+.nav-pills > li + li {
+    margin-left: 0px;
+}
+
+.nav-pills > li > a {
+    background: #0D0D0D;
+    border-radius: 0px;
+    box-shadow: inset 0px 0px 8px rgba(255,255,255,.50);
+    border: 1px solid #666;
+    color: white;
+    text-transform: uppercase;
+    font-family: 'Sansation Bold';
+    font-size: 14px;
+    padding: 8px 36px;
+    margin:0px;
+}
+
+
+    .nav-pills > li > a:hover {
+        color: #FFFFFF;
+        text-shadow: 0px 0px 10px #FFFFFF;
+        background: #1e7aa1;
+        border: 1px solid #00B3FF;
+        box-shadow: 0px 0px 10px #00B3FF;
+        -webkit-animation: none;
+        -webkit-transition: none;
+    }
+
+    .nav-pills > li > a:active {
+        color: #FFFFFF;
+        text-shadow: 0px 0px 10px #FFFFFF;
+        background: #00B3FF;
+        border: 1px solid #00B3FF;
+        box-shadow: 0px 0px 20px #00B3FF;
+        background-image:none;
+    }
+
+
+.nav-pills > li.active > a, .nav-pills > li.active > a:hover, .nav-pills > li.active > a:focus {
+    color: #FFFFFF;
+    text-shadow: 0px 0px 10px #FFFFFF;
+    background: #1e7aa1;
+    border: 1px solid #00B3FF;
+    box-shadow: 0px 0px 10px #00B3FF;
+    background-image:none;
+}

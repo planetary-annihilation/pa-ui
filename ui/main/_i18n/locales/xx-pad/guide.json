@@ -1,0 +1,50 @@
+{
+    "Area Commands": {
+        "message": "\u0202\u0213\u1f73\u0203 \u04aa\u020f\u028d\u028d\u0203\u019e\u0257\u01a8\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9", 
+        "original": "Area Commands"
+    }, 
+    "Basic Camera Controls": {
+        "message": "\u0e3f\u0203\u01a8\u0457\u03f2 \u04aa\u0203\u028d\u1f73\u0213\u0203 \u04aa\u020f\u019e\u04ad\u0213\u020f\u230a\u01a8\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9", 
+        "original": "Basic Camera Controls"
+    }, 
+    "Clicking": {
+        "message": "\u04aa\u230a\u0457\u03f2\u045c\u0457\u019e\u0260\u03a9\u03a9\u03a9\u03a9", 
+        "original": "Clicking"
+    }, 
+    "Close": {
+        "message": "\u04aa\u230a\u020f\u01a8\u1f73\u03a9\u03a9", 
+        "original": "Close"
+    }, 
+    "Commander Basics": {
+        "message": "\u04aa\u020f\u028d\u028d\u0203\u019e\u0257\u1f73\u0213 \u0e3f\u0203\u01a8\u0457\u03f2\u01a8\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9", 
+        "original": "Commander Basics"
+    }, 
+    "Economy and Resources": {
+        "message": "\u0190\u03f2\u020f\u019e\u020f\u028d\u0443 \u0203\u019e\u0257 \u211d\u1f73\u01a8\u020f\u0574\u0213\u03f2\u1f73\u01a8\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9", 
+        "original": "Economy and Resources"
+    }, 
+    "Energy Resources": {
+        "message": "\u0190\u019e\u1f73\u0213\u0260\u0443 \u211d\u1f73\u01a8\u020f\u0574\u0213\u03f2\u1f73\u01a8\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9", 
+        "original": "Energy Resources"
+    }, 
+    "Fabrication Units": {
+        "message": "\u03dc\u0203\u0411\u0213\u0457\u03f2\u0203\u04ad\u0457\u020f\u019e \u1ee6\u019e\u0457\u04ad\u01a8\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9", 
+        "original": "Fabrication Units"
+    }, 
+    "Factories": {
+        "message": "\u03dc\u0203\u03f2\u04ad\u020f\u0213\u0457\u1f73\u01a8\u03a9\u03a9\u03a9\u03a9", 
+        "original": "Factories"
+    }, 
+    "Important Hotkeys": {
+        "message": "\u03aa\u028d\u2374\u020f\u0213\u04ad\u0203\u019e\u04ad \u04c7\u020f\u04ad\u045c\u1f73\u0443\u01a8\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9", 
+        "original": "Important Hotkeys"
+    }, 
+    "Metal Resources": {
+        "message": "\u039c\u1f73\u04ad\u0203\u230a \u211d\u1f73\u01a8\u020f\u0574\u0213\u03f2\u1f73\u01a8\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9", 
+        "original": "Metal Resources"
+    }, 
+    "Player Guide": {
+        "message": "\u1e54\u230a\u0203\u0443\u1f73\u0213 \u01f4\u0574\u0457\u0257\u1f73\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9", 
+        "original": "Player Guide"
+    }
+}

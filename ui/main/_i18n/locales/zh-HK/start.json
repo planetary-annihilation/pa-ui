@@ -1,0 +1,140 @@
+{
+    "Account information sent": {
+        "message": "Account information sent"
+    }, 
+    "Accounts linked": {
+        "message": "\u5e33\u865f\u5df2\u9023\u7d50"
+    }, 
+    "An email with a link to recover your account was sent to username@domain.com.": {
+        "message": "\u7528\u4f5c\u53d6\u56de\u4f60\u7684\u5e33\u865f\u7684\u9023\u7d50\u5df2\u96a8\u4e00\u5c01\u96fb\u5b50\u90f5\u4ef6\u5bc4\u81f3 username@domain.com\u3002"
+    }, 
+    "Armory": {
+        "message": "Armory"
+    }, 
+    "CONTINUE TO MAIN MENU": {
+        "message": "CONTINUE TO MAIN MENU"
+    }, 
+    "CREATE ACCOUNT AND LINK": {
+        "message": "CREATE ACCOUNT AND LINK"
+    }, 
+    "Channels Streaming": {
+        "message": "\u4e32\u6d41\u983b\u9053"
+    }, 
+    "Click here.": {
+        "message": "\u9ede\u64ca\u9019\u88e1"
+    }, 
+    "Confirm Password:": {
+        "message": "\u78ba\u8a8d\u5bc6\u78bc:"
+    }, 
+    "Email address already exists": {
+        "message": "\u96fb\u5b50\u90f5\u4ef6\u5730\u5740\u5df2\u88ab\u4f7f\u7528"
+    }, 
+    "Email address is invalid": {
+        "message": "\u96fb\u5b50\u90f5\u4ef6\u5730\u5740\u4e26\u4e0d\u6b63\u78ba"
+    }, 
+    "Email:": {
+        "message": "\u96fb\u5b50\u4fe1\u7bb1:"
+    }, 
+    "Forgot username or password?": {
+        "message": "\u5fd8\u8a18\u5e33\u865f\u6216\u662f\u5bc6\u78bc"
+    }, 
+    "Incorrect username or password. Please check your entry and try again.": {
+        "message": "\u932f\u8aa4\u7684\u5e33\u865f\u6216\u5bc6\u78bc\u3002\u8acb\u78ba\u8a8d\u4f60\u8f38\u5165\u7684\u5167\u5bb9\u4e26\u518d\u8a66\u4e00\u6b21\u3002"
+    }, 
+    "New Build Available:": {
+        "message": "\u65b0\u7248\u672c\u91cb\u51fa\uff1a"
+    }, 
+    "Password": {
+        "message": "\u5bc6\u78bc"
+    }, 
+    "Passwords are different": {
+        "message": "\u5bc6\u78bc\u4e26\u4e0d\u4e00\u81f4"
+    }, 
+    "Please choose a default region.": {
+        "message": "\u8acb\u9078\u64c7\u4e00\u500b\u9810\u8a2d\u5730\u5340\u3002"
+    }, 
+    "Please try again later. If this error persists, please contact support and check the forums.": {
+        "message": "\u8acb\u7a0d\u5f8c\u518d\u8a66\u3002\u5982\u679c\u6b64\u932f\u8aa4\u4ecd\u7136\u5b58\u5728\uff0c\u8acb\u8207\u652f\u63f4\u4e2d\u5fc3\u806f\u7e6b\uff0c\u4e26\u67e5\u8a62\u8ad6\u58c7\u3002"
+    }, 
+    "Please try to link your account at": {
+        "message": "Please try to link your account at"
+    }, 
+    "Problem with Steam Account.": {
+        "message": "Steam \u5e33\u865f\u767c\u751f\u554f\u984c\u3002"
+    }, 
+    "Quit": {
+        "message": "\u96e2\u958b"
+    }, 
+    "RETURN TO SIGN IN": {
+        "message": "\u56de\u5230\u767b\u5165\u4ecb\u9762"
+    }, 
+    "Reconnecting to Game": {
+        "message": "\u91cd\u65b0\u9023\u7dda\u81f3\u904a\u6232"
+    }, 
+    "Settings": {
+        "message": "\u8a2d\u5b9a"
+    }, 
+    "Sign in": {
+        "message": "\u767b\u5165"
+    }, 
+    "System Designer": {
+        "message": "System Designer"
+    }, 
+    "There are no regions available for this build version.": {
+        "message": "There are no regions available for this build version."
+    }, 
+    "This shouldn't happen. Please contact us at": {
+        "message": "\u9019\u4e0d\u8a72\u767c\u751f\u3002\u8acb\u806f\u7d61\u6211\u5011"
+    }, 
+    "This title has not been activated.": {
+        "message": "\u9019\u6b3e\u4f5c\u54c1\u5c1a\u672a\u555f\u52d5\u3002"
+    }, 
+    "Twitch": {
+        "message": "Twitch"
+    }, 
+    "Unable to Sign In": {
+        "message": "\u4e0d\u80fd\u767b\u5165"
+    }, 
+    "User account has not been linked to steam.": {
+        "message": "\u7528\u6236\u5e33\u865f\u5df2\u8207 steam \u9023\u7d50\u3002"
+    }, 
+    "Username": {
+        "message": "\u7528\u6236\u540d"
+    }, 
+    "Username already exists": {
+        "message": "\u4f7f\u7528\u8005\u540d\u7a31\u5df2\u7d93\u5b58\u5728"
+    }, 
+    "Videos": {
+        "message": "\u5f71\u7247"
+    }, 
+    "You are already assigned to a game.": {
+        "message": "\u4f60\u5df2\u5206\u914d\u81f3\u4e00\u500b\u904a\u6232\u3002"
+    }, 
+    "You can change the region later in the settings menu.": {
+        "message": "You can change the region later in the settings menu."
+    }, 
+    "You need a new client to play the game. Steam users may need to restart Steam to get the new client.": {
+        "message": "You need a new client to play the game. Steam users may need to restart Steam to get the new client."
+    }, 
+    "Your account has been banned.": {
+        "message": "\u4f60\u7684\u5e33\u865f\u5df2\u88ab\u5c01\u9396\u3002"
+    }, 
+    "Your account has been banned. If you believe this is in error, contact us at": {
+        "message": "\u4f60\u7684\u5e33\u865f\u5df2\u88ab\u5c01\u9396\u3002\u82e5\u4f60\u5805\u4fe1\u9019\u662f\u932f\u8aa4\u7684\uff0c\u90a3\u9ebc\u8acb\u806f\u7d61\u6211\u5011\u3002"
+    }, 
+    "Your default region is currently unavailable. Please choose a different region.": {
+        "message": "\u4f60\u7684\u9810\u8a2d\u5730\u5340\u76ee\u524d\u4e0d\u80fd\u4f7f\u7528. \u8acb\u9078\u64c7\u53e6\u4e00\u500b\u5730\u5340."
+    }, 
+    "Your steam account does not own this application.": {
+        "message": "\u4f60\u7684 Steam \u5e33\u865f\u672a\u64c1\u6709\u6b64\u61c9\u7528\u7a0b\u5f0f\u3002"
+    }, 
+    "set by code": {
+        "message": "set by code"
+    }, 
+    "viewers": {
+        "message": "\u6aa2\u8996\u8005"
+    }, 
+    "\u00a9 2014 Uber Entertainment Inc.": {
+        "message": "\u00a9 2014 Uber Entertainment Inc."
+    }
+}

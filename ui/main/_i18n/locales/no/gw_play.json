@@ -1,0 +1,86 @@
+{
+    "AI:": {
+        "message": "AI:"
+    }, 
+    "Abandon War": {
+        "message": "Abandon War"
+    }, 
+    "Card:": {
+        "message": "Kort:"
+    }, 
+    "Data Banks Full": {
+        "message": "Data Banks Full"
+    }, 
+    "Date:": {
+        "message": "Dato:"
+    }, 
+    "Delete Tech": {
+        "message": "Slett teknologi"
+    }, 
+    "Dismiss": {
+        "message": "Fjern"
+    }, 
+    "Download Tech": {
+        "message": "Last ned teknologi"
+    }, 
+    "Duplicate Tech": {
+        "message": "Duplicate Tech"
+    }, 
+    "Exit": {
+        "message": "Exit"
+    }, 
+    "Explore": {
+        "message": "Utforsk"
+    }, 
+    "Fight": {
+        "message": "Kjemp"
+    }, 
+    "Give tech": {
+        "message": "Gi teknologi"
+    }, 
+    "History:": {
+        "message": "Tidligere:"
+    }, 
+    "Jump": {
+        "message": "Flytt hit"
+    }, 
+    "Load game": {
+        "message": "Last spillet"
+    }, 
+    "Preparing for battle": {
+        "message": "Klargj\u00f8r for kamp"
+    }, 
+    "Record:": {
+        "message": "Rekord:"
+    }, 
+    "Reject Tech": {
+        "message": "Avvis teknologi"
+    }, 
+    "Save": {
+        "message": "Lagre"
+    }, 
+    "Scanning System": {
+        "message": "Skanner systemet"
+    }, 
+    "Settings": {
+        "message": "Innstillinger"
+    }, 
+    "TECHS": {
+        "message": "TECHS"
+    }, 
+    "To download, open a data bank by deleting an undesired tech.": {
+        "message": "To download, open a data bank by deleting an undesired tech."
+    }, 
+    "Turn State:": {
+        "message": "Omgangsstatus:"
+    }, 
+    "Unlock Commander": {
+        "message": "L\u00e5s opp kommand\u00f8r"
+    }, 
+    "loss": {
+        "message": "Tap"
+    }, 
+    "win /": {
+        "message": "vunnet /"
+    }
+}

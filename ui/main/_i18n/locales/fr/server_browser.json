@@ -1,0 +1,173 @@
+{
+    "AI Battle": {
+        "message": "Combat IA"
+    }, 
+    "Any": {
+        "message": "Tous"
+    }, 
+    "Auto refresh": {
+        "message": "Rafraîchissement automatique"
+    }, 
+    "Bounty Mode": {
+        "message": "Mode prime"
+    }, 
+    "Buy Expansion": {
+        "message": "Acheter l'extension"
+    }, 
+    "Can Join": {
+        "message": "Peut rejoindre une partie"
+    }, 
+    "Can Play": {
+        "message": "Peut jouer"
+    }, 
+    "Can Spectate": {
+        "message": "Peut regarder"
+    }, 
+    "Cancel": {
+        "message": "Annuler"
+    }, 
+    "Casual": {
+        "message": "Détendu"
+    }, 
+    "Competitive": {
+        "message": "Compétitif"
+    }, 
+    "Could not retrieve game list because no network connection could be found.": {
+        "message": "Impossible de récupérer la liste de parties, car aucune connexion réseau n'a été trouvée."
+    }, 
+    "Create Game": {
+        "message": "Créer une partie"
+    }, 
+    "Enter game password": {
+        "message": "Saisir le mot de passe de la partie"
+    }, 
+    "Free For All": {
+        "message": "Chacun pour soi"
+    }, 
+    "Game": {
+        "message": "Partie"
+    }, 
+    "Game State": {
+        "message": "État de la partie"
+    }, 
+    "Host game locally": {
+        "message": "Héberger une partie locale"
+    }, 
+    "In Lobby": {
+        "message": "Dans le lobby"
+    }, 
+    "In Progress": {
+        "message": "En cours"
+    }, 
+    "Join Game": {
+        "message": "Rejoindre la partie"
+    }, 
+    "LOCKED": {
+        "message": "VERROUILLÉ"
+    }, 
+    "Locked": {
+        "message": "Verrouillé"
+    }, 
+    "Locked Game": {
+        "message": "Partie verrouillée"
+    }, 
+    "Mod": {
+        "message": "Mod"
+    }, 
+    "Modded": {
+        "message": "Moddé"
+    }, 
+    "Mode": {
+        "message": "Mode"
+    }, 
+    "Mods": {
+        "message": "Mods"
+    }, 
+    "Multiplayer": {
+        "message": "Multijoueur"
+    }, 
+    "No connection to PlayFab servers was found. New games will be hosted locally.": {
+        "message": "Aucune connexion aux serveurs de PlayFab n'a été trouvée. Les nouvelles parties seront hébergées localement."
+    }, 
+    "No max": {
+        "message": "Aucun max"
+    }, 
+    "No min": {
+        "message": "Aucun min"
+    }, 
+    "Not Bounty Mode": {
+        "message": "Aucun mode prime"
+    }, 
+    "Not Modded": {
+        "message": "Non moddé"
+    }, 
+    "Not Selected": {
+        "message": "Non sélectionné"
+    }, 
+    "Number of Planets": {
+        "message": "Nombre de planètes"
+    }, 
+    "Number of Players": {
+        "message": "Nombre de joueurs"
+    }, 
+    "Open": {
+        "message": "Ouvrir"
+    }, 
+    "Open slot": {
+        "message": "Ouvrir l'emplacement"
+    }, 
+    "Password": {
+        "message": "Mot de passe"
+    }, 
+    "Planets": {
+        "message": "Planètes"
+    }, 
+    "Players": {
+        "message": "Joueurs"
+    }, 
+    "Radius __radius__": {
+        "message": "Rayon __radius__"
+    }, 
+    "Refresh": {
+        "message": "Rafraîchir"
+    }, 
+    "Region": {
+        "message": "Région"
+    }, 
+    "Rejoin Local Game": {
+        "message": "Rejoindre partie locale"
+    }, 
+    "Required Expansion Pack": {
+        "message": "Extension nécessaire"
+    }, 
+    "Sandbox": {
+        "message": "Bac à sable"
+    }, 
+    "Slots": {
+        "message": "Emplacements"
+    }, 
+    "Spectate": {
+        "message": "Regarder"
+    }, 
+    "Spectators": {
+        "message": "Spectateurs"
+    }, 
+    "Status": {
+        "message": "État"
+    }, 
+    "Tag": {
+        "message": "Tag"
+    }, 
+    "Team Armies": {
+        "message": "Armées alliées"
+    }, 
+    "Testing": {
+        "message": "Test"
+    }, 
+    "The game you are trying to join requires the [style=content_description]__expansion_name__[/style] expansion for Planetary Annihilation.": {
+        "message": "La partie que vous essayez de rejoindre nécessite l'extension de Planetary Annihilation : [style=content_description]__expansion_name__[/style]."
+    }, 
+    "This game is no longer available.": {
+        "message": "Cette partie n'est plus disponible."
+    }
+}

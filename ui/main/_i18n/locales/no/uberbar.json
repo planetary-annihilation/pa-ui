@@ -1,0 +1,110 @@
+{
+    "Accept": {
+        "message": "Godta"
+    }, 
+    "Appear Offline": {
+        "message": "Vis som offline"
+    }, 
+    "Away": {
+        "message": "Borte"
+    }, 
+    "Block": {
+        "message": "Blokker"
+    }, 
+    "CANCEL": {
+        "message": "AVBRYT"
+    }, 
+    "CHANGE": {
+        "message": "ENDRE"
+    }, 
+    "Change Display Name": {
+        "message": "Endre synlig navn"
+    }, 
+    "Change your display name?": {
+        "message": "Endre ditt viste navn?"
+    }, 
+    "Chat": {
+        "message": "Chat"
+    }, 
+    "Do Not Disturb": {
+        "message": "Ikke forstyrr"
+    }, 
+    "Friends": {
+        "message": "Venner"
+    }, 
+    "Ignore": {
+        "message": "Ignorer"
+    }, 
+    "Invite to Chat": {
+        "message": "Inviter til chat"
+    }, 
+    "Invite to game": {
+        "message": "Inviter til kamp"
+    }, 
+    "Join Game": {
+        "message": "Delta"
+    }, 
+    "New Display Name:": {
+        "message": "Nytt navn som vises:"
+    }, 
+    "No pending notifications.": {
+        "message": "Ingen avventende varsler."
+    }, 
+    "Offline": {
+        "message": "Offline"
+    }, 
+    "Online": {
+        "message": "Online"
+    }, 
+    "Pending Invite": {
+        "message": "Ventende invitasjon"
+    }, 
+    "Recent": {
+        "message": "Nylige"
+    }, 
+    "Remove": {
+        "message": "Fjern"
+    }, 
+    "Search Results": {
+        "message": "S\u00f8keresultater"
+    }, 
+    "Send Friend Request": {
+        "message": "Send venneforesp\u00f8rsel"
+    }, 
+    "Unblock": {
+        "message": "\u00c5pne blokkering"
+    }, 
+    "Unfriend": {
+        "message": "Ikke venn"
+    }, 
+    "Users": {
+        "message": "Brukere"
+    }, 
+    "[B]": {
+        "message": "(B)"
+    }, 
+    "[CHAT]": {
+        "message": "[CHAT]"
+    }, 
+    "[F]": {
+        "message": "(F)"
+    }, 
+    "[I]": {
+        "message": "(I)"
+    }, 
+    "[REMOVE]": {
+        "message": "(FJERN)"
+    }, 
+    "[Tags:": {
+        "message": "[Merker:"
+    }, 
+    "invited you to a game.": {
+        "message": "inviterte deg til en kamp."
+    }, 
+    "invited you to chat.": {
+        "message": "inviterte deg til chat."
+    }, 
+    "wants to be your friend.": {
+        "message": "vil v\u00e6re venn med deg."
+    }
+}

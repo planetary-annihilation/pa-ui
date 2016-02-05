@@ -1,0 +1,44 @@
+{
+    "Create Game": {
+        "message": "\u5efa\u7acb\u904a\u6232"
+    }, 
+    "Game": {
+        "message": "\u904a\u6232"
+    }, 
+    "In Lobby": {
+        "message": "\u5728\u5927\u5ef3\u4e2d"
+    }, 
+    "In Progress": {
+        "message": "\u6b63\u5728\u9032\u884c"
+    }, 
+    "Join Game": {
+        "message": "\u52a0\u5165\u904a\u6232"
+    }, 
+    "Locked Game": {
+        "message": "\u4e0a\u9396\u7684\u904a\u6232"
+    }, 
+    "Mode": {
+        "message": "\u6a21\u5f0f"
+    }, 
+    "Password": {
+        "message": "\u5bc6\u78bc"
+    }, 
+    "Planets": {
+        "message": "\u661f\u7403"
+    }, 
+    "Players": {
+        "message": "\u73a9\u5bb6"
+    }, 
+    "Region": {
+        "message": "\u5730\u5340"
+    }, 
+    "Slots": {
+        "message": "\u6b04\u4f4d"
+    }, 
+    "Spectate": {
+        "message": "\u89c0\u6230"
+    }, 
+    "Spectators": {
+        "message": "\u89c0\u6230\u8005"
+    }
+}

@@ -1,0 +1,92 @@
+{
+    "ANNIHILATION COMPLETE": {
+        "message": "ANNIHILATION COMPLÈTE"
+    }, 
+    "APM": {
+        "message": "APM"
+    }, 
+    "Average": {
+        "message": "Moyenne"
+    }, 
+    "Built": {
+        "message": "Construit"
+    }, 
+    "Destroyed": {
+        "message": "Détruit"
+    }, 
+    "Determining ladder rank...": {
+        "message": "Calcul du rang..."
+    }, 
+    "Draw": {
+        "message": "Égalité"
+    }, 
+    "Duration:": {
+        "message": "Durée :"
+    }, 
+    "Efficiency": {
+        "message": "Rendement"
+    }, 
+    "Energy": {
+        "message": "Énergie"
+    }, 
+    "Metal": {
+        "message": "Métal"
+    }, 
+    "Produced": {
+        "message": "Produit"
+    }, 
+    "QUIT TO MAIN MENU": {
+        "message": "RETOURNER AU MENU PRINCIPAL"
+    }, 
+    "REVIEW": {
+        "message": "ÉVALUER"
+    }, 
+    "Requeue": {
+        "message": "Se remettre en file d'attente"
+    }, 
+    "SPECTATE": {
+        "message": "REGARDER"
+    }, 
+    "The battle ended in a draw.": {
+        "message": "La bataille s'est soldée par une égalité."
+    }, 
+    "The game has ended.": {
+        "message": "La partie a pris fin."
+    }, 
+    "Total Oblivion": {
+        "message": "Destruction totale"
+    }, 
+    "Units": {
+        "message": "Unités"
+    }, 
+    "Used": {
+        "message": "Utilisé"
+    }, 
+    "VICTORY IS YOURS": {
+        "message": "VOUS AVEZ REMPORTÉ LA VICTOIRE"
+    }, 
+    "VIEW RESULTS": {
+        "message": "VOIR LES RÉSULTATS"
+    }, 
+    "VIEW STATS": {
+        "message": "VOIR LES STATS"
+    }, 
+    "View Winner": {
+        "message": "Voir le vainqueur"
+    }, 
+    "Winner:": {
+        "message": "Vainqueur :"
+    }, 
+    "Winners:": {
+        "message": "Vainqueurs :"
+    }, 
+    "YOU'VE BEEN ANNIHILATED": {
+        "message": "VOUS AVEZ ÉTÉ ANNIHILÉ"
+    }, 
+    "You currently have an unknown rank status. Complete more games to determine your ladder ranking.": {
+        "message": "Votre rang actuel est inconnu. Finissez d'autres parties pour définir votre rang."
+    }, 
+    "Your 1v1 Ladder rank is __rank_title__.": {
+        "message": "Votre rang en 1 contre 1 est : __rank_title__."
+    }
+}

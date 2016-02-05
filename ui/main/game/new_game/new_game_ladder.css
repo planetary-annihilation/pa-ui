@@ -1,0 +1,179 @@
+﻿
+body {
+    background-image: none;
+    background-color: #1B1100;
+}
+
+.background_glow {
+    background: url(coui://ui/main/game/new_game/img/ranked/background_lobby.png) center center no-repeat transparent;
+}
+
+.section_title.ranked {
+    text-shadow: 0px 0px 20px #ffcc00;
+    color: #ffcc00;
+}
+
+#content {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+}
+
+/* ------ FRAMEWORK 
+------------------------------------------------*/
+
+.section_content_table {
+    border-image: url('coui://ui/main/game/new_game/img/ranked/panel_std.png') 29 53 53 29 fill;
+}
+
+#chat-bar .player-name {
+    color: #ffcc00;
+}
+
+.game_roster {
+    border-image: url('coui://ui/main/game/new_game/img/ranked/panel_secondary.png') 33 46 46 33 fill;
+}
+
+.armies-wrapper {
+    background: url(coui://ui/main/game/new_game/img/ranked/rank_watermark.png) center center no-repeat transparent;
+    background-size:96%;
+}
+
+
+.army-header {
+    text-shadow: 0px 0px 20px #ffcc00;
+}
+
+.div-dialog-container {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 1000;
+    position: absolute;
+    top: 0;
+}
+
+.div-dialog-panel {
+    text-align: center;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    display: inline-block;
+    box-shadow: 0px 0px 100px #000;
+}
+
+.div-dialog-body {
+    text-align: center;
+    background: rgba(0, 0, 0, 0.98);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    display: inline-block;
+    padding: 10px;
+}
+
+.div-dialog-title {
+    font-family: 'Sansation Bold';
+    font-size: 24px;
+    color: #fff;
+    text-shadow: 0px 0px 20px #00b3ff;
+}
+
+    .div-dialog-title.warning {
+        background: linear-gradient(to top, rgba(109,1,1,1) 0%,rgba(195,0,0,1) 100%);
+        text-shadow: 0px 0px 40px #F00;
+    }
+
+.div-dialog-message {
+    font-family: 'Sansation Bold';
+    font-size: 16px;
+    color: #fff;
+    padding:8px;
+}
+
+.div-dialog-commit {
+    display:flex;
+    justify-content:flex-end;
+    margin: 20px 0px 0px 0px;
+}
+
+.div-dialog-commit input[type="button"] { 
+    text-transform:uppercase;
+    margin:0px 8px 0px 0px;
+}
+
+
+
+/* For "waiting for players" screen, copied from matchmaking.css */
+.flex-container {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-image: url('uncached://pa/ui/backgrounds/default.png');
+    background-size: cover;
+    color: #fff;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 1000;
+}
+
+.div_panel_bar_background {
+    width: 100%;
+    position: relative;
+    font-family:"Sansation Bold";
+    box-shadow: 0px 0px 100px #000;
+    text-align: center;
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(0,0,0,.5)), color-stop(100%,rgba(0,0,0,.5)));
+}
+
+.div-queue-title {
+    height: 56px;
+    width: 100%;
+    background: url(coui://ui/main/game/game_over/img/bground_summary.png) center center no-repeat, -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(0,0,0,.7)), color-stop(100%,rgba(0,0,0,.7)));
+    font-family: 'Sansation Bold';
+    font-size: 3em;
+    color: #fff;
+    border: 1px solid rgba(255,255,255,.15);
+    border-width: 1px 0px;
+    text-shadow: 0px 0px 25px rgba(0, 0, 0, 1);
+    box-shadow: 0px 0px 50px #000;
+    padding: 8px 0px 0px 0px;
+    text-transform: uppercase;
+    line-height: 1;
+}
+
+    .div-queue-title.error {
+        background: url(coui://ui/main/game/game_over/img/bground_defeat.png) center center no-repeat, -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(0,0,0,.7)), color-stop(100%,rgba(0,0,0,.7)));
+    }
+
+.div-queue-info {
+    text-shadow: 0px 0px 3px rgba(0, 0, 0, 1);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    line-height: 1;
+    font-size: 16px;
+    font-family: 'sansation bold';
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(0,0,0,.6)), color-stop(100%,rgba(0,0,0,.6)));
+    padding: 10px 0px;
+}
+
+.div_bottom_margin_bar {
+    min-height: 20px;
+    height: 100%;
+    width: 100%;
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(0,0,0,.3)), color-stop(100%,rgba(0,0,0,.3)));
+}
+
+.div_bottom_margin_bar input[type="button"] {
+    margin: 10px;
+    font-size: 18px;
+    padding: 12px 36px;
+    box-shadow: 0px 0px 20px #000;
+    text-transform: uppercase;
+}

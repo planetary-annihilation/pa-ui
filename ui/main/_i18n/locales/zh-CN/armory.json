@@ -1,0 +1,89 @@
+{
+    "Account Name:": {
+        "message": "\u8d26\u6237\u540d\u79f0\uff1a"
+    }, 
+    "Add To Cart": {
+        "message": "\u6dfb\u52a0\u5230\u8d2d\u7269\u8f66"
+    }, 
+    "Armory": {
+        "message": "\u519b\u68b0\u5e93"
+    }, 
+    "Badges": {
+        "message": "\u52cb\u7ae0"
+    }, 
+    "CHECKOUT": {
+        "message": "\u4ed8\u6b3e"
+    }, 
+    "Cancel": {
+        "message": "\u53d6\u6d88"
+    }, 
+    "Cart": {
+        "message": "\u8d2d\u7269\u8f66"
+    }, 
+    "Commanders": {
+        "message": "\u6307\u6325\u5b98"
+    }, 
+    "Confirmation code:": {
+        "message": "\u786e\u8ba4\u7801\uff1a"
+    }, 
+    "Confirmation of your purchase is provided below.": {
+        "message": "\u60a8\u7684\u8d2d\u7269\u786e\u8ba4\u4fe1\u606f\u3002"
+    }, 
+    "Continue Shopping": {
+        "message": "\u7ee7\u7eed\u8d2d\u4e70"
+    }, 
+    "Credit applied:": {
+        "message": "\u4f7f\u7528\u7684\u4f59\u989d\uff1a"
+    }, 
+    "Designed in collaboration with": {
+        "message": "\u4e0e\u6211\u4eec\u5171\u540c\u8bbe\u8ba1\uff1a"
+    }, 
+    "Go to Main Menu": {
+        "message": "\u8fd4\u56de\u4e3b\u83dc\u5355"
+    }, 
+    "Here's your receipt.": {
+        "message": "\u60a8\u7684\u6536\u636e\uff1a"
+    }, 
+    "Item": {
+        "message": "\u7269\u54c1"
+    }, 
+    "Item is already in cart.": {
+        "message": "\u7269\u54c1\u5df2\u5728\u8d2d\u7269\u8f66\u5185\u3002"
+    }, 
+    "Kickstarter Backer": {
+        "message": "Kickstarter\u8d5e\u52a9\u8005"
+    }, 
+    "Price": {
+        "message": "\u4ef7\u683c"
+    }, 
+    "REMOVE": {
+        "message": "\u79fb\u9664"
+    }, 
+    "Redeem": {
+        "message": "\u5151\u6362"
+    }, 
+    "Refresh": {
+        "message": "\u5237\u65b0"
+    }, 
+    "Return to Armory": {
+        "message": "\u8fd4\u56de\u519b\u68b0\u5e93"
+    }, 
+    "Set As Default Commander": {
+        "message": "\u8bbe\u4e3a\u9ed8\u8ba4\u6307\u6325\u5b98"
+    }, 
+    "Thank you for your purchase.": {
+        "message": "\u611f\u8c22\u60a8\u7684\u8d2d\u4e70\uff01"
+    }, 
+    "Total:": {
+        "message": "\u5408\u8ba1\uff1a"
+    }, 
+    "Updating...": {
+        "message": "\u6b63\u5728\u66f4\u65b0..."
+    }, 
+    "Your cart is empty.": {
+        "message": "\u60a8\u7684\u8d2d\u7269\u8f66\u4e3a\u7a7a\u3002"
+    }, 
+    "Your purchased items are now registered to your account and are accessible in the game.": {
+        "message": "\u60a8\u8d2d\u4e70\u7684\u7269\u54c1\u5df2\u6ce8\u518c\u5230\u60a8\u7684\u8d26\u53f7\u5e76\u53ef\u5728\u6e38\u620f\u4e2d\u4f7f\u7528\u4e86\u3002"
+    }
+}

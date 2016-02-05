@@ -1,0 +1,38 @@
+{
+    "CONNECTION TO SERVER LOST": {
+        "message": "\u8207\u4f3a\u670d\u5668\u7684\u9023\u7dda\u4e2d\u65b7"
+    }, 
+    "Cancel": {
+        "message": "\u53d6\u6d88"
+    }, 
+    "Chrono Cam": {
+        "message": "\u6642\u7a7a\u56de\u653e\u7cfb\u7d71"
+    }, 
+    "Exit Game?": {
+        "message": "\u96e2\u958b\u904a\u6232?"
+    }, 
+    "Game Settings": {
+        "message": "\u904a\u6232\u8a2d\u5b9a"
+    }, 
+    "Main Menu": {
+        "message": "\u4e3b\u76ee\u9304"
+    }, 
+    "Pick a location inside one of the green zones to spawn your Commander.": {
+        "message": "\u5728\u7da0\u8272\u5340\u57df\u4e2d\u6311\u9078\u4f60\u7684\u6307\u63ee\u5b98\u51fa\u6230\u4f4d\u7f6e\u3002"
+    }, 
+    "Position targeted. Click to confirm.": {
+        "message": "\u4f4d\u7f6e\u9396\u5b9a. \u9ede\u64ca\u78ba\u8a8d."
+    }, 
+    "Quit": {
+        "message": "\u7d50\u675f"
+    }, 
+    "Returning to Main Menu": {
+        "message": "\u6b63\u5728\u8fd4\u56de\u4e3b\u76ee\u9304"
+    }, 
+    "START ANNIHILATION": {
+        "message": "\u958b\u59cb\u6bb2\u6ec5\u884c\u52d5"
+    }, 
+    "Yes": {
+        "message": "\u662f"
+    }
+}

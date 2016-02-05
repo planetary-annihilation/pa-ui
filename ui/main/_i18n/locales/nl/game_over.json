@@ -1,0 +1,44 @@
+{
+    "ANNIHILATION COMPLETE": {
+        "message": "VERNIETIGING VOLTOOID"
+    }, 
+    "APM": {
+        "message": "APM"
+    }, 
+    "Average": {
+        "message": "Gemiddelde"
+    }, 
+    "Built": {
+        "message": "Gebouwd"
+    }, 
+    "Destroyed": {
+        "message": "Vernietigd"
+    }, 
+    "Draw": {
+        "message": "GELIJKSPEL"
+    }, 
+    "Efficiency": {
+        "message": "Effici\u00ebntie"
+    }, 
+    "GW GAME OVER": {
+        "message": "GW GAME OVER"
+    }, 
+    "The game has ended.": {
+        "message": "Het spel is be\u00ebindigd."
+    }, 
+    "Used": {
+        "message": "Gebruikt"
+    }, 
+    "VICTORY IS YOURS": {
+        "message": "DE OVERWINNING IS AAN JOU"
+    }, 
+    "Winner:": {
+        "message": "Winnaar:"
+    }, 
+    "Winners:": {
+        "message": "Winnaars:"
+    }, 
+    "YOU'VE BEEN ANNIHILATED": {
+        "message": "JE BENT VERNIETIGD"
+    }
+}

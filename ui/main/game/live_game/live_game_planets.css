@@ -1,0 +1,331 @@
+.body_panel {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+}
+
+body-dock {
+    position: absolute;
+    top: 0;
+    right: 0;
+    min-height: 100px;
+}
+
+/* UTILITY */
+.receiveMouse {
+    pointer-events: all;
+}
+
+.ignoreMouse {
+    pointer-events: none;
+}
+
+.list_control_btn {
+    height: 26px;
+    width: 28px;
+    background: inherit;
+    border: 1px solid #4d4d4d;
+    white-space: nowrap;
+    margin: 1px 2px 0px -6px;
+    padding: 6px;
+}
+
+    .list_control_btn:hover {
+        background: #1E7AA1;
+        border: 1px solid #00B3FF;
+        box-shadow: inset 0px 0px 10px #00B3FF;
+    }
+
+    .list_control_btn:active {
+        background: #00B3FF;
+        border: 1px solid #00B3FF;
+        box-shadow: inset 0px 0px 10px #00B3FF;
+    }
+
+
+.div_planet_summary {
+    height: 28px;
+    margin: -1px 0px 0px 0px;
+    display: flex;
+    align-items: flex-end;
+    /*justify-content: flex-end;*/
+    position: relative;
+    flex-grow:1;
+}
+
+.bar_fill {
+    height:30px;
+    min-width: 20px;
+    margin: -1px -10px 0px 0px;
+    background: url('coui://ui/main/game/live_game/img/planet_list_panel/img-bar-fill-right.png') left top no-repeat;
+    flex-grow:1;
+}
+
+.btn_planet_thumb {
+    height: 26px;
+    max-width: 50px;
+    background: rgba(17, 31, 39, 0.5);
+    border: 1px solid rgba(0, 179, 255, 1);
+    box-shadow: inset 0px 0px 10px #1e7aa1;
+    margin: 0px 0px 0px -1px;
+    padding: 2px 2px 0px 2px;
+    position: relative;
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+}
+
+    .btn_planet_thumb:hover {
+        background: #137aa1;
+        border: 1px solid #00b3ff;
+        box-shadow: inset 0px 0px 10px rgba(0,179,255,1);
+    }
+
+    .btn_planet_thumb:active {
+        background: #00b3ff;
+        border: 1px solid #00b3ff;
+        box-shadow: 0px 0px 20px rgba(0,179,255,1);
+    }
+
+.btn_planet_thumb_active {
+    background: #00b3ff;
+    border: 1px solid #00b3ff;
+    box-shadow: 0px 0px 20px rgba(0,179,255,1);
+}
+
+
+/* CELESTIAL VIEW   */
+.div_planet_info_cont {
+    padding-left: 38px;
+    margin: 0px -1px 0px 0px;
+}
+
+.div_planet_list_panel {
+    font-size: 13px;
+    color: #59D0FF;
+    text-shadow: 0px 0px 10px #59D0FF;
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+}
+
+.div_planet_list_control {
+    height: 30px;
+    min-width: 320px;
+    border-image: url('coui://ui/main/game/live_game/img/planet_list_panel/img_planet_bar.png') 0 25 0 51 fill;
+    border-image-outset: 15px 15px 15px 0;
+    border-width: 0px 25px 0px 51px;
+    display: block;
+    position: relative;
+    z-index: 2;
+}
+
+.div_planet_list_control_cont {
+    margin: 1px -25px 0px 0px;
+    display: flex;
+}
+
+.div_planet_list_cont {
+    width: 100%;
+    border-image: url('img/status_bar/img-menu-bground-right.png') 17 17 47 47 fill;
+    border-image-outset: 0 6px 0px 0px;
+    border-width: 17px 17px 47px 47px;
+    margin: -8px -1px 0px 0px;
+    padding:0px 30px 0px 0px;
+}
+
+.div_planet_list_item_cont {
+    margin: 0px 0px -20px -20px;
+    box-shadow: 0px 0px 40px rgba(30,122,161,.5);
+}
+
+.div_planet_list_item_group {
+    padding: 4px 4px 8px 4px;
+    border: 1px solid rgba(0,179,255,.25);
+    display:flex;
+    flex-direction: column;
+    -webkit-animation: none;
+    -webkit-transition: .3s ease-out;
+}
+
+    .div_planet_list_item_group:hover {
+        background: #1E7AA1;
+        border: 1px solid #00B3FF;
+        box-shadow: inset 0px 0px 10px #00B3FF;
+        color: #fff;
+        text-shadow: 0px 0px 10px rgba(255,255,255,.5);
+        -webkit-animation: none;
+        -webkit-transition: none;
+    }
+
+    .div_planet_list_item_group:active {
+        background: #00B3FF;
+        border: 1px solid #00B3FF;
+        box-shadow: inset 0px 0px 30px #00B3FF;
+        color: #fff;
+        text-shadow: 0px 0px 10px rgba(255,255,255,.5);
+    }
+
+/* same as*/
+.div_planet_list_item_active {
+    background: #1E7AA1;
+    border: 1px solid #00B3FF;
+    box-shadow: 0px 0px 30px #00B3FF;
+    color: #fff;
+    text-shadow: 0px 0px 4px rgba(255,255,255,.5);
+}
+
+.div_planet_list_item_notvalid {
+    opacity:.5;
+    pointer-events:none;
+}
+
+.div_planet_list_item_group > div {
+    display: flex;
+}
+
+
+
+.div_planet_list_item_left {
+    display: inline-block;
+    vertical-align: top;
+    flex-shrink: 0;
+}
+
+    .div_planet_list_item_left .img_planet_list_thumb {
+        margin: 2px;
+        padding: 0px;
+    }
+
+.div_planet_list_item_center {
+    width: 110px;
+    margin-top: 1px;
+    display: inline-block;
+    vertical-align: top;
+    flex-shrink: 0;
+    flex-grow: 1;
+}
+
+.div_planet_list_item_right {
+    text-align: right;
+    display: inline-block;
+    vertical-align: top;
+    margin: -4px 0px 0px 0px;
+    float: right;
+    flex-shrink: 0;
+}
+
+.div_planet_list_item_set_course {
+    /*width: 200px;*/
+    height: 20px;
+    text-align: center;
+    border: 1px solid white;
+    background-color: red;
+}
+
+    .div_planet_list_item_set_course:hover {
+        /*width: 200px;*/
+        height: 20px;
+        text-align: center;
+        border: 1px solid white;
+        background-color: black;
+    }
+
+
+.img_planet_list_thumb {
+    height: 20px;
+    width: 20px;
+}
+
+.img_planet_action_thumb {
+    height: 28px;
+    width: 28px;
+    margin: 3px 2px 0px;
+}
+
+.icon_engine_status {
+    margin: 0px 3px 0px 0px;
+}
+
+.div_planet_list_item {
+    border: 1px solid transparent;
+}
+
+    .div_planet_list_item .planet_title {
+        font-family: 'Sansation Bold';
+        font-size: 14px;
+        margin: 4px 0px 0px 2px;
+        word-break: break-word;
+    }
+
+    .div_planet_list_item .engine_detail_cont {
+        height: auto;
+        width: 100%;
+        display: flex;
+        margin: 4px 0px 0px 3px;
+    }
+
+    .div_planet_list_item .icon_engine_status {
+        margin: 0px 3px 0px 0px;
+    }
+
+    .div_planet_list_item .planet_status {
+        color: #999;
+    }
+
+    .div_planet_list_item .thrusters_active {
+        color: red;
+    }
+
+.btn_planet_list {
+    width: 170px;
+    display: block;
+    margin: 4px auto;
+}
+
+.div_planet_detail_panel {
+    background: rgba(0,0,0,.9);
+    margin: 0px 0px 0px 0px;
+    position: fixed;
+    right: 235px;
+    top: 71px;
+    padding: 10px;
+    border: 1px solid rgba(0,204,255,.5);
+    border-radius: 0px;
+}
+
+
+.tbl_planet_properties {
+    margin: 10px 10px 20px 10px;
+    font-size: .70em;
+    line-height: 1.8em;
+}
+
+    .tbl_planet_properties .planet_name {
+        font-size: 1.2em;
+        font-weight: bold;
+    }
+
+    .tbl_planet_properties .property {
+        color: #999;
+        text-transform: uppercase;
+        width: 100px;
+    }
+
+    .tbl_planet_properties .value {
+    }
+
+.btn_planet_command {
+    min-width: 180px;
+    margin: 0px;
+}
+
+.tooltip-inner .div_planet_list_item_center {
+    max-width: 200px;
+}
+
+    .tooltip-inner .div_planet_list_item_center .planet_title {
+        margin: 0px 0px 4px 0px;
+    }

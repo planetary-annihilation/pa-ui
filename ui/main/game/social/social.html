@@ -1,0 +1,320 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<title><loc>SOCIAL</loc></title>
+
+<script src="bundle://boot/boot.js" type="text/javascript"></script>
+<link href="bundle://boot/boot.css" rel="stylesheet" type="text/css" />
+<script src="social.js" type="text/javascript"></script>
+
+<link href="social.css" rel="stylesheet" type="text/css" />
+
+</head>
+
+<div class="div_popup_overlay" data-bind="visible: showFriendPane">
+    <div class="div_popup">
+        <div class="div_popup_panel">
+            <div class="interior">
+            <div class="div_settings_graphics_cont">
+
+                <!-- ko if: model.friendPaneState() === 'pending' -->
+                    <div class="div_popup_secondary_msg"><needloc>spinner spinner spinner spinner spinner</needloc></div>
+                    <hr/>
+                    <button align="" type="submit" data-bind="click: model.hideAddFriendPane, click_sound: 'default', rollover_sound: 'default'"><loc>Cancel</loc></button>
+                <!-- /ko -->
+
+                <!-- ko if: model.friendPaneState() === 'addFriend' -->
+                    <div class="div_popup_primary_msg"><loc>Add a Friend</loc></div>
+                    <hr/>
+                    <span><loc>Uber Name</loc></span><br/>
+                    <form data-bind="submit: function () { model.addFriendTag(friendPaneUberId(), friendPaneName(), friendPaneTag()) }">
+                        <input type="text" style="width:200px; margin: 6px 6px 6px 6px; padding: 6px 6px 6px 6px;" data-bind="value: friendPaneName" /><br />
+                    </form>
+                        <span><loc>or</loc></span><br />
+                        <span><noloc>UberId: </noloc></span><br />
+                    <form data-bind="submit: function () { model.addFriendTag(friendPaneUberId(), friendPaneName(), friendPaneTag()) }">
+                        <input type="text" style="width:200px; margin: 6px 6px 6px 6px; padding: 6px 6px 6px 6px;" data-bind="value: friendPaneUberId" /><br />
+                    </form>
+                    <hr/>
+                    <button type="submit" data-bind="click: function () { model.addFriendTag(friendPaneUberId(), friendPaneName(), friendPaneTag()); }, click_sound: 'default', rollover_sound: 'default'"><loc>Add</loc></button>
+                    <button type="submit" data-bind="click: model.hideAddFriendPane, click_sound: 'default', rollover_sound: 'default'"><loc>Close</loc></button>
+                <!-- /ko -->
+
+                <!-- ko if: model.friendPaneState() === 'renameFriend' -->
+                    <div class="div_popup_primary_msg"><loc>Rename Friend</loc></div>
+                    <hr/>
+                    <span><loc>Current Nickname:</loc></span><br/>
+                    <span data-bind="text: friendPaneNickname"></span><br/><br/>
+                    <span><loc>New Nickname: </loc></span><br />
+                    <form data-bind="submit: function () { model.renameFriend(friendPaneUberId(), friendPaneNickname()) }">
+                        <input type="text" style="width:200px; margin: 6px 6px 6px 6px; padding: 6px 6px 6px 6px;" data-bind="value: friendPaneNickname" /><br />
+                    </form>
+                    <hr/>
+                    <button type="submit" data-bind="click: function () { model.renameFriend(friendPaneUberId(), friendPaneNickname()) }, click_sound: 'default', rollover_sound: 'default'"><loc>Rename</loc></button>
+                    <button type="submit" data-bind="click: model.hideAddFriendPane, click_sound: 'default', rollover_sound: 'default'"><loc>Close</loc></button>
+                <!-- /ko -->
+
+                <!-- ko if: model.friendPaneState() === 'tagFriend' -->
+                    <div class="div_popup_primary_msg"><loc>Tag Friend: </loc><span data-bind="text: friendPaneNickname"></span></div>
+                    <hr/>
+                    <span><loc>New Tag: </loc></span><br />
+                    <form data-bind="submit: function () { model.addFriendTag(friendPaneUberId(), friendPaneName(), friendPaneTag()) }">
+                        <input type="text" style="width:200px; margin: 6px 6px 6px 6px; padding: 6px 6px 6px 6px;" data-bind="value: friendPaneTag" /><br />
+                    </form>
+                    <hr/>
+                    <button type="submit" data-bind="click: function () { model.addFriendTag(friendPaneUberId(), friendPaneName(), friendPaneTag()); }, click_sound: 'default', rollover_sound: 'default'"><loc>Tag</loc></button>
+                    <button type="submit" data-bind="click: model.hideAddFriendPane, click_sound: 'default', rollover_sound: 'default'"><loc>Close</loc></button>
+                <!-- /ko -->
+
+                <!-- ko if: model.friendPaneState() === 'updateSucceeded' -->
+                    <span><loc>Contact List Updated</loc></span><br />
+                    <hr/>
+                    <button align="" type="submit" data-bind="click: model.hideAddFriendPane, click_sound: 'default', rollover_sound: 'default'"><loc>Dismiss</loc></button>
+                <!-- /ko -->
+                <!-- ko if: model.friendPaneState() === 'updateFailed' -->
+                    <span><loc>Contact Not Found</loc></span><br />
+                    <hr/>
+                    <button align="" type="submit" data-bind="click: model.hideAddFriendPane, click_sound: 'default', rollover_sound: 'default'"><loc>Dismiss</loc></button>
+                <!-- /ko -->
+
+            </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<body>
+<div class="div_body_overlay">
+<div class="body_background_table fill"></div>
+<div class="div_body_cont">
+
+    <div class="btn_back" data-bind="click: navBack, click_sound: 'default', rollover_sound: 'default'"></div>
+    <div class="div_pre_game_cont">
+
+    <div class="div_pre_game_header">
+        <div class="div_pre_game_title primary_msg">
+            <loc>SOCIAL</loc>
+        </div>
+    </div>
+    <div class="div_tabs div_settings_cont" id="social_tabs">
+        <ul>
+            <li class="game_settings">
+                <a href="#tab_uberfriends_list"><loc>UBERDEX</loc></a>
+            </li>
+            <li class="game_settings">
+                <a href="#tab_contacts"><loc>RECENT</loc></a>
+            </li>
+            <li class="game_settings">
+                <a href="#tab_friends_list"><loc>APPROVED USERS</loc></a>
+            </li>
+            <li class="game_settings">
+                <a href="#tab_blocked_list"><loc>BLOCKED USERS</loc></a>
+            </li>
+        </ul>
+        <!--------- LOCAL RECENT -------------------------->
+        <div class="div_settings" id="tab_contacts">
+            <span><loc>Players you have encountered recently.</loc></span>
+            <hr/>
+            <div class="div_settings_graphics_cont">
+                <table>
+                    <tbody data-bind="foreach: localRecentContacts" style="height: 400px">
+                            <!-- ko if: $index() === model.selectedIndex() -->
+                            <tr data-bind="click: function () { model.selectedIndex($index()) }" class="tr_selected">
+                                <td>
+                                    <div class="td_selected">
+                                        <span data-bind="text: $data.name"></span>
+                                        <span data-bind="text: $data.id"></span>
+                                        <span data-bind="text: $data.lastGame"></span>
+                                    </div>
+                                </td>
+                                <td>
+                                    <span><input type="button" value="APPROVE" class="btn_friend"
+                                                data-bind="click: function () { model.moveUserToFriends($data.id) },click_sound: 'default', rollover_sound: 'default'" /></span>
+                                </td>
+                                <td>
+                                    <span><input type="button" value="BLOCK" class="btn_friend"
+                                                data-bind="click: function () { model.moveUserToBlocked($data.id) }, click_sound: 'default', rollover_sound: 'default'" /></span>
+                                </td>
+                            </tr>
+                            <!-- /ko -->
+                            <!-- ko ifnot: $index() === model.selectedIndex() -->
+                            <tr data-bind="click: function () { model.selectedIndex($index()) }" class="tr_not_selected">
+                                <td>
+                                    <div class="td_not_selected">
+                                        <span data-bind="text: $data.name"></span>
+                                        <span data-bind="text: $data.id"></span>
+                                        <span data-bind="text: $data.lastGame"></span>
+                                    </div>
+                                </td>
+                            </tr>
+                            <!-- /ko -->
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        <!--------- APPROVED LIST -------------------------->
+        <div class="div_settings" id="tab_friends_list">
+            <span><loc>Private games you make will only be visible to these players.</loc></span>
+            <hr/>
+            <div class="div_settings_graphics_cont">
+               <table>
+                    <tbody data-bind="foreach: approvedFriends">
+
+                        <!-- ko if: $index() === model.selectedIndex() -->
+                        <tr data-bind="click: function () { model.selectedIndex($index()) }" class="tr_selected">
+                            <td>
+                                <div class="td_selected">
+                                    <span data-bind="text: $data.ModifiedDisplayName"></span>
+                                        <!--<span data-bind="text: $data.id"></span>-->
+                                        <!--<span data-bind="text: $data.lastGame"></span>-->
+                                </div>
+                            </td>
+                            <td>
+                                <span><input type="button" value="REMOVE" class="btn_friend"
+                                             data-bind="click: function () { model.removeFromApproved($data.FriendUberId) }, click_sound: 'default', rollover_sound: 'default'" /></span>
+                            </td>
+                        </tr>
+                        <!-- /ko -->
+                        <!-- ko ifnot: $index() === model.selectedIndex() -->
+                        <tr data-bind="click: function () { model.selectedIndex($index()) }" class="tr_not_selected">
+                            <td>
+                                <div class="td_not_selected">
+                                    <span data-bind="text: $data.ModifiedDisplayName"></span>
+                                        <!--<span data-bind="text: $data.id"></span>-->
+                                        <!--<span data-bind="text: $data.lastGame"></span>-->
+                                </div>
+                            </td>
+                        </tr>
+                        <!-- /ko -->
+
+                    </tbody>
+                </table>
+            </div>
+        </div>
+
+        <!--------- BLOCKED LIST -------------------------->
+        <div class="div_settings" id="tab_blocked_list">
+            <span><loc>Games you make will be hidden to these players.</loc></span>
+            <hr/>
+            <div class="div_settings_graphics_cont">
+                <div class="div_settings_graphics_detail_group">
+                    <table>
+                        <tbody data-bind="foreach: blockedFriends">
+
+                        <!-- ko if: $index() === model.selectedIndex() -->
+                        <tr data-bind="click: function () { model.selectedIndex($index()) }" class="tr_selected">
+                            <td>
+                                <div class="td_selected">
+                                    <span data-bind="text: $data.ModifiedDisplayName"></span>
+                                        <!--<span data-bind="text: $data.id"></span>-->
+                                        <!--<span data-bind="text: $data.lastGame"></span>-->
+                                </div>
+                            </td>
+                            <td>
+                                <span><input type="button" value="REMOVE" class="btn_friend"
+                                             data-bind="click: function () { model.removeFromBlocked($data.FriendUberId) }, click_sound: 'default', rollover_sound: 'default'" /></span>
+                            </td>
+                        </tr>
+                        <!-- /ko -->
+                        <!-- ko ifnot: $index() === model.selectedIndex() -->
+                        <tr data-bind="click: function () { model.selectedIndex($index()) }" class="tr_not_selected">
+                            <td>
+                                <div class="td_not_selected">
+                                    <span data-bind="text: $data.ModifiedDisplayName"></span>
+                                        <!--<span data-bind="text: $data.id"></span>-->
+                                        <!--<span data-bind="text: $data.lastGame"></span>-->
+                                </div>
+                            </td>
+                        </tr>
+                        <!-- /ko -->
+
+                    </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+
+        <!--------- UBERNET FRIENDS -------------------------->
+        <div class="div_settings" id="tab_uberfriends_list">
+            <button type="submit" data-bind="click: model.getFriends, click_sound: 'default', rollover_sound: 'default'"><loc>Refresh Contacts</loc></button>
+            <button type="submit" data-bind="click: model.addFriend, click_sound: 'default', rollover_sound: 'default'"><loc>Add Contacts</loc></button>
+            <br/><br/>
+            <span><loc>Filter contacts by tag:</loc></span><select id="tag_select" class="select_tags" data-bind="options: allTags, optionsText: 'display', optionsValue: 'id', event: { change: $root.updateFilteredLists }">
+            </select>
+            <hr />
+            <div class="div_settings_graphics_cont">
+               <table>
+                    <tbody data-bind="foreach: model.tagFilteredFriends">
+
+
+                        <!-- ko if: $index() === model.selectedIndex() -->
+                        <tr data-bind="click: function () { model.selectedIndex($index()) }" class="tr_selected">
+                            <td>
+                                <div class="td_selected">
+                                    <span data-bind="text: $data.ModifiedDisplayName"></span>
+                                </div>
+                            </td>
+                            <td>
+                                <span><input type="button" value="REMOVE" class="btn_friend"
+                                             data-bind="click: function () { model.removeFriendByUberId($data.FriendUberId); }, click_sound: 'default', rollover_sound: 'default'" /></span>
+                                <span><input type="button" value="RENAME" class="btn_friend"
+                                             data-bind="click: function () {
+                                                            model.friendPaneUberId($data.FriendUberId);
+                                                            model.friendPaneNickname($data.ModifiedDisplayName);
+                                                            model.friendPaneState('renameFriend');
+                                                            model.showFriendPane(true);
+                                                        }, click_sound: 'default', rollover_sound: 'default'" /></span>
+                                <span><input type="button" value="APPROVE" class="btn_friend"
+                                             data-bind="click: function () { model.moveUserToApproved($data.FriendUberId); }, click_sound: 'default', rollover_sound: 'default'" /></span>
+                                <span><input type="button" value="BLOCK" class="btn_friend"
+                                             data-bind="click: function () { model.moveUserToBlocked($data.FriendUberId); }, click_sound: 'default', rollover_sound: 'default'" /></span>
+
+                            </td>
+                        </tr>
+                        <tr class="tr_detail">
+                            <td>
+                                <div class="td_detail">
+                                    <span><loc>Name: </loc></span><span data-bind="text: $data.TrueDisplayName"></span><br/>
+                                    <span><noloc>UberId: </noloc></span><span data-bind="text: $data.FriendUberId"></span><br/>
+                                    <span><loc>Tags: </loc></span>
+                                    <span data-bind="foreach: $data.Tags">
+                                        <span data-bind="text: $data"></span>
+                                        <span><input type="button" data-noloc value="x" class="btn_remove_tag"
+                                                     data-bind="click: function () { model.removeFriendTag($parent.FriendUberId, $data) },
+    click_sound: 'default', rollover_sound: 'default'" /></span>
+                                    </span>
+                                    <button type="submit" data-bind="click: function () {
+                                                                        model.friendPaneUberId($data.FriendUberId);
+                                                                        model.friendPaneNickname($data.ModifiedDisplayName);
+                                                                        model.friendPaneState('tagFriend');
+                                                                        model.showFriendPane(true);
+                                                                    }, click_sound: 'default', rollover_sound: 'default'"><loc>Tag</loc></button>
+                                </div>
+                            </td>
+                        </tr>
+                        <!-- /ko -->
+
+                        <!-- ko ifnot: $index() === model.selectedIndex() -->
+                        <tr data-bind="click: function () { model.selectedIndex($index()) }" class="tr_not_selected">
+                            <td>
+                                <div class="td_not_selected">
+                                    <span data-bind="text: $data.ModifiedDisplayName"></span>
+                                </div>
+                            </td>
+                        </tr>
+                        <!-- /ko -->
+
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+        <div class="input_lbl" data-bind="visible: refreshingFriendsList"><loc>Refreshing friends list.....</loc></div>
+
+</div>
+
+</div>
+</div>
+</body>
+</html>

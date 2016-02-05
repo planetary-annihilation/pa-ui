@@ -1,0 +1,122 @@
+{
+    "- Host": {
+        "message": "- Host"
+    }, 
+    "AI Commander": {
+        "message": "Comandante IA"
+    }, 
+    "Add AI": {
+        "message": "Adicionar IA"
+    }, 
+    "Add AI Commander": {
+        "message": "Adicionar Computador"
+    }, 
+    "Add Slot": {
+        "message": "Adicionar vaga"
+    }, 
+    "Alliance Victory": {
+        "message": "Vit\u00f3ria de Alian\u00e7a"
+    }, 
+    "Browse...": {
+        "message": "Navegar..."
+    }, 
+    "CONNECTION TO SERVER LOST": {
+        "message": "CONEX\u00c3O COM O SERVIDOR PERDIDA"
+    }, 
+    "Chat": {
+        "message": "Chat"
+    }, 
+    "Cheats": {
+        "message": "Trapa\u00e7as"
+    }, 
+    "Dynamic Alliances": {
+        "message": "Alian\u00e7as Din\u00e2micas"
+    }, 
+    "Empty": {
+        "message": "Vago"
+    }, 
+    "Free For All": {
+        "message": "Cada um por si"
+    }, 
+    "Friends": {
+        "message": "Amigos"
+    }, 
+    "Game Lobby": {
+        "message": "Sala de Jogo"
+    }, 
+    "Game Mode": {
+        "message": "Modo de Jogo"
+    }, 
+    "Global Spectator Chat": {
+        "message": "Chat Global de Espectadores"
+    }, 
+    "Join": {
+        "message": "Juntar-se"
+    }, 
+    "Kick": {
+        "message": "Expulsar"
+    }, 
+    "Leave": {
+        "message": "Sair"
+    }, 
+    "New System": {
+        "message": "Novo Sistema"
+    }, 
+    "Open to:": {
+        "message": "Aberto para:"
+    }, 
+    "Player Slot": {
+        "message": "Vaga"
+    }, 
+    "Player chooses spot on starting planet": {
+        "message": "O jogador escolhe um local no planeta inicial"
+    }, 
+    "Players)": {
+        "message": "Jogadores)"
+    }, 
+    "Private": {
+        "message": "Privado"
+    }, 
+    "Public": {
+        "message": "P\u00fablico"
+    }, 
+    "Ready": {
+        "message": "Pronto"
+    }, 
+    "Remove": {
+        "message": "Remover"
+    }, 
+    "Returning to Main Menu": {
+        "message": "Retornando ao Manu Principal"
+    }, 
+    "SHARE ARMY": {
+        "message": "COMPARTILHAR EX\u00c9RCITO"
+    }, 
+    "Server Mods": {
+        "message": "Modifica\u00e7\u00f5es para o servidor"
+    }, 
+    "Spectate": {
+        "message": "Espectador"
+    }, 
+    "Spectators": {
+        "message": "Espectadores"
+    }, 
+    "Start Game": {
+        "message": "Iniciar Jogo"
+    }, 
+    "System": {
+        "message": "Sistema"
+    }, 
+    "Tag:": {
+        "message": "Marca\u00e7\u00e3o:"
+    }, 
+    "Team Armies": {
+        "message": "Ex\u00e9rcitos Aliados"
+    }, 
+    "Title": {
+        "message": "T\u00edtulo"
+    }, 
+    "You must have friends to play a friends-only game.": {
+        "message": "Voc\u00ea precisa de amigos para jogar uma partida exclusiva para amigos."
+    }
+}

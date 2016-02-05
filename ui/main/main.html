@@ -1,0 +1,50 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta content="text/html; charset=utf-8" http-equiv="Content-Type" />
+<noloc><title>Planetary Annihilation Main</title></noloc>
+<link href="bundle://boot/boot.css" rel="stylesheet" type="text/css" />
+<link href="main.css" rel="stylesheet" type="text/css" />
+<script src="bundle://boot/boot.js" type="text/javascript" defer></script>
+<script src="coui://ui/main/shared/js/ui_media_utility.js" type="text/javascript"></script>
+<script src="coui://ui/main/main.js" type="text/javascript" defer></script>
+</head>
+<body>
+    <div id="splash_overlay">
+        <img id="img_splash" />
+        <div id="black_splash">
+        </div>
+    </div>
+
+    <script type="text/javascript">
+        /* This lives after the #splash_overlay so we can find it in the DOM. Yay! */
+        function getSplashImage()
+        {
+            var base_images = ['pa_splash_01'];
+            var splash_images = {
+                'PAExpansion1': ['splash_01']
+            };
+            var images = splash_images[gActiveContent];
+            if (!images)
+                images = base_images;
+            return images[Math.floor(Math.random() * images.length)];
+        }
+
+        var overlay = document.getElementById('splash_overlay');
+        var splash = document.getElementById('img_splash');
+        splash.onload = function() { overlay.classList.add('splash_fading_in'); };
+        splash.addEventListener("webkitAnimationEnd", function(ev) {
+            overlay.classList.add('splash_anim_done_' + ev.animationName);
+        }, false);
+        splash.src = 'coui://ui/main/shared/img/screens/' + getSplashImage() + '.png';
+    </script>
+
+    <div class="fullscreen front">
+        <panel id="player" yield-focus data-bind="visible: showPlayer, attr: { src: playerUrl }" src="" fit="dock-top"></panel>
+    </div>
+    <div class="fullscreen back">
+        <panel id="game" no-input src="coui://ui/main/game/start/start.html" data-bind="css: { live_game_uberbar_on: useLiveGameUberBar, live_game_uberbar_off: !(model.useLiveGameUberBar()) }"></panel>
+        <panel id="uberbar" src="coui://ui/main/uberbar/uberbar.html"></panel>
+    </div>
+</body>
+</html>

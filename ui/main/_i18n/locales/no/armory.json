@@ -1,0 +1,89 @@
+{
+    "Account Name:": {
+        "message": "Kontonavn:"
+    }, 
+    "Add To Cart": {
+        "message": "Legg i handlekurven"
+    }, 
+    "Armory": {
+        "message": "Drakt"
+    }, 
+    "Badges": {
+        "message": "Emblemer"
+    }, 
+    "CHECKOUT": {
+        "message": "UTSJEKK"
+    }, 
+    "Cancel": {
+        "message": "Avbryt"
+    }, 
+    "Cart": {
+        "message": "Handlekurv"
+    }, 
+    "Commanders": {
+        "message": "Rustninger"
+    }, 
+    "Confirmation code:": {
+        "message": "Bekreftelseskode:"
+    }, 
+    "Confirmation of your purchase is provided below.": {
+        "message": "Bekreftelse p\u00e5 ditt kj\u00f8p finner du nedenfor."
+    }, 
+    "Continue Shopping": {
+        "message": "Fortsett \u00e5 handle"
+    }, 
+    "Credit applied:": {
+        "message": "Kreditt lagt til:"
+    }, 
+    "Designed in collaboration with": {
+        "message": "Utf\u00f8rt i samarbeid med"
+    }, 
+    "Go to Main Menu": {
+        "message": "G\u00e5 til hovedmenyen"
+    }, 
+    "Here's your receipt.": {
+        "message": "Her er din kvittering."
+    }, 
+    "Item": {
+        "message": "Vare"
+    }, 
+    "Item is already in cart.": {
+        "message": "Valgt gjenstand er allerede i handlekurven."
+    }, 
+    "Kickstarter Backer": {
+        "message": "Kickstarter-st\u00f8ttespiller"
+    }, 
+    "Price": {
+        "message": "Pris"
+    }, 
+    "REMOVE": {
+        "message": "FJERN"
+    }, 
+    "Redeem": {
+        "message": "Innl\u00f8s"
+    }, 
+    "Refresh": {
+        "message": "Oppdater"
+    }, 
+    "Return to Armory": {
+        "message": "Tilbake til rustkammeret"
+    }, 
+    "Set As Default Commander": {
+        "message": "Bruk som standard Commander"
+    }, 
+    "Thank you for your purchase.": {
+        "message": "Takk for ditt kj\u00f8p."
+    }, 
+    "Total:": {
+        "message": "Totalt:"
+    }, 
+    "Updating...": {
+        "message": "Oppdaterer..."
+    }, 
+    "Your cart is empty.": {
+        "message": "Handlekurven er tom."
+    }, 
+    "Your purchased items are now registered to your account and are accessible in the game.": {
+        "message": "Ditt kj\u00f8p er n\u00e5 registrert p\u00e5 din konto og kan hentes i spillet."
+    }
+}

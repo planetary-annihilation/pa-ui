@@ -1,0 +1,26 @@
+{
+    "Activate planetary laser": {
+        "message": "Activeer planetaire laser"
+    }, 
+    "Change orbit": {
+        "message": "Verander baan"
+    }, 
+    "Select a new gravity well.": {
+        "message": "Selecteer een nieuw zwaartekrachtveld."
+    }, 
+    "Select a planet to attack.": {
+        "message": "Selecteer een planeet om aan te vallen."
+    }, 
+    "Select a planet to destroy.": {
+        "message": "Selecteer een planeet om te vernietigen."
+    }, 
+    "Set course for annihilation": {
+        "message": "Stel koers in voor vernietiging"
+    }, 
+    "Set target spot": {
+        "message": "Selecteer doelwit"
+    }, 
+    "Then confirm destination to set course.": {
+        "message": "Bevestig de bestemming om koers te zetten"
+    }
+}

@@ -1,0 +1,89 @@
+{
+    "Account Name:": {
+        "message": "Accountnaam."
+    }, 
+    "Add To Cart": {
+        "message": "Voeg toe aan winkelwagen."
+    }, 
+    "Armory": {
+        "message": "Wapenkamer"
+    }, 
+    "Badges": {
+        "message": "Badges"
+    }, 
+    "CHECKOUT": {
+        "message": "BETALEN"
+    }, 
+    "Cancel": {
+        "message": "Annuleer"
+    }, 
+    "Cart": {
+        "message": "Winkelwagen"
+    }, 
+    "Commanders": {
+        "message": "Commanders"
+    }, 
+    "Confirmation code:": {
+        "message": "Bevestigingscode:"
+    }, 
+    "Confirmation of your purchase is provided below.": {
+        "message": "De bevestiging van uw aankoop bevind zich onderaan."
+    }, 
+    "Continue Shopping": {
+        "message": "Verder Winkelen"
+    }, 
+    "Credit applied:": {
+        "message": "Fonds toegewezen:"
+    }, 
+    "Designed in collaboration with": {
+        "message": "Ontworpen in samenwerking met"
+    }, 
+    "Go to Main Menu": {
+        "message": "Terug naar Hoofdmenu"
+    }, 
+    "Here's your receipt.": {
+        "message": "Hier is uw aankoopbon."
+    }, 
+    "Item": {
+        "message": "Voorwerp"
+    }, 
+    "Item is already in cart.": {
+        "message": "Dit voorwerp bevind zich al in de winkelwagen."
+    }, 
+    "Kickstarter Backer": {
+        "message": "Kickstarter Sponsor"
+    }, 
+    "Price": {
+        "message": "Prijs"
+    }, 
+    "REMOVE": {
+        "message": "VERWIJDER"
+    }, 
+    "Redeem": {
+        "message": "Inlossen"
+    }, 
+    "Refresh": {
+        "message": "Verfrissen"
+    }, 
+    "Return to Armory": {
+        "message": "Terugkeren naar Wapenkamer."
+    }, 
+    "Set As Default Commander": {
+        "message": "Instellen als standaard Commander"
+    }, 
+    "Thank you for your purchase.": {
+        "message": "Bedankt voor uw aankoop"
+    }, 
+    "Total:": {
+        "message": "Totaal:"
+    }, 
+    "Updating...": {
+        "message": "Updaten..."
+    }, 
+    "Your cart is empty.": {
+        "message": "Uw winkelwagen is leeg."
+    }, 
+    "Your purchased items are now registered to your account and are accessible in the game.": {
+        "message": "De aangekochte voorwerpen zijn nu geregistreerd op uw account en zijn beschikbaar in het spel."
+    }
+}

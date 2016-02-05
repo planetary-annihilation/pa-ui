@@ -1,0 +1,68 @@
+{
+    "(+ __aiCount__ AI)": {
+        "message": "(+ __aiCount__ AI)"
+    }, 
+    "(Updating...)": {
+        "message": "(Updaten...)"
+    }, 
+    "(no info available)": {
+        "message": "(geen informatie beschikbaar)"
+    }, 
+    "All Recent Games": {
+        "message": "Alle Recente Spellen"
+    }, 
+    "BuildVersion": {
+        "message": "Buildversie"
+    }, 
+    "Duration": {
+        "message": "Duur"
+    }, 
+    "FAILED TO RETRIEVE REPLAY LIST": {
+        "message": "KON DE LIJST MET HERHALINGEN NIET OPHALEN"
+    }, 
+    "Game": {
+        "message": "Spel"
+    }, 
+    "Highest Rated (TBD)": {
+        "message": "Hoogst Gewaardeerd (NTB)"
+    }, 
+    "Lobby Id": {
+        "message": "Lobby ID"
+    }, 
+    "Longest Game Duration": {
+        "message": "Langste Spelduur"
+    }, 
+    "Most Recent": {
+        "message": "Meest Recent"
+    }, 
+    "Most Viewed (TBD)": {
+        "message": "Meest Bekeken (NTB)"
+    }, 
+    "My Games Only": {
+        "message": "Alleen Mijn Spellen"
+    }, 
+    "Replays": {
+        "message": "Herhalingen"
+    }, 
+    "Returning to Main Menu": {
+        "message": "Terugkeren naar Hoofdmenu"
+    }, 
+    "Search": {
+        "message": "Zoeken"
+    }, 
+    "Sorted By": {
+        "message": "Gesorteerd op"
+    }, 
+    "View": {
+        "message": "Bekijk"
+    }, 
+    "Watch Direct Lobby Id:": {
+        "message": "Bekijk Directe Lobby ID:"
+    }, 
+    "Watch Replay": {
+        "message": "Bekijk Herhaling"
+    }, 
+    "__gwClientNames__: Galactic War \"__gwWarName__\" (turn __gwTurn__, __gwSystemName__), vs. __gwAiArmies__": {
+        "message": "__gwClientNames__: Galactische oorlog \"__gwWarName__\" (beurt __gwTurn__, __gwSystemName__), tegen __gwAiArmies__"
+    }
+}

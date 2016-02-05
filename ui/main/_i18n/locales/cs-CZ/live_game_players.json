@@ -1,0 +1,50 @@
+{
+    "ALLY": {
+        "message": "SPOJENEC"
+    }, 
+    "ARMY": {
+        "message": "ARM\u00c1DA"
+    }, 
+    "Accept": {
+        "message": "P\u0159ijmout"
+    }, 
+    "Alliance Request": {
+        "message": "\u017d\u00e1dost o spojenectv\u00ed"
+    }, 
+    "Alliance requested": {
+        "message": "Po\u017e\u00e1d\u00e1no o spojenectv\u00ed"
+    }, 
+    "Allied With:": {
+        "message": "Spojenectv\u00ed s:"
+    }, 
+    "Count": {
+        "message": "Po\u010det"
+    }, 
+    "ECONOMY": {
+        "message": "EKONOMIKA"
+    }, 
+    "Efficiency": {
+        "message": "Efektivita"
+    }, 
+    "Fabber": {
+        "message": "Konstrukt\u00e9r"
+    }, 
+    "Factory": {
+        "message": "Tov\u00e1rna"
+    }, 
+    "Ignore": {
+        "message": "Ignorovat"
+    }, 
+    "Mobile": {
+        "message": "Mobiln\u00ed"
+    }, 
+    "PLAYER": {
+        "message": "HR\u00c1\u010c"
+    }, 
+    "RESC": {
+        "message": "ZDROJE"
+    }, 
+    "Request pending": {
+        "message": "\u017d\u00e1dost se vy\u0159izuje"
+    }
+}

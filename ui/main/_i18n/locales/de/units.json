@@ -1,0 +1,626 @@
+{
+    "Advanced Air Factory": {
+        "message": "Verbesserte Luftfahrtfabrik"
+    }, 
+    "Advanced Anti-Air- Deals heavy damage over an area. Only attacks air.": {
+        "message": "Verbesserte Luftfahrtabwehr - Verursacht schwere Schäden in einem bestimmten Gebiet. Attackiert nur Luftfahrt."
+    }, 
+    "Advanced Artillery- Extremely long-range heavy damage. Can lay siege from very far away. Attacks land and sea targets.": {
+        "message": "Verbesserte Artillerie - Verursacht weitreichenden, schweren Schaden. Kann Belagerungsposten aus großer Distanz bauen. Attackiert Ziele an Land und auf Wasser."
+    }, 
+    "Advanced Bot Factory": {
+        "message": "Verbesserte Roboterfabrik"
+    }, 
+    "Advanced Energy Plant": {
+        "message": "Verbesserte Energieanlage"
+    }, 
+    "Advanced Fab Aircraft": {
+        "message": "Verbessertes Fabrikationsflugzeug"
+    }, 
+    "Advanced Fabrication Bot": {
+        "message": "Verbesserter Fabrikationsroboter"
+    }, 
+    "Advanced Fabrication Ship": {
+        "message": "Verbessertes Fabrikationsschiff"
+    }, 
+    "Advanced Fabrication Vehicle": {
+        "message": "Verbessertes Fabrikationsfahrzeug"
+    }, 
+    "Advanced Laser Defense Tower": {
+        "message": "Verbesserter Laserabwehrturm"
+    }, 
+    "Advanced Metal Extractor": {
+        "message": "Verbesserter Metallbohrer"
+    }, 
+    "Advanced Naval Factory": {
+        "message": "Verbesserte Marinefabrik"
+    }, 
+    "Advanced Radar": {
+        "message": "Verbesserter Radar"
+    }, 
+    "Advanced Radar Satellite": {
+        "message": "Verbesserter Radarsatellit"
+    }, 
+    "Advanced Support Fabricator- Repairs much faster. Can build turrets in addition to mines.": {
+        "message": "Verbesserter Supportfabrikator - Repariert viel schneller. Kann zusätzlich zu Minen auch Geschütztürme bauen."
+    }, 
+    "Advanced Torpedo Launcher": {
+        "message": "Verbesserter Torpedowerfer"
+    }, 
+    "Advanced Vehicle Factory": {
+        "message": "Verbesserte Fahrzeugfabrik"
+    }, 
+    "Advanced fabricator- Builds orbital satellites and ships.": {
+        "message": "Verbesserter Fabrikator - Baut Orbitalsatelliten und -schiffe."
+    }, 
+    "Advanced fabricator- Wired to build naval structures.": {
+        "message": "Verbesserter Fabrikator - Speziell für den Bau von Marinekonstruktionen."
+    }, 
+    "Advanced fabricator- Wired to build structures.": {
+        "message": "Verbesserter Fabrikator - Speziell für den Konstruktionsbau."
+    }, 
+    "Advanced manufacturing- Builds air units.": {
+        "message": "Verbesserte Herstellung - Baut Luftfahrteinheiten."
+    }, 
+    "Advanced manufacturing- Builds bots.": {
+        "message": "Verbesserte Herstellung - Baut Roboter."
+    }, 
+    "Advanced manufacturing- Builds land vehicles.": {
+        "message": "Verbesserte Herstellung - Baut Landfahrzeuge."
+    }, 
+    "Advanced manufacturing- Builds naval units.": {
+        "message": "Verbesserte Herstellung - Erstellt Marineeinheiten."
+    }, 
+    "Advanced manufacturing- Builds orbital satellites.": {
+        "message": "Verbesserte Herstellung - Baut Orbitalsatelliten."
+    }, 
+    "Advanced manufacturing- Produces energy.": {
+        "message": "Verbesserte Herstellung - Generiert Energie."
+    }, 
+    "Advanced manufacturing- Produces metal, can only be placed on metal deposits.": {
+        "message": "Verbesserte Herstellung - Produziert Metall, kann nur auf Metallablagerungen platziert werden."
+    }, 
+    "Advanced radar satellite- Detects a vast area for enemy land, sea, and air units.": {
+        "message": "Verbesserter Radarsatellit - Sucht ein großes Gebiet nach feindlichen Einheiten an Land, auf See und in der Luft ab."
+    }, 
+    "Advanced radar- Detects nearby enemy land, sea, and air units.": {
+        "message": "Verbesserter Radarsatellit - Sucht in der Nähe nach feindlichen Einheiten an Land, auf See und in der Luft."
+    }, 
+    "Advanced turret- Equipped with direct fire anti-land, and anti-ship defenses.": {
+        "message": "Verbesserter Geschützturm - Ausgestattet mit direktem Feuer für die Land- und Schiffabwehr."
+    }, 
+    "Air Factory": {
+        "message": "Luftfahrtfabrik"
+    }, 
+    "Air Transport- Load a land unit for rapid long distance travel.": {
+        "message": "Lufttransport - Kann eine Landeinheit schnell eine weite Stecke reisen lassen."
+    }, 
+    "All Terrain Bot: Can crawl almost anywhere.": {
+        "message": "Alle Geländeroboter: Gelangen fast überall hin."
+    }, 
+    "Anchor": {
+        "message": "Ankerpunkt"
+    }, 
+    "Angel": {
+        "message": "Himmelsbote"
+    }, 
+    "Anti-Air Defense- Equipped with homing missiles. Only attacks air.": {
+        "message": "Luftfahrtabwehr - Ausgestattet mit Lenkflugkörpern. Attackiert nur Luftfahrt."
+    }, 
+    "Anti-Nuke Launcher": {
+        "message": "Nuklear-Raketenwerfer-Abwehr"
+    }, 
+    "Anti-Orbital Defense- Rapid-fire. High damage. Attacks orbital targets. Intercepts drop pods.": {
+        "message": "Orbitalabwehr - Schnellfeuer. Richtet hohen Schaden an. Attackiert Orbitalziele. Fängt Drop Pods ab."
+    }, 
+    "Anti-nuke - Intercepts incoming nuclear missiles.": {
+        "message": "Nuklearabwehr - Fängt ankommende Atomraketen ab."
+    }, 
+    "Anti-nuke launcher- Equipped with advanced anti-nuclear missile weapon.": {
+        "message": "Nuklear-Raketenwerfer-Abwehr - Ausgestattet mit verbesserten Atomwaffenabwehrraketen."
+    }, 
+    "Artillery- Long-range damage for siege and area denial purposes. Attacks land and sea targets.": {
+        "message": "Artillerie - Schaden mit großer Reichweite für Belagerungszwecke oder zur Gebietsverweigerung. Attackiert Ziele an Land und auf See."
+    }, 
+    "Assault Bot- Well-armored. High damage guns and torpedoes. Amphibious. Attacks land and sea.": {
+        "message": "Angriffsroboter - Gut gerüstet. Waffen und Torpedos mit hohem Schaden. Kann schwimmen. Attackiert Ziele an Land und auf See."
+    }, 
+    "Assault Tank- Devastating damage. Heavy armor. Vulnerable to flanking. Attacks land and sea targets.": {
+        "message": "Angriffspanzer - Richtet verheerenden Schaden an. Schwere Rüstung. An den Flanken angreifbar. Attackiert Land- und Seeziele."
+    }, 
+    "Astraeus": {
+        "message": "Astraios"
+    }, 
+    "Avenger": {
+        "message": "Rächer"
+    }, 
+    "Barnacle": {
+        "message": "Seepocke"
+    }, 
+    "Barracuda": {
+        "message": "Barrakuda"
+    }, 
+    "Basic Infantry- Fast, adaptable, expendable. Amphibious. Attacks land, air and sea targets.": {
+        "message": "Einfache Infanterie - Schnell, anpassungsfähig, verbrauchbar. Kann schwimmen. Attackiert Ziele an Land, in der Luft und auf See."
+    }, 
+    "Basic fabricator- Wired to build naval structures.": {
+        "message": "Einfacher Fabrikator - Speziell für den Bau von Marinekonstruktionen."
+    }, 
+    "Basic fabricator- Wired to build structures.": {
+        "message": "Einfacher Fabrikator - Speziell für den Konstruktionsbau."
+    }, 
+    "Basic manufacturing- Builds air units.": {
+        "message": "Einfache Herstellung - Erstellt Luftfahrteinheiten."
+    }, 
+    "Basic manufacturing- Builds and launches satellites and other units.": {
+        "message": "Einfache Herstellung - Baut und startet Satelliten sowie andere Einheiten."
+    }, 
+    "Basic manufacturing- Builds bots.": {
+        "message": "Einfache Herstellung - Baut Roboter."
+    }, 
+    "Basic manufacturing- Builds land vehicles.": {
+        "message": "Einfache Herstellung - Baut Landfahrzeuge."
+    }, 
+    "Basic manufacturing- Builds naval units.": {
+        "message": "Einfache Herstellung - Erstellt Marineeinheiten."
+    }, 
+    "Basic manufacturing- Produces energy.": {
+        "message": "Einfache Herstellung - Generiert Energie."
+    }, 
+    "Basic manufacturing- Produces metal, can only be placed on metal deposits.": {
+        "message": "Einfache Herstellung - Produziert Metall, kann nur auf Metallablagerungen platziert werden."
+    }, 
+    "Basic radar satellite- Detects a large area for enemy land, sea, and air units.": {
+        "message": "Einfacher Radarsatellit - Sucht ein großes Gebiet nach feindlichen Einheiten an Land, auf See und in der Luft ab."
+    }, 
+    "Basic radar- Detects nearby enemy land, sea, and air units.": {
+        "message": "Einfacher Radarsatellit - Sucht in der Nähe nach feindlichen Einheiten an Land, auf See und in der Luft."
+    }, 
+    "Basic turret- Equipped with direct fire anti-land, and anti-ship defenses.": {
+        "message": "Einfacher Geschützturm - Ausgestattet mit direktem Feuer für die Land- und Schiffabwehr."
+    }, 
+    "Battleship- Long range advanced anti-ship, and anti-land guns.": {
+        "message": "Schlachtschiff - Verbesserte Waffen mit großer Reichweite für Schiff- und Landabwehr."
+    }, 
+    "Bolo": {
+        "message": "Bolo"
+    }, 
+    "Bomb bot- Self-Destructs to deal very heavy damage over an area. Extremely fast.": {
+        "message": "Bombenroboter- Zerstört sich selbst, um sehr großen Schaden in einem Gebiet anzurichten. Unglaublich schnell."
+    }, 
+    "Boom": {
+        "message": "Bumm"
+    }, 
+    "Bot Factory": {
+        "message": "Roboterfabrik"
+    }, 
+    "Builder- Builds advanced structures. Cheap. Fast. Less powerful than other builders.": {
+        "message": "Baumaschine - Baut verbesserte Konstruktionen. Günstig. Schnell. Nicht so stark wie andere Baumaschinen."
+    }, 
+    "Builder- Builds advanced structures. Durable. More powerful than other builders.": {
+        "message": "Baumaschine - Baut verbesserte Konstruktionen. Belastbar. Stärker als andere Baumaschinen."
+    }, 
+    "Builder- Builds structures. Cheap. Fast. Less powerful than other builders.": {
+        "message": "Baumaschine - Baut Konstruktionen. Günstig. Schnell. Nicht so stark wie andere Baumaschinen."
+    }, 
+    "Builder- Builds structures. Durable. More powerful than other builders.": {
+        "message": "Baumaschine - Baut Konstruktionen. Belastbar. Stärker als andere Baumaschinen."
+    }, 
+    "Builder- Builds structures. Very mobile. Vulnerable": {
+        "message": "Baumaschine - Baut Konstruktionen. Sehr mobil. Angreifbar."
+    }, 
+    "Builder- Builds structures. Very mobile. Vulnerable.": {
+        "message": "Baumaschine - Baut Konstruktionen. Sehr mobil. Angreifbar."
+    }, 
+    "Bumblebee": {
+        "message": "Hummel"
+    }, 
+    "Carpet Bomber- High damage over a wide area. Fragile and slow. Attacks land, sea and undersea targets.": {
+        "message": "Flächenbomber - Richtet viel Schaden in einem großen Gebiet an. Anfällig und langsam. Attackiert Ziele an Land, auf See und unter Wasser."
+    }, 
+    "Catalyst": {
+        "message": "Katalysator"
+    }, 
+    "Catapult": {
+        "message": "Katapult"
+    }, 
+    "Colonel": {
+        "message": "Oberst"
+    }, 
+    "Combat bot- Equipped with basic anti-air missiles.": {
+        "message": "Kampfroboter - Ausgestattet mit einfachen Luftabwehrraketen."
+    }, 
+    "Defense Satellite- Area denial. Rapid-fire. Durable. Attacks everything.": {
+        "message": "Abwehrsatellit - Gebietsverweigerung. Schnellfeuer. Belastbar. Attackiert alles."
+    }, 
+    "Defense satellite- Heavy orbital offensive and defensive platform with basic laser.": {
+        "message": "Abwehrsatellit - Starke Orbitalabwehr und Verteidigungsplattform mit einfachem Laser."
+    }, 
+    "Delta V Engine- Used to move small to medium celestial bodies.": {
+        "message": "Delta V Maschine - Bewegt kleine bis mittelgroße Himmelskörper."
+    }, 
+    "Destroyer- Long-range. High damage. Very durable. Attacks land, sea and undersea targets.": {
+        "message": "Zerstörer - Richtet viel Schaden in einem großen Gebiet an. Sehr belastbar. Attackiert Ziele an Land, auf See und unter Wasser."
+    }, 
+    "Doomsday Titan- Destroys the planet it's built on once finished.": {
+        "message": "Titan der Apokalypse - Sobald fertiggestellt, zerstört er den Planeten, auf dem er errichtet wurde."
+    }, 
+    "Drifter": {
+        "message": "Drifter"
+    }, 
+    "Drone Carrier- Builds and launches missile drones at enemies. Attacks land, air and sea targets.": {
+        "message": "Drohnenträger - Baut und wirft Raketendrohnen auf Feinde ab. Attackiert Ziele an Land, in der Luft und auf See."
+    }, 
+    "Energy Plant": {
+        "message": "Energieanlage"
+    }, 
+    "Energy Storage": {
+        "message": "Energiespeicher"
+    }, 
+    "Fabrication Aircraft": {
+        "message": "Fabrikationsflugzeug"
+    }, 
+    "Fabrication Bot": {
+        "message": "Fabrikationsroboter"
+    }, 
+    "Fabrication Ship": {
+        "message": "Fabrikationsschiff"
+    }, 
+    "Fabrication Vehicle": {
+        "message": "Fabrikationsfahrzeug"
+    }, 
+    "Fighter- Fast. High damage. Only attacks air targets.": {
+        "message": "Kämpfer - Schnell. Richtet großen Schaden an. Attackiert nur Ziele in der Luft."
+    }, 
+    "Fire Support- Long-range. Can fire over walls. Attacks land and sea targets.": {
+        "message": "Feuersupport - Große Reichweite. Kann über Mauern schießen. Attackiert Ziele an Land und auf See."
+    }, 
+    "Firefly": {
+        "message": "Glühwürmchen"
+    }, 
+    "Flak Cannon": {
+        "message": "Flakkanone"
+    }, 
+    "Flak Tank- Damage over a very wide area. Only attacks air targets.": {
+        "message": "Flakpanzer - Verursacht extrem großflächigen Schaden. Attackiert nur Ziele in der Luft."
+    }, 
+    "Flame tank- Short ranged, heavy armored vehicle.": {
+        "message": "Flammenpanzer - Kurze Reichweite, schwer gerüstetes Fahrzeug."
+    }, 
+    "Frigate- Durable. Rapid-fire. Attacks land, air, and sea targets.": {
+        "message": "Fregate- belastbar. Schnellfeuer. Attackiert Ziele an Land, in der Luft und auf See."
+    }, 
+    "Galata Turret": {
+        "message": "Galata-Geschützturm"
+    }, 
+    "Gas mining and metal creation satellite. Only works above gas giant planets.": {
+        "message": "Satellit für die Gasgewinnung und Metallerstellung. Funktioniert nur über Gas-Riesenplaneten."
+    }, 
+    "Grenadier": {
+        "message": "Grenadier"
+    }, 
+    "Gunboat- Cheap. Fast. Expendable. Attacks land and sea targets.": {
+        "message": "Waffenboot - Günstig. Schnell. Verbrauchbar. Attackiert Ziele an Land und auf See."
+    }, 
+    "Gunship- Fast. Cheap. Durable. Attacks land and sea targets.": {
+        "message": "Waffenschiff - Schnell. Günstig. Belastbar. Attackiert Ziele an Land und auf See."
+    }, 
+    "Heavy tank- Advanced short range, heavily armored vehicle.": {
+        "message": "Schwerpanzer - Verbessertes, schwer gerüstetes Fahrzeug mit kurzer Reichweite."
+    }, 
+    "Hornet": {
+        "message": "Hornisse"
+    }, 
+    "Hover Destroyer- Long-Range. Durable. Hover. Attacks land and sea targets.": {
+        "message": "Schwebezerstörer - Große Reichweite. Belastbar. Schwebt. Attackiert Ziele an Land und auf See."
+    }, 
+    "Hover Tank- Fast. Can cross water and lava. Attacks land and sea targets.": {
+        "message": "Schwebepanzer - Schnell. Kann Wasser und Lava überqueren. Attackiert Ziele an Land und auf See."
+    }, 
+    "Hummingbird": {
+        "message": "Kolibri"
+    }, 
+    "Icarus": {
+        "message": "Ikarus"
+    }, 
+    "Inferno": {
+        "message": "Inferno"
+    }, 
+    "Interplanetary Fighter- Stronger fighter. Can move between planets. Can only attack air targets.": {
+        "message": "Interplanetarischer Kämpfer - Stärkerer Kämpfer. Kann sich zwischen Planeten bewegen. Kann nur Ziele in der Luft attackieren."
+    }, 
+    "Interplanetary Transport- Builds and launches up to 12 units at once anywhere in the system.": {
+        "message": "Interplanetarischer Transport - Baut und schickt bis zu 12 Einheiten auf einmal überall im System los."
+    }, 
+    "Invasion Titan- Can link with a teleporter and send units directly to a planet's surface. Attacks everything.": {
+        "message": "Invasions-Titan - Kann sich mit einem Teleporter verbinden und Einheiten direkt auf die Oberfläche eines Planeten schicken. Attackiert alles."
+    }, 
+    "Ion defense platform- Designed to take out orbital units above it.": {
+        "message": "Ionenabwehr-Plattform - Entwickelt, um Orbitaleinheiten über sich zu erledigen."
+    }, 
+    "Jellyfish": {
+        "message": "Qualle"
+    }, 
+    "Kestrel": {
+        "message": "Turmfalke"
+    }, 
+    "Kraken": {
+        "message": "Krake"
+    }, 
+    "LR-96 -Pacifier- Missile": {
+        "message": "LR-96 -Pacifier- Rakete"
+    }, 
+    "Land Mine": {
+        "message": "Landmine"
+    }, 
+    "Land mine- Detonates when enemy units are in proximity.": {
+        "message": "Landmine - Detoniert, wenn feindliche Einheiten in der Nähe sind."
+    }, 
+    "Laser Defense Tower": {
+        "message": "Laserabwehrturm"
+    }, 
+    "Leveler": {
+        "message": "Leveler"
+    }, 
+    "Leviathan": {
+        "message": "Leviathan"
+    }, 
+    "Light tank- Well-rounded. Reliable. Attacks land and sea targets.": {
+        "message": "Leichtpanzer - Vielseitig. Zuverlässig. Attackiert Ziele an Land und auf See."
+    }, 
+    "Lightning Titan- Heavy damage over a wide area. Attacks any targets except orbital.": {
+        "message": "Blitz-Titan - Verursacht viel Schaden in einem großen Gebiet. Attackiert alle Ziele, außer orbitale."
+    }, 
+    "Locusts": {
+        "message": "Heuschrecke"
+    }, 
+    "Manufacturing- Increases maximum energy storage capacity.": {
+        "message": "Herstellung - Vergrößert die maximale Energie-Speicherkapazität."
+    }, 
+    "Manufacturing- Increases maximum metal storage capacity.": {
+        "message": "Herstellung - Vergrößert die maximale Metall-Lagerkapazität."
+    }, 
+    "Manufacturing- Orbital energy generation.": {
+        "message": "Herstellung - Generierung von Orbitalenergie."
+    }, 
+    "Mend": {
+        "message": " Ausbessern"
+    }, 
+    "Metal Extractor": {
+        "message": "Metallbohrer"
+    }, 
+    "Metal Storage": {
+        "message": "Metalllager"
+    }, 
+    "Missile Ship- Long-range. High damage anti-air and tactical missiles. Attacks land, sea, air, and orbital targets.": {
+        "message": "Raketenschiff - Große Reichweite. Luftabwehrgeschosse und taktische Raketen, die großen Schaden anrichten. Attackiert Ziele an Land, auf See, in der Luft und im Orbit."
+    }, 
+    "Mobile Anti-Air- Equipped with homing missiles. Only attacks air.": {
+        "message": "Mobile Luftabwehr - Ausgestattet mit Lenkflugkörpern. Attackiert nur Luftfahrt."
+    }, 
+    "Mobile Nuke- Detonates a nuke on death. Slow. Extremely durable. Self-destruct attack.": {
+        "message": "Mobile Nuklearwaffe - Detoniert eine Nuklearwaffe bei Tod. Langsam. Extrem belastbar. Attackieren durch Selbstzerstörung."
+    }, 
+    "Mobile Tactical Missile- Long-range. Fires homing missiles. Heavy damage. Attacks land, sea and orbital targets.": {
+        "message": "Mobile taktische Rakete - Große Reichweite. Feuert Lenkflugkörper ab. Richtet schweren Schaden an. Attackiert Ziele an Land, auf See und im Orbit."
+    }, 
+    "Mortar tank- Equipped with advanced mobile artillery.": {
+        "message": "Granatenpanzer - Ausgestattet mit verbesserter mobiler Artillerie."
+    }, 
+    "Nanobot Swarm- Extremely Fast. Cheap. Close range. Devastating damage. Attacks land targets.": {
+        "message": "Nanobot-Schwarm - Unglaublich schnell. Günstig. Geringe Reichweite. Richtet verheerenden Schaden an. Attackiert Ziele an Land."
+    }, 
+    "Narwhal": {
+        "message": "Narwal"
+    }, 
+    "Naval Factory": {
+        "message": "Marinefabrik"
+    }, 
+    "Nuclear Missile Launcher": {
+        "message": "Atomraketenwerfer"
+    }, 
+    "Nuclear missile - Long range, large area damage, projectile": {
+        "message": "Atomrakete - Große Reichweite, großer Schadensbereich, Flugkörper."
+    }, 
+    "Nuclear missile launcher- Equipped with advanced long range, large area damage, nuclear missile.": {
+        "message": "Atomraketenwerfer - Verbesserte große Reichweite, großer Schadensbereich, Nuklearwaffe."
+    }, 
+    "Omega": {
+        "message": "Omega"
+    }, 
+    "Orbital Battleship- Rapid-Fire. Very durable. Heavy damage. Attacks everything.": {
+        "message": "Orbital-Schlachtschiff - Schnellfeuer. Sehr belastbar. Richtet schweren Schaden an. Attackiert alles."
+    }, 
+    "Orbital Fabrication Bot": {
+        "message": "Orbital-Fabrikationsroboter"
+    }, 
+    "Orbital Factory": {
+        "message": "Orbitalfabrik"
+    }, 
+    "Orbital Fighter- Fast. Weak. Expendable. Attacks orbital targets.": {
+        "message": "Orbitalkämpfer - Schnell. Schwach. Verbrauchbar. Attackiert Ziele im Orbit."
+    }, 
+    "Orbital Fire Support- Heavy damage over an area. Uses energy. Attacks land, sea and air targets.": {
+        "message": "Orbital-Feuersupport - Richtet schweren Schaden in einem Gebiet an. Verbraucht Energie. Attackiert Ziele an Land, auf See und in der Luft."
+    }, 
+    "Orbital Launcher": {
+        "message": "Orbitalwerfer"
+    }, 
+    "Orbital and Deepspace Radar": {
+        "message": "Orbital- und Deepspace-Radar"
+    }, 
+    "Orbital and deepspace radar- Orbital and Celestial radar telemetry.": {
+        "message": "Orbital- und Deepspace-Radar - Orbitaler und über-planetarischer Fernmessungsradar."
+    }, 
+    "Orbital fighter- Fast moving orbital fighter for offense and defense.": {
+        "message": "Orbitalkämpfer - Schneller Orbitalkämpfer für Angriff und Abwehr."
+    }, 
+    "Orbital lander- Load it up, get units to other planets.": {
+        "message": "Orbital-Landeraumschiff - Nimmt Einheiten auf und bringt sie auf andere Planeten."
+    }, 
+    "Orbital laser platform- Rains death from above.": {
+        "message": "Orbitallaser-Plattform - Bringt Todesschauer von oben."
+    }, 
+    "Orca": {
+        "message": "Orca"
+    }, 
+    "Pelican": {
+        "message": "Pelikan"
+    }, 
+    "Pelter": {
+        "message": "Schmetterer"
+    }, 
+    "Phoenix": {
+        "message": "Phönix"
+    }, 
+    "Piranha": {
+        "message": "Piranha"
+    }, 
+    "Proxy Commander -- Builds advanced structures. Durable. High damage. Attacks everything but orbital.": {
+        "message": "Stellvertretender Kommandant - Baut verbesserte Konstruktionen. Belastbar. Großer Schaden. Attackiert alles, außer Orbitalziele."
+    }, 
+    "Radar": {
+        "message": "Radar"
+    }, 
+    "Railgun Platform- Long-range. High damage. Very low rate of fire. Uses energy. Attacks orbital.": {
+        "message": "Railgun-Plattform - Große Reichweite. Großer Schaden. Geringe Feuerrate. Verbraucht Energie. Attackiert Orbitalziele."
+    }, 
+    "Recluse": {
+        "message": "Zurückziehen"
+    }, 
+    "Rolling Fortress- Near invincible. Long-range. Heavy damage. Hover. Attacks land and sea targets.": {
+        "message": "Rollende Festung - Fast unbesiegbar. Große Reichweite. Richtet schweren Schaden an. Schwebt. Attackiert Ziele an Land und auf See."
+    }, 
+    "SR-24 -Shield- Missile Defense": {
+        "message": "SR-24 -Shield- Raketenabwehr"
+    }, 
+    "SXX-1304 Laser Platform": {
+        "message": "SXX-1304 Laser-Plattform"
+    }, 
+    "Scout- Fast. Can see far away. Detects mines. Does not attack.": {
+        "message": " Späher - Schnell. Kann weit sehen. Entdeckt Minen. Greift nicht an."
+    }, 
+    "Scout- Fast. Can see far away. Does not attack.": {
+        "message": " Späher - Schnell. Kann weit sehen. Greift nicht an."
+    }, 
+    "Sea mine- Detonates when ships are in proximity.": {
+        "message": "Seemine - Detoniert, wenn Schiffe in der Nähe sind."
+    }, 
+    "Seismic Titan- Devastating damage to everything nearby. Amphibious. Attacks land, sea, and undersea targets.": {
+        "message": "Erdbeben-Titan - Richtet verheerenden Schaden in seiner Umgebung an. Kann schwimmen. Attackiert Ziele an Land, auf See und unter Wasser."
+    }, 
+    "Sheller": {
+        "message": "Granatpanzer"
+    }, 
+    "Siege Bomber- Durable. Slow. Devastating damage. Attacks land and sea targets.": {
+        "message": "Belagerungsbomber - Belastbar. Langsam. Verheerender Schaden. Attackiert Ziele an Land und auf See."
+    }, 
+    "Single Laser Defense Tower": {
+        "message": "Einzelner Laserabwehrturm"
+    }, 
+    "Skitter": {
+        "message": "Wiesel"
+    }, 
+    "Slammer": {
+        "message": "Schläger"
+    }, 
+    "Sniper- Long-range. High damage. Slow rate of fire. Intercepts missiles. Attacks land, air and sea targets.": {
+        "message": "Scharfschütze - Große Reichweite. Großer Schaden. Geringe Feuerrate. Fängt Raketen ab. Attackiert Ziele an Land, in der Luft und auf See."
+    }, 
+    "Solar Array": {
+        "message": "Solarstation"
+    }, 
+    "Solar Drone- Produces energy. Mobile but slow. Weak. Attacks land, air, and sea targets.": {
+        "message": "Solardrohne - Generiert Energie. Mobil, aber langsam. Attackiert Ziele an Land, in der Luft und auf See."
+    }, 
+    "Space Probe- Fast. Cheap. Expendable. Provides ground vision. Does not attack.": {
+        "message": "Weltraumsonde - Schnell. Günstig. Verbrauchbar. Bietet Bodensicht. Greift nicht an."
+    }, 
+    "Spark": {
+        "message": "Funke"
+    }, 
+    "Spinner": {
+        "message": "Raketenschleuder"
+    }, 
+    "Stealth Sub- Very high damage. Radar stealth. Attacks land, sea, and undersea targets.": {
+        "message": "Tarnkappenspringer - Richtet sehr großen Schaden an. Kann nicht von Radaren erfasst werden. Attackiert Ziele an Land, auf See und unter Wasser."
+    }, 
+    "Stinger": {
+        "message": "Stachler"
+    }, 
+    "Stingray": {
+        "message": "Stachelrochen"
+    }, 
+    "Stitch": {
+        "message": "Stich"
+    }, 
+    "Storm": {
+        "message": "Sturm"
+    }, 
+    "Submarine- High damage. Cannot be targeted by cannons. Attacks sea and undersea targets.": {
+        "message": "U-Boot - Hoher Schaden. Kann nicht von Kanonen anvisiert werden. Attackiert Ziele auf See und unter Wasser."
+    }, 
+    "Super Weapon- Build five on a metal planet to activate the Annihilazer.": {
+        "message": "Superwaffe - Baue fünf davon auf einem Metallplaneten, um den Vernichter zu aktivieren."
+    }, 
+    "Support Barge- Repairs damaged ships. Builds and detects mines. Cannot help build things.": {
+        "message": "Supportkahn - Repariert beschädigte Schiffe. Baut und entdeckt Minen. Kann nicht dabei helfen, Dinge zu bauen."
+    }, 
+    "Support Fabricator- Repairs damaged units. Can build and detect mines. Can't help build other structures.": {
+        "message": "Supportfabrikator - Repariert beschädigte Einheiten. Kann Minen bauen und entdecken. Kann nicht dabei helfen, andere Konstruktionen zu bauen."
+    }, 
+    "Support Platform- Repairs nearby units. Intercepts homing missiles. Does not attack.": {
+        "message": "Supportplattform - Repariert Einheiten in der Nähe. Fängt Lenkflugkörper ab. Greift nicht an."
+    }, 
+    "Tactical Bomber- Long range. High damage tactical missiles. Attacks land and sea targets.": {
+        "message": "Taktischer Bomber - Große Reichweite. Richtet großen Schaden bei taktischen Raketen an. Attackiert Ziele an Land und auf See."
+    }, 
+    "Tactical Missile Launcher- Very heavy damage. Long-range. Attacks land, sea, and orbital targets.": {
+        "message": "Taktischer Raketenwerfer - Richtet sehr schweren Schaden an. Große Reichweite. Attackiert Ziele an Land, auf See und im Orbit."
+    }, 
+    "Teleporter": {
+        "message": "Teleporter"
+    }, 
+    "Teleporter: Teleports units from one to another.": {
+        "message": "Teleporter: Teleportiert Einheiten von einem Ort zum anderen."
+    }, 
+    "Tesla Bot- Very high damage over an area. Uses energy. Attacks land targets.": {
+        "message": "Teslaroboter - Richtet schweren Schaden in einem Gebiet an. Verbraucht Energie. Attackiert Ziele an Land."
+    }, 
+    "Torpedo Launcher": {
+        "message": "Torpedowerfer"
+    }, 
+    "Torpedo Launcher- Advanced anti-ship defense.": {
+        "message": "Torpedowerfer - verbesserte Schiffabwehr."
+    }, 
+    "Torpedo Launcher- Basic anti-ship defense.": {
+        "message": "Torpedowerfer - einfache Schiffabwehr."
+    }, 
+    "Typhoon": {
+        "message": "Taifun"
+    }, 
+    "Umbrella": {
+        "message": "Schirm"
+    }, 
+    "Unit Cannon": {
+        "message": "Einheitenkanone"
+    }, 
+    "Vanguard": {
+        "message": "Vorhut"
+    }, 
+    "Vehicle Factory": {
+        "message": "Fahrzeugfabrik"
+    }, 
+    "Very durable. Blocks units and protects from incoming fire.": {
+        "message": "Sehr belastbar. Blockiert Einheiten und schützt vor ankommendem Feuer."
+    }, 
+    "Wall": {
+        "message": "Mauer"
+    }, 
+    "Wyrm": {
+        "message": "Parasit"
+    }, 
+    "Zeus": {
+        "message": "Zeus"
+    }
+}

@@ -1,0 +1,98 @@
+{
+    "Accept": {
+        "message": "\u63a5\u53d7"
+    }, 
+    "CLEAR SYSTEM": {
+        "message": "\u6e05\u7a7a\u661f\u7cfb"
+    }, 
+    "CLOSE": {
+        "message": "\u95dc\u9589"
+    }, 
+    "Cancel": {
+        "message": "\u53d6\u6d88"
+    }, 
+    "Discard": {
+        "message": "Discard"
+    }, 
+    "Do you want to save this system?": {
+        "message": "\u4f60\u60f3\u8981\u5132\u5b58\u6b64\u661f\u7cfb\u55ce\uff1f"
+    }, 
+    "EDIT PLANET": {
+        "message": "\u7de8\u8f2f\u661f\u7403"
+    }, 
+    "HIDE": {
+        "message": "\u96b1\u85cf"
+    }, 
+    "Height": {
+        "message": "Height"
+    }, 
+    "MY PLANETS": {
+        "message": "\u6211\u7684\u661f\u7403"
+    }, 
+    "Mass": {
+        "message": "MASS"
+    }, 
+    "NAME:": {
+        "message": "\u540d\u5b57:"
+    }, 
+    "PREVIEW ALL": {
+        "message": "\u9810\u89bd\u5168\u90e8"
+    }, 
+    "Position": {
+        "message": "\u4f4d\u7f6e"
+    }, 
+    "RECENT": {
+        "message": "\u6700\u8fd1"
+    }, 
+    "REMOVE": {
+        "message": "\u79fb\u9664"
+    }, 
+    "Radius": {
+        "message": "\u534a\u5f91"
+    }, 
+    "SAVE SYSTEM": {
+        "message": "\u5132\u5b58\u661f\u7cfb"
+    }, 
+    "SHOW": {
+        "message": "\u986f\u793a"
+    }, 
+    "SIMULATE": {
+        "message": "SIMULATE"
+    }, 
+    "SYSTEM DESIGNER": {
+        "message": "\u661f\u7cfb\u7de8\u8f2f\u5668"
+    }, 
+    "Save": {
+        "message": "\u4fdd\u5b58"
+    }, 
+    "TEMPLATES": {
+        "message": "TEMPLATES"
+    }, 
+    "Temp": {
+        "message": "Temp"
+    }, 
+    "The planet is loading. This can take a long time.": {
+        "message": "\u6a6b\u6383\u5343\u661f\u6b63\u5728\u8f09\u5165\u4e2d\u3002\u9700\u7b49\u5f85\u4e00\u6bb5\u6642\u9593\u3002"
+    }, 
+    "The program will be unresponsive until the planet has finished.": {
+        "message": "The program will be unresponsive until the planet has finished."
+    }, 
+    "The system has been changed since it was last saved.": {
+        "message": "\u661f\u7cfb\u81ea\u4e0a\u6b21\u5132\u5b58\u4ee5\u4f86\u5df2\u88ab\u6539\u52d5\u3002"
+    }, 
+    "The system has not been saved.": {
+        "message": "\u6b64\u661f\u7cfb\u5c1a\u672a\u88ab\u5132\u5b58\u3002"
+    }, 
+    "Velocity": {
+        "message": "VELOCITY"
+    }, 
+    "Water": {
+        "message": "\u6c34"
+    }, 
+    "X:": {
+        "message": "X:"
+    }, 
+    "Y:": {
+        "message": "Y:"
+    }
+}

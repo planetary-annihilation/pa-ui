@@ -1,0 +1,254 @@
+{
+    "- Host": {
+        "message": "- \u04c7\u020f\u01a8\u04ad", 
+        "original": "- Host"
+    }, 
+    "AI Commander": {
+        "message": "\u0202\u03aa \u04aa\u020f\u028d\u028d\u0203\u019e\u0257\u1f73\u0213", 
+        "original": "AI Commander"
+    }, 
+    "AI:": {
+        "message": "\u0202\u03aa: ", 
+        "original": "AI: "
+    }, 
+    "Add AI": {
+        "message": "\u0202\u0257\u0257 \u0202\u03aa", 
+        "original": "Add AI"
+    }, 
+    "Add AI Commander": {
+        "message": "\u0202\u0257\u0257 \u0202\u03aa \u04aa\u020f\u028d\u028d\u0203\u019e\u0257\u1f73\u0213", 
+        "original": "Add AI Commander"
+    }, 
+    "Add Slot": {
+        "message": "\u0202\u0257\u0257 \u1e60\u230a\u020f\u04ad", 
+        "original": "Add Slot"
+    }, 
+    "Add Team": {
+        "message": "\u0202\u0257\u0257 \u4e01\u1f73\u0203\u028d", 
+        "original": "Add Team"
+    }, 
+    "Allow for players to make and break in-game alliances and the option to share resources": {
+        "message": " \u0202\u230a\u230a\u020f\u1ff4 \u0493\u020f\u0213 \u2374\u230a\u0203\u0443\u1f73\u0213\u01a8 \u04ad\u020f \u028d\u0203\u045c\u1f73 \u0203\u019e\u0257 \u0411\u0213\u1f73\u0203\u045c \u0457\u019e-\u0260\u0203\u028d\u1f73 \u0203\u230a\u230a\u0457\u0203\u019e\u03f2\u1f73\u01a8 \u0203\u019e\u0257 \u04ad\u043d\u1f73 \u020f\u2374\u04ad\u0457\u020f\u019e \u04ad\u020f \u01a8\u043d\u0203\u0213\u1f73 \u0213\u1f73\u01a8\u020f\u0574\u0213\u03f2\u1f73\u01a8", 
+        "original": " Allow for players to make and break in-game alliances and the option to share resources"
+    }, 
+    "Allows for players to cut and paste units for experimenting": {
+        "message": " \u0202\u230a\u230a\u020f\u1ff4\u01a8 \u0493\u020f\u0213 \u2374\u230a\u0203\u0443\u1f73\u0213\u01a8 \u04ad\u020f \u03f2\u0574\u04ad \u0203\u019e\u0257 \u2374\u0203\u01a8\u04ad\u1f73 \u0574\u019e\u0457\u04ad\u01a8 \u0493\u020f\u0213 \u1f73\u2327\u2374\u1f73\u0213\u0457\u028d\u1f73\u019e\u04ad\u0457\u019e\u0260", 
+        "original": " Allows for players to cut and paste units for experimenting"
+    }, 
+    "Bounty Mode": {
+        "message": "\u0e3f\u020f\u0574\u019e\u04ad\u0443 \u039c\u020f\u0257\u1f73", 
+        "original": "Bounty Mode"
+    }, 
+    "Browse systems...": {
+        "message": "\u0e3f\u0213\u020f\u1ff4\u01a8\u1f73 \u01a8\u0443\u01a8\u04ad\u1f73\u028d\u01a8...", 
+        "original": "Browse systems..."
+    }, 
+    "Building planets": {
+        "message": "\u0e3f\u0574\u0457\u230a\u0257\u0457\u019e\u0260 \u2374\u230a\u0203\u019e\u1f73\u04ad\u01a8", 
+        "original": "Building planets"
+    }, 
+    "Building planets...": {
+        "message": "\u0e3f\u0574\u0457\u230a\u0257\u0457\u019e\u0260 \u2374\u230a\u0203\u019e\u1f73\u04ad\u01a8...", 
+        "original": "Building planets..."
+    }, 
+    "CONNECTION TO SERVER LOST": {
+        "message": "\u04aa\u0472\u019d\u019d\u0190\u04aa\u4e01\u03aa\u0472\u019d \u4e01\u0472 \u1e60\u0190\u211d\u0476\u0190\u211d \u20a4\u0472\u1e60\u4e01", 
+        "original": "CONNECTION TO SERVER LOST"
+    }, 
+    "Chat": {
+        "message": "\u04aa\u043d\u0203\u04ad", 
+        "original": "Chat"
+    }, 
+    "Cheats": {
+        "message": "\u04aa\u043d\u1f73\u0203\u04ad\u01a8", 
+        "original": "Cheats"
+    }, 
+    "Default": {
+        "message": "\u0189\u1f73\u0493\u0203\u0574\u230a\u04ad", 
+        "original": "Default"
+    }, 
+    "Dynamic Alliances": {
+        "message": "\u0189\u0443\u019e\u0203\u028d\u0457\u03f2 \u0202\u230a\u230a\u0457\u0203\u019e\u03f2\u1f73\u01a8", 
+        "original": "Dynamic Alliances"
+    }, 
+    "Econ Rate": {
+        "message": "\u0190\u03f2\u020f\u019e \u211d\u0203\u04ad\u1f73", 
+        "original": "Econ Rate"
+    }, 
+    "Empty": {
+        "message": "\u0190\u028d\u2374\u04ad\u0443", 
+        "original": "Empty"
+    }, 
+    "For every army a player kills, an economy multiplier is awarded to them that boosts their rate of production": {
+        "message": " \u03dc\u020f\u0213 \u1f73\u0477\u1f73\u0213\u0443 \u0203\u0213\u028d\u0443 \u0203 \u2374\u230a\u0203\u0443\u1f73\u0213 \u045c\u0457\u230a\u230a\u01a8, \u0203\u019e \u1f73\u03f2\u020f\u019e\u020f\u028d\u0443 \u028d\u0574\u230a\u04ad\u0457\u2374\u230a\u0457\u1f73\u0213 \u0457\u01a8 \u0203\u1ff4\u0203\u0213\u0257\u1f73\u0257 \u04ad\u020f \u04ad\u043d\u1f73\u028d \u04ad\u043d\u0203\u04ad \u0411\u020f\u020f\u01a8\u04ad\u01a8 \u04ad\u043d\u1f73\u0457\u0213 \u0213\u0203\u04ad\u1f73 \u020f\u0493 \u2374\u0213\u020f\u0257\u0574\u03f2\u04ad\u0457\u020f\u019e", 
+        "original": " For every army a player kills, an economy multiplier is awarded to them that boosts their rate of production"
+    }, 
+    "Free For All": {
+        "message": "\u03dc\u0213\u1f73\u1f73 \u03dc\u020f\u0213 \u0202\u230a\u230a", 
+        "original": "Free For All"
+    }, 
+    "Friends": {
+        "message": "\u03dc\u0213\u0457\u1f73\u019e\u0257\u01a8", 
+        "original": "Friends"
+    }, 
+    "Game Lobby": {
+        "message": "\u01f4\u0203\u028d\u1f73 \u20a4\u020f\u0411\u0411\u0443", 
+        "original": "Game Lobby"
+    }, 
+    "Game Mode": {
+        "message": "\u01f4\u0203\u028d\u1f73 \u039c\u020f\u0257\u1f73", 
+        "original": "Game Mode"
+    }, 
+    "Global Spectator Chat": {
+        "message": "\u01f4\u230a\u020f\u0411\u0203\u230a \u1e60\u2374\u1f73\u03f2\u04ad\u0203\u04ad\u020f\u0213 \u04aa\u043d\u0203\u04ad", 
+        "original": "Global Spectator Chat"
+    }, 
+    "Join": {
+        "message": "\u06b7\u020f\u0457\u019e", 
+        "original": "Join"
+    }, 
+    "Kick": {
+        "message": "\u04a0\u0457\u03f2\u045c", 
+        "original": "Kick"
+    }, 
+    "Large Planets": {
+        "message": "\u20a4\u0203\u0213\u0260\u1f73 \u1e54\u230a\u0203\u019e\u1f73\u04ad\u01a8", 
+        "original": "Large Planets"
+    }, 
+    "Leave": {
+        "message": "\u20a4\u1f73\u0203\u0477\u1f73", 
+        "original": "Leave"
+    }, 
+    "Multiplier Per Army Kill:": {
+        "message": "\u039c\u0574\u230a\u04ad\u0457\u2374\u230a\u0457\u1f73\u0213 \u1e54\u1f73\u0213 \u0202\u0213\u028d\u0443 \u04a0\u0457\u230a\u230a:", 
+        "original": "Multiplier Per Army Kill:"
+    }, 
+    "No green starting zones used. Players can start anywhere they pick.": {
+        "message": " \u019d\u020f \u0260\u0213\u1f73\u1f73\u019e \u01a8\u04ad\u0203\u0213\u04ad\u0457\u019e\u0260 \u2124\u020f\u019e\u1f73\u01a8 \u0574\u01a8\u1f73\u0257. \u1e54\u230a\u0203\u0443\u1f73\u0213\u01a8 \u03f2\u0203\u019e \u01a8\u04ad\u0203\u0213\u04ad \u0203\u019e\u0443\u1ff4\u043d\u1f73\u0213\u1f73 \u04ad\u043d\u1f73\u0443 \u2374\u0457\u03f2\u045c.", 
+        "original": " No green starting zones used. Players can start anywhere they pick."
+    }, 
+    "Open to:": {
+        "message": "\u0472\u2374\u1f73\u019e \u04ad\u020f:", 
+        "original": "Open to:"
+    }, 
+    "Password (optional)": {
+        "message": "\u1e54\u0203\u01a8\u01a8\u1ff4\u020f\u0213\u0257 (\u020f\u2374\u04ad\u0457\u020f\u019e\u0203\u230a)", 
+        "original": "Password (optional)"
+    }, 
+    "Player Slot": {
+        "message": "\u1e54\u230a\u0203\u0443\u1f73\u0213 \u1e60\u230a\u020f\u04ad", 
+        "original": "Player Slot"
+    }, 
+    "Player chooses spot on starting planet": {
+        "message": "\u1e54\u230a\u0203\u0443\u1f73\u0213 \u03f2\u043d\u020f\u020f\u01a8\u1f73\u01a8 \u01a8\u2374\u020f\u04ad \u020f\u019e \u01a8\u04ad\u0203\u0213\u04ad\u0457\u019e\u0260 \u2374\u230a\u0203\u019e\u1f73\u04ad", 
+        "original": "Player chooses spot on starting planet"
+    }, 
+    "Players)": {
+        "message": "\u1e54\u230a\u0203\u0443\u1f73\u0213\u01a8)", 
+        "original": "Players)"
+    }, 
+    "Private": {
+        "message": "\u1e54\u0213\u0457\u0477\u0203\u04ad\u1f73", 
+        "original": "Private"
+    }, 
+    "Public": {
+        "message": "\u1e54\u0574\u0411\u230a\u0457\u03f2", 
+        "original": "Public"
+    }, 
+    "Random": {
+        "message": "\u211d\u0203\u019e\u0257\u020f\u028d", 
+        "original": "Random"
+    }, 
+    "Ready": {
+        "message": "\u211d\u1f73\u0203\u0257\u0443", 
+        "original": "Ready"
+    }, 
+    "Remove": {
+        "message": "\u211d\u1f73\u028d\u020f\u0477\u1f73", 
+        "original": "Remove"
+    }, 
+    "Returning to Main Menu": {
+        "message": "\u211d\u1f73\u04ad\u0574\u0213\u019e\u0457\u019e\u0260 \u04ad\u020f \u039c\u0203\u0457\u019e \u039c\u1f73\u019e\u0574", 
+        "original": "Returning to Main Menu"
+    }, 
+    "SHARE ARMY": {
+        "message": "\u1e60\u04c7\u0202\u211d\u0190 \u0202\u211d\u039c\u0423", 
+        "original": "SHARE ARMY"
+    }, 
+    "SPECTATORS": {
+        "message": "\u1e60\u1e54\u0190\u04aa\u4e01\u0202\u4e01\u0472\u211d\u1e60", 
+        "original": "SPECTATORS"
+    }, 
+    "Sandbox": {
+        "message": "\u1e60\u0203\u019e\u0257\u0411\u020f\u2327", 
+        "original": "Sandbox"
+    }, 
+    "Select System": {
+        "message": "\u1e60\u1f73\u230a\u1f73\u03f2\u04ad \u1e60\u0443\u01a8\u04ad\u1f73\u028d", 
+        "original": "Select System"
+    }, 
+    "Server Mods": {
+        "message": "\u1e60\u1f73\u0213\u0477\u1f73\u0213 \u039c\u020f\u0257\u01a8", 
+        "original": "Server Mods"
+    }, 
+    "Slot": {
+        "message": "\u1e60\u230a\u020f\u04ad", 
+        "original": "Slot"
+    }, 
+    "Slot __slot_number__": {
+        "message": "\u1e60\u230a\u020f\u04ad __slot_number__", 
+        "original": "Slot __slot_number__"
+    }, 
+    "Slots are empty.": {
+        "message": "\u1e60\u230a\u020f\u04ad\u01a8 \u0203\u0213\u1f73 \u1f73\u028d\u2374\u04ad\u0443.", 
+        "original": "Slots are empty."
+    }, 
+    "Spectate": {
+        "message": "\u1e60\u2374\u1f73\u03f2\u04ad\u0203\u04ad\u1f73", 
+        "original": "Spectate"
+    }, 
+    "Spectator messages are visible during in-game chat": {
+        "message": " \u1e60\u2374\u1f73\u03f2\u04ad\u0203\u04ad\u020f\u0213 \u028d\u1f73\u01a8\u01a8\u0203\u0260\u1f73\u01a8 \u0203\u0213\u1f73 \u0477\u0457\u01a8\u0457\u0411\u230a\u1f73 \u0257\u0574\u0213\u0457\u019e\u0260 \u0457\u019e-\u0260\u0203\u028d\u1f73 \u03f2\u043d\u0203\u04ad", 
+        "original": " Spectator messages are visible during in-game chat"
+    }, 
+    "Spectators": {
+        "message": "\u1e60\u2374\u1f73\u03f2\u04ad\u0203\u04ad\u020f\u0213\u01a8", 
+        "original": "Spectators"
+    }, 
+    "Start Game": {
+        "message": "\u1e60\u04ad\u0203\u0213\u04ad \u01f4\u0203\u028d\u1f73", 
+        "original": "Start Game"
+    }, 
+    "Symmetrical": {
+        "message": "\u1e60\u0443\u028d\u028d\u1f73\u04ad\u0213\u0457\u03f2\u0203\u230a", 
+        "original": "Symmetrical"
+    }, 
+    "System": {
+        "message": "\u1e60\u0443\u01a8\u04ad\u1f73\u028d", 
+        "original": "System"
+    }, 
+    "Tag:": {
+        "message": "\u4e01\u0203\u0260:", 
+        "original": "Tag:"
+    }, 
+    "Team": {
+        "message": "\u4e01\u1f73\u0203\u028d", 
+        "original": "Team"
+    }, 
+    "Team Armies": {
+        "message": "\u4e01\u1f73\u0203\u028d \u0202\u0213\u028d\u0457\u1f73\u01a8", 
+        "original": "Team Armies"
+    }, 
+    "Team __team_number__": {
+        "message": "\u4e01\u1f73\u0203\u028d __team_number__", 
+        "original": "Team __team_number__"
+    }, 
+    "Title": {
+        "message": "\u4e01\u0457\u04ad\u230a\u1f73", 
+        "original": "Title"
+    }, 
+    "You must have friends to play a friends-only game.": {
+        "message": "\u0423\u020f\u0574 \u028d\u0574\u01a8\u04ad \u043d\u0203\u0477\u1f73 \u0493\u0213\u0457\u1f73\u019e\u0257\u01a8 \u04ad\u020f \u2374\u230a\u0203\u0443 \u0203 \u0493\u0213\u0457\u1f73\u019e\u0257\u01a8-\u020f\u019e\u230a\u0443 \u0260\u0203\u028d\u1f73.", 
+        "original": "You must have friends to play a friends-only game."
+    }
+}

@@ -1,0 +1,35 @@
+{
+    "CANCEL": {
+        "message": "\u53d6\u6d88"
+    }, 
+    "Delete": {
+        "message": "\u5220\u9664"
+    }, 
+    "Delete Planet": {
+        "message": "\u5220\u9664\u884c\u661f"
+    }, 
+    "Delete this planet?": {
+        "message": "\u5220\u9664\u5f53\u524d\u884c\u661f\uff1f"
+    }, 
+    "Delete this system?": {
+        "message": "\u5220\u9664\u5f53\u524d\u661f\u7cfb\uff1f"
+    }, 
+    "Load Planet": {
+        "message": "\u52a0\u8f7d\u661f\u7403"
+    }, 
+    "Load System": {
+        "message": "\u8f7d\u5165\u661f\u7cfb"
+    }, 
+    "New system": {
+        "message": "\u65b0\u661f\u7cfb"
+    }, 
+    "SHOW PLANETS": {
+        "message": "\u663e\u793a\u884c\u661f"
+    }, 
+    "SHOW SYSTEMS": {
+        "message": "\u663e\u793a\u661f\u7cfb"
+    }, 
+    "System Designer": {
+        "message": "\u661f\u7cfb\u8bbe\u8ba1\u7cfb\u7edf"
+    }
+}

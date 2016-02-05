@@ -1,0 +1,104 @@
+{
+    "APPROVE": {
+        "message": "ACCEPTER"
+    }, 
+    "APPROVED USERS": {
+        "message": "UTILISATEURS ACCEPTÉS"
+    }, 
+    "Add": {
+        "message": "Ajouter"
+    }, 
+    "Add Contacts": {
+        "message": "Ajouter des contacts"
+    }, 
+    "Add a Friend": {
+        "message": "Ajouter un ami"
+    }, 
+    "BLOCK": {
+        "message": "BLOQUER"
+    }, 
+    "BLOCKED USERS": {
+        "message": "UTILISATEURS BLOQUÉS"
+    }, 
+    "Cancel": {
+        "message": "Annuler"
+    }, 
+    "Close": {
+        "message": "Fermer"
+    }, 
+    "Contact List Updated": {
+        "message": "Liste de contacts mise à jour"
+    }, 
+    "Contact Not Found": {
+        "message": "Contact introuvable"
+    }, 
+    "Current Nickname:": {
+        "message": "Pseudo actuel"
+    }, 
+    "Dismiss": {
+        "message": "Rejeter"
+    }, 
+    "Filter contacts by tag:": {
+        "message": "Filtrer les contacts par tag :"
+    }, 
+    "Games you make will be hidden to these players.": {
+        "message": "Les parties que vous créez ne seront pas visibles pour ces joueurs."
+    }, 
+    "Name:": {
+        "message": "Nom : "
+    }, 
+    "New Nickname:": {
+        "message": "Nouveau pseudo : "
+    }, 
+    "New Tag:": {
+        "message": "Nouveau tag : "
+    }, 
+    "Players you have encountered recently.": {
+        "message": "Joueurs rencontrés récemment."
+    }, 
+    "Private games you make will only be visible to these players.": {
+        "message": "Les parties privées que vous créez ne seront visibles que pour ces joueurs."
+    }, 
+    "RECENT": {
+        "message": "RÉCENT"
+    }, 
+    "REMOVE": {
+        "message": "SUPPRIMER"
+    }, 
+    "RENAME": {
+        "message": "RENOMMER"
+    }, 
+    "Refresh Contacts": {
+        "message": "Rafraîchir les contacts"
+    }, 
+    "Refreshing friends list.....": {
+        "message": "Liste d'amis en cours de rafraîchissement..."
+    }, 
+    "Rename": {
+        "message": "Renommer"
+    }, 
+    "Rename Friend": {
+        "message": "Renommer un ami"
+    }, 
+    "SOCIAL": {
+        "message": "SOCIAL"
+    }, 
+    "Tag": {
+        "message": "Tag"
+    }, 
+    "Tag Friend:": {
+        "message": "Tagger un ami "
+    }, 
+    "Tags:": {
+        "message": "Tags : "
+    }, 
+    "UBERDEX": {
+        "message": "UBERDEX"
+    }, 
+    "Uber Name": {
+        "message": "Nom Uber"
+    }, 
+    "or": {
+        "message": "ou"
+    }
+}

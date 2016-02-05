@@ -1,0 +1,176 @@
+{
+    "AI Battle": {
+        "message": "AI Battle"
+    }, 
+    "Any": {
+        "message": "Any"
+    }, 
+    "Auto refresh": {
+        "message": "Auto refresh"
+    }, 
+    "Bounty Mode": {
+        "message": "Bounty Mode"
+    }, 
+    "Buy Expansion": {
+        "message": "Buy Expansion"
+    }, 
+    "Can Join": {
+        "message": "Can Join"
+    }, 
+    "Can Play": {
+        "message": "Can Play"
+    }, 
+    "Can Spectate": {
+        "message": "Can Spectate"
+    }, 
+    "Cancel": {
+        "message": "Cancel"
+    }, 
+    "Casual": {
+        "message": "Casual"
+    }, 
+    "Competitive": {
+        "message": "Competitive"
+    }, 
+    "Could not retrieve game list because no network connection could be found.": {
+        "message": "Could not retrieve game list because no network connection could be found."
+    }, 
+    "Create Game": {
+        "message": "Create Game"
+    }, 
+    "Enter game password": {
+        "message": "Enter game password"
+    }, 
+    "Free For All": {
+        "message": "Free For All"
+    }, 
+    "Game": {
+        "message": "Game"
+    }, 
+    "Game State": {
+        "message": "Game State"
+    }, 
+    "Host game locally": {
+        "message": "Host game locally"
+    }, 
+    "In Lobby": {
+        "message": "In Lobby"
+    }, 
+    "In Progress": {
+        "message": "In Progress"
+    }, 
+    "Join Game": {
+        "message": "Join Game"
+    }, 
+    "LOCKED": {
+        "message": "LOCKED"
+    }, 
+    "Locked": {
+        "message": "Locked"
+    }, 
+    "Locked Game": {
+        "message": "Locked Game"
+    }, 
+    "Mod": {
+        "message": "Mod"
+    }, 
+    "Modded": {
+        "message": "Modded"
+    }, 
+    "Mode": {
+        "message": "Mode"
+    }, 
+    "Mods": {
+        "message": "Mods"
+    }, 
+    "Multiplayer": {
+        "message": "Multiplayer"
+    }, 
+    "No connection to PlayFab servers was found. New games will be hosted locally.": {
+        "message": "No connection to PlayFab servers was found. New games will be hosted locally."
+    }, 
+    "No max": {
+        "message": "No max"
+    }, 
+    "No min": {
+        "message": "No min"
+    }, 
+    "Not Bounty Mode": {
+        "message": "Not Bounty Mode"
+    }, 
+    "Not Modded": {
+        "message": "Not Modded"
+    }, 
+    "Not Selected": {
+        "message": "Not Selected"
+    }, 
+    "Number of Planets": {
+        "message": "Number of Planets"
+    }, 
+    "Number of Players": {
+        "message": "Number of Players"
+    }, 
+    "Open": {
+        "message": "Open"
+    }, 
+    "Open slot": {
+        "message": "Open slot"
+    }, 
+    "Password": {
+        "message": "Password"
+    }, 
+    "Planets": {
+        "message": "Planets"
+    }, 
+    "Players": {
+        "message": "Players"
+    }, 
+    "Radius __radius__": {
+        "message": "Radius __radius__"
+    }, 
+    "Refresh": {
+        "message": "Refresh"
+    }, 
+    "Region": {
+        "message": "Region"
+    }, 
+    "Rejoin Local Game": {
+        "message": "Rejoin Local Game"
+    }, 
+    "Required Expansion Pack": {
+        "message": "Required Expansion Pack"
+    }, 
+    "Sandbox": {
+        "message": "Sandbox"
+    }, 
+    "Slots": {
+        "message": "Slots"
+    }, 
+    "Spectate": {
+        "message": "Spectate"
+    }, 
+    "Spectators": {
+        "message": "Spectators"
+    }, 
+    "Status": {
+        "message": "Status"
+    }, 
+    "Tag": {
+        "message": "Tag"
+    }, 
+    "Team Armies": {
+        "message": "Team Armies"
+    }, 
+    "Testing": {
+        "message": "Testing"
+    }, 
+    "The game you are trying to join requires the [style=content_description]__expansion_name__[/style] expansion for Planetary Annihilation.": {
+        "message": "The game you are trying to join requires the [style=content_description]__expansion_name__[/style] expansion for Planetary Annihilation."
+    }, 
+    "This game is no longer available.": {
+        "message": "This game is no longer available."
+    }, 
+    "__expansion_name__ Expansion": {
+        "message": "__expansion_name__ Expansion"
+    }
+}

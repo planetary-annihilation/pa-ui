@@ -1,0 +1,98 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta locns="live_game" />
+    <noloc><title>Live Game: Game Paused</title></noloc>
+    <script src="bundle://boot/boot.js" type="text/javascript"></script>
+    <link href="bundle://boot/boot.css" rel="stylesheet" type="text/css" />
+    <script src="live_game_paused_popup.js" type="text/javascript"></script>
+
+    <link href="live_game_paused_popup.css" rel="stylesheet" type="text/css" />
+
+</head>
+<body data-bind="visible: active" style="display: none">
+
+    <!-- ko ifnot: normal -->
+
+        <!-- ko if: restart -->
+        <div class="div_panel_bar_background" >
+            <div class="div_panel_primary_msg">
+                <loc>Rewinding Time</loc>
+            </div>
+            <div class="div_options_bar">
+                <img class="img_loading_animation working std options_bar" src="coui://ui/main/shared/img/working.svg" />
+                <loc>This process can take a while.</loc>
+            </div>
+            <div class="div_bottom_margin_bar"></div>
+        </div>
+        <!-- /ko -->
+
+        <!-- ko if: saving -->
+        <div class="div_panel_bar_background">
+            <div class="div_panel_primary_msg">
+                <loc>Saving game</loc>
+            </div>
+            <div class="div_options_bar">
+                <img class="img_loading_animation working std options_bar" src="coui://ui/main/shared/img/working.svg" />
+                <loc>This process can take a while.</loc>
+            </div>
+            <div class="div_bottom_margin_bar"></div>
+        </div>
+        <!-- /ko -->
+
+        <!-- ko if: ranked -->
+        <div class="div_panel_bar_background">
+            <div class="div_panel_primary_msg">
+                <loc data-i18n="live_game_paused_popup:opponent_disconnected.message" desc="">Opponent disconnected</loc>
+            </div>
+            <div class="div_options_bar">
+                <loc data-i18n="live_game_paused_popup:game_has_been_paused_you_will_receive_a_victory_if_your_opponent_does_not_reconnect_within_180_seconds.message" desc="">Game has been paused. You will receive a victory if your opponent does not reconnect within 180 seconds.</loc>
+            </div>
+            <div class="div_bottom_margin_bar"></div>
+        </div>
+        <!-- /ko -->
+
+    <!-- /ko -->
+
+    <!-- ko if: normal -->
+
+        <!-- ko if: saveComplete -->
+        <div class="div_panel_bar_background">
+            <div class="div_panel_primary_msg">
+                <loc>Save complete</loc>
+            </div>
+            <div class="div_options_bar">
+                <input type="button" value="Resume" id="Button1" class="btn_commit" data-bind="click: messageResume, click_sound: 'default', rollover_sound: 'default'" />
+            </div>
+            <div class="div_bottom_margin_bar"></div>
+        </div>
+        <!-- /ko -->
+
+        <!-- ko if: restartComplete -->
+        <div class="div_panel_bar_background">
+            <div class="div_panel_primary_msg">
+                <loc>Game Ready</loc>
+            </div>
+            <div class="div_options_bar">
+                <input type="button" value="Resume" id="Button3" class="btn_commit" data-bind="click: messageResume, click_sound: 'default', rollover_sound: 'default'" />
+            </div>
+            <div class="div_bottom_margin_bar"></div>
+        </div>
+        <!-- /ko -->
+
+        <!-- ko if: normalComplete -->
+        <div class="div_user_pause">
+            <div class="user_pause_bar">
+                <div class="background_glow"></div>
+                <div class="wrapper">
+                    <loc>GAME PAUSED</loc>
+                    <input type="button" value="Resume" id="Button2" class="btn_commit user_resume" data-bind="click: messageResume, click_sound: 'default', rollover_sound: 'default'" />
+                </div>
+            </div>
+        </div>
+        <!-- /ko -->
+
+    <!-- /ko -->
+
+</body>

@@ -1,0 +1,578 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta content="text/html; charset=utf-8" http-equiv="Content-Type" />
+<noloc><title>Armory</title></noloc>
+<link href="bundle://boot/boot.css" rel="stylesheet" type="text/css" />
+<link href="coui://ui/main/shared/css/landing_page.css" rel="stylesheet" type="text/css" />
+<link href="checkout.css" rel="stylesheet" type="text/css" />
+<link href="armory.css" rel="stylesheet" type="text/css" />
+<script src="bundle://boot/boot.js" type="text/javascript"></script>
+<script src="coui://ui/main/shared/js/badges.js" type="text/javascript"></script>
+<script src="coui://ui/main/shared/js/commander_utility.js" type="text/javascript"></script>
+<script src="coui://ui/main/shared/js/playfab.js" type="text/javascript"></script>
+<script src="armory.js" type="text/javascript"></script>
+</head>
+
+<body>
+    <!-- TITLE -->
+    <div class="section_title">
+        <div class="content">
+            <div class="btn_std_ix btn_back_small" data-bind="click: back">
+                <span class="glyphicon glyphicon-chevron-left carat"></span>
+            </div>
+            <div class="title">
+                <loc>Armory</loc>
+            </div>
+            <div class="content_titans_badge" style="display: none;" data-bind="visible: api.content.usingTitans">
+            </div>
+        </div>
+    </div>
+    <!-- CONTENT -->
+    <div class="section_content_top_bar">
+        <!-- TABS -->
+        <div class="tab_cont">
+            <div class="tabs">
+                <ul class="nav-pills">
+                    <!-- ko if: !api.content.ownsTitans() && $root.allowMicroTransactions() -->
+                    <li>
+                        <a href="#expansion" data-toggle="pill" data-bind="click: function () { model.showValue('expansion'); }, click_sound: 'default', rollover_sound: 'default'">
+                            <loc>PA: Titans</loc>
+                        </a>
+                    </li>
+                    <!-- /ko -->
+
+                    <li class="active">
+                        <a href="#commanders" data-toggle="pill" data-bind="click: function () { model.showValue('commanders'); }, click_sound: 'default', rollover_sound: 'default'">
+                            <loc>Commanders</loc>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#badges" data-toggle="pill" data-bind="click: function () { model.showValue('badges'); }, click_sound: 'default', rollover_sound: 'default'">
+                            <loc>Badges</loc>
+                        </a>
+                    </li>
+                    <!-- ko if: $root.allowMicroTransactions -->
+                    <li style="min-width: 150px; text-align: center;">
+                        <a href="#cart" data-toggle="pill" data-bind="click: function () { model.showValue('cart'); }, click_sound: 'default', rollover_sound: 'default'">
+                            <loc>Cart</loc>
+                            (<span data-bind="text: model.cartSize"></span>)</a>
+                    </li>
+                    <!-- /ko -->
+                </ul>
+            </div>
+             <!-- ko if: $root.allowMicroTransactions -->
+            <div style="position: absolute; top:8px; right: 0px; display: flex; justify-content: center;">
+                <input type="text" class="form-control" placeholder="Coupon code" data-bind="value: couponCode, valueUpdate: 'input'" />
+                <div class="btn_std_ix btn_back_small btn_std_disabled" style="height: 27px; margin-top: 0px; width: 170px" id="header-button"
+                     data-bind="click: redeemCoupon, css: { btn_std_disabled : !$root.allowRedeemCoupon() }, click_sound: 'default', rollover_sound: 'default'">
+
+                    <div class="btn_std_label down" style="margin: 2px 4px 4px 4px">
+                        <loc>Redeem</loc>
+                    </div>
+                </div>
+            </div>
+             <!-- /ko -->
+        </div>
+
+    </div>
+    <div id="header-message" data-bind="visible: couponRedeemMessage">
+        <div style="background:#1d1d1d; margin:8px 0px 0px;">
+            <span data-bind="text: couponRedeemMessage"></span>
+            <span class="btn_win btn_win_close btn-chat-win-control" style="float:right; margin: 7px 12px 0px 0px" data-bind="click: function () { $root.couponRedeemMessage(''); }"></span>
+        </div>
+    </div>
+    <div class="section_content">
+        <div class="section_wrapper">
+            <div style="height: auto; width: 100%; overflow: auto; margin: 8px 0px; display: flex; justify-content: center;">
+                <div class="wrapper tab-content" data-bind="style: { height: contentWrapperHeight }">
+                    <!-- ko if: !api.content.ownsTitans() -->
+                    <div id="expansion" class="tab-pane">
+                        <div id="titan_content"">
+                            <div class="wrapper">
+                                <div id="feature">
+                                    <video src="../../shared/video/PAExpansion1Intro.webm" controls="controls"
+                                        style="width: 660px;" poster="img/PAExpansion1.jpg" />
+                                </div>
+                                <div id="description">
+                                    <div class="headline small">
+                                        RTS JUST GOT BIGGER 
+                                    </div>
+                                    <div id="desc_columns">
+                                        <div class="main">
+                                            <p>
+                                                TITANS is the huge stand-alone expansion to the already massive-scale RTS Planetary Annihilation, which includes the base game and adds tons of new features: 
+                                            </p>
+                                            <p>
+                                                Devastate your enemies with 5 massive Titan-class super units like the earth-shaking Atlas bot and lightning-wielding Zeus airship! 
+                                            </p>
+                                            <p>
+                                                Expand your strategic arsenal with 16 new units such as versatile Hover Tanks, indomitable Orbital Battleships, and voracious Nanobot Swarms! 
+                                            </p>
+                                            <p>
+                                                Elevate your game with new planets that feature multi-level terrain available in both single and multiplayer. Get up to speed faster with a new, streamlined tutorial experience, then take your game to the next level with the new Bounty Mode option for AI skirmish and multiplayer, 
+                                            </p>
+                                            <p>
+                                                Including everything you loved about Planetary Annihilation:
+                                            </p>
+                                            <p>
+                                                <b>Epic Scale</b> - Command armies with numbers in the thousands across multiple planets on land, sea, air, and even in orbit. 
+                                            </p>
+                                            <p>
+                                                <b>Epic Single-Player</b> - Galactic War is a twist on traditional real-time strategy campaigns that has players battling across a dynamic galaxy filled with procedurally-generated content. Every playthrough is different. 
+                                            </p>
+                                            <p>
+                                                <b>Epic Multiplayer</b> - Play with up to ten friends (or enemies) in massive free-for-all and team-based matches. Or, compete in the 1v1 ranked play ladder. 
+                                            </p>
+                                            <p>
+                                                <b>Smash Planets</b> - End games by destroying entire planets with giant lasers, asteroid collisions, and the new planet-splitting Ragnarok Titan! 
+                                            </p>
+                                            <p>
+                                                <b>Advanced Command And Control</b> - Automate your armies with intuitive controls and features, allowing you to create and manage massive armies and production lines with ease across multiple fronts on multiple planets at once! 
+                                            </p>
+                                            <p>
+                                                <b>Instant Replays</b> - View in-match recordings in real-time while matches are in progress. See when a battle turned by rewinding the game to any point, and use Play From Here to turn it back in your favor. 
+                                            </p>
+                                            <p>
+                                                *Must meet Minimum System Requirements for offline play
+                                            </p>
+                                            <div class="headline xsmall" style="margin: 20px 0 0 0;">
+                                                Minimum System Requirements
+                                            </div>
+                                            <div>
+                                                <ul>
+                                                    <li><b>Windows</b></li>
+                                                    <li>OS: Windows 7</li>
+                                                    <li>Processor: 64-bit Quad Core</li>
+                                                    <li>Memory: 8 GB RAM</li>
+                                                    <li>Graphics: 1 GB GPU RAM / OpenGL 3.2+</li>
+                                                    <li>DirectX: Version 9.0c</li>
+                                                    <li>Hard Drive: 5 GB available space</li>
+                                                </ul>
+                                                <ul>
+                                                    <li><b>Mac</b></li>
+                                                    <li>iMac "Core i5" (Late 2012)</li>
+                                                    <li>Mac Mini "Core i5" (Late 2014)</li>
+                                                    <li>Mac Pro "Quad Core" with 8GB Memory (2010)</li>
+                                                    <li>MacBook Air "Core i5" (Early 2015)</li>
+                                                    <li>MacBook Pro "Core i7" with 8GB Memory (Mid 2012)</li>
+                                                </ul>
+                                                <ul>
+                                                    <li><b>Linux</b></li>
+                                                    <li>OS: Any Linux distribution supported by Steam</li>
+                                                    <li>Processor: Quad Core</li>
+                                                    <li>Memory: 8 GB RAM</li>
+                                                    <li>Graphics: 1 GB GPU RAM / OpenGL 3.2+</li>
+                                                    <li>Hard Drive: 5 GB available space</li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                        <div class="sidebar">
+                                            <div>
+                                                Upgrade for:
+                                            </div>
+                                            <span class="lbl_price titan" data-bind="text: $data.costForExpansion">
+                                            </span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- /ko -->
+                    <div id="commanders" class="tab-pane active">
+                        <div id="commander-list" data-bind="foreach: commanders">
+                            <div class="one-commander"
+                                data-bind="click: function () { model.selectedCommanderIndex($index()) },
+                                        css: {one_commander_selected: model.selectedCommanderIndex() == $index()}">
+                                <div class="commander-title-grp">
+                                    <div class="commander-title" data-bind="text: $data.DisplayName">
+                                        Commander Name
+                                    </div>
+                                    <!-- ko if: !_.isUndefined($data.KSBacker) -->
+                                    <div class="lbl_commander_ks_credit">
+                                        <loc>Designed in collaboration with</loc>
+                                        <div class="lbl_ks_username" data-bind="text: $data.KSBacker"></div>
+                                        <div style="font-size: 9px; text-transform: uppercase; color: #999;">
+                                            <loc>Kickstarter Backer</loc>
+                                        </div>
+                                    </div>
+                                    <!-- /ko -->
+                                    <div class="commander-selected" data-bind="visible: $data.ObjectName == model.preferredCommanderObjectName()">
+                                        <span class="glyphicon glyphicon-star"></span>
+                                    </div>
+                                </div>
+                                <div class="commander-thumb">
+                                    <img class="icon" src="" data-bind="attr: { src: CommanderUtility.byObjectName.getThumbImage($data.ObjectName) }" />
+                                </div>
+                                <div data-bind="visible: $root.allowMicroTransactions">
+                                    <div class="div_price">
+                                        <span class="lbl_price"
+                                            data-bind="text: model.costForCommander($data),
+                                            visible: model.signedInToUbernet,
+                                            css: { lbl_owned: (model.costForCommander($data) === 'Owned'), lbl_locked: (model.costForCommander($data) === 'Locked') }"></span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div id="badges" class="tab-pane">
+                        <div id="badge-list" data-bind="foreach: badges">
+                            <div class="one-badge">
+                                <div style="height: 20px; width: 100%; background: rgba(0, 179, 255, 0.1); position: absolute; z-index: 0; bottom: 0;">
+                                    <div style="height: 6px; width: 100%; background: rgba(0, 179, 255, 0.1); position: absolute; z-index: 0; bottom: 0;"></div>
+                                </div>
+                                <div class="one-badge-cont">
+                                    <img class="icon" src="" data-bind="attr: { src: $data.image }" />
+                                    <div data-bind="text: $data.name"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!--------- CART -------------------------->
+                    <div id="cart" class="tab-pane">
+                        <div id="cart-contents">
+                            <div class="div_cart_cont">
+                                <!-- ko if: ubernetCallPending -->
+                                <div style="width: 100%; text-align: center; padding: 4px; border: 1px solid #333; background: black;">
+                                    <img src="coui://ui/main/shared/img/working.svg" class="working std" style="margin-right: 8px;" /><span><loc>Updating...</loc></span>
+                                </div>
+                                <!-- /ko -->
+                                <!-- ko if: (model.createCartResult()) -->
+                                <table class="tbl_cart">
+                                    <tbody>
+                                        <tr>
+                                            <th class="tbl_cart_header" style="width: 80px;"></th>
+                                            <th class="tbl_cart_header" style="width: 100%;">
+                                                <loc>Item</loc>
+                                            </th>
+                                            <th class="tbl_cart_header" style="text-align: right;">
+                                                <loc>Price</loc>
+                                            </th>
+                                        </tr>
+                                        <!-- ITEM -->
+                                        <!-- ko foreach: model.createCartResult().Contents -->
+                                        <tr>
+                                            <td class="item">
+                                                <button class="btn-default btn_remove_item" style="font-size: 11px;" data-bind="click: function () { model.removeItemFromCartByIndex($index()) }">
+                                                    <loc>REMOVE</loc>
+                                                </button>
+                                            </td>
+                                            <td class="item" style="padding: 12px 0px 4px;">
+                                                <div class="product_title">
+                                                    <span align="left" data-bind="text: PlayFab.getCatalogItem($data.ObjectName).DisplayName"></span>
+                                                </div>
+                                            </td>
+                                            <td class="item" style="text-align: right; padding: 12px 0px 4px;">
+                                                <div class="product_price">
+                                                    <span data-bind="text: model.stringifyPrice($data.Prices.RM)"></span>
+                                                </div>
+                                            </td>
+                                        </tr>
+                                        <!-- /ko -->
+                                        <!-- CREDIT -->
+                                        <!-- ko if: showCreditApplied -->
+                                        <tr>
+                                            <td class="item footer_subtotal" colspan="2">
+                                                <div class="lbl_subtotal">
+                                                    <span>
+                                                        <loc>Credit applied: </loc>
+                                                    </span>
+                                                </div>
+                                            </td>
+                                            <td class="item footer_subtotal">
+                                                <span data-bind="text: creditApplied"></span>
+                                            </td>
+                                        </tr>
+                                        <!-- /ko -->
+                                        <!-- SUBTOAL ROW -->
+                                        <tr>
+                                            <td class="item footer_subtotal" colspan="2">
+                                                <div class="lbl_subtotal">
+                                                    <span>
+                                                        <loc>Total: </loc>
+                                                    </span>
+                                                </div>
+                                            </td>
+                                            <td class="item footer_subtotal">
+                                                <span data-bind="text: getTotal()"></span>
+                                            </td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                                <!-- /ko -->
+
+                                <!-- ko ifnot: (model.createCartResult() || model.ubernetCallPending()) -->
+                                <span>
+                                    <loc>Your cart is empty.</loc>
+                                </span>
+                                <!-- /ko -->
+
+
+                                <div class="div_cart_commit_btns">
+                                    <div style="float: left; margin: 0px 0px 0px -6px;">
+                                        <div class="btn_std">
+                                            <div class="btn_std_label down" data-bind="click: function () { model.navToTab('commanders') }">
+                                                <loc>Continue Shopping</loc>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- ko if: (model.createCartResult()) -->
+                                    <div style="float: right; margin: 0px -6px 0px 0px;">
+                                        <div class="btn_hero" data-bind="click: model.initiatePurchase, click_sound: 'default', rollover_sound: 'default'">
+                                            <div class="btn_std_label down">
+                                                <loc>CHECKOUT</loc>
+                                            </div>
+                                        </div>
+                                        <div class="btn_std" data-bind="click: model.clearPurchase, click_sound: 'default', rollover_sound: 'default'">
+                                            <div class="btn_std_label down">
+                                                <loc>Cancel</loc>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- /ko -->
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- COMMIT -->
+    <div class="div_commit_cont">
+        <!-- ko if: showCommanders -->
+        <!-- ko if: ubernetCallPending -->
+        <img class="working std" src="coui://ui/main/shared/img/working.svg" style="position:absolute; left:0;" />
+        <!-- /ko -->
+
+        <div class="btn_std" style="float: left;" data-bind="click: $root.selectCommander,
+            css: { btn_std: model.selectedCommanderIndex() == -1, btn_std: model.selectedCommanderIndex() != -1, btn_std_disabled: selectedIsNotAvailableForUse }">
+            <div class="btn_label">
+            	<!-- ko ifnot: selectedIsDefault -->
+                <loc>Set As Default Commander</loc>
+                <!-- /ko -->
+                <!-- ko if: selectedIsDefault -->
+                <loc>Reset Default Commander</loc>
+                <!-- /ko -->
+            </div>
+        </div>
+        <span data-bind="visible: selectedItemIsInCart">
+            <loc>Item is already in cart.</loc>
+        </span>
+        <!-- ko if: $root.allowMicroTransactions -->
+        <div class="btn_hero" data-bind="click: $root.addCart,
+                css: { disabled: selectedIsNotForSale },
+                visible: signedInToUbernet">
+            <div class="btn_label" style="padding:0px 40px;">
+                <loc>Add To Cart</loc>
+            </div>
+        </div>
+        <!-- /ko -->
+        <!-- /ko -->
+
+        <!-- ko if: showExpansion -->
+        <!-- ko if: ubernetCallPending -->
+        <img class="working std" src="coui://ui/main/shared/img/working.svg" style="position:absolute; left:0;" />
+        <!-- /ko -->
+
+        <!-- ko if: $root.allowMicroTransactions -->
+        <div class="btn_hero" data-bind="click: $root.addCartExpansion">
+            <div class="btn_label" style="padding:0px 40px;">
+                <loc>Add To Cart</loc>
+            </div>
+        </div>
+        <!-- /ko -->
+        <!-- /ko -->
+
+    </div>
+
+    <div data-bind="visible: showExternalOverlay" class="overlay_bground">
+        <div class="div_panel_cont">
+            <div class="primary_msg" style="margin-top: -34px;">
+                <loc>CHECKOUT</loc>
+            </div>
+            <panel id="overlay" src="coui://ui/main/game/overlay/overlay.html" data-bind="attr: { src: overlayUrl }"></panel>
+            <div class="div_close_panel">
+                <!-- ko if: overlaySequenceComplete -->
+                <div class="btn_std" data-bind="click: completePurchase">
+                    <div class="btn_std_label down">
+                        <loc>Return to Armory</loc>
+                    </div>
+                </div>
+                <div class="btn_std" data-bind="click: back">
+                    <div class="btn_std_label down">
+                        <loc>Go to Main Menu</loc>
+                    </div>
+                </div>
+                <!-- /ko -->
+                <!-- ko ifnot: overlaySequenceComplete -->
+                <div class="btn_std" data-bind="click: function () { model.showExternalOverlay(false); model.createCart(); }">
+                    <div class="btn_std_label down">
+                        <loc>Cancel</loc>
+                    </div>
+                </div>
+                <!-- /ko -->
+            </div>
+        </div>
+    </div>
+
+    <div data-bind="visible: showLocalOverlay" class="overlay_bground">
+        <div class="div_panel_cont">
+            <div class="primary_msg" style="margin-top: -34px;">
+                <loc>CHECKOUT</loc>
+            </div>
+
+            <div>
+                <!--- IF SUCCESS ---->
+
+                <!-- ko with: completePurchaseResult -->
+                <div class="div_cart_cont">
+                    <div class="div_confirm_msg">
+                        <div class="div_primary_msg">
+                            <loc>Thank you for your purchase.</loc>
+                        </div>
+                        <div class="div_secondary_msg">
+                            <loc>Your purchased items are now registered to your account and are accessible in the game.</loc>
+                        </div>
+                    </div>
+                    <div class="div_receipt_info">
+                        <div class="div_primary_msg">
+                            <loc>Here's your receipt.</loc>
+                        </div>
+                        <div class="div_secondary_msg" style="margin: 0px 0px 10px 0px;">
+                            <loc>Confirmation of your purchase is provided below.</loc>
+                        </div>
+                        <table>
+                            <tr>
+                                <td>
+                                    <div style="margin-right: 8px;">
+                                        <loc>Account Name:</loc>
+                                    </div>
+                                </td>
+                                <td>
+                                    <div style="margin-right: 8px;" data-bind="text: model.uberName"></div>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <div style="margin-right: 8px;">
+                                        <loc>Total:</loc>
+                                    </div>
+                                </td>
+                                <td>
+                                    <!-- ko with: Purchase -->
+                                    <div style="margin-right: 8px;" data-bind="text: model.formatRM(PurchasePrice)"></div>
+                                    <!-- /ko -->
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <div style="margin-right: 8px;">
+                                        <loc>Confirmation code:</loc>
+                                    </div>
+                                </td>
+                                <td>
+                                    <div style="margin-right: 8px;" data-bind="text: OrderId"></div>
+                                </td>
+                            </tr>
+                        </table>
+                    </div>
+                </div>
+                <!-- /ko -->
+            </div>
+            <!-- ko ifnot: ubernetCallPending -->
+            <div class="div_close_panel">
+                <!-- ko if: overlaySequenceComplete -->
+                <div class="btn_std">
+                    <div class="btn_std_label down" data-bind="click: back">
+                        <loc>Go to Main Menu</loc>
+                    </div>
+                </div>
+                <div class="btn_std">
+                    <div class="btn_std_label down" data-bind="click: function () { model.navToTab('commanders'); model.clearPurchase(); }">
+                        <loc>Return to Armory</loc>
+                    </div>
+                </div>
+                <!-- /ko -->
+                <!-- ko ifnot: overlaySequenceComplete -->
+                <div class="btn_std">
+                    <div class="btn_std_label down" data-bind="click: clearPurchase">
+                        <loc>Cancel</loc>
+                    </div>
+                </div>
+                <!-- /ko -->
+            </div>
+            <!-- /ko -->
+        </div>
+    </div>
+
+    <!-- STEAM OVERLAY DISABLED MODAL -->
+    <div class="modal fade" id="steamOverlayDisabled" tabindex="-1" role="dialog" aria-labelledby="steamOverlayDisabledLabel" aria-hidden="true" data-show="false">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="btn_win btn_win_close" type="button" data-dismiss="modal" aria-hidden="true"></div>
+                <div class="modal-header">
+                    <div class="modal-title warning" id="steamOverlayDisabledLabel">
+                        <loc>Steam Overlay Disabled</loc>
+                    </div>
+                </div>
+                <div class="modal-body">
+                    <p>
+                        <loc>It appears that you have turned off the Steam Overlay, and we are unable to initiate your purchase without it.</loc>
+                    </p>
+                    <p>
+                        <loc>Please exit the game, find it in your Steam library, right click it, select Properties, and make sure that "Enable the Steam Overlay while in-game" is checked. After doing so, start the game and try again.</loc>
+                    </p>
+                </div>
+                <div class="modal-footer">
+                    <button data-dismiss="modal" data-bind="click_sound: 'default', rollover_sound: 'default'">
+                        <loc>Dismiss</loc>
+                    </button>
+                </div>
+            </div>
+            <!-- /.modal-content -->
+        </div>
+        <!-- /.modal-dialog -->
+    </div>
+    <!-- /.modal -->
+
+     <!-- jUST UNLOCKED TITANS MODAL -->
+    <div class="modal fade" id="justUnlockedTitans" tabindex="-1" role="dialog" aria-labelledby="justUnlockedTitansLabel" aria-hidden="true" data-show="false">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="btn_win btn_win_close" type="button" data-dismiss="modal" aria-hidden="true"></div>
+                <div class="modal-header">
+                    <div class="modal-title confirmation" id="justUnlockedTitansLabel">
+                        <loc>THE TITANS HAVE ARRIVED</loc>
+                    </div>
+                </div>
+                <div class="modal-body">
+                    <p>
+                        <loc>Thank you for purchasing TITANS! You'll find it in your Steam library right next to Planetary Annihilation!</loc>
+                    </p>
+                    <p>
+                        <loc>Please enjoy all the new units, new worlds, and new ways to annihilate everything!.</loc>
+                    </p>
+                </div>
+                <div class="modal-footer">
+                    <button data-dismiss="modal" data-bind="click_sound: 'default', rollover_sound: 'default', click: launchTitansAndExit">
+                        <loc>QUIT & INSTALL TITANS</loc>
+                    </button>
+                    <button data-dismiss="modal" data-bind="click_sound: 'default', rollover_sound: 'default'">
+                        <loc>Dismiss</loc>
+                    </button>
+                </div>
+            </div>
+            <!-- /.modal-content -->
+        </div>
+        <!-- /.modal-dialog -->
+    </div>
+    <!-- /.modal -->
+
+</body>
+</html>

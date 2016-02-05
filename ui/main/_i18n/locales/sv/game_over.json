@@ -1,0 +1,14 @@
+{
+    "Draw": {
+        "message": "LIKA"
+    }, 
+    "GW GAME OVER": {
+        "message": "PA GAME OVER"
+    }, 
+    "Winner:": {
+        "message": "VINNARE"
+    }, 
+    "Winners:": {
+        "message": "VINNARE:"
+    }
+}

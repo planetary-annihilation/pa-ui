@@ -1,0 +1,89 @@
+{
+    "Account Name:": {
+        "message": "Nome da conta:"
+    }, 
+    "Add To Cart": {
+        "message": "Adicionar ao cesto"
+    }, 
+    "Armory": {
+        "message": "Arsenal"
+    }, 
+    "Badges": {
+        "message": "Ins\u00edgnias"
+    }, 
+    "CHECKOUT": {
+        "message": "VERIFICA\u00c7\u00c3O GERAL"
+    }, 
+    "Cancel": {
+        "message": "Cancelar"
+    }, 
+    "Cart": {
+        "message": "Cesto"
+    }, 
+    "Commanders": {
+        "message": "Comandantes"
+    }, 
+    "Confirmation code:": {
+        "message": "C\u00f3digo de confirma\u00e7\u00e3o:"
+    }, 
+    "Confirmation of your purchase is provided below.": {
+        "message": "A confirma\u00e7\u00e3o de sua compra est\u00e1 disposta abaixo."
+    }, 
+    "Continue Shopping": {
+        "message": "Continuar comprando"
+    }, 
+    "Credit applied:": {
+        "message": "Cr\u00e9dito aplicado:"
+    }, 
+    "Designed in collaboration with": {
+        "message": "Desenvolvido em colabora\u00e7\u00e3o com"
+    }, 
+    "Go to Main Menu": {
+        "message": "Ir para o menu principal"
+    }, 
+    "Here's your receipt.": {
+        "message": "Eis o seu recibo."
+    }, 
+    "Item": {
+        "message": "Item"
+    }, 
+    "Item is already in cart.": {
+        "message": "O item j\u00e1 est\u00e1 no cesto de compras."
+    }, 
+    "Kickstarter Backer": {
+        "message": "Apoiador do Kickstarter"
+    }, 
+    "Price": {
+        "message": "Pre\u00e7o"
+    }, 
+    "REMOVE": {
+        "message": "REMOVER"
+    }, 
+    "Redeem": {
+        "message": "Resgatar"
+    }, 
+    "Refresh": {
+        "message": "Atualizar"
+    }, 
+    "Return to Armory": {
+        "message": "Voltar ao Arsenal"
+    }, 
+    "Set As Default Commander": {
+        "message": "Definir como o comandante padr\u00e3o."
+    }, 
+    "Thank you for your purchase.": {
+        "message": "Obrigado pela sua compra."
+    }, 
+    "Total:": {
+        "message": "Total:"
+    }, 
+    "Updating...": {
+        "message": "Atualizando..."
+    }, 
+    "Your cart is empty.": {
+        "message": "O seu cesto est\u00e1 vazio."
+    }, 
+    "Your purchased items are now registered to your account and are accessible in the game.": {
+        "message": "Os itens que voc\u00ea comprou agora est\u00e3o registrados para a sua conta e podem ser acessados no jogo."
+    }
+}

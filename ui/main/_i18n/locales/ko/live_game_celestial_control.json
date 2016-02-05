@@ -1,0 +1,26 @@
+{
+    "Activate planetary laser": {
+        "message": "\ud589\uc131 \ub808\uc774\uc838 \ud65c\uc131\ud654"
+    }, 
+    "Change orbit": {
+        "message": "\uada4\ub3c4 \ubcc0\uacbd"
+    }, 
+    "Select a new gravity well.": {
+        "message": "Select a new gravity well."
+    }, 
+    "Select a planet to attack.": {
+        "message": "\uacf5\uaca9\ud560 \ud589\uc131\uc744 \uc120\ud0dd\ud558\uc2ed\uc2dc\uc624."
+    }, 
+    "Select a planet to destroy.": {
+        "message": "\ud30c\uad34\ud560 \ud589\uc131\uc744 \uc120\ud0dd\ud558\uc2ed\uc2dc\uc624."
+    }, 
+    "Set course for annihilation": {
+        "message": "\uc12c\uba78\ud560 \uacbd\ub85c \uc9c0\uc815"
+    }, 
+    "Set target spot": {
+        "message": "\ubaa9\ud45c \uc9c0\uc810 \uc124\uc815"
+    }, 
+    "Then confirm destination to set course.": {
+        "message": "Then confirm destination to set course."
+    }
+}

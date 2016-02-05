@@ -1,0 +1,26 @@
+{
+    "CONNECTION TO SERVER FAILED": {
+        "message": "YHTEYDENOTTO PALVELIMEEN EP\u00c4ONNISTUI"
+    }, 
+    "CONNECTION TO SERVER LOST": {
+        "message": "YHTEYS PALVELIMEEN KATKESI"
+    }, 
+    "FAILED TO JOIN GAME": {
+        "message": "PELIIN LIITTYMINEN EP\u00c4ONNISTUI"
+    }, 
+    "FAILED TO START GAME": {
+        "message": "PELIN ALOITTAMINEN EP\u00c4ONNISTUI"
+    }, 
+    "FAILED TO START REPLAY": {
+        "message": "FAILED TO START REPLAY"
+    }, 
+    "LOGIN ACCEPTED": {
+        "message": "KIRJAUTUMINEN HYV\u00c4KSYTTY"
+    }, 
+    "LOGIN TO SERVER REJECTED": {
+        "message": "KIRJAUTUMINEN PALVELIMELLE HYL\u00c4TTIIN"
+    }, 
+    "Returning to Main Menu": {
+        "message": "Palataan p\u00e4\u00e4valikkoon"
+    }
+}

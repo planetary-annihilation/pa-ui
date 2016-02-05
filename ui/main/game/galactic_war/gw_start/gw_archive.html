@@ -1,0 +1,92 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta content="text/html; charset=utf-8" http-equiv="Content-Type" />
+    <noloc><title>Galactic War: Archived Wars</title></noloc>
+    <link href="bundle://boot/boot.css" rel="stylesheet" type="text/css" />
+    <link href="coui://ui/main/shared/css/template.css" rel="stylesheet" type="text/css" />
+    <link href="coui://ui/main/shared/css/landing_page.css" rel="stylesheet" type="text/css" />
+    <link href="gw_start.css" rel="stylesheet" type="text/css" />
+    <script src="bundle://boot/boot.js" type="text/javascript"></script>
+    <script src="coui://ui/main/shared/js/commander_utility.js" type="text/javascript"></script>
+    <script src="coui://ui/main/shared/js/ui_media_utility.js" type="text/javascript"></script>
+    <script src="gw_archive.js" type="text/javascript"></script>
+</head>
+
+<body>
+
+<script id="cardTemplate">
+    app.loadTemplate("coui://ui/main/game/galactic_war/shared/template/gwt_card_horizontal",
+                     "coui://ui/main/game/galactic_war/shared/template/gwt_card",
+                     "coui://ui/main/game/galactic_war/shared/template/gwt_card");
+</script>
+
+<!--- VISUAL TREATMENTS ---->
+<div class="background_glow"></div>
+
+<!-- TITLE -->
+<div class="section_title">
+    <div class="content">
+        <div class="btn_std_ix btn_back_small" data-bind="click: back">
+            <span class="glyphicon glyphicon-chevron-left carat"></span>
+        </div>
+        <div class="title">
+            <loc>Archived Wars</loc>
+        </div>
+    </div>
+</div>
+<!-- CONTENT -->
+<div class="section_content_top_bar">
+</div>
+<div class="section_content">
+    <div class="section_wrapper overall_width">
+        <div id="tab2" class="tab-pane" data-bind="visible: true, css: { active: true }" style="display: none">
+            <div id="archived-games" data-bind="foreach: archivedGames">
+                <div class="one_war" data-bind="click_sound: 'default', rollover_sound: 'default', click: function () { model.activeGame($data) }, css: { one_war_selected: model.activeGame() === $data }">
+                    <div class="war-title-group">
+                        <div class="war-title" data-bind="text: name"></div>
+                    </div>
+                    <div>
+                        <img class="icon" src="" data-bind="attr: { src: $root.getCommanderIcon($data.commander) }" />
+                    </div>
+                    <div class="bottom result">
+                        <!-- ko if: $data.state === 'won' -->
+                        <div class="victory">
+                            <loc>Victory</loc>
+                        </div>
+                        <!-- /ko -->
+                        <!-- ko if: $data.state === 'lost' -->
+                        <div class="defeat">
+                            <loc>Annihilated</loc>
+                        </div>
+                        <!-- /ko -->
+                        <div class="stats">
+                            <span>
+                                <loc>Turns:</loc>
+                            </span><span class="unit" style="margin-right: 8px;" data-bind="text: $data.turns"></span>
+                            <span>
+                                <loc>Wins:</loc>
+                            </span><span class="unit" data-bind="text: $data.wins"></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- COMMIT -->
+<div class="div_commit_cont">
+    <div class="div_commit_secondary_options">
+    </div>
+    <div class="btn_hero" data-bind="click: navToDetails, click_sound: 'default', rollover_sound: 'default', css: { btn_hero_disabled: !ready() }">
+        <div class="btn_label" style="padding: 0px 40px;">
+            <span>
+                <loc>Details</loc>
+            </span>
+        </div>
+    </div>
+</div>
+</body>
+</html>

@@ -1,0 +1,23 @@
+{
+    "Factories": {
+        "message": "Fabbriche"
+    }, 
+    "PA Guide: Factories": {
+        "message": "Guida di PA: Fabbriche"
+    }, 
+    "Select a Factory to get access to Build Bar": {
+        "message": "Per accedere alla Barra Costruzioni, seleziona una fabbrica"
+    }, 
+    "[style=text_callout]Control + Left Click[/style] a unit to make a factory produce a single one of that unit before continuing with the rest of the build queue.": {
+        "message": "[style=text_callout]CTRL + fai clic col pulsante sinistro del mouse[/style] su un'unità per avviare la costruzione di un'unità di quel tipo, prima di continuare col resto della coda."
+    }, 
+    "[style=text_callout]Left Click[/style] units on Build Bar to build": {
+        "message": "[style=text_callout]Fai clic col pulsante sinistro del mouse[/style] sulle unità nella Barra Costruzioni per iniziare a costruire"
+    }, 
+    "[style=text_callout]Right Click[/style] or [style=text_callout]Shift + Right Click[/style] on units to reduce number of units in queue": {
+        "message": "[style=text_callout]Fai clic col pulsante destro del mouse[/style] o [style=text_callout]Maiusc + fai clic col pulsante destro del mouse[/style] sulle unità per ridurre il loro numero in coda"
+    }, 
+    "[style=text_callout]Shift + Left Click[/style] units on Build Bar to build multiple": {
+        "message": "[style=text_callout]Maiusc + fai clic col pulsante sinistro del mouse[/style] sulle unità nella Barra Costruzioni per costruzioni multiple"
+    }
+}

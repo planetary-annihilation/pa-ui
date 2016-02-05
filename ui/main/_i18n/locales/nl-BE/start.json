@@ -1,0 +1,221 @@
+{
+    "AI Skirmish": {
+        "message": "Gevecht tegen Computer"
+    }, 
+    "Account information sent": {
+        "message": "Account informatie verzonden"
+    }, 
+    "Accounts linked": {
+        "message": "Accounts verbonden"
+    }, 
+    "Already have a PlayFab account?": {
+        "message": "Hebt u reeds een PlayFab account?"
+    }, 
+    "An email with a link to recover your account was sent to username@domain.com.": {
+        "message": "Een mail met link om u account the recupereren is verzonden naar username@domain.com."
+    }, 
+    "Armory": {
+        "message": "Wapenkamer"
+    }, 
+    "Audio Engine:": {
+        "message": "Audio Engine:"
+    }, 
+    "CONTINUE TO MAIN MENU": {
+        "message": "GA DOOR NAAR HET HOOFDMENU"
+    }, 
+    "CREATE ACCOUNT AND LINK": {
+        "message": "Maak een account aan en verbind deze."
+    }, 
+    "Channels Streaming": {
+        "message": "Streamende Kanalen:"
+    }, 
+    "Click here.": {
+        "message": "Klik hier."
+    }, 
+    "Click to play the Credits Galaxy": {
+        "message": "Klik om de 'Krediet Melkweg' af te spelen"
+    }, 
+    "Confirm Password:": {
+        "message": "Bevestig Paswoord:"
+    }, 
+    "Connecting to PlayFab": {
+        "message": "Verbinden met PlayFab"
+    }, 
+    "Cosmic Edition Commanders": {
+        "message": "Commandanten bij de Cosmische Editie"
+    }, 
+    "Create a PlayFab account to link with Steam": {
+        "message": "Maak een PlayFab account aan om deze met Steam te kunnen koppelen."
+    }, 
+    "Don't have an PlayFab account?": {
+        "message": "Don't have an PlayFab account?"
+    }, 
+    "Email address already exists": {
+        "message": "E-mailadres bestaat reeds"
+    }, 
+    "Email address is invalid": {
+        "message": "E-mailadres is ongeldig"
+    }, 
+    "Email:": {
+        "message": "E-mail:"
+    }, 
+    "Extra special thanks to our:": {
+        "message": "Speciale dank aan onze:"
+    }, 
+    "Forgot username or password?": {
+        "message": "Gebruikersnaam of wachtwoord vergeten?"
+    }, 
+    "Founding Commanders": {
+        "message": "Stichtende Commandanten"
+    }, 
+    "Galactic War": {
+        "message": "Galactische oorlog"
+    }, 
+    "Incorrect username or password. Please check your entry and try again.": {
+        "message": "Onjuist gebruikersnaam of paswoord. Controleer je input en probeer opnieuw"
+    }, 
+    "Link PlayFab with Steam": {
+        "message": "Link PlayFab met Steam"
+    }, 
+    "Multiplayer": {
+        "message": "Multiplayer"
+    }, 
+    "New Build Available:": {
+        "message": "Nieuwe versie beschikbaar"
+    }, 
+    "None of this would have been possible without your generosity, and we are grateful that you took the chance and believed in our vision.": {
+        "message": "Dit alles zou niet mogelijk geweest zijn zonder jullie vrijgevigheid, we zijn jullie dankbaar dat jullie het risico namen en in onze visie geloofden. "
+    }, 
+    "Password": {
+        "message": "Paswoord"
+    }, 
+    "Passwords are different": {
+        "message": "Wachtwoorden zijn verschillend"
+    }, 
+    "PlayFab Username:": {
+        "message": "PlayFab Username:"
+    }, 
+    "PlayFab account already linked to a different Steam account": {
+        "message": "PlayFab account is reeds gelinkt aan een andere Steam account"
+    }, 
+    "Please choose a default region.": {
+        "message": "Kies je eigen regio."
+    }, 
+    "Please try again later. If this error persists, please contact support and check the forums.": {
+        "message": "Probeer het later nog eens.\\nMocht deze fout blijven terugkomen,\\ngelieve dan support te contacteren of de forums te bekijken."
+    }, 
+    "Please try to link your account at": {
+        "message": "Probeer je account te linken op"
+    }, 
+    "Problem with Steam Account.": {
+        "message": "Er is een probleem met je Steam account."
+    }, 
+    "Quit": {
+        "message": "Afsluiten"
+    }, 
+    "RETURN TO SIGN IN": {
+        "message": "Ga terug om in te loggen."
+    }, 
+    "Reconnecting to Game": {
+        "message": "Opnieuw verbinding aan het maken met het spel."
+    }, 
+    "Replays": {
+        "message": "Opnames"
+    }, 
+    "Settings": {
+        "message": "Instellingen"
+    }, 
+    "Sign in": {
+        "message": "Log in"
+    }, 
+    "Sign in with your PlayFab ID": {
+        "message": "Sign in with your PlayFab ID"
+    }, 
+    "Sign into your PlayFab account.": {
+        "message": "Log in met u PlayFab account."
+    }, 
+    "Single Player": {
+        "message": "Alleen Spelen"
+    }, 
+    "System Designer": {
+        "message": "System Designer"
+    }, 
+    "Thank you for your support!": {
+        "message": "Bedankt voor uw steun!"
+    }, 
+    "There are no regions available for this build version.": {
+        "message": "Er zijn geen regio's beschikbaar voor uw spelversie."
+    }, 
+    "There is a problem with Steam. Please restart Steam and try again or login using your PlayFab credentials.": {
+        "message": "Er is een probleem met Steam. Herstart Steam en probeer opnieuw of log in met je PlayFab gegevens."
+    }, 
+    "This shouldn't happen. Please contact us at": {
+        "message": "Dit zou niet mogen gebeuren. Contacteer ons op "
+    }, 
+    "This title has not been activated.": {
+        "message": "Deze titel is nog niet geactiveert"
+    }, 
+    "To those who contributed to our Kickstarter campaign, we'd like to thank you for all the support.": {
+        "message": "We zouden graag iedereen die heeft bijgedragen aan onze Kickstarter bedanken voor alle steun."
+    }, 
+    "Twitch": {
+        "message": "Twitch"
+    }, 
+    "Unable to Sign In": {
+        "message": "Kan niet inloggen"
+    }, 
+    "User account has not been linked to steam.": {
+        "message": "Account is nog niet gelinkt aan steam."
+    }, 
+    "Username": {
+        "message": "Gebruikersnaam"
+    }, 
+    "Username already exists": {
+        "message": "Gebruikersnaam bestaat al "
+    }, 
+    "Version:": {
+        "message": "Versie:"
+    }, 
+    "Videos": {
+        "message": "Video's"
+    }, 
+    "Visit our website \u00bb": {
+        "message": "Visit our website \u00bb"
+    }, 
+    "You are already assigned to a game.": {
+        "message": "Je bent al aangewezen aan een spel."
+    }, 
+    "You can change the region later in the settings menu.": {
+        "message": "Je kunt de regio-instellingen later aanpassen bij het menu instellingen."
+    }, 
+    "You need a new client to play the game. Steam users may need to restart Steam to get the new client.": {
+        "message": "Je hebt een nieuwere versie nodig om het spel te kunnen spelen. Steam gebruikers moeten mogelijk Steam opnieuw starten om de nieuwe versie te verkrijgen."
+    }, 
+    "Your Steam ID and PlayFab accounts have been successfully linked.": {
+        "message": "Je Steam ID en PlayFab account zijn succesvol gelinkt "
+    }, 
+    "Your account has been banned.": {
+        "message": "Je account is geblokkeerd."
+    }, 
+    "Your account has been banned. If you believe this is in error, contact us at": {
+        "message": "Je account is geblokkeerd. Denk je dat dit een error is, contacteer ons op"
+    }, 
+    "Your default region is currently unavailable. Please choose a different region.": {
+        "message": "Je standaard regio is momenteel niet beschikbaar. Kies a.u.b. een andere regio."
+    }, 
+    "Your steam account does not own this application.": {
+        "message": "Je steam account heeft deze applicatie niet."
+    }, 
+    "set by code": {
+        "message": "zet via code"
+    }, 
+    "viewers": {
+        "message": "kijkers"
+    }, 
+    "| UI Library: Coherent Labs, copyright \u00a9 2012-2014": {
+        "message": "| UI Library: Coherent Labs, copyright \u00a9 2012-2014"
+    }, 
+    "\u00a9 2014 Uber Entertainment Inc.": {
+        "message": "\u00a9 2014 Uber Entertainment Inc."
+    }
+}

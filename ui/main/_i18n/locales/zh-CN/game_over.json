@@ -1,0 +1,44 @@
+{
+    "ANNIHILATION COMPLETE": {
+        "message": "\u6b7c\u706d\u5b8c\u6210\uff01"
+    }, 
+    "APM": {
+        "message": "APM"
+    }, 
+    "Average": {
+        "message": "\u5e73\u5747"
+    }, 
+    "Built": {
+        "message": "\u5efa\u7b51"
+    }, 
+    "Destroyed": {
+        "message": "\u88ab\u6467\u6bc1"
+    }, 
+    "Draw": {
+        "message": "\u5e73\u5c40"
+    }, 
+    "Efficiency": {
+        "message": "\u6548\u80fd"
+    }, 
+    "GW GAME OVER": {
+        "message": "\u94f6\u6cb3\u6218\u4e89\u7ed3\u675f"
+    }, 
+    "The game has ended.": {
+        "message": "\u6e38\u620f\u5df2\u7ed3\u675f\u3002"
+    }, 
+    "Used": {
+        "message": "\u6d88\u8017"
+    }, 
+    "VICTORY IS YOURS": {
+        "message": "\u60a8\u80dc\u5229\u4e86\uff01"
+    }, 
+    "Winner:": {
+        "message": "\u80dc\u5229\u8005\uff1a"
+    }, 
+    "Winners:": {
+        "message": "\u80dc\u5229\u8005: "
+    }, 
+    "YOU'VE BEEN ANNIHILATED": {
+        "message": "\u60a8\u88ab\u6b7c\u706d\u4e86"
+    }
+}

@@ -1,0 +1,86 @@
+{
+    "Avg": {
+        "message": "\ud3c9\uade0"
+    }, 
+    "Consumed": {
+        "message": "\uc18c\ube44\ud55c \uc790\uc6d0"
+    }, 
+    "Created": {
+        "message": "\uc0dd\uc0b0"
+    }, 
+    "Current": {
+        "message": "\ud604\uc7ac"
+    }, 
+    "Current APM": {
+        "message": "\ud604\uc7ac APM"
+    }, 
+    "Current Efficiency": {
+        "message": "\ud604\uc7ac \ud6a8\uc728"
+    }, 
+    "Current Energy": {
+        "message": "\ud604\uc7ac \uc5d0\ub108\uc9c0"
+    }, 
+    "Current Metal": {
+        "message": "\ud604\uc7ac \uae08\uc18d"
+    }, 
+    "Current Units": {
+        "message": "\ud604\uc7ac \uc720\ub2db"
+    }, 
+    "Draw": {
+        "message": "\ubb34\uc2b9\ubd80"
+    }, 
+    "Fab": {
+        "message": "\uacf5\uc7a5"
+    }, 
+    "Factory": {
+        "message": "\uacf5\uc7a5"
+    }, 
+    "GAME SUMMARY": {
+        "message": "\uac8c\uc784 \uc694\uc57d"
+    }, 
+    "In Progress": {
+        "message": "\uc9c4\ud589 \uc911"
+    }, 
+    "Lost": {
+        "message": "\uc190\uc2e4"
+    }, 
+    "Mobile": {
+        "message": "\ubaa8\ubc14\uc77c"
+    }, 
+    "Opp Killed": {
+        "message": "\ucd5c\ub300 \ud0ac"
+    }, 
+    "Produced": {
+        "message": "\uc0dd\uc0b0\ub428"
+    }, 
+    "Retrieving Stats...": {
+        "message": "\ud1b5\uacc4 \uac00\uc838\uc624\ub294 \uc911..."
+    }, 
+    "Total": {
+        "message": "\ucd1d\ud569"
+    }, 
+    "Total APM": {
+        "message": "\uc804\uccb4 APM"
+    }, 
+    "Total Efficiency": {
+        "message": "\ucd1d \ud6a8\uc728"
+    }, 
+    "Total Energy": {
+        "message": "\uc804\uccb4 \uc5d0\ub108\uc9c0"
+    }, 
+    "Total Metal": {
+        "message": "\ucd1d \uae08\uc18d"
+    }, 
+    "Total Units": {
+        "message": "\uc804\uccb4 \uc720\ub2db"
+    }, 
+    "Wasted": {
+        "message": "\ub0ad\ube44\ub428"
+    }, 
+    "Winner:": {
+        "message": "\uc2b9\ub9ac\uc790:"
+    }, 
+    "Winners:": {
+        "message": "\uc2b9\ub9ac\uc790:"
+    }
+}

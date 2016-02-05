@@ -1,0 +1,548 @@
+{
+    "ARKYD": {
+        "message": "ARKYP"
+    }, 
+    "Advanced Air Factory": {
+        "message": "Geavanceerde Vliegtuigfabriek"
+    }, 
+    "Advanced Bot Factory": {
+        "message": "Geavanceerde Robotfabriek"
+    }, 
+    "Advanced Combat Fabrication Bot": {
+        "message": "Geavanceerde offensieve Fabriceer-Robot"
+    }, 
+    "Advanced Energy Plant": {
+        "message": "Geavanceerde Krachtcentrale"
+    }, 
+    "Advanced Fab Aircraft": {
+        "message": "Geavanceerd Fabricatievliegtuig."
+    }, 
+    "Advanced Fabrication Bot": {
+        "message": "Geavanceerd Fabricatierobot"
+    }, 
+    "Advanced Fabrication Ship": {
+        "message": "Geavanceerd fabricatie-schip"
+    }, 
+    "Advanced Fabrication Vehicle": {
+        "message": "Geavanceerd Fabricatievoertuig"
+    }, 
+    "Advanced Laser Defense Tower": {
+        "message": "Geavanceerde Verdedigingstoren"
+    }, 
+    "Advanced Metal Extractor": {
+        "message": "Geavanceerde Metaalontginner"
+    }, 
+    "Advanced Naval Factory": {
+        "message": "Geavanceerde Zeefabriek"
+    }, 
+    "Advanced Radar": {
+        "message": "Geavanceerde Radar Satteliet"
+    }, 
+    "Advanced Radar Satellite": {
+        "message": "Geavanceerde Radar Satteliet"
+    }, 
+    "Advanced Sonar": {
+        "message": "Geavanceerde Sonar"
+    }, 
+    "Advanced Tank: Anti-land and anti-ship guns": {
+        "message": "Geavanceerde tank- Anti-land en anti-schip lasers."
+    }, 
+    "Advanced Torpedo Launcher": {
+        "message": "Geavanceerde Torpedo Lanceerder"
+    }, 
+    "Advanced Vehicle Factory": {
+        "message": "Geavanceerde Voertuigfabriek"
+    }, 
+    "Advanced artillery- Equipped with long range anti-land, and anti-ship gun.": {
+        "message": "Geavanceerde artillerie- uitgerust met lange afstands anti-land en anti-schip kannon."
+    }, 
+    "Advanced fabricator combatant- Wired to repair units and build battlefield structures. Can only build units for which it has a blueprint.": {
+        "message": "Geavanceerde gevechts-fabriceerder- Gemaakt om troepen te repareren. Kan enkel eenheden bouwen waarvoor hij de blauwdrukken heeft."
+    }, 
+    "Advanced fabricator- Builds orbital satellites and ships.": {
+        "message": "Geavanceerde fabriceerder- Maakt ruimteschepen en satellieten."
+    }, 
+    "Advanced fabricator- Wired to build naval structures.": {
+        "message": "Geavanceerde Fabriceerder: Bouwt Zee-gebouwen."
+    }, 
+    "Advanced fabricator- Wired to build structures.": {
+        "message": "Geavanceerde fabriceerder: Bouwt gebouwen."
+    }, 
+    "Advanced manufacturing- Builds air units.": {
+        "message": "Geavanceerde productie- Maakt luchteenheden."
+    }, 
+    "Advanced manufacturing- Builds bots.": {
+        "message": "Geavanceerde productie- Produceert Robots."
+    }, 
+    "Advanced manufacturing- Builds land vehicles.": {
+        "message": "Geavanceerde productie- Maakt Landvoertuigen."
+    }, 
+    "Advanced manufacturing- Builds naval units.": {
+        "message": "Geavanceerde productie- Maakt schepen."
+    }, 
+    "Advanced manufacturing- Builds orbital satellites.": {
+        "message": "Geavanceerde productie- Maakt Ruimtevaartuigen."
+    }, 
+    "Advanced manufacturing- Produces energy.": {
+        "message": "Geavanceerde productie- Genereert Energie."
+    }, 
+    "Advanced manufacturing- Produces metal, can only be placed on metal deposits.": {
+        "message": "Geavanceerde productie- Produceert metaal, kan enkel op metaalafzettingen geplaatst worden."
+    }, 
+    "Advanced radar satellite- Detects a vast area for enemy land, sea, and air units.": {
+        "message": "Geavanceerde radarsatelliet- Scant een gigtanisch gebied voor vijandelijke eenheden."
+    }, 
+    "Advanced radar- Detects nearby enemy land, sea, and air units.": {
+        "message": "Geavanceerde radar- Detecteert nabije vijandelijke eenheden."
+    }, 
+    "Advanced sonar- Detects underwater units.": {
+        "message": "Geavanceerde sonar- Detecteert onderwater-eenheden."
+    }, 
+    "Advanced turret- Equipped with anti-air turret.": {
+        "message": "Geavanceerde luchtafweer- Uitgerust met Flak-kannon."
+    }, 
+    "Advanced turret- Equipped with direct fire anti-land, and anti-ship defenses.": {
+        "message": "Geavanceerde verdedigingstoren- Uitgerust met geavanceerde anti-land en anti-schip lasers."
+    }, 
+    "Air Factory": {
+        "message": "Luchtfabriek"
+    }, 
+    "Air Transport- Load a land unit for rapid long distance travel.": {
+        "message": "Luchttransport- Laad een landvoertuig op voor snel langeafstandstransport."
+    }, 
+    "All Terrain Bot: Can crawl almost anywhere.": {
+        "message": "Alle Terrein Robot: Kan bijna overal raken."
+    }, 
+    "Analysis: Controls things. Big things.": {
+        "message": "Analyse: Controleert dingen. Grote dingen."
+    }, 
+    "Anchor": {
+        "message": "Anker"
+    }, 
+    "Ant": {
+        "message": "Mier"
+    }, 
+    "Anti-Nuke Launcher": {
+        "message": "Anti-Nucleaire Lanceerinstallatie"
+    }, 
+    "Anti-nuke - Intercepts incoming nuclear missiles.": {
+        "message": "Anti-Atoomraket - Onderschept vijandelijk atoomraketten."
+    }, 
+    "Anti-nuke launcher- Equipped with advanced anti-nuclear missile weapon.": {
+        "message": "Anti-Atoomraket-Lanceerinstallatie - Uitgreust met geavanceerde anti-nucleaire raketten."
+    }, 
+    "Artillery ship- Long range advanced guided missiles.": {
+        "message": "Artillerieschip- Gevanceerde lange afstandsraketten."
+    }, 
+    "Assault bot- Equipped with advanced anti-land and anti-ship lasers.": {
+        "message": "Aanvalsrobot- Uitgerust met geavanceerde anti-land en anti-schip lasers."
+    }, 
+    "Assault bot- Equipped with basic anti-land and anti-ship lasers.": {
+        "message": "Aanvalsrobot- Uitgerust met anti-land en anti-schip lasers."
+    }, 
+    "Assault: Anti-land and anti-ship lasers": {
+        "message": "Aanvalstuig- Anti-land en anti-schip lasers."
+    }, 
+    "Astraeus": {
+        "message": "Astreus"
+    }, 
+    "Avenger": {
+        "message": "Wreker"
+    }, 
+    "Barracuda": {
+        "message": "Barracuda"
+    }, 
+    "Basic artillery- Equipped with medium range anti-land, and anti-ship gun.": {
+        "message": "Basisartillerie- Uitgerust met middellange afstands anti-land en anti-schip artillerie."
+    }, 
+    "Basic defense- No weapon, high health.": {
+        "message": "Basisverdediging) Geen bewapening, kan veel schade nemen."
+    }, 
+    "Basic fabricator combatant- Wired to build mines and repair units. Can only build units for which it has a blueprint.": {
+        "message": "Basis Gevechts-fabriceerder- Gemaakt om mijnen te plaatsen en eenheden te repareren. Kan enkel eenheden bouwen waarvoor hij de blauwdrukken heeft."
+    }, 
+    "Basic fabricator- Wired to build naval structures.": {
+        "message": "Basis Fabriceerder: Bouwt Zee-gebouwen."
+    }, 
+    "Basic fabricator- Wired to build structures.": {
+        "message": "Basis Fabriceerder: Bouwt gebouwen."
+    }, 
+    "Basic manufacturing- Builds air units.": {
+        "message": "Basis productie- Maakt Luchteenheden."
+    }, 
+    "Basic manufacturing- Builds and launches satellites and other units.": {
+        "message": "Basis productie- Maakt Satellieten en andere eenheden."
+    }, 
+    "Basic manufacturing- Builds bots.": {
+        "message": "Basis productie- Produceert Robots."
+    }, 
+    "Basic manufacturing- Builds land vehicles.": {
+        "message": "Basisfabricatie- Maakt landvoertuigen."
+    }, 
+    "Basic manufacturing- Builds naval units.": {
+        "message": "Basisproductie- Maakt schepen."
+    }, 
+    "Basic manufacturing- Produces energy.": {
+        "message": "Basis productie- Genereert Energie."
+    }, 
+    "Basic manufacturing- Produces metal, can only be placed on metal deposits.": {
+        "message": "Basisproductie- Produceert metaal, kan enkel op metaalafzettingen geplaatst worden."
+    }, 
+    "Basic radar satellite- Detects a large area for enemy land, sea, and air units.": {
+        "message": "Basis radarsatelliet- Scant een groot gebied voor vijandelijke eenheden."
+    }, 
+    "Basic radar- Detects nearby enemy land, sea, and air units.": {
+        "message": "Basisradar- Detecteert nabije vijandelijke eenheden."
+    }, 
+    "Basic sonar- Detects underwater units.": {
+        "message": "Basissonar- Detecteert onderwater-eenheden."
+    }, 
+    "Basic turret- Equipped with anti-air missiles.": {
+        "message": "Basisverdediging- Uitgerust met anti-luchtraketten"
+    }, 
+    "Basic turret- Equipped with direct fire anti-land, and anti-ship defenses.": {
+        "message": "Basis verdedigingstoren- Uitgerust met anti-land en anti-schip laser."
+    }, 
+    "Battleship- Long range advanced anti-ship, and anti-land guns.": {
+        "message": "Slagschip- Geavanceerde lange afstands anti-schip en anti-land kanonnen."
+    }, 
+    "Bluehawk": {
+        "message": "Jachtvalk"
+    }, 
+    "Bolo": {
+        "message": "Bolo"
+    }, 
+    "Bomb bot- Equipped with Self Destruction mechanism.": {
+        "message": "Bomrobot- Uitgerust met Zelfvernietigingsmechanisme."
+    }, 
+    "Bomber- Equipped with advanced anti-land and anti-naval tactical missiles.": {
+        "message": "Bommewerper- Uitgerust met geavanceerde anti-land en anti-schip tactische raketten."
+    }, 
+    "Bomber- Equipped with basic anti-land and anti-naval bombs.": {
+        "message": "Bommewerper- Uitgerust met geavanceerde anti-land en anti-schip bommen."
+    }, 
+    "Boom": {
+        "message": "Boem"
+    }, 
+    "Bot Factory": {
+        "message": "Robotfabriek"
+    }, 
+    "Bumblebee": {
+        "message": "Hommel"
+    }, 
+    "Catalyst": {
+        "message": "Katalysator"
+    }, 
+    "Catapult": {
+        "message": "Katapult"
+    }, 
+    "Combat Fabrication Bot": {
+        "message": "Offensieve Fabriceer-Robot"
+    }, 
+    "Combat bot- Equipped with basic anti-air missiles.": {
+        "message": "Gevechtsrobot- Uitgerust met basis anti-luchtraketten."
+    }, 
+    "Combat vehicle- Equipped with basic anti-air missiles.": {
+        "message": "Gevechtsvoertuig- Uitgerust met basis anti-luchtraketten."
+    }, 
+    "Defense satellite- Heavy orbital offensive and defensive platform with basic laser.": {
+        "message": "Verdedigingssatelliet- Zwaar ruimteverdedgingsplatform met laserwapens."
+    }, 
+    "Delta V Engine- Used to move small to medium celestial bodies.": {
+        "message": "Delta V Stuwraket- Kan kleine tot middelgrote hemellichamen verplaatsen."
+    }, 
+    "Destroyer- Basic anti-land and anti-ship guns.": {
+        "message": "Jachtschip- Uitgerust met anti-land en anti-schip geschut."
+    }, 
+    "Dolphin": {
+        "message": "Dolfijn"
+    }, 
+    "Dox": {
+        "message": "Dox"
+    }, 
+    "Energy Plant": {
+        "message": "Krachtcentrale"
+    }, 
+    "Energy Storage": {
+        "message": "Energie Opslag"
+    }, 
+    "Fabrication Aircraft": {
+        "message": "Fabricatievliegtuig"
+    }, 
+    "Fabrication Bot": {
+        "message": "Fabricatie-Robot"
+    }, 
+    "Fabrication Ship": {
+        "message": "Fabricatie-schip"
+    }, 
+    "Fabrication Sub": {
+        "message": "Fabricatieonderzee\u00ebr"
+    }, 
+    "Fabrication Vehicle": {
+        "message": "Fabricatievoertuig"
+    }, 
+    "Fabricator: Builds naval structures": {
+        "message": "Fabriceerder: Bouwt Zee-gebouwen."
+    }, 
+    "Fighter- Equipped with advanced anti-air missiles.": {
+        "message": "Gevechtsvliegtuig- Uitgerust met geavanceerde anti-luchtraketten."
+    }, 
+    "Fighter- Equipped with basic anti-air missiles.": {
+        "message": "Gevechtsvliegtuig- Uitgerust met basis anti-luchtraketten."
+    }, 
+    "Firefly": {
+        "message": "Vuurvlieg"
+    }, 
+    "Flak Cannon": {
+        "message": "Flak Afweergeschut"
+    }, 
+    "Flame tank- Short ranged, heavy armored vehicle.": {
+        "message": "Vlammetank- Korte afstand, zwaar bepanserd voertuig."
+    }, 
+    "Flux": {
+        "message": "Flux"
+    }, 
+    "Frigate- Basic anti-air missiles and anti-ship guns.": {
+        "message": "Fregat- Basis anti-lucht en anti-schip bewapening."
+    }, 
+    "Galata Turret": {
+        "message": "Galata Toren"
+    }, 
+    "Gas mining and metal creation satellite. Only works above gas giant planets.": {
+        "message": "Gasmijnende metaalgenereerde satelliet. Werkt enkel boven gasreuzen."
+    }, 
+    "Gil-E": {
+        "message": "Gil-E"
+    }, 
+    "Grenadier": {
+        "message": "Granaatwerper"
+    }, 
+    "Grenadier- Basic assault weapons dealing area effect damage.": {
+        "message": "Granaatwerper- Basisaanvalswapens die schade aanricht over een gebied."
+    }, 
+    "Gunboat- Light weaponry, fast speed": {
+        "message": "Verkenner- Lichte bewapening, snel."
+    }, 
+    "Gunship- Equipped with strong anti-ground. No anti-air capabilities.": {
+        "message": "AanvalsVTOL- uitgerust met zware anti-grondwapens. Geen luchtafweer."
+    }, 
+    "Halley": {
+        "message": "Halley"
+    }, 
+    "Heavy tank- Advanced short range, heavily armored vehicle.": {
+        "message": "Zware Tank- Geavanceerde zwaar bepanderde tank, met korte afstandswapen."
+    }, 
+    "Holkins": {
+        "message": "Holkins"
+    }, 
+    "Hornet": {
+        "message": "Wesp"
+    }, 
+    "Hummingbird": {
+        "message": "Kolibri"
+    }, 
+    "Inferno": {
+        "message": "Vuurzee"
+    }, 
+    "Ion defense platform- Designed to take out orbital units above it.": {
+        "message": "Ionen verdedigingsplatform- Gemaakt om ruimte\u00ebenheden boven zich te vernietigen."
+    }, 
+    "Jellyfish": {
+        "message": "Kwal"
+    }, 
+    "Jig": {
+        "message": "Jig"
+    }, 
+    "Kestrel": {
+        "message": "Kestrel"
+    }, 
+    "LR-96 -Pacifier- Missile": {
+        "message": "LR-96 -Pacificatie- Raket"
+    }, 
+    "Land Mine": {
+        "message": "Landmijn"
+    }, 
+    "Land mine- Detonates when enemy units are in proximity.": {
+        "message": "Landmijn- Ontploft wanneer vijandelijke eenheden in de buurt zijn."
+    }, 
+    "Laser Defense Tower": {
+        "message": "Laser Verdedigingstoren"
+    }, 
+    "Laser tank- Equipped with advanced anti-land and anti-ship guns.": {
+        "message": "Lasertank- Uitgerust met geavanceerde anti-land en anti-schip geschut."
+    }, 
+    "Leveler": {
+        "message": "Verwoester"
+    }, 
+    "Leviathan": {
+        "message": "Leviathan"
+    }, 
+    "Light tank- Equipped with basic anti-land and anti-ship guns.": {
+        "message": "Lichte tank- Uitgerust met basis anti-land en anti-schip geschut."
+    }, 
+    "Manufacturing- Increases maximum energy storage capacity.": {
+        "message": "Productie- Verhoogt de maximum energiecapaciteit."
+    }, 
+    "Manufacturing- Increases maximum metal storage capacity.": {
+        "message": "Productie- Verhoogt de maximum metaalopslag-capaciteit."
+    }, 
+    "Manufacturing- Orbital energy generation.": {
+        "message": "Productie- Energie generatie in de Ruimte."
+    }, 
+    "Metal Extractor": {
+        "message": "Metaalontginner"
+    }, 
+    "Metal Storage": {
+        "message": "Metaalopslag"
+    }, 
+    "Mortar tank- Equipped with advanced mobile artillery.": {
+        "message": "Mortiertank- Uitgerust met geavanceerde mobiele artillerie."
+    }, 
+    "Narwhal": {
+        "message": "Narwhal"
+    }, 
+    "Naval Factory": {
+        "message": "Zeefabriek"
+    }, 
+    "Nuclear Missile Launcher": {
+        "message": "Atoomraket lanceerinstallatie"
+    }, 
+    "Nuclear missile - Long range, large area damage, projectile": {
+        "message": "Nucleaire raketlanceerinstallatie- Lange-afstand, groot schadegebied, projectiel"
+    }, 
+    "Nuclear missile launcher- Equipped with advanced long range, large area damage, nuclear missile.": {
+        "message": "Nucleaire raketlanceerinstallatie- Uitgerust met geavanceerde lange-afstands nucleaire raketten met groot schadegebied."
+    }, 
+    "Orbital Fabrication Bot": {
+        "message": "Facbricatie Satelliet"
+    }, 
+    "Orbital Factory": {
+        "message": "RuimteFabriek"
+    }, 
+    "Orbital Launcher": {
+        "message": "Ruimtecentrum"
+    }, 
+    "Orbital and Deepspace Radar": {
+        "message": "Ruimteradar"
+    }, 
+    "Orbital and deepspace radar- Orbital and Celestial radar telemetry.": {
+        "message": "Ruimteradar- Scant het zonnestelsel."
+    }, 
+    "Orbital fighter- Fast moving orbital fighter for offense and defense.": {
+        "message": "Ruimtegevechtsschip- Snel gevechtsschip voor aanval en verdediging."
+    }, 
+    "Orbital lander- Load it up, get units to other planets.": {
+        "message": "Ruimtelander- Laad eenheden op, en vervoert deze naar andere planeten."
+    }, 
+    "Orbital laser platform- Rains death from above.": {
+        "message": "Ruimte laserplatvorm- Regent vernietiging van bovenaf."
+    }, 
+    "Orca": {
+        "message": "Orca"
+    }, 
+    "Pelican": {
+        "message": "Pelikaan"
+    }, 
+    "Pelter": {
+        "message": "Kiezelgooier"
+    }, 
+    "Peregrine": {
+        "message": "Slechtvalk"
+    }, 
+    "Radar": {
+        "message": "Radar"
+    }, 
+    "Recluse": {
+        "message": "Recluse"
+    }, 
+    "SR-24 -Shield- Missile Defense": {
+        "message": "SR-24 -Schild- Raketverdediging"
+    }, 
+    "SXX-1304 Laser Platform": {
+        "message": "SXX-1304 Laserplatform"
+    }, 
+    "Scout- Weak, fast speed.": {
+        "message": "Verkenner- Zwak maar snel."
+    }, 
+    "Sea mine- Detonates when ships are in proximity.": {
+        "message": "Zeemijn- Ontploft wanneer vijandelijke schepen in de buurt zijn."
+    }, 
+    "Sheller": {
+        "message": "Sheller"
+    }, 
+    "Single Laser Defense Tower": {
+        "message": "Verdedigingstoren met Enkele Laser"
+    }, 
+    "Skitter": {
+        "message": "Skitter"
+    }, 
+    "Slammer": {
+        "message": "Stamper"
+    }, 
+    "Sniper- Long range advanced anti-land, and anti-ship bot.": {
+        "message": "Sluipschutter- Geavanceerde lange afstands anti-land en anti-schip robot."
+    }, 
+    "Solar Array": {
+        "message": "Zonnepaneel"
+    }, 
+    "Sonar": {
+        "message": "Sonar"
+    }, 
+    "Spinner": {
+        "message": "Raketorgel"
+    }, 
+    "Stinger": {
+        "message": "Stinger"
+    }, 
+    "Stingray": {
+        "message": "Pijlstaartrog"
+    }, 
+    "Sub Class: Anti-sub and anti-ship torpedoes, long range ballistic nuclear missile": {
+        "message": "Onderze\u00ebr Klasse: Anti-onderze\u00ebr en anti-schip torpedo's, lange afstands nucleaire raket"
+    }, 
+    "Submarine Class: Anti-sub and anti-ship torpedoes": {
+        "message": "Onderze\u00ebr Klasse: Anti-onderze\u00ebr en anti-schip torpedo's"
+    }, 
+    "Tactical missile bot- Medium range advanced artillery bot.": {
+        "message": "Tactische Raketrobot- Middellange afstands artillerie robot."
+    }, 
+    "Tactical missile launcher- Equipped with advanced long range anti-land missile launcher.": {
+        "message": "Tactische raketlanceerinstallatie- Uitgerust met geavanceerde lange-afstands anti-grondraketten."
+    }, 
+    "Tank: Anti-land and anti-ship guns": {
+        "message": "Tank- Uitgerust met anti-land en anti-schip geschut."
+    }, 
+    "Teleporter": {
+        "message": "Teleporter"
+    }, 
+    "Teleporter: Teleports units from one to another.": {
+        "message": "Teleporter: Teleporteerd eenheden tussen teleporters."
+    }, 
+    "Torpedo Launcher": {
+        "message": "Torpedo Lanceerder"
+    }, 
+    "Torpedo Launcher- Advanced anti-ship defense.": {
+        "message": "Torpedo Lanceerder- geavanceerde anti-schip verdediging."
+    }, 
+    "Torpedo Launcher- Basic anti-ship defense.": {
+        "message": "Torpedo Lanceerder- Basis anti-schip verdediging"
+    }, 
+    "Umbrella": {
+        "message": "Umbrella"
+    }, 
+    "Unit Cannon": {
+        "message": "Troepenkannon"
+    }, 
+    "Unit Cannon: Long range unit dispersal": {
+        "message": "Troepenkannon: Lange afstands troepenmobilisatie."
+    }, 
+    "Vanguard": {
+        "message": "Speerpunt"
+    }, 
+    "Vehicle Factory": {
+        "message": "Voertuigfabriek"
+    }, 
+    "Wall": {
+        "message": "Muur"
+    }
+}

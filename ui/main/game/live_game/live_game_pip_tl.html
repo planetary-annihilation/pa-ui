@@ -1,0 +1,18 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta locns="live_game" />
+    <noloc><title>Live Game: PiP TL</title></noloc>
+    <link href="bundle://boot/boot.css" rel="stylesheet" type="text/css" />
+    <link href="live_game_pip.css" rel="stylesheet" type="text/css" />
+    <script src="bundle://boot/boot.js" type="text/javascript"></script>
+    <script src="live_game_pip.js" type="text/javascript"></script>
+</head>
+<body class="body_panel">
+    <div class="btn_pip btn_pip_swap" data-placement="bottom" data-tooltipkey="swap_pips" data-bind="click: swapPips, tooltip: '!LOC:Swap cameras'"></div>
+    <div class="btn_pip btn_pip_copy" data-placement="bottom" data-tooltipkey="copy_to_pip" data-bind="click: copyToPip, tooltip: '!LOC:Capture main view'"></div>
+    <div class="btn_pip btn_pip_alert" data-placement="bottom" data-bind="click: toggleAlertMode, css: { enabled: alertMode }, tooltip: '!LOC:Follow alerts'"></div>
+    <div class="btn_pip btn_pip_mirror" data-placement="bottom" data-bind="click: toggleMirrorMode, css: { enabled: mirrorMode }, tooltip: '!LOC:Pin to opposite side'"></div>
+</body>
+</html>

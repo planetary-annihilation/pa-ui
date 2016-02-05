@@ -1,0 +1,104 @@
+{
+    "AI Battle": {
+        "message": "AI \uc804\ud22c"
+    }, 
+    "Any": {
+        "message": "\uc544\ubb34\ub098"
+    }, 
+    "Can Join": {
+        "message": "\ucc38\uac00 \uac00\ub2a5"
+    }, 
+    "Can Play": {
+        "message": "\ud50c\ub808\uc774 \uac00\ub2a5"
+    }, 
+    "Can Spectate": {
+        "message": "\uad00\uc804 \uac00\ub2a5"
+    }, 
+    "Casual": {
+        "message": "\uce90\uc96c\uc5bc"
+    }, 
+    "Competitive": {
+        "message": "\uacbd\uc7c1"
+    }, 
+    "Create Game": {
+        "message": "\uc0c8 \uac8c\uc784 \uc0dd\uc131"
+    }, 
+    "Free For All": {
+        "message": "\uac1c\uc778\uc804"
+    }, 
+    "Game": {
+        "message": "\uac8c\uc784"
+    }, 
+    "Game State": {
+        "message": "\uac8c\uc784 \uc0c1\ud0dc"
+    }, 
+    "In Lobby": {
+        "message": "\ub85c\ube44"
+    }, 
+    "In Progress": {
+        "message": "\uc9c4\ud589\uc911"
+    }, 
+    "Join Game": {
+        "message": "\uac8c\uc784 \ucc38\uac00"
+    }, 
+    "Locked Game": {
+        "message": "\uc7a0\uae34 \uac8c\uc784"
+    }, 
+    "Mod": {
+        "message": "Mod"
+    }, 
+    "Mode": {
+        "message": "\ubaa8\ub4dc"
+    }, 
+    "Mods": {
+        "message": "Mods"
+    }, 
+    "Multiplayer": {
+        "message": "\uba40\ud2f0\ud50c\ub808\uc774\uc5b4"
+    }, 
+    "No max": {
+        "message": "No max"
+    }, 
+    "No min": {
+        "message": "No min"
+    }, 
+    "Number of Planets": {
+        "message": "\ud589\uc131\uc758 \uc218"
+    }, 
+    "Number of Players": {
+        "message": "\ud50c\ub808\uc774\uc5b4\uc758 \uc218"
+    }, 
+    "Password": {
+        "message": "\uc554\ud638"
+    }, 
+    "Planets": {
+        "message": "\ud589\uc131\ub4e4"
+    }, 
+    "Players": {
+        "message": "\uc0ac\uc6a9\uc790"
+    }, 
+    "Region": {
+        "message": "\uc9c0\uc5ed"
+    }, 
+    "Slots": {
+        "message": "\uc790\ub9ac"
+    }, 
+    "Spectate": {
+        "message": "\uad00\uc804\ud558\uae30"
+    }, 
+    "Spectators": {
+        "message": "\uad6c\uacbd\uafbc"
+    }, 
+    "Status": {
+        "message": "\uc0c1\ud0dc"
+    }, 
+    "Tag": {
+        "message": "\ud0dc\uadf8"
+    }, 
+    "Team Armies": {
+        "message": "\ud300\uc804"
+    }, 
+    "Testing": {
+        "message": "Testing"
+    }
+}

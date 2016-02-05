@@ -1,0 +1,26 @@
+{
+    "CONNECTION TO SERVER FAILED": {
+        "message": "\u041d\u0415\u0412\u0414\u0410\u041b\u041e\u0421\u042f \u0417'\u0404\u0414\u041d\u0410\u0422\u0418\u0421\u042f"
+    }, 
+    "CONNECTION TO SERVER LOST": {
+        "message": "\u0417'\u0404\u0414\u041d\u0410\u041d\u041d\u042f \u0417 \u0421\u0415\u0420\u0412\u0415\u0420\u041e\u041c \u0412\u0422\u0420\u0410\u0427\u0415\u041d\u0415"
+    }, 
+    "FAILED TO JOIN GAME": {
+        "message": "\u041d\u0415\u0412\u0414\u0410\u041b\u041e\u0421\u042f \u0423\u0412\u0406\u0419\u0422\u0418"
+    }, 
+    "FAILED TO START GAME": {
+        "message": "\u041d\u0415 \u0412\u0414\u0410\u041b\u041e\u0421\u042f \u041f\u041e\u0427\u0410\u0422\u0418 \u0413\u0420\u0423"
+    }, 
+    "FAILED TO START REPLAY": {
+        "message": "FAILED TO START REPLAY"
+    }, 
+    "LOGIN ACCEPTED": {
+        "message": "\u0423\u0421\u041f\u0406\u0428\u041d\u0418\u0419 \u0412\u0425\u0406\u0414"
+    }, 
+    "LOGIN TO SERVER REJECTED": {
+        "message": "\u0412\u0406\u0414\u041c\u041e\u0412\u0410 \u0412 \u0414\u041e\u0421\u0422\u0423\u041f\u0406 \u0414\u041e \u0421\u0415\u0420\u0412\u0415\u0420\u0423"
+    }, 
+    "Returning to Main Menu": {
+        "message": "\u0414\u043e \u0433\u043e\u043b\u043e\u0432\u043d\u043e\u0433\u043e \u043c\u0435\u043d\u044e"
+    }
+}

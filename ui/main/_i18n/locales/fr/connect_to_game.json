@@ -1,0 +1,62 @@
+{
+    "ACCESS TO WORLD SIMULATION DENIED": {
+        "message": "ACCÈS À LA SIMULATION DE PLANÈTE REFUSÉ"
+    }, 
+    "ACCESSING WORLD SIMULATION": {
+        "message": "ACCÈS À LA SIMULATION DE PLANÈTE"
+    }, 
+    "ATTEMPTS REMAINING: __num_attempts_remaining__": {
+        "message": "ESSAIS RESTANTS : __num_attempts_remaining__"
+    }, 
+    "CONNECTING TO SERVER": {
+        "message": "CONNEXION AU SERVEUR"
+    }, 
+    "CONNECTION TO SERVER FAILED": {
+        "message": "ÉCHEC DE LA CONNEXION AU SERVEUR"
+    }, 
+    "CONNECTION TO SERVER LOST": {
+        "message": "PERTE DE LA CONNEXION AU SERVEUR"
+    }, 
+    "CREATING WORLD SIMULATION": {
+        "message": "CRÉATION DE LA SIMULATION DE PLANÈTE"
+    }, 
+    "FAILED TO GET PERMISSION": {
+        "message": "AUTORISATION REFUSÉE"
+    }, 
+    "FAILED TO JOIN GAME": {
+        "message": "IMPOSSIBLE DE REJOINDRE LA PARTIE"
+    }, 
+    "FAILED TO LOAD GAME": {
+        "message": "IMPOSSIBLE DE CHARGER LA PARTIE"
+    }, 
+    "FAILED TO START GAME": {
+        "message": "IMPOSSIBLE DE COMMENCER UNE PARTIE"
+    }, 
+    "FAILED TO START REPLAY": {
+        "message": "IMPOSSIBLE DE LANCER UN REPLAY"
+    }, 
+    "LOGIN ACCEPTED": {
+        "message": "IDENTIFICATION RECONNUE"
+    }, 
+    "LOGIN TO SERVER REJECTED": {
+        "message": "CONNEXION AU SERVEUR REFUSÉE"
+    }, 
+    "REQUESTING PERMISSION": {
+        "message": "DEMANDE D'AUTORISATION"
+    }, 
+    "Returning to Main Menu": {
+        "message": "Retour au menu principal"
+    }, 
+    "STARTING GAME": {
+        "message": "DÉBUT DE PARTIE"
+    }, 
+    "UNABLE TO ACCESS WORLD SIMULATION": {
+        "message": "IMPOSSIBLE D'ACCÉDER À LA SIMULATION DE PLANÈTE"
+    }, 
+    "WORLD SIMULATION WENT AWAY": {
+        "message": "LA SIMULATION DE PLANÈTE N'EST PLUS DISPONIBLE"
+    }, 
+    "You are starting an offline game, but your system does not meet the recommended specifications for offline play. Your gameplay experience may be negatively affected.": {
+        "message": "Vous commencez une partie hors ligne, mais votre système ne satisfait pas les conditions requises pour le jeu hors ligne. Votre expérience de jeu risque d'en pâtir."
+    }
+}

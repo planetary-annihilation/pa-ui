@@ -1,0 +1,110 @@
+{
+    "Accept": {
+        "message": "Kabul et"
+    }, 
+    "Appear Offline": {
+        "message": "\u00c7evrimd\u0131\u015f\u0131 g\u00f6z\u00fck\u00fcyor"
+    }, 
+    "Away": {
+        "message": "D\u0131\u015farda"
+    }, 
+    "Block": {
+        "message": "Engelle"
+    }, 
+    "CANCEL": {
+        "message": "\u0130PTAL"
+    }, 
+    "CHANGE": {
+        "message": "DE\u011e\u0130\u015eT\u0130R"
+    }, 
+    "Change Display Name": {
+        "message": "Ekran ismini de\u011fi\u015ftir?"
+    }, 
+    "Change your display name?": {
+        "message": "Ekran ismini de\u011fi\u015ftir?"
+    }, 
+    "Chat": {
+        "message": "Sohbet"
+    }, 
+    "Do Not Disturb": {
+        "message": "Rahats\u0131z etmeyin"
+    }, 
+    "Friends": {
+        "message": "ARKADA\u015eLAR"
+    }, 
+    "Ignore": {
+        "message": "Yok say"
+    }, 
+    "Invite to Chat": {
+        "message": "Sohbete Davet Et"
+    }, 
+    "Invite to game": {
+        "message": "Oyuna davet et"
+    }, 
+    "Join Game": {
+        "message": "Oyuna kat\u0131l"
+    }, 
+    "New Display Name:": {
+        "message": "Yeni Ekran Ad\u0131:"
+    }, 
+    "No pending notifications.": {
+        "message": "S\u0131rada olan bilgilendirmeler yok."
+    }, 
+    "Offline": {
+        "message": "\u00c7evrimd\u0131\u015f\u0131"
+    }, 
+    "Online": {
+        "message": "\u00c7evrimi\u00e7i"
+    }, 
+    "Pending Invite": {
+        "message": "Davet i\u015fleme al\u0131n\u0131yor"
+    }, 
+    "Recent": {
+        "message": "En yeni"
+    }, 
+    "Remove": {
+        "message": "\u00c7\u0131kar"
+    }, 
+    "Search Results": {
+        "message": "Arama Sonu\u00e7lar\u0131"
+    }, 
+    "Send Friend Request": {
+        "message": "Arkada\u015f \u0130ste\u011fi G\u00f6nder"
+    }, 
+    "Unblock": {
+        "message": "Engellemeyi kald\u0131r"
+    }, 
+    "Unfriend": {
+        "message": "Arkada\u015f olmayan"
+    }, 
+    "Users": {
+        "message": "Kullan\u0131c\u0131lar"
+    }, 
+    "[B]": {
+        "message": "[B]"
+    }, 
+    "[CHAT]": {
+        "message": "[SOHBET]"
+    }, 
+    "[F]": {
+        "message": "[F]"
+    }, 
+    "[I]": {
+        "message": "[I]"
+    }, 
+    "[REMOVE]": {
+        "message": "[\u00c7\u0131kar]"
+    }, 
+    "[Tags:": {
+        "message": "[Etiketler:"
+    }, 
+    "invited you to a game.": {
+        "message": "Seni bir oyuna davet etti."
+    }, 
+    "invited you to chat.": {
+        "message": "Seni bir oyuna davet etti."
+    }, 
+    "wants to be your friend.": {
+        "message": "arkada\u015f\u0131n\u0131z olmak istiyor."
+    }
+}

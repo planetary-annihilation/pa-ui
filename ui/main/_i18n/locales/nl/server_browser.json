@@ -1,0 +1,104 @@
+{
+    "AI Battle": {
+        "message": "AI Gevecht"
+    }, 
+    "Any": {
+        "message": "Elke"
+    }, 
+    "Can Join": {
+        "message": "Meedoen Mogelijk"
+    }, 
+    "Can Play": {
+        "message": "Spelen mogelijk"
+    }, 
+    "Can Spectate": {
+        "message": "Meekijken Mogelijk"
+    }, 
+    "Casual": {
+        "message": "Normaal"
+    }, 
+    "Competitive": {
+        "message": "Competitief"
+    }, 
+    "Create Game": {
+        "message": "Cre\u00eber spel"
+    }, 
+    "Free For All": {
+        "message": "Iedereen voor zichzelf"
+    }, 
+    "Game": {
+        "message": "Spel"
+    }, 
+    "Game State": {
+        "message": "Speltoestand"
+    }, 
+    "In Lobby": {
+        "message": "In de lobby"
+    }, 
+    "In Progress": {
+        "message": "Bezig"
+    }, 
+    "Join Game": {
+        "message": "Meedoen met spel"
+    }, 
+    "Locked Game": {
+        "message": "Besloten spel"
+    }, 
+    "Mod": {
+        "message": "Mod"
+    }, 
+    "Mode": {
+        "message": "Modus"
+    }, 
+    "Mods": {
+        "message": "Mods"
+    }, 
+    "Multiplayer": {
+        "message": "Multiplayer"
+    }, 
+    "No max": {
+        "message": "Geen max"
+    }, 
+    "No min": {
+        "message": "Geen min"
+    }, 
+    "Number of Planets": {
+        "message": "Aantal Planeten"
+    }, 
+    "Number of Players": {
+        "message": "Aantal Spelers"
+    }, 
+    "Password": {
+        "message": "Wachtwoord"
+    }, 
+    "Planets": {
+        "message": "Planeten"
+    }, 
+    "Players": {
+        "message": "Spelers"
+    }, 
+    "Region": {
+        "message": "Regio"
+    }, 
+    "Slots": {
+        "message": "Openingen"
+    }, 
+    "Spectate": {
+        "message": "Toeschouwen"
+    }, 
+    "Spectators": {
+        "message": "Toeschouwers"
+    }, 
+    "Status": {
+        "message": "Status"
+    }, 
+    "Tag": {
+        "message": "Tag"
+    }, 
+    "Team Armies": {
+        "message": "Teamlegers"
+    }, 
+    "Testing": {
+        "message": "Testen"
+    }
+}

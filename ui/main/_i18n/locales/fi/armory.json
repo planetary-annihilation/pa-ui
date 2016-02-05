@@ -1,0 +1,89 @@
+{
+    "Account Name:": {
+        "message": "Tunnuksen nimi:"
+    }, 
+    "Add To Cart": {
+        "message": "Add To Cart"
+    }, 
+    "Armory": {
+        "message": "Asevarasto"
+    }, 
+    "Badges": {
+        "message": "Merkit"
+    }, 
+    "CHECKOUT": {
+        "message": "CHECKOUT"
+    }, 
+    "Cancel": {
+        "message": "Peruuta"
+    }, 
+    "Cart": {
+        "message": "Ostoskori"
+    }, 
+    "Commanders": {
+        "message": "Komentajat"
+    }, 
+    "Confirmation code:": {
+        "message": "Varmistuskoodi:"
+    }, 
+    "Confirmation of your purchase is provided below.": {
+        "message": "Confirmation of your purchase is provided below."
+    }, 
+    "Continue Shopping": {
+        "message": "Jatka ostoksia"
+    }, 
+    "Credit applied:": {
+        "message": "Credit applied:"
+    }, 
+    "Designed in collaboration with": {
+        "message": "Designed in collaboration with"
+    }, 
+    "Go to Main Menu": {
+        "message": "Palaa P\u00e4\u00e4valikkoon"
+    }, 
+    "Here's your receipt.": {
+        "message": "Here's your receipt."
+    }, 
+    "Item": {
+        "message": "Item"
+    }, 
+    "Item is already in cart.": {
+        "message": "Item is already in cart."
+    }, 
+    "Kickstarter Backer": {
+        "message": "Kickstarter-tukija"
+    }, 
+    "Price": {
+        "message": "Hinta"
+    }, 
+    "REMOVE": {
+        "message": "POISTA"
+    }, 
+    "Redeem": {
+        "message": "Sy\u00f6t\u00e4 koodi"
+    }, 
+    "Refresh": {
+        "message": "Refresh"
+    }, 
+    "Return to Armory": {
+        "message": "Palaa Asevarastoon"
+    }, 
+    "Set As Default Commander": {
+        "message": "Aseta oletuskomentajaksi"
+    }, 
+    "Thank you for your purchase.": {
+        "message": "Thank you for your purchase."
+    }, 
+    "Total:": {
+        "message": "Yhteens\u00e4:"
+    }, 
+    "Updating...": {
+        "message": "P\u00e4ivitet\u00e4\u00e4n..."
+    }, 
+    "Your cart is empty.": {
+        "message": "Ostoskorisi on tyhj\u00e4."
+    }, 
+    "Your purchased items are now registered to your account and are accessible in the game.": {
+        "message": "Your purchased items are now registered to your account and are accessible in the game."
+    }
+}

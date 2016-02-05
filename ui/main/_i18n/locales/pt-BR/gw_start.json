@@ -1,0 +1,119 @@
+{
+    "ABSURD": {
+        "message": "ABSURDO"
+    }, 
+    "Active Wars": {
+        "message": "Guerras ativas"
+    }, 
+    "Annihilate enemies on claimed systems to collect their Tech.": {
+        "message": "Aniquile inimigos em sistemas reivindicados para coletar as suas tecnologias."
+    }, 
+    "Annihilated": {
+        "message": "Aniquilado"
+    }, 
+    "Annihilation is final.": {
+        "message": "A aniquila\u00e7\u00e3o \u00e9 final."
+    }, 
+    "Archived Wars": {
+        "message": "Guerras arquivadas"
+    }, 
+    "Choose a loadout to give your Commander different starting Tech configurations.": {
+        "message": "Escolha um carregamento, a fim de conferir ao seu comandante diferentes configura\u00e7\u00f5es iniciais de tecnologia."
+    }, 
+    "Commander": {
+        "message": "Comandante"
+    }, 
+    "Details": {
+        "message": "Detalhes"
+    }, 
+    "Difficulty:": {
+        "message": "Dificuldade:"
+    }, 
+    "EPIC": {
+        "message": "\u00c9PICO"
+    }, 
+    "Explore unclaimed systems to recover Tech.": {
+        "message": "Explore sistemas n\u00e3o reivindicados para recuperar tecnologias."
+    }, 
+    "Faction": {
+        "message": "Fac\u00e7\u00e3o"
+    }, 
+    "Go to War": {
+        "message": "Ir para a guerra"
+    }, 
+    "HARD": {
+        "message": "DIF\u00cdCIL"
+    }, 
+    "How to Play": {
+        "message": "Como jogar"
+    }, 
+    "LARGE": {
+        "message": "GRANDE"
+    }, 
+    "LOCKED": {
+        "message": "TRANCADO"
+    }, 
+    "Loadout": {
+        "message": "Loadout"
+    }, 
+    "MEDIUM": {
+        "message": "M\u00c9DIO"
+    }, 
+    "Move from star system to star system collecting Techs. Use those Techs to defeat the enemy faction leaders and conquer the galaxy!": {
+        "message": "Mova-se de um sistema estelar para outro e colete tecnologias. Empregue essas tecnologias para derrotar os l\u00edderes das fac\u00e7\u00f5es inimigas e conquiste a gal\u00e1xia!"
+    }, 
+    "NORMAL": {
+        "message": "NORMAL"
+    }, 
+    "Name": {
+        "message": "Nome"
+    }, 
+    "Navigate the galaxy map by jumping from system to system.": {
+        "message": "Navegue pelo mapa da gal\u00e1xia saltando de um sistema para outro."
+    }, 
+    "New Data Banks to store Techs can be found by exploring systems.": {
+        "message": "Novos bancos de dados para armazenar tecnologias podem ser encontrados por meio da explora\u00e7\u00e3o de sistemas."
+    }, 
+    "New War": {
+        "message": "Nova guerra"
+    }, 
+    "RELENTLESS": {
+        "message": "IMPLAC\u00c1VEL"
+    }, 
+    "SMALL": {
+        "message": "PEQUENO"
+    }, 
+    "Seed Value": {
+        "message": "Valor gerativo"
+    }, 
+    "Setup": {
+        "message": "Setup"
+    }, 
+    "Size:": {
+        "message": "Tamanho:"
+    }, 
+    "Some systems have hidden Commander loadouts. Recover them for future Galactic Wars.": {
+        "message": "Alguns sistemas t\u00eam carregamentos de comandante ocultos. Recupere-os para futuras guerras gal\u00e1cticas."
+    }, 
+    "Tech can be deleted to make room for new ones to download. Deleted and rejected Techs are lost for the remainder of the Galactic War.": {
+        "message": "\u00c9 poss\u00edvel excluir tecnologias antigas, a fim de dar espa\u00e7o a novas tecnologias para baixar. Tecnologias exclu\u00eddas e rejeitadas desaparecem para os remanescentes da guerra gal\u00e1ctica."
+    }, 
+    "Tip:": {
+        "message": "Dica:"
+    }, 
+    "Tips": {
+        "message": "Dicas"
+    }, 
+    "Turns:": {
+        "message": "Turnos:"
+    }, 
+    "UBER": {
+        "message": "UBER"
+    }, 
+    "Victory": {
+        "message": "VIt\u00f3ria"
+    }, 
+    "Wins:": {
+        "message": "Vit\u00f3rias:"
+    }
+}

@@ -1,0 +1,104 @@
+{
+    "APPROVE": {
+        "message": "APPROVA"
+    }, 
+    "APPROVED USERS": {
+        "message": "UTENTI APPROVATI"
+    }, 
+    "Add": {
+        "message": "Aggiungi"
+    }, 
+    "Add Contacts": {
+        "message": "Aggiungi contatti"
+    }, 
+    "Add a Friend": {
+        "message": "Aggiungi un amico"
+    }, 
+    "BLOCK": {
+        "message": "BLOCCA"
+    }, 
+    "BLOCKED USERS": {
+        "message": "UTENTI BLOCCATI"
+    }, 
+    "Cancel": {
+        "message": "Annulla"
+    }, 
+    "Close": {
+        "message": "Chiudi"
+    }, 
+    "Contact List Updated": {
+        "message": "Elenco contatti aggiornato"
+    }, 
+    "Contact Not Found": {
+        "message": "Contatto non trovato"
+    }, 
+    "Current Nickname:": {
+        "message": "Soprannome attuale:"
+    }, 
+    "Dismiss": {
+        "message": "Accantona"
+    }, 
+    "Filter contacts by tag:": {
+        "message": "Filtra i contatti per tag:"
+    }, 
+    "Games you make will be hidden to these players.": {
+        "message": "Questi utenti non potranno vedere le tue partite."
+    }, 
+    "Name:": {
+        "message": "Nome: "
+    }, 
+    "New Nickname:": {
+        "message": "Nuovo soprannome: "
+    }, 
+    "New Tag:": {
+        "message": "Nuova tag: "
+    }, 
+    "Players you have encountered recently.": {
+        "message": "Giocatori incontrati di recente."
+    }, 
+    "Private games you make will only be visible to these players.": {
+        "message": "Solo questi giocatori potranno vedere le tue partite private."
+    }, 
+    "RECENT": {
+        "message": "RECENTI"
+    }, 
+    "REMOVE": {
+        "message": "RIMUOVI"
+    }, 
+    "RENAME": {
+        "message": "RINOMINA"
+    }, 
+    "Refresh Contacts": {
+        "message": "Aggiorna contatti"
+    }, 
+    "Refreshing friends list.....": {
+        "message": "Aggiornamento lista amici in corso..."
+    }, 
+    "Rename": {
+        "message": "Rinomina"
+    }, 
+    "Rename Friend": {
+        "message": "Rinomina amico"
+    }, 
+    "SOCIAL": {
+        "message": "SOCIAL"
+    }, 
+    "Tag": {
+        "message": "Tag"
+    }, 
+    "Tag Friend:": {
+        "message": "Tagga amico: "
+    }, 
+    "Tags:": {
+        "message": "Tag: "
+    }, 
+    "UBERDEX": {
+        "message": "UBERDEX"
+    }, 
+    "Uber Name": {
+        "message": "Nome Uber"
+    }, 
+    "or": {
+        "message": "o"
+    }
+}

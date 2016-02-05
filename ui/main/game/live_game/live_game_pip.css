@@ -1,0 +1,60 @@
+.body_panel {
+    height:200px;
+    width:200px;
+    white-space: nowrap;
+    display: flex;
+}
+
+/*----- PIP
+-----------------------------------------------------------------*/
+
+.btn_pip {
+    height: 32px;
+    width: 32px;
+    border: 1px solid rgba(255,255,255,.5);
+    margin: 4px 1px 0px;
+    opacity: .95;
+    z-index: 1;
+}
+
+    .btn_pip.enabled {
+        border: 1px solid rgba(0,179,255,1);
+        background-color:#1e7aa1;
+        opacity: 1;
+    }
+
+    .btn_pip:hover {
+        background-color:#1e7aa1;
+        opacity: 1;
+    }
+
+    .btn_pip:active {
+        background-color:#00b3ff;
+        opacity: 1;
+    }
+
+.btn_pip_swap {
+    background: url(img/pip/btn_pip_swap.png) center center no-repeat #000;
+    margin-left:4px;
+    
+}
+
+.btn_pip_copy {
+    background: url(img/pip/btn_pip_copy.png) center center no-repeat #000;
+}
+
+.btn_pip_alert {
+    background: url(img/pip/btn_pip_alert.png) center center no-repeat #000;
+    margin-left:4px;
+}
+
+.btn_pip_mirror {
+    background: url(img/pip/btn_pip_mirror.png) center center no-repeat #000;
+}
+
+
+.btn_pip_close {
+    background: url(img/pip/btn_pip_close.png) center center no-repeat #000;
+    float: right;
+    margin-right: 4px;
+}

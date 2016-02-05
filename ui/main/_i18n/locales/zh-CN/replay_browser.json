@@ -1,0 +1,68 @@
+{
+    "(+ __aiCount__ AI)": {
+        "message": "(+ __aiCount__ AI)"
+    }, 
+    "(Updating...)": {
+        "message": "\uff08\u6b63\u5728\u66f4\u65b0\uff09"
+    }, 
+    "(no info available)": {
+        "message": "\uff08\u65e0\u53ef\u7528\u4fe1\u606f\uff09"
+    }, 
+    "All Recent Games": {
+        "message": "\u6240\u6709\u6700\u8fd1\u7684\u6e38\u620f"
+    }, 
+    "BuildVersion": {
+        "message": "BuildVersion"
+    }, 
+    "Duration": {
+        "message": "\u7528\u65f6"
+    }, 
+    "FAILED TO RETRIEVE REPLAY LIST": {
+        "message": "\u65e0\u6cd5\u83b7\u53d6\u56de\u653e\u5217\u8868"
+    }, 
+    "Game": {
+        "message": "\u6e38\u620f"
+    }, 
+    "Highest Rated (TBD)": {
+        "message": "\u8bc4\u4ef7\u6700\u9ad8"
+    }, 
+    "Lobby Id": {
+        "message": "\u5927\u5385ID"
+    }, 
+    "Longest Game Duration": {
+        "message": "\u6700\u957f\u6e38\u620f\u7528\u65f6"
+    }, 
+    "Most Recent": {
+        "message": "\u6700\u65b0"
+    }, 
+    "Most Viewed (TBD)": {
+        "message": "\u89c2\u770b\u6700\u591a"
+    }, 
+    "My Games Only": {
+        "message": "\u6211\u7684"
+    }, 
+    "Replays": {
+        "message": "\u56de\u653e"
+    }, 
+    "Returning to Main Menu": {
+        "message": "\u8fd4\u56de\u4e3b\u83dc\u5355"
+    }, 
+    "Search": {
+        "message": "\u641c\u7d22"
+    }, 
+    "Sorted By": {
+        "message": "\u6392\u5e8f"
+    }, 
+    "View": {
+        "message": "\u67e5\u770b"
+    }, 
+    "Watch Direct Lobby Id:": {
+        "message": "\u6309\u5927\u5385ID\u67e5\u770b"
+    }, 
+    "Watch Replay": {
+        "message": "\u89c2\u770b\u56de\u653e"
+    }, 
+    "__gwClientNames__: Galactic War \"__gwWarName__\" (turn __gwTurn__, __gwSystemName__), vs. __gwAiArmies__": {
+        "message": "__gwClientNames__: \u94f6\u6cb3\u6218\u4e89\uff1a \"__gwWarName__\" (\u7b2c __gwTurn__ \u56de\u5408, __gwSystemName__), vs. __gwAiArmies__"
+    }
+}

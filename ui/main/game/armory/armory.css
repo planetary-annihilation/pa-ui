@@ -1,0 +1,437 @@
+﻿.disabled {
+    opacity: 0.5;
+}
+
+.wrapper.tab-content {
+    width: 100%;
+    position: relative;
+}
+
+#expansion, #commanders, #badges {
+    overflow-x: hidden;
+    overflow-y: scroll;
+    height: 100%;
+}
+
+.one-commander {
+    width: 234px;
+    float: left;
+    margin: 10px 10px;
+    padding: 0px 0px;
+    position: relative;
+    border: 1px solid rgba(20, 122, 161, 0.5);
+    border-top-width: 40px;
+    box-shadow: 0px 0px 50px rgba(0, 179, 255, 0.1);
+    display: flex;
+    flex-direction: column;
+    -webkit-animation: fadeout;
+    -webkit-transition: .3s ease-out;
+}
+
+    .one-commander:hover {
+        color: #FFFFFF;
+        text-shadow: 0px 0px 10px #FFFFFF;
+        border-color: #00B3FF;
+        box-shadow: 0px 0px 50px rgba(0, 179, 255, 0.5);
+        -webkit-animation: none;
+        -webkit-transition: none;
+        /* This is a workaround for a "rare Chromium bug" with CoherentUI v2.5.7.1
+         * that caused the commanders in the armory to never revert from the :hover style.
+         * It was suggested by Coherent support in issue #12182.
+         *  - jorgenpt@2015-06-12
+         */
+        -webkit-transform: translateZ(0);
+    }
+
+    .one-commander:active {
+        color: #FFFFFF;
+        text-shadow: 0px 0px 10px #FFFFFF;
+        background: #00B3FF;
+        border-color: #00B3FF;
+        box-shadow: 0px 0px 50px rgba(0, 179, 255, 1);
+    }
+
+.one_commander_selected {
+    width: 234px;
+    float: left;
+    margin: 10px 10px;
+    padding: 0px 0px;
+    position: relative;
+    border: 1px solid rgba(20, 122, 161, 0.5);
+    border-top-width: 40px;
+    box-shadow: 0px 0px 50px rgba(0, 179, 255, 0.1);
+    display: flex;
+    flex-direction: column;
+    background: #1E7AA1;
+    border-color: #00B3FF;
+    box-shadow: inset 0px 0px 10px #00B3FF;
+}
+
+
+@-webkit-keyframes fadeout {
+    to {
+        background: #1E7AA1;
+        border-color: #00B3FF;
+        color: #fff;
+        text-shadow: 0px 0px 10px rgba(255,255,255,.5);
+    }
+
+    from {
+        background: none;
+        border-color: transparent;
+        box-shadow: none;
+        color: inherit;
+        text-shadow: inherit;
+    }
+}
+
+
+
+
+.one-commander img.icon {
+    height: 230px;
+    width: 230px;
+}
+
+.commander-title-grp {
+    position: relative;
+    margin-top: -40px;
+}
+
+.commander-title {
+    font-family: "Sansation Bold";
+    font-size: 20px;
+    background: rgba(0, 179, 255, 0.2);
+    color: rgb(0, 179, 255);
+    text-shadow: 0px 0px 20px rgb(0, 179, 255);
+    color: rgb(255, 255, 255);
+    padding: 0px 8px;
+}
+
+.commander-thumb {
+    height: 280px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+}
+
+#badge-list {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.one-badge {
+    height: 60px;
+    width: 300px;
+    margin: 12px 0px 12px 12px;
+    font-family: 'Sansation Bold';
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+    text-shadow: 0px 0px 20px rgb(0, 179, 255);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    box-shadow: 0px 0px 30px rgba(0, 179, 255, 0.2);
+    position: relative;
+    flex-shrink: 0;
+}
+
+.one-badge-cont {
+    height: 100%;
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #000;
+    box-shadow: inset 0px 0px 80px rgba(255, 255, 255, 0.1);
+    display: flex;
+    align-content: center;
+    align-items: center;
+}
+
+    .one-badge-cont > div {
+        line-height: 1;
+    }
+
+.one-badge img.icon {
+    height: 32px;
+    width: 32px;
+    margin: 0px 10px 0px 0px;
+    z-index: 1;
+    flex-shrink: 0;
+}
+
+.commander-selected {
+    position: absolute;
+    top: 4px;
+    right: 6px;
+    color: #fff;
+    font-size: 28px;
+    text-shadow: 0px 0px 30px #fff;
+}
+
+.commander-owned {
+    position: absolute;
+    top: 10px;
+    left: 1px;
+    color: white;
+}
+
+.lbl_commander_ks_credit {
+    width: 100%;
+    font-size: 11px;
+    color: rgb(43, 222, 115);
+    text-align: left;
+    text-shadow: none;
+    line-height: 1.3;
+    margin: 10px 0px 0px 8px;
+    position: absolute;
+}
+
+.lbl_ks_username {
+    color: #2BDE73;
+}
+
+/* CART STYLES */
+.div_cart_cont {
+    width: 800px;
+    margin: 0px auto;
+}
+
+.tbl_cart {
+    height: 100%;
+    width: 100%;
+    text-align: left;
+    font-size: 16px;
+}
+
+.tbl_cart_header {
+    font-size: 13px;
+    color: #a4a4a4;
+    border-bottom: 1px solid #333333;
+    text-transform: uppercase;
+    text-shadow: none;
+}
+
+td.item {
+    padding: 8px 0px;
+}
+
+.btn_remove_item {
+    font-size: 13px;
+    margin: 0px 16px 8px 0px;
+}
+
+.product_title {
+}
+
+.product_price {
+}
+
+.footer_subtotal {
+    text-align: right;
+    font-weight: bold;
+    border-top: 1px solid #333333;
+}
+
+.lbl_subtotal {
+    margin: 0px 8px 0px 0px;
+}
+
+.div_cart_commit_btns {
+    height: 80px;
+    border-top: 1px solid #333333;
+    padding: 8px 0px 0px 0px;
+    margin: 16px 0px 0px 0px;
+}
+
+#header-message {
+    font-size: 18px;
+    font-family: "Sansation Bold";
+    text-align: center;
+    background: #0D0D0D;
+    z-index: 2;
+}
+
+/* IFRAME POPOUT */
+
+.div_popup_iframe_cont {
+    height: 720px;
+    width: 1000px;
+    position: absolute;
+    margin-top: -360px;
+    margin-left: -500px;
+    margin: -360px 0px 0px -500px;
+    top: 50%;
+    left: 50%;
+    text-align: left;
+}
+
+.div_popup_iframe {
+    width: 100%;
+    text-align: right;
+}
+
+.header_iframe {
+    height: 50px;
+}
+
+.div_panel_cont {
+    height: 520px;
+    width: 980px;
+    background: black;
+    border: 0;
+    position: absolute;
+    top: 50%;
+    margin-top: -285px;
+    left: 50%;
+    margin-left: -450px;
+    z-index: 1000;
+    border: 1px solid #1e7aa1;
+    box-shadow: 0px 0px 100px rgba(30,122,161,.5);
+}
+
+.overlay_bground {
+    height: 100%;
+    width: 100%;
+    background: rgba(0,0,0,.8);
+    z-index: 10000;
+    position: absolute;
+    top: 0px;
+}
+
+#overlay {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+
+.div_close_panel {
+    position: absolute;
+    bottom: -50px;
+    right: 0px;
+    margin: 0px -6px 0px 0px;
+}
+
+.div_price {
+    float: right;
+    margin: 0px 0px 0px 0px;
+}
+
+.lbl_price {
+    font-family: 'Sansation Bold';
+    font-size: 16px;
+    text-align: center;
+    display: block;
+    padding: 4px 6px;
+    background: green;
+    color: #fff;
+    border: 1px solid #0f0;
+}
+
+    .lbl_price.titan {
+        display: inline-block;
+        background: #181818;
+        border: 1px solid #444;
+        color: #0F0;
+        font-size: 27px;
+        margin: 6px 0 0 0;
+        padding: 4px 16px;
+    }
+
+.lbl_owned, .lbl_locked {
+    font-family: 'Sansation Bold';
+    font-size: 16px;
+    display: block;
+    padding: 4px 6px;
+    background: #333;
+    color: #999;
+    border: 1px solid #4B4B4B;
+    font-weight: normal;
+    text-shadow: none;
+}
+
+.lbl_original_price {
+    font-family: 'Sansation Bold';
+    font-size: 16px;
+    display: block;
+    padding: 4px 6px;
+    background: none;
+    color: #999;
+    border: 1px solid transparent;
+    font-weight: normal;
+    text-decoration: line-through;
+}
+
+#expansion {
+    line-height: 1.3;
+}
+
+#titan_content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+    #titan_content > .wrapper {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 660px;
+    }
+
+#feature {
+    display: flex;
+    flex-direction: row;
+}
+
+#description {
+    color: #D2FFFD;
+    font-size: 14px;
+    margin: 14px 0 0 0;
+}
+
+    #description b {
+        color: #61E6FF;
+    }
+
+    #description ul {
+        margin: 10px 0 0 0;
+    }
+
+#desc_columns {
+    display: flex;
+    flex-direction: row;
+}
+
+    #desc_columns > .main {
+        width: 500px;
+        padding: 0 24px 0 0;
+    }
+
+    #desc_columns > .sidebar {
+        display: block;
+        padding: 0 24px 0 0;
+        margin: 0px 0 0 16px;
+    }
+
+.headline {
+    font-size: 32px;
+    font-family: 'Sansation Bold';
+    text-transform: uppercase;
+    text-shadow: 0px 0px 30px #00B3FF;
+    margin: 4px 0px 0px 0px;
+    display: flex;
+    line-height: auto;
+}
+
+    .headline.small {
+        font-size: 24px;
+    }
+
+    .headline.xsmall {
+        font-size: 16px;
+    }
+
+    video::-webkit-media-controls-fullscreen-button {
+    display: none;
+}

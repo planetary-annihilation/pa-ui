@@ -1,0 +1,113 @@
+{
+    "1 day ago": {
+        "message": "1 day ago"
+    }, 
+    "1 hour ago": {
+        "message": "1 hour ago"
+    }, 
+    "1 minute ago": {
+        "message": "1 minute ago"
+    }, 
+    "1 second ago": {
+        "message": "1 second ago"
+    }, 
+    "1 week ago": {
+        "message": "1 week ago"
+    }, 
+    "Bronze": {
+        "message": "Bronze"
+    }, 
+    "Failed to load this leaderboard level.": {
+        "message": "Failed to load this leaderboard level."
+    }, 
+    "Gold": {
+        "message": "Gold"
+    }, 
+    "Inactive": {
+        "message": "Inactive"
+    }, 
+    "Just now": {
+        "message": "Just now"
+    }, 
+    "Last Match Played": {
+        "message": "Last Match Played"
+    }, 
+    "Leaderboards": {
+        "message": "Leaderboards"
+    }, 
+    "Level rank": {
+        "message": "Level rank"
+    }, 
+    "Loading Leaderboard": {
+        "message": "Loading Leaderboard"
+    }, 
+    "Match games played": {
+        "message": "Match games played"
+    }, 
+    "No ranked players at this level.": {
+        "message": "No ranked players at this level."
+    }, 
+    "No recent matches played.": {
+        "message": "No recent matches played."
+    }, 
+    "One ranked player at this level.": {
+        "message": "One ranked player at this level."
+    }, 
+    "Platinum": {
+        "message": "Platinum"
+    }, 
+    "Play ranked match": {
+        "message": "Play ranked match"
+    }, 
+    "Player": {
+        "message": "Player"
+    }, 
+    "Provisional": {
+        "message": "Provisional"
+    }, 
+    "Rank": {
+        "message": "Rank"
+    }, 
+    "Rank pending until enough match games are played.": {
+        "message": "Rank pending until enough match games are played."
+    }, 
+    "Silver": {
+        "message": "Silver"
+    }, 
+    "This leaderboard level is currently empty.": {
+        "message": "This leaderboard level is currently empty."
+    }, 
+    "Uber": {
+        "message": "Uber"
+    }, 
+    "Unknown": {
+        "message": "Unknown"
+    }, 
+    "Unranked": {
+        "message": "Unranked"
+    }, 
+    "Watch Replay": {
+        "message": "Watch Replay"
+    }, 
+    "Your rank": {
+        "message": "Your rank"
+    }, 
+    "__n__ days ago": {
+        "message": "__n__ days ago"
+    }, 
+    "__n__ hours ago": {
+        "message": "__n__ hours ago"
+    }, 
+    "__n__ minutes ago": {
+        "message": "__n__ minutes ago"
+    }, 
+    "__n__ seconds ago": {
+        "message": "__n__ seconds ago"
+    }, 
+    "__n__ weeks ago": {
+        "message": "__n__ weeks ago"
+    }, 
+    "__num_players__ ranked players at this level.": {
+        "message": "__num_players__ ranked players at this level."
+    }
+}

@@ -1,0 +1,74 @@
+{
+    "Annihilated": {
+        "message": "\u0202\u019e\u019e\u0457\u043d\u0457\u230a\u0203\u04ad\u1f73\u0257", 
+        "original": "Annihilated"
+    }, 
+    "Are you sure you want to abandon this Galactic War?": {
+        "message": "\u0202\u0213\u1f73 \u0443\u020f\u0574 \u01a8\u0574\u0213\u1f73 \u0443\u020f\u0574 \u1ff4\u0203\u019e\u04ad \u04ad\u020f \u0203\u0411\u0203\u019e\u0257\u020f\u019e \u04ad\u043d\u0457\u01a8 \u01f4\u0203\u230a\u0203\u03f2\u04ad\u0457\u03f2 \u20a9\u0203\u0213?", 
+        "original": "Are you sure you want to abandon this Galactic War?"
+    }, 
+    "Close": {
+        "message": "\u04aa\u230a\u020f\u01a8\u1f73", 
+        "original": "Close"
+    }, 
+    "Congratulations Commander": {
+        "message": "\u04aa\u020f\u019e\u0260\u0213\u0203\u04ad\u0574\u230a\u0203\u04ad\u0457\u020f\u019e\u01a8 \u04aa\u020f\u028d\u028d\u0203\u019e\u0257\u1f73\u0213", 
+        "original": "Congratulations Commander"
+    }, 
+    "Delete War": {
+        "message": "\u0189\u1f73\u230a\u1f73\u04ad\u1f73 \u20a9\u0203\u0213", 
+        "original": "Delete War"
+    }, 
+    "Discards": {
+        "message": "\u0189\u0457\u01a8\u03f2\u0203\u0213\u0257\u01a8", 
+        "original": "Discards"
+    }, 
+    "Final Tech": {
+        "message": "\u03dc\u0457\u019e\u0203\u230a \u4e01\u1f73\u03f2\u043d", 
+        "original": "Final Tech"
+    }, 
+    "GO TO MAIN MENU": {
+        "message": "\u01f4\u0472 \u4e01\u0472 \u039c\u0202\u03aa\u019d \u039c\u0190\u019d\u1ee6", 
+        "original": "GO TO MAIN MENU"
+    }, 
+    "Now go start a war. Annihilate everything.": {
+        "message": "\u019d\u020f\u1ff4 \u0260\u020f \u01a8\u04ad\u0203\u0213\u04ad \u0203 \u1ff4\u0203\u0213. \u0202\u019e\u019e\u0457\u043d\u0457\u230a\u0203\u04ad\u1f73 \u1f73\u0477\u1f73\u0213\u0443\u04ad\u043d\u0457\u019e\u0260.", 
+        "original": "Now go start a war. Annihilate everything."
+    }, 
+    "Please try again. There's still much to destroy.": {
+        "message": "\u1e54\u230a\u1f73\u0203\u01a8\u1f73 \u04ad\u0213\u0443 \u0203\u0260\u0203\u0457\u019e. \u4e01\u043d\u1f73\u0213\u1f73'\u01a8 \u01a8\u04ad\u0457\u230a\u230a \u028d\u0574\u03f2\u043d \u04ad\u020f \u0257\u1f73\u01a8\u04ad\u0213\u020f\u0443.", 
+        "original": "Please try again. There's still much to destroy."
+    }, 
+    "Redo Tutorial": {
+        "message": "\u211d\u1f73\u0257\u020f \u4e01\u0574\u04ad\u020f\u0213\u0457\u0203\u230a", 
+        "original": "Redo Tutorial"
+    }, 
+    "Start A Galactic War": {
+        "message": "\u1e60\u04ad\u0203\u0213\u04ad \u0202 \u01f4\u0203\u230a\u0203\u03f2\u04ad\u0457\u03f2 \u20a9\u0203\u0213", 
+        "original": "Start A Galactic War"
+    }, 
+    "Training Remains": {
+        "message": "\u4e01\u0213\u0203\u0457\u019e\u0457\u019e\u0260 \u211d\u1f73\u028d\u0203\u0457\u019e\u01a8", 
+        "original": "Training Remains"
+    }, 
+    "Turns:": {
+        "message": "\u4e01\u0574\u0213\u019e\u01a8:", 
+        "original": "Turns:"
+    }, 
+    "Tutorial Complete": {
+        "message": "\u4e01\u0574\u04ad\u020f\u0213\u0457\u0203\u230a \u04aa\u020f\u028d\u2374\u230a\u1f73\u04ad\u1f73", 
+        "original": "Tutorial Complete"
+    }, 
+    "Tutorial Incomplete": {
+        "message": "\u4e01\u0574\u04ad\u020f\u0213\u0457\u0203\u230a \u03aa\u019e\u03f2\u020f\u028d\u2374\u230a\u1f73\u04ad\u1f73", 
+        "original": "Tutorial Incomplete"
+    }, 
+    "Victory": {
+        "message": "\u0476\u0457\u03f2\u04ad\u020f\u0213\u0443", 
+        "original": "Victory"
+    }, 
+    "Wins:": {
+        "message": "\u20a9\u0457\u019e\u01a8:", 
+        "original": "Wins:"
+    }
+}

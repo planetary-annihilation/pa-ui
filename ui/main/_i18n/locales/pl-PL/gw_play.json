@@ -1,0 +1,92 @@
+{
+    "AI:": {
+        "message": "SI:"
+    }, 
+    "Abandon War": {
+        "message": "Zrezygnuj z wojny"
+    }, 
+    "All progress and Tech will be lost.": {
+        "message": "Ca\u0142y post\u0119p i technologie zostan\u0105 utracone."
+    }, 
+    "Are you sure you want to abandon this Galactic War?": {
+        "message": "Czy na pewno chcesz opu\u015bci\u0107 wojn\u0119?"
+    }, 
+    "Card:": {
+        "message": "Karta:"
+    }, 
+    "Data Banks Full": {
+        "message": "Banki danych sa pelne"
+    }, 
+    "Date:": {
+        "message": "Data:"
+    }, 
+    "Delete Tech": {
+        "message": "Usu\u0144 technologi\u0119"
+    }, 
+    "Dismiss": {
+        "message": "Odwo\u0142aj"
+    }, 
+    "Download Tech": {
+        "message": "Pobierz technologi\u0119"
+    }, 
+    "Duplicate Tech": {
+        "message": "Zduplikuj technologie"
+    }, 
+    "Exit": {
+        "message": "Wyj\u015bcie"
+    }, 
+    "Explore": {
+        "message": "Przebadaj"
+    }, 
+    "Fight": {
+        "message": "Walcz"
+    }, 
+    "Give tech": {
+        "message": "Przeka\u017c technologi\u0119"
+    }, 
+    "History:": {
+        "message": "Historia"
+    }, 
+    "Jump": {
+        "message": "Skok"
+    }, 
+    "Load game": {
+        "message": "Wczytaj gr\u0119"
+    }, 
+    "Preparing for battle": {
+        "message": "Przygotowanie do bitwy"
+    }, 
+    "Record:": {
+        "message": "Zapis:"
+    }, 
+    "Reject Tech": {
+        "message": "Odrzu\u0107 technologi\u0119"
+    }, 
+    "Save": {
+        "message": "Zapisz"
+    }, 
+    "Scanning System": {
+        "message": "Skanowanie systemu"
+    }, 
+    "Settings": {
+        "message": "Ustawienia"
+    }, 
+    "TECHS": {
+        "message": "TECHNOLOGIE"
+    }, 
+    "To download, open a data bank by deleting an undesired tech.": {
+        "message": "\u017beby pobra\u0107, otw\u00f3rz bank danych, usuwaj\u0105c niepotrzebn\u0105 technologi\u0119."
+    }, 
+    "Turn State:": {
+        "message": "Faza tury:"
+    }, 
+    "Unlock Commander": {
+        "message": "Odblokuj dow\u00f3dc\u0119"
+    }, 
+    "loss": {
+        "message": "Przegrana"
+    }, 
+    "win /": {
+        "message": "Wygrana /"
+    }
+}

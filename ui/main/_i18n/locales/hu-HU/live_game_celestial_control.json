@@ -1,0 +1,26 @@
+{
+    "Activate planetary laser": {
+        "message": "Planet\u00e1ris l\u00e9zer aktiv\u00e1l\u00e1sa"
+    }, 
+    "Change orbit": {
+        "message": "Kering\u00e9si p\u00e1lya v\u00e1ltoztat\u00e1sa"
+    }, 
+    "Select a new gravity well.": {
+        "message": "\u00daj gravit\u00e1ci\u00f3s k\u00f6zpont kiv\u00e1laszt\u00e1sa."
+    }, 
+    "Select a planet to attack.": {
+        "message": "V\u00e1lassz egy megt\u00e1madni k\u00edv\u00e1nt bolyg\u00f3t."
+    }, 
+    "Select a planet to destroy.": {
+        "message": "V\u00e1lassz egy elpuszt\u00edtani k\u00edv\u00e1nt bolyg\u00f3t."
+    }, 
+    "Set course for annihilation": {
+        "message": "P\u00e1lya be\u00e1ll\u00edt\u00e1sa a megsemmis\u00edt\u00e9shez"
+    }, 
+    "Set target spot": {
+        "message": "C\u00e9lter\u00fclet kiv\u00e1laszt\u00e1sa"
+    }, 
+    "Then confirm destination to set course.": {
+        "message": "Majd er\u0151s\u00edtsd meg a c\u00e9lt, hogy be\u00e1ll\u00edtsd a p\u00e1ly\u00e1t."
+    }
+}

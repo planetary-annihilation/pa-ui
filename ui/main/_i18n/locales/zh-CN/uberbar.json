@@ -1,0 +1,110 @@
+{
+    "Accept": {
+        "message": "\u63a5\u53d7"
+    }, 
+    "Appear Offline": {
+        "message": "\u663e\u793a\u4e3a\u79bb\u7ebf"
+    }, 
+    "Away": {
+        "message": "\u79bb\u5f00"
+    }, 
+    "Block": {
+        "message": "\u5c4f\u853d"
+    }, 
+    "CANCEL": {
+        "message": "\u53d6\u6d88"
+    }, 
+    "CHANGE": {
+        "message": "\u66f4\u6539"
+    }, 
+    "Change Display Name": {
+        "message": "\u66f4\u6539\u6635\u79f0"
+    }, 
+    "Change your display name?": {
+        "message": "\u4fee\u6539\u60a8\u7684\u6635\u79f0\uff1f"
+    }, 
+    "Chat": {
+        "message": "\u804a\u5929"
+    }, 
+    "Do Not Disturb": {
+        "message": "\u8bf7\u52ff\u6253\u6270"
+    }, 
+    "Friends": {
+        "message": "\u597d\u53cb"
+    }, 
+    "Ignore": {
+        "message": "\u5ffd\u7565"
+    }, 
+    "Invite to Chat": {
+        "message": "\u9080\u8bf7\u804a\u5929"
+    }, 
+    "Invite to game": {
+        "message": "\u9080\u8bf7\u52a0\u5165\u6e38\u620f"
+    }, 
+    "Join Game": {
+        "message": "\u52a0\u5165\u6e38\u620f"
+    }, 
+    "New Display Name:": {
+        "message": "\u65b0\u6635\u79f0\uff1a"
+    }, 
+    "No pending notifications.": {
+        "message": "\u6682\u65e0\u65b0\u901a\u77e5."
+    }, 
+    "Offline": {
+        "message": "\u79bb\u7ebf"
+    }, 
+    "Online": {
+        "message": "\u5728\u7ebf"
+    }, 
+    "Pending Invite": {
+        "message": "\u9080\u8bf7\u4e2d"
+    }, 
+    "Recent": {
+        "message": "\u6700\u8fd1"
+    }, 
+    "Remove": {
+        "message": "\u79fb\u9664"
+    }, 
+    "Search Results": {
+        "message": "\u641c\u7d22\u7ed3\u679c"
+    }, 
+    "Send Friend Request": {
+        "message": "\u53d1\u9001\u597d\u53cb\u8bf7\u6c42"
+    }, 
+    "Unblock": {
+        "message": "\u89e3\u9664\u5c4f\u853d"
+    }, 
+    "Unfriend": {
+        "message": "\u89e3\u9664\u597d\u53cb"
+    }, 
+    "Users": {
+        "message": "\u73a9\u5bb6"
+    }, 
+    "[B]": {
+        "message": "[B]"
+    }, 
+    "[CHAT]": {
+        "message": "[\u804a\u5929]"
+    }, 
+    "[F]": {
+        "message": "[F]"
+    }, 
+    "[I]": {
+        "message": "[I]"
+    }, 
+    "[REMOVE]": {
+        "message": "[\u79fb\u9664]"
+    }, 
+    "[Tags:": {
+        "message": "[\u6807\u7b7e\uff1a"
+    }, 
+    "invited you to a game.": {
+        "message": "\u9080\u8bf7\u60a8\u8fdb\u5165\u6e38\u620f"
+    }, 
+    "invited you to chat.": {
+        "message": "\u60a8\u88ab\u9080\u8bf7\u52a0\u5165\u804a\u5929"
+    }, 
+    "wants to be your friend.": {
+        "message": "\u60f3\u6210\u4e3a\u60a8\u7684\u670b\u53cb"
+    }
+}

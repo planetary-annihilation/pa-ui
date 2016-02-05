@@ -1,0 +1,273 @@
+﻿html, body {
+    height: 100%;
+    position: relative;
+    min-width: 1280px;
+    min-height: 720px;
+    z-index:-3;
+}
+
+.container {
+    position: absolute;
+    margin: 0px 0px 0px 46px;
+    padding: 0px 0px 78px 0px;
+    z-index: -2;
+}
+
+#social-bar {
+    width: 100%;
+    height: 30px;
+    background-color: black;
+    color: white;
+    position: absolute;
+    bottom: 0;
+    padding: 2px 15px;
+}
+
+    #social-bar img {
+        float: right;
+        margin-left: 8px;
+    }
+
+#back {
+    position: absolute;
+    top: 15px;
+    left: 15px;
+}
+
+.btn_back {
+    margin: 36px 0px 0px 0px;
+}
+
+#sidebar {
+    width: 300px;
+    position: absolute;
+}
+
+#main {
+    padding: 0 0px 0px 330px;
+    width: 100%;
+    height: 100%;
+}
+
+    #main .content {
+        height: 100%;
+        padding-top: 65px;
+        font-family: 'Sansation Regular TTF';
+    }
+
+    #main .wrapper {
+        padding: 15px;
+        width: 100%;
+        -webkit-box-shadow: inset 0px 0px 5px 3px rgba(5, 5, 5, .75);
+        position: relative;
+        height: 0;
+    }
+
+        #main .wrapper h2 {
+            text-transform: uppercase;
+            margin-top: 0;
+        }
+
+    #main .header {
+        float: right;
+        width: 100%;
+    }
+
+#button-bar .btn, .modal-footer .btn {
+    height: 46px;
+    border: none;
+    font-size: 120%;
+    text-transform: uppercase;
+    padding: 0 10px;
+    margin: 0px -5px;
+}
+
+    #button-bar .btn:focus, .modal-footer .btn:focus {
+        outline: none;
+        color: inherit;
+    }
+
+#button-bar {
+    position: absolute;
+    right: 0;
+    bottom: -5px;
+    left: 330px;
+    text-align: right;
+}
+
+#splat {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+}
+
+    #splat .content {
+        height: 100%;
+        margin: 0px -20px;
+        background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(40,40,40,1)), color-stop(30%,rgba(20,20,20,1)), color-stop(100%,rgba(20,20,20,1)));
+    }
+
+    #splat .footer {
+        position: absolute;
+        bottom: -68px;
+        width: 100%;
+    }
+
+    #splat .footer-left {
+        float: left;
+    }
+
+    #splat .footer-right {
+        float: right;
+    }
+
+    #splat .footer-middle {
+        background-image: url('coui://ui/main/shared/img/splat/splat-bottom-middle.png');
+        margin: 0 48px;
+        height: 68px;
+    }
+
+.header {
+    height: 65px;
+    padding-top: 15px;
+}
+
+#header-button {
+    float: right;
+}
+
+#header-input {
+    float: right;
+    width: 300px;
+    margin-top: 2px;
+    padding: 7px 10px;
+}
+
+#header-message {
+    float: right;
+    margin: 14px 10px 0 0;
+}
+
+.btn_label {
+}
+
+label {
+    font-weight: normal;
+    font-size: 80%;
+    text-transform: uppercase;
+}
+select {
+    border: none;
+}
+
+    .bootstrap-select .btn .caret {
+        /*display: none;*/
+    }
+
+    .bootstrap-select .btn:focus {
+        outline: none !important;
+    }
+
+.modal-content {
+    background-color: #000;
+    border-radius: 0px;
+    border: 1px solid #4a4a4a;
+}
+
+.modal-header .close {
+    color: white;
+}
+
+.modal-header {
+    border-bottom: none;
+}
+
+.modal-footer {
+    border-top: none;
+}
+
+.modal-title {
+    text-transform: uppercase;
+    font-size: 24px;
+    font-family: "Sansation Bold";
+}
+
+#content-tabs {
+    float: left;
+}
+
+/*BOOT TABS TWEAKS*/
+
+/* Changes to defaults for boostrapformhelpers */
+.bfh-slider { 
+    margin-top:0px; 
+    margin-bottom:26px; 
+    border:2px solid #666666; 
+    background:none; 
+    border-radius:0px; 
+    position:relative; 
+    width:300px; 
+}
+.bfh-slider>.bfh-slider-handle { 
+    width:16px; 
+    margin-top:-5px; 
+    margin-left:2px; 
+    height:26px; 
+    border:2px solid #666666; 
+    background:#ffffff; 
+    border-radius:0px; 
+}
+.bfh-slider>.bfh-slider-handle>.bfh-slider-value { 
+    display:none; 
+    width:23px; 
+    margin-left:-2px; 
+    margin-top:2px; 
+    border:2px solid #666666; 
+    background:none; 
+    border-radius:0px; 
+    color:transparent; 
+}
+
+
+/* Changes to defaults for boostrapformhelpers */
+.bfh-slider {
+    margin-top: 0px;
+    margin-bottom: 26px;
+    border: 2px solid #666666;
+    background: none;
+    border-radius: 0px;
+    position: relative;
+    width: 300px;
+}
+
+    .bfh-slider > .bfh-slider-handle {
+        width: 16px;
+        margin-top: -5px;
+        margin-left: 2px;
+        height: 26px;
+        border: 2px solid #666666;
+        background: #ffffff;
+        border-radius: 0px;
+    }
+
+        .bfh-slider > .bfh-slider-handle > .bfh-slider-value {
+            display: none;
+            width: 23px;
+            margin-left: -2px;
+            margin-top: 2px;
+            border: 2px solid #666666;
+            background: none;
+            border-radius: 0px;
+            color: transparent;
+        }
+
+/*.bootstrap-select .btn, .bootstrap-select .btn:focus {
+    border: none;
+    text-shadow: none;
+    box-shadow: none !important;
+    color: white !important;
+    background: none;
+    background-image: url('coui://ui/main/shared/img/controls/select.png') !important;
+    padding: 6px;
+}*/

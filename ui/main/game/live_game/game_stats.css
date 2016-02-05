@@ -1,0 +1,19 @@
+.stat_dialog {
+    overflow:hidden;
+}
+
+.plot {
+    overflow:hidden;
+}
+
+.ent_panel {
+    width: 320px;
+    position: absolute;
+    right: 20px;
+    top: 100px;
+}
+
+.ent_prop:hover {
+    background-color: white;
+    color:black;
+}

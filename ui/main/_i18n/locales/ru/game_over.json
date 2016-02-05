@@ -1,0 +1,44 @@
+{
+    "ANNIHILATION COMPLETE": {
+        "message": "\u0410\u041d\u041d\u0418\u0413\u0418\u041b\u042f\u0426\u0418\u042f \u0417\u0410\u0412\u0415\u0420\u0428\u0415\u041d\u0410"
+    }, 
+    "APM": {
+        "message": "APM"
+    }, 
+    "Average": {
+        "message": "\u0412 \u0441\u0440\u0435\u0434\u043d\u0435\u043c"
+    }, 
+    "Built": {
+        "message": "\u041f\u043e\u0441\u0442\u0440\u043e\u0435\u043d\u043e"
+    }, 
+    "Destroyed": {
+        "message": "\u0423\u043d\u0438\u0447\u0442\u043e\u0436\u0435\u043d\u043e"
+    }, 
+    "Draw": {
+        "message": "\u041d\u0418\u0427\u042c\u042f"
+    }, 
+    "Efficiency": {
+        "message": "\u042d\u0444\u0444\u0435\u043a\u0442\u0438\u0432\u043d\u043e\u0441\u0442\u044c "
+    }, 
+    "GW GAME OVER": {
+        "message": "\u041a\u041e\u041d\u0415\u0426 \u0418\u0413\u0420\u042b"
+    }, 
+    "The game has ended.": {
+        "message": "\u0418\u0433\u0440\u0430 \u043e\u043a\u043e\u043d\u0447\u0435\u043d\u0430."
+    }, 
+    "Used": {
+        "message": "\u0418\u0441\u043f."
+    }, 
+    "VICTORY IS YOURS": {
+        "message": "\u041f\u041e\u0411\u0415\u0414\u0410 \u0412\u0410\u0428\u0410"
+    }, 
+    "Winner:": {
+        "message": "\u041f\u043e\u0431\u0435\u0434\u0438\u0442\u0435\u043b\u044c:"
+    }, 
+    "Winners:": {
+        "message": "\u041f\u043e\u0431\u0435\u0434\u0438\u0442\u0435\u043b\u0438:"
+    }, 
+    "YOU'VE BEEN ANNIHILATED": {
+        "message": "\u0412\u042b \u0411\u042b\u041b\u0418 \u0410\u041d\u041d\u0418\u0413\u0418\u041b\u0418\u0420\u041e\u0412\u0410\u041d\u042b"
+    }
+}

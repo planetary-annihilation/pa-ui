@@ -1,0 +1,212 @@
+{
+    "AI Skirmish": {
+        "message": "AI Skirmish"
+    }, 
+    "Account information sent": {
+        "message": "Tilitiedot l\u00e4hetetty"
+    }, 
+    "Accounts linked": {
+        "message": "Tilit kytketty"
+    }, 
+    "Already have a PlayFab account?": {
+        "message": "Already have a PlayFab account?"
+    }, 
+    "An email with a link to recover your account was sent to username@domain.com.": {
+        "message": "Tilisi palautuslinkki l\u00e4hetettiin s\u00e4hk\u00f6postina osoitteeseen username@domain.com."
+    }, 
+    "Armory": {
+        "message": "Asevarasto"
+    }, 
+    "Audio Engine:": {
+        "message": "Audio Engine:"
+    }, 
+    "CONTINUE TO MAIN MENU": {
+        "message": "JATKA P\u00c4\u00c4VALIKKOON"
+    }, 
+    "CREATE ACCOUNT AND LINK": {
+        "message": "LUO TILI JA KYTKE"
+    }, 
+    "Channels Streaming": {
+        "message": "Suoria L\u00e4hetyksi\u00e4"
+    }, 
+    "Click here.": {
+        "message": "Klikkaa t\u00e4st\u00e4."
+    }, 
+    "Click to play the Credits Galaxy": {
+        "message": "Click to play the Credits Galaxy"
+    }, 
+    "Confirm Password:": {
+        "message": "Vahvista salasana:"
+    }, 
+    "Connecting to PlayFab": {
+        "message": "Connecting to PlayFab"
+    }, 
+    "Cosmic Edition Commanders": {
+        "message": "Cosmic Edition Commanders"
+    }, 
+    "Create a PlayFab account to link with Steam": {
+        "message": "Create a PlayFab account to link with Steam"
+    }, 
+    "Email address already exists": {
+        "message": "S\u00e4hk\u00f6postiosoite on jo olemassa"
+    }, 
+    "Email address is invalid": {
+        "message": "S\u00e4hk\u00f6postiosoite ei kelpaa"
+    }, 
+    "Email:": {
+        "message": "S\u00e4hk\u00f6posti:"
+    }, 
+    "Extra special thanks to our:": {
+        "message": "Extra special thanks to our:"
+    }, 
+    "Forgot username or password?": {
+        "message": "Unohditko k\u00e4ytt\u00e4j\u00e4nimen tai salasanan?"
+    }, 
+    "Founding Commanders": {
+        "message": "Founding Commanders"
+    }, 
+    "Galactic War": {
+        "message": "Galaktinen sota"
+    }, 
+    "Incorrect username or password. Please check your entry and try again.": {
+        "message": "V\u00e4\u00e4r\u00e4 k\u00e4ytt\u00e4j\u00e4nimi tai salasana. Tarkista sy\u00f6tteesi ja yrit\u00e4 uudestaan."
+    }, 
+    "Link PlayFab with Steam": {
+        "message": "Link PlayFab with Steam"
+    }, 
+    "Multiplayer": {
+        "message": "Moninpeli"
+    }, 
+    "New Build Available:": {
+        "message": "Uusi Versio Saatavilla:"
+    }, 
+    "None of this would have been possible without your generosity, and we are grateful that you took the chance and believed in our vision.": {
+        "message": "None of this would have been possible without your generosity, and we are grateful that you took the chance and believed in our vision."
+    }, 
+    "Password": {
+        "message": "Salasana"
+    }, 
+    "Passwords are different": {
+        "message": "Salasanat ovat erilaiset"
+    }, 
+    "PlayFab Username:": {
+        "message": "PlayFab Username:"
+    }, 
+    "PlayFab account already linked to a different Steam account": {
+        "message": "PlayFab account already linked to a different Steam account"
+    }, 
+    "Please choose a default region.": {
+        "message": "Ole hyv\u00e4 ja valitse oletusalue."
+    }, 
+    "Please try again later. If this error persists, please contact support and check the forums.": {
+        "message": "Please try again later. If this error persists, please contact support and check the forums."
+    }, 
+    "Please try to link your account at": {
+        "message": "Ole hyv\u00e4 ja yrit\u00e4 yhdist\u00e4\u00e4 tilisi osoitteessa"
+    }, 
+    "Problem with Steam Account.": {
+        "message": "Ongelma Steam-tilin kanssa."
+    }, 
+    "Quit": {
+        "message": "Lopeta"
+    }, 
+    "RETURN TO SIGN IN": {
+        "message": "PALAA KIRJAUTUMISEEN"
+    }, 
+    "Reconnecting to Game": {
+        "message": "Uudelleenyhdistet\u00e4\u00e4n peliin"
+    }, 
+    "Replays": {
+        "message": "Replays"
+    }, 
+    "Settings": {
+        "message": "Asetukset"
+    }, 
+    "Sign in": {
+        "message": "Kirjaudu sis\u00e4\u00e4n"
+    }, 
+    "Sign into your PlayFab account.": {
+        "message": "Sign into your PlayFab account."
+    }, 
+    "Single Player": {
+        "message": "Single Player"
+    }, 
+    "System Designer": {
+        "message": "J\u00e4rjestelm\u00e4n suunnittelija"
+    }, 
+    "Thank you for your support!": {
+        "message": "Thank you for your support!"
+    }, 
+    "There are no regions available for this build version.": {
+        "message": "There are no regions available for this build version."
+    }, 
+    "There is a problem with Steam. Please restart Steam and try again or login using your PlayFab credentials.": {
+        "message": "There is a problem with Steam. Please restart Steam and try again or login using your PlayFab credentials."
+    }, 
+    "This shouldn't happen. Please contact us at": {
+        "message": "N\u00e4in ei pit\u00e4isi k\u00e4yd\u00e4. Ole hyv\u00e4 ja ota meihin yhteytt\u00e4 osoitteella"
+    }, 
+    "This title has not been activated.": {
+        "message": "T\u00e4t\u00e4 tuotetta ei ole aktivoitu"
+    }, 
+    "To those who contributed to our Kickstarter campaign, we'd like to thank you for all the support.": {
+        "message": "To those who contributed to our Kickstarter campaign, we'd like to thank you for all the support."
+    }, 
+    "Twitch": {
+        "message": "Twitch"
+    }, 
+    "Unable to Sign In": {
+        "message": "Sis\u00e4\u00e4nkirjautuminen ep\u00e4onnistui"
+    }, 
+    "User account has not been linked to steam.": {
+        "message": "K\u00e4ytt\u00e4j\u00e4n tili\u00e4 ei ole yhdistetty steamiin"
+    }, 
+    "Username": {
+        "message": "K\u00e4ytt\u00e4j\u00e4nimi"
+    }, 
+    "Username already exists": {
+        "message": "K\u00e4ytt\u00e4j\u00e4nimi on jo olemassa"
+    }, 
+    "Version:": {
+        "message": "Version:"
+    }, 
+    "Videos": {
+        "message": "Videot"
+    }, 
+    "You are already assigned to a game.": {
+        "message": "Sinut on jo m\u00e4\u00e4ritetty peliin."
+    }, 
+    "You can change the region later in the settings menu.": {
+        "message": "You can change the region later in the settings menu."
+    }, 
+    "You need a new client to play the game. Steam users may need to restart Steam to get the new client.": {
+        "message": "Tarvitset uuden version pelist\u00e4. Steamin k\u00e4ytt\u00e4jien voi olla tarpeellista k\u00e4ynnist\u00e4\u00e4 Steam uudelleen saadakseen p\u00e4ivityksen peliin."
+    }, 
+    "Your Steam ID and PlayFab accounts have been successfully linked.": {
+        "message": "Your Steam ID and PlayFab accounts have been successfully linked."
+    }, 
+    "Your account has been banned.": {
+        "message": "Tilisi k\u00e4ytt\u00f6 on estetty."
+    }, 
+    "Your account has been banned. If you believe this is in error, contact us at": {
+        "message": "Tilisi k\u00e4ytt\u00f6 on estetty. Jos ep\u00e4ilet virhett\u00e4, ota meihin yhteytt\u00e4"
+    }, 
+    "Your default region is currently unavailable. Please choose a different region.": {
+        "message": "Oletusalueesi ei ole nyt saatavilla. Ole hyv\u00e4 ja valitse toinen alue."
+    }, 
+    "Your steam account does not own this application.": {
+        "message": "Steam-tilisi ei omista t\u00e4t\u00e4 sovellusta."
+    }, 
+    "set by code": {
+        "message": "Asetettu koodilla"
+    }, 
+    "viewers": {
+        "message": "katsojia"
+    }, 
+    "| UI Library: Coherent Labs, copyright \u00a9 2012-2014": {
+        "message": "| UI Library: Coherent Labs, copyright \u00a9 2012-2014"
+    }, 
+    "\u00a9 2014 Uber Entertainment Inc.": {
+        "message": "\u00a9 2014 Uber Entertainment Inc."
+    }
+}

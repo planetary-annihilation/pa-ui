@@ -1,0 +1,26 @@
+{
+    "Both Basic and Advanced Metal Extractors can be built on top of the same Metal Spot": {
+        "message": "Sowohl einfache als auch verbesserte Metallbohrer können auf derselben Mine gebaut werden."
+    }, 
+    "Build Metal Extractors on Metal Spots": {
+        "message": "Baue Metallbohrer auf Minen"
+    }, 
+    "Build Metal Storage to expand resource capacity": {
+        "message": "Baue Metalllager, um die Ressourcenkapazität zu erhöhen."
+    }, 
+    "Metal Resource": {
+        "message": "Metallressource"
+    }, 
+    "Metal is required for building units and structures": {
+        "message": "Metall wird für den Bau von Einheiten und Konstruktionen benötigt."
+    }, 
+    "PA Guide: Metal": {
+        "message": "PA-Anleitung: Metall"
+    }, 
+    "Select Fabber, select [style=text_callout]Build Metal Extractor Icon[/style].": {
+        "message": "Wähle erst Fabber aus und klicke dann auf das [style=text_callout]Metallbohrerbau-Symbol[/style]."
+    }, 
+    "[style=text_callout]Left Click + drag[/style] in the world to build over multiple Metal Spots.": {
+        "message": "[style=text_callout]Links klicken + ziehen[/style], um in der Welt auf mehreren Minen zu bauen."
+    }
+}

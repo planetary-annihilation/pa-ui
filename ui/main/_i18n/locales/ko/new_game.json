@@ -1,0 +1,122 @@
+{
+    "- Host": {
+        "message": "- \ud638\uc2a4\ud2b8"
+    }, 
+    "AI Commander": {
+        "message": "\uc778\uacf5\uc9c0\ub2a5 \uc9c0\ud718\uad00"
+    }, 
+    "Add AI": {
+        "message": "AI \ucd94\uac00"
+    }, 
+    "Add AI Commander": {
+        "message": "AI \uc9c0\ud718\uad00 \ucd94\uac00"
+    }, 
+    "Add Slot": {
+        "message": "\uc2ac\ub86f \ucd94\uac00"
+    }, 
+    "Alliance Victory": {
+        "message": "\ub3d9\ub9f9 \uc2b9\ub9ac"
+    }, 
+    "Browse...": {
+        "message": "Browse..."
+    }, 
+    "CONNECTION TO SERVER LOST": {
+        "message": "\uc11c\ubc84\uc640\uc758 \uc5f0\uacb0 \ub04a\uae40"
+    }, 
+    "Chat": {
+        "message": "\ucc44\ud305"
+    }, 
+    "Cheats": {
+        "message": "Cheats"
+    }, 
+    "Dynamic Alliances": {
+        "message": "\uc720\ub3d9\uc801\uc778 \ub3d9\ub9f9"
+    }, 
+    "Empty": {
+        "message": "\ube44\uc5b4\uc788\uc74c"
+    }, 
+    "Free For All": {
+        "message": "\uac1c\uc778\uc804"
+    }, 
+    "Friends": {
+        "message": "\uce5c\uad6c"
+    }, 
+    "Game Lobby": {
+        "message": "\uac8c\uc784 \ub300\uae30\uc2e4"
+    }, 
+    "Game Mode": {
+        "message": "\uac8c\uc784 \ubaa8\ub4dc"
+    }, 
+    "Global Spectator Chat": {
+        "message": "\uc9c0\uad6c\ucd0c \uad00\uc804\uc790 \ucc44\ud305"
+    }, 
+    "Join": {
+        "message": "\ucc38\uac00"
+    }, 
+    "Kick": {
+        "message": "\uac15\uc81c \ud1f4\uc7a5"
+    }, 
+    "Leave": {
+        "message": "\ub5a0\ub098\uae30"
+    }, 
+    "New System": {
+        "message": "\uc0c8 \ud589\uc131\uacc4"
+    }, 
+    "Open to:": {
+        "message": "\uc5f4\uae30:"
+    }, 
+    "Player Slot": {
+        "message": "\ud50c\ub808\uc774\uc5b4 \uc790\ub9ac"
+    }, 
+    "Player chooses spot on starting planet": {
+        "message": "\ud50c\ub808\uc774\uc5b4\ub294 \ucee4\ub9e8\ub354\ub97c \ud22c\ud558 \ud560 \uc7a5\uc18c\ub97c \uace0\ub974\uc2dc\uae38 \ubc14\ub78d\ub2c8\ub2e4."
+    }, 
+    "Players)": {
+        "message": "\uc0ac\uc6a9\uc790)"
+    }, 
+    "Private": {
+        "message": "\ube44\uacf5\uac1c"
+    }, 
+    "Public": {
+        "message": "\uacf5\uac1c \uac8c\uc784"
+    }, 
+    "Ready": {
+        "message": "Ready"
+    }, 
+    "Remove": {
+        "message": "\uc81c\uac70"
+    }, 
+    "Returning to Main Menu": {
+        "message": "\uba54\uc778 \uba54\ub274\ub85c \ub3cc\uc544\uac00\ub294 \uc911"
+    }, 
+    "SHARE ARMY": {
+        "message": "\uad70\uc0ac \uacf5\uc720"
+    }, 
+    "Server Mods": {
+        "message": "\uc11c\ubc84 \ubaa8\ub4dc"
+    }, 
+    "Spectate": {
+        "message": "\uad00\uc804\ud558\uae30"
+    }, 
+    "Spectators": {
+        "message": "\uad00\uc804\uc790"
+    }, 
+    "Start Game": {
+        "message": "\uac8c\uc784 \uc2dc\uc791"
+    }, 
+    "System": {
+        "message": "\ud589\uc131\uacc4"
+    }, 
+    "Tag:": {
+        "message": "\ud0dc\uadf8:"
+    }, 
+    "Team Armies": {
+        "message": "\ud300\uc804"
+    }, 
+    "Title": {
+        "message": "\uc81c\ubaa9"
+    }, 
+    "You must have friends to play a friends-only game.": {
+        "message": "\uce5c\uad6c\ub4e4\ub07c\ub9ac \ud50c\ub808\uc774 \ud558\ub824\uba74 \uce5c\uad6c\uac00 \uc788\uc5b4\uc57c \ud569\ub2c8\ub2e4."
+    }
+}

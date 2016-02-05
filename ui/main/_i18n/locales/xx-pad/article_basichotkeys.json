@@ -1,0 +1,34 @@
+{
+    "Important Hotkeys": {
+        "message": "\u03aa\u028d\u2374\u020f\u0213\u04ad\u0203\u019e\u04ad \u04c7\u020f\u04ad\u045c\u1f73\u0443\u01a8\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9", 
+        "original": "Important Hotkeys"
+    }, 
+    "PA Guide: Basic Hotkeys": {
+        "message": "\u1e54\u0202 \u01f4\u0574\u0457\u0257\u1f73: \u0e3f\u0203\u01a8\u0457\u03f2 \u04c7\u020f\u04ad\u045c\u1f73\u0443\u01a8\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9", 
+        "original": "PA Guide: Basic Hotkeys"
+    }, 
+    "[style=hotkey_title]__hotkey__[/style] - Select Commander": {
+        "message": "[style=hotkey_title]__hotkey__[/style] - \u1e60\u1f73\u230a\u1f73\u03f2\u04ad \u04aa\u020f\u028d\u028d\u0203\u019e\u0257\u1f73\u0213\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9", 
+        "original": "[style=hotkey_title]__hotkey__[/style] - Select Commander"
+    }, 
+    "[style=hotkey_title]__hotkey__[/style] - Select all of currently-selected unit(s) that are visible": {
+        "message": "[style=hotkey_title]__hotkey__[/style] - \u1e60\u1f73\u230a\u1f73\u03f2\u04ad \u0203\u230a\u230a \u020f\u0493 \u03f2\u0574\u0213\u0213\u1f73\u019e\u04ad\u230a\u0443-\u01a8\u1f73\u230a\u1f73\u03f2\u04ad\u1f73\u0257 \u0574\u019e\u0457\u04ad(\u01a8) \u04ad\u043d\u0203\u04ad \u0203\u0213\u1f73 \u0477\u0457\u01a8\u0457\u0411\u230a\u1f73\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9", 
+        "original": "[style=hotkey_title]__hotkey__[/style] - Select all of currently-selected unit(s) that are visible"
+    }, 
+    "[style=hotkey_title]__hotkey__[/style] - Select idle fabbers on screen": {
+        "message": "[style=hotkey_title]__hotkey__[/style] - \u1e60\u1f73\u230a\u1f73\u03f2\u04ad \u0457\u0257\u230a\u1f73 \u0493\u0203\u0411\u0411\u1f73\u0213\u01a8 \u020f\u019e \u01a8\u03f2\u0213\u1f73\u1f73\u019e\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9", 
+        "original": "[style=hotkey_title]__hotkey__[/style] - Select idle fabbers on screen"
+    }, 
+    "[style=hotkey_title]__hotkey__[/style] - Toggle energy orders": {
+        "message": "[style=hotkey_title]__hotkey__[/style] - \u4e01\u020f\u0260\u0260\u230a\u1f73 \u1f73\u019e\u1f73\u0213\u0260\u0443 \u020f\u0213\u0257\u1f73\u0213\u01a8\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9", 
+        "original": "[style=hotkey_title]__hotkey__[/style] - Toggle energy orders"
+    }, 
+    "[style=hotkey_title]__hotkey__[/style] - Toggle production": {
+        "message": "[style=hotkey_title]__hotkey__[/style] - \u4e01\u020f\u0260\u0260\u230a\u1f73 \u2374\u0213\u020f\u0257\u0574\u03f2\u04ad\u0457\u020f\u019e\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9", 
+        "original": "[style=hotkey_title]__hotkey__[/style] - Toggle production"
+    }, 
+    "[style=hotkey_title]__hotkey__[/style] - Zoom to selected unit": {
+        "message": "[style=hotkey_title]__hotkey__[/style] - \u01b5\u020f\u020f\u028d \u04ad\u020f \u01a8\u1f73\u230a\u1f73\u03f2\u04ad\u1f73\u0257 \u0574\u019e\u0457\u04ad\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9", 
+        "original": "[style=hotkey_title]__hotkey__[/style] - Zoom to selected unit"
+    }
+}

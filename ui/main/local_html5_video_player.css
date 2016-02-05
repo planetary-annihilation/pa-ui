@@ -1,0 +1,17 @@
+body, html, div { margin: 0; padding: 0; }
+body, html {
+    font-family: "Helvetica Neue", Helvetica, Arial, Geneva, sans-serif;
+    color: #343434;
+    background: #000;
+}
+#player-container {
+    width: 100%; height: 100%;
+    position: absolute;
+    background-color: #000;
+    overflow: hidden;
+}
+#player {
+    width: 100%;
+    height: 100%;
+    display: inline;
+}

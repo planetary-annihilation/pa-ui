@@ -1,0 +1,32 @@
+{
+    "Advanced Fabbers come from Advanced Factories and can build both basic and advanced structures": {
+        "message": "Issus d'usines avancées, les constructeurs avancés peuvent bâtir des structures basiques et avancées."
+    }, 
+    "Basic Fabbers build basic structures and Advanced Factories": {
+        "message": "Les constructeurs basiques bâtissent des structures basiques et des usines avancées."
+    }, 
+    "Fabbers are built by Vehicle, Air, Naval, Bot, and Orbital Factories": {
+        "message": "Les usines de véhicules et de robots, les bases aériennes, les chantiers navals et les centrales orbitales bâtissent des constructeurs."
+    }, 
+    "Fabrication Units": {
+        "message": "Unités de fabrication"
+    }, 
+    "Hold Shift + Left Click to queue up multiple build orders": {
+        "message": "Appuyez sur la touche majuscule et faites un clic gauche pour accumuler plusieurs ordres de construction."
+    }, 
+    "Left Click units on Build Bar and select a space in the world to build": {
+        "message": "Faites un clic gauche sur les unités dans la barre de construction et choisissez un emplacement pour les construire."
+    }, 
+    "PA Guide: Fabbers": {
+        "message": "Guide de PA : constructeurs"
+    }, 
+    "Select a Fabber to get access to Build Bar": {
+        "message": "Sélectionnez un constructeur pour accéder à la barre de construction."
+    }, 
+    "[style=text_callout]Control + left click[/style] a unit to make a factory produce a single one of that unit before continuing with the rest of the build queue.": {
+        "message": "[style=text_callout]Appuyez sur la touche contrôle et faites un clic gauche[/style] sur une unité pour qu'une usine en produise un exemplaire avant de reprendre les constructions en attente."
+    }, 
+    "[style=text_callout]Right Click[/style] or [style=text_callout]Shift + Right Click[/style] on units to reduce number of units in queue": {
+        "message": "[style=text_callout]Faites un clic droit[/style] ou appuyez sur la touche [style=text_callout]majuscule et faites un clic droit[/style] sur les unités pour réduire le nombre de ces unités en attente."
+    }
+}

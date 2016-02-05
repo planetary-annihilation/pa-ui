@@ -1,0 +1,957 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <noloc><title>System Designer</title></noloc>
+    <link href="bundle://boot/boot.css" rel="stylesheet" type="text/css" />
+    <link href="coui://ui/main/shared/js/thirdparty/slider/css/slider.css" rel="stylesheet" type="text/css" />
+    <link href="coui://ui/main/game/live_game/live_game_build_bar.css" rel="stylesheet" type="text/css" />
+    <link href="coui://ui/main/game/live_game/live_game_build_hover.css" rel="stylesheet" type="text/css" />
+    <link href="system_editor.css" rel="stylesheet" type="text/css" />
+    <script src="bundle://boot/boot.js" type="text/javascript"></script>
+    <script src="coui://ui/main/shared/js/thirdparty/slider/js/bootstrap-slider.js" type="text/javascript"></script>
+    <script src="system_editor.js" type="text/javascript"></script>
+</head>
+<body id="page">
+    <div class="div_popup_overlay" style="display: none" data-bind="visible: showPopUP">
+        <div class="div_popup">
+            <div class="div_popup_panel">
+                <div class="interior">
+                    <div class="div_popup_primary_msg" data-bind="locText: popUpPrimaryMsg"></div>
+                    <div class="div_popup_secondary_msg" data-bind="locText: popUpSecondaryMsg"></div>
+                    <div class="commit">
+                        <input type="button" value="" id="popup_btn_1" class="btn_std btn_panel" data-bind="visible: popUpPrimaryButtonTag, click: popUpPrimaryButtonAction, locValue: popUpPrimaryButtonTag, click_sound: 'default', rollover_sound: 'default'" />
+                        <input type="button" value="" id="popup_btn_2" class="btn_std btn_panel" data-bind="visible: popUpSecondaryButtonTag, click: popUpSecondaryButtonAction, locValue: popUpSecondaryButtonTag, click_sound: 'default', rollover_sound: 'default'" />
+                        <input type="button" value="" id="popup_btn_3" class="btn_std btn_panel" data-bind="visible: popUpTertiaryButtonTag, click: popUpTertiaryButtonAction, locValue: popUpTertiaryButtonTag, click_sound: 'default', rollover_sound: 'default'" />
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="div_planet_build_warning" style="display: none" data-bind="visible: planetUnderConstruction">
+        <img class="working std" src="coui://ui/main/shared/img/working.svg" />
+        <div style="display: inline-block; vertical-align: middle; margin: 0px 0px 0px 8px;">
+            <!-- ko if: $root.advancedEditMode -->
+            <loc>This planet has been customized. It must be fully built before modifying.</loc>
+            <br />
+            <!-- /ko -->
+            <!-- ko ifnot: $root.advancedEditMode -->
+            <loc>The planet is loading. This can take a long time.</loc>
+            <br />
+            <loc>The program will be unresponsive until the planet has finished.</loc>
+            <!-- /ko -->
+        </div>
+    </div>
+
+    <div class="div_header_bar">
+        <div class="header_bar_cont">
+            <div class="sys_editor_title">
+                <loc>System Designer</loc>
+            </div>
+            <div class="sys_editor_control_group">
+                <span class="input_label" style="font-size: 13px;">
+                    <loc>System Name:</loc>
+                </span>
+                <input type="text" style="width: 200px; margin: 0px 10px 0px 0px; padding: 6px 0px 6px 6px;" data-bind="value: systemName" />
+            </div>
+            <div class="sys_editor_control_group" style="width: 420px">
+                <input type="button" value="PREVIEW ALL" id="Button16" class="btn_std btn_toolbar"
+                    data-bind="click: buildAllPlanets, click_sound: 'default', rollover_sound: 'default', css: { 'btn_std_disabled': !$root.canPreview() }" />
+                <input type="button" class="btn_std btn_toolbar" style="width: 110px;" data-bind="click: togglePaused, locValue: pauseButtonMessage, click_sound: 'default', rollover_sound: 'default'" />
+                <input type="button" value="CLEAR SYSTEM" id="Button6" class="btn_std btn_toolbar" data-bind="click: removeAllPlanets, click_sound: 'default', rollover_sound: 'default'" />
+            </div>
+            <div class="sys_editor_control_group saveclose">
+                <input type="button" value="SAVE SYSTEM" id="Button17" class="btn_std btn_toolbar btn_commit_grn" style="width: 150px"
+                    data-bind="click: saveSystem,
+    enable: ($root.canSave() && $root.saveDirty()),
+    css: {
+        disabled: !($root.canSave() && $root.saveDirty()),
+        click_sound: 'default', rollover_sound: 'default'
+    }" />
+                <input type="button" value="CLOSE" id="Button15" class="btn_std btn_toolbar" data-bind="click: navBack, click_sound: 'default', rollover_sound: 'default'" />
+            </div>
+        </div>
+        <div class="secondary_bar">
+            <div class="sys_editor_error" style="display: none" data-bind="visible: !$root.systemValid()">
+                <!-- ko if: systemRadiusIsTooSmall -->
+                <span>
+                    <loc>System radius is too small.</loc>
+                </span>
+                <!-- /ko -->
+                <!-- ko if: systemRadiusIsTooLarge -->
+                <span>
+                    <loc>System radius is too large.</loc>
+                </span>
+                <!-- /ko -->
+                <!-- ko if: systemHasNoStartingPlanet -->
+                <span><loc>System requires at least one starting planet.</loc>
+                </span>
+                <!-- /ko -->
+            </div>
+        </div>
+    </div>
+
+    <!-- ASTEROID EDITOR PANEL -->
+    <div class="div_sys_editor_panel" style="display: none" data-bind="visible: showAstroidBeltPanel">
+        <div class="panel_title">
+            <loc>edit asteroid belt</loc>
+        </div>
+        <div class="panel_body" style="width: 375px;">
+
+            <div class="div_settings_control asteroid">
+                <div class="div_settings_control_lbl twocol">
+                    <loc>Starting Asteroid Count</loc>
+                </div>
+                <div class="div_settings_control_form">
+                    <select class="form-control" id="starting_asteroid_count"
+                        data-bind="options: $root.startingAsteroidCountOptions, selectPicker: $root.startingAsteroidCount">
+                    </select>
+                </div>
+            </div>
+
+            <div class="div_settings_control asteroid">
+                <div class="div_settings_control_lbl twocol">
+                    <loc>Max Asteroid Count</loc>
+                </div>
+                <div class="div_settings_control_form">
+                    <select class="form-control" id="max_asteroid_count" data-bind="selectPicker: $root.currentAsteroidLimit">
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                    </select>
+                </div>
+            </div>
+
+            <div class="div_settings_control asteroid">
+                <div class="div_settings_control_lbl twocol">
+                    <loc>Spawn Delay (in seconds)</loc>
+                </div>
+                <div class="div_settings_control_form asteroid">
+                    <div>
+                        <loc>Base:</loc>
+                        <input class="input_slider_value" type="text" id="min_spawn_delay" data-bind="value: $root.minAsteroidSpawnDelay" />
+                    </div>
+                    <div>
+                        <loc>Variance:</loc>
+                        <input class="input_slider_value" type="text" id="max_spawn_delay" data-bind="value: $root.asteroidSpawnDelayVariance" />
+                    </div>
+                </div>
+            </div>
+
+            <div style="margin: 0 0 16px 0">
+                <label style="font-weight: normal; text-transform: capitalize;">
+                    <input type="checkbox" data-bind="checked: metalSpotsOnAsteroids" />
+                    <loc>metal spots on asteroids</loc>
+                </label>
+            </div>
+            <div class="panel_commit_buttons">
+                <input type="button" value="REMOVE ASTEROID BELT" id="Button2" class="btn_std btn_panel" data-bind="click: $root.removeAsteroidBelt, click_sound: 'default', rollover_sound: 'default'" />
+                <input type="button" value="CLOSE" id="Button3" class="btn_std btn_panel" style="float: right;" data-bind="click: function () { $root.showAstroidBeltPanel(false); }, click_sound: 'default', rollover_sound: 'default'" />
+            </div>
+        </div>
+    </div>
+
+
+    <div id="editor_controls" style="display: none" data-bind="css: { div_sys_editor_collapsed: hideControls, div_sys_editor_panel: showControls },
+    visible: enableControls">
+        <div class="div_editor_panel">
+            <div class="panel_cont panel_cont_orbit_editor">
+                <div class="panel_controls orbit_editor_controls">
+                    <!--- PANEL CONTENT -->
+                    <div class="div_panel_controls" style="display: none">
+                        <div class="div_back_btn" style="" data-bind="click: function () { model.showControls(false); },
+                            visible: showControls,
+                            click_sound: 'default',
+                            rollover_sound: 'default'">
+                            <a href="#">
+                                <loc>HIDE</loc>
+                            </a>
+                        </div>
+                        <div class="div_back_btn" style="" data-bind="click: function () { model.showControls(true); },
+                            visible: hideControls,
+                            click_sound: 'default',
+                            rollover_sound: 'default'">
+                            <a href="#">
+                                <loc>SHOW</loc>
+                            </a>
+                        </div>
+                    </div>
+
+                    <!--SYS EDITOR PANEL -->
+                    <div data-bind="visible: showSystemEditor">
+                        <div class="panel_title" data-bind="text: planetName">
+                        </div>
+                        <div class="div_settings_cont">
+                            <div class="div_settings_graphics_cont">
+                                <div class="div_settings_control">
+                                    <div class="div_settings_control_lbl text_input">
+                                        <loc>Position</loc>
+                                    </div>
+                                    <div class="div_settings_control_input">
+                                        <form data-bind="submit: update_planet_spec" style="display: inline-block;">
+                                            <loc>X:</loc>
+                                            <input class="input_slider_value" type="text" style="width: 7em;" data-bind="value: position_x, event: { change: $root.update_planet_spec }" />
+                                            <button id="change_planet_spec" type="submit" style="display: none"></button>
+                                        </form>
+                                    </div>
+                                    <div class="div_settings_control_input">
+                                        <form data-bind="submit: update_planet_spec" style="display: inline-block;">
+                                            <loc>Y:</loc>
+                                            <input class="input_slider_value" type="text" style="width: 7em;" data-bind="value: position_y, event: { change: $root.update_planet_spec }" />
+                                            <button id="Button10" type="submit" style="display: none"></button>
+                                        </form>
+                                    </div>
+                                </div>
+                                <div class="div_settings_control">
+                                    <div class="div_settings_control_lbl text_input">
+                                        <loc>Velocity</loc>
+                                    </div>
+                                    <div class="div_settings_control_input">
+                                        <form data-bind="submit: update_planet_spec" style="display: inline-block;">
+                                            <loc>X:</loc>
+                                            <input class="input_slider_value" type="text" style="width: 7em;" data-bind="value: velocity_x, event: { change: $root.update_planet_spec }" />
+                                            <button id="Button11" type="submit" style="display: none"></button>
+                                        </form>
+                                    </div>
+                                    <div class="div_settings_control_input">
+                                        <form data-bind="submit: update_planet_spec" style="display: inline-block;">
+                                            <loc>Y:</loc>
+                                            <input class="input_slider_value" type="text" style="width: 7em;" data-bind="value: velocity_y, event: { change: $root.update_planet_spec }" />
+                                            <button id="Button12" type="submit" style="display: none"></button>
+                                        </form>
+                                    </div>
+                                </div>
+                                <div class="div_settings_control">
+                                    <div class="div_settings_control_lbl">
+                                        <loc>Mass</loc>
+                                    </div>
+                                    <div class="div_settings_control_input">
+                                        <div id="slider_mass" class="div_slider">
+                                        </div>
+                                    </div>
+                                    <div class="div_settings_control_form">
+                                        <form data-bind="submit: update_planet_spec">
+                                            <input class="input_slider_value" type="text" style="width: 5em" data-bind="value: mass, event: { change: $root.update_planet_spec }" />
+                                            <button id="Button13" type="submit" style="display: none"></button>
+                                        </form>
+                                    </div>
+                                </div>
+                                <div class="panel_commit_buttons">
+                                    <a data-bind="click_sound: 'default', rollover_sound: 'default'">
+                                        <input type="button" value="EDIT PLANET" id="Button7" class="btn_std btn_panel" data-bind="click: function () { $root.transitionInToPlanetEditor(false); }, visible: showControls" />
+                                    </a>
+                                    <a data-bind="click_sound: 'default', rollover_sound: 'default'">
+                                        <input type="button" value="REMOVE" id="Button8" class="btn_std btn_panel" data-bind="click: removePlanet" />
+                                    </a>
+                                    <a data-bind="click_sound: 'default', rollover_sound: 'default'">
+                                        <input type="button" value="CLOSE" id="Button5" class="btn_std btn_panel" style="float: right;" data-bind="click: issueCancel" />
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                    <!-- PLANET EDITOR PANEL -->
+                    <div class="div_sys_editor_group" data-bind="visible: showPlanetEditor">
+                        <div class="panel_title">
+                            <!-- ko ifnot : advancedEditMode -->
+                            <loc>edit planet</loc>
+                            <!--/ko-->
+                            <!-- ko if : advancedEditMode -->
+                            <loc>Advanced edit planet</loc>
+                            <!--/ko-->
+                        </div>
+                        <div class="panel_body" style="width: 420px;">
+
+                            <div class="div_settings_control">
+                                <div class="div_settings_control_lbl" style="margin-top: 6px;">
+                                    <loc>planet name</loc>
+                                </div>
+                                <div class="div_settings_control_form">
+                                    <form style="width: 100%;" data-bind="submit: update_planet_spec">
+                                        <input class="input_slider_value" style="width: 143px; margin: 2px 8px 14px 0px;" type="text" data-bind="value: planetName, event: { change: $root.update_planet_spec }, disable: planetUnderConstruction" />
+                                        <button id="Button30" type="submit" style="display: none"></button>
+                                    </form>
+                                </div>
+                                <button class="btn_random" type="button" data-bind="click: newPlanetName, disable: planetUnderConstruction, click_sound: 'default', rollover_sound: 'default'">
+                                    <span class="glyphicon glyphicon-refresh" aria-hidden="true"></span>
+                                </button>
+                            </div>
+
+                            <div class="div_settings_control">
+                                <div class="div_settings_control_input" style="margin: 0 0 8px 0;">
+                                    <div data-bind="visible: enableStartingPlanet">
+                                        <label style="font-weight: normal; text-transform: capitalize;">
+                                            <input type="checkbox" data-bind="checked: starting_planet, disable: disableStartingPlanetToggle, event: { change: setTimeout(function () { model.update_planet_spec() }, 50) }" />
+                                            <loc>Use as a starting planet</loc>
+                                        </label>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- ADVANCED EDIT MODE -->
+                            <!-- ko if : advancedEditMode -->
+                            <div class="div_adv_edit_mode">
+                                <div class="div_adv_edit_mode_ctrls">
+                                    <div style="display: flex;">
+                                        <div class="div_planet_info_square">
+                                            <div class="title">
+                                                <loc>CSG</loc>
+                                            </div>
+                                            <div class="count">
+                                                <span class="div_planet_info_label"><loc>Brushes:</loc> </span><span data-bind="text: customBrushCount">000</span>
+                                            </div>
+                                            <div class="btn_toggle" data-bind="css: { live: api.terrain_editor.editingTerrain() }, click: toggleEditCsg">
+                                                <div class="btn_std_label btn_toggle_label">
+                                                    <loc>Edit</loc>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="div_planet_info_square">
+                                            <div class="title">
+                                                <loc>Metal Spots</loc>
+                                            </div>
+                                            <div class="count">
+                                                <span class="div_planet_info_label"><loc>Spots:</loc> </span><span data-bind="text: customMetalSpotCount">000</span>
+                                            </div>
+                                            <div class="btn_toggle" data-bind="css: { live: api.terrain_editor.editingMetalSpots() }, click: toggleEditMetalSpots">
+                                                <div class="btn_std_label btn_toggle_label">
+                                                    <loc>Edit</loc>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="div_planet_info_square">
+                                            <div class="title">
+                                                <loc>Landing Zones</loc>
+                                            </div>
+                                            <div class="count">
+                                                <span class="div_planet_info_label"><loc>Zones:</loc> </span><span data-bind="text: customLandingZoneCount">000</span>
+                                            </div>
+                                            <div class="btn_toggle" data-bind="css: { live: api.terrain_editor.editingLandingZones() }, click: toggleEditLandingZones">
+                                                <div class="btn_std_label btn_toggle_label">
+                                                    <loc>Edit</loc>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <!-- ko ifnot: api.terrain_editor.editingLandingZones() && false -->
+                                <div class="div_planet_info" style="border: 0;">
+                                    <div class="div_planet_info_title">
+                                        <loc>Properties</loc>
+                                    </div>
+                                    <div class="div_planet_info_row">
+                                        <div class="div_planet_info_col">
+                                            <span class="div_planet_info_label"><loc>Seed:</loc> </span><span data-bind="text: seed">000</span>
+                                        </div>
+                                        <div class="div_planet_info_col">
+                                            <span class="div_planet_info_label"><loc>Biome:</loc> </span><span data-bind="text: selectedBiome">000</span>
+                                        </div>
+                                    </div>
+                                    <div class="div_planet_info_row">
+                                        <div class="div_planet_info_col">
+                                            <span class="div_planet_info_label"><loc>Radius:</loc> </span><span data-bind="text: radius">000</span>
+                                        </div>
+                                        <div class="div_planet_info_col">
+                                            <span class="div_planet_info_label"><loc>Height:</loc> </span><span data-bind="text: heightRange">000</span>
+                                        </div>
+                                    </div>
+                                    <div class="div_planet_info_row">
+                                        <div class="div_planet_info_col">
+                                            <span class="div_planet_info_label"><loc>Water:</loc> </span><span data-bind="text: waterHeight">000</span>
+                                        </div>
+                                        <div class="div_planet_info_col">
+                                            <span class="div_planet_info_label"><loc>Temp:</loc> </span><span data-bind="text: temperature">000</span>
+                                        </div>
+                                    </div>
+
+                                </div>
+                                <!-- /ko -->
+
+                                <!-- this logic is currently disabled.  it requires further testing before being released live. -->
+                                <!-- ko if: api.terrain_editor.editingLandingZones() && false -->
+                                <div class="div_planet_info" style="border: 0; max-height: 200px; overflow: scroll">
+                                    <div class="div_planet_info_title">
+                                        <loc>Landing Zone Restrictions</loc>
+                                    </div>
+
+                                    <!-- ko foreach: $root.customLandingZoneRestrictions -->
+                                    <div class="div_planet_info_row">
+                                        <div class="div_planet_info_col">
+                                            <span class="div_planet_info_label"><loc>Zone:</loc> </span><span data-bind="text: index"></span>
+                                        </div>
+                                        <div class="div_planet_info_col">
+                                            <span class="div_planet_info_label"><loc>Min:</loc> </span>
+                                            <input type="number" style="width: 35px" data-bind="value: minPlayers" />
+                                        </div>
+                                        <div class="div_planet_info_col">
+                                            <span class="div_planet_info_label"><loc>Max:</loc> </span>
+                                            <input type="number" style="width: 35px" data-bind="value: maxPlayers" />
+                                        </div>
+                                    </div>
+                                    <!-- /ko -->
+                                </div>
+                                <!-- /ko -->
+
+                            </div>
+                            <!-- /ko -->
+
+                            <!---- STANDARD EDIT MODE -------------------------------------->
+
+                            <!---- TABS -------------------------------------->
+                            <div style="position: relative; margin: 10px 0px; border-bottom: 1px solid #333; display: flex;" data-bind="visible: !$root.advancedEditMode()">
+                                <ul class="nav nav-pills" style="flex-grow: 1;">
+                                    <li class="active">
+                                        <a data-toggle="pill" data-bind="click: function () { $root.editPlanetMode('terrain'); },
+                                            click_sound: 'default',
+                                            rollover_sound: 'default'">
+                                            <loc>TERRAIN</loc>
+                                        </a>
+                                    </li>
+                                    <li data-bind="css: { 'disabled': $root.disableUpdatePlanetFull() }">
+                                        <a data-toggle="pill" data-bind="click: function () { $root.editPlanetMode('gameplay'); },
+                                            click_sound: 'default',
+                                            rollover_sound: 'default'">
+                                            <loc>GAMEPLAY</loc>
+                                        </a>
+                                    </li>
+                                </ul>
+                                <input type="button" value="Advanced Edit" id="Button2" class="btn_std" style="font-size: 13px; text-transform: uppercase;" data-bind="click: function () { $root.update_planet_full(); $root.startConfirmAdvancedEdit(); }, click_sound: 'default', rollover_sound: 'default'" />
+                            </div>
+
+                            <!---- TERRAIN CONTROLS -------------------------------------->
+                            <div id="terrain_controls" data-bind="visible: showTerrainInfo">
+                                <div class="div_settings_control">
+                                    <div class="div_settings_control_lbl" style="margin-top: 6px;">
+                                        <loc>seed</loc>
+                                    </div>
+                                    <div class="div_settings_control_form">
+                                        <form data-bind="submit: update_planet_spec">
+                                            <input class="input_slider_value" style="width: 90px; margin: 2px 8px 14px 0px;" type="text" data-bind="value: seed, event: { change: $root.update_planet_spec }, disable: disableTerrainParameterControls" />
+                                            <button id="Button19" type="submit" style="display: none"></button>
+                                        </form>
+                                    </div>
+                                    <button type="button" class="btn_random" data-bind="click: updatePlanetWithRandomSeed, disable: disableTerrainParameterControls, click_sound: 'default', rollover_sound: 'default'">
+                                        <span class="glyphicon glyphicon-refresh" aria-hidden="true"></span>
+                                    </button>
+                                </div>
+
+                                <div class="div_settings_control">
+                                    <div class="div_settings_control_lbl">
+                                        <loc>biome</loc>
+                                    </div>
+                                    <div class="div_settings_control_input" style="margin: 0px 0px 16px 0px;">
+                                        <select data-bind="options: biomes,
+                                            optionsText: function (item) { return item.toUpperCase(); },
+                                            value: selectedBiome,
+                                            event: { change: $root.update_planet_spec },
+                                            disable: disableTerrainParameterControls">
+                                        </select>
+                                    </div>
+                                    <div class="msg_error account_form_error" data-bind="text: biomeError"></div>
+                                </div>
+
+                                <div class="div_settings_control">
+                                    <div class="div_settings_control_lbl">
+                                        <loc>radius</loc>
+                                    </div>
+                                    <div class="div_settings_control_input">
+                                        <div id="slider_radius" class="div_slider">
+                                        </div>
+                                    </div>
+                                    <div class="div_settings_control_form">
+                                        <form data-bind="submit: update_planet_spec">
+                                            <input class="input_slider_value" type="text" data-bind="value: radius, event: { change: $root.update_planet_spec }, disable: disableTerrainParameterControls" />
+                                            <button id="Button20" type="submit" style="display: none"></button>
+                                        </form>
+                                        <div class="msg_error account_form_error"></div>
+                                    </div>
+                                </div>
+
+                                <div class="div_settings_control">
+                                    <div class="div_settings_control_lbl">
+                                        <loc>height range</loc>
+                                    </div>
+                                    <div class="div_settings_control_input">
+                                        <div id="slider_height_range" class="div_slider">
+                                        </div>
+                                    </div>
+                                    <div class="div_settings_control_form">
+                                        <form data-bind="submit: update_planet_spec">
+                                            <input class="input_slider_value" type="text" data-bind="value: heightRange, event: { change: $root.update_planet_spec }, disable: disableTerrainParameterControls" />
+                                            <button id="Button21" type="submit" style="display: none"></button>
+                                        </form>
+                                    </div>
+                                </div>
+
+                                <div class="div_settings_control">
+                                    <div class="div_settings_control_lbl">
+                                        <loc>water coverage</loc>
+                                    </div>
+                                    <div class="div_settings_control_input">
+                                        <div id="slider_water_height" class="div_slider">
+                                        </div>
+                                    </div>
+                                    <div class="div_settings_control_form">
+                                        <form data-bind="submit: update_planet_spec">
+                                            <input class="input_slider_value" type="text" data-bind="value: waterHeight, event: { change: $root.update_planet_spec }, disable: disableTerrainParameterControls" />
+                                            <button id="Button23" type="submit" style="display: none"></button>
+                                        </form>
+                                        <div class="msg_error account_form_error" data-bind="text: waterHeightError"></div>
+                                    </div>
+                                </div>
+
+                                <div class="div_settings_control">
+                                    <div class="div_settings_control_lbl">
+                                        <loc>water depth</loc>
+                                    </div>
+                                    <div class="div_settings_control_input">
+                                        <div id="slider_water_depth" class="div_slider">
+                                        </div>
+                                    </div>
+                                    <div class="div_settings_control_form">
+                                        <form data-bind="submit: update_planet_spec">
+                                            <input class="input_slider_value" type="text" data-bind="value: waterDepth, event: { change: $root.update_planet_spec }, disable: disableTerrainParameterControls" />
+                                            <button id="Button23" type="submit" style="display: none"></button>
+                                        </form>
+                                    </div>
+                                </div>
+
+                                <div class="div_settings_control">
+                                    <div class="div_settings_control_lbl">
+                                        <loc>temperature</loc>
+                                    </div>
+                                    <div class="div_settings_control_input">
+                                        <div id="slider_temperature" class="div_slider">
+                                        </div>
+                                    </div>
+                                    <div class="div_settings_control_form">
+                                        <form data-bind="submit: update_planet_spec">
+                                            <input class="input_slider_value" type="text" data-bind="value: temperature, event: { change: $root.update_planet_spec }, disable: disableTerrainParameterControls" />
+                                            <button id="Button22" type="submit" style="display: none"></button>
+                                        </form>
+                                    </div>
+                                </div>
+
+                                <div class="div_settings_control">
+                                    <div class="div_settings_control_lbl">
+                                        <loc>symmetry type</loc>
+                                    </div>
+                                    <div class="div_settings_control_input" style="margin: 0 12px 0 0px;">
+                                        <select data-bind="options: symmetryTypes,
+                                            optionsText: $root.symmetryTypeText,
+                                            value: selectedSymmetryType,
+                                            event: { change: $root.update_planet_spec },
+                                            disable: disableSymmetryTypes">
+                                        </select>
+                                    </div>
+                                    <div class="msg_error account_form_error" data-bind="text: biomeError"></div>
+                                </div>
+
+                                <div class="div_settings_control" data-bind="css: { section_disabled: disableSymmetryCheckboxes }">
+
+                                    <div class="div_settings_control_input" style="display: flex; margin: 8px 0px 8px 114px;">
+                                        <loc>Include:</loc>
+                                        <label style="font-weight: normal; text-transform: capitalize; margin: 0 16px;">
+                                            <input type="checkbox" data-bind="checked: symmetricalMetal, disable: disableSymmetryCheckboxes, event: { change: setTimeout(function () { model.update_planet_spec() }, 50) }" />
+                                            <loc>metal spots</loc>
+                                        </label>
+                                    </div>
+                                    <div class="div_settings_control_input" style="display: block; margin: 0px 0px 16px 115px;">
+                                        <label style="font-weight: normal; text-transform: capitalize;">
+                                            <input type="checkbox" data-bind="checked: symmetricalStarts, disable: disableSymmetryCheckboxes, event: { change: setTimeout(function () { model.update_planet_spec() }, 50) }" />
+                                            <loc>start spots</loc>
+                                        </label>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- GAMEPLAY CONTROLS -->
+                            <div id="gameplay_controls" data-bind="visible: showGameplayInfo">
+
+                                <div class="div_settings_control">
+                                    <div class="div_settings_control_lbl">
+                                        <loc>metal density</loc>
+                                    </div>
+                                    <div class="div_settings_control_input">
+                                        <div id="slider_metal_density" class="div_slider">
+                                        </div>
+                                    </div>
+                                    <div class="div_settings_control_form">
+                                        <form data-bind="submit: update_planet_spec">
+                                            <input class="input_slider_value" type="text" data-bind="value: metalDensity, event: { change: $root.update_planet_spec }, disable: disableTerrainParameterControls" />
+                                            <button id="Button25" type="submit" style="display: none"></button>
+                                        </form>
+                                    </div>
+                                </div>
+
+                                <div class="div_settings_control">
+                                    <div class="div_settings_control_lbl">
+                                        <loc>metal clusters</loc>
+                                    </div>
+                                    <div class="div_settings_control_input">
+                                        <div id="slider_metal_clusters" class="div_slider">
+                                        </div>
+                                    </div>
+                                    <div class="div_settings_control_form">
+                                        <form data-bind="submit: update_planet_spec">
+                                            <input class="input_slider_value" type="text" data-bind="value: metalClusters, event: { change: $root.update_planet_spec }, disable: disableTerrainParameterControls" />
+                                            <button id="Button26" type="submit" style="display: none"></button>
+                                        </form>
+                                    </div>
+                                </div>
+
+                                <div class="div_settings_control border">
+                                    <div class="div_settings_control_lbl text_input" style="width: 305px">
+                                        <loc>thrusters required for attack</loc>
+                                    </div>
+                                    <div class="div_settings_control_input">
+                                        <form data-bind="submit: update_planet_spec" style="display: inline-block;">
+                                            <input class="input_slider_value" type="text" style="margin: 0px 0px 14px;" data-bind="value: required_thrust_to_move, event: { change: $root.update_planet_spec }" />
+                                            <button id="Button18" type="submit" style="display: none"></button>
+                                        </form>
+                                    </div>
+                                </div>
+
+                                <!-- STARTING PLANET OPTIONS -->
+                                <div class="div_settings_control border" style="flex-direction: column;" data-bind="css: { section_disabled: not_starting_planet }">
+                                    <div class="div_settings_control subset_header">
+                                        <loc>Starting planet options</loc>
+                                    </div>
+                                    <div id="starting_planet_options">
+                                        <div class="div_settings_control subset">
+                                            <div class="div_settings_control_lbl subset">
+                                                <loc>landing zones per army</loc>
+                                            </div>
+                                            <div class="div_settings_control_input" style="margin: 0px; display: block;">
+                                                <label style="margin: 0px 0px 10px 0px;" data-bind="disable: not_starting_planet, css: { section_disabled: not_starting_planet }">
+                                                    <input type="checkbox" data-bind="checked: landingZonesPerArmyIsAuto, disable: not_starting_planet" />
+                                                    <loc>Auto</loc>
+                                                </label>
+                                                <div class="div_settings_control subset" data-bind="visible: !$root.landingZonesPerArmyIsAuto()">
+                                                    <div class="div_settings_control_input subset">
+                                                        <div id="slider_landing_zones_per_army" class="div_slider">
+                                                        </div>
+                                                    </div>
+                                                    <div class="div_settings_control_form">
+                                                        <form data-bind="submit: update_planet_armies">
+                                                            <input class="input_slider_value subset" type="number" value="0" data-bind="value: landingZonesPerArmy, event: { change: $root.update_planet_spec }, disable: not_starting_planet" />
+                                                            <button id="Button27" type="submit" style="display: none"></button>
+                                                        </form>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="div_settings_control subset">
+                                            <div class="div_settings_control_lbl subset">
+                                                <loc>landing zone size</loc>
+                                            </div>
+                                            <div class="div_settings_control_input" style="margin: 0px; display: block;">
+                                                <label style="margin: 0px 0px 10px 0px;" data-bind="disable: not_starting_planet, css: { section_disabled: not_starting_planet }">
+                                                    <input type="checkbox" data-bind="checked: landingZoneSizeIsAuto, disable: not_starting_planet" />
+                                                    <loc>Auto</loc>
+                                                </label>
+                                                <div class="div_settings_control" data-bind="visible: !$root.landingZoneSizeIsAuto()">
+                                                    <div class="div_settings_control_input subset">
+                                                        <div id="slider_landing_zone_size" class="div_slider">
+                                                        </div>
+                                                    </div>
+                                                    <div class="div_settings_control_form">
+                                                        <form data-bind="submit: update_planet_armies">
+                                                            <input class="input_slider_value subset" type="number" value="0" data-bind="value: landingZoneSize, event: { change: $root.update_planet_spec }, disable: not_starting_planet" />
+                                                            <button id="Button24" type="submit" style="display: none"></button>
+                                                        </form>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div style="width: auto; padding: 0px 0px 0px 18px;">
+                                            <div class="div_settings_control_lbl" style="width: 100%; padding-top: 8px; border-top: 1px solid #333">
+                                                <loc>preview landing zones by number of armies</loc>
+                                            </div>
+                                            <div class="div_settings_control subset">
+                                                <div class="div_settings_control_input" style="width: 150px; flex-grow: 0;">
+                                                    <div id="slider_num_armies" class="div_slider">
+                                                    </div>
+                                                </div>
+                                                <div class="div_settings_control_form">
+                                                    <form data-bind="submit: update_planet_armies">
+                                                        <input class="input_slider_value" type="number" value="2" data-bind="value: numArmies, event: { change: $root.update_planet_armies }, disable: disableNumArmies" />
+                                                        <button id="Button28" type="submit" style="display: none"></button>
+                                                    </form>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- PREVIEW CONTROLS -->
+                            <div class="div_settings_control">
+                                <div class="div_settings_control_lbl">
+                                    <loc>Preview</loc>
+                                </div>
+                                <div class="div_settings_control_form">
+                                    <input class="btn_std btn_panel" style="margin: 0px 4px 0px 0px; text-transform: capitalize;" type="button" value="terrain" id="Button1"
+                                        data-bind="click: update_planet, disable: planetUnderConstruction, click_sound: 'default', rollover_sound: 'default'" />
+                                    <input class="btn_std btn_panel" style="margin: 0px 4px 0px 0px; text-transform: capitalize;" type="button" value="terrain and gameplay" id="Button9"
+                                        data-bind="click: update_planet_full, disable: disableUpdatePlanetFull, click_sound: 'default', rollover_sound: 'default'" />
+                                </div>
+                            </div>
+                            <div class="div_commit_buttons_cont" style="display: flex; margin-top: 20px;">
+                                <div class="btn-group" style="display: flex; flex-grow: 1; text-transform: uppercase;">
+                                    <input type="button" value="Save as template" class="btn_std btn_panel" style="text-transform: uppercase;" data-bind="click: savePlanet, click_sound: 'default', rollover_sound: 'default'" />
+                                </div>
+                                <input type="button" value="CLOSE" class="btn_std btn_panel" data-bind="click: function () { $root.transitionOutOfPlanetEditor(false); }, click_sound: 'default', rollover_sound: 'default'" />
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- NEW BOTTOM BAR (BUILD BAR) -->
+    <div id="planet_build_bar" class="div_bottom_bar" style="display: none" data-bind="visible: showBuildBar">
+        <div class="bottom-bar"></div>
+        <div class="div_build_grp">
+
+            <!-- HOVER DETAILS -->
+
+            <!-- ko if: !jQuery.isEmptyObject(buildBarHoverPlanet()) -->
+            <div class="wrapper_build_bar_unit_hover_detail" style="margin-bottom: -5px;" data-bind="visible: showBuildBarHover">
+                <div class="div_build_bar_unit_hover_detail">
+                    <div class="wrapper">
+                        <div class="title">
+                            <div class="left_corner"></div>
+                            <div class="center">
+                                <div class="left_corner"></div>
+                                <div class="content" data-bind="text: buildBarHoverPlanet().name">Unitname</div>
+                                <div class="right_corner"></div>
+                            </div>
+                            <div class="right_corner"></div>
+                        </div>
+                        <div class="detail">
+                            <div class="left_corner"></div>
+                            <div class="content" style="justify-content: center; flex-direction: column;">
+                                <div class="div_planet_properties">
+                                    <!-- RADIUS -->
+                                    <div class="planet_property">
+                                        <div class="label">
+                                            <loc>radius</loc>
+                                        </div>
+                                        <div class="bar">
+                                            <div class="div_planet_property_bar">
+                                                <div class="planet_property_bar" data-bind="style: { width: buildBarHoverRadiusWidthString() }"></div>
+                                            </div>
+                                        </div>
+                                        <div class="value">
+                                            <span data-bind="text: buildBarHoverPlanet().planet.radius"></span>
+                                        </div>
+                                    </div>
+                                    <!-- HEIGHT -->
+                                    <div class="planet_property">
+                                        <div class="label">
+                                            <loc>height</loc>
+                                        </div>
+                                        <div class="bar">
+                                            <div class="div_planet_property_bar">
+                                                <div class="planet_property_bar" data-bind="style: { width: buildBarHoverHeightWidthString() }"></div>
+                                            </div>
+                                        </div>
+                                        <div class="value">
+                                            <span data-bind="text: buildBarHoverPlanet().planet.heightRange"></span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="div_planet_properties">
+                                    <!-- WATER -->
+                                    <div class="planet_property">
+                                        <div class="label">
+                                            <loc>Water</loc>
+                                        </div>
+                                        <div class="bar">
+                                            <div class="div_planet_property_bar">
+                                                <div class="planet_property_bar" data-bind="style: { width: buildBarHoverWaterWidthString() }"></div>
+                                            </div>
+                                        </div>
+                                        <div class="value">
+                                            <span data-bind="text: buildBarHoverPlanet().planet.waterHeight"></span>
+                                        </div>
+                                    </div>
+                                    <!-- TEMP -->
+                                    <div class="planet_property">
+                                        <div class="label">
+                                            <loc>Temp</loc>
+                                        </div>
+                                        <div class="bar">
+                                            <div class="div_planet_property_bar">
+                                                <div class="planet_property_bar" data-bind="style: { width: buildBarHoverTemperatureWidthString() }"></div>
+                                            </div>
+                                        </div>
+                                        <div class="value">
+                                            <span data-bind="text: buildBarHoverPlanet().planet.temperature"></span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="right_corner"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- /ko -->
+            <!--- THUMBS ------------>
+            <div id="bldbar1">
+                <div class="div_build_bar_menu_cont" data-bind="event: {
+                        mouseover: function () { showBuildBarHover(true); },
+                        mouseout: function () { showBuildBarHover(false); }
+                    }">
+                    <div class="div_build_bar_menu_tabs receiveMouse">
+                        <div class="div_build_bar_page" style="width: auto; margin: 0px;">
+                            <div class="div_build_bar_cont">
+                                <!-- ko foreach: buildBarDisplayItems -->
+                                <div class="div_build_item" data-bind="click: function () { $root.addPlanetFromBar($data, true, $root.randomizeNewPlanets()) }, event: { mouseover: function () { $root.buildBarHoverPlanet($data) } }">
+                                    <img data-bind="attr: { src: $root.imageSourceForPlanet($data) }" src="coui://ui/main/shared/img/icon_planet_sample.png" class="img_build_unit" />
+                                    <!-- ko if: $root.showMyPlanets -->
+                                    <div class="div_remove_item" data-bind="click: function () { $root.removeItemFromMyPlanets($index()); }, clickBubble: false"><noloc>X</noloc></div>
+                                    <!-- /ko -->
+                                </div>
+                                <!-- /ko -->
+
+                                <!-- ko ifnot: $root.showMyPlanets() || $root.showRecent() -->
+                                <div class="div_build_item"
+                                    data-bind="click: function () { $root.showAstroidBeltPanel(true); }, event: { mouseover: function () { $root.buildBarHoverPlanet($root.asteroidTemplate()); } }">
+                                    <div class="div_build_item asteroid_belt" data-bind="css: { div_active_item: $root.showAstroidBeltPanel }, click: function () { $root.showAstroidBeltPanel(!$root.showAstroidBeltPanel()); }, event: { mouseover: function () { $root.buildBarHoverPlanet($root.asteroidTemplate()); } }">
+                                        <img src="coui://ui/main/shared/img/asteroid_belt.png" class="img_build_unit" />
+                                    </div>
+                                </div>
+                                <!-- /ko -->
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--- TABS ------------>
+            <div class="div_build_bar_tab_cont receiveMouse">
+                <div class="div_build_bar_tab_background">
+                    <div class="div_build_bar_tab_background_inner">
+                        <span class="tab_grp">
+                            <span class="tab_grp_body">
+                                <span class="span_build_bar_tab" data-bind="click: function () { model.setBuildBarMode('templates') }, click_sound: 'default', rollover_sound: 'default', css: { span_build_bar_tab_active: $root.showTemplates() }">
+                                    <span class="span_build_bar_tab_label">
+                                        <loc>TEMPLATES</loc>
+                                    </span>
+                                </span>
+                                <span class="span_build_bar_tab" data-bind="click: function () { model.setBuildBarMode('recent') }, click_sound: 'default', rollover_sound: 'default', css: { span_build_bar_tab_active: $root.showRecent() }">
+                                    <span class="span_build_bar_tab_label">
+                                        <loc>RECENT</loc>
+                                    </span>
+                                </span>
+                                <span class="span_build_bar_tab" data-bind="click: function () { model.setBuildBarMode('my_planets') }, click_sound: 'default', rollover_sound: 'default', css: { span_build_bar_tab_active: $root.showMyPlanets() }">
+                                    <span class="span_build_bar_tab_label">
+                                        <loc>MY PLANETS</loc>
+                                    </span>
+                                </span>
+                            </span>
+                        </span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="csg_build_bar" class="div_bottom_bar" style="display: none" data-bind="visible: api.terrain_editor.editingTerrain()">
+        <div class="bottom-bar"></div>
+        <div class="div_build_grp">
+            <!-- ko with: $root.csgPaletteHover -->
+            <div class="wrapper_build_bar_csg_hover_detail" data-bind=" css: { locked: $data.required_content }">
+                <div class="div_build_bar_unit_hover_detail">
+                    <div class="wrapper">
+                        <div class="title">
+                            <div class="left_corner"></div>
+                            <div class="center">
+                                <div class="left_corner"></div>
+                                <div class="content" data-bind="text: title"></div>
+                                <div class="right_corner"></div>
+                            </div>
+                            <div class="right_corner"></div>
+                        </div>
+                        <div class="detail">
+                            <div class="left_corner"></div>
+                            <div class="content">
+                                <div class="game_content_status" data-bind="if: $data.required_content , css: { brush_locked: !api.terrain_editor.isBrushAvailable($data) }">
+                                    <span class="glyphicon" style="float: left;" data-bind="css: { 'glyphicon-lock': !api.terrain_editor.isBrushAvailable($data) }"></span>
+                                    <span class="description" data-bind="text: api.content.getInfo(required_content).description"></span>
+                                </div>
+                            </div>
+                            <div class="right_corner"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- /ko -->
+
+            <!--- THUMBS ------------>
+            <div id="csg_thumbs">
+                <div class="div_build_bar_menu_cont">
+                    <div class="div_build_bar_menu_tabs receiveMouse">
+                        <!-- ko if: $root.brushGroups().length -->
+                        <div class="div_build_bar_sub_tabs">
+                            <!-- ko foreach: $root.brushGroups -->
+                            <div class="btn_std_ix" style="text-transform: capitalize"
+                                data-bind="text: $data, click_sound: 'default', rollover_sound: 'default', css: { span_build_bar_tab_active: $root.selectedBrushGroup() === $data }, click: function () { $root.selectedBrushGroup($data); }">
+                            </div>
+                            <!-- /ko -->
+                        </div>
+                        <!-- /ko -->
+                        <div class="div_build_bar_page">
+                            <div class="div_build_bar_cont" data-bind="foreach: $root.availableBrushes">
+                                <div class="div_build_item" data-bind="click: $root.setCsgDescription, event: { mouseover: function () { $root.csgPaletteHover($data); }, mouseout: function () { $root.csgPaletteHover(null); } }, css: { brush_locked: !api.terrain_editor.isBrushAvailable($data) }">
+                                    <img src="" class="img_build_unit" data-bind="attr: { src: image }" />
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!--- TABS ------------>
+            <div class="div_build_bar_tab_cont receiveMouse">
+                <div class="div_build_bar_tab_background">
+                    <div class="div_build_bar_tab_background_inner">
+                        <span class="tab_grp">
+                            <span class="tab_grp_body">
+                                <!-- ko foreach: $root.brushBiomes -->
+                                <span class="span_build_bar_tab"
+                                    data-bind="click_sound: 'default', rollover_sound: 'default', css: { span_build_bar_tab_active: $root.selectedBrushBiome() === $data }, click: function () { $root.selectedBrushBiome($data); }">
+                                    <span class="span_build_bar_tab_label" data-bind="text: $data"></span>
+                                </span>
+                                <!-- /ko -->
+                            </span>
+                        </span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- ko if: api.terrain_editor.editingMetalSpots() && !!keybindFor('add_metal_spot')-->
+    <div class="div_keyboard_msg" data-bind="visible: true, vars: { hotkey: keybindFor('add_metal_spot') }" style="display: none">
+        <loc>Use [style=hotkey_title]__hotkey__[/style] to place a metal spot below the cursor.</loc>
+    </div>
+    <!-- /ko -->
+
+    <!-- ko if: api.terrain_editor.editingLandingZones() && !!keybindFor('add_landing_zone')-->
+    <div class="div_keyboard_msg" data-bind="visible: true, vars: { hotkey: keybindFor('add_landing_zone') }" style="display: none">
+        <loc>Use [style=hotkey_title]__hotkey__[/style] to place a landing zone below the cursor.</loc>
+    </div>
+    <!-- /ko -->
+
+</body>
+</html>

@@ -1,0 +1,44 @@
+{
+    "AT WILL": {
+        "message": "NA P\u0158\u00c1N\u00cd"
+    }, 
+    "BUILD MODE": {
+        "message": "Budovatelsk\u00fd r\u00e9\u017eim"
+    }, 
+    "CONTINUOUS": {
+        "message": "KONTINU\u00c1LN\u00cd"
+    }, 
+    "ENERGY ORDERS": {
+        "message": "Energetick\u00e9 p\u0159\u00edkazy"
+    }, 
+    "FIRE ORDERS": {
+        "message": "ROZKAZY PRO \u00daTOK"
+    }, 
+    "HOLD": {
+        "message": "DR\u017dET"
+    }, 
+    "HOLD POSITION": {
+        "message": "DR\u017dET POZICE"
+    }, 
+    "MANUEVER": {
+        "message": "MAN\u00c9VR"
+    }, 
+    "MOVE ORDERS": {
+        "message": "P\u0158ESUN"
+    }, 
+    "NORMAL": {
+        "message": "NORM\u00c1LN\u00cd"
+    }, 
+    "OFF": {
+        "message": "OFF"
+    }, 
+    "ON": {
+        "message": "ON"
+    }, 
+    "RETURN FIRE": {
+        "message": "OP\u011aTOVAT PALBU"
+    }, 
+    "ROAM": {
+        "message": "Toulat se"
+    }
+}

@@ -1,0 +1,151 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <meta locns="live_game" />
+        <noloc><title>Live Game: Planets</title></noloc>
+        <link href="bundle://boot/boot.css" rel="stylesheet" type="text/css" />
+        <link href="live_game_planets.css" rel="stylesheet" type="text/css" />
+        <script src="bundle://boot/boot.js" type="text/javascript"></script>
+		<script src="./js/preview.js" type="text/javascript"></script>
+        <script src="live_game_planets.js" type="text/javascript"></script>
+    </head>
+    <body class="body_panel">
+        <body-dock>
+            <div class="div_planet_list_panel">
+                <div class="div_planet_list_control">
+                    <div class="div_planet_list_control_cont">
+                        <div class="list_control_btn" data-bind="click: togglePinCelestialViewModels">
+                            <img data-bind="attr: { src: toggleImage }" />
+                        </div>
+                        <!---- PLANET BAR ---->
+                        <!-- ko ifnot: showCelestialViewModels -->
+                        <div class="div_planet_summary">
+                            <!-- ko with: sun -->
+                                <div class="btn_thumb btn_planet_thumb btn_std_ix"  data-placement="bottom" data-bind="click_sound: 'default', rollover_sound: 'default',
+                                    click: model.selectSun, css: { div_planet_list_item_active: isSelected },
+                                    tooltip: model.planetToolTip($data),
+                                    event: { mouseover: function () { $root.showPreview($element, 'sun'); }, mouseleave: $root.hidePreview }">
+                                    <img class="img_planet_list_thumb" src="coui://ui/main/shared/img/img_system_generic_icon.png" />
+                                </div>
+                            <!-- /ko -->
+
+                            <!-- ko foreach: alivePlanets -->
+                                <div class="btn_thumb btn_planet_thumb btn_std_ix"  data-placement="bottom" data-bind="css: { btn_planet_thumb_active: isSelected },
+                                        tooltip: model.planetToolTip($data), 
+                                        click_sound: '/SE/UI/UI_planet_switch_select',
+                                        event: { mouseover: function () { $root.showPreview($element, $data.index); }, mouseleave: $root.hidePreview }
+                                        rollover_sound: 'default', click: function() { $root.handleClick($index()); }">
+                                        <img class="img_planet_list_thumb" data-bind="attr: { src: imageSmall }" />
+                                </div>
+                            <!-- /ko -->
+                            <div class="bar_fill"></div>
+                        </div>
+                        <!-- /ko -->
+                    </div>
+                </div>
+                <div class="div_planet_info_cont">
+                    <!-- ko if: showCelestialViewModels -->
+                    <div class="div_planet_list_cont">
+                        <div class="div_planet_list_item_cont">
+                            <!------ PLANET ITEM
+                            __________________________________________________________________________-->
+                            <div>
+                                <!-- ko with: sun -->
+                                    <div class="div_planet_list_item" data-bind="click_sound: 'default', rollover_sound: 'default', click: model.selectSun, css: { div_planet_list_item_active: isSelected }">
+                                        <div class="div_planet_list_item_group" data-bind="click_sound: 'default', rollover_sound: 'default', click: function() { model.handleClick($data.index); }">
+                                            <div>
+                                                <div class="div_planet_list_item_left">
+                                                    <img class="img_planet_list_thumb" src="coui://ui/main/shared/img/img_system_generic_icon.png" />
+                                                </div>
+                                                <div class="div_planet_list_item_center">
+                                                    <div class="planet_title" data-bind="text: model.systemName"></div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                <!-- /ko -->
+                            </div>
+
+                            <div>
+                                <!-- ko foreach: alivePlanets -->
+                                    <div class="div_planet_list_item" data-bind="css: { div_planet_list_item_active: isSelected, div_planet_list_item_notvalid: (model.targeting() && !$data.isValidTarget) }">
+                                        <div class="div_planet_list_item_group" data-bind="click_sound: '/SE/UI/UI_planet_switch_select', rollover_sound: 'default', click: function() { model.handleClick($index()); }">
+                                            <div>
+                                                <div class="div_planet_list_item_left">
+                                                    <img class="img_planet_list_thumb" data-bind="attr: { src: imageSmall }" />
+                                                </div>
+                                                <div class="div_planet_list_item_center">
+                                                    <div class="planet_title" data-bind="text: name"></div>
+                                                    <!-- ko if: dead -->
+                                                    <div class="planet_title" data-bind="text: dead"></div>
+                                                    <!-- /ko -->
+                                                    <div class="engine_detail_cont">
+                                                        <!-- ko foreach: delta_v_current_array -->
+                                                            <!-- ko ifnot: $parent.active -->
+                                                            <img class="icon_engine_status" src="img/planet_list_panel/icon_engine_status_ready.png" />
+                                                            <!-- /ko -->
+                                                            <!-- ko if: $parent.active -->
+                                                            <img class="icon_engine_status" src="img/planet_list_panel/icon_engine_status_active.png" />
+                                                            <!-- /ko -->
+                                                        <!-- /ko -->
+                                                        <!-- ko foreach: $data.delta_v_theshold_array -->
+                                                        <span>
+                                                        <img class="icon_engine_status" src="img/planet_list_panel/icon_engine_status_empty.png" />
+                                                        </span>
+                                                        <!-- /ko -->
+                                                    </div>
+                                                </div>
+                                                <div class="div_planet_list_item_right">
+                                                    <img class="img_planet_action_thumb" style="display: none" data-bind="visible: canStart" src="img/planet_list_panel/icon_planet_start.png" />
+                                                    <!-- ko if: model.targeting -->
+                                                    <!-- ko if: isValidTarget -->
+                                                    <img class="img_planet_action_thumb" src="img/planet_list_panel/icon_planet_target.png"
+                                                         data-bind="click: function () { model.setTargetPlanet($data.index) }" />
+                                                    <!-- /ko -->
+                                                    <!-- /ko -->
+                                                </div>
+                                            </div>
+                                            <!-- ko ifnot: model.celestialControl() -->
+                                            <!-- ko if: thrust_control -->
+                                            <!-- ko ifnot: thrust_active -->
+                                            <div style="background: rgba(0, 0, 0, 0.3); margin: 4px 0px 0px 0px;">
+                                                <input type="button" class="btd_std btn_planet_list" data-bind="click: function () { model.smashPlanet($data.index) }" value="Send to Annihilate" />
+                                            </div>
+                                            <!-- disabled for now
+                                            <div>
+                                                <input type="button" class="btd_std btn_planet_list" data-bind="click: function () { model.movePlanet($data.index) }" value="Change Orbit" />
+                                            </div>
+                                            -->
+                                            <!-- /ko -->
+                                            <!-- ko if: thrust_active -->
+                                            <div>
+                                                <input type="button" class="btd_std btn_planet_list" data-bind="click: function () { model.cancelMove($data.index) }" value="Cancel Move" />
+                                            </div>
+                                            <!-- /ko -->
+                                            <!-- /ko -->
+                                            <!-- ko if: weapon_control && !thrust_active -->
+                                            <!-- ko ifnot: weapon_active -->
+                                            <div>
+                                                <input type="button" class="btd_std btn_planet_list" data-bind="click: function () { model.firePlanetWeapon($data.index) }" value="Fire Weapon" />
+                                            </div>
+                                            <!-- /ko -->
+                                            <!-- ko if: weapon_active -->
+                                            <div>
+                                                <input type="button" class="btd_std btn_planet_list" data-bind="click: function () { model.cancelFire($data.index) }" value="Cancel Fire" />
+                                            </div>
+                                            <!-- /ko -->
+                                            <!-- /ko -->
+                                            <!-- /ko -->
+                                        </div>
+                                    </div>
+                                <!-- /ko -->
+                            </div>
+                        </div>
+                    </div>
+                    <!-- /ko -->
+                </div>
+            </div>
+        </body-dock>
+    </body>
+</html>

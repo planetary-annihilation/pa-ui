@@ -1,0 +1,54 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta locns="live_game" />
+    <noloc><title>Live Game: Selection</title></noloc>
+    <link href="bundle://boot/boot.css" rel="stylesheet" type="text/css" />
+    <link href="live_game_selection.css" rel="stylesheet" type="text/css" />
+    <script src="bundle://boot/boot.js" type="text/javascript"></script>
+    <script src="coui://ui/main/shared/js/build.js" type="text/javascript"></script>
+    <script src="./js/constants.js" type="text/javascript"></script>
+    <script src="live_game_selection.js" type="text/javascript"></script>
+</head>
+<body class="body_panel">
+    <body-dock>
+        <div class="div_selection_cont" data-bind="visible: $root.selectionList().length">
+            <div class="wrapper">
+
+                <!-- ko with: $root.selectionModel -->
+                <!-- ko if: ($data.total() > 1) -->
+                <div class="summary_bar">
+                    <div class="unit_total" data-bind="text: $data.total"></div>
+                    <div class="summary_selectors_cont">
+                    <!-- ko if: ($root.typeArray().length > 1) -->
+                    <!-- ko foreach: $root.typeArray -->
+                    <div class="summary_category btn_std_ix" data-bind="event: { mousedown: function (data, event) { $root.onTypeFilterClick($data.type, event); } }">
+                        <img class="icon" data-bind="attr: { src: $data.source }" />
+                        <div class="value" data-bind="text: $data.count"></div>
+                    </div>
+                    <!-- /ko -->
+                    <!-- /ko -->
+                    </div>
+                </div>
+                <!-- /ko -->
+                <!-- /ko -->
+
+                <div class="div_unit_list">
+                    <!-- ko foreach: $root.selectionList -->
+                        <div class="div_unit_selection btn_std_ix" data-bind="event: { mousedown: function (data, event) { $parent.onSelectionDisplayClick($index(), event) } }">
+                            <a href="#">
+                                <img class="img_selected_unit" src="" data-bind="attr: { src: $data.icon }" />
+                            </a>
+                            <span class="span_selection_group span_hotkey" data-bind="text: $data.group, visible: $data.hasGroup"></span>
+                            <span class="span_selection_count stat_num" data-bind="text: $data.count"></span>
+                            <div class="close btn_win" data-bind="event: { mousedown: function (data, event) { $parent.onSelectionDisplayClick($index(), event, true) } }, mousedownBubble: false"></div>
+                        </div>
+                    <!-- /ko -->
+                    <div class="buffer"></div>
+                </div>
+            </div>
+        </div>
+        </body-dock>
+    </body>
+</html>

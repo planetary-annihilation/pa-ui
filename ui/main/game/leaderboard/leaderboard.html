@@ -1,0 +1,207 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta content="text/html; charset=utf-8" http-equiv="Content-Type" />
+    <noloc><title>Leaderboards</title></noloc>
+    <link href="bundle://boot/boot.css" rel="stylesheet" type="text/css" />
+    <link href="coui://ui/main/shared/css/landing_page.css" rel="stylesheet" type="text/css" />
+    <link href="leaderboard.css" rel="stylesheet" type="text/css" />
+    <script src="bundle://boot/boot.js" type="text/javascript"></script>
+    <script src="coui://ui/main/shared/js/matchmaking_utility.js" type="text/javascript"></script>
+    <script src="coui://ui/main/shared/js/leaderboard_utility.js" type="text/javascript"></script>
+    <script src="leaderboard.js" type="text/javascript"></script>
+</head>
+<body>
+<!--- VISUAL TREATMENTS  -->
+<div class="background_glow"></div>
+
+<div class="section_title">
+    <div class="content">
+        <div class="btn_std_ix btn_back_small" data-bind="click: back">
+            <span class="glyphicon glyphicon-chevron-left carat"></span>
+        </div>
+        <div class="title">
+            <loc>Leaderboards</loc>
+        </div>
+        <div class="content_titans_badge" style="display: none;" data-bind="visible: api.content.usingTitans">
+        </div>
+    </div>
+</div>
+<!-- CONTENT  -->
+<div class="section_content_top_bar">
+</div>
+<div id="header-message">
+</div>
+<div class="section_content">
+    <div class="section_wrapper">
+        <!-- COL 1-->
+        <div class="col_1">
+            <div class="section_controls">
+                <div class="div_user_rank">
+                    <div class="title_bar">
+                        <loc>Your rank</loc>
+                    </div>
+                    <div class="category">
+                        <div class="username" data-bind="text: playerDisplayName">
+                            Loading...
+                        </div>
+                        <div class="badge">
+                            <img src="coui://ui/main/shared/img/level_badges/badge_slot_96px.png" data-bind="attr: { src: playerBadge }, css: { badge_inactive: playerRankInactive }" />
+                        </div>
+                        <div class="badge_label" data-bind="text: playerBadgeTitle, css: { badge_inactive: playerRankInactive }" >
+                            Unknown
+                        </div>
+                    </div>
+                    <div id="rank_stats" data-bind="visible: playerHasRank">
+                        <div class="category">
+                            <div class="label">
+                                <loc>Level rank</loc>
+                            </div>
+                            <div class="stat" data-bind="text: playerRankPosition, css: { rank_inactive: playerRankInactive }">
+                                ?
+                            </div>
+                            <div class="inactive_message" data-bind="visible: playerRankInactive">
+                                <loc>No recent matches played.</loc>
+                            </div>
+                        </div>
+                        <div class="category">
+                            <div class="label">
+                                <loc>Match games played</loc>
+                            </div>
+                            <div class="stat" data-bind="text: playerGameCount">
+                                0
+                            </div>
+                        </div>
+                    </div>
+                    <div id="provisional_stat" data-bind="visible: playerIsProvisional">
+                        <div class="category" style="color: #FC0; font-size: 16px;">
+                            <loc>Rank pending until enough match games are played.</loc>
+                        </div>
+                    </div>
+                </div>
+                <div class="btn_std" style="line-height:1.2; margin: 0px 6px 0px;" data-bind="click: startMatchmaking">
+                    <div class="btn_label">
+                        <loc>Play ranked match</loc>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- COL 2-->
+        <div class="col_2" style="flex-direction:column;">
+            <!-- TABS -->
+            <div class="tab_cont">
+                <div class="tabs">
+                    <ul class="nav-pills">
+                        <li class="tab_level">
+                            <a href="#bronze" data-toggle="pill" data-bind="click_sound: 'default', rollover_sound: 'default'">
+                                <img src="coui://ui/main/shared/img/level_badges/badge_level_1_28px.png" />
+                                <span><loc>Bronze</loc></span>
+                            </a>
+                        </li>
+                        <li class="tab_level">
+                            <a href="#silver" data-toggle="pill" data-bind="click_sound: 'default', rollover_sound: 'default'">
+                                <img src="coui://ui/main/shared/img/level_badges/badge_level_2_28px.png" />
+                                <span><loc>Silver</loc></span>
+                            </a>
+                        </li>
+                        <li class="tab_level">
+                            <a href="#gold" data-toggle="pill" data-bind="click_sound: 'default', rollover_sound: 'default'">
+                                <img src="coui://ui/main/shared/img/level_badges/badge_level_3_28px.png" />
+                                <span><loc>Gold</loc></span>
+                            </a>
+                        </li>
+                        <li class="tab_level">
+                            <a href="#platinum" data-toggle="pill" data-bind="click_sound: 'default', rollover_sound: 'default'">
+                                <img src="coui://ui/main/shared/img/level_badges/badge_level_4_28px.png" />
+                                <span><loc>Platinum</loc></span>
+                            </a>
+                        </li>
+                        <li class="active tab_level">
+                            <a href="#uber" data-toggle="pill" data-bind="click_sound: 'default', rollover_sound: 'default'">
+                                <img src="coui://ui/main/shared/img/level_badges/badge_level_5_28px.png" />
+                                <span><loc>Uber</loc></span>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <!--- LIST VIEWS -->
+            <div class="tab_wrapper">
+                <!--- LIST  -->
+                <div class="tab-content">
+                    <div class="tab-pane" id="bronze"       data-bind="template: { name: 'league-template', data: model.leagues[5] }"></div>
+                    <div class="tab-pane" id="silver"       data-bind="template: { name: 'league-template', data: model.leagues[4] }"></div>
+                    <div class="tab-pane" id="gold"         data-bind="template: { name: 'league-template', data: model.leagues[3] }"></div>
+                    <div class="tab-pane" id="platinum"     data-bind="template: { name: 'league-template', data: model.leagues[2] }"></div>
+                    <div class="tab-pane active" id="uber"  data-bind="template: { name: 'league-template', data: model.leagues[1] }"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script type='text/html' id='player-template'>
+    <div class="row_player" data-bind="css: { row_player_yourself: uberId == model.yourself.uberId }">
+        <div class="rank" data-bind="text: rank">
+            ?
+        </div>
+        <div class="username">
+            <div class="commander">
+                <img src="coui://ui/main/shared/img/commanders/profiles/profile_imperial_delta.png" />
+            </div>
+            <div data-bind="text: displayName">
+                Unknown
+            </div>
+        </div>
+        <div class="timestamp">
+            <div class="string" data-bind="locText: timeSinceLastGame">
+                ?
+            </div>
+            <div class="replay">
+                <input type="button" value="Watch Replay" data-bind="click: watchReplay, enable: canWatchReplay" />
+            </div>
+        </div>
+    </div>
+</script>
+
+<script type='text/html' id='league-template'>
+    <div class="list" data-bind="visible: showLeaderboard">
+        <div class="row_player_header">
+            <div class="rank">
+                <loc>Rank</loc>
+            </div>
+            <div class="username">
+                <loc>Player</loc>
+            </div>
+            <div class="timestamp">
+                <loc>Last Match Played</loc>
+            </div>
+        </div>
+
+        <div class="players" data-bind="template: { name: 'player-template', foreach: players }">
+        </div>
+        <div class="row_exception" data-bind="visible: showYourselfException">
+            <div class="vert_ellipsis">...</div>
+            <div data-bind="template: { name: 'player-template', data: model.yourself }">
+            </div>
+        </div>
+    </div>
+    <div class="row_totals" data-bind="locText: displaySize, visible: showLeaderboard">
+    </div>
+    <div class="tab_watermark" data-bind="visible: showLeaderboardEmpty">
+        <loc>This leaderboard level is currently empty.</loc>
+    </div>
+    <div class="tab_watermark" data-bind="visible: showLeaderboardError">
+        <loc>Failed to load this leaderboard level.</loc>
+    </div>
+    <div class="div_working tab_loading" data-bind="visible: showLeaderboardLoading">
+        <img class="working std" src="coui://ui/main/shared/img/working.svg" />
+        <span class="working">
+            <loc>Loading Leaderboard</loc>
+        </span>
+    </div>
+</script>
+
+</body>
+</html>

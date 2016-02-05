@@ -1,0 +1,204 @@
+.body_panel {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    display: flex;
+    flex-grow: 0;
+    flex-shrink: 0;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+/* UTILITY */
+.receiveMouse {
+    pointer-events: all;
+}
+
+.ignoreMouse {
+    pointer-events: none;
+}
+
+
+/* BUILD BAR UNIT HOVER DETAIL */
+
+.wrapper_build_bar_unit_hover_detail {
+    height: 300px;
+    width: 548px;
+    overflow: hidden;
+    display: flex;
+    align-items: flex-end;
+}
+
+
+.div_build_bar_unit_hover_detail {
+    height: auto;
+    width: 548px;
+    display: flex;
+}
+
+    .div_build_bar_unit_hover_detail .wrapper {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        text-shadow: 0px 0px 20px rgba(145,251,255,.5);
+        color: #91FBFF;
+    }
+
+        .div_build_bar_unit_hover_detail .wrapper .title {
+            display: flex;
+            text-transform: capitalize;
+            text-shadow: 0px 0px 20px rgba(145,251,255,.5);
+            padding: 0 60px;
+        }
+
+            .div_build_bar_unit_hover_detail .wrapper .title > .left_corner {
+                border-right: 20px solid rgba(0, 0, 0, .6);
+                border-top: 20px solid rgba(0, 0, 0, 0);
+            }
+
+            .div_build_bar_unit_hover_detail .wrapper .title > .center {
+                flex-grow: 1;
+                height: 20px;
+                background: rgba(0, 0, 0, .6);
+                display: flex;
+            }
+
+            .div_build_bar_unit_hover_detail .wrapper .title > .right_corner {
+                border-left: 20px solid rgba(0, 0, 0, .6);
+                border-top: 20px solid rgba(0, 0, 0, 0);
+            }
+
+            .div_build_bar_unit_hover_detail .wrapper .title .center > .left_corner {
+                border-right: 20px solid rgba(0, 0, 0, .95);
+                border-top: 20px solid rgba(0, 0, 0, 0);
+                margin: 0 0 0 -20px;
+            }
+
+            .div_build_bar_unit_hover_detail .wrapper .title .center > .content {
+                min-width: 200px;
+                background: rgba(0, 0, 0, .95);
+                padding: 6px 20px 0 27px;
+                white-space: nowrap;
+            }
+
+            .div_build_bar_unit_hover_detail .wrapper .title .center > .right_corner {
+                border-left: 20px solid rgba(0, 0, 0, .95);
+                border-top: 20px solid rgba(0, 0, 0, 0);
+            }
+
+        .div_build_bar_unit_hover_detail .wrapper .detail {
+            width: 548px;
+            padding: 0px 0px 0px 0px;
+            display: flex;
+        }
+
+            .div_build_bar_unit_hover_detail .wrapper .detail > .left_corner {
+                border-right: 60px solid rgba(0, 0, 0, .98);
+                border-top: 60px solid rgba(0, 0, 0, 0);
+            }
+
+            .div_build_bar_unit_hover_detail .wrapper .detail > .right_corner {
+                border-left: 60px solid rgba(0, 0, 0, .98);
+                border-top: 60px solid rgba(0, 0, 0, 0);
+            }
+
+            .div_build_bar_unit_hover_detail .wrapper .detail > .content {
+                width: 428px;
+                background: rgba(0,0,0,.98);
+                display: flex;
+                padding: 0px 0px 0px 0px;
+                text-shadow: 0px 0px 20px black;
+            }
+
+            .div_build_bar_unit_hover_detail .wrapper .detail .content .strat_icon {
+                height: 52px;
+                width: 52px;
+                margin: -12px -4px 0px -4px;
+            }
+
+            .div_build_bar_unit_hover_detail .wrapper .detail .description {
+                min-height: 60px;
+                display: flex;
+                flex-direction: column;
+                padding: 0px 0px 0px 3px;
+                z-index: 1;
+            }
+
+                .div_build_bar_unit_hover_detail .wrapper .detail .description .text {
+                    width: 380px;
+                    flex-grow: 1;
+                    padding: 5px 16px 0px 0px;
+                    white-space: normal;
+                    color: #00ccff;
+                    -webkit-animation: none;
+                }
+
+                .div_build_bar_unit_hover_detail .wrapper .detail .description .resources {
+                    margin: 8px 0px 8px 0;
+                    display: inline-flex;
+                    position: relative;
+                }
+
+                    .div_build_bar_unit_hover_detail .wrapper .detail .description .resources .stat {
+                        margin: 0px 8px 0px 0px;
+                    }
+
+                        .div_build_bar_unit_hover_detail .wrapper .detail .description .resources .stat.metal {
+                            background: url(img/build_bar/hover/icon-status-metal.png) center left no-repeat;
+                            background-size: 11px 9px;
+                            background-position-y: 5px;
+                            padding-left: 14px;
+                        }
+
+                            .div_build_bar_unit_hover_detail .wrapper .detail .description .resources .stat.metal.cost {
+                                background: url(img/status_bar/icon-status-metal.png) center left no-repeat;
+                                background-size: 12px 10px;
+                                background-position: 0px 4px;
+                            }
+
+                        .div_build_bar_unit_hover_detail .wrapper .detail .description .resources .stat.energy {
+                            background: url(img/build_bar/hover/icon-status-energy.png) center left no-repeat;
+                            background-size: 8px auto;
+                            background-position-y: 5px;
+                            padding-left: 11px;
+                        }
+
+.resource-group {
+    border-left: 1px solid #134F5E;
+    padding-left: 8px;    
+    flex-shrink: 0;
+    display: inline-flex;
+    align-items: center;
+    white-space: nowrap;
+}
+    .resource-group div {
+        padding-bottom: 4px;
+        flex-shrink: 0;
+    }
+
+.group-label {
+    margin: 0 6px 0 0;
+}
+
+.cost-section {
+    position: absolute;
+    left: -50px;
+    width: 50px;
+    display: inline-block;
+    color: #fff;
+    font-weight: bold;
+}
+
+    .cost-section div {
+        position: absolute;
+        right: 0;
+    }
+
+.cost-metal {
+    background: url(img/status_bar/icon-status-metal.png) center left no-repeat;
+    background-size: 12px 10px;
+    background-position: 0px 4px;
+    padding-left: 14px;
+}             

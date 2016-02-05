@@ -1,0 +1,68 @@
+{
+    "(+ __aiCount__ AI)": {
+        "message": "(+ __aiCount__ AI)"
+    }, 
+    "(Updating...)": {
+        "message": "(Oppdaterer...)"
+    }, 
+    "(no info available)": {
+        "message": "(ingen informasjon tilgjengelig)"
+    }, 
+    "All Recent Games": {
+        "message": "Alle nylige spill"
+    }, 
+    "BuildVersion": {
+        "message": "BuildVersion"
+    }, 
+    "Duration": {
+        "message": "Lengde"
+    }, 
+    "FAILED TO RETRIEVE REPLAY LIST": {
+        "message": "HENTING AV REPRISELISTE MISLYKTES"
+    }, 
+    "Game": {
+        "message": "Spill"
+    }, 
+    "Highest Rated (TBD)": {
+        "message": "H\u00f8yest rangert (TBD):"
+    }, 
+    "Lobby Id": {
+        "message": "Lobbyid"
+    }, 
+    "Longest Game Duration": {
+        "message": "Lange spill"
+    }, 
+    "Most Recent": {
+        "message": "Nylige"
+    }, 
+    "Most Viewed (TBD)": {
+        "message": "Mest sett (TBD)"
+    }, 
+    "My Games Only": {
+        "message": "Bare mine spill"
+    }, 
+    "Replays": {
+        "message": "Replays"
+    }, 
+    "Returning to Main Menu": {
+        "message": "Returnerer til hovedmenyen"
+    }, 
+    "Search": {
+        "message": "S\u00f8k"
+    }, 
+    "Sorted By": {
+        "message": "Sortert etter"
+    }, 
+    "View": {
+        "message": "Se"
+    }, 
+    "Watch Direct Lobby Id:": {
+        "message": "Se spesifik lobby-id:"
+    }, 
+    "Watch Replay": {
+        "message": "Se reprise"
+    }, 
+    "__gwClientNames__: Galactic War \"__gwWarName__\" (turn __gwTurn__, __gwSystemName__), vs. __gwAiArmies__": {
+        "message": "__gwClientNames__: Galactic War \"__gwWarName__\" (turn __gwTurn__, __gwSystemName__), vs. __gwAiArmies__"
+    }
+}

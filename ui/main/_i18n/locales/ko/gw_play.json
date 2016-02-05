@@ -1,0 +1,86 @@
+{
+    "AI:": {
+        "message": "AI:"
+    }, 
+    "Abandon War": {
+        "message": "\uc804\ud22c \ud3ec\uae30"
+    }, 
+    "Card:": {
+        "message": "\uce74\ub4dc:"
+    }, 
+    "Data Banks Full": {
+        "message": "Data Banks Full"
+    }, 
+    "Date:": {
+        "message": "\ub0a0\uc9dc:"
+    }, 
+    "Delete Tech": {
+        "message": "\uae30\uc220 \uc0ad\uc81c"
+    }, 
+    "Dismiss": {
+        "message": "\ud574\uc81c"
+    }, 
+    "Download Tech": {
+        "message": "\uae30\uc220 \ub2e4\uc6b4\ub85c\ub4dc"
+    }, 
+    "Duplicate Tech": {
+        "message": "Duplicate Tech"
+    }, 
+    "Exit": {
+        "message": "\ub098\uac00\uae30"
+    }, 
+    "Explore": {
+        "message": "\ud0d0\uc0ac"
+    }, 
+    "Fight": {
+        "message": "\uc804\ud22c"
+    }, 
+    "Give tech": {
+        "message": "Give tech"
+    }, 
+    "History:": {
+        "message": "\uc804\uc801:"
+    }, 
+    "Jump": {
+        "message": "\uc810\ud504"
+    }, 
+    "Load game": {
+        "message": "\uac8c\uc784 \ubd88\ub7ec\uc624\uae30"
+    }, 
+    "Preparing for battle": {
+        "message": "\uc804\ud22c \uc900\ube44"
+    }, 
+    "Record:": {
+        "message": "\uae30\ub85d:"
+    }, 
+    "Reject Tech": {
+        "message": "Reject Tech"
+    }, 
+    "Save": {
+        "message": "\uc800\uc7a5"
+    }, 
+    "Scanning System": {
+        "message": "Scanning System"
+    }, 
+    "Settings": {
+        "message": "\uc124\uc815"
+    }, 
+    "TECHS": {
+        "message": "\uae30\uc220"
+    }, 
+    "To download, open a data bank by deleting an undesired tech.": {
+        "message": "To download, open a data bank by deleting an undesired tech."
+    }, 
+    "Turn State:": {
+        "message": "\ud134 \uc0c1\ud669:"
+    }, 
+    "Unlock Commander": {
+        "message": "\uc9c0\ud718\uad00 \uc7a0\uae08\ud574\uc81c"
+    }, 
+    "loss": {
+        "message": "\uc783\uc74c"
+    }, 
+    "win /": {
+        "message": "win /"
+    }
+}

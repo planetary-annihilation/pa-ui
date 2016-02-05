@@ -1,0 +1,110 @@
+{
+    "Acquire": {
+        "message": "\u0202\u03f2\u0533\u0574\u0457\u0213\u1f73\u03a9\u03a9\u03a9", 
+        "original": "Acquire"
+    }, 
+    "All progress and Tech will be lost.": {
+        "message": "\u0202\u230a\u230a \u2374\u0213\u020f\u0260\u0213\u1f73\u01a8\u01a8 \u0203\u019e\u0257 \u4e01\u1f73\u03f2\u043d \u1ff4\u0457\u230a\u230a \u0411\u1f73 \u230a\u020f\u01a8\u04ad.\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9", 
+        "original": "All progress and Tech will be lost."
+    }, 
+    "Are you sure you want to abandon this Galactic War?": {
+        "message": "\u0202\u0213\u1f73 \u0443\u020f\u0574 \u01a8\u0574\u0213\u1f73 \u0443\u020f\u0574 \u1ff4\u0203\u019e\u04ad \u04ad\u020f \u0203\u0411\u0203\u019e\u0257\u020f\u019e \u04ad\u043d\u0457\u01a8 \u01f4\u0203\u230a\u0203\u03f2\u04ad\u0457\u03f2 \u20a9\u0203\u0213?\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9", 
+        "original": "Are you sure you want to abandon this Galactic War?"
+    }, 
+    "Continue": {
+        "message": "\u04aa\u020f\u019e\u04ad\u0457\u019e\u0574\u1f73\u03a9\u03a9\u03a9\u03a9", 
+        "original": "Continue"
+    }, 
+    "Data Cache Discovered": {
+        "message": "\u0189\u0203\u04ad\u0203 \u04aa\u0203\u03f2\u043d\u1f73 \u0189\u0457\u01a8\u03f2\u020f\u0477\u1f73\u0213\u1f73\u0257\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9", 
+        "original": "Data Cache Discovered"
+    }, 
+    "Delete Tech": {
+        "message": "\u0189\u1f73\u230a\u1f73\u04ad\u1f73 \u4e01\u1f73\u03f2\u043d\u03a9\u03a9\u03a9\u03a9\u03a9", 
+        "original": "Delete Tech"
+    }, 
+    "Dismiss Tech": {
+        "message": "\u0189\u0457\u01a8\u028d\u0457\u01a8\u01a8 \u4e01\u1f73\u03f2\u043d\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9", 
+        "original": "Dismiss Tech"
+    }, 
+    "Duplicate Tech": {
+        "message": "\u0189\u0574\u2374\u230a\u0457\u03f2\u0203\u04ad\u1f73 \u4e01\u1f73\u03f2\u043d\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9", 
+        "original": "Duplicate Tech"
+    }, 
+    "Exit": {
+        "message": "\u0190\u2327\u0457\u04ad\u03a9\u03a9", 
+        "original": "Exit"
+    }, 
+    "Explore": {
+        "message": "\u0190\u2327\u2374\u230a\u020f\u0213\u1f73\u03a9\u03a9\u03a9", 
+        "original": "Explore"
+    }, 
+    "Fight": {
+        "message": "\u03dc\u0457\u0260\u043d\u04ad\u03a9\u03a9", 
+        "original": "Fight"
+    }, 
+    "Game Menu": {
+        "message": "\u01f4\u0203\u028d\u1f73 \u039c\u1f73\u019e\u0574\u03a9\u03a9\u03a9\u03a9", 
+        "original": "Game Menu"
+    }, 
+    "Jump": {
+        "message": "\u06b7\u0574\u028d\u2374\u03a9\u03a9", 
+        "original": "Jump"
+    }, 
+    "Loading...": {
+        "message": "\u20a4\u020f\u0203\u0257\u0457\u019e\u0260...\u03a9\u03a9\u03a9\u03a9\u03a9", 
+        "original": "Loading..."
+    }, 
+    "Preparing for battle": {
+        "message": "\u1e54\u0213\u1f73\u2374\u0203\u0213\u0457\u019e\u0260 \u0493\u020f\u0213 \u0411\u0203\u04ad\u04ad\u230a\u1f73\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9", 
+        "original": "Preparing for battle"
+    }, 
+    "Restart": {
+        "message": "\u211d\u1f73\u01a8\u04ad\u0203\u0213\u04ad\u03a9\u03a9\u03a9", 
+        "original": "Restart"
+    }, 
+    "Save": {
+        "message": "\u1e60\u0203\u0477\u1f73\u03a9\u03a9", 
+        "original": "Save"
+    }, 
+    "Saving...": {
+        "message": "\u1e60\u0203\u0477\u0457\u019e\u0260...\u03a9\u03a9\u03a9\u03a9", 
+        "original": "Saving..."
+    }, 
+    "Scanning System": {
+        "message": "\u1e60\u03f2\u0203\u019e\u019e\u0457\u019e\u0260 \u1e60\u0443\u01a8\u04ad\u1f73\u028d\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9", 
+        "original": "Scanning System"
+    }, 
+    "Select a technology to develop using this data.": {
+        "message": "\u1e60\u1f73\u230a\u1f73\u03f2\u04ad \u0203 \u04ad\u1f73\u03f2\u043d\u019e\u020f\u230a\u020f\u0260\u0443 \u04ad\u020f \u0257\u1f73\u0477\u1f73\u230a\u020f\u2374 \u0574\u01a8\u0457\u019e\u0260 \u04ad\u043d\u0457\u01a8 \u0257\u0203\u04ad\u0203.\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9", 
+        "original": "Select a technology to develop using this data."
+    }, 
+    "Settings": {
+        "message": "\u1e60\u1f73\u04ad\u04ad\u0457\u019e\u0260\u01a8\u03a9\u03a9\u03a9\u03a9", 
+        "original": "Settings"
+    }, 
+    "Social Bar": {
+        "message": "\u1e60\u020f\u03f2\u0457\u0203\u230a \u0e3f\u0203\u0213\u03a9\u03a9\u03a9\u03a9\u03a9", 
+        "original": "Social Bar"
+    }, 
+    "TECHS": {
+        "message": "\u4e01\u0190\u04aa\u04c7\u1e60\u03a9\u03a9", 
+        "original": "TECHS"
+    }, 
+    "Tech Bank is full. To develop new technology, select an existing tech and delete it to open a slot.": {
+        "message": "\u4e01\u1f73\u03f2\u043d \u0e3f\u0203\u019e\u045c \u0457\u01a8 \u0493\u0574\u230a\u230a. \u4e01\u020f \u0257\u1f73\u0477\u1f73\u230a\u020f\u2374 \u019e\u1f73\u1ff4 \u04ad\u1f73\u03f2\u043d\u019e\u020f\u230a\u020f\u0260\u0443, \u01a8\u1f73\u230a\u1f73\u03f2\u04ad \u0203\u019e \u1f73\u2327\u0457\u01a8\u04ad\u0457\u019e\u0260 \u04ad\u1f73\u03f2\u043d \u0203\u019e\u0257 \u0257\u1f73\u230a\u1f73\u04ad\u1f73 \u0457\u04ad \u04ad\u020f \u020f\u2374\u1f73\u019e \u0203 \u01a8\u230a\u020f\u04ad.\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9", 
+        "original": "Tech Bank is full. To develop new technology, select an existing tech and delete it to open a slot."
+    }, 
+    "Turns:": {
+        "message": "\u4e01\u0574\u0213\u019e\u01a8:\u03a9\u03a9\u03a9", 
+        "original": "Turns:"
+    }, 
+    "Unlock Commander": {
+        "message": "\u1ee6\u019e\u230a\u020f\u03f2\u045c \u04aa\u020f\u028d\u028d\u0203\u019e\u0257\u1f73\u0213\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9", 
+        "original": "Unlock Commander"
+    }, 
+    "Wins:": {
+        "message": "\u20a9\u0457\u019e\u01a8:\u03a9\u03a9", 
+        "original": "Wins:"
+    }
+}

@@ -1,0 +1,150 @@
+{
+    "1 day ago": {
+        "message": "1 \u0257\u0203\u0443 \u0203\u0260\u020f", 
+        "original": "1 day ago"
+    }, 
+    "1 hour ago": {
+        "message": "1 \u043d\u020f\u0574\u0213 \u0203\u0260\u020f", 
+        "original": "1 hour ago"
+    }, 
+    "1 minute ago": {
+        "message": "1 \u028d\u0457\u019e\u0574\u04ad\u1f73 \u0203\u0260\u020f", 
+        "original": "1 minute ago"
+    }, 
+    "1 second ago": {
+        "message": "1 \u01a8\u1f73\u03f2\u020f\u019e\u0257 \u0203\u0260\u020f", 
+        "original": "1 second ago"
+    }, 
+    "1 week ago": {
+        "message": "1 \u1ff4\u1f73\u1f73\u045c \u0203\u0260\u020f", 
+        "original": "1 week ago"
+    }, 
+    "Bronze": {
+        "message": "\u0e3f\u0213\u020f\u019e\u2124\u1f73", 
+        "original": "Bronze"
+    }, 
+    "Failed to load this leaderboard level.": {
+        "message": "\u03dc\u0203\u0457\u230a\u1f73\u0257 \u04ad\u020f \u230a\u020f\u0203\u0257 \u04ad\u043d\u0457\u01a8 \u230a\u1f73\u0203\u0257\u1f73\u0213\u0411\u020f\u0203\u0213\u0257 \u230a\u1f73\u0477\u1f73\u230a.", 
+        "original": "Failed to load this leaderboard level."
+    }, 
+    "Gold": {
+        "message": "\u01f4\u020f\u230a\u0257", 
+        "original": "Gold"
+    }, 
+    "Inactive": {
+        "message": "\u03aa\u019e\u0203\u03f2\u04ad\u0457\u0477\u1f73", 
+        "original": "Inactive"
+    }, 
+    "Just now": {
+        "message": "\u06b7\u0574\u01a8\u04ad \u019e\u020f\u1ff4", 
+        "original": "Just now"
+    }, 
+    "Last Match Played": {
+        "message": "\u20a4\u0203\u01a8\u04ad \u039c\u0203\u04ad\u03f2\u043d \u1e54\u230a\u0203\u0443\u1f73\u0257", 
+        "original": "Last Match Played"
+    }, 
+    "Leaderboards": {
+        "message": "\u20a4\u1f73\u0203\u0257\u1f73\u0213\u0411\u020f\u0203\u0213\u0257\u01a8", 
+        "original": "Leaderboards"
+    }, 
+    "Level rank": {
+        "message": "\u20a4\u1f73\u0477\u1f73\u230a \u0213\u0203\u019e\u045c", 
+        "original": "Level rank"
+    }, 
+    "Loading Leaderboard": {
+        "message": "\u20a4\u020f\u0203\u0257\u0457\u019e\u0260 \u20a4\u1f73\u0203\u0257\u1f73\u0213\u0411\u020f\u0203\u0213\u0257", 
+        "original": "Loading Leaderboard"
+    }, 
+    "Match games played": {
+        "message": "\u039c\u0203\u04ad\u03f2\u043d \u0260\u0203\u028d\u1f73\u01a8 \u2374\u230a\u0203\u0443\u1f73\u0257", 
+        "original": "Match games played"
+    }, 
+    "No ranked players at this level.": {
+        "message": "\u019d\u020f \u0213\u0203\u019e\u045c\u1f73\u0257 \u2374\u230a\u0203\u0443\u1f73\u0213\u01a8 \u0203\u04ad \u04ad\u043d\u0457\u01a8 \u230a\u1f73\u0477\u1f73\u230a.", 
+        "original": "No ranked players at this level."
+    }, 
+    "No recent matches played.": {
+        "message": "\u019d\u020f \u0213\u1f73\u03f2\u1f73\u019e\u04ad \u028d\u0203\u04ad\u03f2\u043d\u1f73\u01a8 \u2374\u230a\u0203\u0443\u1f73\u0257.", 
+        "original": "No recent matches played."
+    }, 
+    "One ranked player at this level.": {
+        "message": "\u0472\u019e\u1f73 \u0213\u0203\u019e\u045c\u1f73\u0257 \u2374\u230a\u0203\u0443\u1f73\u0213 \u0203\u04ad \u04ad\u043d\u0457\u01a8 \u230a\u1f73\u0477\u1f73\u230a.", 
+        "original": "One ranked player at this level."
+    }, 
+    "Platinum": {
+        "message": "\u1e54\u230a\u0203\u04ad\u0457\u019e\u0574\u028d", 
+        "original": "Platinum"
+    }, 
+    "Play ranked match": {
+        "message": "\u1e54\u230a\u0203\u0443 \u0213\u0203\u019e\u045c\u1f73\u0257 \u028d\u0203\u04ad\u03f2\u043d", 
+        "original": "Play ranked match"
+    }, 
+    "Player": {
+        "message": "\u1e54\u230a\u0203\u0443\u1f73\u0213", 
+        "original": "Player"
+    }, 
+    "Provisional": {
+        "message": "\u1e54\u0213\u020f\u0477\u0457\u01a8\u0457\u020f\u019e\u0203\u230a", 
+        "original": "Provisional"
+    }, 
+    "Rank": {
+        "message": "\u211d\u0203\u019e\u045c", 
+        "original": "Rank"
+    }, 
+    "Rank pending until enough match games are played.": {
+        "message": "\u211d\u0203\u019e\u045c \u2374\u1f73\u019e\u0257\u0457\u019e\u0260 \u0574\u019e\u04ad\u0457\u230a \u1f73\u019e\u020f\u0574\u0260\u043d \u028d\u0203\u04ad\u03f2\u043d \u0260\u0203\u028d\u1f73\u01a8 \u0203\u0213\u1f73 \u2374\u230a\u0203\u0443\u1f73\u0257.", 
+        "original": "Rank pending until enough match games are played."
+    }, 
+    "Silver": {
+        "message": "\u1e60\u0457\u230a\u0477\u1f73\u0213", 
+        "original": "Silver"
+    }, 
+    "This leaderboard level is currently empty.": {
+        "message": "\u4e01\u043d\u0457\u01a8 \u230a\u1f73\u0203\u0257\u1f73\u0213\u0411\u020f\u0203\u0213\u0257 \u230a\u1f73\u0477\u1f73\u230a \u0457\u01a8 \u03f2\u0574\u0213\u0213\u1f73\u019e\u04ad\u230a\u0443 \u1f73\u028d\u2374\u04ad\u0443.", 
+        "original": "This leaderboard level is currently empty."
+    }, 
+    "Uber": {
+        "message": "\u1ee6\u0411\u1f73\u0213", 
+        "original": "Uber"
+    }, 
+    "Unknown": {
+        "message": "\u1ee6\u019e\u045c\u019e\u020f\u1ff4\u019e", 
+        "original": "Unknown"
+    }, 
+    "Unranked": {
+        "message": "\u1ee6\u019e\u0213\u0203\u019e\u045c\u1f73\u0257", 
+        "original": "Unranked"
+    }, 
+    "Watch Replay": {
+        "message": "\u20a9\u0203\u04ad\u03f2\u043d \u211d\u1f73\u2374\u230a\u0203\u0443", 
+        "original": "Watch Replay"
+    }, 
+    "Your rank": {
+        "message": "\u0423\u020f\u0574\u0213 \u0213\u0203\u019e\u045c", 
+        "original": "Your rank"
+    }, 
+    "__n__ days ago": {
+        "message": "__n__ \u0257\u0203\u0443\u01a8 \u0203\u0260\u020f", 
+        "original": "__n__ days ago"
+    }, 
+    "__n__ hours ago": {
+        "message": "__n__ \u043d\u020f\u0574\u0213\u01a8 \u0203\u0260\u020f", 
+        "original": "__n__ hours ago"
+    }, 
+    "__n__ minutes ago": {
+        "message": "__n__ \u028d\u0457\u019e\u0574\u04ad\u1f73\u01a8 \u0203\u0260\u020f", 
+        "original": "__n__ minutes ago"
+    }, 
+    "__n__ seconds ago": {
+        "message": "__n__ \u01a8\u1f73\u03f2\u020f\u019e\u0257\u01a8 \u0203\u0260\u020f", 
+        "original": "__n__ seconds ago"
+    }, 
+    "__n__ weeks ago": {
+        "message": "__n__ \u1ff4\u1f73\u1f73\u045c\u01a8 \u0203\u0260\u020f", 
+        "original": "__n__ weeks ago"
+    }, 
+    "__num_players__ ranked players at this level.": {
+        "message": "__num_players__ \u0213\u0203\u019e\u045c\u1f73\u0257 \u2374\u230a\u0203\u0443\u1f73\u0213\u01a8 \u0203\u04ad \u04ad\u043d\u0457\u01a8 \u230a\u1f73\u0477\u1f73\u230a.", 
+        "original": "__num_players__ ranked players at this level."
+    }
+}

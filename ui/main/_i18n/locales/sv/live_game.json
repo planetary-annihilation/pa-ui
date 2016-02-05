@@ -1,0 +1,38 @@
+{
+    "CONNECTION TO SERVER LOST": {
+        "message": "ANSLUTNING TILL SERVER F\u00d6RLORAD"
+    }, 
+    "Cancel": {
+        "message": "Avbryt"
+    }, 
+    "Chrono Cam": {
+        "message": "CHRONO CAM"
+    }, 
+    "Exit Game?": {
+        "message": "Avsluta Spelet?"
+    }, 
+    "Game Settings": {
+        "message": "SPELINST\u00c4LLNINGAR"
+    }, 
+    "Main Menu": {
+        "message": "HUVUDMENY"
+    }, 
+    "Pick a location inside one of the green zones to spawn your Commander.": {
+        "message": "V\u00e4lj en position inom den gr\u00f6na zonen f\u00f6r att landa din Bef\u00e4lhavare."
+    }, 
+    "Position targeted. Click to confirm.": {
+        "message": "Position vald. Klicka f\u00f6r att bekr\u00e4fta."
+    }, 
+    "Quit": {
+        "message": "AVSLUTA"
+    }, 
+    "Returning to Main Menu": {
+        "message": "\u00c5terg\u00e5r till Huvudmeny"
+    }, 
+    "START ANNIHILATION": {
+        "message": "B\u00d6RJA F\u00d6RINTELSEN"
+    }, 
+    "Yes": {
+        "message": "Ja"
+    }
+}

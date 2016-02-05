@@ -1,0 +1,35 @@
+{
+    "CANCEL": {
+        "message": "AVBRYT"
+    }, 
+    "Delete": {
+        "message": "SLETT"
+    }, 
+    "Delete Planet": {
+        "message": "Slett planet"
+    }, 
+    "Delete this planet?": {
+        "message": "Slett denne planeten?"
+    }, 
+    "Delete this system?": {
+        "message": "Slett dette systemet?"
+    }, 
+    "Load Planet": {
+        "message": "Last planet"
+    }, 
+    "Load System": {
+        "message": "Last system"
+    }, 
+    "New system": {
+        "message": "Nytt system"
+    }, 
+    "SHOW PLANETS": {
+        "message": "VIS PLANETER"
+    }, 
+    "SHOW SYSTEMS": {
+        "message": "VIS SYSTEMER"
+    }, 
+    "System Designer": {
+        "message": "Systemdesigner"
+    }
+}

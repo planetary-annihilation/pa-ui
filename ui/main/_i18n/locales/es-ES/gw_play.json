@@ -1,0 +1,83 @@
+{
+    "Acquire": {
+        "message": "Adquirir"
+    }, 
+    "All progress and Tech will be lost.": {
+        "message": "Perderás tanto el progreso como las tecnologías que tengas."
+    }, 
+    "Are you sure you want to abandon this Galactic War?": {
+        "message": "¿Seguro que quieres abandonar esta guerra galáctica?"
+    }, 
+    "Continue": {
+        "message": "Continuar"
+    }, 
+    "Data Cache Discovered": {
+        "message": "Se han descubierto una caché de datos"
+    }, 
+    "Delete Tech": {
+        "message": "Eliminar tecnología"
+    }, 
+    "Dismiss Tech": {
+        "message": "Descartar tecnología"
+    }, 
+    "Duplicate Tech": {
+        "message": "Duplicar tecnología"
+    }, 
+    "Exit": {
+        "message": "Salir"
+    }, 
+    "Explore": {
+        "message": "Explorar"
+    }, 
+    "Fight": {
+        "message": "Luchar"
+    }, 
+    "Game Menu": {
+        "message": "Menú del juego"
+    }, 
+    "Jump": {
+        "message": "Saltar"
+    }, 
+    "Loading...": {
+        "message": "Cargando..."
+    }, 
+    "Preparing for battle": {
+        "message": "Preparándose para la batalla"
+    }, 
+    "Restart": {
+        "message": "Reiniciar"
+    }, 
+    "Save": {
+        "message": "Guardar"
+    }, 
+    "Saving...": {
+        "message": "Guardando..."
+    }, 
+    "Scanning System": {
+        "message": "Escaneando sistema"
+    }, 
+    "Select a technology to develop using this data.": {
+        "message": "Selecciona la tecnología que quieres desarrollar utilizando estos datos."
+    }, 
+    "Settings": {
+        "message": "Ajustes"
+    }, 
+    "Social Bar": {
+        "message": "Barra de interacción"
+    }, 
+    "TECHS": {
+        "message": "TECNOLOGÍAS"
+    }, 
+    "Tech Bank is full. To develop new technology, select an existing tech and delete it to open a slot.": {
+        "message": "El banco de tecnologías está lleno. Para desarrollar una nueva tecnología, selecciona una existente y elimínala para dejar un hueco."
+    }, 
+    "Turns:": {
+        "message": "Turnos:"
+    }, 
+    "Unlock Commander": {
+        "message": "Desbloquear comandante"
+    }, 
+    "Wins:": {
+        "message": "Victorias:"
+    }
+}

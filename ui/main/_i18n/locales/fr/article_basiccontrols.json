@@ -1,0 +1,20 @@
+{
+    "Arrow Keys to rotate around planet": {
+        "message": "Utilisez les touches directionnelles pour tourner autour de la planète."
+    }, 
+    "Basic Camera Controls": {
+        "message": "Commandes de base de la caméra"
+    }, 
+    "Go between planets using planet menu (upper right of screen)": {
+        "message": "Naviguez entre les planètes à l'aide du menu planète (en haut à droite de l'écran)"
+    }, 
+    "Hold Mouse Wheel, drag to pan view": {
+        "message": "Maintenez la molette de la souris enfoncée et faites glisser pour déplacer la vue."
+    }, 
+    "PA Guide: Basic Controls": {
+        "message": "Guide de PA : commandes de base"
+    }, 
+    "Scroll Mouse Wheel to zoom in and out": {
+        "message": "Faites tourner la molette de la souris pour faire un zoom avant et arrière."
+    }
+}

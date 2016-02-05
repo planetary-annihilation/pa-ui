@@ -1,0 +1,95 @@
+{
+    "AI Battle": {
+        "message": "AI Battle"
+    }, 
+    "Any": {
+        "message": "Any"
+    }, 
+    "Casual": {
+        "message": "Casual"
+    }, 
+    "Competitive": {
+        "message": "Competitive"
+    }, 
+    "Create Game": {
+        "message": "Luo peli"
+    }, 
+    "Free For All": {
+        "message": "Kaikki kaikkia vastaan"
+    }, 
+    "Game": {
+        "message": "Peli"
+    }, 
+    "Game State": {
+        "message": "Game State"
+    }, 
+    "In Lobby": {
+        "message": "Aulassa"
+    }, 
+    "In Progress": {
+        "message": "K\u00e4ynniss\u00e4"
+    }, 
+    "Join Game": {
+        "message": "Liity peliin"
+    }, 
+    "Locked Game": {
+        "message": "Lukittu Peli"
+    }, 
+    "Mod": {
+        "message": "Mod"
+    }, 
+    "Mode": {
+        "message": "Muoto"
+    }, 
+    "Mods": {
+        "message": "Mods"
+    }, 
+    "Multiplayer": {
+        "message": "Moninpeli"
+    }, 
+    "No max": {
+        "message": "No max"
+    }, 
+    "No min": {
+        "message": "No min"
+    }, 
+    "Number of Planets": {
+        "message": "Number of Planets"
+    }, 
+    "Number of Players": {
+        "message": "Number of Players"
+    }, 
+    "Password": {
+        "message": "Salasana"
+    }, 
+    "Planets": {
+        "message": "Planeetat"
+    }, 
+    "Players": {
+        "message": "Pelaajat"
+    }, 
+    "Region": {
+        "message": "Alue"
+    }, 
+    "Slots": {
+        "message": "Paikat"
+    }, 
+    "Spectate": {
+        "message": "Katsomo"
+    }, 
+    "Spectators": {
+        "message": "Katsojat"
+    }, 
+    "Status": {
+        "message": "Status"
+    }, 
+    "Tag": {
+        "message": "Tag"
+    }, 
+    "Team Armies": {
+        "message": "Joukkuearmeijat"
+    }, 
+    "Testing": {
+        "message": "Testing"
+    }
+}

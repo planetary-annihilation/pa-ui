@@ -1,0 +1,14 @@
+{
+    "Draw": {
+        "message": "BERABERE"
+    }, 
+    "GW GAME OVER": {
+        "message": "PA OYUN B\u0130TT\u0130"
+    }, 
+    "Winner:": {
+        "message": "KAZANAN:"
+    }, 
+    "Winners:": {
+        "message": "KAZANANLAR:"
+    }
+}

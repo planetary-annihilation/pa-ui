@@ -1,0 +1,122 @@
+{
+    "2m": {
+        "message": "2m"
+    }, 
+    "AT WILL": {
+        "message": "N\u00c5R \u00d8NSKELIG"
+    }, 
+    "Allied": {
+        "message": "Allied"
+    }, 
+    "Anti-nuke - Intercepts incoming nuclear missiles.": {
+        "message": "Anti-atomv\u00e5penmissil - Avbryter innkommende atomv\u00e5penmissiler"
+    }, 
+    "Awesome": {
+        "message": "FANTASTISK"
+    }, 
+    "BUILD MODE": {
+        "message": "BYGGEMODUS"
+    }, 
+    "CONNECTION TO SERVER LOST": {
+        "message": "SERVERTILKOBLING BRUTT"
+    }, 
+    "CONTINUOUS": {
+        "message": "L\u00d8PENDE"
+    }, 
+    "Cancel": {
+        "message": "Avbryt"
+    }, 
+    "Close": {
+        "message": "Avslutt"
+    }, 
+    "ENERGY ORDERS": {
+        "message": "ENERGIORDRE"
+    }, 
+    "Enemy Contact!": {
+        "message": "Fiendekontakt!"
+    }, 
+    "Exit Game?": {
+        "message": "Avslutte spillet?"
+    }, 
+    "FIRE ORDERS": {
+        "message": "SKYTEORDRE"
+    }, 
+    "GAME PAUSED": {
+        "message": "PAUSE"
+    }, 
+    "HOLD": {
+        "message": "HOLD"
+    }, 
+    "HOLD POSITION": {
+        "message": "HOLD POSISJON"
+    }, 
+    "LR-96 -Pacifier- Missile": {
+        "message": "LR-96 -Pacifier-missil"
+    }, 
+    "MANUEVER": {
+        "message": "HANDLING"
+    }, 
+    "MOVE ORDERS": {
+        "message": "FLYTTEORDRE"
+    }, 
+    "NORMAL": {
+        "message": "NORMAL"
+    }, 
+    "Nuclear missile - Long range, large area damage, projectile.": {
+        "message": "Atomv\u00e5penmissil - Langtrekkende prosjektil som \u00f8delegger store omr\u00e5der."
+    }, 
+    "OFF": {
+        "message": "AV"
+    }, 
+    "ON": {
+        "message": "P\u00c5"
+    }, 
+    "Pick a location inside one of the green zones to spawn your Commander.": {
+        "message": "I en gr\u00f8nn sone, velg startpunkt for kommand\u00f8ren din."
+    }, 
+    "Ping!": {
+        "message": "Pling!"
+    }, 
+    "Position targeted. Click to confirm.": {
+        "message": "Posisjon valgt. Klikk for \u00e5 bekrefte."
+    }, 
+    "RETURN FIRE": {
+        "message": "SKYT TILBAKE"
+    }, 
+    "ROAM": {
+        "message": "ROAME"
+    }, 
+    "Returning to Main Menu": {
+        "message": "G\u00e5r tilbake til hovedmenyen"
+    }, 
+    "SR-24 -Shield- Missile Defense": {
+        "message": "SR-24 - Skjold - Missilforsvar"
+    }, 
+    "START ANNIHILATION": {
+        "message": "START UTSLETTING"
+    }, 
+    "Waiting for other players to select a spawn location.": {
+        "message": "Venter p\u00e5 at andre spillere velger startposisjon."
+    }, 
+    "Yes": {
+        "message": "Ja"
+    }, 
+    "destroyed.": {
+        "message": "\u00f8delagt."
+    }, 
+    "launched!": {
+        "message": "tatt av!"
+    }, 
+    "located.": {
+        "message": "lokalisert."
+    }, 
+    "lost.": {
+        "message": "lost."
+    }, 
+    "ready.": {
+        "message": "klar."
+    }, 
+    "under attack.": {
+        "message": "under angrep."
+    }
+}

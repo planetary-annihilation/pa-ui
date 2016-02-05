@@ -1,0 +1,38 @@
+{
+    "ENABLE MICROPHONE": {
+        "message": "M\u0130KROFONU AKT\u0130FLE\u015eT\u0130R"
+    }, 
+    "ENABLE STREAMING (Takes effect immediately)": {
+        "message": "AKIMI ETK\u0130NLE\u015eT\u0130R (Hemen uygulan\u0131r)"
+    }, 
+    "ENABLE SYSTEM SOUNDS": {
+        "message": "S\u0130STEM SESLER\u0130N\u0130 ETK\u0130NLE\u015eT\u0130R"
+    }, 
+    "OFF": {
+        "message": "KAPALI"
+    }, 
+    "ON": {
+        "message": "A\u00c7IK"
+    }, 
+    "Password": {
+        "message": "\u015eifre"
+    }, 
+    "RESTORE DEFAULTS": {
+        "message": "VARSAYILAN AYARLARA GER\u0130 D\u00d6N"
+    }, 
+    "SERVER": {
+        "message": "SUNUCU"
+    }, 
+    "Save": {
+        "message": "Kaydet"
+    }, 
+    "Settings": {
+        "message": "AYARLAR"
+    }, 
+    "Sign in with Your Twitch ID": {
+        "message": "Twitch ID niz ile Giri\u015f Yap\u0131n\u0131z"
+    }, 
+    "Signed in as": {
+        "message": "Olarak giri\u015f yap\u0131ld\u0131"
+    }
+}

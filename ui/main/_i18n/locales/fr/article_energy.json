@@ -1,0 +1,23 @@
+{
+    "Advanced Energy Plants generate 8x more energy": {
+        "message": "Les centrales d'énergie avancées produisent 8 fois plus d'énergie."
+    }, 
+    "Build Energy Plants to generate energy": {
+        "message": "Construisez des centrales d'énergie pour produire de l'énergie."
+    }, 
+    "Energy Resource": {
+        "message": "Ressources en énergie"
+    }, 
+    "Energy is required for building units, structures and some functionality": {
+        "message": "La construction d'unités, de structures, ainsi que d'autres fonctionnalités consomment de l'énergie."
+    }, 
+    "PA Guide: Energy": {
+        "message": "Guide de PA : énergie"
+    }, 
+    "Select Fabber, select [style=text_callout]Build Energy Plant Icon[/style].": {
+        "message": "Sélectionnez un constructeur et sélectionnez [style=text_callout]l'icône de construction de centrale d'énergie[/style]."
+    }, 
+    "[style=text_callout]Left Click + drag[/style] in the world to build multiple Energy Plants.": {
+        "message": "[style=text_callout]Faites un clic gauche et faites glisser[/style] sur la carte pour bâtir plusieurs centrales d'énergie."
+    }
+}

@@ -1,0 +1,32 @@
+{
+    "CANCEL": {
+        "message": "\u0130PTAL"
+    }, 
+    "Delete": {
+        "message": "S\u0130L"
+    }, 
+    "Delete Planet": {
+        "message": "Gezegeni Sil"
+    }, 
+    "Delete this planet?": {
+        "message": "Bu gezegen silinsin mi?"
+    }, 
+    "Delete this system?": {
+        "message": "Bu sistem silinsin mi?"
+    }, 
+    "Load Planet": {
+        "message": "Gezegeni y\u00fckle"
+    }, 
+    "Load System": {
+        "message": "Sistemi y\u00fckle"
+    }, 
+    "SHOW PLANETS": {
+        "message": "GEZEGENLER\u0130 G\u00d6STER"
+    }, 
+    "SHOW SYSTEMS": {
+        "message": "S\u0130STEMLER\u0130 G\u00d6STER"
+    }, 
+    "System Designer": {
+        "message": "Sistem olu\u015fturucu"
+    }
+}

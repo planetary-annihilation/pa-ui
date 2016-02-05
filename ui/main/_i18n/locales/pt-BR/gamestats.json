@@ -1,0 +1,86 @@
+{
+    "Avg": {
+        "message": "Avg"
+    }, 
+    "Consumed": {
+        "message": "Consumed"
+    }, 
+    "Created": {
+        "message": "Created"
+    }, 
+    "Current": {
+        "message": "Current"
+    }, 
+    "Current APM": {
+        "message": "Current APM"
+    }, 
+    "Current Efficiency": {
+        "message": "Current Efficiency"
+    }, 
+    "Current Energy": {
+        "message": "Current Energy"
+    }, 
+    "Current Metal": {
+        "message": "Current Metal"
+    }, 
+    "Current Units": {
+        "message": "Current Units"
+    }, 
+    "Draw": {
+        "message": "Draw"
+    }, 
+    "Fab": {
+        "message": "Fab"
+    }, 
+    "Factory": {
+        "message": "F\u00e1brica"
+    }, 
+    "GAME SUMMARY": {
+        "message": "GAME SUMMARY"
+    }, 
+    "In Progress": {
+        "message": "Em Progresso"
+    }, 
+    "Lost": {
+        "message": "Lost"
+    }, 
+    "Mobile": {
+        "message": "M\u00f3vel"
+    }, 
+    "Opp Killed": {
+        "message": "Opp Killed"
+    }, 
+    "Produced": {
+        "message": "Produzido"
+    }, 
+    "Retrieving Stats...": {
+        "message": "Retrieving Stats..."
+    }, 
+    "Total": {
+        "message": "Total"
+    }, 
+    "Total APM": {
+        "message": "Total APM"
+    }, 
+    "Total Efficiency": {
+        "message": "Total Efficiency"
+    }, 
+    "Total Energy": {
+        "message": "Total Energy"
+    }, 
+    "Total Metal": {
+        "message": "Total Metal"
+    }, 
+    "Total Units": {
+        "message": "Total Units"
+    }, 
+    "Wasted": {
+        "message": "Wasted"
+    }, 
+    "Winner:": {
+        "message": "Ganhador:"
+    }, 
+    "Winners:": {
+        "message": "Ganhadores:"
+    }
+}

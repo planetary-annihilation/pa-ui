@@ -1,0 +1,955 @@
+.body_live_game {
+    height: 100%;
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+}
+
+.bottom_show_uberbar {
+    margin-bottom: 33px;
+}
+
+.bottom_show_unit_group_controls {
+    bottom: 30px;
+}
+
+.bottom_hide_unit_group_controls {
+    bottom: 0px;
+}
+
+.div_bottom_left {
+    display: inline-flex;
+    flex-direction: column;
+    flex-grow: 0;
+    flex-shrink: 0;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    z-index: 3;
+}
+
+/* UTILITY */
+.receiveMouse {
+    pointer-events: all;
+}
+
+.ignoreMouse {
+    pointer-events: none;
+}
+
+/*----- LOADING SCREEN
+-----------------------------------------------------------------*/
+#building_planets {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0px;
+    left: 0px;
+    z-index: 1000;
+}
+
+/*----- POPUP
+-----------------------------------------------------------------*/
+#popup {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    z-index: 3000;
+}
+
+/*----- CHAT
+-----------------------------------------------------------------*/
+#chat {
+    width: 350px;
+    position: absolute;
+    left: 6px;
+    bottom: 332px;
+    text-shadow: 0px 2px 2px #000;
+    font-size: 13px;
+    overflow: none;
+    font-family: 'Sansation Regular TTF';
+}
+
+
+/*----- MESSAGE DISPLAY
+-----------------------------------------------------------------*/
+#message_display {
+    height: auto;
+    width: 100%;
+    margin: 0px 0px 100px 0px;
+    position: absolute;
+    bottom: 10px;
+    text-align: center;
+}
+
+#message_ack {
+}
+
+.div_widespan_msg {
+    position: absolute;
+    bottom: 60px;
+    margin: 0px;
+    width: 100%;
+    z-index:-2;
+}
+
+input.btn_spawn_commander, input.btn_confirm_annihilation {
+    padding: 12px 30px;
+    font-size: 20px;
+    font-weight: bold;
+    margin: 12px 20px;
+    display: inline-block;
+    width: auto;
+    background: black;
+    border: 1px solid #fff;
+    border-radius: 0px;
+    color: #fff;
+    text-shadow:0px 0px 10px rgba(255,255,255,.5);
+}
+
+    .btn_spawn_commander:hover {
+        background: rgba(0,255,255,.5);
+        border-color: #00ffff;
+    }
+
+    .btn_spawn_commander:active {
+        color: #000;
+        background: #00ffff;
+        border-color: #fff;
+    }
+
+
+/*----- UNIT HOVER INFO
+-----------------------------------------------------------------*/
+.div_unit_hover_info {
+}
+
+#unit_hover_info {
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+}
+
+
+
+/*----- IN GAME OPTIONS MENU
+-----------------------------------------------------------------*/
+.div_game_menu {
+    width: 300px;
+    display: flex;
+    align-content: center;
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index:2000;
+    background: blue;
+}
+
+.div_game_menu_bottom_show_unit_group_controls {
+    bottom: 60px;
+}
+
+.div_game_menu_hide_unit_group_controls {
+    bottom: 30px;
+}
+
+/*----- TIME CONTROLS
+-----------------------------------------------------------------*/
+
+#time_bar {
+    height: auto;
+    width: 100%;
+    position: relative;
+}
+
+.div_video_controls {
+    display: flex;
+    margin: 0px 20% 64px;
+}
+
+.div_time_bar {
+    width: 100%;
+    margin: 0;
+    position: absolute;
+    bottom: 0px;
+    text-align: center;
+    z-index:-1;
+}
+
+/*----- STATUS BAR
+-----------------------------------------------------------------*/
+.div_status_bar_cont {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    display:flex;
+    justify-content:center;
+    align-content:center;
+}
+
+.div_status_bar_panel {
+    min-width: 1280px;
+    display: inline-block;
+    position: relative;
+    z-index: 1;
+}
+
+
+.div_right_centered {
+    float: right;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    height: 660px;
+}
+
+.div_sidebar_right {
+    height: 620px;
+    width: auto;
+    position: absolute;
+    right: 0px;
+    top: calc(50% - 310px);
+    margin: 0px -7px 0px 0px;
+    z-index:100;
+}
+
+#action_bar {
+    display: inline-block;
+}
+
+
+.div_version_info_cont {
+    margin-top: 50px;
+    z-index: -1;
+}
+
+/*----- PIP
+-----------------------------------------------------------------*/
+
+.div_pip_controls {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 100;
+}
+
+.pip_controls_tl {
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: inline-block;
+}
+
+.pip_controls_tr {
+    position: absolute;
+    top: 0;
+    right: 0;
+    display: inline-block;
+}
+
+holodeck.primary {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    z-index: -1000;
+}
+
+holodeck.pip.bottom_right {
+    position: absolute;
+    right: 1px;
+    bottom: 61px;
+    width: 20%;
+    height: 0;
+    padding-bottom: 20%;
+    z-index: -1;
+}
+
+holodeck.pip.bottom_left {
+    position: absolute;
+    left: 15px;
+    bottom: 100px;
+    width: 20%;
+    height: 0;
+    padding-bottom: 20%;
+    z-index: -1;
+}
+
+holodeck.preview {
+    position: relative;
+    width: 266px;
+    height: 266px;
+    display: block;
+    z-index: -1;
+    margin-right: 330px;
+}
+
+.pip_border {
+    position: absolute;
+    display: inline-block;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: -2;
+}
+
+#options_bar {
+    position: absolute;
+    right: 0px;
+}
+
+#control_group_bar {
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+    left: 0px;
+    z-index: 2;
+}
+
+/*----- SELECTION BAR
+-----------------------------------------------------------------*/
+.div_unit_selection_cont {
+    border-radius: 0px;
+    position: absolute;
+    bottom: 60px;
+    left: 0;
+}
+
+#selection {
+    display: inline-block;
+}
+
+/*----- GAME SUMMARY BAR : GENERAL CONTROLS
+-----------------------------------------------------------------*/
+
+.header-bar {
+    height: 30px;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    z-index: -1;
+}
+
+       
+.bottom-bar {
+    height: 30px;
+    position: absolute;
+    left: 0;
+    right: 0;
+    z-index: -1;
+}
+
+.btn_thumb {
+        background: none;
+        border: 1px solid transparent;
+        display: inline-block; 
+        vertical-align: top;
+}
+
+.tt_right {
+    min-height: 26px;
+    width: 254px;
+    background: rgba(0, 0, 0, 0.5);
+    display: none;
+    position: absolute;
+    top: 28px;
+    left: -5px;
+    padding:4px 8px;
+}
+ 
+.btn_thumb:hover {
+        background: #008080;
+        border: 1px solid #00ffff;
+}
+
+.btn_thumb:active {
+        background: #008080;
+        border: 1px solid transparent;
+}
+
+.btn_thumb-selected {
+        background: #008080;
+}
+
+.btn_thumb .tt_right {
+    position:absolute; top:32px; left:0px;
+}
+
+.btn_planet_thumb {
+    margin: 0px -3px 0px 0px;
+}
+
+.btn_summary_panel {
+    border: 1px solid #fff;
+    padding: 2px 4px;
+    font-size:10px;
+    text-align:center;
+    margin:0px 0px 4px 0px;
+}
+
+.btn_summary_panel:hover {
+    background: #1E7AA1;
+    border: 1px solid #00B3FF;
+    box-shadow:inset 0px 0px 10px #00B3FF;
+}
+
+.btn_summary_panel:active {
+        background: #00B3FF;
+        border: 1px solid #00B3FF;
+        box-shadow:inset 0px 0px 10px #00B3FF;
+}
+
+/*----- GAME SUMMARY BAR : PLAYER LIST
+-----------------------------------------------------------------*/
+
+.div_player_summary {
+    min-width: 230px;
+    display: inline-block;
+    margin: 2px 0px 0px -8px;
+    text-align: left;
+}
+
+.div_player_list_panel {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    font-size: 13px;
+    z-index: 100;
+}
+
+.div_player_list_control {
+    /*min-width: 340px;*/
+    border-image: url('img/status_bar/img-econ-bar-right.png') 60 51 0 25;
+    border-width: 60px 51px 0px 25px;
+    position: relative;
+    margin: -15px 0px 0px -15px;
+    pointer-events: none;
+}
+
+.control_body {
+    border: 1px solid rgba(255,255,255,.1);
+    border-width: 1px;
+}
+
+.devmode_controls {
+    margin-top: 30px;
+    display: inline-block;
+    position: absolute;
+    z-index: -1;
+}
+
+#devmode {
+    display: inline-block;
+}
+
+#sandbox {
+    display: inline-block;
+    position:absolute;
+}
+
+/*----- PLAYER LIST
+-----------------------------------------------------------------*/
+
+#players {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+/*----- HEADER : PLANETS
+-----------------------------------------------------------------*/
+#planets {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+
+
+/* UNIT ALERT PANEL   */
+.div_alert_panel_cont {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    z-index: -1000;
+    display: flex;
+    flex-grow: 0;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding-top: 30px;
+}
+
+#unit_alert {
+    width: 100%;
+    display: inline-block;
+}
+
+@-webkit-keyframes labelopen {
+    from {
+        max-width:0;
+    }
+
+    to {
+        max-width: 290px;
+    }
+}
+
+@-webkit-keyframes labelappear {
+    0% {
+        opacity: 0;
+    }
+
+    50% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+@-webkit-keyframes labelclose {
+    0% {
+        max-width: 290px;
+    }
+
+    100% {
+        max-width: 0px;
+    }
+}
+
+@-webkit-keyframes labeldisappear {
+    from {
+        opacity: 1;
+    }
+
+    to {
+        opacity: 0;
+    }
+}
+
+@-webkit-keyframes containerdisappear {
+    0% {
+        opacity: 1;
+    }
+
+    20% {
+        opacity: .5;
+    }
+
+    40% {
+        opacity: 1;
+    }
+
+    60% {
+        opacity: .5;
+    }
+
+    80% {
+        opacity: 1;
+    }
+
+    100% {
+        opacity: 0;
+    }
+}
+
+
+.container {
+    -webkit-animation: labelopen .5s ease-out forwards;
+}
+
+.text {
+    white-space: nowrap;
+    color: white;
+    -webkit-animation: labelappear .5s ease-out forwards;
+}
+
+.container_close {
+    max-width: 300px;
+    -webkit-animation: labelclose 10000.0s ease-out forwards;
+}
+
+.container_disappear {
+    display: inline-block;
+    margin: 0px 0px 0px 0px;
+    position: relative;
+    -webkit-animation: containerdisappear .5s ease-out forwards;
+}
+
+.text_close {
+    height: 20px;
+    text-wrap: none;
+    white-space: nowrap;
+    color: white;
+    -webkit-animation: labeldisappear .2s ease-out forwards;
+}
+
+@-webkit-keyframes animated_flash_red {
+    0% {
+        border-image: url('img/alerts/bground_alert_red_rest.png') 12 27 25 27 fill;
+    }
+
+    100% {
+        border-image: url('img/alerts/bground_alert_red_hover.png') 12 27 25 27 fill;
+    }
+}
+
+@-webkit-keyframes animated_flash_green {
+    0% {
+        border-image: url('img/alerts/bground_alert_green_rest.png') 12 27 25 27 fill;
+    }
+
+    100% {
+        border-image: url('img/alerts/bground_alert_green_hover.png') 12 27 25 27 fill;
+    }
+}
+
+@-webkit-keyframes animated_flash_black {
+    0% {
+        border-image: url('img/alerts/bground_alert_black_rest.png') 12 27 25 27 fill;
+    }
+
+    100% {
+        border-image: url('img/alerts/bground_alert_black_hover.png') 12 27 25 27 fill;
+    }
+}
+
+@-webkit-keyframes animated_flash_white {
+    0% {
+        border-image: url('img/alerts/bground_alert_black_rest.png') 12 27 25 27 fill;
+    }
+
+    100% {
+        border-image: url('img/alerts/bground_alert_black_hover.png') 12 27 25 27 fill;
+    }
+}
+
+
+@-webkit-keyframes animated_flash_cyan {
+    from {
+        background-color: transparent;
+    }
+
+    to {
+        background-color: #00ffff;
+    }
+}
+
+
+.div_animated_flash_red {
+    -webkit-animation-name: animated_flash_red;
+    -webkit-animation-duration: 0.4s;
+    -webkit-animation-timing-function: linear;
+    -webkit-animation-iteration-count: 4;
+    -webkit-animation-direction: alternate;
+    -webkit-animation-play-state: running;
+}
+
+.div_animated_flash_green {
+    -webkit-animation-name: animated_flash_green;
+    -webkit-animation-duration: 0.4s;
+    -webkit-animation-timing-function: linear;
+    -webkit-animation-iteration-count: 4;
+    -webkit-animation-direction: alternate;
+    -webkit-animation-play-state: running;
+}
+
+.div_animated_flash_black {
+    -webkit-animation-name: animated_flash_black;
+    -webkit-animation-duration: 0.4s;
+    -webkit-animation-timing-function: linear;
+    -webkit-animation-iteration-count: 4;
+    -webkit-animation-direction: alternate;
+    -webkit-animation-play-state: running;
+}
+
+.div_animated_flash_white {
+    -webkit-animation-name: animated_flash_white;
+    -webkit-animation-duration: 0.4s;
+    -webkit-animation-timing-function: linear;
+    -webkit-animation-iteration-count: 4;
+    -webkit-animation-direction: alternate;
+    -webkit-animation-play-state: running;
+}
+
+.div_animated_flash_cyan {
+    -webkit-animation-name: animated_flash_cyan;
+    -webkit-animation-duration: 0.4s;
+    -webkit-animation-timing-function: linear;
+    -webkit-animation-iteration-count: 4;
+    -webkit-animation-direction: alternate;
+    -webkit-animation-play-state: running;
+}
+
+
+.div_animated_expand_label {
+    -webkit-animation: labelopen 2s;
+}
+
+/*----- CELESTIAL CONTROL
+-----------------------------------------------------------------*/
+.celestial_control_cont {
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    z-index: -1;
+}
+
+#celestial_control {
+    width: 100%;
+}
+
+
+/*----- Diplomacy panel
+-----------------------------------------------------------------*/
+.div_diplomacy_control {
+    background: rgba(0,0,0,.75);
+    position: absolute;
+    top: 50%;
+    margin: 0px 0px 0px 16px;
+}
+
+.div_diplomatic_item {
+    margin: 0px 0px 0px 16px;
+}
+
+/*----- BUILD BAR
+-----------------------------------------------------------------*/
+
+.div_build_bar_cont {
+    position: absolute;
+    width: 100%;
+    bottom: 30px;
+    z-index: 1;
+    display: flex;
+    flex-grow: 0;
+    justify-content: center;
+}
+
+.div_build_grp {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.div_build_bar {
+    z-index: 1;
+    margin-top: -6px;
+}
+
+.div_build_hover {
+    display: block;
+}
+
+#build_hover {
+    display: block;
+}
+
+#build_bar {
+    display: inline-block;
+    /* Note: Setting min-width helps a lot to prevent 1 frame of visual artifacting. */
+    min-width: 1075px;
+}
+
+.div_build_bar_hover {
+    width: 100%;
+    position: relative;
+    bottom: auto;
+    margin: 0px 0px -7px 0px;
+    text-align: center;
+    opacity: 1.0;
+    word-wrap: break-word;
+}
+
+/* BUILD BAR UNIT HOVER DETAIL */
+
+.div_build_bar_unit_hover_detail {
+    width: 548px;
+    height: 80px;
+    margin: 0px auto -10px;
+    border-image:url(img/build_bar/img_unit_detail_hover_bground.png) 80 80 0 80 fill;
+    border-width:80px 80px 0px 80px;
+    display: flex;
+}
+
+    .div_build_bar_unit_hover_detail .contents {
+        width: 100%;
+        margin: -80px 0px 0px 0px;
+        display: flex;
+        flex-direction: column;
+        text-shadow:0px 0px 20px rgba(145,251,255,.5);
+        color:#91FBFF;
+    }
+
+        .div_build_bar_unit_hover_detail .contents .title {
+            height: 20px;
+            border-image: url(img/build_bar/img_unit_detail_hover_title.png) 20 20 0 20 fill;
+            border-width: 20px 20px 0 20px;
+            margin: 0px auto 0px -20px;
+            font-family:'Sansation Bold';
+            text-transform: none;
+            text-shadow: 0px 0px 20px rgba(145,251,255,.5);
+        }
+
+            .div_build_bar_unit_hover_detail .contents .title .content {
+                margin: -16px 0px 0px 0px;
+                font-size: 16px;
+                padding: 0px 10px 0px 24px;
+            }
+
+        .div_build_bar_unit_hover_detail .contents .detail {
+            height: 60px;
+            width: 548px;
+            padding: 0px 0px 0px 0px;
+            border-image: url(img/build_bar/img_unit_detail_hover_body.png) 60 60 0 60 fill;
+            border-width: 60px 60px 0 60px;
+            margin: 0px -80px;
+        }
+
+            .div_build_bar_unit_hover_detail .contents .detail .content {
+                display: inline-flex;
+                margin: -56px 0px 0px 0px;
+                padding: 0px 0px 0px 0px;
+            }
+
+
+                .div_build_bar_unit_hover_detail .contents .detail .content .strat_icon {
+                    height: 48px;
+                    width: 48px;
+                    margin: -12px -4px 0px -4px;
+                }
+
+            .div_build_bar_unit_hover_detail .contents .detail .description {
+                height: 60px;
+                padding: 0px 0px 0px 3px;
+            }
+
+                .div_build_bar_unit_hover_detail .contents .detail .description .text {
+                    height: 34px;
+                    /*width: 300px;*/
+                    padding:0px 10px 0px 0px;
+                    white-space: normal;
+                    color: #00ccff;
+                    -webkit-animation: none;
+                }
+
+                .div_build_bar_unit_hover_detail .contents .detail .description .resources {
+                    display:inline-flex;
+                }
+
+                .div_build_bar_unit_hover_detail .contents .detail .description .resources .stat {
+                    margin:0px 12px 0px 0px;
+                }
+
+                .div_build_bar_unit_hover_detail .contents .detail .description .resources .stat.metal {
+                    background: url(img/status_bar/icon-status-metal.png) center left no-repeat;
+                    background-size: 12px auto;
+                    padding-left: 14px;
+                }
+
+
+/*----- GAME OVER PANEL
+-----------------------------------------------------------------*/
+#game_over {
+    display: flex;
+}
+
+#game_over > panel {
+    width: 100%;
+}
+
+
+/*----- SETTINGS PANEL / PLAYER GUIDE
+-----------------------------------------------------------------*/
+#settings, #player_guide {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 10000;
+}
+
+/*----- Tabs
+-----------------------------------------------------------------*/
+.span_hotkey_tab {
+    height: 16px;
+    position: absolute;
+    top: 4px;
+    left: 77px;
+    padding: 0px 4px;
+}
+
+.div_game_paused {
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    position: absolute;
+    z-index: 1000;
+    justify-content: center;
+}
+
+#game_paused_panel {
+    height: 100%;
+    width: 100%;
+    text-align: center;
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.div_gamestats_panel {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    z-index: 1001;
+    justify-content: center;
+    display: flex;
+}
+
+#gamestats { 
+    margin-top:0;
+    width: 100%;
+    height: 100%;
+}
+
+/*----- TUTORIAL 
+-----------------------------------------------------------------*/
+
+.div_tutorial_bar {
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+
+#tutorial {
+    position: absolute;
+    top:30px;
+    bottom: 60px;
+}

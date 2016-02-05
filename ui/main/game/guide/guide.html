@@ -1,0 +1,78 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta content="text/html; charset=utf-8" http-equiv="Content-Type" />
+    <noloc><title>Player Guide</title></noloc>
+    <link href="bundle://boot/boot.css" rel="stylesheet" type="text/css" />
+    <link href="coui://ui/main/shared/css/landing_page.css" rel="stylesheet" type="text/css" />
+    <link href="guide.css" rel="stylesheet" type="text/css" />
+    <script src="bundle://boot/boot.js" type="text/javascript"></script>
+    <script src="guide.js" type="text/javascript"></script>
+</head>
+<body data-bind="css: { body_panel: inPanel }">
+    <!--- VISUAL TREATMENTS  -->
+    <div class="background_glow"></div>
+    <div class="section_title section_title_centered">
+        <loc>Player Guide</loc>
+    </div>
+    <div class="content_titans_badge modal_page" style="display: none;" data-bind="visible: api.content.usingTitans, css: { in_game: inPanel }">
+    </div>
+    <!-- CONTENT  -->
+    <div class="section_content_top_bar">
+    </div>
+    <div class="section_content bground">
+        <div class="section_wrapper">
+            <div class="container_centered container_guide">
+                <!--- LIST  -->
+                <div class="tab-content">
+                    <div class="tab-pane active" id="basics">
+                        <!-- COL 1-->
+                        <div class="col_1" style="width: 637px;">
+                            <div class="section_controls">
+                                <ul>
+                                    <li><a class="btn_std_ix" href="article/article_basiccontrols.html" target="navigation"><loc>Basic Camera Controls</loc></a>
+                                    </li>
+                                    <li><a class="btn_std_ix" href="article/article_clicking.html" target="navigation"><loc>Clicking</loc></a>
+                                    </li>
+                                    <li><a class="btn_std_ix" href="article/article_commanderbasics.html" target="navigation"><loc>Commander Basics</loc></a>
+                                    </li>
+                                    <li><a class="btn_std_ix" href="article/article_factories.html" target="navigation"><loc>Factories</loc></a>
+                                    </li>
+                                    <li><a class="btn_std_ix" href="article/article_fabbers.html" target="navigation"><loc>Fabrication Units</loc></a>
+                                    </li>
+                                    <li><a class="btn_std_ix" href="article/article_economy.html" target="navigation"><loc>Economy and Resources</loc></a>
+                                    </li>
+                                    <li><a class="btn_std_ix" href="article/article_areacommands.html" target="navigation"><loc>Area Commands</loc></a>
+                                    </li>
+                                    <li><a class="btn_std_ix" href="article/article_energy.html" target="navigation"><loc>Energy Resources</loc></a>
+                                    </li>
+                                    <li><a class="btn_std_ix" href="article/article_metal.html" target="navigation"><loc>Metal Resources</loc></a>
+                                    </li>
+                                    <li><a class="btn_std_ix" href="article/article_basichotkeys.html" target="navigation"><loc>Important Hotkeys</loc></a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <!-- COL 2-->
+                        <div class="col_2" style="padding: 12px">
+                            <iframe style="border: 1px solid #333" name="navigation" src="article/article_basiccontrols.html"></iframe>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="div_commit_cont centered">
+        <div class="container_centered">
+            <div class="div_commit_btns">
+                <div class="btn_std"
+                    data-bind="click: modalBack, click_sound: 'default', rollover_sound: 'default'">
+                    <div class="btn_label">
+                        <loc>Close</loc>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

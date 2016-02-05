@@ -1,0 +1,68 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<noloc><title>Live Game: Dev Mode</title></noloc>
+<link href="bundle://boot/boot.css" rel="stylesheet" type="text/css" />
+<link href="live_game_players.css" rel="stylesheet" type="text/css" />
+<link href="live_game_devmode.css" rel="stylesheet" type="text/css" />
+<script src="bundle://boot/boot.js" type="text/javascript"></script>
+
+<script src="live_game_devmode.js" type="text/javascript"></script>
+</head>
+    <noloc>
+        <body class="body_panel">
+            <svg xmlns="http://www.w3.org/2000/svg" version="1.1" x="0" y="0" width="0" height="0">
+                <defs>
+                    <filter id="maskfilter">
+                        <feColorMatrix in="SourceAlpha" type="matrix"
+                                       values="0 0 0 1 0
+                                               0 0 0 1 0
+                                               0 0 0 1 0
+                                               0 0 0 1 0"></feColorMatrix>
+                    </filter>
+
+                    <mask id="player-mask">
+                        <image width="12px" height="12px" xlink:href="img/players_list_panel/icon_player_fill.png" filter="url(#maskfilter)"></image>
+                    </mask>
+                </defs>
+            </svg>
+
+            <div class="container">
+                <div style="font-size: 20px; font-family: 'Sansation Bold'; color: #1e7aa1;"><noloc>DEV MODE</noloc></div>
+                <table class="table_players"><tbody>
+                    <tr style="height: 10px;">
+                        <td></td>
+                        <td>V</td>
+                        <td>C</td>
+                    </tr>
+                    <!-- ko foreach: players -->
+                    <tr>
+                        <td class="td_player_info">
+                            <span class="div_primary_color" data-bind="style: { backgroundColor: $data.color }"></span>
+                            <span>
+                                <!-- ko if: ai -->
+                                <span class="div_player_name ai"><noloc>AI: </noloc></span>
+                                <!-- /ko -->
+                                <span class="div_player_name" data-bind="text: name, style: { color: disconnected ? 'DarkGray' : 'White', color: defeated ? 'Red' : 'White' }"></span>
+                            </span>
+                        </td>
+
+                        <td class="div_devmode_control_item receiveMouse" data-bind="click: function () { $parent.updatePlayerVisionFlag($index()); }">
+                            <!-- ko if: $root.cheatAllowChangeVision -->
+                            <input type="checkbox" class="mousetrap ignoreMouse" data-bind="checked: $parent.playerVisionFlags()[$index()]" />
+                            <!-- /ko -->
+                        </td>
+
+                        <td class="div_devmode_control_item receiveMouse" data-bind="click: function () { $parent.updatePlayerControlFlag($index()); }">
+                            <!-- ko if: $root.cheatAllowChangeControl -->
+                            <input type="checkbox" class="mousetrap ignoreMouse" data-bind="checked: $parent.playerControlFlags()[$index()]" />
+                            <!-- /ko -->
+                        </td>
+                    </tr>
+                    <!-- /ko -->
+                </tbody></table>
+            </div>
+        </body>
+    </noloc>
+</html>

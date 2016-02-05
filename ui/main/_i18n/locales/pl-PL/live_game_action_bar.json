@@ -1,0 +1,44 @@
+{
+    "AT WILL": {
+        "message": "BEZ ROZKAZU"
+    }, 
+    "BUILD MODE": {
+        "message": "TRYB BUDOWY"
+    }, 
+    "CONTINUOUS": {
+        "message": "CI\u0104G\u0141A"
+    }, 
+    "ENERGY ORDERS": {
+        "message": "TRYBY DZIA\u0141ANIA"
+    }, 
+    "FIRE ORDERS": {
+        "message": "TRYBY ATAKU"
+    }, 
+    "HOLD": {
+        "message": "ZATRZYMAJ"
+    }, 
+    "HOLD POSITION": {
+        "message": "UTRZYMAJ POZYCJ\u0118"
+    }, 
+    "MANUEVER": {
+        "message": "MANEWR"
+    }, 
+    "MOVE ORDERS": {
+        "message": "ROZKAZY RUCHU"
+    }, 
+    "NORMAL": {
+        "message": "NORMALNE"
+    }, 
+    "OFF": {
+        "message": "WY\u0141\u0104CZ"
+    }, 
+    "ON": {
+        "message": "W\u0141\u0104CZ"
+    }, 
+    "RETURN FIRE": {
+        "message": "ODPOWIEDZ OGNIEM"
+    }, 
+    "ROAM": {
+        "message": "WOLNY"
+    }
+}

@@ -1,0 +1,36 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <meta locns="live_game" />
+        <noloc><title>Live Game: Popup</title></noloc>
+        <link href="bundle://boot/boot.css" rel="stylesheet" type="text/css" />
+        <link href="live_game_popup.css" rel="stylesheet" type="text/css" />
+        <script src="bundle://boot/boot.js" type="text/javascript"></script>
+
+        <script src="live_game_popup.js" type="text/javascript"></script>
+    </head>
+    <body class="body_panel div_popup_overlay">
+        <body-dock>
+            <div class="div_popup">
+                <div class="div_popup_panel">
+                    <div class="interior" data-bind="visible: visible">
+                        <div class="div_popup_primary_msg" data-bind="html: primaryMessage"></div>
+                        <div class="div_popup_secondary_msg" data-bind="text: secondaryMessage"></div>
+                        <div data-bind="visible: textfield" style="display: none">
+                            <input type="text" class="form-control" data-bind="value: textInput, valueUpdate: 'input'" />
+                            <!-- ko if: filenameFilter -->
+                            <span style="font-size: small; float: left; margin: 10px 0px 0px 1px;"><loc>Names can only include letters [a-Z] and numbers [0-9].</loc></span>
+                            <!-- /ko -->
+                        </div>
+                        <div class="commit">
+                            <!-- ko foreach: buttons -->
+                            <input type="button" value="" class="btn_std btn_popup" data-bind="click: click, value: label, click_sound: 'default', rollover_sound: 'default'" style="font-size:16px;" />
+                            <!-- /ko -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </body-dock>
+    </body>
+</html>

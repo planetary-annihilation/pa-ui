@@ -1,0 +1,23 @@
+{
+    "(+ __aiCount__ AI)": {
+        "message": "(+ __yzadedi__ YZ)"
+    }, 
+    "(Updating...)": {
+        "message": "(G\u00fcncelleniyor...)"
+    }, 
+    "(no info available)": {
+        "message": "(bilgi mevcut de\u011fil)"
+    }, 
+    "FAILED TO RETRIEVE REPLAY LIST": {
+        "message": "TEKRAR L\u0130STES\u0130 ALINAMADI"
+    }, 
+    "Replays": {
+        "message": "TEKRARLAR"
+    }, 
+    "Returning to Main Menu": {
+        "message": "Ana Men\u00fcye Geri D\u00f6n\u00fcl\u00fcyor"
+    }, 
+    "Search": {
+        "message": "Ara"
+    }
+}

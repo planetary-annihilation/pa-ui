@@ -1,0 +1,86 @@
+{
+    "- Host": {
+        "message": ": V\u00e4rd"
+    }, 
+    "AI Commander": {
+        "message": "AI Bef\u00e4lhavare"
+    }, 
+    "Add AI Commander": {
+        "message": "L\u00e4gg till AI Bef\u00e4lhavare"
+    }, 
+    "Add Slot": {
+        "message": "L\u00e4gg Till Plats"
+    }, 
+    "CONNECTION TO SERVER LOST": {
+        "message": "ANSLUTNING TILL SERVER F\u00d6RLORAD"
+    }, 
+    "Chat": {
+        "message": "Chatt"
+    }, 
+    "Empty": {
+        "message": "Tom"
+    }, 
+    "Free For All": {
+        "message": "Alla Mot Alla"
+    }, 
+    "Friends": {
+        "message": "V\u00e4nner"
+    }, 
+    "Game Lobby": {
+        "message": "SPELLOBBY"
+    }, 
+    "Game Mode": {
+        "message": "Speltyp:"
+    }, 
+    "Join": {
+        "message": "Anslut"
+    }, 
+    "Kick": {
+        "message": "Sparka"
+    }, 
+    "Leave": {
+        "message": "L\u00e4mna"
+    }, 
+    "Open to:": {
+        "message": "\u00d6ppen f\u00f6r:"
+    }, 
+    "Player Slot": {
+        "message": "Spelarplats"
+    }, 
+    "Private": {
+        "message": "Privat"
+    }, 
+    "Public": {
+        "message": "Offentlig"
+    }, 
+    "Ready": {
+        "message": "Redo"
+    }, 
+    "Remove": {
+        "message": "Ta Bort"
+    }, 
+    "Returning to Main Menu": {
+        "message": "\u00c5terg\u00e5r till Huvudmeny"
+    }, 
+    "SHARE ARMY": {
+        "message": "DELA ARM\u00c9"
+    }, 
+    "Spectate": {
+        "message": "Titta p\u00e5"
+    }, 
+    "Spectators": {
+        "message": "\u00c5SK\u00c5DARE"
+    }, 
+    "Start Game": {
+        "message": "Starta Spelet"
+    }, 
+    "System": {
+        "message": "System:"
+    }, 
+    "Team Armies": {
+        "message": "Team Arm\u00e9er"
+    }, 
+    "You must have friends to play a friends-only game.": {
+        "message": "Du m\u00e5ste ha v\u00e4nner f\u00f6r att spela ett bara v\u00e4nner spel."
+    }
+}

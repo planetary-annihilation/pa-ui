@@ -1,0 +1,29 @@
+{
+    "AI Skirmish": {
+        "message": "Schermaglia IA"
+    }, 
+    "Cancel": {
+        "message": "Annulla"
+    }, 
+    "Delete": {
+        "message": "Elimina"
+    }, 
+    "Galactic War": {
+        "message": "Guerra galattica"
+    }, 
+    "Game": {
+        "message": "Partita"
+    }, 
+    "Last Saved": {
+        "message": "Ultimo salvataggio"
+    }, 
+    "Resume Game": {
+        "message": "Riprendi partita"
+    }, 
+    "Saved Games": {
+        "message": "Partite salvate"
+    }, 
+    "Type": {
+        "message": "Scrivi"
+    }
+}

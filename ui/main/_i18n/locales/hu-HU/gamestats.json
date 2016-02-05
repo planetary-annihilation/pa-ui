@@ -1,0 +1,86 @@
+{
+    "Avg": {
+        "message": "Avg"
+    }, 
+    "Consumed": {
+        "message": "Consumed"
+    }, 
+    "Created": {
+        "message": "Created"
+    }, 
+    "Current": {
+        "message": "Jelenlegi"
+    }, 
+    "Current APM": {
+        "message": "Jelenlegi M\u0171velet/ mp"
+    }, 
+    "Current Efficiency": {
+        "message": "Jelenlegi Hat\u00e9konys\u00e1g"
+    }, 
+    "Current Energy": {
+        "message": "Current Energy"
+    }, 
+    "Current Metal": {
+        "message": "Current Metal"
+    }, 
+    "Current Units": {
+        "message": "Current Units"
+    }, 
+    "Draw": {
+        "message": "D\u00f6ntetlen"
+    }, 
+    "Fab": {
+        "message": "Gy\u00e1rt\u00f3"
+    }, 
+    "Factory": {
+        "message": "Gy\u00e1r"
+    }, 
+    "GAME SUMMARY": {
+        "message": "GAME SUMMARY"
+    }, 
+    "In Progress": {
+        "message": "Folyamatban"
+    }, 
+    "Lost": {
+        "message": "Lost"
+    }, 
+    "Mobile": {
+        "message": "Mozg\u00f3"
+    }, 
+    "Opp Killed": {
+        "message": "Meg\u00f6lt Ellens\u00e9gek"
+    }, 
+    "Produced": {
+        "message": "El\u0151\u00e1ll\u00edtott"
+    }, 
+    "Retrieving Stats...": {
+        "message": "Retrieving Stats..."
+    }, 
+    "Total": {
+        "message": "Total"
+    }, 
+    "Total APM": {
+        "message": "Total APM"
+    }, 
+    "Total Efficiency": {
+        "message": "Total Efficiency"
+    }, 
+    "Total Energy": {
+        "message": "Total Energy"
+    }, 
+    "Total Metal": {
+        "message": "Total Metal"
+    }, 
+    "Total Units": {
+        "message": "\u00d6sszes Egys\u00e9g"
+    }, 
+    "Wasted": {
+        "message": "Wasted"
+    }, 
+    "Winner:": {
+        "message": "Gy\u0151ztes:"
+    }, 
+    "Winners:": {
+        "message": "Gy\u0151ztesek:"
+    }
+}

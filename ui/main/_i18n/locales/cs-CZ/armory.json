@@ -1,0 +1,89 @@
+{
+    "Account Name:": {
+        "message": "N\u00e1zev \u00fa\u010dtu:"
+    }, 
+    "Add To Cart": {
+        "message": "P\u0159idat do ko\u0161\u00edku"
+    }, 
+    "Armory": {
+        "message": "Zbrojnice"
+    }, 
+    "Badges": {
+        "message": "Odznaky"
+    }, 
+    "CHECKOUT": {
+        "message": "P\u0159ej\u00edt k pokladn\u011b"
+    }, 
+    "Cancel": {
+        "message": "Zru\u0161it"
+    }, 
+    "Cart": {
+        "message": "Ko\u0161\u00edk"
+    }, 
+    "Commanders": {
+        "message": "Velitel\u00e9"
+    }, 
+    "Confirmation code:": {
+        "message": "Potvrzovac\u00ed k\u00f3d:"
+    }, 
+    "Confirmation of your purchase is provided below.": {
+        "message": "Potvrzen\u00ed o zakoupen\u00ed je uveden n\u00ed\u017ee."
+    }, 
+    "Continue Shopping": {
+        "message": "Pokra\u010dovat v n\u00e1kupu"
+    }, 
+    "Credit applied:": {
+        "message": "Kredit p\u0159ips\u00e1n"
+    }, 
+    "Designed in collaboration with": {
+        "message": "Navr\u017eeno ve spolupr\u00e1ci s"
+    }, 
+    "Go to Main Menu": {
+        "message": "P\u0159ej\u00edt na hlavn\u00ed menu"
+    }, 
+    "Here's your receipt.": {
+        "message": "Zde je v\u00e1\u0161 doklad."
+    }, 
+    "Item": {
+        "message": "Polo\u017eka"
+    }, 
+    "Item is already in cart.": {
+        "message": "Polo\u017eka je u\u017e v n\u00e1kupn\u00edm ko\u0161\u00edku."
+    }, 
+    "Kickstarter Backer": {
+        "message": "Kickstarter stoupenec"
+    }, 
+    "Price": {
+        "message": "Cena"
+    }, 
+    "REMOVE": {
+        "message": "ODSTRANIT"
+    }, 
+    "Redeem": {
+        "message": "Uplatnit"
+    }, 
+    "Refresh": {
+        "message": "Obnovit"
+    }, 
+    "Return to Armory": {
+        "message": "Zp\u011bt do zbrojnice"
+    }, 
+    "Set As Default Commander": {
+        "message": "Nastavit jako v\u00fdchoz\u00edho Komand\u00e9ra"
+    }, 
+    "Thank you for your purchase.": {
+        "message": "D\u011bkujeme v\u00e1m za v\u00e1\u0161 n\u00e1kup."
+    }, 
+    "Total:": {
+        "message": "Celkem:"
+    }, 
+    "Updating...": {
+        "message": "Aktualizace..."
+    }, 
+    "Your cart is empty.": {
+        "message": "V\u00e1\u0161 n\u00e1kupn\u00ed ko\u0161\u00edk je pr\u00e1zdn\u00fd."
+    }, 
+    "Your purchased items are now registered to your account and are accessible in the game.": {
+        "message": "Va\u0161e nakupovan\u00e9 polo\u017eky jsou nyn\u00ed registrov\u00e1ny na va\u0161em \u00fa\u010dtu a jsou k dispozici ve h\u0159e."
+    }
+}

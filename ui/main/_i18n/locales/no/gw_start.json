@@ -1,0 +1,119 @@
+{
+    "ABSURD": {
+        "message": "ABSURD"
+    }, 
+    "Active Wars": {
+        "message": "Aktive kriger"
+    }, 
+    "Annihilate enemies on claimed systems to collect their Tech.": {
+        "message": "Utslett fiender i kaprede solsystemer for \u00e5 f\u00e5 tilgang til deres teknologi."
+    }, 
+    "Annihilated": {
+        "message": "Annihilated"
+    }, 
+    "Annihilation is final.": {
+        "message": "Utsletting er endelig."
+    }, 
+    "Archived Wars": {
+        "message": "Lagrede kriger"
+    }, 
+    "Choose a loadout to give your Commander different starting Tech configurations.": {
+        "message": "Velg et utgangspunkt for \u00e5 gi din Commander forskjellige teknologiske start-konfigurasjoner."
+    }, 
+    "Commander": {
+        "message": "Commander"
+    }, 
+    "Details": {
+        "message": "Details"
+    }, 
+    "Difficulty:": {
+        "message": "Vanskelighetsgrad:"
+    }, 
+    "EPIC": {
+        "message": "EPISK"
+    }, 
+    "Explore unclaimed systems to recover Tech.": {
+        "message": "Utforsk ukjente stjernesystemer for \u00e5 gjenopprette teknologi."
+    }, 
+    "Faction": {
+        "message": "Fraksjon"
+    }, 
+    "Go to War": {
+        "message": "G\u00e5 i krig"
+    }, 
+    "HARD": {
+        "message": "VANSKELIG"
+    }, 
+    "How to Play": {
+        "message": "Hvordan spille"
+    }, 
+    "LARGE": {
+        "message": "STOR"
+    }, 
+    "LOCKED": {
+        "message": "LOCKED"
+    }, 
+    "Loadout": {
+        "message": "Loadout"
+    }, 
+    "MEDIUM": {
+        "message": "MEDIUM"
+    }, 
+    "Move from star system to star system collecting Techs. Use those Techs to defeat the enemy faction leaders and conquer the galaxy!": {
+        "message": "Dra fra stjernesystem til stjernesystem for \u00e5 samle opp teknologier. Bruk de nye teknologiene til \u00e5 overvinne fiendens ledere og hersk over galaksen!"
+    }, 
+    "NORMAL": {
+        "message": "NORMAL"
+    }, 
+    "Name": {
+        "message": "Navn"
+    }, 
+    "Navigate the galaxy map by jumping from system to system.": {
+        "message": "Flytt deg rundt i galaksen ved \u00e5 hoppe fra system til system."
+    }, 
+    "New Data Banks to store Techs can be found by exploring systems.": {
+        "message": "Nye databanker for \u00e5 lagre teknologier finner du ved \u00e5 lete i galaksesystemet."
+    }, 
+    "New War": {
+        "message": "Ny krig"
+    }, 
+    "RELENTLESS": {
+        "message": "N\u00c5DEL\u00d8S"
+    }, 
+    "SMALL": {
+        "message": "LITEN"
+    }, 
+    "Seed Value": {
+        "message": "S\u00e5verdi"
+    }, 
+    "Setup": {
+        "message": "Setup"
+    }, 
+    "Size:": {
+        "message": "St\u00f8rrelse:"
+    }, 
+    "Some systems have hidden Commander loadouts. Recover them for future Galactic Wars.": {
+        "message": "Noen systemer har gjemte Commanders. Gjenopprett dem for \u00e5 bruke dem i fremtidige galaktiske kriger."
+    }, 
+    "Tech can be deleted to make room for new ones to download. Deleted and rejected Techs are lost for the remainder of the Galactic War.": {
+        "message": "Teknologi kan slettes for \u00e5 gi plass til \u00e5 laste ned nye, Slettede og avviste teknologier mistes for godt for den gjenv\u00e6rende galaktiske krigen."
+    }, 
+    "Tip:": {
+        "message": "Tip:"
+    }, 
+    "Tips": {
+        "message": "Tips"
+    }, 
+    "Turns:": {
+        "message": "Runder:"
+    }, 
+    "UBER": {
+        "message": "UBER"
+    }, 
+    "Victory": {
+        "message": "Victory"
+    }, 
+    "Wins:": {
+        "message": "Wins:"
+    }
+}

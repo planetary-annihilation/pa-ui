@@ -1,0 +1,22 @@
+{
+    "Absurd": {
+        "message": "\u0202\u0411\u01a8\u0574\u0213\u0257\u03a9\u03a9\u03a9", 
+        "original": "Absurd"
+    }, 
+    "Hard": {
+        "message": "\u04c7\u0203\u0213\u0257\u03a9\u03a9", 
+        "original": "Hard"
+    }, 
+    "Idle": {
+        "message": "\u03aa\u0257\u230a\u1f73\u03a9\u03a9", 
+        "original": "Idle"
+    }, 
+    "Normal": {
+        "message": "\u019d\u020f\u0213\u028d\u0203\u230a\u03a9\u03a9\u03a9", 
+        "original": "Normal"
+    }, 
+    "Relentless": {
+        "message": "\u211d\u1f73\u230a\u1f73\u019e\u04ad\u230a\u1f73\u01a8\u01a8\u03a9\u03a9\u03a9\u03a9\u03a9", 
+        "original": "Relentless"
+    }
+}

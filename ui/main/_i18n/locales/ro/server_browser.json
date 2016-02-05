@@ -1,0 +1,44 @@
+{
+    "Create Game": {
+        "message": "Creeaz\u0103 Joc"
+    }, 
+    "Game": {
+        "message": "Joc"
+    }, 
+    "In Lobby": {
+        "message": "\u00cen Lobby"
+    }, 
+    "In Progress": {
+        "message": "\u00cen Progres"
+    }, 
+    "Join Game": {
+        "message": "Al\u0103tur\u0103-te Jocului"
+    }, 
+    "Locked Game": {
+        "message": "Joc \u00cencuiat"
+    }, 
+    "Mode": {
+        "message": "Mod"
+    }, 
+    "Password": {
+        "message": "Parola"
+    }, 
+    "Planets": {
+        "message": "Planete"
+    }, 
+    "Players": {
+        "message": "Players"
+    }, 
+    "Region": {
+        "message": "Regiune"
+    }, 
+    "Slots": {
+        "message": "Sloturi"
+    }, 
+    "Spectate": {
+        "message": "Observ\u0103"
+    }, 
+    "Spectators": {
+        "message": "Spectators"
+    }
+}

@@ -1,0 +1,104 @@
+{
+    "AI Battle": {
+        "message": "AI-krig"
+    }, 
+    "Any": {
+        "message": "Alle"
+    }, 
+    "Can Join": {
+        "message": "Kan bli med"
+    }, 
+    "Can Play": {
+        "message": "Kan spille"
+    }, 
+    "Can Spectate": {
+        "message": "Kan v\u00e6re tilskuer"
+    }, 
+    "Casual": {
+        "message": "Uformell"
+    }, 
+    "Competitive": {
+        "message": "Konkurransedyktig"
+    }, 
+    "Create Game": {
+        "message": "Ny kamp"
+    }, 
+    "Free For All": {
+        "message": "Alle mot alle"
+    }, 
+    "Game": {
+        "message": "Kamp"
+    }, 
+    "Game State": {
+        "message": "Spillstatus"
+    }, 
+    "In Lobby": {
+        "message": "I lobbyen"
+    }, 
+    "In Progress": {
+        "message": "Under behandling"
+    }, 
+    "Join Game": {
+        "message": "Delta"
+    }, 
+    "Locked Game": {
+        "message": "Stengt spill"
+    }, 
+    "Mod": {
+        "message": "Mod"
+    }, 
+    "Mode": {
+        "message": "Modus"
+    }, 
+    "Mods": {
+        "message": "Modder"
+    }, 
+    "Multiplayer": {
+        "message": "Flerspiller"
+    }, 
+    "No max": {
+        "message": "Ingen max"
+    }, 
+    "No min": {
+        "message": "Ingen min"
+    }, 
+    "Number of Planets": {
+        "message": "Antall planeter"
+    }, 
+    "Number of Players": {
+        "message": "Antall spillere"
+    }, 
+    "Password": {
+        "message": "Passord"
+    }, 
+    "Planets": {
+        "message": "Planeter"
+    }, 
+    "Players": {
+        "message": "Spillere"
+    }, 
+    "Region": {
+        "message": "Region"
+    }, 
+    "Slots": {
+        "message": "Plasser"
+    }, 
+    "Spectate": {
+        "message": "Se p\u00e5"
+    }, 
+    "Spectators": {
+        "message": "Tilskuere"
+    }, 
+    "Status": {
+        "message": "Status"
+    }, 
+    "Tag": {
+        "message": "Fane"
+    }, 
+    "Team Armies": {
+        "message": "Lag"
+    }, 
+    "Testing": {
+        "message": "Tester"
+    }
+}

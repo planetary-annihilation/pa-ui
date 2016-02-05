@@ -1,0 +1,402 @@
+{
+    "Accept": {
+        "message": "\u0202\u03f2\u03f2\u1f73\u2374\u04ad", 
+        "original": "Accept"
+    }, 
+    "Advanced Edit": {
+        "message": "\u0202\u0257\u0477\u0203\u019e\u03f2\u1f73\u0257 \u0190\u0257\u0457\u04ad", 
+        "original": "Advanced Edit"
+    }, 
+    "Advanced edit planet": {
+        "message": "\u0202\u0257\u0477\u0203\u019e\u03f2\u1f73\u0257 \u1f73\u0257\u0457\u04ad \u2374\u230a\u0203\u019e\u1f73\u04ad", 
+        "original": "Advanced edit planet"
+    }, 
+    "Auto": {
+        "message": "\u0202\u0574\u04ad\u020f", 
+        "original": "Auto"
+    }, 
+    "Base:": {
+        "message": "\u0e3f\u0203\u01a8\u1f73:", 
+        "original": "Base:"
+    }, 
+    "Biome:": {
+        "message": "\u0e3f\u0457\u020f\u028d\u1f73:", 
+        "original": "Biome:"
+    }, 
+    "Brushes:": {
+        "message": "\u0e3f\u0213\u0574\u01a8\u043d\u1f73\u01a8:", 
+        "original": "Brushes:"
+    }, 
+    "CLEAR SYSTEM": {
+        "message": "\u04aa\u20a4\u0190\u0202\u211d \u1e60\u0423\u1e60\u4e01\u0190\u039c", 
+        "original": "CLEAR SYSTEM"
+    }, 
+    "CLOSE": {
+        "message": "\u04aa\u20a4\u0472\u1e60\u0190", 
+        "original": "CLOSE"
+    }, 
+    "CSG": {
+        "message": "\u04aa\u1e60\u01f4", 
+        "original": "CSG"
+    }, 
+    "Cancel": {
+        "message": "\u04aa\u0203\u019e\u03f2\u1f73\u230a", 
+        "original": "Cancel"
+    }, 
+    "Discard": {
+        "message": "\u0189\u0457\u01a8\u03f2\u0203\u0213\u0257", 
+        "original": "Discard"
+    }, 
+    "Do you want to save this system?": {
+        "message": "\u0189\u020f \u0443\u020f\u0574 \u1ff4\u0203\u019e\u04ad \u04ad\u020f \u01a8\u0203\u0477\u1f73 \u04ad\u043d\u0457\u01a8 \u01a8\u0443\u01a8\u04ad\u1f73\u028d?", 
+        "original": "Do you want to save this system?"
+    }, 
+    "EDIT PLANET": {
+        "message": "\u0190\u0189\u03aa\u4e01 \u1e54\u20a4\u0202\u019d\u0190\u4e01", 
+        "original": "EDIT PLANET"
+    }, 
+    "Edit": {
+        "message": "\u0190\u0257\u0457\u04ad", 
+        "original": "Edit"
+    }, 
+    "GAMEPLAY": {
+        "message": "\u01f4\u0202\u039c\u0190\u1e54\u20a4\u0202\u0423", 
+        "original": "GAMEPLAY"
+    }, 
+    "HIDE": {
+        "message": "\u04c7\u03aa\u0189\u0190", 
+        "original": "HIDE"
+    }, 
+    "Height:": {
+        "message": "\u04c7\u1f73\u0457\u0260\u043d\u04ad:", 
+        "original": "Height:"
+    }, 
+    "Include:": {
+        "message": "\u03aa\u019e\u03f2\u230a\u0574\u0257\u1f73:", 
+        "original": "Include:"
+    }, 
+    "Landing Zone Restrictions": {
+        "message": "\u20a4\u0203\u019e\u0257\u0457\u019e\u0260 \u01b5\u020f\u019e\u1f73 \u211d\u1f73\u01a8\u04ad\u0213\u0457\u03f2\u04ad\u0457\u020f\u019e\u01a8", 
+        "original": "Landing Zone Restrictions"
+    }, 
+    "Landing Zones": {
+        "message": "\u20a4\u0203\u019e\u0257\u0457\u019e\u0260 \u01b5\u020f\u019e\u1f73\u01a8", 
+        "original": "Landing Zones"
+    }, 
+    "MY PLANETS": {
+        "message": "\u039c\u0423 \u1e54\u20a4\u0202\u019d\u0190\u4e01\u1e60", 
+        "original": "MY PLANETS"
+    }, 
+    "Mass": {
+        "message": "\u039c\u0203\u01a8\u01a8", 
+        "original": "Mass"
+    }, 
+    "Max Asteroid Count": {
+        "message": "\u039c\u0203\u2327 \u0202\u01a8\u04ad\u1f73\u0213\u020f\u0457\u0257 \u04aa\u020f\u0574\u019e\u04ad", 
+        "original": "Max Asteroid Count"
+    }, 
+    "Max:": {
+        "message": "\u039c\u0203\u2327:", 
+        "original": "Max:"
+    }, 
+    "Metal Spots": {
+        "message": "\u039c\u1f73\u04ad\u0203\u230a \u1e60\u2374\u020f\u04ad\u01a8", 
+        "original": "Metal Spots"
+    }, 
+    "Min:": {
+        "message": "\u039c\u0457\u019e:", 
+        "original": "Min:"
+    }, 
+    "NONE": {
+        "message": "\u019d\u0472\u019d\u0190", 
+        "original": "NONE"
+    }, 
+    "Ok": {
+        "message": "\u0472\u045c", 
+        "original": "Ok"
+    }, 
+    "Once in Advanced Edit mode, the planet will remain in this mode for future edits.": {
+        "message": "\u0472\u019e\u03f2\u1f73 \u0457\u019e \u0202\u0257\u0477\u0203\u019e\u03f2\u1f73\u0257 \u0190\u0257\u0457\u04ad \u028d\u020f\u0257\u1f73, \u04ad\u043d\u1f73 \u2374\u230a\u0203\u019e\u1f73\u04ad \u1ff4\u0457\u230a\u230a \u0213\u1f73\u028d\u0203\u0457\u019e \u0457\u019e \u04ad\u043d\u0457\u01a8 \u028d\u020f\u0257\u1f73 \u0493\u020f\u0213 \u0493\u0574\u04ad\u0574\u0213\u1f73 \u1f73\u0257\u0457\u04ad\u01a8.", 
+        "original": "Once in Advanced Edit mode, the planet will remain in this mode for future edits."
+    }, 
+    "PREVIEW ALL": {
+        "message": "\u1e54\u211d\u0190\u0476\u03aa\u0190\u20a9 \u0202\u20a4\u20a4", 
+        "original": "PREVIEW ALL"
+    }, 
+    "Position": {
+        "message": "\u1e54\u020f\u01a8\u0457\u04ad\u0457\u020f\u019e", 
+        "original": "Position"
+    }, 
+    "Preview": {
+        "message": "\u1e54\u0213\u1f73\u0477\u0457\u1f73\u1ff4", 
+        "original": "Preview"
+    }, 
+    "Properties": {
+        "message": "\u1e54\u0213\u020f\u2374\u1f73\u0213\u04ad\u0457\u1f73\u01a8", 
+        "original": "Properties"
+    }, 
+    "RECENT": {
+        "message": "\u211d\u0190\u04aa\u0190\u019d\u4e01", 
+        "original": "RECENT"
+    }, 
+    "REMOVE": {
+        "message": "\u211d\u0190\u039c\u0472\u0476\u0190", 
+        "original": "REMOVE"
+    }, 
+    "REMOVE ASTEROID BELT": {
+        "message": "\u211d\u0190\u039c\u0472\u0476\u0190 \u0202\u1e60\u4e01\u0190\u211d\u0472\u03aa\u0189 \u0e3f\u0190\u20a4\u4e01", 
+        "original": "REMOVE ASTEROID BELT"
+    }, 
+    "Radius:": {
+        "message": "\u211d\u0203\u0257\u0457\u0574\u01a8:", 
+        "original": "Radius:"
+    }, 
+    "SAVE SYSTEM": {
+        "message": "\u1e60\u0202\u0476\u0190 \u1e60\u0423\u1e60\u4e01\u0190\u039c", 
+        "original": "SAVE SYSTEM"
+    }, 
+    "SHOW": {
+        "message": "\u1e60\u04c7\u0472\u20a9", 
+        "original": "SHOW"
+    }, 
+    "SIMULATE": {
+        "message": "\u1e60\u03aa\u039c\u1ee6\u20a4\u0202\u4e01\u0190", 
+        "original": "SIMULATE"
+    }, 
+    "STOP": {
+        "message": "\u1e60\u4e01\u0472\u1e54", 
+        "original": "STOP"
+    }, 
+    "Save": {
+        "message": "\u1e60\u0203\u0477\u1f73", 
+        "original": "Save"
+    }, 
+    "Save as template": {
+        "message": "\u1e60\u0203\u0477\u1f73 \u0203\u01a8 \u04ad\u1f73\u028d\u2374\u230a\u0203\u04ad\u1f73", 
+        "original": "Save as template"
+    }, 
+    "Seed:": {
+        "message": "\u1e60\u1f73\u1f73\u0257:", 
+        "original": "Seed:"
+    }, 
+    "Spawn Delay (in seconds)": {
+        "message": "\u1e60\u2374\u0203\u1ff4\u019e \u0189\u1f73\u230a\u0203\u0443 (\u0457\u019e \u01a8\u1f73\u03f2\u020f\u019e\u0257\u01a8)", 
+        "original": "Spawn Delay (in seconds)"
+    }, 
+    "Spots:": {
+        "message": "\u1e60\u2374\u020f\u04ad\u01a8:", 
+        "original": "Spots:"
+    }, 
+    "Starting Asteroid Count": {
+        "message": "\u1e60\u04ad\u0203\u0213\u04ad\u0457\u019e\u0260 \u0202\u01a8\u04ad\u1f73\u0213\u020f\u0457\u0257 \u04aa\u020f\u0574\u019e\u04ad", 
+        "original": "Starting Asteroid Count"
+    }, 
+    "Starting planet options": {
+        "message": "\u1e60\u04ad\u0203\u0213\u04ad\u0457\u019e\u0260 \u2374\u230a\u0203\u019e\u1f73\u04ad \u020f\u2374\u04ad\u0457\u020f\u019e\u01a8", 
+        "original": "Starting planet options"
+    }, 
+    "System Designer": {
+        "message": "\u1e60\u0443\u01a8\u04ad\u1f73\u028d \u0189\u1f73\u01a8\u0457\u0260\u019e\u1f73\u0213", 
+        "original": "System Designer"
+    }, 
+    "System Name:": {
+        "message": "\u1e60\u0443\u01a8\u04ad\u1f73\u028d \u019d\u0203\u028d\u1f73:", 
+        "original": "System Name:"
+    }, 
+    "System radius is too large.": {
+        "message": "\u1e60\u0443\u01a8\u04ad\u1f73\u028d \u0213\u0203\u0257\u0457\u0574\u01a8 \u0457\u01a8 \u04ad\u020f\u020f \u230a\u0203\u0213\u0260\u1f73.", 
+        "original": "System radius is too large."
+    }, 
+    "System radius is too small.": {
+        "message": "\u1e60\u0443\u01a8\u04ad\u1f73\u028d \u0213\u0203\u0257\u0457\u0574\u01a8 \u0457\u01a8 \u04ad\u020f\u020f \u01a8\u028d\u0203\u230a\u230a.", 
+        "original": "System radius is too small."
+    }, 
+    "System requires at least one starting planet.": {
+        "message": "\u1e60\u0443\u01a8\u04ad\u1f73\u028d \u0213\u1f73\u0533\u0574\u0457\u0213\u1f73\u01a8 \u0203\u04ad \u230a\u1f73\u0203\u01a8\u04ad \u020f\u019e\u1f73 \u01a8\u04ad\u0203\u0213\u04ad\u0457\u019e\u0260 \u2374\u230a\u0203\u019e\u1f73\u04ad.", 
+        "original": "System requires at least one starting planet."
+    }, 
+    "TEMPLATES": {
+        "message": "\u4e01\u0190\u039c\u1e54\u20a4\u0202\u4e01\u0190\u1e60", 
+        "original": "TEMPLATES"
+    }, 
+    "TERRAIN": {
+        "message": "\u4e01\u0190\u211d\u211d\u0202\u03aa\u019d", 
+        "original": "TERRAIN"
+    }, 
+    "TERRAIN AND CSG": {
+        "message": "\u4e01\u0190\u211d\u211d\u0202\u03aa\u019d \u0202\u019d\u0189 \u04aa\u1e60\u01f4", 
+        "original": "TERRAIN AND CSG"
+    }, 
+    "Temp": {
+        "message": "\u4e01\u1f73\u028d\u2374", 
+        "original": "Temp"
+    }, 
+    "Temp:": {
+        "message": "\u4e01\u1f73\u028d\u2374:", 
+        "original": "Temp:"
+    }, 
+    "The planet is loading. This can take a long time.": {
+        "message": "\u4e01\u043d\u1f73 \u2374\u230a\u0203\u019e\u1f73\u04ad \u0457\u01a8 \u230a\u020f\u0203\u0257\u0457\u019e\u0260. \u4e01\u043d\u0457\u01a8 \u03f2\u0203\u019e \u04ad\u0203\u045c\u1f73 \u0203 \u230a\u020f\u019e\u0260 \u04ad\u0457\u028d\u1f73.", 
+        "original": "The planet is loading. This can take a long time."
+    }, 
+    "The program will be unresponsive until the planet has finished.": {
+        "message": "\u4e01\u043d\u1f73 \u2374\u0213\u020f\u0260\u0213\u0203\u028d \u1ff4\u0457\u230a\u230a \u0411\u1f73 \u0574\u019e\u0213\u1f73\u01a8\u2374\u020f\u019e\u01a8\u0457\u0477\u1f73 \u0574\u019e\u04ad\u0457\u230a \u04ad\u043d\u1f73 \u2374\u230a\u0203\u019e\u1f73\u04ad \u043d\u0203\u01a8 \u0493\u0457\u019e\u0457\u01a8\u043d\u1f73\u0257.", 
+        "original": "The program will be unresponsive until the planet has finished."
+    }, 
+    "The system has been changed since it was last saved.": {
+        "message": "\u4e01\u043d\u1f73 \u01a8\u0443\u01a8\u04ad\u1f73\u028d \u043d\u0203\u01a8 \u0411\u1f73\u1f73\u019e \u03f2\u043d\u0203\u019e\u0260\u1f73\u0257 \u01a8\u0457\u019e\u03f2\u1f73 \u0457\u04ad \u1ff4\u0203\u01a8 \u230a\u0203\u01a8\u04ad \u01a8\u0203\u0477\u1f73\u0257.", 
+        "original": "The system has been changed since it was last saved."
+    }, 
+    "The system has not been saved.": {
+        "message": "\u4e01\u043d\u1f73 \u01a8\u0443\u01a8\u04ad\u1f73\u028d \u043d\u0203\u01a8 \u019e\u020f\u04ad \u0411\u1f73\u1f73\u019e \u01a8\u0203\u0477\u1f73\u0257.", 
+        "original": "The system has not been saved."
+    }, 
+    "This planet has been customized. It must be fully built before modifying.": {
+        "message": "\u4e01\u043d\u0457\u01a8 \u2374\u230a\u0203\u019e\u1f73\u04ad \u043d\u0203\u01a8 \u0411\u1f73\u1f73\u019e \u03f2\u0574\u01a8\u04ad\u020f\u028d\u0457\u2124\u1f73\u0257. \u03aa\u04ad \u028d\u0574\u01a8\u04ad \u0411\u1f73 \u0493\u0574\u230a\u230a\u0443 \u0411\u0574\u0457\u230a\u04ad \u0411\u1f73\u0493\u020f\u0213\u1f73 \u028d\u020f\u0257\u0457\u0493\u0443\u0457\u019e\u0260.", 
+        "original": "This planet has been customized. It must be fully built before modifying."
+    }, 
+    "Use [style=hotkey_title]__hotkey__[/style] to place a landing zone below the cursor.": {
+        "message": "\u1ee6\u01a8\u1f73 [style=hotkey_title]__hotkey__[/style] \u04ad\u020f \u2374\u230a\u0203\u03f2\u1f73 \u0203 \u230a\u0203\u019e\u0257\u0457\u019e\u0260 \u2124\u020f\u019e\u1f73 \u0411\u1f73\u230a\u020f\u1ff4 \u04ad\u043d\u1f73 \u03f2\u0574\u0213\u01a8\u020f\u0213.", 
+        "original": "Use [style=hotkey_title]__hotkey__[/style] to place a landing zone below the cursor."
+    }, 
+    "Use [style=hotkey_title]__hotkey__[/style] to place a metal spot below the cursor.": {
+        "message": "\u1ee6\u01a8\u1f73 [style=hotkey_title]__hotkey__[/style] \u04ad\u020f \u2374\u230a\u0203\u03f2\u1f73 \u0203 \u028d\u1f73\u04ad\u0203\u230a \u01a8\u2374\u020f\u04ad \u0411\u1f73\u230a\u020f\u1ff4 \u04ad\u043d\u1f73 \u03f2\u0574\u0213\u01a8\u020f\u0213.", 
+        "original": "Use [style=hotkey_title]__hotkey__[/style] to place a metal spot below the cursor."
+    }, 
+    "Use as a starting planet": {
+        "message": "\u1ee6\u01a8\u1f73 \u0203\u01a8 \u0203 \u01a8\u04ad\u0203\u0213\u04ad\u0457\u019e\u0260 \u2374\u230a\u0203\u019e\u1f73\u04ad", 
+        "original": "Use as a starting planet"
+    }, 
+    "Variance:": {
+        "message": "\u0476\u0203\u0213\u0457\u0203\u019e\u03f2\u1f73:", 
+        "original": "Variance:"
+    }, 
+    "Velocity": {
+        "message": "\u0476\u1f73\u230a\u020f\u03f2\u0457\u04ad\u0443", 
+        "original": "Velocity"
+    }, 
+    "Water": {
+        "message": "\u20a9\u0203\u04ad\u1f73\u0213", 
+        "original": "Water"
+    }, 
+    "Water:": {
+        "message": "\u20a9\u0203\u04ad\u1f73\u0213:", 
+        "original": "Water:"
+    }, 
+    "X:": {
+        "message": "\u04b2:", 
+        "original": "X:"
+    }, 
+    "Y:": {
+        "message": "\u0423:", 
+        "original": "Y:"
+    }, 
+    "You will have to fix the system before saving.": {
+        "message": "\u0423\u020f\u0574 \u1ff4\u0457\u230a\u230a \u043d\u0203\u0477\u1f73 \u04ad\u020f \u0493\u0457\u2327 \u04ad\u043d\u1f73 \u01a8\u0443\u01a8\u04ad\u1f73\u028d \u0411\u1f73\u0493\u020f\u0213\u1f73 \u01a8\u0203\u0477\u0457\u019e\u0260.", 
+        "original": "You will have to fix the system before saving."
+    }, 
+    "You will not be able to revert back and use standard editing controls.": {
+        "message": "\u0423\u020f\u0574 \u1ff4\u0457\u230a\u230a \u019e\u020f\u04ad \u0411\u1f73 \u0203\u0411\u230a\u1f73 \u04ad\u020f \u0213\u1f73\u0477\u1f73\u0213\u04ad \u0411\u0203\u03f2\u045c \u0203\u019e\u0257 \u0574\u01a8\u1f73 \u01a8\u04ad\u0203\u019e\u0257\u0203\u0213\u0257 \u1f73\u0257\u0457\u04ad\u0457\u019e\u0260 \u03f2\u020f\u019e\u04ad\u0213\u020f\u230a\u01a8.", 
+        "original": "You will not be able to revert back and use standard editing controls."
+    }, 
+    "Zone:": {
+        "message": "\u01b5\u020f\u019e\u1f73:", 
+        "original": "Zone:"
+    }, 
+    "Zones:": {
+        "message": "\u01b5\u020f\u019e\u1f73\u01a8:", 
+        "original": "Zones:"
+    }, 
+    "biome": {
+        "message": "\u0411\u0457\u020f\u028d\u1f73", 
+        "original": "biome"
+    }, 
+    "edit asteroid belt": {
+        "message": "\u1f73\u0257\u0457\u04ad \u0203\u01a8\u04ad\u1f73\u0213\u020f\u0457\u0257 \u0411\u1f73\u230a\u04ad", 
+        "original": "edit asteroid belt"
+    }, 
+    "edit planet": {
+        "message": "\u1f73\u0257\u0457\u04ad \u2374\u230a\u0203\u019e\u1f73\u04ad", 
+        "original": "edit planet"
+    }, 
+    "height": {
+        "message": "\u043d\u1f73\u0457\u0260\u043d\u04ad", 
+        "original": "height"
+    }, 
+    "height range": {
+        "message": "\u043d\u1f73\u0457\u0260\u043d\u04ad \u0213\u0203\u019e\u0260\u1f73", 
+        "original": "height range"
+    }, 
+    "landing zone size": {
+        "message": "\u230a\u0203\u019e\u0257\u0457\u019e\u0260 \u2124\u020f\u019e\u1f73 \u01a8\u0457\u2124\u1f73", 
+        "original": "landing zone size"
+    }, 
+    "landing zones per army": {
+        "message": "\u230a\u0203\u019e\u0257\u0457\u019e\u0260 \u2124\u020f\u019e\u1f73\u01a8 \u2374\u1f73\u0213 \u0203\u0213\u028d\u0443", 
+        "original": "landing zones per army"
+    }, 
+    "metal clusters": {
+        "message": "\u028d\u1f73\u04ad\u0203\u230a \u03f2\u230a\u0574\u01a8\u04ad\u1f73\u0213\u01a8", 
+        "original": "metal clusters"
+    }, 
+    "metal density": {
+        "message": "\u028d\u1f73\u04ad\u0203\u230a \u0257\u1f73\u019e\u01a8\u0457\u04ad\u0443", 
+        "original": "metal density"
+    }, 
+    "metal spots": {
+        "message": "\u028d\u1f73\u04ad\u0203\u230a \u01a8\u2374\u020f\u04ad\u01a8", 
+        "original": "metal spots"
+    }, 
+    "metal spots on asteroids": {
+        "message": "\u028d\u1f73\u04ad\u0203\u230a \u01a8\u2374\u020f\u04ad\u01a8 \u020f\u019e \u0203\u01a8\u04ad\u1f73\u0213\u020f\u0457\u0257\u01a8", 
+        "original": "metal spots on asteroids"
+    }, 
+    "planet name": {
+        "message": "\u2374\u230a\u0203\u019e\u1f73\u04ad \u019e\u0203\u028d\u1f73", 
+        "original": "planet name"
+    }, 
+    "preview landing zones by number of armies": {
+        "message": "\u2374\u0213\u1f73\u0477\u0457\u1f73\u1ff4 \u230a\u0203\u019e\u0257\u0457\u019e\u0260 \u2124\u020f\u019e\u1f73\u01a8 \u0411\u0443 \u019e\u0574\u028d\u0411\u1f73\u0213 \u020f\u0493 \u0203\u0213\u028d\u0457\u1f73\u01a8", 
+        "original": "preview landing zones by number of armies"
+    }, 
+    "radius": {
+        "message": "\u0213\u0203\u0257\u0457\u0574\u01a8", 
+        "original": "radius"
+    }, 
+    "seed": {
+        "message": "\u01a8\u1f73\u1f73\u0257", 
+        "original": "seed"
+    }, 
+    "start spots": {
+        "message": "\u01a8\u04ad\u0203\u0213\u04ad \u01a8\u2374\u020f\u04ad\u01a8", 
+        "original": "start spots"
+    }, 
+    "symmetry type": {
+        "message": "\u01a8\u0443\u028d\u028d\u1f73\u04ad\u0213\u0443 \u04ad\u0443\u2374\u1f73", 
+        "original": "symmetry type"
+    }, 
+    "temperature": {
+        "message": "\u04ad\u1f73\u028d\u2374\u1f73\u0213\u0203\u04ad\u0574\u0213\u1f73", 
+        "original": "temperature"
+    }, 
+    "terrain": {
+        "message": "\u04ad\u1f73\u0213\u0213\u0203\u0457\u019e", 
+        "original": "terrain"
+    }, 
+    "terrain and gameplay": {
+        "message": "\u04ad\u1f73\u0213\u0213\u0203\u0457\u019e \u0203\u019e\u0257 \u0260\u0203\u028d\u1f73\u2374\u230a\u0203\u0443", 
+        "original": "terrain and gameplay"
+    }, 
+    "thrusters required for attack": {
+        "message": "\u04ad\u043d\u0213\u0574\u01a8\u04ad\u1f73\u0213\u01a8 \u0213\u1f73\u0533\u0574\u0457\u0213\u1f73\u0257 \u0493\u020f\u0213 \u0203\u04ad\u04ad\u0203\u03f2\u045c", 
+        "original": "thrusters required for attack"
+    }, 
+    "water coverage": {
+        "message": "\u1ff4\u0203\u04ad\u1f73\u0213 \u03f2\u020f\u0477\u1f73\u0213\u0203\u0260\u1f73", 
+        "original": "water coverage"
+    }, 
+    "water depth": {
+        "message": "\u1ff4\u0203\u04ad\u1f73\u0213 \u0257\u1f73\u2374\u04ad\u043d", 
+        "original": "water depth"
+    }
+}

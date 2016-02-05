@@ -1,0 +1,26 @@
+{
+    "CONNECTION TO SERVER FAILED": {
+        "message": "\uc11c\ubc84 \uc5f0\uacb0 \uc2e4\ud328"
+    }, 
+    "CONNECTION TO SERVER LOST": {
+        "message": "\uc11c\ubc84\uc640\uc758 \uc5f0\uacb0 \ub04a\uae40"
+    }, 
+    "FAILED TO JOIN GAME": {
+        "message": "\uac8c\uc784 \ucc38\uac00 \uc2e4\ud328"
+    }, 
+    "FAILED TO START GAME": {
+        "message": "\uac8c\uc784 \uc2dc\uc791 \uc2e4\ud328"
+    }, 
+    "FAILED TO START REPLAY": {
+        "message": "\uac8c\uc784 \ub2e4\uc2dc \ubcf4\uae30 \uc2e4\ud328"
+    }, 
+    "LOGIN ACCEPTED": {
+        "message": "\ub85c\uadf8\uc778 \ub428"
+    }, 
+    "LOGIN TO SERVER REJECTED": {
+        "message": "\uc11c\ubc84 \ub85c\uadf8\uc778\uc744 \uac70\ubd80\ub2f9\ud568"
+    }, 
+    "Returning to Main Menu": {
+        "message": "\uba54\uc778 \uba54\ub274\ub85c \ub3cc\uc544\uac00\ub294 \uc911"
+    }
+}

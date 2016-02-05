@@ -1,0 +1,548 @@
+{
+    "ARKYD": {
+        "message": "ARKYD"
+    }, 
+    "Advanced Air Factory": {
+        "message": "\u9ad8\u7ea7\u7a7a\u519b\u5de5\u5382"
+    }, 
+    "Advanced Bot Factory": {
+        "message": "\u9ad8\u7ea7\u673a\u5668\u4eba\u5de5\u5382"
+    }, 
+    "Advanced Combat Fabrication Bot": {
+        "message": "\u9ad8\u7ea7\u524d\u7ebf\u5de5\u7a0b\u673a\u5668\u4eba"
+    }, 
+    "Advanced Energy Plant": {
+        "message": "\u9ad8\u7ea7\u80fd\u91cf\u53d1\u751f\u5668"
+    }, 
+    "Advanced Fab Aircraft": {
+        "message": "\u9ad8\u7ea7\u5de5\u7a0b\u98de\u884c\u5668"
+    }, 
+    "Advanced Fabrication Bot": {
+        "message": "\u9ad8\u7ea7\u5de5\u7a0b\u673a\u5668\u4eba"
+    }, 
+    "Advanced Fabrication Ship": {
+        "message": "\u9ad8\u7ea7\u5de5\u7a0b\u8247"
+    }, 
+    "Advanced Fabrication Vehicle": {
+        "message": "\u9ad8\u7ea7\u5de5\u7a0b\u8f66"
+    }, 
+    "Advanced Laser Defense Tower": {
+        "message": "\u9ad8\u7ea7\u6fc0\u5149\u9632\u5fa1\u5854"
+    }, 
+    "Advanced Metal Extractor": {
+        "message": "\u9ad8\u7ea7\u91d1\u5c5e\u63d0\u53d6\u5668"
+    }, 
+    "Advanced Naval Factory": {
+        "message": "\u9ad8\u7ea7\u6d77\u519b\u5de5\u5382"
+    }, 
+    "Advanced Radar": {
+        "message": "\u9ad8\u7ea7\u96f7\u8fbe\u9635\u5217"
+    }, 
+    "Advanced Radar Satellite": {
+        "message": "\u9ad8\u7ea7\u96f7\u8fbe\u9635\u5217\u536b\u661f"
+    }, 
+    "Advanced Sonar": {
+        "message": "\u9ad8\u7ea7\u58f0\u7eb3"
+    }, 
+    "Advanced Tank: Anti-land and anti-ship guns": {
+        "message": "\u9ad8\u7ea7\u5766\u514b - \u88c5\u5907\u5bf9\u8230\u5bf9\u5730\u7528\u706b\u70ae"
+    }, 
+    "Advanced Torpedo Launcher": {
+        "message": "\u9ad8\u7ea7\u9c7c\u96f7\u53d1\u5c04\u5668"
+    }, 
+    "Advanced Vehicle Factory": {
+        "message": "\u9ad8\u7ea7\u8f66\u8f86\u5de5\u5382"
+    }, 
+    "Advanced artillery- Equipped with long range anti-land, and anti-ship gun.": {
+        "message": "\u9ad8\u7ea7\u70ae\u51fb\u8bbe\u65bd - \u88c5\u5907\u957f\u8ddd\u79bb\u5bf9\u5730\u5bf9\u8230\u706b\u70ae"
+    }, 
+    "Advanced fabricator combatant- Wired to repair units and build battlefield structures. Can only build units for which it has a blueprint.": {
+        "message": "\u9ad8\u7ea7\u524d\u7ebf\u5de5\u7a0b\u5355\u4f4d - \u7ef4\u4fee\u5355\u4f4d\u53ca\u5efa\u9020\u524d\u7ebf\u5efa\u7b51. \u53ea\u80fd\u5efa\u9020\u5176\u62e5\u6709\u5bf9\u5e94\u84dd\u56fe\u7684\u5efa\u7b51."
+    }, 
+    "Advanced fabricator- Builds orbital satellites and ships.": {
+        "message": "\u9ad8\u7ea7\u5de5\u7a0b\u5355\u4f4d - \u5efa\u9020\u8f68\u9053\u5355\u4f4d\u4e0e\u8bbe\u65bd"
+    }, 
+    "Advanced fabricator- Wired to build naval structures.": {
+        "message": "\u9ad8\u7ea7\u5de5\u7a0b\u5355\u4f4d - \u5efa\u9020\u6d77\u519b\u8bbe\u65bd"
+    }, 
+    "Advanced fabricator- Wired to build structures.": {
+        "message": "\u9ad8\u7ea7\u5de5\u7a0b\u5355\u4f4d - \u5efa\u9020\u8bbe\u65bd"
+    }, 
+    "Advanced manufacturing- Builds air units.": {
+        "message": "\u9ad8\u7ea7\u5de5\u5382 - \u751f\u4ea7\u7a7a\u519b\u5355\u4f4d"
+    }, 
+    "Advanced manufacturing- Builds bots.": {
+        "message": "\u9ad8\u7ea7\u5de5\u5382 - \u751f\u4ea7\u9646\u519b\u673a\u5668\u4eba\u5355\u4f4d"
+    }, 
+    "Advanced manufacturing- Builds land vehicles.": {
+        "message": "\u9ad8\u7ea7\u8f66\u8f86\u5de5\u5382 - \u751f\u4ea7\u9646\u519b\u8f66\u8f86\u5355\u4f4d"
+    }, 
+    "Advanced manufacturing- Builds naval units.": {
+        "message": "\u9ad8\u7ea7\u5de5\u5382 - \u751f\u4ea7\u6d77\u519b\u5355\u4f4d"
+    }, 
+    "Advanced manufacturing- Builds orbital satellites.": {
+        "message": "\u9ad8\u7ea7\u5de5\u5382 - \u751f\u4ea7\u8f68\u9053\u5355\u4f4d"
+    }, 
+    "Advanced manufacturing- Produces energy.": {
+        "message": "\u9ad8\u7ea7\u80fd\u91cf\u53d1\u751f\u5668 - \u8f93\u51fa\u80fd\u91cf"
+    }, 
+    "Advanced manufacturing- Produces metal, can only be placed on metal deposits.": {
+        "message": "\u9ad8\u7ea7\u91d1\u5c5e\u8403\u53d6\u5668 - \u751f\u4ea7\u91d1\u5c5e\u8d44\u6e90, \u53ea\u53ef\u5efa\u7acb\u5728\u91d1\u5c5e\u77ff\u4e0a"
+    }, 
+    "Advanced radar satellite- Detects a vast area for enemy land, sea, and air units.": {
+        "message": "\u9ad8\u7ea7\u96f7\u8fbe\u9635\u5217\u536b\u661f - \u53ef\u63d0\u4f9b\u8d85\u9ad8\u7684\u89c6\u91ce\u8303\u56f4"
+    }, 
+    "Advanced radar- Detects nearby enemy land, sea, and air units.": {
+        "message": "\u9ad8\u7ea7\u96f7\u8fbe - \u63a2\u6d4b\u9644\u8fd1\u654c\u5bf9\u5355\u4f4d"
+    }, 
+    "Advanced sonar- Detects underwater units.": {
+        "message": "\u9ad8\u7ea7\u58f0\u7eb3 - \u6df1\u6d77\u5355\u4f4d\u63a2\u6d4b\u8bbe\u65bd"
+    }, 
+    "Advanced turret- Equipped with anti-air turret.": {
+        "message": "\u9ad8\u7ea7\u9632\u7a7a\u70ae\u53f0 - \u88c5\u5907\u9ad8\u7ea7\u6563\u5c04\u9632\u7a7a\u70ae"
+    }, 
+    "Advanced turret- Equipped with direct fire anti-land, and anti-ship defenses.": {
+        "message": "\u9ad8\u7ea7\u70ae\u53f0 - \u88c5\u5907\u5bf9\u5730\u5bf9\u8230\u76f4\u5c04\u706b\u70ae\u7684\u9632\u5fa1\u8bbe\u65bd"
+    }, 
+    "Air Factory": {
+        "message": "\u7a7a\u519b\u5de5\u5382"
+    }, 
+    "Air Transport- Load a land unit for rapid long distance travel.": {
+        "message": "\u8fd0\u8f93\u673a - \u5feb\u901f\u8fd0\u8f93\u5355\u4e2a\u5355\u4f4d\u5230\u8fdc\u8ddd\u79bb\u76ee\u7684\u5730"
+    }, 
+    "All Terrain Bot: Can crawl almost anywhere.": {
+        "message": "\u5168\u5730\u5f62\u673a\u5668\u4eba\uff1a\u53ef\u4ee5\u5728\u51e0\u4e4e\u4efb\u4f55\u5730\u5f62\u4e0a\u79fb\u52a8"
+    }, 
+    "Analysis: Controls things. Big things.": {
+        "message": "\u5206\u6790\u7ed3\u679c\u663e\u793a: \u50ac\u5316\u5242\u53ef\u7528\u6765\u63a7\u5236\u67d0\u79cd\u89c4\u6a21\u6bd4\u4efb\u4f55\u5df2\u77e5\u4eba\u9020\u5efa\u7b51\u66f4\u4e3a\u5e9e\u5927\u7684\u7ed3\u6784."
+    }, 
+    "Anchor": {
+        "message": "\u89c6\u89d2\u4f4d\u7f6e"
+    }, 
+    "Ant": {
+        "message": "\u8682\u8681"
+    }, 
+    "Anti-Nuke Launcher": {
+        "message": "\u6838\u5bfc\u5f39\u6392\u9664\u5668"
+    }, 
+    "Anti-nuke - Intercepts incoming nuclear missiles.": {
+        "message": "\u62e6\u622a\u5bfc\u5f39 - \u62e6\u622a\u6765\u88ad\u7684\u6838\u5bfc\u5f39"
+    }, 
+    "Anti-nuke launcher- Equipped with advanced anti-nuclear missile weapon.": {
+        "message": "\u6838\u5bfc\u5f39\u6392\u9664\u5668 - \u88c5\u5907\u9ad8\u7ea7\u62e6\u622a\u5bfc\u5f39, \u7528\u4ee5\u62e6\u622a\u6765\u88ad\u7684\u6838\u5bfc\u5f39"
+    }, 
+    "Artillery ship- Long range advanced guided missiles.": {
+        "message": "\u70ae\u8230 - \u53d1\u5c04\u8fdc\u7a0b\u9ad8\u7ea7\u5de1\u822a\u5bfc\u5f39"
+    }, 
+    "Assault bot- Equipped with advanced anti-land and anti-ship lasers.": {
+        "message": "\u7a81\u51fb\u673a\u5668\u4eba - \u88c5\u5907\u9ad8\u7ea7\u5bf9\u5730\u5bf9\u8230\u6fc0\u5149\u70ae"
+    }, 
+    "Assault bot- Equipped with basic anti-land and anti-ship lasers.": {
+        "message": "\u7a81\u51fb\u673a\u5668\u4eba - \u88c5\u5907\u57fa\u7840\u5bf9\u5730\u5bf9\u8230\u6fc0\u5149\u70ae"
+    }, 
+    "Assault: Anti-land and anti-ship lasers": {
+        "message": "\u653b\u51fb\uff1a\u5bf9\u5730\u548c\u53cd\u8230\u6fc0\u5149"
+    }, 
+    "Astraeus": {
+        "message": "\u661f\u795e"
+    }, 
+    "Avenger": {
+        "message": "\u590d\u4ec7\u8005"
+    }, 
+    "Barracuda": {
+        "message": "\u68ad\u9c7c"
+    }, 
+    "Basic artillery- Equipped with medium range anti-land, and anti-ship gun.": {
+        "message": "\u57fa\u7840\u70ae\u51fb\u8bbe\u65bd - \u88c5\u5907\u4e2d\u8ddd\u79bb\u5bf9\u5730\u5bf9\u8230\u706b\u70ae"
+    }, 
+    "Basic defense- No weapon, high health.": {
+        "message": "\u57fa\u7840\u9632\u5fa1 - \u65e0\u6b66\u88c5\uff0c\u9ad8\u751f\u547d\u503c"
+    }, 
+    "Basic fabricator combatant- Wired to build mines and repair units. Can only build units for which it has a blueprint.": {
+        "message": "\u524d\u7ebf\u5de5\u7a0b\u5355\u4f4d - \u7ef4\u4fee\u5355\u4f4d\u53ca\u5efa\u9020\u524d\u7ebf\u5efa\u7b51. \u53ea\u80fd\u5efa\u9020\u5176\u62e5\u6709\u5bf9\u5e94\u84dd\u56fe\u7684\u5efa\u7b51."
+    }, 
+    "Basic fabricator- Wired to build naval structures.": {
+        "message": "\u57fa\u7840\u5de5\u7a0b\u5355\u4f4d - \u5efa\u9020\u6d77\u519b\u8bbe\u65bd"
+    }, 
+    "Basic fabricator- Wired to build structures.": {
+        "message": "\u57fa\u7840\u5de5\u7a0b\u5355\u4f4d - \u5efa\u9020\u8bbe\u65bd"
+    }, 
+    "Basic manufacturing- Builds air units.": {
+        "message": "\u57fa\u7840\u5de5\u5382 - \u751f\u4ea7\u7a7a\u519b\u5355\u4f4d"
+    }, 
+    "Basic manufacturing- Builds and launches satellites and other units.": {
+        "message": "\u57fa\u7840\u5de5\u5382 - \u751f\u4ea7\u4e0e\u53d1\u5c04\u536b\u661f\u53ca\u5176\u4ed6\u8f68\u9053\u5355\u4f4d"
+    }, 
+    "Basic manufacturing- Builds bots.": {
+        "message": "\u57fa\u7840\u5de5\u5382 - \u751f\u4ea7\u9646\u519b\u673a\u5668\u4eba\u5355\u4f4d"
+    }, 
+    "Basic manufacturing- Builds land vehicles.": {
+        "message": "\u57fa\u7840\u5de5\u5382 - \u751f\u4ea7\u9646\u519b\u8f66\u8f86\u5355\u4f4d"
+    }, 
+    "Basic manufacturing- Builds naval units.": {
+        "message": "\u57fa\u7840\u5de5\u7a0b - \u751f\u4ea7\u6d77\u519b\u5355\u4f4d"
+    }, 
+    "Basic manufacturing- Produces energy.": {
+        "message": "\u57fa\u7840\u80fd\u91cf\u53d1\u751f\u5668 - \u8f93\u51fa\u80fd\u91cf"
+    }, 
+    "Basic manufacturing- Produces metal, can only be placed on metal deposits.": {
+        "message": "\u91d1\u5c5e\u91c7\u6398\u5854 - \u751f\u4ea7\u91d1\u5c5e\u8d44\u6e90\uff0c\u53ea\u53ef\u5efa\u7acb\u5728\u91d1\u5c5e\u77ff\u4e0a"
+    }, 
+    "Basic radar satellite- Detects a large area for enemy land, sea, and air units.": {
+        "message": "\u57fa\u7840\u96f7\u8fbe\u536b\u661f - \u53ef\u4ee5\u5927\u8303\u56f4\u5185\u63a2\u6d4b\u654c\u65b9\u5730\u3001\u6d77\u3001\u7a7a\u5355\u4f4d"
+    }, 
+    "Basic radar- Detects nearby enemy land, sea, and air units.": {
+        "message": "\u57fa\u7840\u96f7\u8fbe - \u63a2\u6d4b\u9644\u8fd1\u654c\u5bf9\u5355\u4f4d"
+    }, 
+    "Basic sonar- Detects underwater units.": {
+        "message": "\u57fa\u7840\u58f0\u7eb3 - \u6df1\u6d77\u5355\u4f4d\u63a2\u6d4b\u8bbe\u65bd"
+    }, 
+    "Basic turret- Equipped with anti-air missiles.": {
+        "message": "\u57fa\u7840\u9632\u7a7a\u70ae\u53f0 - \u88c5\u5907\u53cd\u7a7a\u519b\u5355\u4f4d\u5bfc\u5f39"
+    }, 
+    "Basic turret- Equipped with direct fire anti-land, and anti-ship defenses.": {
+        "message": "\u57fa\u7840\u70ae\u53f0 - \u88c5\u5907\u5bf9\u5730\u5bf9\u8230\u76f4\u5c04\u706b\u70ae\u7684\u9632\u5fa1\u8bbe\u65bd"
+    }, 
+    "Battleship- Long range advanced anti-ship, and anti-land guns.": {
+        "message": "\u6218\u5217\u8230 - \u88c5\u5907\u591a\u95e8\u957f\u8ddd\u79bb\u5bf9\u5730\u5bf9\u8230\u706b\u70ae"
+    }, 
+    "Bluehawk": {
+        "message": "\u84dd\u9e70"
+    }, 
+    "Bolo": {
+        "message": "\u5de8\u65a7"
+    }, 
+    "Bomb bot- Equipped with Self Destruction mechanism.": {
+        "message": "\u81ea\u7206\u673a\u5668\u4eba - \u6ee1\u8f7d\u70b8\u836f\u7684\u5c0f\u578b\u673a\u5668\u4eba"
+    }, 
+    "Bomber- Equipped with advanced anti-land and anti-naval tactical missiles.": {
+        "message": "\u8f70\u70b8\u673a - \u88c5\u5907\u9ad8\u7ea7\u5bf9\u5730\u5bf9\u6d77\u6218\u672f\u5bfc\u5f39."
+    }, 
+    "Bomber- Equipped with basic anti-land and anti-naval bombs.": {
+        "message": "\u8f70\u70b8\u673a - \u88c5\u5907\u57fa\u672c\u5bf9\u5730\u5bf9\u6d77\u70b8\u5f39."
+    }, 
+    "Boom": {
+        "message": "\u70b8\u5f39\u4eba"
+    }, 
+    "Bot Factory": {
+        "message": "\u673a\u5668\u4eba\u5de5\u5382"
+    }, 
+    "Bumblebee": {
+        "message": "\u5927\u9ec4\u8702"
+    }, 
+    "Catalyst": {
+        "message": "\u50ac\u5316\u5242"
+    }, 
+    "Catapult": {
+        "message": "\u5f39\u5f13"
+    }, 
+    "Combat Fabrication Bot": {
+        "message": "\u524d\u7ebf\u5de5\u7a0b\u673a\u5668\u4eba"
+    }, 
+    "Combat bot- Equipped with basic anti-air missiles.": {
+        "message": "\u6218\u6597\u673a\u5668\u4eba - \u88c5\u5907\u57fa\u7840\u5bf9\u7a7a\u5bfc\u5f39"
+    }, 
+    "Combat vehicle- Equipped with basic anti-air missiles.": {
+        "message": "\u673a\u52a8\u9632\u7a7a\u70ae\u53f0 - \u88c5\u5907\u57fa\u7840\u5bf9\u7a7a\u5bfc\u5f39"
+    }, 
+    "Defense satellite- Heavy orbital offensive and defensive platform with basic laser.": {
+        "message": "\u9632\u5fa1\u536b\u661f - \u88c5\u5907\u57fa\u7840\u6fc0\u5149\u6b66\u5668\u7684\u91cd\u578b\u8f68\u9053\u653b\u51fb\u53ca\u9632\u5fa1\u5e73\u53f0"
+    }, 
+    "Delta V Engine- Used to move small to medium celestial bodies.": {
+        "message": "\u661f\u7403\u53d8\u8f68\u5f15\u64ce - \u63a8\u52a8\u5c0f\u578b\u6216\u4e2d\u578b\u7684\u661f\u7403\u4ee5\u5b9e\u73b0\u53d8\u8f68."
+    }, 
+    "Destroyer- Basic anti-land and anti-ship guns.": {
+        "message": "\u9a71\u9010\u8230 - \u88c5\u5907\u57fa\u7840\u5bf9\u5730\u5bf9\u8230\u706b\u70ae"
+    }, 
+    "Dolphin": {
+        "message": "\u6d77\u8c5a"
+    }, 
+    "Dox": {
+        "message": "\u72d7\u72d0"
+    }, 
+    "Energy Plant": {
+        "message": "\u80fd\u91cf\u53d1\u751f\u5668"
+    }, 
+    "Energy Storage": {
+        "message": "\u80fd\u91cf\u4ed3\u5e93"
+    }, 
+    "Fabrication Aircraft": {
+        "message": "\u5de5\u7a0b\u98de\u884c\u5668"
+    }, 
+    "Fabrication Bot": {
+        "message": "\u5de5\u7a0b\u673a\u5668\u4eba"
+    }, 
+    "Fabrication Ship": {
+        "message": "\u5de5\u7a0b\u8247"
+    }, 
+    "Fabrication Sub": {
+        "message": "\u5de5\u7a0b\u6f5c\u8247"
+    }, 
+    "Fabrication Vehicle": {
+        "message": "\u5de5\u7a0b\u8f66"
+    }, 
+    "Fabricator: Builds naval structures": {
+        "message": "\u5de5\u7a0b\u5355\u4f4d - \u5efa\u9020\u6d77\u519b\u8bbe\u65bd"
+    }, 
+    "Fighter- Equipped with advanced anti-air missiles.": {
+        "message": "\u6218\u6597\u673a - \u88c5\u5907\u9ad8\u7ea7\u5bf9\u7a7a\u5bfc\u5f39"
+    }, 
+    "Fighter- Equipped with basic anti-air missiles.": {
+        "message": "\u6218\u6597\u673a - \u88c5\u5907\u57fa\u7840\u5bf9\u7a7a\u5bfc\u5f39"
+    }, 
+    "Firefly": {
+        "message": "\u8424\u706b\u866b"
+    }, 
+    "Flak Cannon": {
+        "message": "\u9ad8\u5c04\u70ae"
+    }, 
+    "Flame tank- Short ranged, heavy armored vehicle.": {
+        "message": "\u55b7\u706b\u5766\u514b - \u77ed\u5c04\u7a0b\u91cd\u88c5\u7532\u7684\u9646\u519b\u5355\u4f4d"
+    }, 
+    "Flux": {
+        "message": "\u7194\u5242"
+    }, 
+    "Frigate- Basic anti-air missiles and anti-ship guns.": {
+        "message": "\u62a4\u536b\u8230 - \u88c5\u5907\u5bf9\u7a7a\u5bfc\u5f39\u4e0e\u5bf9\u8230\u706b\u70ae"
+    }, 
+    "Galata Turret": {
+        "message": "\u52a0\u62c9\u5854\u70ae\u53f0"
+    }, 
+    "Gas mining and metal creation satellite. Only works above gas giant planets.": {
+        "message": "\u91c7\u96c6\u74e6\u65af\u4e0e\u5408\u6210\u91d1\u5c5e, \u53ea\u53ef\u5728\u6c14\u6001\u884c\u661f\u4e0a\u8fd0\u4f5c"
+    }, 
+    "Gil-E": {
+        "message": "Gil-E"
+    }, 
+    "Grenadier": {
+        "message": "\u63b7\u5f39\u5175"
+    }, 
+    "Grenadier- Basic assault weapons dealing area effect damage.": {
+        "message": "\u63b7\u5f39\u5175 - \u88c5\u5907\u8303\u56f4\u6740\u4f24\u706b\u70ae"
+    }, 
+    "Gunboat- Light weaponry, fast speed": {
+        "message": "\u4fa6\u5bdf\u8005 - \u88c5\u5907\u8f7b\u6b66\u5668\u4f46\u673a\u52a8\u6027\u6781\u5f3a"
+    }, 
+    "Gunship- Equipped with strong anti-ground. No anti-air capabilities.": {
+        "message": "\u70ae\u8230 - \u88c5\u5907\u5f3a\u529b\u53cd\u9646\u519b\u5355\u4f4d\u6b66\u5668\u4f46\u65e0\u9632\u7a7a\u80fd\u529b"
+    }, 
+    "Halley": {
+        "message": "\u54c8\u96f7"
+    }, 
+    "Heavy tank- Advanced short range, heavily armored vehicle.": {
+        "message": "\u91cd\u578b\u5766\u514b - \u77ed\u5c04\u7a0b\u91cd\u88c5\u7532\u7684\u9646\u519b\u5355\u4f4d"
+    }, 
+    "Holkins": {
+        "message": "\u970d\u5c14\u91d1"
+    }, 
+    "Hornet": {
+        "message": "\u9ec4\u8702"
+    }, 
+    "Hummingbird": {
+        "message": "\u8702\u9e1f"
+    }, 
+    "Inferno": {
+        "message": "\u70bc\u72f1"
+    }, 
+    "Ion defense platform- Designed to take out orbital units above it.": {
+        "message": "\u79bb\u5b50\u9632\u5fa1\u5e73\u53f0 - \u7528\u6765\u6253\u51fb\u5176\u4e0a\u65b9\u7684\u8f68\u9053\u5355\u4f4d\u3002"
+    }, 
+    "Jellyfish": {
+        "message": "\u6c34\u6bcd"
+    }, 
+    "Jig": {
+        "message": "\u7194\u7089"
+    }, 
+    "Kestrel": {
+        "message": "\u8336\u96bc"
+    }, 
+    "LR-96 -Pacifier- Missile": {
+        "message": "LR-96 -\u8c03\u89e3\u8005- \u6838\u5bfc\u5f39"
+    }, 
+    "Land Mine": {
+        "message": "\u5730\u96f7"
+    }, 
+    "Land mine- Detonates when enemy units are in proximity.": {
+        "message": "\u5730\u96f7 - \u5728\u654c\u519b\u5355\u4f4d\u8fdb\u5165\u8303\u56f4\u5185\u65f6\u81ea\u52a8\u5f15\u7206"
+    }, 
+    "Laser Defense Tower": {
+        "message": "\u6fc0\u5149\u70ae\u5854"
+    }, 
+    "Laser tank- Equipped with advanced anti-land and anti-ship guns.": {
+        "message": "\u6fc0\u5149\u5766\u514b - \u88c5\u5907\u9ad8\u7ea7\u5bf9\u5730\u5bf9\u8230\u6fc0\u5149\u70ae"
+    }, 
+    "Leveler": {
+        "message": "\u77eb\u76f4\u673a"
+    }, 
+    "Leviathan": {
+        "message": "\u5229\u7ef4\u5766"
+    }, 
+    "Light tank- Equipped with basic anti-land and anti-ship guns.": {
+        "message": "\u8f7b\u578b\u5766\u514b - \u88c5\u5907\u57fa\u7840\u5bf9\u5730\u5bf9\u8230\u706b\u70ae"
+    }, 
+    "Manufacturing- Increases maximum energy storage capacity.": {
+        "message": "\u80fd\u6e90\u5b58\u50a8\u8bbe\u65bd - \u63d0\u5347\u6700\u5927\u80fd\u6e90\u50a8\u5b58\u91cf"
+    }, 
+    "Manufacturing- Increases maximum metal storage capacity.": {
+        "message": "\u91d1\u5c5e\u5b58\u50a8\u8bbe\u65bd - \u63d0\u9ad8\u6700\u5927\u91d1\u5c5e\u50a8\u91cf"
+    }, 
+    "Manufacturing- Orbital energy generation.": {
+        "message": "\u592a\u9633\u80fd\u536b\u661f - \u8f68\u9053\u80fd\u91cf\u53d1\u751f\u5668"
+    }, 
+    "Metal Extractor": {
+        "message": "\u91d1\u5c5e\u91c7\u6398\u5854"
+    }, 
+    "Metal Storage": {
+        "message": "\u91d1\u5c5e\u5b58\u50a8\u8bbe\u65bd"
+    }, 
+    "Mortar tank- Equipped with advanced mobile artillery.": {
+        "message": "\u8feb\u51fb\u70ae\u5766\u514b - \u88c5\u5907\u9ad8\u7ea7\u673a\u52a8\u706b\u70ae"
+    }, 
+    "Narwhal": {
+        "message": "\u72ec\u89d2\u9cb8"
+    }, 
+    "Naval Factory": {
+        "message": "\u6d77\u519b\u5de5\u5382"
+    }, 
+    "Nuclear Missile Launcher": {
+        "message": "\u6838\u5bfc\u5f39\u53d1\u5c04\u5668"
+    }, 
+    "Nuclear missile - Long range, large area damage, projectile": {
+        "message": "\u6838\u5bfc\u5f39 - \u957f\u8ddd\u79bb, \u5927\u8303\u56f4\u9ad8\u4f24\u5bb3\u7684\u5236\u5bfc\u6b66\u5668."
+    }, 
+    "Nuclear missile launcher- Equipped with advanced long range, large area damage, nuclear missile.": {
+        "message": "\u6838\u5bfc\u5f39\u53d1\u5c04\u5668 - \u751f\u4ea7\u5e76\u53d1\u5c04\u9ad8\u7ea7\u957f\u8ddd\u79bb\u5927\u8303\u56f4\u6740\u4f24\u7684\u6838\u5bfc\u5f39"
+    }, 
+    "Orbital Fabrication Bot": {
+        "message": "\u8f68\u9053\u5de5\u7a0b\u536b\u661f"
+    }, 
+    "Orbital Factory": {
+        "message": "\u8f68\u9053\u5de5\u5382"
+    }, 
+    "Orbital Launcher": {
+        "message": "\u8f68\u9053\u53d1\u5c04\u53f0"
+    }, 
+    "Orbital and Deepspace Radar": {
+        "message": "\u7a7a\u95f4\u63a2\u6d4b\u96f7\u8fbe"
+    }, 
+    "Orbital and deepspace radar- Orbital and Celestial radar telemetry.": {
+        "message": "\u8f68\u9053\u548c\u6df1\u7a7a\u96f7\u8fbe\u9635\u5217 - \u5bf9\u8f68\u9053\u53ca\u5929\u4f53\u8fdb\u884c\u9065\u611f\u52d8\u6d4b"
+    }, 
+    "Orbital fighter- Fast moving orbital fighter for offense and defense.": {
+        "message": "\u8f68\u9053\u6218\u6597\u673a - \u7528\u6765\u593a\u53d6\u8f68\u9053\u5236\u7a7a\u6743\u7684\u5feb\u901f\u8f68\u9053\u6218\u6597\u5355\u4f4d"
+    }, 
+    "Orbital lander- Load it up, get units to other planets.": {
+        "message": "\u8f68\u9053\u767b\u9646\u8230 - \u53ef\u5728\u4e0d\u540c\u884c\u661f\u4e4b\u95f4\u8fd0\u9001\u5355\u4f4d"
+    }, 
+    "Orbital laser platform- Rains death from above.": {
+        "message": "\u8f68\u9053\u6fc0\u5149\u5e73\u53f0 - \u6b7b\u795e\u4ece\u5929\u800c\u964d"
+    }, 
+    "Orca": {
+        "message": "\u864e\u9cb8"
+    }, 
+    "Pelican": {
+        "message": "\u9e48\u9e55"
+    }, 
+    "Pelter": {
+        "message": "\u96f7\u96e8"
+    }, 
+    "Peregrine": {
+        "message": "\u6e38\u96bc"
+    }, 
+    "Radar": {
+        "message": "\u96f7\u8fbe"
+    }, 
+    "Recluse": {
+        "message": "\u9041\u4e16\u8005"
+    }, 
+    "SR-24 -Shield- Missile Defense": {
+        "message": "SR-24 -\u62a4\u76fe- \u62e6\u622a\u5bfc\u5f39"
+    }, 
+    "SXX-1304 Laser Platform": {
+        "message": "SXX-1304 \u6fc0\u5149\u70ae\u5e73\u53f0"
+    }, 
+    "Scout- Weak, fast speed.": {
+        "message": "\u4fa6\u5bdf\u8005 - \u88c5\u7532\u6781\u5176\u8106\u5f31\u4f46\u673a\u52a8\u6027\u6781\u5f3a"
+    }, 
+    "Sea mine- Detonates when ships are in proximity.": {
+        "message": "\u6c34\u96f7 - \u5728\u654c\u519b\u6d77\u519b\u5355\u4f4d\u8fdb\u5165\u8303\u56f4\u5185\u65f6\u81ea\u52a8\u5f15\u7206"
+    }, 
+    "Sheller": {
+        "message": "\u5265\u58f3\u8005"
+    }, 
+    "Single Laser Defense Tower": {
+        "message": "\u5355\u95e8\u6fc0\u5149\u9632\u5fa1\u5854"
+    }, 
+    "Skitter": {
+        "message": "\u8df3\u8dc3\u8005"
+    }, 
+    "Slammer": {
+        "message": "\u72f1\u8b66"
+    }, 
+    "Sniper- Long range advanced anti-land, and anti-ship bot.": {
+        "message": "\u72d9\u51fb\u8005 - \u88c5\u5907\u9ad8\u7ea7\u957f\u8ddd\u79bb\u5bf9\u5730\u5bf9\u8230\u6b66\u5668"
+    }, 
+    "Solar Array": {
+        "message": "\u592a\u9633\u80fd\u9635\u5217"
+    }, 
+    "Sonar": {
+        "message": "\u58f0\u5450"
+    }, 
+    "Spinner": {
+        "message": "\u8709\u8763"
+    }, 
+    "Stinger": {
+        "message": "\u9488\u523a"
+    }, 
+    "Stingray": {
+        "message": "\u9ec4\u8c82\u9c7c"
+    }, 
+    "Sub Class: Anti-sub and anti-ship torpedoes, long range ballistic nuclear missile": {
+        "message": "\u6d77\u5e95\u5355\u4f4d: \u88c5\u5907\u53cd\u6f5c\u5bf9\u8230\u9c7c\u96f7\u4e0e\u957f\u8ddd\u79bb\u5f39\u9053\u6838\u5bfc\u5f39"
+    }, 
+    "Submarine Class: Anti-sub and anti-ship torpedoes": {
+        "message": "\u6d77\u5e95\u5355\u4f4d\uff1a\u53cd\u6d77\u519b\u5355\u4f4d\u9c7c\u96f7"
+    }, 
+    "Tactical missile bot- Medium range advanced artillery bot.": {
+        "message": "\u6218\u672f\u5bfc\u5f39\u673a\u5668\u4eba- \u4e2d\u8ddd\u79bb\u9ad8\u7ea7\u70ae\u5175\u5355\u4f4d"
+    }, 
+    "Tactical missile launcher- Equipped with advanced long range anti-land missile launcher.": {
+        "message": "\u6218\u672f\u5bfc\u5f39\u53d1\u5c04\u5668 - \u53d1\u5c04\u957f\u8ddd\u79bb\u5bf9\u5730\u6218\u672f\u5bfc\u5f39"
+    }, 
+    "Tank: Anti-land and anti-ship guns": {
+        "message": "\u5766\u514b: \u88c5\u5907\u5bf9\u5730\u4e0e\u5bf9\u8230\u8247\u706b\u70ae"
+    }, 
+    "Teleporter": {
+        "message": "\u661f\u95e8"
+    }, 
+    "Teleporter: Teleports units from one to another.": {
+        "message": "\u661f\u95e8 - \u5728\u661f\u95e8\u95f4\u4f20\u9001\u5355\u4f4d"
+    }, 
+    "Torpedo Launcher": {
+        "message": "\u9c7c\u96f7\u53d1\u5c04\u5668"
+    }, 
+    "Torpedo Launcher- Advanced anti-ship defense.": {
+        "message": "\u9c7c\u96f7\u53d1\u5c04\u5668 - \u9ad8\u7ea7\u53cd\u6d77\u519b\u5355\u4f4d\u8bbe\u65bd"
+    }, 
+    "Torpedo Launcher- Basic anti-ship defense.": {
+        "message": "\u9c7c\u96f7\u53d1\u5c04\u5668 - \u57fa\u7840\u53cd\u6d77\u519b\u5355\u4f4d\u8bbe\u65bd"
+    }, 
+    "Umbrella": {
+        "message": "\u4fdd\u62a4\u4f1e"
+    }, 
+    "Unit Cannon": {
+        "message": "\u5355\u4f4d\u706b\u70ae"
+    }, 
+    "Unit Cannon: Long range unit dispersal": {
+        "message": "\u5355\u4f4d\u706b\u70ae: \u957f\u8ddd\u79bb\u5355\u4f4d\u6295\u653e\u5efa\u7b51"
+    }, 
+    "Vanguard": {
+        "message": "\u5148\u950b"
+    }, 
+    "Vehicle Factory": {
+        "message": "\u8f66\u8f86\u5de5\u5382"
+    }, 
+    "Wall": {
+        "message": "\u56f4\u5899"
+    }
+}

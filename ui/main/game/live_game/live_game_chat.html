@@ -1,0 +1,65 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <meta locns="live_game" />
+        <noloc><title>Live Game: Chat</title></noloc>
+        <link href="bundle://boot/boot.css" rel="stylesheet" type="text/css" />
+        <link href="live_game_chat.css" rel="stylesheet" type="text/css" />
+        <script src="bundle://boot/boot.js" type="text/javascript"></script>
+
+        <script src="live_game_chat.js" type="text/javascript"></script>
+    </head>
+    <body class="body_panel">
+        <body-dock>
+            <div class="div_chat_feed" data-bind="foreach: visibleChat, visible: !model.chatSelected()">
+
+                <!-- ko if: $data.isServer() -->
+                 <div class='server_message'>
+                    <span class="chat_message_body" data-bind="text: message"></span>
+                </div>
+                <!-- /ko -->
+
+                <!-- ko ifnot: $data.isServer() -->
+                <div class='chat_message' data-bind="visible: !(model.squelchGlobalChat() && $data.isGlobal())">
+                    <span class='chat_message_player_name' data-bind="visible: player_name, text: player_name, css: { team_chat_message_player_name: isTeam }"></span>:
+                    <span class="chat_message_body" data-bind="text: message, css: { team_chat_message_body: isTeam }"></span>
+                </div>
+                <!-- /ko -->
+
+            </div>
+            <div data-bind="visible: chatSelected" class="div_chat_log">
+                <div class="div_chat_log_feed" data-bind="foreach: chatLog">
+
+                    <!-- ko if: $data.isServer() -->
+                     <div class='server_message'>
+                        <span class="chat_message_body" data-bind="text: message"></span>
+                    </div>
+                    <!-- /ko -->
+
+                    <!-- ko ifnot: $data.isServer() -->
+                    <div class='chat_message' data-bind="visible: !(model.squelchGlobalChat() && $data.isGlobal())">
+                        <span class='chat_message_player_name' data-bind="visible: player_name, text: player_name, css: { team_chat_message_player_name: isTeam }"></span>:
+                        <span class="chat_message_body" data-bind="text: message, css: { team_chat_message_body: isTeam }"></span>
+                    </div>
+                    <!-- /ko -->
+
+                </div>
+                <table class="chat_input">
+                    <tbody>
+                        <tr>
+                            <td class="chat_input_tag">
+                                <div data-bind="text: chatType, visible: chatSelected, css: { team_chat_message_player_name: teamChat }"></div>
+                            </td>
+                            <td>
+                                <form class="chat_input_form" data-bind="submit: maybeSendChat, visible: chatSelected">
+                                    <input type="text" value="" class="input_chat_text" data-bind="hasfocus: chatSelected, style: { color: teamChat() ? '#FAE093' : 'white' }" />
+                                </form>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </body-dock>
+    </body>
+</html>

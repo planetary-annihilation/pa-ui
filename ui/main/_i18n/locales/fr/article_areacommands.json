@@ -1,0 +1,20 @@
+{
+    "Area Commands": {
+        "message": "Commandes de zone"
+    }, 
+    "PA Guide: Area Commands": {
+        "message": "Guide de PA : commandes de zone"
+    }, 
+    "Select units, click [style=text_callout]Attack button[/style].": {
+        "message": "Sélectionnez les unités et cliquez sur le [style=text_callout]bouton Attaque[/style]."
+    }, 
+    "Select units, click [style=text_callout]Patrol button[/style].": {
+        "message": "Sélectionnez les unités et cliquez sur le [style=text_callout]bouton Patrouille[/style]."
+    }, 
+    "[style=text_callout]Left Click and drag[/style] an area to attack": {
+        "message": "[style=text_callout]Faites un clic gauche et faites glisser[/style] sur une zone pour attaquer."
+    }, 
+    "[style=text_callout]Left Click and drag[/style] an area to patrol": {
+        "message": "[style=text_callout]Faites un clic gauche et faites glisser[/style] sur une zone pour patrouiller."
+    }
+}

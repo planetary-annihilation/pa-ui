@@ -1,0 +1,8 @@
+{
+    "CONNECTION TO SERVER LOST": {
+        "message": "FORBINDELSEN TIL SERVEREN ER TABT"
+    }, 
+    "Returning to Main Menu": {
+        "message": "G\u00e5r tilbage til Hovedmenu"
+    }
+}

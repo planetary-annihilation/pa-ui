@@ -1,0 +1,107 @@
+{
+    "AI Battle": {
+        "message": "Bitwa z SI"
+    }, 
+    "Any": {
+        "message": "Dowolna"
+    }, 
+    "Can Join": {
+        "message": "Mo\u017cna do\u0142\u0105czy\u0107"
+    }, 
+    "Can Play": {
+        "message": "Mo\u017ce gra\u0107"
+    }, 
+    "Can Spectate": {
+        "message": "Mo\u017ce obserwowa\u0107"
+    }, 
+    "Casual": {
+        "message": "Zwyk\u0142a"
+    }, 
+    "Competitive": {
+        "message": "Zawody"
+    }, 
+    "Create Game": {
+        "message": "Stw\u00f3rz gr\u0119"
+    }, 
+    "Create Local Game": {
+        "message": "Stw\u00f3rz gr\u0119 lokaln\u0105"
+    }, 
+    "Free For All": {
+        "message": "Wszyscy na wszystkich"
+    }, 
+    "Game": {
+        "message": "Gra"
+    }, 
+    "Game State": {
+        "message": "Status gry"
+    }, 
+    "In Lobby": {
+        "message": "W poczekalni"
+    }, 
+    "In Progress": {
+        "message": "W trakcie"
+    }, 
+    "Join Game": {
+        "message": "Do\u0142\u0105cz do gry"
+    }, 
+    "Locked Game": {
+        "message": "Gra zamkni\u0119ta"
+    }, 
+    "Mod": {
+        "message": "Mod"
+    }, 
+    "Mode": {
+        "message": "Tryb"
+    }, 
+    "Mods": {
+        "message": "Mody"
+    }, 
+    "Multiplayer": {
+        "message": "Wielu graczy"
+    }, 
+    "No max": {
+        "message": "Brak maks."
+    }, 
+    "No min": {
+        "message": "Brak min."
+    }, 
+    "Number of Planets": {
+        "message": "Liczba planet"
+    }, 
+    "Number of Players": {
+        "message": "Liczba graczy"
+    }, 
+    "Password": {
+        "message": "Has\u0142o"
+    }, 
+    "Planets": {
+        "message": "Planety"
+    }, 
+    "Players": {
+        "message": "Gracze"
+    }, 
+    "Region": {
+        "message": "Region"
+    }, 
+    "Slots": {
+        "message": "Miejsca"
+    }, 
+    "Spectate": {
+        "message": "Obserwuj"
+    }, 
+    "Spectators": {
+        "message": "Obserwatorzy"
+    }, 
+    "Status": {
+        "message": "Status"
+    }, 
+    "Tag": {
+        "message": "Tag"
+    }, 
+    "Team Armies": {
+        "message": "Dru\u017cyny"
+    }, 
+    "Testing": {
+        "message": "Testowanie"
+    }
+}

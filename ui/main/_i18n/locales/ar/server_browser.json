@@ -1,0 +1,104 @@
+{
+    "AI Battle": {
+        "message": "\u0645\u0639\u0631\u0643\u0629 \u0627\u0644\u0630\u0643\u0627\u0621 \u0627\u0644\u0625\u0635\u0637\u0646\u0627\u0639\u064a"
+    }, 
+    "Any": {
+        "message": "\u0623\u064a"
+    }, 
+    "Can Join": {
+        "message": "\u064a\u0645\u0643\u0646 \u0627\u0644\u0625\u0646\u0636\u0645\u0627\u0645"
+    }, 
+    "Can Play": {
+        "message": "\u064a\u0645\u0643\u0646 \u0627\u0644\u0644\u0639\u0628"
+    }, 
+    "Can Spectate": {
+        "message": "\u064a\u0645\u0643\u0646 \u0627\u0644\u0645\u0634\u0627\u0647\u062f\u0629"
+    }, 
+    "Casual": {
+        "message": "\u0639\u0627\u0628\u0631"
+    }, 
+    "Competitive": {
+        "message": "\u0645\u0646\u0627\u0641\u0633\u0629"
+    }, 
+    "Create Game": {
+        "message": "\u0627\u0628\u062f\u0623 \u0644\u0639\u0628\u0629 \u062c\u062f\u064a\u062f\u0629"
+    }, 
+    "Free For All": {
+        "message": "\u0645\u062a\u0648\u0641\u0631 \u0644\u0644\u062c\u0645\u064a\u0639"
+    }, 
+    "Game": {
+        "message": "\u0644\u0639\u0628\u0629"
+    }, 
+    "Game State": {
+        "message": "\u062d\u0627\u0644\u0629 \u0627\u0644\u0644\u0639\u0628\u0629"
+    }, 
+    "In Lobby": {
+        "message": "\u0641\u064a \u0627\u0644\u0631\u062f\u0647\u0629"
+    }, 
+    "In Progress": {
+        "message": "\u0642\u064a\u062f \u0627\u0644\u0625\u0646\u062c\u0627\u0632"
+    }, 
+    "Join Game": {
+        "message": "\u0627\u0644\u0627\u0646\u0636\u0645\u0627\u0645 \u0625\u0644\u0649 \u0644\u0639\u0628\u0629"
+    }, 
+    "Locked Game": {
+        "message": "(\u0644\u0639\u0628\u0629 \u0645\u063a\u0644\u0642\u0629)"
+    }, 
+    "Mod": {
+        "message": "\u062a\u0639\u062f\u064a\u0644"
+    }, 
+    "Mode": {
+        "message": "\u0648\u0636\u0639"
+    }, 
+    "Mods": {
+        "message": "\u062a\u0639\u0627\u062f\u064a\u0644"
+    }, 
+    "Multiplayer": {
+        "message": "\u0645\u062a\u0639\u062f\u062f \u0627\u0644\u0644\u0627\u0639\u0628\u064a\u0646"
+    }, 
+    "No max": {
+        "message": "\u0644\u0627 \u064a\u0648\u062c\u062f \u062d\u062f \u0623\u0642\u0635\u0649"
+    }, 
+    "No min": {
+        "message": "\u0644\u0627 \u062f\u0642\u064a\u0642\u0629"
+    }, 
+    "Number of Planets": {
+        "message": "\u0639\u062f\u062f \u0627\u0644\u0643\u0648\u0627\u0643\u0628"
+    }, 
+    "Number of Players": {
+        "message": "\u0639\u062f\u062f \u0627\u0644\u0627\u0639\u0628\u064a\u0646"
+    }, 
+    "Password": {
+        "message": "\u0643\u0644\u0645\u0629 \u0627\u0644\u0645\u0631\u0648\u0631"
+    }, 
+    "Planets": {
+        "message": "\u0643\u0648\u0627\u0643\u0628"
+    }, 
+    "Players": {
+        "message": "\u0627\u0644\u0627\u0639\u0628\u0648\u0646"
+    }, 
+    "Region": {
+        "message": "\u0645\u0646\u0637\u0642\u0629"
+    }, 
+    "Slots": {
+        "message": "\u0623\u0645\u0627\u0643\u0646 \u0644\u0627\u0639\u0628\u064a\u0646"
+    }, 
+    "Spectate": {
+        "message": "\u0631\u0627\u0642\u0628"
+    }, 
+    "Spectators": {
+        "message": "\u0645\u0631\u0627\u0642\u0628\u0648\u0646"
+    }, 
+    "Status": {
+        "message": "\u0627\u0644\u062d\u0627\u0644\u0629"
+    }, 
+    "Tag": {
+        "message": "\u0627\u0644\u0639\u0644\u0627\u0645\u0629"
+    }, 
+    "Team Armies": {
+        "message": "\u062c\u064a\u0648\u0634 \u0627\u0644\u0641\u0631\u064a\u0642"
+    }, 
+    "Testing": {
+        "message": "\u064a\u062a\u0645 \u0627\u0644\u0625\u062e\u062a\u0628\u0627\u0631"
+    }
+}

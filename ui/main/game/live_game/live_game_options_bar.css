@@ -1,0 +1,108 @@
+.body_panel {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    flex-grow: 0;
+    flex-shrink: 0;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
+.body-dock {
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items:flex-end;
+}
+
+
+/* UTILITY */
+.receiveMouse {
+    pointer-events: all;
+}
+
+.ignoreMouse {
+    pointer-events: none;
+}
+
+/*----- OPTIONS BAR
+-----------------------------------------------------------------*/
+
+.wrapper_ingame_options_bar {
+    height: 30px;
+    width: auto;
+    overflow:hidden;
+}
+
+.div_ingame_options_bar, .div_ingame_info_bar {
+    width: auto;
+    height: 56px;
+    border-image: url(coui://ui/main/shared/img/build_bar/img_build_bar_bground_fill.png) 19 45 19 45 fill;
+    border-width: 19px 45px 19px 45px;
+    white-space: nowrap;
+    text-align: right;
+    margin: -13px -40px -13px 0px;
+    display: flex;
+}
+
+.div_ingame_info_bar {
+    min-width: 300px;
+    right: auto;
+    left: 0px;
+    margin: 0px 0px -15px -40px;
+}
+
+.div_ingame_options_bar_cont {
+    height: 30px;
+    margin: -6px -5px 0px 0px;
+    display: flex;
+}
+
+.btn_ingame_options {
+    height: 26px;
+    margin: 2px -1px 0px 0px;
+    padding: 4px 6px;
+    border: 1px solid #4D4D4D;
+    box-shadow: inset 0px 0px 10px #414141;
+}
+
+.div_pip_toggle_cont {
+    box-shadow:0px 0px 20px #000;
+    border:1px solid rgba(0,179,255,.5);
+    margin:0px 8px 8px 0px
+}
+
+.img_pip {
+    opacity:.8;
+}
+
+.img_pip:hover {
+    opacity:1;
+}
+
+.div_custom_formations_toggle_cont {
+}
+
+.div_time_invoke_cont {
+}
+
+.div_uberbar_toggle_cont {
+}
+
+.div_ingame_timer {
+    height: 30px;
+    width: 110px;
+    color: #00b3ff;
+    text-shadow: 0px 0px 30px #00b3ff;
+    font-family: 'Trebuchet MS Bold';
+    font-size: 18px;
+    background: url(coui://ui/main/game/live_game/img/ingame_options_bar/img_bar_clock.png) left top no-repeat;
+    margin: 0px 0px 0px -4px;
+    padding: 0px 6px 0px 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

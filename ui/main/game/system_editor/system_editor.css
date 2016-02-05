@@ -1,0 +1,799 @@
+﻿.btn_commit {
+    font-size: 1em;
+    font-weight: 700;
+    margin: 10px 20px 0 0;
+    padding: 20px 30px;
+}
+
+.div_body_cont {
+    border-width: 1px 1px 1px 0;
+}
+
+
+.div_header_bar {
+    min-width: 1270px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.header_bar_cont {
+    width: 100%;
+    background: #000;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    box-shadow: inset 0px 0px 10px rgba(255,255,255,.2);
+    border: 1px solid rgba(255,255,255,.1);
+    border-width: 0px 0px 1px 0px;
+}
+
+    .header_bar_cont input[type="button"] {
+    }
+
+.div_header_bar input[type="button"] {
+    font-size: 12px;
+    margin: 8px 8px 8px 0px;
+}
+
+.secondary_bar {
+    min-height: 10px;
+    width: 100%;
+    background: rgba(0,0,0,.6);
+    border: 1px solid rgba(255,255,255,.1);
+    border-width: 0px 0px 1px 0px;
+    box-shadow: 0px 0px 10px rgba(0,0,0,.8);
+}
+
+.sys_editor_title {
+    width: 250px;
+    font-size: 20px;
+    font-family: 'Sansation Bold';
+    text-shadow: 0px 0px 20px #00b3ff;
+    text-transform: uppercase;
+    padding: 0px 0px 0px 8px;
+    display: flex;
+    align-items: center;
+    flex-grow: 1;
+}
+
+.sys_editor_error {
+    width: 100%;
+    font-family: 'Sansation Bold';
+    font-size: 16px;
+    color: #fff;
+    text-align: center;
+    background: linear-gradient(to bottom, #ff3236 0%,#A00000 100%);
+    border: 1px solid #B90000;
+}
+
+.div_planet_list_cont {
+    height: 400px;
+    width: 690px;
+    overflow: auto;
+    border: 1px solid #888;
+    background: #0E0E0E;
+    font-family: DINPRO-LIGHT;
+    padding: 0px 0px 12px 12px;
+}
+
+.div_planet_tile_item {
+    width: 120px;
+    display: inline-block;
+    margin: 12px 12px 0px 0px;
+    line-height: .9em;
+    text-align: center;
+    border: 1px solid transparent;
+}
+
+    .div_planet_tile_item:hover {
+    }
+
+    .div_planet_tile_item image:hover {
+        background: rgba(0,255,255,.8);
+    }
+
+    .div_planet_tile_item:active {
+        background: rgba(0,255,255,.5);
+        border: 1px solid #00ffff;
+    }
+
+.div_planet_tile_thumbnail {
+    display: inherit;
+}
+
+.div_planet_tile_title {
+    word-wrap: break-word;
+    font-size: .8em;
+    text-align: center;
+    text-shadow: 0 2px 2px #000;
+    padding: 0px 10px 4px;
+}
+
+#terrain_controls, #gameplay_controls {
+    min-height: 320px;
+}
+
+.div_settings_control {
+    width: 100%;
+    display: flex;
+}
+
+.div_settings_control.asteroid > div {
+    display: flex;
+    align-items: center;
+    margin: 0 0 12px 0;
+}
+
+    .div_settings_control.subset_header {
+        color: #D4D4D4;
+        display: flex;
+        flex-grow: 1;
+        font-family: 'Sansation Regular TTF';
+        font-size: 13px;
+        margin-bottom: 8px;
+        margin-left: 0px;
+        margin-right: 0px;
+        margin-top: 4px;
+        text-shadow: #000 0px 2px 2px;
+        text-transform: capitalize;
+    }
+
+    .div_settings_control.subset {
+        margin: 0px 0px 8px 0px;
+    }
+
+    .div_settings_control.border {
+        border-top: 1px solid #333;
+        padding-top: 10px;
+    }
+
+
+    .div_settings_control .div_settings_control_input {
+        margin: 4px 0px 0px 0;
+        display: flex;
+        flex-grow: 1;
+    }
+
+        .div_settings_control .div_settings_control_input.subset {
+            width: 173px;
+            flex-grow: 0;
+        }
+
+.div_settings_control_input label,
+.div_settings_control_input label input[type="checkbox"] {
+    font-weight: normal;
+    color: #00b3ff;
+}
+
+    .div_settings_control_input label:hover,
+    .div_settings_control_input label input[type="checkbox"]:hover {
+        font-weight: normal;
+        color: #00ffff;
+    }
+
+    .div_settings_control_input label:active,
+    .div_settings_control_input label input[type="checkbox"]:active {
+        font-weight: normal;
+        color: #fff;
+    }
+
+
+    .div_settings_control_input label input[type="checkbox"] {
+        margin: 0px 2px 0px 0px;
+    }
+
+.section_disabled,
+.section_disabled label  {
+    opacity: .5;
+    color: #666;
+    pointer-events: none;
+}
+
+    .section_disabled input[type="checkbox"] {
+        background:#666;
+}
+
+.slider {
+    display: block;
+}
+
+    .slider.slider-horizontal {
+        height:38px;
+        width: 100%;
+        background:#141414;
+    }
+
+        .slider.slider-horizontal .slider-track {
+            height: 16px;
+            border-radius: 0px;
+            margin-top: -9px;
+            border: 1px solid #666;
+            background: #131313;
+            box-shadow: 0px 0px 40px rgba(20, 122, 161, 0.3);
+        }
+
+            .slider.slider-horizontal .slider-track .slider-handle {
+                background: #FFF;
+                height: 30px;
+                opacity: 1;
+                width: 10px;
+                margin-left: -4px;
+                margin-top: -8px;
+                box-shadow: 0px 0px 40px rgba(20, 122, 161, 0.3);
+            }
+
+        .slider.slider-horizontal .slider-selection {
+            background: #131313;
+        }
+
+.div_slider {
+    width: 100%;
+}
+
+.div_sys_editor_panel {
+    float: right;
+    margin: 0px 0px 0px 0px;
+    border-image: url(coui://ui/main/shared/img/panel/img_menu_panel_secondary.png) 14 22 22 22 fill;
+    border-width: 14px 22px 22px 22px;
+}
+
+.div_sys_editor_collapsed {
+    font-size: .8em;
+    float: right;
+    margin: 40px 0px 0px 0px;
+}
+
+.panel_cont_orbit_editor {
+    font-size: 1.0em;
+}
+
+.div_sys_editor_group {
+    display: block;
+}
+
+    .div_sys_editor_group .account_form_error {
+        position: absolute;
+        right: 0px;
+        font-size: 1.5em;
+        font-weight: bold;
+    }
+
+
+input[type="button"].btn_secondary {
+    margin: 0px 4px 0px 0px;
+    text-transform: uppercase;
+    font-size: 13px;
+    padding: 0 8px;
+    border-width: 0;
+    height: 28px;
+    width: 110px;
+}
+
+.div_planet_selector_cont {
+    width: 100%;
+    border-radius: 4px;
+    border-width: 1px;
+    padding: 10px 20px;
+}
+
+.img_planet_thumb {
+    display: inherit;
+    height: 80px;
+    margin: 8px;
+}
+
+.selected_planet {
+    background: rgba(0,255,255,.5);
+    border: 1px solid #00ffff;
+}
+
+body {
+    background: none;
+}
+
+.div_planet_build_warning {
+    width: 100%;
+    font-size: 16px;
+    line-height: 1.4em;
+    text-shadow: 0px 2px 2px black;
+    background: rgba(0,0,0,.8);
+    box-shadow: 0px 0px 20px #000;
+    border: 1px solid rgba(255,255,255,.1);
+    padding: 10px;
+    position: absolute;
+    top: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: -1;
+}
+
+.input_slider_value {
+    border: 0;
+    background: none;
+    color: #fff;
+    font-size: 1em;
+    margin: -1px 14px 14px 10px;
+    width: 40px;
+}
+
+    .input_slider_value.subset {
+        margin-bottom: 0px;
+    }
+
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+.div_settings_control_lbl {
+    width: 100px;
+    text-transform: capitalize;
+    font-family: 'Sansation Regular TTF';
+    font-size: 1em;
+    color: #d4d4d4;
+    margin: 0px 16px 10px 0px;
+    flex-shrink: 0;
+}
+
+    .div_settings_control_lbl.subset {
+        width: 120px;
+        margin: 0px 0px 0px 18px;
+        padding: 0px 10px 0px 0px;
+    }
+
+    .div_settings_control_lbl.text_input {
+        margin: 8px 16px 0px 0px;
+    }
+
+    .div_settings_control_lbl.twocol {
+        width: 200px;
+    }
+
+
+.div_settings_control_lbl_no_slider {
+    width: 200px;
+    text-transform: uppercase;
+    font-family: 'Sansation Regular TTF';
+    font-size: 1em;
+    color: #fff;
+}
+
+.div_settings_control_form {
+    display: flex;
+    flex-shrink: 0;
+}
+
+.div_settings_control_form > div {
+    min-width: 54px;
+    display: flex;
+    align-items: center;
+
+}
+
+    .div_settings_control_form.asteroid input {
+        margin-bottom: 0;
+    }
+
+.div_body_cont_planet_load {
+    border-width: 1px 0px;
+}
+
+.tbl_planet_selector {
+    width: 100%;
+}
+
+.div_planet_item_detail_cont {
+    height: 100%;
+    padding: 10px;
+    margin: 0px 0px 0px 10px;
+    border: 1px solid #888;
+    background: #0E0E0E;
+}
+
+.div_planet_item_detail_title {
+    margin: 0px 0px 10px 0px;
+}
+
+.div_planet_item_detail_img {
+    text-align: center;
+}
+
+.planet_property_bar {
+    height: 4px;
+    background: rgba(0,255,255,.5);
+    border: 1px solid #00ffff;
+}
+
+.sys_editor_control_group {
+    display: flex;
+    align-items: center;
+    flex-shrink: 0;
+}
+
+    .sys_editor_control_group.saveclose {
+        display: flex;
+        flex-grow: 1;
+        justify-content: flex-end;
+    }
+
+
+.div_planet_details {
+    height: 40px;
+    font-size: 12px;
+}
+
+    .div_planet_details td {
+        height: 10px;
+    }
+
+        .div_planet_details td.lbl_property {
+            text-transform: capitalize;
+            width: 60px;
+        }
+
+        .div_planet_details td.range_bar {
+            width: 100px;
+            padding-top: 2px;
+        }
+
+        .div_planet_details td.range_num {
+            width: 35px;
+            padding: 0px 0px 0px 2px;
+            color: #0ff;
+        }
+
+.div_planet_property_bar {
+    height: 6px;
+    width: 100px;
+    margin: 0px;
+    background: rgba(255,255,255,.1);
+}
+
+.planet_property_bar {
+    height: 4px;
+    width: 50%;
+    background: rgba(0,255,255,.5);
+    border: 1px solid #00ffff;
+}
+
+/*----- BUILD BAR
+-----------------------------------------------------------------*/
+
+.div_bottom_bar {
+    position: absolute;
+    width: 100%;
+    bottom: 35px;
+    z-index: 2;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.bottom-bar {
+    height: 30px;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.5);
+    z-index: 0;
+    border-top: 1px solid rgba(255, 255, 255, 0.15);
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.4) 0%, rgba(0, 0, 0, 0.5) 50%, rgba(0, 0, 0, 0.8) 100%);
+}
+
+.div_build_grp {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.div_build_bar_cont {
+    height: auto;
+    width: 100%;
+    text-align: center;
+    border-width: 0px;
+    border-left: 1px solid rgba(255,255,255,.05);
+    border-top: 1px solid rgba(255,255,255,.05);
+    margin: 0px 0px 0px 0px;
+    overflow: hidden;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.img_build_unit {
+    height: 48px;
+    width: 48px;
+    display: block;
+    margin: 6px auto;
+}
+
+.div_build_bar_hover {
+    width: 100%;
+    position: relative;
+    bottom: auto;
+    margin: 0px 0px -7px 0px;
+    text-align: center;
+    opacity: 1.0;
+    word-wrap: break-word;
+}
+
+.div_build_bar_hover_cont {
+    width: 400px;
+    height: auto;
+    margin: 0px auto 0px;
+    padding: 6px 10px 10px;
+    background-image: -webkit-linear-gradient(bottom, rgba(0,0,0,1) 0%, rgba(0,0,0,.85) 100%);
+    border-radius: 0px;
+    text-shadow: 0px 2px 2px black;
+}
+
+
+.div_planet_properties {
+    display: flex;
+    text-transform: capitalize;
+    margin: 4px 0px 0px 0px;
+}
+
+.planet_property {
+    display: flex;
+}
+
+    .planet_property .label {
+        width: 70px;
+        font-family: 'Sansation Regular TTF';
+        font-size: 1em;
+        font-weight: normal;
+        color: #d4d4d4;
+        padding: 0px;
+        margin: 0px;
+        text-align: left;
+        flex-shrink: 0;
+    }
+
+    .planet_property .bar {
+        flex-shrink: 0;
+        margin: 4px 8px 0px 0px;
+    }
+
+    .planet_property .value {
+        width: 50px;
+        font-family: 'Trebuchet MS';
+        flex-shrink: 0;
+        margin-top: -2px;
+    }
+
+.btn_random {
+    height: 24px;
+    font-size: 12px;
+    padding: 0px 6px 2px;
+    margin: 2px 0 0 0;
+}
+
+.btn_toggle {
+    min-width: 50px;
+    color: #00B3FF;
+    font-family: 'Sansation Regular';
+    text-align: center;
+    text-shadow: 0px 0px 0px;
+    background: #333;
+    border: 1px solid #808080;
+    box-shadow: none;
+    margin: 0px -3px 2px 0px;
+    padding: 2px 20px;
+    display: inline-block;
+    cursor: default;
+    user-select: none;
+    -webkit-user-select: none;
+    -webkit-box-shadow: inset 0 0 8px rgba(255,255,255,.3);
+    -webkit-animation: fadeout;
+    -webkit-transition: .3s ease-out;
+}
+
+    .btn_toggle:hover, .btn_toggle_shared_army:hover {
+        color: #fff;
+        text-shadow: 0px 0px 0px;
+        background: #0b1a1f;
+        border: 1px solid #1e7aa1;
+        box-shadow: inset 0px 0px 10px #1e7aa1;
+        -webkit-animation: none;
+        -webkit-transition: none;
+    }
+
+    .btn_toggle:active, .btn_toggle.live, .btn_toggle_shared_army.on {
+        color: #FFFFFF;
+        text-shadow: 0px 0px 0px;
+        background: #1e7aa1;
+        border: 1px solid #00B3FF;
+        box-shadow: 0px 0px 20px #00B3FF;
+        -webkit-animation: none;
+        -webkit-transition: none;
+    }
+
+.btn_toggle_disabled {
+    background: #333;
+    border: 1px solid #808080;
+    display: inline-block;
+    text-align: center;
+    padding: 2px 30px;
+    margin: 0px -3px 2px 0px;
+    cursor: default;
+    -webkit-user-select: none;
+    user-select: none;
+    -webkit-box-shadow: inset 0 0 8px rgba(255,255,255,.3);
+    pointer-events: none;
+    opacity: .3;
+}
+
+.btn_toggle:disabled {
+    opacity: .3;
+}
+
+.div_adv_edit_mode {
+    margin: 10px 0 0;
+    padding: 8px 0 0;
+}
+
+.div_adv_edit_mode_title {
+    font-family: 'Sansation Bold';
+    font-size: 13px;
+    text-shadow: rgb(0, 179, 255) 0px 0px 20px;
+    text-transform: uppercase;
+    margin: 0px 0px 8px;
+}
+
+.div_adv_edit_mode_ctrls {
+    display: flex;
+}
+
+    .div_adv_edit_mode_ctrls .btn_toggle {
+        flex-grow: 1;
+        padding: 10px 0px;
+    }
+
+        .div_adv_edit_mode_ctrls .btn_toggle .btn_toggle_label {
+            margin: 0px;
+        }
+
+.div_planet_info {
+    color: #999;
+    margin: 12px 0px 0px 0px;
+    border: 1px solid #333;
+    border-width: 1px 0px;
+}
+
+.div_planet_info_title {
+    text-transform: uppercase;
+}
+
+.div_planet_info_row {
+    display: flex;
+    margin: 4px 0px;
+}
+
+.div_planet_info_square {
+    width: 160px;
+    flex-direction: column;
+    border: 1px solid #333;
+    padding: 8px;
+    margin-right: 4px;
+    display: flex;
+}
+
+    .div_planet_info_square > div {
+        margin: 0 0 4px 0;
+    }
+
+    .div_planet_info_square > .title {
+    }
+
+    .div_planet_info_square > .count {
+        color: #999;
+    }
+
+.div_planet_info_col {
+    width: 180px;
+    flex-grow: 1;
+    display: flex;
+    text-transform: capitalize;
+}
+
+.div_planet_info_label {
+    width: 70px;
+    font-size: 13px;
+}
+
+.wrapper_build_bar_csg_hover_detail {
+    height: 30px;
+    width: 548px;
+    margin: 0 0 -5px 0;
+    overflow: hidden;
+}
+
+    .wrapper_build_bar_csg_hover_detail.locked {
+        height: 60px;
+    }
+
+.game_content_status {
+    padding: 12px;
+}
+
+/* BUILD BAR CUSTOMIZATIONS */
+
+.div_build_bar_tab_background {
+    min-width: 680px;
+}
+
+.span_build_bar_tab {
+    width: auto;
+    padding: 0px 20px;
+}
+
+#csg_build_bar .div_build_bar_menu_cont {
+    width: 1211px;
+}
+
+#csg_build_bar .div_build_bar_tab_background {
+    width: 1288px;
+}
+
+#csg_build_bar .div_build_bar_menu_tabs {
+    margin: -10px;
+    display: flex;
+    flex-direction: column;
+    flex-flow: column-reverse;
+}
+
+#csg_build_bar .div_build_bar_sub_tabs {
+    display: flex;
+    justify-content: center;
+}
+
+    #csg_build_bar .div_build_bar_sub_tabs > div {
+        min-width: 100px;
+        border: 1px solid #00b3ff;
+        margin: 8px 0 4px;
+        padding: 6px 20px;
+    }
+
+#csg_build_bar .div_build_bar_page {
+    width: auto;
+    margin: 0;
+}
+
+.div_remove_item {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    border: 1px solid white;
+}
+.div_build_item.asteroid_belt {
+}
+
+.div_active_item {
+    opacity: .3;
+    pointer-events: none;
+    /*background: #1E7AA1;
+    border: 1px solid #00B3FF;
+    box-shadow: inset 0px 0px 20px #00B3FF;*/
+}
+
+.div_keyboard_msg {
+    height: 40px;
+    width: 100%;
+    position: absolute;
+    bottom: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 16px;
+    background: linear-gradient(to bottom, rgba(0, 255, 0, 0.42) 0, rgba(0, 0, 0, 0.2) 100%);
+    border-top: 1px solid rgb(0, 255, 0);
+}
+
+.hotkey_title {
+    text-transform: uppercase;
+    font-weight: bold;
+}

@@ -1,0 +1,29 @@
+{
+    "Allied": {
+        "message": "Allied"
+    }, 
+    "Enemy Contact!": {
+        "message": "Viholliskontakti!"
+    }, 
+    "Ping!": {
+        "message": "Ping!"
+    }, 
+    "destroyed.": {
+        "message": "tuhottu."
+    }, 
+    "launched!": {
+        "message": "laukaistu!"
+    }, 
+    "located.": {
+        "message": "paikallistettu."
+    }, 
+    "lost.": {
+        "message": "lost."
+    }, 
+    "ready.": {
+        "message": "valmis."
+    }, 
+    "under attack.": {
+        "message": "hy\u00f6kk\u00e4yksen kohteena."
+    }
+}

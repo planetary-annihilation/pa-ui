@@ -1,0 +1,44 @@
+{
+    "ANNIHILATION COMPLETE": {
+        "message": "\uc801\uad70 \uc12c\uba78 \uc644\ub8cc"
+    }, 
+    "APM": {
+        "message": "\ubd84\ub2f9 \ud3c9\uade0 \ub9c8\uc6b0\uc2a4\uc758 \ube60\ub974\uae30"
+    }, 
+    "Average": {
+        "message": "\ud3c9\uade0"
+    }, 
+    "Built": {
+        "message": "\uac74\uc124\ub428"
+    }, 
+    "Destroyed": {
+        "message": "\ud30c\uad34\ub428"
+    }, 
+    "Draw": {
+        "message": "\ubb34\uc2b9\ubd80"
+    }, 
+    "Efficiency": {
+        "message": "\ud6a8\uc728"
+    }, 
+    "GW GAME OVER": {
+        "message": "\uac24\ub7ed\ud2f1 \uc6cc\uc5d0\uc11c \ud328\ubc30\ud558\uc5ec \uac8c\uc784\uc774 \ub05d\ub0ac\uc2b5\ub2c8\ub2e4."
+    }, 
+    "The game has ended.": {
+        "message": "\uac8c\uc784\uc774 \uc885\ub8cc\ub418\uc5c8\uc2b5\ub2c8\ub2e4."
+    }, 
+    "Used": {
+        "message": "\uc0ac\uc6a9\ub428"
+    }, 
+    "VICTORY IS YOURS": {
+        "message": "\uc2b9\ub9ac\ud558\uc600\uc2b5\ub2c8\ub2e4"
+    }, 
+    "Winner:": {
+        "message": "\uc2b9\ub9ac\uc790:"
+    }, 
+    "Winners:": {
+        "message": "\uc2b9\uc790 : "
+    }, 
+    "YOU'VE BEEN ANNIHILATED": {
+        "message": "\ub2f9\uc2e0\uc740 \uc804\uba78\ub2f9\ud588\uc2b5\ub2c8\ub2e4."
+    }
+}

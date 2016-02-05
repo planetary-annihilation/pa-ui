@@ -1,0 +1,224 @@
+#worldpopup01 {
+    display: flex;
+    flex-direction: column;
+    justify-content:flex-end;
+}
+
+.div_unit_info_hover_panel {
+    height: 72px;
+    color: #fff;
+    font-size: 13px;
+    border-image: url(img/unit_info_panel/info_hover_panel_bground.png) 90 48 0 10  fill;
+    border-width: 90px 48px 0px 10px;
+    margin: 0px 0px -10px -10px;
+    padding: 0px 0px 0px 0px;
+    flex-shrink: 0;
+}
+
+    .div_unit_info_hover_panel .contents {
+        display: flex;
+        align-items: flex-end;
+        margin: -81px 0px 0px -1px;
+    }
+
+
+.div_unit_visuals {
+    height: 72px;
+    width: 60px;
+    position: relative;
+}
+
+.team_color {
+    height: 100%;
+    width: 15px;
+    position: absolute;
+    border: 1px solid rgba(255,255,255,.35);
+    left: 0px;
+}
+
+
+.div_army_color_fill {
+    height: 100%;
+    width: 100%;
+    background: linear-gradient(to top, rgba(0,0,0,.4) 0%, rgba(0,0,0,.3) 10%, rgba(0,0,0,0) 90%);
+}
+
+
+.unit_thumb {
+    position: absolute;
+    left: 0px;
+    top: 4px;
+}
+
+    .unit_thumb img {
+    }
+
+.div_unit_details {
+    position: relative;
+    margin: 0px 0px 0px 0px;
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+}
+
+.info_panel_line {
+    height: 24px;
+    display: block;
+    padding: 0px 20px 0px 6px;
+    flex-grow: 1;
+    border-left: 1px solid #1d1d1d;
+}
+
+    .info_panel_line .content {
+        width: 100%;
+        padding: 0px 24px 0px 0px;
+        display: flex;
+        flex-grow: 1;
+        position: relative;
+    }
+
+        .info_panel_line .content.title {
+            max-width: 220px;
+            font-family: 'Sansation Regular';
+            font-size: 16px;
+            text-transform: none;
+            text-shadow: 0px 0px 20px rgba(145,251,255,.5);
+            color: #91FBFF;
+            margin: 8px 20px 0px 0px;
+            padding: 0px 0px 0px 0px;
+            text-overflow: ellipsis;
+            white-space: nowrap;
+            overflow: hidden;
+        }
+
+        .info_panel_line .content.health {
+            display: flex;
+            flex-grow: 1;
+            margin: 8px 0px 0px 0px;
+            padding: 0px;
+        }
+
+        .info_panel_line .content.resources {
+            font-size: 11px;
+            color: #91FBFF;
+            margin: 2px 0px 0px;
+            display: flex;
+            flex-grow: 1;
+            padding: 0px;
+        }
+
+.div_health_bar_grp {
+    width: 140px;
+    margin: 2px 12px 0px 0px;
+}
+
+.div_unit_secondary_bar {
+    height: 6px;
+    border: 1px solid #d1d1d1;
+    background-color: rgb(0, 165, 249);
+    margin: -1px 0px 0px;
+    position:relative;
+}
+
+.bar_blend {
+    height: 100%;
+    width: 100%;
+    background: linear-gradient(to top, rgba(0,0,0,.4) 0%, rgba(0,0,0,.3) 10%, rgba(0,0,0,0) 90%);
+    position: absolute;
+    top: 0;
+}
+
+.div_health_percentages {
+    font-family: 'Trebuchet MS Bold';
+    font-size: 14px;
+    margin: -2px 0px 0px 0px;
+    display: flex;
+}
+
+.stat {
+    margin: 0px 12px 0px 0px;
+    white-space: nowrap;
+}
+
+    .stat.health {
+        text-shadow: 0px 0px 20px rgba(0,255,0,.8);
+    }
+
+    .stat.secondary {
+        color: rgb(0, 165, 249);
+        text-shadow: 0px 0px 20px rgba(0,179,255,.8);
+    }
+
+    .stat.metal {
+        background: url(img/status_bar/icon-status-metal.png) center left no-repeat;
+        background-position-y: 5px;
+        background-size: 12px auto;
+        margin-top: -1px;
+        padding: 1px 0px 0px 14px;
+    }
+
+    .stat.energy {
+        background: url(img/status_bar/icon-status-energy.png) center left no-repeat;
+        background-position-y: 5px;
+        background-size: 8px auto;
+        margin-top: -1px;
+        padding: 1px 0px 0px 12px;
+    }
+
+
+.div_event_string {
+    height: 92px;
+    background: #1D1D1D;
+    border: 1px solid #4D4D4D;
+    border-width: 1px 0px 0px 0px;
+    font-family: 'Sansation Bold';
+    font-size: 14px;
+    padding: 3px 0px 0px 15px;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 1);
+}
+
+    .div_event_string.attacking {
+        color: rgb(255, 0, 0);
+        text-shadow: 0px 0px 20px rgb(255, 0, 0);
+        box-shadow: inset 30px 25px 50px rgba(92, 0, 0, 1);
+    }
+
+    .div_event_string.fabricating {
+        color: rgb(0,255, 0);
+        text-shadow: 0px 0px 20px rgb(0, 255, 0);
+        box-shadow: inset 30px 25px 50px #0A3100;
+    }
+
+    .div_event_string.reclaiming {
+        color: rgb(0, 142, 189);
+        text-shadow: 0px 0px 20px rgb(0, 142, 189);
+        box-shadow: inset 30px 25px 50px rgba(0, 142, 189, 1);
+    }
+
+    .div_event_string.transporting {
+        color: rgb(0, 0, 0);
+        text-shadow: 0px 0px 20px rgb(0, 142, 189);
+        box-shadow: inset 30px 25px 50px rgba(142, 142, 142, 1);
+    }
+
+
+.div_unit_health {
+    height: 6px;
+    border: 1px solid #D1D1D1;
+    position:relative;
+}
+
+.div_unit_health_bar {
+    width: 0%;
+    height: 4px;
+}
+
+.div_unit_metal_bar {
+    background: #888;
+    width: 0%;
+    height: 100%;
+}
+
+.div_unit_name {
+    margin: 12px 0 0 10px;
+}

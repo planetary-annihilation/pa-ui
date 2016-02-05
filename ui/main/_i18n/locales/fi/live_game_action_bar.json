@@ -1,0 +1,44 @@
+{
+    "AT WILL": {
+        "message": "AT WILL"
+    }, 
+    "BUILD MODE": {
+        "message": "BUILD MODE"
+    }, 
+    "CONTINUOUS": {
+        "message": "JATKUVA"
+    }, 
+    "ENERGY ORDERS": {
+        "message": "ENERGY ORDERS"
+    }, 
+    "FIRE ORDERS": {
+        "message": "FIRE ORDERS"
+    }, 
+    "HOLD": {
+        "message": "HOLD"
+    }, 
+    "HOLD POSITION": {
+        "message": "HOLD POSITION"
+    }, 
+    "MANUEVER": {
+        "message": "MANUEVER"
+    }, 
+    "MOVE ORDERS": {
+        "message": "MOVE ORDERS"
+    }, 
+    "NORMAL": {
+        "message": "NORMAALI"
+    }, 
+    "OFF": {
+        "message": "OFF"
+    }, 
+    "ON": {
+        "message": "ON"
+    }, 
+    "RETURN FIRE": {
+        "message": "VASTAA TULEEN"
+    }, 
+    "ROAM": {
+        "message": "ROAM"
+    }
+}

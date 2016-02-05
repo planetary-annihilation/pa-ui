@@ -1,0 +1,17 @@
+{
+    "Commander Basics": {
+        "message": "Comandante"
+    }, 
+    "Commander starts with energy and metal resources": {
+        "message": "All'inizio, il Comandante è dotato di risorse d'energia e di metallo"
+    }, 
+    "Keep your Commander alive or the match is over": {
+        "message": "Mantieni in vita il tuo Comandante o perderai la partita"
+    }, 
+    "PA Guide: Commander Basics": {
+        "message": "Guida di PA: Comandante"
+    }, 
+    "Select a landing zone near metal spots": {
+        "message": "Seleziona una zona d'atterraggio vicino ai giacimenti metalliferi"
+    }
+}

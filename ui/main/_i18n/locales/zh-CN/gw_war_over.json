@@ -1,0 +1,26 @@
+{
+    "Annihilated": {
+        "message": "\u5df2\u6b7c\u706d"
+    }, 
+    "Close": {
+        "message": "\u5173\u95ed"
+    }, 
+    "Delete Archive": {
+        "message": "\u5220\u9664\u6863\u6848"
+    }, 
+    "Discards": {
+        "message": "\u53d6\u6d88"
+    }, 
+    "Final Tech": {
+        "message": "\u6700\u7ec8\u79d1\u6280"
+    }, 
+    "Turns:": {
+        "message": "\u56de\u5408\uff1a"
+    }, 
+    "Victory": {
+        "message": "\u80dc\u5229"
+    }, 
+    "Wins:": {
+        "message": "\u80dc\u5229\uff1a"
+    }
+}

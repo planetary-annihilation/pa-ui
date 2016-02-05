@@ -1,0 +1,30 @@
+{
+    "Cancel": {
+        "message": "\u04aa\u0203\u019e\u03f2\u1f73\u230a\u03a9\u03a9\u03a9", 
+        "original": "Cancel"
+    }, 
+    "Loading Game": {
+        "message": "\u20a4\u020f\u0203\u0257\u0457\u019e\u0260 \u01f4\u0203\u028d\u1f73\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9", 
+        "original": "Loading Game"
+    }, 
+    "Loading Replay": {
+        "message": "\u20a4\u020f\u0203\u0257\u0457\u019e\u0260 \u211d\u1f73\u2374\u230a\u0203\u0443\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9", 
+        "original": "Loading Replay"
+    }, 
+    "Returning to menu": {
+        "message": "\u211d\u1f73\u04ad\u0574\u0213\u019e\u0457\u019e\u0260 \u04ad\u020f \u028d\u1f73\u019e\u0574\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9", 
+        "original": "Returning to menu"
+    }, 
+    "Starting replay server, please be patient...": {
+        "message": "\u1e60\u04ad\u0203\u0213\u04ad\u0457\u019e\u0260 \u0213\u1f73\u2374\u230a\u0203\u0443 \u01a8\u1f73\u0213\u0477\u1f73\u0213, \u2374\u230a\u1f73\u0203\u01a8\u1f73 \u0411\u1f73 \u2374\u0203\u04ad\u0457\u1f73\u019e\u04ad...\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9", 
+        "original": "Starting replay server, please be patient..."
+    }, 
+    "Unable to load replay": {
+        "message": "\u1ee6\u019e\u0203\u0411\u230a\u1f73 \u04ad\u020f \u230a\u020f\u0203\u0257 \u0213\u1f73\u2374\u230a\u0203\u0443\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9", 
+        "original": "Unable to load replay"
+    }, 
+    "Unable to load save game": {
+        "message": "\u1ee6\u019e\u0203\u0411\u230a\u1f73 \u04ad\u020f \u230a\u020f\u0203\u0257 \u01a8\u0203\u0477\u1f73 \u0260\u0203\u028d\u1f73\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9", 
+        "original": "Unable to load save game"
+    }
+}

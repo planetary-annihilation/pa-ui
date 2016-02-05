@@ -1,0 +1,26 @@
+{
+    "CONNECTION TO SERVER FAILED": {
+        "message": "VERBINDEN MET SERVER MISLUKT"
+    }, 
+    "CONNECTION TO SERVER LOST": {
+        "message": "VERBINDING MET SERVER VERLOREN"
+    }, 
+    "FAILED TO JOIN GAME": {
+        "message": "TOETREDEN TOT SPEL MISLUKT"
+    }, 
+    "FAILED TO START GAME": {
+        "message": "STARTEN VAN HET SPEL IS MISLUKT"
+    }, 
+    "FAILED TO START REPLAY": {
+        "message": "OPNAME AFSPELEN MISLUKT"
+    }, 
+    "LOGIN ACCEPTED": {
+        "message": "LOGIN GEACCEPTEERD"
+    }, 
+    "LOGIN TO SERVER REJECTED": {
+        "message": "HET INLOGGEN OP DE SERVER IS GEWEIGERD"
+    }, 
+    "Returning to Main Menu": {
+        "message": "Aan het terugkeren naar hoofdmenu"
+    }
+}

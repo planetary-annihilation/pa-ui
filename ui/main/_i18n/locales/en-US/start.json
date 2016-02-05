@@ -1,0 +1,395 @@
+{
+    "1v1": {
+        "message": "1v1"
+    }, 
+    "ABANDON": {
+        "message": "ABANDON"
+    }, 
+    "AI Skirmish": {
+        "message": "AI Skirmish"
+    }, 
+    "Armory": {
+        "message": "Armory"
+    }, 
+    "Art": {
+        "message": "Art"
+    }, 
+    "As thanks for your continued support, you have been given the new TITANS expansion for free!": {
+        "message": "As thanks for your continued support, you have been given the new TITANS expansion for free!"
+    }, 
+    "Audio": {
+        "message": "Audio"
+    }, 
+    "Audio Engine:": {
+        "message": "Audio Engine:"
+    }, 
+    "Available to you now at a 66% Discount as thanks for your continued support!": {
+        "message": "Available to you now at a 66% Discount as thanks for your continued support!"
+    }, 
+    "Before you jump in...": {
+        "message": "Before you jump in..."
+    }, 
+    "Cancel": {
+        "message": "Cancel"
+    }, 
+    "Close": {
+        "message": "Close"
+    }, 
+    "Community Videos": {
+        "message": "Community Videos"
+    }, 
+    "Connecting to PlayFab": {
+        "message": "Connecting to PlayFab"
+    }, 
+    "Continue Tutorial": {
+        "message": "Continue Tutorial"
+    }, 
+    "Cosmic Edition Commanders": {
+        "message": "Cosmic Edition Commanders"
+    }, 
+    "Custom": {
+        "message": "Custom"
+    }, 
+    "Design": {
+        "message": "Design"
+    }, 
+    "Dismiss": {
+        "message": "Dismiss"
+    }, 
+    "EXIT": {
+        "message": "EXIT"
+    }, 
+    "Enable Offline Play": {
+        "message": "Enable Offline Play"
+    }, 
+    "Engineering": {
+        "message": "Engineering"
+    }, 
+    "Engineers": {
+        "message": "Engineers"
+    }, 
+    "Extra special thanks to our:": {
+        "message": "Extra special thanks to our:"
+    }, 
+    "Founding Commanders": {
+        "message": "Founding Commanders"
+    }, 
+    "Galactic War": {
+        "message": "Galactic War"
+    }, 
+    "Gameplay Unavailable": {
+        "message": "Gameplay Unavailable"
+    }, 
+    "If you ignore this recommendation by enabling offline play, you may experience degraded performance.": {
+        "message": "If you ignore this recommendation by enabling offline play, you may experience degraded performance."
+    }, 
+    "If you want to play Classic PA, it's recommended you run TITANS and simply change your Active Expansion in the gameplay settings.": {
+        "message": "If you want to play Classic PA, it's recommended you run TITANS and simply change your Active Expansion in the gameplay settings."
+    }, 
+    "Incorrect username or password. Please check your entry and try again.": {
+        "message": "Incorrect username or password. Please check your entry and try again."
+    }, 
+    "Invalid session ticket, please log in again.": {
+        "message": "Invalid session ticket, please log in again."
+    }, 
+    "It appears that Planetary Annihilation crashed the last time you played it. This crash might be due to a problem in the installed graphics drivers.": {
+        "message": "It appears that Planetary Annihilation crashed the last time you played it. This crash might be due to a problem in the installed graphics drivers."
+    }, 
+    "It appears that you have turned off the Steam Overlay, and we are unable to initiate your purchase without it.": {
+        "message": "It appears that you have turned off the Steam Overlay, and we are unable to initiate your purchase without it."
+    }, 
+    "LATER": {
+        "message": "LATER"
+    }, 
+    "Last match played": {
+        "message": "Last match played"
+    }, 
+    "Latest Post:": {
+        "message": "Latest Post:"
+    }, 
+    "Latest update": {
+        "message": "Latest update"
+    }, 
+    "Leaderboards": {
+        "message": "Leaderboards"
+    }, 
+    "Learn the basics. Command a Titan. Smash a planet.": {
+        "message": "Learn the basics. Command a Titan. Smash a planet."
+    }, 
+    "Looks like you have a tutorial already in progress.": {
+        "message": "Looks like you have a tutorial already in progress."
+    }, 
+    "Looks like you're running Classic PA from your Steam Library, instead of TITANS.": {
+        "message": "Looks like you're running Classic PA from your Steam Library, instead of TITANS."
+    }, 
+    "Minimize": {
+        "message": "Minimize"
+    }, 
+    "More Info": {
+        "message": "More Info"
+    }, 
+    "Multiplayer": {
+        "message": "Multiplayer"
+    }, 
+    "Music Composed by": {
+        "message": "Music Composed by"
+    }, 
+    "New Build Available:": {
+        "message": "New Build Available:"
+    }, 
+    "No thanks. I got this.": {
+        "message": "No thanks. I got this."
+    }, 
+    "None of this would have been possible without your generosity, and we are grateful that you took the chance and believed in our vision.": {
+        "message": "None of this would have been possible without your generosity, and we are grateful that you took the chance and believed in our vision."
+    }, 
+    "Northwest Sinfonia and Chorale": {
+        "message": "Northwest Sinfonia and Chorale"
+    }, 
+    "Not right now": {
+        "message": "Not right now"
+    }, 
+    "OK": {
+        "message": "OK"
+    }, 
+    "OKAY": {
+        "message": "OKAY"
+    }, 
+    "Offline Play Disabled": {
+        "message": "Offline Play Disabled"
+    }, 
+    "Offline Play Unavailable": {
+        "message": "Offline Play Unavailable"
+    }, 
+    "Often these types of crashes can be resolved by making sure you have the latest graphics driver from __vendor_name__ \u2014 and we [strong]strongly recommend[/strong] that you visit their driver website to download and install the latest version.": {
+        "message": "Often these types of crashes can be resolved by making sure you have the latest graphics driver from __vendor_name__ \u2014 and we [strong]strongly recommend[/strong] that you visit their driver website to download and install the latest version."
+    }, 
+    "Oops! We can't find the game in your account.  If you are a Steam user, please restart Steam and try again.  If the problem persists, contact us at __email__": {
+        "message": "Oops! We can't find the game in your account.  If you are a Steam user, please restart Steam and try again.  If the problem persists, contact us at __email__"
+    }, 
+    "Oops! Your account seems to be in an invalid state. If you are a Steam user, please restart Steam and try again. If the problem persists, contact us at __email__": {
+        "message": "Oops! Your account seems to be in an invalid state. If you are a Steam user, please restart Steam and try again. If the problem persists, contact us at __email__"
+    }, 
+    "Open __vendor_name__'s Driver Website": {
+        "message": "Open __vendor_name__'s Driver Website"
+    }, 
+    "PURCHASE": {
+        "message": "PURCHASE"
+    }, 
+    "Password": {
+        "message": "Password"
+    }, 
+    "Play Tutorial": {
+        "message": "Play Tutorial"
+    }, 
+    "Player Guide": {
+        "message": "Player Guide"
+    }, 
+    "Please choose a default region.": {
+        "message": "Please choose a default region."
+    }, 
+    "Please enjoy all the new units, new worlds, and new ways to annihilate everything!": {
+        "message": "Please enjoy all the new units, new worlds, and new ways to annihilate everything!"
+    }, 
+    "Please exit the game, find it in your Steam library, right click it, select Properties, and make sure that \"Enable the Steam Overlay while in-game\" is checked. After doing so, start the game and try again.": {
+        "message": "Please exit the game, find it in your Steam library, right click it, select Properties, and make sure that \"Enable the Steam Overlay while in-game\" is checked. After doing so, start the game and try again."
+    }, 
+    "Please try again later.  If this error persists, please contact support and check the forums.": {
+        "message": "Please try again later.  If this error persists, please contact support and check the forums."
+    }, 
+    "Possible Graphics Driver Crash Detected": {
+        "message": "Possible Graphics Driver Crash Detected"
+    }, 
+    "Production": {
+        "message": "Production"
+    }, 
+    "Production Babies": {
+        "message": "Production Babies"
+    }, 
+    "QA": {
+        "message": "QA"
+    }, 
+    "QUIT & INSTALL TITANS": {
+        "message": "QUIT & INSTALL TITANS"
+    }, 
+    "QUIT & LAUNCH TITANS": {
+        "message": "QUIT & LAUNCH TITANS"
+    }, 
+    "Quit": {
+        "message": "Quit"
+    }, 
+    "RECONNECT": {
+        "message": "RECONNECT"
+    }, 
+    "Ranked Match": {
+        "message": "Ranked Match"
+    }, 
+    "Replays": {
+        "message": "Replays"
+    }, 
+    "Restart From Beginning": {
+        "message": "Restart From Beginning"
+    }, 
+    "Resume last saved:": {
+        "message": "Resume last saved:"
+    }, 
+    "Saved Games": {
+        "message": "Saved Games"
+    }, 
+    "Settings": {
+        "message": "Settings"
+    }, 
+    "Sign in": {
+        "message": "Sign in"
+    }, 
+    "Sign in with your PlayFab ID": {
+        "message": "Sign in with your PlayFab ID"
+    }, 
+    "Single Player": {
+        "message": "Single Player"
+    }, 
+    "Soundtrack Credits": {
+        "message": "Soundtrack Credits"
+    }, 
+    "Steam Overlay Disabled": {
+        "message": "Steam Overlay Disabled"
+    }, 
+    "System Designer": {
+        "message": "System Designer"
+    }, 
+    "Thank you for your support!": {
+        "message": "Thank you for your support!"
+    }, 
+    "The HUGE stand-alone expansion to Planetary Annihilation is here, featuring 5 world-shattering TITANS, 16 new units, new worlds and more!": {
+        "message": "The HUGE stand-alone expansion to Planetary Annihilation is here, featuring 5 world-shattering TITANS, 16 new units, new worlds and more!"
+    }, 
+    "The TITANS have arrived.": {
+        "message": "The TITANS have arrived."
+    }, 
+    "The game will require an internet connection to play.": {
+        "message": "The game will require an internet connection to play."
+    }, 
+    "The leaderboard is currently empty.": {
+        "message": "The leaderboard is currently empty."
+    }, 
+    "The next level of play in the PA universe. Available now!": {
+        "message": "The next level of play in the PA universe. Available now!"
+    }, 
+    "There are no regions available for this build version.": {
+        "message": "There are no regions available for this build version."
+    }, 
+    "There are no streams currently.": {
+        "message": "There are no streams currently."
+    }, 
+    "There is a problem with Steam. Please restart Steam and try again, or contact us at __email__": {
+        "message": "There is a problem with Steam. Please restart Steam and try again, or contact us at __email__"
+    }, 
+    "They're here for you.": {
+        "message": "They're here for you."
+    }, 
+    "This shouldn't happen. Please contact us at  __email__": {
+        "message": "This shouldn't happen. Please contact us at  __email__"
+    }, 
+    "To those who contributed to our Kickstarter campaign, we'd like to thank you for all the support.": {
+        "message": "To those who contributed to our Kickstarter campaign, we'd like to thank you for all the support."
+    }, 
+    "Top Ranked Players": {
+        "message": "Top Ranked Players"
+    }, 
+    "Try the TITANS Tutorial": {
+        "message": "Try the TITANS Tutorial"
+    }, 
+    "Tutorial": {
+        "message": "Tutorial"
+    }, 
+    "Twitch TV": {
+        "message": "Twitch TV"
+    }, 
+    "UI Library:": {
+        "message": "UI Library:"
+    }, 
+    "Uber Entertainment": {
+        "message": "Uber Entertainment"
+    }, 
+    "Unable to Sign In": {
+        "message": "Unable to Sign In"
+    }, 
+    "Unable to link your Steam account (email address in use), contact us at __email__": {
+        "message": "Unable to link your Steam account (email address in use), contact us at __email__"
+    }, 
+    "Unable to link your Steam account (email address invalid), contact us at __email__": {
+        "message": "Unable to link your Steam account (email address invalid), contact us at __email__"
+    }, 
+    "Unable to link your Steam account (unknown error __code__), contact us at __email__": {
+        "message": "Unable to link your Steam account (unknown error __code__), contact us at __email__"
+    }, 
+    "Unable to link your Steam account (username in use), contact us at __email__": {
+        "message": "Unable to link your Steam account (username in use), contact us at __email__"
+    }, 
+    "Unable to link your Steam account, try restarting the game or contact us at __email__": {
+        "message": "Unable to link your Steam account, try restarting the game or contact us at __email__"
+    }, 
+    "Unknown Error authenticating, possibly related to firewall or antivirus settings.  Please contact support if problem persists. (__error_code__)": {
+        "message": "Unknown Error authenticating, possibly related to firewall or antivirus settings.  Please contact support if problem persists. (__error_code__)"
+    }, 
+    "Username": {
+        "message": "Username"
+    }, 
+    "Version:": {
+        "message": "Version:"
+    }, 
+    "Video list could not be retrieved.": {
+        "message": "Video list could not be retrieved."
+    }, 
+    "View Intro": {
+        "message": "View Intro"
+    }, 
+    "View Leaderboards": {
+        "message": "View Leaderboards"
+    }, 
+    "View full column": {
+        "message": "View full column"
+    }, 
+    "Visit the PA community forums \u00bb": {
+        "message": "Visit the PA community forums \u00bb "
+    }, 
+    "Watch Replay": {
+        "message": "Watch Replay"
+    }, 
+    "You are already assigned to a game.": {
+        "message": "You are already assigned to a game."
+    }, 
+    "You can change the region later in the settings menu.": {
+        "message": "You can change the region later in the settings menu."
+    }, 
+    "You must have played 5 ranked games to receive a rank": {
+        "message": "You must have played 5 ranked games to receive a rank"
+    }, 
+    "You need a new client to play the game. Steam users may need to restart Steam to get the new client.": {
+        "message": "You need a new client to play the game. Steam users may need to restart Steam to get the new client."
+    }, 
+    "You'll find it waiting in your Steam library right next to Planetary Annihilation!": {
+        "message": "You'll find it waiting in your Steam library right next to Planetary Annihilation!"
+    }, 
+    "Your account has been banned. If you believe this is in error, contact us at __email__": {
+        "message": "Your account has been banned. If you believe this is in error, contact us at __email__"
+    }, 
+    "Your default region is currently unavailable.  Please choose a different region.": {
+        "message": "Your default region is currently unavailable.  Please choose a different region."
+    }, 
+    "Your machine does not meet the recommended system requirements for offline play \u2014 for offline mode we recommend at least 8 gigabytes of RAM and a Quad Core processor.": {
+        "message": "Your machine does not meet the recommended system requirements for offline play \u2014 for offline mode we recommend at least 8 gigabytes of RAM and a Quad Core processor."
+    }, 
+    "Your machine is not capable of running Planetary Annihilation offline \u2014 offline mode requires a 64-bit processor as well as a 64-bit operating system.": {
+        "message": "Your machine is not capable of running Planetary Annihilation offline \u2014 offline mode requires a 64-bit processor as well as a 64-bit operating system."
+    }, 
+    "Your system does not meet the requirements for offline play. Please sign in to play on PlayFab servers, or in [strong]Settings[/strong], manually set local server to [strong]On[/strong].": {
+        "message": "Your system does not meet the requirements for offline play. Please sign in to play on PlayFab servers, or in [strong]Settings[/strong], manually set local server to [strong]On[/strong]."
+    }, 
+    "__rank_title__ Rank": {
+        "message": "__rank_title__ Rank"
+    }, 
+    "__viewer_count__ viewers": {
+        "message": "__viewer_count__ viewers"
+    }
+}

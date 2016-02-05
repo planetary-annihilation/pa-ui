@@ -1,0 +1,95 @@
+{
+    "Account Name:": {
+        "message": "Nombre de usuario:"
+    }, 
+    "Add To Cart": {
+        "message": "Añadir al carro"
+    }, 
+    "Armory": {
+        "message": "Armería"
+    }, 
+    "Badges": {
+        "message": "Medallas"
+    }, 
+    "CHECKOUT": {
+        "message": "COMPRAR"
+    }, 
+    "Cancel": {
+        "message": "Cancelar"
+    }, 
+    "Cart": {
+        "message": "Carro"
+    }, 
+    "Commanders": {
+        "message": "Comandantes"
+    }, 
+    "Confirmation code:": {
+        "message": "Código de confirmación:"
+    }, 
+    "Confirmation of your purchase is provided below.": {
+        "message": "Más abajo encontrarás la confirmación de la compra."
+    }, 
+    "Continue Shopping": {
+        "message": "Seguir comprando"
+    }, 
+    "Coupon code": {
+        "message": "Código del cupón"
+    }, 
+    "Credit applied:": {
+        "message": "Fondos añadidos: "
+    }, 
+    "Designed in collaboration with": {
+        "message": "Diseñado en colaboración con"
+    }, 
+    "Go to Main Menu": {
+        "message": "Ir al menú principal"
+    }, 
+    "Here's your receipt.": {
+        "message": "Aquí tienes tu recibo."
+    }, 
+    "Item": {
+        "message": "Artículo"
+    }, 
+    "Item is already in cart.": {
+        "message": "Este artículo ya está en el carro."
+    }, 
+    "Kickstarter Backer": {
+        "message": "Patrocinador en Kickstarter"
+    }, 
+    "PA: Titans": {
+        "message": "PA: Titanes"
+    }, 
+    "Price": {
+        "message": "Precio"
+    }, 
+    "REMOVE": {
+        "message": "ELIMINAR"
+    }, 
+    "Redeem": {
+        "message": "Utilizar"
+    }, 
+    "Reset Default Commander": {
+        "message": "Quitar comandante por defecto"
+    }, 
+    "Return to Armory": {
+        "message": "Volver a la armería"
+    }, 
+    "Set As Default Commander": {
+        "message": "Seleccionar como comandante por defecto"
+    }, 
+    "Thank you for your purchase.": {
+        "message": "Gracias por tu compra."
+    }, 
+    "Total:": {
+        "message": "Total: "
+    }, 
+    "Updating...": {
+        "message": "Actualizando..."
+    }, 
+    "Your cart is empty.": {
+        "message": "El carro está vacío."
+    }, 
+    "Your purchased items are now registered to your account and are accessible in the game.": {
+        "message": "Se han registrado los artículos adquiridos en tu cuenta. Ya puedes acceder a ellos desde el juego."
+    }
+}

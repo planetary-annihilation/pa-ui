@@ -1,0 +1,902 @@
+{
+    "1100 (recommended for 480p)": {
+        "message": "1100 (recommended for 480p)"
+    }, 
+    "2000 (recommended for 720p)": {
+        "message": "2000 (recommended for 720p)"
+    }, 
+    "3200 (recommended for 1080p)": {
+        "message": "3200 (recomendado para 1080p)"
+    }, 
+    "500 (recommended for 240p)": {
+        "message": "500 (recomendado para 240p)"
+    }, 
+    "700 (recommended for 360p)": {
+        "message": "700 (recomendado para 360p)"
+    }, 
+    "ALL": {
+        "message": "TODOS"
+    }, 
+    "ALWAYS": {
+        "message": "SEMPRE"
+    }, 
+    "Ambient Occlusion": {
+        "message": "Ambient Occlusion"
+    }, 
+    "Anti-Aliasing": {
+        "message": "Anti-Aliasing"
+    }, 
+    "Audio": {
+        "message": "\u00c1udio"
+    }, 
+    "Bitrate": {
+        "message": "Taxa de transf."
+    }, 
+    "Build Preview Behavior": {
+        "message": "Comportamento da Previs\u00e3o de Constru\u00e7\u00e3o"
+    }, 
+    "CUSTOM": {
+        "message": "PERSONALIZADO"
+    }, 
+    "Camera": {
+        "message": "C\u00e2mera"
+    }, 
+    "Camera Friction": {
+        "message": "Fric\u00e7\u00e3o da C\u00e2mera"
+    }, 
+    "Cancel": {
+        "message": "Cancelar"
+    }, 
+    "Display Mode": {
+        "message": "Modo da Tela"
+    }, 
+    "ENABLE MICROPHONE": {
+        "message": "HABILITAR MICROFONE"
+    }, 
+    "ENABLE STREAMING (Takes effect immediately)": {
+        "message": "ATIVAR TRANSMISS\u00c3O (Entrar\u00e1 em vigor imediatamente)"
+    }, 
+    "ENABLE SYSTEM SOUNDS": {
+        "message": "HABILITAR SONS DO SISTEMA"
+    }, 
+    "Edge Scroll Options": {
+        "message": "Op\u00e7\u00f5es para Rolagem nos Cantos"
+    }, 
+    "FOV": {
+        "message": "FOV (Campo de Vis\u00e3o)"
+    }, 
+    "FPS": {
+        "message": "FPS"
+    }, 
+    "FULLSCREEN": {
+        "message": "TELA CHEIA"
+    }, 
+    "FXAA": {
+        "message": "FXAA"
+    }, 
+    "Graphics": {
+        "message": "Gr\u00e1ficos"
+    }, 
+    "HDR": {
+        "message": "HDR"
+    }, 
+    "HIGH": {
+        "message": "ALTO"
+    }, 
+    "Headlights": {
+        "message": "Destaques"
+    }, 
+    "ICON DISPLAY DISTANCE": {
+        "message": "DIST\u00c2NCIA DE EXIBI\u00c7\u00c3O DO \u00cdCONE"
+    }, 
+    "Key Pan Speed": {
+        "message": "Velocidade de Panorama das Teclas"
+    }, 
+    "Keyboard": {
+        "message": "Teclado"
+    }, 
+    "LOW": {
+        "message": "BAIXO"
+    }, 
+    "Language": {
+        "message": "Idioma"
+    }, 
+    "Livestream Settings": {
+        "message": "Op\u00e7\u00f5es de Livestream"
+    }, 
+    "MEDIUM": {
+        "message": "M\u00c9DIO"
+    }, 
+    "Master Volume": {
+        "message": "Volume Principal"
+    }, 
+    "Mouse Pan Speed": {
+        "message": "Mouse Pan Speed"
+    }, 
+    "Music Volume": {
+        "message": "Volume da M\u00fasica"
+    }, 
+    "NATIVE (100%)": {
+        "message": "NATIVO(100%)"
+    }, 
+    "NEVER": {
+        "message": "NUNCA"
+    }, 
+    "OFF": {
+        "message": "DESLIGADO"
+    }, 
+    "OFF (MOUSELOCK)": {
+        "message": "DESLIGAR (TRAVA DE MOUSE)"
+    }, 
+    "OFF (NO MOUSELOCK)": {
+        "message": "DESLIGADO (SEM MOUSELOCK)"
+    }, 
+    "ON": {
+        "message": "LIGADO"
+    }, 
+    "Orbital Shell": {
+        "message": "Camada Orbital"
+    }, 
+    "Order Preview Behavior": {
+        "message": "Comportamento da Previs\u00e3o de Ordens"
+    }, 
+    "Password": {
+        "message": "Senha"
+    }, 
+    "Pole Lock": {
+        "message": "travar no Norte"
+    }, 
+    "Quality Preset": {
+        "message": "Qualidade Geral"
+    }, 
+    "RANGE DEPENDENT": {
+        "message": "DIST\u00c2NCIA DEPENDENTE"
+    }, 
+    "RESTORE ALL DEFAULTS": {
+        "message": "RESTAURAR TODOS OS PADR\u00d5ES"
+    }, 
+    "RESTORE DEFAULTS": {
+        "message": "VOLTAR AO PADR\u00c3O"
+    }, 
+    "Resolution": {
+        "message": "Resolu\u00e7\u00e3o"
+    }, 
+    "Resolution Scaling": {
+        "message": "Redimensionamento de Resolu\u00e7\u00e3o"
+    }, 
+    "SELECTED": {
+        "message": "SELECIONADO"
+    }, 
+    "SERVER": {
+        "message": "SERVIDOR"
+    }, 
+    "SHIFT": {
+        "message": "SHIFT"
+    }, 
+    "SIGN IN": {
+        "message": "ENTRAR"
+    }, 
+    "SIGN OUT": {
+        "message": "SAIR"
+    }, 
+    "SUBSAMPLE (50%)": {
+        "message": "Sub Amostragem (50%)"
+    }, 
+    "SUBSAMPLE (75%)": {
+        "message": "Sub Amostragem (75%)"
+    }, 
+    "SUPERSAMPLE (110%)": {
+        "message": "SUPERSAMPLE (110%)"
+    }, 
+    "SUPERSAMPLE (150%)": {
+        "message": "Super Amostragem (150%)"
+    }, 
+    "SUPERSAMPLE (175%)": {
+        "message": "Super Amostragem (175%)"
+    }, 
+    "Save": {
+        "message": "Salvar"
+    }, 
+    "Save And Close": {
+        "message": "Salvar e Fechar"
+    }, 
+    "Server": {
+        "message": "Servidor"
+    }, 
+    "Settings": {
+        "message": "CONFIGURA\u00c7\u00d5ES"
+    }, 
+    "Shadows": {
+        "message": "Sombras"
+    }, 
+    "Show Build Previews": {
+        "message": "Mostrar Constru\u00e7\u00e3o Prevista"
+    }, 
+    "Show Metal Spot Icons": {
+        "message": "Mostrar \u00cdcones de Jazidas de Metal"
+    }, 
+    "Show Order Previews": {
+        "message": "Mostrar Ordem Prevista"
+    }, 
+    "Show Stat Bars": {
+        "message": "Mostrar Barras de Estat\u00edsticas"
+    }, 
+    "Show Unit Icons": {
+        "message": "Mostrar \u00cdcones de Unidades"
+    }, 
+    "Show/Hide game stats": {
+        "message": "Mostrar/Ocultar estat\u00edsticas do jogo"
+    }, 
+    "Show/Hide pip": {
+        "message": "Mostrar/Esconder PiP"
+    }, 
+    "Sign in with Your Twitch ID": {
+        "message": "Entre com a sua ID do Twitch"
+    }, 
+    "Signed in as": {
+        "message": "Entrou como"
+    }, 
+    "Sound Effects Volume": {
+        "message": "Volume de Efeitos"
+    }, 
+    "Twitch chat": {
+        "message": "Chat do Twitch"
+    }, 
+    "UBER": {
+        "message": "UBER"
+    }, 
+    "UI": {
+        "message": "UI"
+    }, 
+    "VALUE DEPENDENT": {
+        "message": "VALOR DEPENDENTE"
+    }, 
+    "Virtual Texture": {
+        "message": "Textura Virtual"
+    }, 
+    "Voice Volume": {
+        "message": "Volume da Voz"
+    }, 
+    "WINDOWED": {
+        "message": "JANELA"
+    }, 
+    "Zoom Speed": {
+        "message": "Velocidade de Zoom"
+    }, 
+    "abort": {
+        "message": "abortar"
+    }, 
+    "alerts": {
+        "message": "alertas"
+    }, 
+    "align to pole": {
+        "message": "alinhar ao poste"
+    }, 
+    "alt fire": {
+        "message": "fogo secund\u00e1rio"
+    }, 
+    "assist": {
+        "message": "assist\u00eancia"
+    }, 
+    "attack": {
+        "message": "atacar"
+    }, 
+    "bug report": {
+        "message": "notificar bug"
+    }, 
+    "build": {
+        "message": "construir"
+    }, 
+    "build avatar": {
+        "message": "construir avatar"
+    }, 
+    "build avatar factory": {
+        "message": "construir f\u00e1brica de avatar"
+    }, 
+    "build bar groups": {
+        "message": "build bar groups"
+    }, 
+    "build item 1": {
+        "message": "construir item 1"
+    }, 
+    "build item 10": {
+        "message": "build item 10"
+    }, 
+    "build item 11": {
+        "message": "build item 11"
+    }, 
+    "build item 12": {
+        "message": "construir item 12"
+    }, 
+    "build item 13": {
+        "message": "construir item 13"
+    }, 
+    "build item 14": {
+        "message": "construir item 14"
+    }, 
+    "build item 15": {
+        "message": "construir item 15"
+    }, 
+    "build item 2": {
+        "message": "item de constru\u00e7\u00e3o 2"
+    }, 
+    "build item 3": {
+        "message": "item de constru\u00e7\u00e3o 3"
+    }, 
+    "build item 4": {
+        "message": "item de constru\u00e7\u00e3o 4"
+    }, 
+    "build item 5": {
+        "message": "item de constru\u00e7\u00e3o 5"
+    }, 
+    "build item 6": {
+        "message": "item de constru\u00e7\u00e3o 6"
+    }, 
+    "build item 7": {
+        "message": "item de constru\u00e7\u00e3o 7"
+    }, 
+    "build item 8": {
+        "message": "item de constru\u00e7\u00e3o 8"
+    }, 
+    "build item 9": {
+        "message": "item de constru\u00e7\u00e3o 9"
+    }, 
+    "build items": {
+        "message": "itens construidos"
+    }, 
+    "build loop": {
+        "message": "ciclo de constru\u00e7\u00e3o"
+    }, 
+    "build once": {
+        "message": "construir uma vez"
+    }, 
+    "build orders": {
+        "message": "ordens de constru\u00e7\u00e3o"
+    }, 
+    "capture anchor": {
+        "message": "gravar \u00e2ncora"
+    }, 
+    "capture anchor 1": {
+        "message": "gravar \u00e2ncora 1"
+    }, 
+    "capture anchor 10": {
+        "message": "gravar \u00e2ncora 10"
+    }, 
+    "capture anchor 2": {
+        "message": "gravar \u00e2ncora 2"
+    }, 
+    "capture anchor 3": {
+        "message": "gravar \u00e2ncora 3"
+    }, 
+    "capture anchor 4": {
+        "message": "gravar \u00e2ncora 4"
+    }, 
+    "capture anchor 5": {
+        "message": "gravar \u00e2ncora 5"
+    }, 
+    "capture anchor 6": {
+        "message": "gravar \u00e2ncora 6"
+    }, 
+    "capture anchor 7": {
+        "message": "gravar \u00e2ncora 7"
+    }, 
+    "capture anchor 8": {
+        "message": "gravar \u00e2ncora 8"
+    }, 
+    "capture anchor 9": {
+        "message": "gravar \u00e2ncora 9"
+    }, 
+    "capture group 0": {
+        "message": "gravar grupo 0"
+    }, 
+    "capture group 1": {
+        "message": "gravar grupo 1"
+    }, 
+    "capture group 2": {
+        "message": "gravar grupo 2"
+    }, 
+    "capture group 3": {
+        "message": "gravar grupo 3"
+    }, 
+    "capture group 4": {
+        "message": "gravar grupo 4"
+    }, 
+    "capture group 5": {
+        "message": "gravar grupo 5"
+    }, 
+    "capture group 6": {
+        "message": "gravar grupo 6"
+    }, 
+    "capture group 7": {
+        "message": "gravar grupo 7"
+    }, 
+    "capture group 8": {
+        "message": "gravar grupo 8"
+    }, 
+    "capture group 9": {
+        "message": "gravar grupo 9"
+    }, 
+    "chronocam": {
+        "message": "chronocam"
+    }, 
+    "communication": {
+        "message": "comunica\u00e7\u00e3o"
+    }, 
+    "copy to pip": {
+        "message": "copiar p/ PIP"
+    }, 
+    "copy unit": {
+        "message": "copiar unidade"
+    }, 
+    "crash": {
+        "message": "travar"
+    }, 
+    "decrease camera pan speed": {
+        "message": "decrease camera pan speed"
+    }, 
+    "dev mode": {
+        "message": "modo desenvolvimento"
+    }, 
+    "direction": {
+        "message": "dire\u00e7\u00e3o"
+    }, 
+    "disable navigation debug info": {
+        "message": "disable navigation debug info"
+    }, 
+    "dismiss alert notification": {
+        "message": "dispensar notifica\u00e7\u00e3o"
+    }, 
+    "enable navigation debug info": {
+        "message": "habilitar informa\u00e7\u00e3o de debug da navega\u00e7\u00e3o"
+    }, 
+    "energy off": {
+        "message": "energia desligada"
+    }, 
+    "energy on": {
+        "message": "energia ligada"
+    }, 
+    "fire at will": {
+        "message": "Abrir Fogo"
+    }, 
+    "free move backward": {
+        "message": "movimento livre para tr\u00e1s"
+    }, 
+    "free move down": {
+        "message": "free move down"
+    }, 
+    "free move forward": {
+        "message": "movimento livre em frente"
+    }, 
+    "free move left": {
+        "message": "free move left"
+    }, 
+    "free move right": {
+        "message": "movimento livre a direita"
+    }, 
+    "free move up": {
+        "message": "free move up"
+    }, 
+    "free movement": {
+        "message": "movimento livre"
+    }, 
+    "free pitch backward": {
+        "message": "inclina\u00e7\u00e3o livre para tr\u00e1s"
+    }, 
+    "free pitch forward": {
+        "message": "free pitch forward"
+    }, 
+    "free roll left": {
+        "message": "rolar livremente \u00e0 esquerda"
+    }, 
+    "free roll right": {
+        "message": "rolar livremente \u00e0 direita"
+    }, 
+    "free yaw left": {
+        "message": "free yaw left"
+    }, 
+    "free yaw right": {
+        "message": "free yaw right"
+    }, 
+    "free zoom in": {
+        "message": "amplia\u00e7\u00e3o livre"
+    }, 
+    "free zoom out": {
+        "message": "redu\u00e7\u00e3o livre"
+    }, 
+    "general": {
+        "message": "geral"
+    }, 
+    "hold fire": {
+        "message": "cessar fogo"
+    }, 
+    "hold position": {
+        "message": "manter posi\u00e7\u00e3o"
+    }, 
+    "increase camera pan speed": {
+        "message": "aumentar velocidade de panorama da c\u00e2mera"
+    }, 
+    "jump to next planet": {
+        "message": "pular para o pr\u00f3ximo planeta"
+    }, 
+    "jump to previous planet": {
+        "message": "saltar para pr\u00f3ximo planeta"
+    }, 
+    "last pseudo frame": {
+        "message": "last pseudo frame"
+    }, 
+    "load": {
+        "message": "carregar"
+    }, 
+    "maneuver": {
+        "message": "manobrar"
+    }, 
+    "modes": {
+        "message": "modes"
+    }, 
+    "move": {
+        "message": "mover"
+    }, 
+    "move down": {
+        "message": "mover para baixo"
+    }, 
+    "move left": {
+        "message": "mover \u00e0 esquerda"
+    }, 
+    "move right": {
+        "message": "mover \u00e0 direita"
+    }, 
+    "move up": {
+        "message": "move up"
+    }, 
+    "navigate back/exit": {
+        "message": "navegar voltar/sair"
+    }, 
+    "next pseudo frame": {
+        "message": "pr\u00f3ximo pseudo-frame"
+    }, 
+    "normal chat": {
+        "message": "bate-papo normal"
+    }, 
+    "paste unit": {
+        "message": "colar unidade"
+    }, 
+    "patrol": {
+        "message": "patrulhar"
+    }, 
+    "pause game": {
+        "message": "pausar jogo"
+    }, 
+    "pause time": {
+        "message": "pausar tempo"
+    }, 
+    "picture-in-picture": {
+        "message": "picture-in-picture"
+    }, 
+    "ping": {
+        "message": "lat\u00eancia"
+    }, 
+    "planet jump": {
+        "message": "planet jump"
+    }, 
+    "play backwards at 100%": {
+        "message": "Retroceder a 100%"
+    }, 
+    "play backwards at 50%": {
+        "message": "retroceder a 50%"
+    }, 
+    "play forward at 100%": {
+        "message": "Reproduzir a 100%"
+    }, 
+    "play forward at 50%": {
+        "message": "Reproduzir a 50%"
+    }, 
+    "publish server mods": {
+        "message": "publicar mods de servidor"
+    }, 
+    "quick profile": {
+        "message": "perfil r\u00e1pido"
+    }, 
+    "recall anchor": {
+        "message": "ir para \u00e2ncora"
+    }, 
+    "recall anchor 0": {
+        "message": "ir para \u00e2ncora 0"
+    }, 
+    "recall anchor 1": {
+        "message": "ir para \u00e2ncora 1"
+    }, 
+    "recall anchor 2": {
+        "message": "ir para \u00e2ncora 2"
+    }, 
+    "recall anchor 3": {
+        "message": "ir para \u00e2ncora 3"
+    }, 
+    "recall anchor 4": {
+        "message": "ir para \u00e2ncora 4"
+    }, 
+    "recall anchor 5": {
+        "message": "ir para \u00e2ncora 5"
+    }, 
+    "recall anchor 6": {
+        "message": "ir para \u00e2ncora 6"
+    }, 
+    "recall anchor 7": {
+        "message": "ir para \u00e2ncora 7"
+    }, 
+    "recall anchor 8": {
+        "message": "ir para \u00e2ncora 8"
+    }, 
+    "recall anchor 9": {
+        "message": "ir para \u00e2ncora 9"
+    }, 
+    "recall group 0": {
+        "message": "chamar grupo 0"
+    }, 
+    "recall group 1": {
+        "message": "chamar grupo 1"
+    }, 
+    "recall group 2": {
+        "message": "chamar grupo 2"
+    }, 
+    "recall group 3": {
+        "message": "chamar grupo 3"
+    }, 
+    "recall group 4": {
+        "message": "chamar grupo 4"
+    }, 
+    "recall group 5": {
+        "message": "chamar grupo 5"
+    }, 
+    "recall group 6": {
+        "message": "chamar grupo 6"
+    }, 
+    "recall group 7": {
+        "message": "chamar grupo 7"
+    }, 
+    "recall group 8": {
+        "message": "chamar grupo 8"
+    }, 
+    "recall group 9": {
+        "message": "chamar grupo 9"
+    }, 
+    "reclaim": {
+        "message": "reclamar"
+    }, 
+    "reload view": {
+        "message": "recarregar visualiza\u00e7\u00e3o"
+    }, 
+    "repair": {
+        "message": "reparar"
+    }, 
+    "resume at latest time": {
+        "message": "resume at latest time"
+    }, 
+    "return fire": {
+        "message": "devolver fogo"
+    }, 
+    "roam": {
+        "message": "Ir reto"
+    }, 
+    "run twitch commercial": {
+        "message": "exibir comercial do Twitch"
+    }, 
+    "select air group": {
+        "message": "selecionar grupo a\u00e9reo"
+    }, 
+    "select all air combat units": {
+        "message": "selecionar todas unidades a\u00e9reas de combate"
+    }, 
+    "select all air combat units on screen": {
+        "message": "selecionar todas as unidades a\u00e9reas de combate na tela"
+    }, 
+    "select all combat units": {
+        "message": "selecionar todas unidades de combate"
+    }, 
+    "select all combat units on screen": {
+        "message": "selecionar todas as unidades de combate na tela"
+    }, 
+    "select all factories": {
+        "message": "selecionar todas as f\u00e1bricas"
+    }, 
+    "select all factories on screen": {
+        "message": "selecionar todas as f\u00e1bricas na tela"
+    }, 
+    "select all idle factories": {
+        "message": "selecionar todas as f\u00e1bricas ociosas"
+    }, 
+    "select all idle factories on screen": {
+        "message": "selecionar todas as f\u00e1bricas ociosas na tela"
+    }, 
+    "select all land combat units": {
+        "message": "selecionar todas unidades de combate terrestre"
+    }, 
+    "select all land combat units on screen": {
+        "message": "selecionar todas unidades de combate terrestre na tela"
+    }, 
+    "select all matching units on screen": {
+        "message": "selecionar todas as unidades iguais na tela"
+    }, 
+    "select all naval combat units": {
+        "message": "select all naval combat units"
+    }, 
+    "select all naval combat units on screen": {
+        "message": "select all naval combat units on screen"
+    }, 
+    "select bot group": {
+        "message": "select bot group"
+    }, 
+    "select combat group": {
+        "message": "selecionar grupo de combate"
+    }, 
+    "select commander": {
+        "message": "select commander"
+    }, 
+    "select factory group": {
+        "message": "selecionar grupo de f\u00e1brica"
+    }, 
+    "select idle fabbers": {
+        "message": "selecionar fabricadores ociosos"
+    }, 
+    "select orbital group (buildings)": {
+        "message": "selecionar grupos orbitais (constru\u00e7\u00f5es)"
+    }, 
+    "select orbital group (units)": {
+        "message": "selecionar grupo orbital (unidades)"
+    }, 
+    "select sea group": {
+        "message": "selecionar grupo mar\u00edtimo"
+    }, 
+    "select utility group": {
+        "message": "selecionar grupo de utilidade"
+    }, 
+    "select vehicle group": {
+        "message": "selecionar grupo de ve\u00edculos"
+    }, 
+    "self destruct selected unit": {
+        "message": "self destruct selected unit"
+    }, 
+    "set army from hover": {
+        "message": "set army from hover"
+    }, 
+    "set debug camera": {
+        "message": "configurar c\u00e2mera de debug"
+    }, 
+    "set default camera": {
+        "message": "definir c\u00e2mera padr\u00e3o"
+    }, 
+    "set free camera": {
+        "message": "configurar c\u00e2mera livre"
+    }, 
+    "set planet camera": {
+        "message": "definir c\u00e2mera planet\u00e1ria"
+    }, 
+    "show/hide UI": {
+        "message": "mostrar/esconder UI"
+    }, 
+    "show/hide performance panel": {
+        "message": "mostrar/ocultar painel de performance"
+    }, 
+    "show/hide visual aid overlays": {
+        "message": "mostrar/ocultar camadas de auxilio visual"
+    }, 
+    "smooth zoom in": {
+        "message": "zoom in suave"
+    }, 
+    "smooth zoom out": {
+        "message": "suavizar redu\u00e7\u00e3o"
+    }, 
+    "special move": {
+        "message": "movimento especial"
+    }, 
+    "stop": {
+        "message": "parar"
+    }, 
+    "streaming": {
+        "message": "streaming"
+    }, 
+    "swap pip": {
+        "message": "swap pip"
+    }, 
+    "team chat": {
+        "message": "chat da equipe"
+    }, 
+    "toggle FOW": {
+        "message": "alternar FOW"
+    }, 
+    "toggle audio logging": {
+        "message": "alternar registro de audio"
+    }, 
+    "toggle build orders": {
+        "message": "alternar ordens de constru\u00e7\u00e3o"
+    }, 
+    "toggle console": {
+        "message": "abrir o console"
+    }, 
+    "toggle debug camera": {
+        "message": "alternar c\u00e2mera de debug"
+    }, 
+    "toggle energy orders": {
+        "message": "alternar ordens de energia"
+    }, 
+    "toggle fire orders": {
+        "message": "alternar ordens de disparo"
+    }, 
+    "toggle free camera": {
+        "message": "ativar c\u00e2mera livre"
+    }, 
+    "toggle fullscreen": {
+        "message": "ativar tela cheia"
+    }, 
+    "toggle move orders": {
+        "message": "alternar ordens de movimenta\u00e7\u00e3o"
+    }, 
+    "toggle music": {
+        "message": "alternar m\u00fasica"
+    }, 
+    "toggle nav debug": {
+        "message": "alternar debug de navega\u00e7\u00e3o"
+    }, 
+    "toggle pip mirror": {
+        "message": "toggle pip mirror"
+    }, 
+    "toggle twitch microphone": {
+        "message": "toggle twitch microphone"
+    }, 
+    "toggle twitch streaming": {
+        "message": "alternar streaming do Twitch"
+    }, 
+    "toggle twitch system audio recording": {
+        "message": "toggle twitch system audio recording"
+    }, 
+    "track selection with camera": {
+        "message": "seguir sele\u00e7\u00e3o com a c\u00e2mera"
+    }, 
+    "tracking & alignment": {
+        "message": "ratreamento & alinhamento"
+    }, 
+    "tuning": {
+        "message": "ajustes"
+    }, 
+    "unit capture groups": {
+        "message": "grava\u00e7\u00e3o de unidades em grupos"
+    }, 
+    "unit commands": {
+        "message": "comandos da unidade"
+    }, 
+    "unit orders": {
+        "message": "ordens de unidade"
+    }, 
+    "unit recall groups": {
+        "message": "chamada de grupos de unidades"
+    }, 
+    "unit selection": {
+        "message": "sele\u00e7\u00e3o de unidade"
+    }, 
+    "units": {
+        "message": "unidades"
+    }, 
+    "unload": {
+        "message": "descarregar"
+    }, 
+    "zoom": {
+        "message": "zoom"
+    }, 
+    "zoom in": {
+        "message": "ampliar"
+    }, 
+    "zoom out": {
+        "message": "reduzir"
+    }, 
+    "zoom to air": {
+        "message": "zoom to air"
+    }, 
+    "zoom to celestial": {
+        "message": "zoom para a vista celestial"
+    }, 
+    "zoom to orbital": {
+        "message": "zoom para a camada orbital"
+    }, 
+    "zoom to surface": {
+        "message": "ampliar at\u00e9 a superf\u00edcie"
+    }
+}

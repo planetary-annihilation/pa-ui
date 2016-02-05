@@ -1,0 +1,26 @@
+{
+    "Annihilated": {
+        "message": "\uc804\uba78"
+    }, 
+    "Close": {
+        "message": "\ub2eb\uae30"
+    }, 
+    "Delete Archive": {
+        "message": "Delete Archive"
+    }, 
+    "Discards": {
+        "message": "\ud3ec\uae30"
+    }, 
+    "Final Tech": {
+        "message": "\ub9c8\uc9c0\ub9c9 \uae30\uc220"
+    }, 
+    "Turns:": {
+        "message": "Turns:"
+    }, 
+    "Victory": {
+        "message": "\uc2b9\ub9ac"
+    }, 
+    "Wins:": {
+        "message": "Wins:"
+    }
+}

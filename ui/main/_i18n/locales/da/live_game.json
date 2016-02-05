@@ -1,0 +1,221 @@
+{
+    "2m": {
+        "message": "2m"
+    }, 
+    "ALLY": {
+        "message": "ALLY"
+    }, 
+    "ANNIHILATE": {
+        "message": "ANNIHILATE"
+    }, 
+    "APS:": {
+        "message": "APS:"
+    }, 
+    "ARMY": {
+        "message": "H\u00c6R"
+    }, 
+    "AT WILL": {
+        "message": "AT WILL"
+    }, 
+    "Accept": {
+        "message": "Accepter"
+    }, 
+    "Activate planetary laser": {
+        "message": "Activate planetary laser"
+    }, 
+    "Alliance Request": {
+        "message": "Alliance Request"
+    }, 
+    "Alliance requested": {
+        "message": "Alliance requested"
+    }, 
+    "Allied": {
+        "message": "Allied"
+    }, 
+    "Allied With:": {
+        "message": "Allied with:"
+    }, 
+    "Anti-nuke - Intercepts incoming nuclear missiles.": {
+        "message": "Anti-nuke - Intercepts incoming nuclear missiles."
+    }, 
+    "Awesome": {
+        "message": "Awesome"
+    }, 
+    "BP:": {
+        "message": "BP:"
+    }, 
+    "BUILD MODE": {
+        "message": "BUILD MODE"
+    }, 
+    "CONNECTION TO SERVER LOST": {
+        "message": "FORBINDELSE TIL SERVEREN ER TABT"
+    }, 
+    "CONTINUOUS": {
+        "message": "CONTINUOUS"
+    }, 
+    "Cancel": {
+        "message": "Annullere"
+    }, 
+    "Change orbit": {
+        "message": "Change orbit"
+    }, 
+    "Close": {
+        "message": "Luk"
+    }, 
+    "Count": {
+        "message": "Count"
+    }, 
+    "DEV MODE": {
+        "message": "DEV MODE"
+    }, 
+    "DMG:": {
+        "message": "DMG:"
+    }, 
+    "ECONOMY": {
+        "message": "ECONOMY"
+    }, 
+    "EFF:": {
+        "message": "EFF:"
+    }, 
+    "ENERGY ORDERS": {
+        "message": "ENERGY ORDERS"
+    }, 
+    "Efficiency": {
+        "message": "Effektivitet"
+    }, 
+    "Enemy Contact!": {
+        "message": "Enemy Contact!"
+    }, 
+    "Exit Game?": {
+        "message": "Forlad Spil?"
+    }, 
+    "FIRE ORDERS": {
+        "message": "FIRE ORDERS"
+    }, 
+    "Fabber": {
+        "message": "Fabber"
+    }, 
+    "Factory": {
+        "message": "Factory"
+    }, 
+    "GAME PAUSED": {
+        "message": "SPIL PAUSET"
+    }, 
+    "HOLD": {
+        "message": "HOLD"
+    }, 
+    "HOLD POSITION": {
+        "message": "HOLD POSITION"
+    }, 
+    "Ignore": {
+        "message": "Ignorer"
+    }, 
+    "LR-96 -Pacifier- Missile": {
+        "message": "LR-96 -Pacifier- Missile"
+    }, 
+    "MANUEVER": {
+        "message": "MAN\u00d8VRER"
+    }, 
+    "MOVE ORDERS": {
+        "message": "MOVE ORDERS"
+    }, 
+    "Mobile": {
+        "message": "Mobile"
+    }, 
+    "NORMAL": {
+        "message": "NORMAL"
+    }, 
+    "Nuclear missile - Long range, large area damage, projectile.": {
+        "message": "Nuclear missile - Long range, large area damage, projectile."
+    }, 
+    "OFF": {
+        "message": "OFF"
+    }, 
+    "ON": {
+        "message": "ON"
+    }, 
+    "PLAYER": {
+        "message": "PLAYER"
+    }, 
+    "Pick a location inside one of the green zones to spawn your Commander.": {
+        "message": "V\u00e6lg et sted inden i en af de gr\u00f8nne zoner for af lande din kommand\u00f8r."
+    }, 
+    "Ping!": {
+        "message": "Ping!"
+    }, 
+    "Position targeted. Click to confirm.": {
+        "message": "Position valgt. Klik for at bekr\u00e6fte."
+    }, 
+    "RESC": {
+        "message": "RESC"
+    }, 
+    "RETURN FIRE": {
+        "message": "RETURN FIRE"
+    }, 
+    "ROAM": {
+        "message": "ROAM"
+    }, 
+    "Request pending": {
+        "message": "Request pending"
+    }, 
+    "Returning to Main Menu": {
+        "message": "G\u00e5r til Hovedmenu"
+    }, 
+    "SANDBOX": {
+        "message": "SANDBOX"
+    }, 
+    "SR-24 -Shield- Missile Defense": {
+        "message": "SR-24 -Shield- Missile Defense"
+    }, 
+    "START ANNIHILATION": {
+        "message": "START UDRYDDELSE"
+    }, 
+    "Select a new gravity well.": {
+        "message": "Select a new gravity well."
+    }, 
+    "Select a planet to attack.": {
+        "message": "Select a planet to attack."
+    }, 
+    "Select a planet to destroy.": {
+        "message": "Select a planet to destroy."
+    }, 
+    "Set course for annihilation": {
+        "message": "Set course for annihilation"
+    }, 
+    "Set target spot": {
+        "message": "Set target spot"
+    }, 
+    "Then confirm destination to set course.": {
+        "message": "Then confirm destination to set course."
+    }, 
+    "Unknown": {
+        "message": "Unknown"
+    }, 
+    "Waiting for other players to select a spawn location.": {
+        "message": "Waiting for other players to select a spawn location."
+    }, 
+    "Yes": {
+        "message": "Ja"
+    }, 
+    "destroyed.": {
+        "message": "\u00d8delagt."
+    }, 
+    "launched!": {
+        "message": "launched!"
+    }, 
+    "located.": {
+        "message": "Lokaliseret"
+    }, 
+    "lost.": {
+        "message": "lost."
+    }, 
+    "ready.": {
+        "message": "klar."
+    }, 
+    "under attack.": {
+        "message": "under angreb"
+    }, 
+    "v": {
+        "message": "v"
+    }
+}

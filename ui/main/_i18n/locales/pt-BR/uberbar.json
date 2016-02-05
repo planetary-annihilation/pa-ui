@@ -1,0 +1,110 @@
+{
+    "Accept": {
+        "message": "Aceitar"
+    }, 
+    "Appear Offline": {
+        "message": "Mostrar como desconectado"
+    }, 
+    "Away": {
+        "message": "Ausente"
+    }, 
+    "Block": {
+        "message": "Bloquear"
+    }, 
+    "CANCEL": {
+        "message": "CANCELAR"
+    }, 
+    "CHANGE": {
+        "message": "ALTERAR"
+    }, 
+    "Change Display Name": {
+        "message": "Alterar o nome a ser exibido"
+    }, 
+    "Change your display name?": {
+        "message": "Alterar o seu nome a ser exibido?"
+    }, 
+    "Chat": {
+        "message": "Chat"
+    }, 
+    "Do Not Disturb": {
+        "message": "N\u00e3o Perturbe"
+    }, 
+    "Friends": {
+        "message": "Amigos"
+    }, 
+    "Ignore": {
+        "message": "Ignorar"
+    }, 
+    "Invite to Chat": {
+        "message": "Convidar para bater papo"
+    }, 
+    "Invite to game": {
+        "message": "Convidar para jogo."
+    }, 
+    "Join Game": {
+        "message": "Juntar-se ao Jogo"
+    }, 
+    "New Display Name:": {
+        "message": "Novo nome a ser exibido:"
+    }, 
+    "No pending notifications.": {
+        "message": "N\u00e3o existem notifica\u00e7\u00f5es pendentes."
+    }, 
+    "Offline": {
+        "message": "Desconectado"
+    }, 
+    "Online": {
+        "message": "Conectado"
+    }, 
+    "Pending Invite": {
+        "message": "Convite pendente"
+    }, 
+    "Recent": {
+        "message": "Recente"
+    }, 
+    "Remove": {
+        "message": "Remover"
+    }, 
+    "Search Results": {
+        "message": "Resultados da pesquisa"
+    }, 
+    "Send Friend Request": {
+        "message": "Enviar solicita\u00e7\u00e3o a um amigo"
+    }, 
+    "Unblock": {
+        "message": "Desbloquear"
+    }, 
+    "Unfriend": {
+        "message": "Remover dos amigos"
+    }, 
+    "Users": {
+        "message": "Usu\u00e1rios"
+    }, 
+    "[B]": {
+        "message": "[B]"
+    }, 
+    "[CHAT]": {
+        "message": "[BATE-PAPO]"
+    }, 
+    "[F]": {
+        "message": "[F]"
+    }, 
+    "[I]": {
+        "message": "[I]"
+    }, 
+    "[REMOVE]": {
+        "message": "[REMOVER]"
+    }, 
+    "[Tags:": {
+        "message": "Marcas:"
+    }, 
+    "invited you to a game.": {
+        "message": "te convidou para um jogo."
+    }, 
+    "invited you to chat.": {
+        "message": "convidou voc\u00ea para o bate-papo."
+    }, 
+    "wants to be your friend.": {
+        "message": "gostaria de ser seu amigo."
+    }
+}

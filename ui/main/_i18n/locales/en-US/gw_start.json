@@ -1,0 +1,134 @@
+{
+    "ABSURD": {
+        "message": "ABSURD"
+    }, 
+    "Annihilate enemies on claimed systems to collect their Tech.": {
+        "message": "Annihilate enemies on claimed systems to collect their Tech."
+    }, 
+    "Archived Wars": {
+        "message": "Archived Wars"
+    }, 
+    "Choose a loadout to give your Commander different starting Tech configurations.": {
+        "message": "Choose a loadout to give your Commander different starting Tech configurations."
+    }, 
+    "Commander": {
+        "message": "Commander"
+    }, 
+    "Difficulty:": {
+        "message": "Difficulty:"
+    }, 
+    "EPIC": {
+        "message": "EPIC"
+    }, 
+    "Explore unclaimed systems to recover Tech.": {
+        "message": "Explore unclaimed systems to recover Tech."
+    }, 
+    "Faction": {
+        "message": "Faction"
+    }, 
+    "Galactic War": {
+        "message": "Galactic War"
+    }, 
+    "Game name": {
+        "message": "Game name"
+    }, 
+    "Go to War": {
+        "message": "Go to War"
+    }, 
+    "HARD": {
+        "message": "HARD"
+    }, 
+    "Hardcore": {
+        "message": "Hardcore"
+    }, 
+    "How To Play": {
+        "message": "How To Play"
+    }, 
+    "How to Play": {
+        "message": "How to Play"
+    }, 
+    "LARGE": {
+        "message": "LARGE"
+    }, 
+    "LOCKED": {
+        "message": "LOCKED"
+    }, 
+    "Loadout": {
+        "message": "Loadout"
+    }, 
+    "MEDIUM": {
+        "message": "MEDIUM"
+    }, 
+    "Move from star system to star system collecting Techs. Use those Techs to defeat the enemy faction leaders and conquer the galaxy!": {
+        "message": "Move from star system to star system collecting Techs. Use those Techs to defeat the enemy faction leaders and conquer the galaxy!"
+    }, 
+    "NORMAL": {
+        "message": "NORMAL"
+    }, 
+    "Name": {
+        "message": "Name"
+    }, 
+    "Navigate the galaxy map by jumping from system to system.": {
+        "message": "Navigate the galaxy map by jumping from system to system."
+    }, 
+    "New Data Banks to store Techs can be found by exploring systems.": {
+        "message": "New Data Banks to store Techs can be found by exploring systems."
+    }, 
+    "Permanent death. No restarts when your commander is annihilated.": {
+        "message": "Permanent death. No restarts when your commander is annihilated."
+    }, 
+    "RELENTLESS": {
+        "message": "RELENTLESS"
+    }, 
+    "Random number for generating new galaxy": {
+        "message": "Random number for generating new galaxy"
+    }, 
+    "SMALL": {
+        "message": "SMALL"
+    }, 
+    "Saved Games": {
+        "message": "Saved Games"
+    }, 
+    "Seed Value": {
+        "message": "Seed Value"
+    }, 
+    "Setup": {
+        "message": "Setup"
+    }, 
+    "Size:": {
+        "message": "Size:"
+    }, 
+    "Some commanders fight because it's all they know, while others seek answers to their origins. Conflicts in motivation and creed drive the commanders into a war that is poised to ravage the galaxy for centuries.": {
+        "message": "Some commanders fight because it's all they know, while others seek answers to their origins. Conflicts in motivation and creed drive the commanders into a war that is poised to ravage the galaxy for centuries."
+    }, 
+    "Some systems have hidden Commander loadouts. Recover them for future Galactic Wars.": {
+        "message": "Some systems have hidden Commander loadouts. Recover them for future Galactic Wars."
+    }, 
+    "Tech can be deleted to make room for new ones to download. Deleted and rejected Techs are lost for the remainder of the Galactic War.": {
+        "message": "Tech can be deleted to make room for new ones to download. Deleted and rejected Techs are lost for the remainder of the Galactic War."
+    }, 
+    "The Commanders": {
+        "message": "The Commanders"
+    }, 
+    "The Progenitors": {
+        "message": "The Progenitors"
+    }, 
+    "The commanders have slumbered for millions of years, and awaken to a galaxy that contains only echoes of civilization. These ancient war machines now battle across the galaxy, following the only directives they still hold from long ago.": {
+        "message": "The commanders have slumbered for millions of years, and awaken to a galaxy that contains only echoes of civilization. These ancient war machines now battle across the galaxy, following the only directives they still hold from long ago."
+    }, 
+    "Tip:": {
+        "message": "Tip:"
+    }, 
+    "Tips": {
+        "message": "Tips"
+    }, 
+    "UBER": {
+        "message": "UBER"
+    }, 
+    "War - __date__": {
+        "message": "War - __date__"
+    }, 
+    "What little is clear is that the galaxy was once inhabited by a sprawling empire, seemingly destroyed by conflict. The commanders refer to these beings as The Progenitors. Many commanders believe answers to their origins lie within the ruins of this once great civilization.": {
+        "message": "What little is clear is that the galaxy was once inhabited by a sprawling empire, seemingly destroyed by conflict. The commanders refer to these beings as The Progenitors. Many commanders believe answers to their origins lie within the ruins of this once great civilization."
+    }
+}

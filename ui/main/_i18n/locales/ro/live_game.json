@@ -1,0 +1,38 @@
+{
+    "CONNECTION TO SERVER LOST": {
+        "message": "CONEXIUNEA C\u0102TRE SERVER PIERDUT\u0102"
+    }, 
+    "Cancel": {
+        "message": "Anuleaz\u0103"
+    }, 
+    "Chrono Cam": {
+        "message": "CAMERA CHRONO"
+    }, 
+    "Exit Game?": {
+        "message": "IE\u015eIRE DIN JOC?"
+    }, 
+    "Game Settings": {
+        "message": "SET\u0102RI DE JOC"
+    }, 
+    "Main Menu": {
+        "message": "MENIU PRINCIPAL"
+    }, 
+    "Pick a location inside one of the green zones to spawn your Commander.": {
+        "message": "Alege o loca\u0163ie \u00een una din zonele verzi pentru a depune Comandantul t\u0103u."
+    }, 
+    "Position targeted. Click to confirm.": {
+        "message": "Pozi\u0163ie aleas\u0103. Apas\u0103 pentru confirmare."
+    }, 
+    "Quit": {
+        "message": "P\u0102R\u0102SE\u015eTE"
+    }, 
+    "Returning to Main Menu": {
+        "message": "Revenind la Meniul Principal"
+    }, 
+    "START ANNIHILATION": {
+        "message": "\u00ceNCEPE ANIHILAREA"
+    }, 
+    "Yes": {
+        "message": "Da"
+    }
+}

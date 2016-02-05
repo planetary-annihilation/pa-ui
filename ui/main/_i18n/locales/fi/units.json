@@ -1,0 +1,548 @@
+{
+    "ARKYD": {
+        "message": "ARKYD"
+    }, 
+    "Advanced Air Factory": {
+        "message": "Advanced Air Factory"
+    }, 
+    "Advanced Bot Factory": {
+        "message": "Advanced Bot Factory"
+    }, 
+    "Advanced Combat Fabrication Bot": {
+        "message": "Advanced Combat Fabrication Bot"
+    }, 
+    "Advanced Energy Plant": {
+        "message": "Advanced Energy Plant"
+    }, 
+    "Advanced Fab Aircraft": {
+        "message": "Advanced Fab Aircraft"
+    }, 
+    "Advanced Fabrication Bot": {
+        "message": "Advanced Fabrication Bot"
+    }, 
+    "Advanced Fabrication Ship": {
+        "message": "Advanced Fabrication Ship"
+    }, 
+    "Advanced Fabrication Vehicle": {
+        "message": "Advanced Fabrication Vehicle"
+    }, 
+    "Advanced Laser Defense Tower": {
+        "message": "Advanced Laser Defense Tower"
+    }, 
+    "Advanced Metal Extractor": {
+        "message": "Advanced Metal Extractor"
+    }, 
+    "Advanced Naval Factory": {
+        "message": "Advanced Naval Factory"
+    }, 
+    "Advanced Radar": {
+        "message": "Advanced Radar"
+    }, 
+    "Advanced Radar Satellite": {
+        "message": "Advanced Radar Satellite"
+    }, 
+    "Advanced Sonar": {
+        "message": "Advanced Sonar"
+    }, 
+    "Advanced Tank: Anti-land and anti-ship guns": {
+        "message": "Advanced Tank: Anti-land and anti-ship guns"
+    }, 
+    "Advanced Torpedo Launcher": {
+        "message": "Advanced Torpedo Launcher"
+    }, 
+    "Advanced Vehicle Factory": {
+        "message": "Advanced Vehicle Factory"
+    }, 
+    "Advanced artillery- Equipped with long range anti-land, and anti-ship gun.": {
+        "message": "Advanced artillery- Equipped with long range anti-land, and anti-ship gun."
+    }, 
+    "Advanced fabricator combatant- Wired to repair units and build battlefield structures. Can only build units for which it has a blueprint.": {
+        "message": "Advanced fabricator combatant- Wired to repair units and build battlefield structures. Can only build units for which it has a blueprint."
+    }, 
+    "Advanced fabricator- Builds orbital satellites and ships.": {
+        "message": "Advanced fabricator- Builds orbital satellites and ships."
+    }, 
+    "Advanced fabricator- Wired to build naval structures.": {
+        "message": "Advanced fabricator- Wired to build naval structures."
+    }, 
+    "Advanced fabricator- Wired to build structures.": {
+        "message": "Advanced fabricator- Wired to build structures."
+    }, 
+    "Advanced manufacturing- Builds air units.": {
+        "message": "Advanced manufacturing- Builds air units."
+    }, 
+    "Advanced manufacturing- Builds bots.": {
+        "message": "Advanced manufacturing- Builds bots."
+    }, 
+    "Advanced manufacturing- Builds land vehicles.": {
+        "message": "Advanced manufacturing- Builds land vehicles."
+    }, 
+    "Advanced manufacturing- Builds naval units.": {
+        "message": "Advanced manufacturing- Builds naval units."
+    }, 
+    "Advanced manufacturing- Builds orbital satellites.": {
+        "message": "Advanced manufacturing- Builds orbital satellites."
+    }, 
+    "Advanced manufacturing- Produces energy.": {
+        "message": "Advanced manufacturing- Produces energy."
+    }, 
+    "Advanced manufacturing- Produces metal, can only be placed on metal deposits.": {
+        "message": "Advanced manufacturing- Produces metal, can only be placed on metal deposits."
+    }, 
+    "Advanced radar satellite- Detects a vast area for enemy land, sea, and air units.": {
+        "message": "Advanced radar satellite- Detects a vast area for enemy land, sea, and air units."
+    }, 
+    "Advanced radar- Detects nearby enemy land, sea, and air units.": {
+        "message": "Advanced radar- Detects nearby enemy land, sea, and air units."
+    }, 
+    "Advanced sonar- Detects underwater units.": {
+        "message": "Advanced sonar- Detects underwater units."
+    }, 
+    "Advanced turret- Equipped with anti-air turret.": {
+        "message": "Advanced turret- Equipped with anti-air turret."
+    }, 
+    "Advanced turret- Equipped with direct fire anti-land, and anti-ship defenses.": {
+        "message": "Advanced turret- Equipped with direct fire anti-land, and anti-ship defenses."
+    }, 
+    "Air Factory": {
+        "message": "Air Factory"
+    }, 
+    "Air Transport- Load a land unit for rapid long distance travel.": {
+        "message": "Air Transport- Load a land unit for rapid long distance travel."
+    }, 
+    "All Terrain Bot: Can crawl almost anywhere.": {
+        "message": "All Terrain Bot: Can crawl almost anywhere."
+    }, 
+    "Analysis: Controls things. Big things.": {
+        "message": "Analysis: Controls things. Big things."
+    }, 
+    "Anchor": {
+        "message": "Anchor"
+    }, 
+    "Ant": {
+        "message": "Ant"
+    }, 
+    "Anti-Nuke Launcher": {
+        "message": "Anti-Nuke Launcher"
+    }, 
+    "Anti-nuke - Intercepts incoming nuclear missiles.": {
+        "message": "Anti-nuke - Intercepts incoming nuclear missiles."
+    }, 
+    "Anti-nuke launcher- Equipped with advanced anti-nuclear missile weapon.": {
+        "message": "Anti-nuke launcher- Equipped with advanced anti-nuclear missile weapon."
+    }, 
+    "Artillery ship- Long range advanced guided missiles.": {
+        "message": "Artillery ship- Long range advanced guided missiles."
+    }, 
+    "Assault bot- Equipped with advanced anti-land and anti-ship lasers.": {
+        "message": "Assault bot- Equipped with advanced anti-land and anti-ship lasers."
+    }, 
+    "Assault bot- Equipped with basic anti-land and anti-ship lasers.": {
+        "message": "Assault bot- Equipped with basic anti-land and anti-ship lasers."
+    }, 
+    "Assault: Anti-land and anti-ship lasers": {
+        "message": "Assault: Anti-land and anti-ship lasers"
+    }, 
+    "Astraeus": {
+        "message": "Astraeus"
+    }, 
+    "Avenger": {
+        "message": "Avenger"
+    }, 
+    "Barracuda": {
+        "message": "Barracuda"
+    }, 
+    "Basic artillery- Equipped with medium range anti-land, and anti-ship gun.": {
+        "message": "Basic artillery- Equipped with medium range anti-land, and anti-ship gun."
+    }, 
+    "Basic defense- No weapon, high health.": {
+        "message": "Basic defense- No weapon, high health."
+    }, 
+    "Basic fabricator combatant- Wired to build mines and repair units. Can only build units for which it has a blueprint.": {
+        "message": "Basic fabricator combatant- Wired to build mines and repair units. Can only build units for which it has a blueprint."
+    }, 
+    "Basic fabricator- Wired to build naval structures.": {
+        "message": "Basic fabricator- Wired to build naval structures."
+    }, 
+    "Basic fabricator- Wired to build structures.": {
+        "message": "Basic fabricator- Wired to build structures."
+    }, 
+    "Basic manufacturing- Builds air units.": {
+        "message": "Basic manufacturing- Builds air units."
+    }, 
+    "Basic manufacturing- Builds and launches satellites and other units.": {
+        "message": "Basic manufacturing- Builds and launches satellites and other units."
+    }, 
+    "Basic manufacturing- Builds bots.": {
+        "message": "Basic manufacturing- Builds bots."
+    }, 
+    "Basic manufacturing- Builds land vehicles.": {
+        "message": "Basic manufacturing- Builds land vehicles."
+    }, 
+    "Basic manufacturing- Builds naval units.": {
+        "message": "Basic manufacturing- Builds naval units."
+    }, 
+    "Basic manufacturing- Produces energy.": {
+        "message": "Basic manufacturing- Produces energy."
+    }, 
+    "Basic manufacturing- Produces metal, can only be placed on metal deposits.": {
+        "message": "Basic manufacturing- Produces metal, can only be placed on metal deposits."
+    }, 
+    "Basic radar satellite- Detects a large area for enemy land, sea, and air units.": {
+        "message": "Basic radar satellite- Detects a large area for enemy land, sea, and air units."
+    }, 
+    "Basic radar- Detects nearby enemy land, sea, and air units.": {
+        "message": "Basic radar- Detects nearby enemy land, sea, and air units."
+    }, 
+    "Basic sonar- Detects underwater units.": {
+        "message": "Basic sonar- Detects underwater units."
+    }, 
+    "Basic turret- Equipped with anti-air missiles.": {
+        "message": "Basic turret- Equipped with anti-air missiles."
+    }, 
+    "Basic turret- Equipped with direct fire anti-land, and anti-ship defenses.": {
+        "message": "Basic turret- Equipped with direct fire anti-land, and anti-ship defenses."
+    }, 
+    "Battleship- Long range advanced anti-ship, and anti-land guns.": {
+        "message": "Battleship- Long range advanced anti-ship, and anti-land guns."
+    }, 
+    "Bluehawk": {
+        "message": "Bluehawk"
+    }, 
+    "Bolo": {
+        "message": "Bolo"
+    }, 
+    "Bomb bot- Equipped with Self Destruction mechanism.": {
+        "message": "Bomb bot- Equipped with Self Destruction mechanism."
+    }, 
+    "Bomber- Equipped with advanced anti-land and anti-naval tactical missiles.": {
+        "message": "Bomber- Equipped with advanced anti-land and anti-naval tactical missiles."
+    }, 
+    "Bomber- Equipped with basic anti-land and anti-naval bombs.": {
+        "message": "Bomber- Equipped with basic anti-land and anti-naval bombs."
+    }, 
+    "Boom": {
+        "message": "Boom"
+    }, 
+    "Bot Factory": {
+        "message": "Bot Factory"
+    }, 
+    "Bumblebee": {
+        "message": "Bumblebee"
+    }, 
+    "Catalyst": {
+        "message": "Catalyst"
+    }, 
+    "Catapult": {
+        "message": "Catapult"
+    }, 
+    "Combat Fabrication Bot": {
+        "message": "Combat Fabrication Bot"
+    }, 
+    "Combat bot- Equipped with basic anti-air missiles.": {
+        "message": "Combat bot- Equipped with basic anti-air missiles."
+    }, 
+    "Combat vehicle- Equipped with basic anti-air missiles.": {
+        "message": "Combat vehicle- Equipped with basic anti-air missiles."
+    }, 
+    "Defense satellite- Heavy orbital offensive and defensive platform with basic laser.": {
+        "message": "Defense satellite- Heavy orbital offensive and defensive platform with basic laser."
+    }, 
+    "Delta V Engine- Used to move small to medium celestial bodies.": {
+        "message": "Delta V Engine- Used to move small to medium celestial bodies."
+    }, 
+    "Destroyer- Basic anti-land and anti-ship guns.": {
+        "message": "Destroyer- Basic anti-land and anti-ship guns."
+    }, 
+    "Dolphin": {
+        "message": "Dolphin"
+    }, 
+    "Dox": {
+        "message": "Dox"
+    }, 
+    "Energy Plant": {
+        "message": "Energy Plant"
+    }, 
+    "Energy Storage": {
+        "message": "Energy Storage"
+    }, 
+    "Fabrication Aircraft": {
+        "message": "Fabrication Aircraft"
+    }, 
+    "Fabrication Bot": {
+        "message": "Fabrication Bot"
+    }, 
+    "Fabrication Ship": {
+        "message": "Fabrication Ship"
+    }, 
+    "Fabrication Sub": {
+        "message": "Fabrication Sub"
+    }, 
+    "Fabrication Vehicle": {
+        "message": "Fabrication Vehicle"
+    }, 
+    "Fabricator: Builds naval structures": {
+        "message": "Fabricator: Builds naval structures"
+    }, 
+    "Fighter- Equipped with advanced anti-air missiles.": {
+        "message": "Fighter- Equipped with advanced anti-air missiles."
+    }, 
+    "Fighter- Equipped with basic anti-air missiles.": {
+        "message": "Fighter- Equipped with basic anti-air missiles."
+    }, 
+    "Firefly": {
+        "message": "Firefly"
+    }, 
+    "Flak Cannon": {
+        "message": "Flak Cannon"
+    }, 
+    "Flame tank- Short ranged, heavy armored vehicle.": {
+        "message": "Flame tank- Short ranged, heavy armored vehicle."
+    }, 
+    "Flux": {
+        "message": "Flux"
+    }, 
+    "Frigate- Basic anti-air missiles and anti-ship guns.": {
+        "message": "Frigate- Basic anti-air missiles and anti-ship guns."
+    }, 
+    "Galata Turret": {
+        "message": "Galata Turret"
+    }, 
+    "Gas mining and metal creation satellite. Only works above gas giant planets.": {
+        "message": "Gas mining and metal creation satellite. Only works above gas giant planets."
+    }, 
+    "Gil-E": {
+        "message": "Gil-E"
+    }, 
+    "Grenadier": {
+        "message": "Grenadier"
+    }, 
+    "Grenadier- Basic assault weapons dealing area effect damage.": {
+        "message": "Grenadier- Basic assault weapons dealing area effect damage."
+    }, 
+    "Gunboat- Light weaponry, fast speed": {
+        "message": "Scout- Light weaponry, fast speed."
+    }, 
+    "Gunship- Equipped with strong anti-ground. No anti-air capabilities.": {
+        "message": "Gunship- Equipped with strong anti-ground. No anti-air capabilities."
+    }, 
+    "Halley": {
+        "message": "Halley"
+    }, 
+    "Heavy tank- Advanced short range, heavily armored vehicle.": {
+        "message": "Heavy tank- Advanced short range, heavily armored vehicle."
+    }, 
+    "Holkins": {
+        "message": "Holkins"
+    }, 
+    "Hornet": {
+        "message": "Hornet"
+    }, 
+    "Hummingbird": {
+        "message": "Hummingbird"
+    }, 
+    "Inferno": {
+        "message": "Inferno"
+    }, 
+    "Ion defense platform- Designed to take out orbital units above it.": {
+        "message": "Ion defense platform- Designed to take out orbital units above it."
+    }, 
+    "Jellyfish": {
+        "message": "Jellyfish"
+    }, 
+    "Jig": {
+        "message": "Jig"
+    }, 
+    "Kestrel": {
+        "message": "Kestrel"
+    }, 
+    "LR-96 -Pacifier- Missile": {
+        "message": "LR-96 -Pacifier- Missile"
+    }, 
+    "Land Mine": {
+        "message": "Land Mine"
+    }, 
+    "Land mine- Detonates when enemy units are in proximity.": {
+        "message": "Land mine- Detonates when enemy units are in proximity."
+    }, 
+    "Laser Defense Tower": {
+        "message": "Laser Defense Tower"
+    }, 
+    "Laser tank- Equipped with advanced anti-land and anti-ship guns.": {
+        "message": "Laser tank- Equipped with advanced anti-land and anti-ship guns."
+    }, 
+    "Leveler": {
+        "message": "Leveler"
+    }, 
+    "Leviathan": {
+        "message": "Leviathan"
+    }, 
+    "Light tank- Equipped with basic anti-land and anti-ship guns.": {
+        "message": "Light tank- Equipped with basic anti-land and anti-ship guns."
+    }, 
+    "Manufacturing- Increases maximum energy storage capacity.": {
+        "message": "Manufacturing- Increases maximum energy storage capacity."
+    }, 
+    "Manufacturing- Increases maximum metal storage capacity.": {
+        "message": "Manufacturing- Increases maximum metal storage capacity."
+    }, 
+    "Manufacturing- Orbital energy generation.": {
+        "message": "Manufacturing- Orbital energy generation."
+    }, 
+    "Metal Extractor": {
+        "message": "Metal Extractor"
+    }, 
+    "Metal Storage": {
+        "message": "Metal Storage"
+    }, 
+    "Mortar tank- Equipped with advanced mobile artillery.": {
+        "message": "Mortar tank- Equipped with advanced mobile artillery."
+    }, 
+    "Narwhal": {
+        "message": "Narwhal"
+    }, 
+    "Naval Factory": {
+        "message": "Naval Factory"
+    }, 
+    "Nuclear Missile Launcher": {
+        "message": "Nuclear Missile Launcher"
+    }, 
+    "Nuclear missile - Long range, large area damage, projectile": {
+        "message": "Nuclear missile - Long range, large area damage, projectile"
+    }, 
+    "Nuclear missile launcher- Equipped with advanced long range, large area damage, nuclear missile.": {
+        "message": "Nuclear missile launcher- Equipped with advanced long range, large area damage, nuclear missile."
+    }, 
+    "Orbital Fabrication Bot": {
+        "message": "Orbital Fabrication Bot"
+    }, 
+    "Orbital Factory": {
+        "message": "Orbital Factory"
+    }, 
+    "Orbital Launcher": {
+        "message": "Orbital Launcher"
+    }, 
+    "Orbital and Deepspace Radar": {
+        "message": "Orbital and Deepspace Radar"
+    }, 
+    "Orbital and deepspace radar- Orbital and Celestial radar telemetry.": {
+        "message": "Orbital and deepspace radar- Orbital and Celestial radar telemetry."
+    }, 
+    "Orbital fighter- Fast moving orbital fighter for offense and defense.": {
+        "message": "Orbital fighter- Fast moving orbital fighter for offense and defense."
+    }, 
+    "Orbital lander- Load it up, get units to other planets.": {
+        "message": "Orbital lander- Load it up, get units to other planets."
+    }, 
+    "Orbital laser platform- Rains death from above.": {
+        "message": "Orbital laser platform- Rains death from above."
+    }, 
+    "Orca": {
+        "message": "Orca"
+    }, 
+    "Pelican": {
+        "message": "Pelican"
+    }, 
+    "Pelter": {
+        "message": "Pelter"
+    }, 
+    "Peregrine": {
+        "message": "Peregrine"
+    }, 
+    "Radar": {
+        "message": "Radar"
+    }, 
+    "Recluse": {
+        "message": "Recluse"
+    }, 
+    "SR-24 -Shield- Missile Defense": {
+        "message": "SR-24 -Shield- Missile Defense"
+    }, 
+    "SXX-1304 Laser Platform": {
+        "message": "SXX-1304 Laser Platform"
+    }, 
+    "Scout- Weak, fast speed.": {
+        "message": "Scout- Weak, fast speed."
+    }, 
+    "Sea mine- Detonates when ships are in proximity.": {
+        "message": "Sea mine- Detonates when ships are in proximity."
+    }, 
+    "Sheller": {
+        "message": "Sheller"
+    }, 
+    "Single Laser Defense Tower": {
+        "message": "Single Laser Defense Tower"
+    }, 
+    "Skitter": {
+        "message": "Skitter"
+    }, 
+    "Slammer": {
+        "message": "Slammer"
+    }, 
+    "Sniper- Long range advanced anti-land, and anti-ship bot.": {
+        "message": "Sniper- Long range advanced anti-land, and anti-ship bot."
+    }, 
+    "Solar Array": {
+        "message": "Solar Array"
+    }, 
+    "Sonar": {
+        "message": "Sonar"
+    }, 
+    "Spinner": {
+        "message": "Spinner"
+    }, 
+    "Stinger": {
+        "message": "Stinger"
+    }, 
+    "Stingray": {
+        "message": "Stingray"
+    }, 
+    "Sub Class: Anti-sub and anti-ship torpedoes, long range ballistic nuclear missile": {
+        "message": "Sub Class: Anti-sub and anti-ship torpedoes, long range ballistic nuclear missile"
+    }, 
+    "Submarine Class: Anti-sub and anti-ship torpedoes": {
+        "message": "Submarine Class: Anti-sub and anti-ship torpedoes"
+    }, 
+    "Tactical missile bot- Medium range advanced artillery bot.": {
+        "message": "Tactical missile bot- Medium range advanced artillery bot."
+    }, 
+    "Tactical missile launcher- Equipped with advanced long range anti-land missile launcher.": {
+        "message": "Tactical missile launcher- Equipped with advanced long range anti-land missile launcher."
+    }, 
+    "Tank: Anti-land and anti-ship guns": {
+        "message": "Tank: Anti-land and anti-ship guns"
+    }, 
+    "Teleporter": {
+        "message": "Teleporter"
+    }, 
+    "Teleporter: Teleports units from one to another.": {
+        "message": "Teleporter: Teleports units from one to another."
+    }, 
+    "Torpedo Launcher": {
+        "message": "Torpedo Launcher"
+    }, 
+    "Torpedo Launcher- Advanced anti-ship defense.": {
+        "message": "Torpedo Launcher- Advanced anti-ship defense."
+    }, 
+    "Torpedo Launcher- Basic anti-ship defense.": {
+        "message": "Torpedo Launcher- Basic anti-ship defense."
+    }, 
+    "Umbrella": {
+        "message": "Umbrella"
+    }, 
+    "Unit Cannon": {
+        "message": "Unit Cannon"
+    }, 
+    "Unit Cannon: Long range unit dispersal": {
+        "message": "Unit Cannon: Long range unit dispersal"
+    }, 
+    "Vanguard": {
+        "message": "Vanguard"
+    }, 
+    "Vehicle Factory": {
+        "message": "Vehicle Factory"
+    }, 
+    "Wall": {
+        "message": "Wall"
+    }
+}

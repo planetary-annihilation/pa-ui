@@ -1,0 +1,23 @@
+{
+    "Factories": {
+        "message": "Factories"
+    }, 
+    "PA Guide: Factories": {
+        "message": "PA Guide: Factories"
+    }, 
+    "Select a Factory to get access to Build Bar": {
+        "message": "Select a Factory to get access to Build Bar"
+    }, 
+    "[style=text_callout]Control + Left Click[/style] a unit to make a factory produce a single one of that unit before continuing with the rest of the build queue.": {
+        "message": "[style=text_callout]Control + Left Click[/style] a unit to make a factory produce a single one of that unit before continuing with the rest of the build queue."
+    }, 
+    "[style=text_callout]Left Click[/style] units on Build Bar to build": {
+        "message": "[style=text_callout]Left Click[/style] units on Build Bar to build"
+    }, 
+    "[style=text_callout]Right Click[/style] or [style=text_callout]Shift + Right Click[/style] on units to reduce number of units in queue": {
+        "message": "[style=text_callout]Right Click[/style] or [style=text_callout]Shift + Right Click[/style] on units to reduce number of units in queue"
+    }, 
+    "[style=text_callout]Shift + Left Click[/style] units on Build Bar to build multiple": {
+        "message": "[style=text_callout]Shift + Left Click[/style] units on Build Bar to build multiple"
+    }
+}

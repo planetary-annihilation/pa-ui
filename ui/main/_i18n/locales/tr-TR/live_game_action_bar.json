@@ -1,0 +1,44 @@
+{
+    "AT WILL": {
+        "message": "SERBEST"
+    }, 
+    "BUILD MODE": {
+        "message": "\u00dcRET\u0130M MODU"
+    }, 
+    "CONTINUOUS": {
+        "message": "S\u00dcREKL\u0130"
+    }, 
+    "ENERGY ORDERS": {
+        "message": "ENERJ\u0130 EM\u0130RLER\u0130"
+    }, 
+    "FIRE ORDERS": {
+        "message": "ATE\u015e EM\u0130RLER\u0130"
+    }, 
+    "HOLD": {
+        "message": "TUT"
+    }, 
+    "HOLD POSITION": {
+        "message": "POZ\u0130SYONU KORU"
+    }, 
+    "MANUEVER": {
+        "message": "MANEVRA"
+    }, 
+    "MOVE ORDERS": {
+        "message": "G\u0130T EM\u0130RLER\u0130"
+    }, 
+    "NORMAL": {
+        "message": "NORMAL"
+    }, 
+    "OFF": {
+        "message": "KAPALI"
+    }, 
+    "ON": {
+        "message": "A\u00c7IK"
+    }, 
+    "RETURN FIRE": {
+        "message": "KAR\u015eI ATE\u015e"
+    }, 
+    "ROAM": {
+        "message": "DOLA\u015eIM"
+    }
+}

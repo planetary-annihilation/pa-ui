@@ -1,0 +1,26 @@
+{
+    "Annihilated": {
+        "message": "\u0202\u019e\u019e\u0457\u043d\u0457\u230a\u0203\u04ad\u1f73\u0257\u03a9\u03a9\u03a9\u03a9\u03a9", 
+        "original": "Annihilated"
+    }, 
+    "Archived Wars": {
+        "message": "\u0202\u0213\u03f2\u043d\u0457\u0477\u1f73\u0257 \u20a9\u0203\u0213\u01a8\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9", 
+        "original": "Archived Wars"
+    }, 
+    "Details": {
+        "message": "\u0189\u1f73\u04ad\u0203\u0457\u230a\u01a8\u03a9\u03a9\u03a9", 
+        "original": "Details"
+    }, 
+    "Turns:": {
+        "message": "\u4e01\u0574\u0213\u019e\u01a8:\u03a9\u03a9\u03a9", 
+        "original": "Turns:"
+    }, 
+    "Victory": {
+        "message": "\u0476\u0457\u03f2\u04ad\u020f\u0213\u0443\u03a9\u03a9\u03a9", 
+        "original": "Victory"
+    }, 
+    "Wins:": {
+        "message": "\u20a9\u0457\u019e\u01a8:\u03a9\u03a9", 
+        "original": "Wins:"
+    }
+}

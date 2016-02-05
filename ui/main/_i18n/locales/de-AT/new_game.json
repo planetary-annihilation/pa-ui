@@ -1,0 +1,122 @@
+{
+    "- Host": {
+        "message": "- Host"
+    }, 
+    "AI Commander": {
+        "message": "KI Commander "
+    }, 
+    "Add AI": {
+        "message": "KI hinzuf\u00fcgen"
+    }, 
+    "Add AI Commander": {
+        "message": "KI Commander hinzuf\u00fcgen"
+    }, 
+    "Add Slot": {
+        "message": "Slot hinzuf\u00fcgen."
+    }, 
+    "Alliance Victory": {
+        "message": "Sieg durch Unterwerfung"
+    }, 
+    "Browse...": {
+        "message": "Durchsuchen..."
+    }, 
+    "CONNECTION TO SERVER LOST": {
+        "message": "Verbindung zum Server verloren"
+    }, 
+    "Chat": {
+        "message": "Chat"
+    }, 
+    "Cheats": {
+        "message": "Cheats"
+    }, 
+    "Dynamic Alliances": {
+        "message": "Dynamische Allianzen"
+    }, 
+    "Empty": {
+        "message": "Leer"
+    }, 
+    "Free For All": {
+        "message": "Alle gegen Alle"
+    }, 
+    "Friends": {
+        "message": "Freunde"
+    }, 
+    "Game Lobby": {
+        "message": "Spiel Lobby"
+    }, 
+    "Game Mode": {
+        "message": "Spielmodus:"
+    }, 
+    "Global Spectator Chat": {
+        "message": "Globaler Zuschauer-Chat"
+    }, 
+    "Join": {
+        "message": "Beitritt"
+    }, 
+    "Kick": {
+        "message": "Kick"
+    }, 
+    "Leave": {
+        "message": "Verlassen"
+    }, 
+    "New System": {
+        "message": "Neues System"
+    }, 
+    "Open to:": {
+        "message": "\u00d6ffnen f\u00fcr:"
+    }, 
+    "Player Slot": {
+        "message": "Spieler Slot"
+    }, 
+    "Player chooses spot on starting planet": {
+        "message": "Spieler w\u00e4hlt einen  Ort auf dem Anfangsplaneten"
+    }, 
+    "Players)": {
+        "message": "Spieler)"
+    }, 
+    "Private": {
+        "message": "Privat"
+    }, 
+    "Public": {
+        "message": "\u00d6ffentlich"
+    }, 
+    "Ready": {
+        "message": "Bereit"
+    }, 
+    "Remove": {
+        "message": "Entfernen"
+    }, 
+    "Returning to Main Menu": {
+        "message": "Zur\u00fcckkehren zum Hauptmen\u00fc"
+    }, 
+    "SHARE ARMY": {
+        "message": "Armee teilen"
+    }, 
+    "Server Mods": {
+        "message": "Server Mods"
+    }, 
+    "Spectate": {
+        "message": "Zuschauen"
+    }, 
+    "Spectators": {
+        "message": "Zuschauer"
+    }, 
+    "Start Game": {
+        "message": "Starte Spiel"
+    }, 
+    "System": {
+        "message": "System"
+    }, 
+    "Tag:": {
+        "message": "Tag:"
+    }, 
+    "Team Armies": {
+        "message": "Team Armee"
+    }, 
+    "Title": {
+        "message": "Titel"
+    }, 
+    "You must have friends to play a friends-only game.": {
+        "message": "Du ben\u00f6tigst Freunde um ein Freunde-Spiel zu spielen."
+    }
+}

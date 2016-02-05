@@ -1,0 +1,102 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <noloc><title>Live Game: Stats</title></noloc>
+    <script src="bundle://boot/boot.js" type="text/javascript"></script>
+    <script src="coui://ui/main/shared/js/thirdparty/flot/jquery.flot.min.js" type="text/javascript"></script>
+    <script src="gamestats.js" type="text/javascript"></script>
+    <link href="bundle://boot/boot.css" rel="stylesheet" type="text/css" />
+    <link href="coui://ui/main/game/game_over/game_over.css" rel="stylesheet" type="text/css" />
+    <link href="gamestats.css" rel="stylesheet" type="text/css" />
+</head>
+<body class="body_panel" style="display: none" data-bind="visible: show, click: maybeExitStats">
+    <div class="div_game_stats" style="height: 100%; width: 100%; display: flex; align-items: center; justify-content: center; background: rgba(0,0,0,.5);">
+        <div class="div_panel_bar_background div_panel_bar_background_summary">
+            <div class="div_end_game_msg">
+                <div class="end_msg summary">
+                    <loc>GAME SUMMARY</loc>
+                </div>
+                <!-- ko if: gameIsOnGoing -->
+                <div class="username summary"><loc>In Progress</loc></div>
+                <!-- /ko -->
+
+                <!-- ko ifnot: gameIsOnGoing -->
+                <div class="username summary">
+                    <!-- ko if: (model.victors().length == 1) -->
+                    <span><loc>Winner:</loc></span>
+                    <!-- /ko -->
+
+                    <!-- ko if: (model.victors().length > 1) -->
+                    <span><loc>Winners:</loc></span>
+                    <!-- /ko -->
+
+                    <!-- ko ifnot: (model.victors().length) -->
+                    <span><loc>Draw</loc></span>
+                    <!-- /ko -->
+                    <noloc>&nbsp;</noloc>
+                    <!-- ko foreach: victors -->
+                    <span data-bind="text: $data"></span>
+                    <span data-bind="visible: ($index() !== model.victors().length - 1)">,&nbsp;</span>
+                    <!-- /ko -->
+                </div>
+                <!-- /ko -->
+            </div>
+            <div class="div_game_summary_panel" data-bind="click: preventExitStats">
+                <div class="div_game_summary">
+                    <!--- GRAPH -->
+                    <div id="graph_container" style="display:flex;" data-bind="visible: true">
+                        <table>
+                            <tbody>
+                                <tr>
+                                    <td style="border-right: 1px solid #333;">
+                                        <div class="div_army_select_cont">
+                                            <!-- ko foreach: activeData -->
+                                            <div class="control_army_select" data-bind="click: function () { model.toggleActiveData($index()); }">
+                                                <label class="btn_std_ix">
+                                                    <input type="checkbox" data-bind="checked: true, visible: model.activeData()[$index()]" style="margin: 4px 2px 0px 10px; " />
+                                                    <input type="checkbox" data-bind="checked: false, visible: !model.activeData()[$index()]" style="margin: 4px 2px 0px 10px; " />                  
+                                                    <span class="team_color" data-bind="style: { background: model.armyColors()[$index()] }"></span>
+                                                    <span class="control_username" data-bind="text: model.armyNames()[$index()]"></span>
+                                                </label>
+                                            </div>
+                                            <!-- /ko -->
+                                        </div>
+                                    </td>
+                                    <td style="padding-left:10px;">
+                                        <div id="stat-select-cont" data-bind="foreach: definitions">
+                                            <div class="one-stat-selector btn_std_ix"
+                                                data-bind="locText: $data.label,
+                                                click: function () { $parent.selectedStat($data.name) },
+                                                css: { selected: $parent.selectedStat() === $data.name }">
+                                            </div>
+                                        </div>
+                                    </td>
+                                    <td style="width:100%;">
+                                        <div id="graph" style="height:100%; width:100%; position:absolute;"></div>
+                                    </td>
+                                </tr>
+                                <!-- ko if: false -->
+                                <tr>
+                                    <td colspan="3">
+                                        <div style="height: 20px; width: 100%; display: flex; align-items:center; justify-content: center; margin-top: 12px; font-family: 'Sansation Bold'; font-size: 16px; color: #fff;">
+                                            <img style="margin: 0px 8px 0px 0px;" class="working small" src="coui://ui/main/shared/img/working.svg" /><loc>Retrieving Stats...</loc>
+                                        </div>
+                                    </td>
+                                </tr>
+                                <!-- /ko -->
+                            </tbody>
+                        </table>
+
+                    </div>
+                </div>
+                <div class="div_stats_panel_options" style="margin:0px 0px 20px 0px;">
+                    <div>
+                        <input type="button" value="CLOSE" id="" class="" data-bind="click: close, click_sound: 'default', rollover_sound: 'default'" />
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

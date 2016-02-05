@@ -1,0 +1,221 @@
+{
+    "2m": {
+        "message": "2m"
+    }, 
+    "ALLY": {
+        "message": "BONDEGENOOT"
+    }, 
+    "ANNIHILATE": {
+        "message": "VERNIETIG"
+    }, 
+    "APS:": {
+        "message": "APS"
+    }, 
+    "ARMY": {
+        "message": "LEGER"
+    }, 
+    "AT WILL": {
+        "message": "NAAR BELIEVEN"
+    }, 
+    "Accept": {
+        "message": "Accepteer"
+    }, 
+    "Activate planetary laser": {
+        "message": "Activeer planetaire laser"
+    }, 
+    "Alliance Request": {
+        "message": "Verzoek tot Alliantie"
+    }, 
+    "Alliance requested": {
+        "message": "Verzoek tot alliantie"
+    }, 
+    "Allied": {
+        "message": "Gealli\u00eberd"
+    }, 
+    "Allied With:": {
+        "message": "Gealli\u00eberd met:"
+    }, 
+    "Anti-nuke - Intercepts incoming nuclear missiles.": {
+        "message": "Anti-Atoomraket - Onderschept vijandelijk atoomraketten."
+    }, 
+    "Awesome": {
+        "message": "Ontzagwekkend"
+    }, 
+    "BP:": {
+        "message": "BK:"
+    }, 
+    "BUILD MODE": {
+        "message": "BOUW MODUS"
+    }, 
+    "CONNECTION TO SERVER LOST": {
+        "message": "VERBINDING MET SERVER VERLOREN"
+    }, 
+    "CONTINUOUS": {
+        "message": "ONAFGEBROKEN"
+    }, 
+    "Cancel": {
+        "message": "Annuleer"
+    }, 
+    "Change orbit": {
+        "message": "Verander baan"
+    }, 
+    "Close": {
+        "message": "Sluit"
+    }, 
+    "Count": {
+        "message": "Aantal"
+    }, 
+    "DEV MODE": {
+        "message": "Ontwerpmodus"
+    }, 
+    "DMG:": {
+        "message": "SCHADE:"
+    }, 
+    "ECONOMY": {
+        "message": "ECONOMIE"
+    }, 
+    "EFF:": {
+        "message": "EFF:"
+    }, 
+    "ENERGY ORDERS": {
+        "message": "ENERGIE ORDERS"
+    }, 
+    "Efficiency": {
+        "message": "Efficientie"
+    }, 
+    "Enemy Contact!": {
+        "message": "Contact met de Vijand!"
+    }, 
+    "Exit Game?": {
+        "message": "Verlaat Spel?"
+    }, 
+    "FIRE ORDERS": {
+        "message": "VUUR ORDERS"
+    }, 
+    "Fabber": {
+        "message": "Fabriceerder"
+    }, 
+    "Factory": {
+        "message": "Fabriek"
+    }, 
+    "GAME PAUSED": {
+        "message": "SPEL GEPAUZEERD"
+    }, 
+    "HOLD": {
+        "message": "BLIJF"
+    }, 
+    "HOLD POSITION": {
+        "message": "BEHOUD POSITIE"
+    }, 
+    "Ignore": {
+        "message": "Negeren"
+    }, 
+    "LR-96 -Pacifier- Missile": {
+        "message": "LR-96 -Pacificatie- Raket"
+    }, 
+    "MANUEVER": {
+        "message": "MANEUVER"
+    }, 
+    "MOVE ORDERS": {
+        "message": "BEWEGINGS ORDERS"
+    }, 
+    "Mobile": {
+        "message": "Mobiel"
+    }, 
+    "NORMAL": {
+        "message": "NORMAAL"
+    }, 
+    "Nuclear missile - Long range, large area damage, projectile.": {
+        "message": "Atoomraket - Lange afstand, groot schadegebied, projectiel."
+    }, 
+    "OFF": {
+        "message": "UIT"
+    }, 
+    "ON": {
+        "message": "AAN"
+    }, 
+    "PLAYER": {
+        "message": "SPELER"
+    }, 
+    "Pick a location inside one of the green zones to spawn your Commander.": {
+        "message": "Kies een locatie binnen \u00e9\u00e9n van de groene zones waar uw commandant zal aankomen."
+    }, 
+    "Ping!": {
+        "message": "Ping!"
+    }, 
+    "Position targeted. Click to confirm.": {
+        "message": "Positie gemarkeerd. Klik om te bevestigen."
+    }, 
+    "RESC": {
+        "message": "RESC"
+    }, 
+    "RETURN FIRE": {
+        "message": "TERUGVUREN"
+    }, 
+    "ROAM": {
+        "message": "ZWERF"
+    }, 
+    "Request pending": {
+        "message": "Verzoek in behandeling"
+    }, 
+    "Returning to Main Menu": {
+        "message": "Aan het terugkeren naar hoofdmenu"
+    }, 
+    "SANDBOX": {
+        "message": "ZANDBAK"
+    }, 
+    "SR-24 -Shield- Missile Defense": {
+        "message": "SR-24 -Schild- Raketafweer"
+    }, 
+    "START ANNIHILATION": {
+        "message": "START VERNIETIGING"
+    }, 
+    "Select a new gravity well.": {
+        "message": "Selecteer een nieuw zwaartekrachtveld."
+    }, 
+    "Select a planet to attack.": {
+        "message": "Selecteer een planeet om aan te vallen."
+    }, 
+    "Select a planet to destroy.": {
+        "message": "Selecteer een planeet om te vernietigen."
+    }, 
+    "Set course for annihilation": {
+        "message": "Stel koers in voor vernietiging"
+    }, 
+    "Set target spot": {
+        "message": "Selecteer doelwit"
+    }, 
+    "Then confirm destination to set course.": {
+        "message": "Bevestig de bestemming om koers te zetten"
+    }, 
+    "Unknown": {
+        "message": "Onbekend"
+    }, 
+    "Waiting for other players to select a spawn location.": {
+        "message": "Wachten tot de andere spelers een startlocatie geselecteerd hebben."
+    }, 
+    "Yes": {
+        "message": "Ja"
+    }, 
+    "destroyed.": {
+        "message": "vernietigd"
+    }, 
+    "launched!": {
+        "message": "Gelanceerd!"
+    }, 
+    "located.": {
+        "message": "gevonden"
+    }, 
+    "lost.": {
+        "message": "Verloren."
+    }, 
+    "ready.": {
+        "message": "klaar;"
+    }, 
+    "under attack.": {
+        "message": "onder aanval."
+    }, 
+    "v": {
+        "message": "v"
+    }
+}

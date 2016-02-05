@@ -1,0 +1,26 @@
+{
+    "CONNECTION TO SERVER FAILED": {
+        "message": "\u7121\u6cd5\u8207\u4f3a\u670d\u5668\u5efa\u7acb\u9023\u7dda"
+    }, 
+    "CONNECTION TO SERVER LOST": {
+        "message": "\u8207\u4f3a\u670d\u5668\u7684\u9023\u7dda\u5df2\u4e2d\u65b7"
+    }, 
+    "FAILED TO JOIN GAME": {
+        "message": "\u7121\u6cd5\u52a0\u5165\u904a\u6232"
+    }, 
+    "FAILED TO START GAME": {
+        "message": "\u7121\u6cd5\u958b\u59cb\u904a\u6232"
+    }, 
+    "FAILED TO START REPLAY": {
+        "message": "\u7121\u6cd5\u64a5\u653e\u6230\u9b25\u9304\u5f71"
+    }, 
+    "LOGIN ACCEPTED": {
+        "message": "\u63a5\u53d7\u767b\u5165"
+    }, 
+    "LOGIN TO SERVER REJECTED": {
+        "message": "\u4f3a\u670d\u5668\u62d2\u7d55\u767b\u5165"
+    }, 
+    "Returning to Main Menu": {
+        "message": "\u8fd4\u56de\u4e3b\u76ee\u9304"
+    }
+}

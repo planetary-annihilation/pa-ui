@@ -1,0 +1,86 @@
+{
+    "- Host": {
+        "message": ": \u4e3b\u6301"
+    }, 
+    "AI Commander": {
+        "message": "AI \u6307\u63ee\u5b98"
+    }, 
+    "Add AI Commander": {
+        "message": "\u65b0\u589e AI \u6307\u63ee\u5b98"
+    }, 
+    "Add Slot": {
+        "message": "\u65b0\u589e\u6b04\u4f4d"
+    }, 
+    "CONNECTION TO SERVER LOST": {
+        "message": "\u8207\u4f3a\u670d\u5668\u7684\u9023\u7dda\u5df2\u4e2d\u65b7"
+    }, 
+    "Chat": {
+        "message": "\u4ea4\u8ac7"
+    }, 
+    "Empty": {
+        "message": "\u7a7a"
+    }, 
+    "Free For All": {
+        "message": "\u81ea\u7531\u4ea4\u6230"
+    }, 
+    "Friends": {
+        "message": "\u597d\u53cb"
+    }, 
+    "Game Lobby": {
+        "message": "\u904a\u6232\u5927\u5ef3"
+    }, 
+    "Game Mode": {
+        "message": "\u904a\u6232\u6a21\u5f0f:"
+    }, 
+    "Join": {
+        "message": "\u52a0\u5165"
+    }, 
+    "Kick": {
+        "message": "\u8e22\u9664"
+    }, 
+    "Leave": {
+        "message": "\u96e2\u958b"
+    }, 
+    "Open to:": {
+        "message": "\u5c0d ... \u516c\u958b:"
+    }, 
+    "Player Slot": {
+        "message": "\u73a9\u5bb6\u6b04\u4f4d"
+    }, 
+    "Private": {
+        "message": "\u79c1\u4eba"
+    }, 
+    "Public": {
+        "message": "\u516c\u958b"
+    }, 
+    "Ready": {
+        "message": "\u6e96\u5099"
+    }, 
+    "Remove": {
+        "message": "\u79fb\u9664"
+    }, 
+    "Returning to Main Menu": {
+        "message": "\u6b63\u5f0f\u8fd4\u56de\u4e3b\u76ee\u7da0"
+    }, 
+    "SHARE ARMY": {
+        "message": "\u5171\u7528\u8ecd\u5718"
+    }, 
+    "Spectate": {
+        "message": "\u89c0\u6230"
+    }, 
+    "Spectators": {
+        "message": "\u89c0\u6230\u8005"
+    }, 
+    "Start Game": {
+        "message": "\u958b\u59cb\u904a\u6232"
+    }, 
+    "System": {
+        "message": "\u661f\u7cfb:"
+    }, 
+    "Team Armies": {
+        "message": "\u5718\u968a\u8ecd\u5718"
+    }, 
+    "You must have friends to play a friends-only game.": {
+        "message": "\u4f60\u5fc5\u9808\u6709\u597d\u53cb\u624d\u80fd\u9032\u884c\u4e00\u9032\u53ea\u63a5\u53d7\u597d\u53cb\u7684\u904a\u6232\u3002"
+    }
+}

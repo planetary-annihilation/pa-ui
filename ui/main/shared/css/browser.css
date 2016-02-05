@@ -1,0 +1,118 @@
+/* file from rBrowser mod by Raevn */
+
+#browser {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	padding-top: 100px;
+	padding-bottom: 100px;
+	padding-left: 100px;
+	padding-right: 100px;
+	box-sizing: border-box;
+	z-index: 1;
+}
+
+.div_browser {
+	position: relative;
+	width: 100%;
+	height: 100%;
+}
+.div_browser_cont {
+	position: absolute;
+	left: 28px;
+	right: 28px;
+	top: 28px;
+	bottom: 28px;
+	background-image: url('coui://ui/main/shared/img/browser/browser_middle.png');
+}
+
+.div_browser_iframe_cont {
+	position: absolute;
+	left: 0px;
+	right: 0px;
+	top: 26px;
+	bottom: 0px;
+}
+
+#browser_iframe {
+	width: 100%;
+	height: 100%;
+	border: 1px solid #444444;
+}
+
+.div_back_btn {
+}
+
+.browser_title {
+	float: left;
+}
+
+.browser_top_left {
+	width: 28px;
+	height: 28px;
+	position: absolute;
+	left: 0px;
+	background-image: url('coui://ui/main/shared/img/browser/browser_top_left.png');
+}
+
+.browser_top_middle {
+	height: 28px;
+	position: absolute;
+	left: 28px;
+	right: 28px;
+	background-image: url('coui://ui/main/shared/img/browser/browser_top_middle.png');
+}
+
+.browser_top_right {
+	width: 28px;
+	height: 28px;
+	position: absolute;
+	right: 0px;
+	background-image: url('coui://ui/main/shared/img/browser/browser_top_right.png');
+}
+
+
+.browser_bottom_left {
+	width: 28px;
+	height: 28px;
+	position: absolute;
+	left: 0px;
+	bottom: 0px;
+	background-image: url('coui://ui/main/shared/img/browser/browser_bottom_left.png');
+}
+
+.browser_bottom_middle {
+	height: 28px;
+	position: absolute;
+	left: 28px;
+	right: 28px;
+	bottom: 0px;
+	background-image: url('coui://ui/main/shared/img/browser/browser_bottom_middle.png');
+}
+
+.browser_bottom_right {
+	width: 28px;
+	height: 28px;
+	position: absolute;
+	right: 0px;
+	bottom: 0px;
+	background-image: url('coui://ui/main/shared/img/browser/browser_bottom_right.png');
+}
+
+.browser_left_middle {
+	width: 28px;
+	position: absolute;
+	top: 28px;
+	bottom: 28px;
+	left: 0px;
+	background-image: url('coui://ui/main/shared/img/browser/browser_left_middle.png');
+}
+
+.browser_right_middle {
+	width: 28px;
+	position: absolute;
+	top: 28px;
+	bottom: 28px;
+	right: 0px;
+	background-image: url('coui://ui/main/shared/img/browser/browser_right_middle.png');
+}

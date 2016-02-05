@@ -1,0 +1,44 @@
+{
+    "AT WILL": {
+        "message": "TETSZ\u00c9S SZERINT"
+    }, 
+    "BUILD MODE": {
+        "message": "\u00c9P\u00cdT\u00c9SI M\u00d3D"
+    }, 
+    "CONTINUOUS": {
+        "message": "FOLYTONOS"
+    }, 
+    "ENERGY ORDERS": {
+        "message": "ENERGIA PARANCSOK"
+    }, 
+    "FIRE ORDERS": {
+        "message": "T\u0170Z PARANCSOK"
+    }, 
+    "HOLD": {
+        "message": "TART"
+    }, 
+    "HOLD POSITION": {
+        "message": "POZ\u00cdCI\u00d3 TART\u00c1SA"
+    }, 
+    "MANUEVER": {
+        "message": "MAN\u0150VER"
+    }, 
+    "MOVE ORDERS": {
+        "message": "MOZG\u00c1SI PARANCSOK"
+    }, 
+    "NORMAL": {
+        "message": "NORM\u00c1L"
+    }, 
+    "OFF": {
+        "message": "KI"
+    }, 
+    "ON": {
+        "message": "BE"
+    }, 
+    "RETURN FIRE": {
+        "message": "T\u0170Z VISZONOZ\u00c1S"
+    }, 
+    "ROAM": {
+        "message": "K\u00d3BORL\u00c1S"
+    }
+}

@@ -1,0 +1,89 @@
+{
+    "Account Name:": {
+        "message": "Accountnaam:"
+    }, 
+    "Add To Cart": {
+        "message": "Aan winkelwagen toevoegen"
+    }, 
+    "Armory": {
+        "message": "Arsenaal"
+    }, 
+    "Badges": {
+        "message": "Insignes"
+    }, 
+    "CHECKOUT": {
+        "message": "NAAR KASSA"
+    }, 
+    "Cancel": {
+        "message": "Annuleren"
+    }, 
+    "Cart": {
+        "message": "Winkelwagen"
+    }, 
+    "Commanders": {
+        "message": "Commandanten"
+    }, 
+    "Confirmation code:": {
+        "message": "Bevestigingscode:"
+    }, 
+    "Confirmation of your purchase is provided below.": {
+        "message": "De bevestiging van uw bestelling vindt u hieronder."
+    }, 
+    "Continue Shopping": {
+        "message": "Doorgaan met winkelen"
+    }, 
+    "Credit applied:": {
+        "message": "Tegoed gebruikt:"
+    }, 
+    "Designed in collaboration with": {
+        "message": "Ontworpen in samenwerking met"
+    }, 
+    "Go to Main Menu": {
+        "message": "Ga naar het hoofdmenu"
+    }, 
+    "Here's your receipt.": {
+        "message": "Hier is uw factuur."
+    }, 
+    "Item": {
+        "message": "Product"
+    }, 
+    "Item is already in cart.": {
+        "message": "Product is al in de winkelwagen."
+    }, 
+    "Kickstarter Backer": {
+        "message": "Kickstarter Backer"
+    }, 
+    "Price": {
+        "message": "Prijs"
+    }, 
+    "REMOVE": {
+        "message": "VERWIJDEREN"
+    }, 
+    "Redeem": {
+        "message": "Inwisselen"
+    }, 
+    "Refresh": {
+        "message": "Verversen"
+    }, 
+    "Return to Armory": {
+        "message": "Naar het arsenaal terugkeren"
+    }, 
+    "Set As Default Commander": {
+        "message": "Als standaardcommandant instellen"
+    }, 
+    "Thank you for your purchase.": {
+        "message": "Bedankt voor uw aankoop."
+    }, 
+    "Total:": {
+        "message": "Totaal:"
+    }, 
+    "Updating...": {
+        "message": "Updaten..."
+    }, 
+    "Your cart is empty.": {
+        "message": "Uw winkelwagen is leeg."
+    }, 
+    "Your purchased items are now registered to your account and are accessible in the game.": {
+        "message": "Uw aangeschafte producten zijn nu toegevoegd aan uw account en zijn beschikbaar in het spel."
+    }
+}

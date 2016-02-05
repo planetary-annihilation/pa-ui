@@ -1,0 +1,14 @@
+{
+    "Cancel": {
+        "message": "Cancelar"
+    }, 
+    "Loading Game": {
+        "message": "Cargando la partida"
+    }, 
+    "Loading Replay": {
+        "message": "Cargando repetición"
+    }, 
+    "Starting replay server, please be patient...": {
+        "message": "Iniciando el servidor de repetición..."
+    }
+}

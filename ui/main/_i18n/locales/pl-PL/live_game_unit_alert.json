@@ -1,0 +1,29 @@
+{
+    "Allied": {
+        "message": "W sojuszu z:"
+    }, 
+    "Enemy Contact!": {
+        "message": "Zlokalizowano nieprzyjaciela!"
+    }, 
+    "Ping!": {
+        "message": "Ping!"
+    }, 
+    "destroyed.": {
+        "message": "- zniszczono"
+    }, 
+    "launched!": {
+        "message": "- wystrzelono!"
+    }, 
+    "located.": {
+        "message": "- zlokalizowano"
+    }, 
+    "lost.": {
+        "message": "- zniszczono"
+    }, 
+    "ready.": {
+        "message": "- uko\u0144czono"
+    }, 
+    "under attack.": {
+        "message": "- pod ostrza\u0142em"
+    }
+}

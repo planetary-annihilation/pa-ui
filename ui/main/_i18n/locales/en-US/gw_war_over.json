@@ -1,0 +1,56 @@
+{
+    "Annihilated": {
+        "message": "Annihilated"
+    }, 
+    "Are you sure you want to abandon this Galactic War?": {
+        "message": "Are you sure you want to abandon this Galactic War?"
+    }, 
+    "Close": {
+        "message": "Close"
+    }, 
+    "Congratulations Commander": {
+        "message": "Congratulations Commander"
+    }, 
+    "Delete War": {
+        "message": "Delete War"
+    }, 
+    "Discards": {
+        "message": "Discards"
+    }, 
+    "Final Tech": {
+        "message": "Final Tech"
+    }, 
+    "GO TO MAIN MENU": {
+        "message": "GO TO MAIN MENU"
+    }, 
+    "Now go start a war. Annihilate everything.": {
+        "message": "Now go start a war. Annihilate everything."
+    }, 
+    "Please try again. There's still much to destroy.": {
+        "message": "Please try again. There's still much to destroy."
+    }, 
+    "Redo Tutorial": {
+        "message": "Redo Tutorial"
+    }, 
+    "Start A Galactic War": {
+        "message": "Start A Galactic War"
+    }, 
+    "Training Remains": {
+        "message": "Training Remains"
+    }, 
+    "Turns:": {
+        "message": "Turns:"
+    }, 
+    "Tutorial Complete": {
+        "message": "Tutorial Complete"
+    }, 
+    "Tutorial Incomplete": {
+        "message": "Tutorial Incomplete"
+    }, 
+    "Victory": {
+        "message": "Victory"
+    }, 
+    "Wins:": {
+        "message": "Wins:"
+    }
+}

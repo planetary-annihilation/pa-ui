@@ -1,0 +1,44 @@
+{
+    "ANNIHILATION COMPLETE": {
+        "message": "VERNICHTUNG ABGESCHLOSSEN"
+    }, 
+    "APM": {
+        "message": "APM"
+    }, 
+    "Average": {
+        "message": "Durchschnittlich"
+    }, 
+    "Built": {
+        "message": "Gebaut"
+    }, 
+    "Destroyed": {
+        "message": "Zerst\u00f6rt"
+    }, 
+    "Draw": {
+        "message": "UNENTSCHIEDEN"
+    }, 
+    "Efficiency": {
+        "message": "Effektivit\u00e4t"
+    }, 
+    "GW GAME OVER": {
+        "message": "GW GAME OVER"
+    }, 
+    "The game has ended.": {
+        "message": "Das Spiel ist zu Ende."
+    }, 
+    "Used": {
+        "message": "Gebraucht"
+    }, 
+    "VICTORY IS YOURS": {
+        "message": "DER SIEG GEH\u00d6RT IHNEN"
+    }, 
+    "Winner:": {
+        "message": "Gewinner:"
+    }, 
+    "Winners:": {
+        "message": "Gewinner:"
+    }, 
+    "YOU'VE BEEN ANNIHILATED": {
+        "message": "SIE WURDEN VERNICHET"
+    }
+}

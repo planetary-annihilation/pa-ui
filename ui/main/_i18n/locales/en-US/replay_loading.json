@@ -1,0 +1,23 @@
+{
+    "Cancel": {
+        "message": "Cancel"
+    }, 
+    "Loading Game": {
+        "message": "Loading Game"
+    }, 
+    "Loading Replay": {
+        "message": "Loading Replay"
+    }, 
+    "Returning to menu": {
+        "message": "Returning to menu"
+    }, 
+    "Starting replay server, please be patient...": {
+        "message": "Starting replay server, please be patient..."
+    }, 
+    "Unable to load replay": {
+        "message": "Unable to load replay"
+    }, 
+    "Unable to load save game": {
+        "message": "Unable to load save game"
+    }
+}

@@ -1,0 +1,59 @@
+{
+    "CANCEL": {
+        "message": "CANCELAR"
+    }, 
+    "DELETE": {
+        "message": "ELIMINAR"
+    }, 
+    "Delete": {
+        "message": "Eliminar"
+    }, 
+    "Delete this system?": {
+        "message": "¿Quieres eliminar este sistema?"
+    }, 
+    "Edit System": {
+        "message": "Editar sistema"
+    }, 
+    "Export": {
+        "message": "Exportar"
+    }, 
+    "Import": {
+        "message": "Importar"
+    }, 
+    "Load System": {
+        "message": "Cargar sistema"
+    }, 
+    "Metal Spots: __num_metal_spots__": {
+        "message": "Zonas metalúrgicas: __num_metal_spots__"
+    }, 
+    "New system": {
+        "message": "Nuevo sistema"
+    }, 
+    "No Metal": {
+        "message": "Sin metal"
+    }, 
+    "Radius: __radius__": {
+        "message": "Radio: __radius__"
+    }, 
+    "SHOW PLANETS": {
+        "message": "MOSTRAR PLANETAS"
+    }, 
+    "SHOW SYSTEMS": {
+        "message": "MOSTRAR SISTEMAS"
+    }, 
+    "Starting Planet": {
+        "message": "Planeta inicial"
+    }, 
+    "System Designer": {
+        "message": "Diseñador de sistemas"
+    }, 
+    "Thrusters Required": {
+        "message": "Propulsores necesarios"
+    }, 
+    "__min_players__-__max_players__ Players": {
+        "message": "__min_players__-__max_players__ jugadores"
+    }, 
+    "__num_players__ Players": {
+        "message": "__num_players__ jugadores"
+    }
+}

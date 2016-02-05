@@ -1,0 +1,35 @@
+{
+    "CANCEL": {
+        "message": "ANNULEER"
+    }, 
+    "Delete": {
+        "message": "VERWIJDER"
+    }, 
+    "Delete Planet": {
+        "message": "Verwijder Planeet"
+    }, 
+    "Delete this planet?": {
+        "message": "Verwijder deze planeet?"
+    }, 
+    "Delete this system?": {
+        "message": "Verwijder dit systeem?"
+    }, 
+    "Load Planet": {
+        "message": "Laad Planeet"
+    }, 
+    "Load System": {
+        "message": "Laad Sterrentelsel"
+    }, 
+    "New system": {
+        "message": "Nieuw systeem"
+    }, 
+    "SHOW PLANETS": {
+        "message": "TOON PLANETEN"
+    }, 
+    "SHOW SYSTEMS": {
+        "message": "TOON STELSELS"
+    }, 
+    "System Designer": {
+        "message": "System Designer"
+    }
+}

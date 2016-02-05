@@ -1,0 +1,20 @@
+{
+    "Clicking": {
+        "message": "Controles básicos del ratón"
+    }, 
+    "PA Guide: Clicking": {
+        "message": "Guía de PA: Controles básicos del ratón"
+    }, 
+    "[style=text_callout]Double click[/style] a unit to select similar units": {
+        "message": "[style=text_callout]Haz doble clic[/style] sobre una unidad para seleccionar unidades similares."
+    }, 
+    "[style=text_callout]Left Click + Hold[/style] and drag to window select multiple units": {
+        "message": "[style=text_callout]Mantén pulsado el botón izquierdo del ratón y arrastra[/style] para seleccionar varias unidades."
+    }, 
+    "[style=text_callout]Left Click[/style] to select unit, [style=text_callout]Right Click[/style] for action.": {
+        "message": "[style=text_callout]Haz clic con el botón izquierdo[/style] para seleccionar una unidad y [style=text_callout]haz clic con el botón derecho[/style] para ejecutar la acción."
+    }, 
+    "[style=text_callout]Shift + Right Click[/style] to queue up multiple orders": {
+        "message": "[style=text_callout]Mantén pulsado Shift y haz clic con el botón derecho[/style] para poner varias instrucciones en una lista de ejecución."
+    }
+}

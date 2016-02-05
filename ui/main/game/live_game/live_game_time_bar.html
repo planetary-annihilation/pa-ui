@@ -1,0 +1,115 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta locns="live_game" />
+    <noloc><title>Live Game: Time Bar</title></noloc>
+    <link href="bundle://boot/boot.css" rel="stylesheet" type="text/css" />
+    <link href="live_game_time_bar.css" rel="stylesheet" type="text/css" />
+    <script src="bundle://boot/boot.js" type="text/javascript"></script>
+
+    <script src="js/constants.js" type="text/javascript"></script>
+    <script src="live_game_time_bar.js" type="text/javascript"></script>
+</head>
+<body class="body_panel">
+<panel id="time_bar_alerts" src="coui://ui/main/game/live_game/live_game_time_bar_alerts.html" fit="dock-bottom" no-keyboard yield-focus data-bind="visible: true, style: { left: alertListLeftPx }"></panel>
+    <body-dock>
+        <div class="div_time_progress_frame">
+            <div class="time_alert_indicators" data-bind="visible: visible">
+                <!-- ko foreach: alertIndicators -->
+                <div class="time_alert_indicator" style="display:none" data-bind="visible: visible, click: activate, style: { left: leftPx, width: widthPx }"></div>
+                <!-- /ko -->
+            </div>
+            <div class="time_progress" data-bind="visible: visible, style: { width: timePercentString() }">
+            </div>
+            <div class="btn_video_scrubber" data-bind="visible: visible, style: { left: timeScrubPixel() }, event: { mousedown: startTimeScrub }">
+            </div>
+        </div>
+        <div class="div_video_controls_cont">
+            <div class="div_playback_controls">
+                <div style="display:inline-block; vertical-align:middle; margin-right:16px;">
+
+                    <!--- PLAY/PAUSE --->
+                    <div style="display:inline-block; vertical-align:middle; margin-left: 4px;">
+                        <!-- ko ifnot: paused -->
+                        <div class="btn_std_ix btn_play_pause_toggle" data-bind="click: pause">
+                            <div class="btn_play_pause_toggle_pause"></div>
+                        </div>
+                        <!-- /ko -->
+                        <!-- ko if: paused -->
+                        <div class="btn_std_ix btn_play_pause_toggle" data-bind="click: playForward">
+                            <div class="btn_play_pause_toggle_play"></div>
+                        </div>
+                        <!-- /ko -->
+                    </div>
+                    <!--- FWD SPEED --->
+                    <div style="display:inline-block; vertical-align:middle;">
+
+                        <!-- 0 SPEED -->
+                        <!-- ko if: model.timeSpeed() <= 1.0 -->
+                        <div class="btn_std_ix btn_speed_control" data-bind="click: seekForward">
+                            <div class="btn_speed_control_fwd0"></div>
+                        </div>
+                        <!-- /ko -->
+
+                        <!-- 1 SPEED -->
+                        <!-- ko if: model.timeSpeed() > 1.0 &&  model.timeSpeed() < 4.0 -->
+                        <div class="btn_std_ix btn_speed_control" data-bind="click: seekForward">
+                            <div class="btn_speed_control_fwd1"></div>
+                        </div>
+                        <!-- /ko -->
+
+                        <!-- 2 SPEED -->
+                        <!-- ko if: model.timeSpeed() >= 4.0 -->
+                        <div class="btn_std_ix btn_speed_control" data-bind="click: playForward">
+                            <div class="btn_speed_control_fwd2"></div>
+                        </div>
+                        <!-- /ko -->
+
+                    </div>
+                </div>
+                <div style="display:inline-block; vertical-align:middle;">
+                    <div class="btn_std_ix btn_jump_control" data-bind="click: skipBack30">
+                        <div class="btn_jump_control_back">
+                            30
+                        </div>
+                    </div>
+                    <div class="btn_std_ix btn_jump_control" data-bind="click: skipBack15">
+                        <div class="btn_jump_control_back">
+                            15
+                        </div>
+                    </div>
+                    <div class="btn_std_ix btn_jump_control" data-bind="click: skipFwd30">
+                        <div class="btn_jump_control_fwd">
+                            30
+                        </div>
+                    </div>
+                    <div class="btn_std_ix btn_jump_control" data-bind="click: skipFwd120">
+                        <div class="btn_jump_control_fwd">
+                            <noloc>2m</noloc>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="div_video_timer">
+                <span id="current_time" data-bind="visible: visible, text: currentTimeString">00:00</span>/
+                <span id="end_of_time" data-bind="visible: visible, text: endOfTimeString">00:00</span>
+            </div>
+            <div class="div_video_options">
+                <div id="time06" class="btn_std_ix btn_video_option" data-bind="click: close,
+                            click_sound: 'default', rollover_sound: 'default'">
+                    <loc>Close</loc>
+                </div>
+                <!-- ko if: showPlayFromHere -->
+                <div class="btn_std_ix btn_video_option" style="margin-right:12px" data-bind="click: playFromHere, css: { 'disabled': disablePlayFromHere },
+                            click_sound: 'default', rollover_sound: 'default'">
+                    <div>
+                        <loc>Play From Here</loc>
+                    </div>
+                </div>
+                <!-- /ko -->
+            </div>
+        </div>
+    </body-dock>
+</body>
+</html>

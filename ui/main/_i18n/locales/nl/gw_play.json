@@ -1,0 +1,86 @@
+{
+    "AI:": {
+        "message": "AI:"
+    }, 
+    "Abandon War": {
+        "message": "Verlaat Oorlog"
+    }, 
+    "Card:": {
+        "message": "Kaart:"
+    }, 
+    "Data Banks Full": {
+        "message": "Databanken Vol"
+    }, 
+    "Date:": {
+        "message": "Datum:"
+    }, 
+    "Delete Tech": {
+        "message": "Tech verwijderen"
+    }, 
+    "Dismiss": {
+        "message": "Afwijzen"
+    }, 
+    "Download Tech": {
+        "message": "Tech downloaden"
+    }, 
+    "Duplicate Tech": {
+        "message": "Duplicaat Technologie"
+    }, 
+    "Exit": {
+        "message": "Sluiten"
+    }, 
+    "Explore": {
+        "message": "Verkennen"
+    }, 
+    "Fight": {
+        "message": "Vechten"
+    }, 
+    "Give tech": {
+        "message": "Tech geven"
+    }, 
+    "History:": {
+        "message": "Geschiedenis:"
+    }, 
+    "Jump": {
+        "message": "Springen"
+    }, 
+    "Load game": {
+        "message": "Spel laden"
+    }, 
+    "Preparing for battle": {
+        "message": "Klaarmaken voor de strijd"
+    }, 
+    "Record:": {
+        "message": "Record:"
+    }, 
+    "Reject Tech": {
+        "message": "Tech afwijzen"
+    }, 
+    "Save": {
+        "message": "Opslaan"
+    }, 
+    "Scanning System": {
+        "message": "Systeem scannen"
+    }, 
+    "Settings": {
+        "message": "Instellingen"
+    }, 
+    "TECHS": {
+        "message": "TECHS"
+    }, 
+    "To download, open a data bank by deleting an undesired tech.": {
+        "message": "Om deze technologie te kunnen downloaden, moet je een databank  openen door een ongewenste technologie te verwijderen."
+    }, 
+    "Turn State:": {
+        "message": "Status beurt:"
+    }, 
+    "Unlock Commander": {
+        "message": "Commandant vrijgegeven"
+    }, 
+    "loss": {
+        "message": "verlies"
+    }, 
+    "win /": {
+        "message": "win / "
+    }
+}

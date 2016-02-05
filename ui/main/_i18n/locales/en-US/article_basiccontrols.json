@@ -1,0 +1,20 @@
+{
+    "Arrow Keys to rotate around planet": {
+        "message": "Arrow Keys to rotate around planet"
+    }, 
+    "Basic Camera Controls": {
+        "message": "Basic Camera Controls"
+    }, 
+    "Go between planets using planet menu (upper right of screen)": {
+        "message": "Go between planets using planet menu (upper right of screen)"
+    }, 
+    "Hold Mouse Wheel, drag to pan view": {
+        "message": "Hold Mouse Wheel, drag to pan view"
+    }, 
+    "PA Guide: Basic Controls": {
+        "message": "PA Guide: Basic Controls"
+    }, 
+    "Scroll Mouse Wheel to zoom in and out": {
+        "message": "Scroll Mouse Wheel to zoom in and out"
+    }
+}

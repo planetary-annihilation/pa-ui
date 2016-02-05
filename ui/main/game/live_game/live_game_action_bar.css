@@ -1,0 +1,327 @@
+.body_panel {
+    /* This works around an issue that is causing severe performance problems - KEF - 06.09.2014 */
+    min-height: 700px;
+    min-width: 1px;
+}
+
+/* UTILITY */
+.receiveMouse {
+    pointer-events: all;
+}
+
+.ignoreMouse {
+    pointer-events: none;
+}
+
+/*----- COMMAND BAR
+-----------------------------------------------------------------*/
+.div_command_bar,
+.div_orders_bar {
+    position: relative;
+    border-image: url(img/command_bar/img_command_bar_bground.png) 26 24 26 26 fill;
+    border-width: 26px 24px 26px 26px;
+}
+
+.div_command_bar_top_cont {
+    margin-left: 140px; /* tooltip space */
+}
+
+.div_command_bar_cont,
+.div_orders_bar_cont {
+    width: 38px;
+    margin: -9px -16px -9px -19px;    
+    border-top: 1px solid rgba(255,255,255,.05);
+}
+
+/* whole bar ease in and out */
+.div_command_bar_top_cont,
+.div_orders_bar_top_cont {
+    position: relative;
+    pointer-events: none;
+    right: -40px;
+    -webkit-transition: all .1s ease-out;
+}
+
+.div_command_bar_top_cont.show,
+.div_orders_bar_top_cont.show {
+    pointer-events: all;
+    right: 0px;
+    opacity: 1;;
+    -webkit-transition: all .1s ease-out;
+}
+
+/* individual items ease gradually when they're appearing on their own, quickly when the bar appears, and slowly when the bar goes away */
+.div_command_item {
+    width: auto;
+    height: 0px;
+    margin: 0px 0px;
+    border-bottom: 1px solid rgba(255,255,255,.05);
+    border-width: 0px 0px 1px 0px;
+    position:relative;
+    opacity: 0;
+    pointer-events: none;
+    -webkit-transition: all .2s ease-in-out .1s; /* the intent here is to have them not really move if the whole bar is getting hidden */
+}
+
+.div_command_item.show {
+    height: 36px;
+    opacity: 1;
+    pointer-events: all;
+    -webkit-transition: all 0s ease-in-out;
+}
+
+.show.persisting .div_command_item {
+    height: 0px;
+    opacity: 0;
+    -webkit-transition: all .1s ease-in-out;
+}
+
+.show.persisting .div_command_item.show {
+    height: 36px;
+    opacity: 1;
+    -webkit-transition: all .1s ease-in-out;
+}
+
+    .div_command_item a {
+        border: 1px solid transparent;
+        display: block;
+        -webkit-animation: fadeout;
+        -webkit-transition: .3s ease-out;
+    }
+
+        .div_command_item a:hover {
+            background: #1E7AA1;
+            border: 1px solid #00B3FF;
+            box-shadow: inset 0px 0px 8px #00B3FF;
+            -webkit-animation: none;
+            -webkit-transition: none;
+        }
+
+        .div_command_item a:active {
+            background: #00B3FF;
+            border: 1px solid #00B3FF;
+            box-shadow: 0px 0px 30px #00B3FF;
+        }
+
+    .div_command_item .tooltip {
+       width: 130px; /* satisfies spacing for long hotkeys, facilitates word wrapping */
+    }
+
+
+.div_command_item_active, a.div_command_item_active:hover {
+    background: #00B3FF;
+    border: 1px solid #00B3FF;
+    box-shadow: 0px 0px 30px #00B3FF;
+}
+
+.icon_command {
+    height: 36px;
+    width: 36px;
+}
+
+.tooltip_command {
+    width: 100px;
+    font-family: 'DINPRO-LIGHT';
+    font-size: .8em;
+    float: left;
+    text-align: right;
+    text-shadow: 0px 2px 4px black;
+    margin: -32px 0px 0px -110px;
+    display: none;
+}
+
+/*----- COMMAND BAR HOT KEYS
+-----------------------------------------------------------------*/
+
+.span_tooltip_hotkey {
+    float: right;
+    margin: -2px -4px 0 inherit;
+}
+
+.span_hotkey {
+    display: none;
+}
+
+.div_command_item:hover .span_hotkey
+{
+    display: block;
+}
+
+#cmd_move:hover + #key_move,
+#cmd_attack:hover + #key_attack,
+#cmd_fire2nd:hover + #key_fire2nd,
+#cmd_assist:hover + #key_assist,
+#cmd_repair:hover + #key_repair,
+#cmd_reclaim:hover + #key_reclaim,
+#cmd_patrol:hover + #key_patrol,
+#cmd_use:hover + #key_use,
+#cmd_special:hover + #key_special,
+#cmd_unload:hover + #key_unload,
+#cmd_load:hover + #key_load,
+#cmd_stop:hover + #key_stop,
+#cmd_ping:hover + #key_ping,
+#cmd_order_fire:hover + #key_order_fire,
+#cmd_order_move:hover + #key_order_move,
+#cmd_order_energy:hover + #key_order_energy,
+#cmd_order_build:hover + #key_order_build 
+{
+    display: block;
+}
+
+
+/*----- ORDERS BAR
+-----------------------------------------------------------------*/
+
+.div_orders_bar {
+    display: flex;
+    flex-direction: column;
+    align-items: right;
+    flex-grow: 0;
+    flex-shrink: 1;
+}
+
+
+.div_orders_bar .div_command_item .background {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    border-width: 0px 24px 0px 26px;
+    z-index: -1;
+}
+
+.div_orders_bar .div_command_item {
+    width: 53px;
+    border: 0;
+    margin: 0;
+}
+
+.div_orders_bar .div_command_item div {
+    position: relative;
+}
+
+.div_orders_bar_top {
+    border-width: 26px 24px 0px 26px;
+    margin:0px 0px -9px 0px;
+}
+
+.div_orders_bar_bottom {
+    border-width: 0px 24px 26px 26px;
+    margin:-9px 0px 0px 0px;
+}
+    
+.cmd_order {
+    background: none;
+    border: none;
+    padding: 0;
+    display: block;
+    position: relative;
+    border-top: 1px solid rgba(255,255,255,.05);
+    border-bottom: 1px solid rgba(255,255,255,.05);
+    margin-bottom: -1px;
+    width: 37px;
+    z-index: 1;
+}
+
+.cmd_order:hover {
+    background: #1E7AA1;
+    border: 1px solid #00B3FF;
+    margin: 0px -1px -1px -1px;
+    box-shadow: inset 0px 0px 8px #00B3FF;
+    -webkit-animation: none;
+    -webkit-transition: none;
+}
+
+.cmd_order:active {
+    background: #00B3FF;
+    border: 1px solid #00B3FF;
+    margin: 0px -1px -1px -1px;
+    box-shadow: 0px 0px 30px #00B3FF;
+}
+
+.div_orders_bar_top_cont {
+    margin-left: 140px; /* tooltip space */
+}
+
+.div_order_item_menu {
+    width: 130px;
+    margin: -52px 0px -40px -131px; /* the large bottom margin keeps the submenu from forcing extra space in its container */
+    float: left;
+    opacity: 0;
+    pointer-events: none;
+    -webkit-transition: all .1s ease-in;
+}
+
+.div_order_item_menu.narrow {
+    width: 90px;
+    margin-left: -91px;
+}
+
+.div_order_item_menu.show {
+    opacity: 1;
+    pointer-events: all;
+    -webkit-transition: all .1s ease-out;
+}
+
+
+.order_menu_title {
+    width: 130px;
+    font-size: 11px;
+    margin-bottom: 2px;
+    margin-left: -8px;
+    text-shadow: 0px 2px 2px black;
+}
+
+.div_order_menu_cont {
+    height: 38px;
+    background: #1F1F1F;
+    border: 1px solid #333;
+    box-shadow: 0px 0px 10px #000;
+    overflow: visible;
+}
+
+.div_order_menu_item {
+    height: 36px;
+    width: 36px;
+    margin: 0px 0px;
+    display: inline-block;
+    z-index: 2;
+}
+
+    .div_order_menu_item a {
+        display: inline-block;
+        height: 100%;
+        width: 100%;
+    }
+
+.div_order_menu_cont {
+    position: relative;
+    left: 80px;
+    -webkit-transition: all .1s ease-in;
+}
+
+.div_order_item_menu.show .div_order_menu_cont {
+    left: 0px;
+    -webkit-transition: all .1s ease-in;
+}
+
+.icon_order {
+    height: 36px;
+    width: 36px;
+}
+
+.div_order_menu_item .icon_order {
+    margin:-1px 0px 0px -1px;
+}
+
+.tooltip_order {
+    width: 100px;
+    font-size: 11px;
+    float: left;
+    text-align: left;
+    margin: 0px 0px -20px 0px;
+    color:#00b3ff;
+    text-shadow: 0px 2px 2px black;
+    display: none;
+}

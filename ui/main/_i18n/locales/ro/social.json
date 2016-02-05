@@ -1,0 +1,92 @@
+{
+    "APPROVE": {
+        "message": "APROB\u0102"
+    }, 
+    "APPROVED USERS": {
+        "message": "UTILIZATORI APROBA\u0162I"
+    }, 
+    "Add": {
+        "message": "Adaug\u0103"
+    }, 
+    "Add a Friend": {
+        "message": "Adaug\u0103 un Prieten"
+    }, 
+    "BLOCK": {
+        "message": "BLOCHEAZ\u0102"
+    }, 
+    "BLOCKED USERS": {
+        "message": "UTILIZATORI BLOCA\u0162I"
+    }, 
+    "Cancel": {
+        "message": "Anuleaz\u0103"
+    }, 
+    "Close": {
+        "message": "\u00cenchide"
+    }, 
+    "Contact List Updated": {
+        "message": "Lista de Contacte Actualizat\u0103"
+    }, 
+    "Contact Not Found": {
+        "message": "Contact Nu A Fost G\u0103sit"
+    }, 
+    "Dismiss": {
+        "message": "\u00cenl\u0103tur\u0103"
+    }, 
+    "Filter contatcs by tag:": {
+        "message": "Filtreaz\u0103 contacte dup\u0103 etichet\u0103:"
+    }, 
+    "Games you make will be hidden to these players.": {
+        "message": "Jocurile tale vor fi ascunse acestor juc\u0103tori."
+    }, 
+    "Name:": {
+        "message": "Nume:"
+    }, 
+    "New Nickname:": {
+        "message": "Porecl\u0103 Nou\u0103:"
+    }, 
+    "Players you have encountered recently.": {
+        "message": "Juc\u0103tori \u00eent\u00e2lni\u0163i recent."
+    }, 
+    "Private games you make will only be visible to these players.": {
+        "message": "Jocurile tale private vor fi vizibile doar acestor juc\u0103tori."
+    }, 
+    "RECENT": {
+        "message": "RECENT"
+    }, 
+    "REMOVE": {
+        "message": "ELIMIN\u0102"
+    }, 
+    "RENAME": {
+        "message": "RENUME\u015eTE"
+    }, 
+    "Refresh Contacts": {
+        "message": "Re\u00eencarc\u0103 Contacte"
+    }, 
+    "Refreshing friends list.....": {
+        "message": "Re\u00eenc\u0103rc\u00e2nd lista de prieteni..."
+    }, 
+    "SOCIAL": {
+        "message": "SOCIAL"
+    }, 
+    "Tag": {
+        "message": "Etichet\u0103"
+    }, 
+    "Tag Friend:": {
+        "message": "Etichet\u0103 Prieten:"
+    }, 
+    "Tags:": {
+        "message": "Etichete:"
+    }, 
+    "UBERDEX": {
+        "message": "UBERDEX"
+    }, 
+    "Uber Name": {
+        "message": "Nume Uber"
+    }, 
+    "UberId:": {
+        "message": "UberID:"
+    }, 
+    "or": {
+        "message": "sau"
+    }
+}

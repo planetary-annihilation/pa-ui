@@ -1,0 +1,98 @@
+{
+    "Accept": {
+        "message": "Accept"
+    }, 
+    "CLEAR SYSTEM": {
+        "message": "GOLE\u015eTE SISTEMUL"
+    }, 
+    "CLOSE": {
+        "message": "\u00ceNCHIDE"
+    }, 
+    "Cancel": {
+        "message": "Anuleaz\u0103"
+    }, 
+    "Discard": {
+        "message": "Respinge"
+    }, 
+    "Do you want to save this system?": {
+        "message": "Dore\u015fti s\u0103 salvezi acest sistem?"
+    }, 
+    "EDIT PLANET": {
+        "message": "MODIFIC\u0102 PLANETA"
+    }, 
+    "HIDE": {
+        "message": "ASCUNDE"
+    }, 
+    "Height": {
+        "message": "\u00cen\u0103l\u0163ime"
+    }, 
+    "MY PLANETS": {
+        "message": "PLANETELE MELE"
+    }, 
+    "Mass": {
+        "message": "MAS\u0102"
+    }, 
+    "NAME:": {
+        "message": "NUME:"
+    }, 
+    "PREVIEW ALL": {
+        "message": "VEZI TOATE"
+    }, 
+    "Position": {
+        "message": "POZI\u0162IE"
+    }, 
+    "RECENT": {
+        "message": "RECENT"
+    }, 
+    "REMOVE": {
+        "message": "ELIMIN\u0102"
+    }, 
+    "Radius": {
+        "message": "Raz\u0103"
+    }, 
+    "SAVE SYSTEM": {
+        "message": "SALVEAZ\u0102 SISTEM"
+    }, 
+    "SHOW": {
+        "message": "ARAT\u0102"
+    }, 
+    "SIMULATE": {
+        "message": "SIMULEAZ\u0102"
+    }, 
+    "SYSTEM DESIGNER": {
+        "message": "EDITOR DE SISTEME"
+    }, 
+    "Save": {
+        "message": "Salveaz\u0103"
+    }, 
+    "TEMPLATES": {
+        "message": "MODELE"
+    }, 
+    "Temp": {
+        "message": "Temp"
+    }, 
+    "The planet is loading. This can take a long time.": {
+        "message": "Planeta se \u00eencarc\u0103. E posibil s\u0103 dureze mult timp."
+    }, 
+    "The program will be unresponsive until the planet has finished.": {
+        "message": "Programul nu va r\u0103spunde p\u00e2n\u0103 planeta a terminat."
+    }, 
+    "The system has been changed since it was last saved.": {
+        "message": "Sistemul a fost schimbat de la ultima salvare."
+    }, 
+    "The system has not been saved.": {
+        "message": "Acest sistem nu a fost salvat."
+    }, 
+    "Velocity": {
+        "message": "VELOCITATE"
+    }, 
+    "Water": {
+        "message": "Ap\u0103"
+    }, 
+    "X:": {
+        "message": "X:"
+    }, 
+    "Y:": {
+        "message": "Y:"
+    }
+}

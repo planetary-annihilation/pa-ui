@@ -1,0 +1,44 @@
+{
+    "ANNIHILATION COMPLETE": {
+        "message": "UNICESTWIENIE ZAKO\u0143CZONE"
+    }, 
+    "APM": {
+        "message": "APM"
+    }, 
+    "Average": {
+        "message": "\u015arednia"
+    }, 
+    "Built": {
+        "message": "Zbudowane"
+    }, 
+    "Destroyed": {
+        "message": "Zniszczone"
+    }, 
+    "Draw": {
+        "message": "REMIS"
+    }, 
+    "Efficiency": {
+        "message": "Wydajno\u015b\u0107"
+    }, 
+    "GW GAME OVER": {
+        "message": "GW KONIEC GRY"
+    }, 
+    "The game has ended.": {
+        "message": "Gra zako\u0144czy\u0142a si\u0119."
+    }, 
+    "Used": {
+        "message": "U\u017cyto"
+    }, 
+    "VICTORY IS YOURS": {
+        "message": "ZWYCI\u0118STWO JEST TWOJE"
+    }, 
+    "Winner:": {
+        "message": "Zwyci\u0119zca:"
+    }, 
+    "Winners:": {
+        "message": "Zwyci\u0119zcy:"
+    }, 
+    "YOU'VE BEEN ANNIHILATED": {
+        "message": "ZOSTA\u0141E\u015a UNICESTWIONY"
+    }
+}

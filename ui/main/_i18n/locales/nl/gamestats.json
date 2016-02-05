@@ -1,0 +1,86 @@
+{
+    "Avg": {
+        "message": "Gem"
+    }, 
+    "Consumed": {
+        "message": "Gebruikt"
+    }, 
+    "Created": {
+        "message": "Gemaakt"
+    }, 
+    "Current": {
+        "message": "Huidig"
+    }, 
+    "Current APM": {
+        "message": "Huidige APM"
+    }, 
+    "Current Efficiency": {
+        "message": "Huidige effici\u00ebntie"
+    }, 
+    "Current Energy": {
+        "message": "Huidig energie"
+    }, 
+    "Current Metal": {
+        "message": "Huidig metaal"
+    }, 
+    "Current Units": {
+        "message": "Huidige eenheden"
+    }, 
+    "Draw": {
+        "message": "Gelijkspel"
+    }, 
+    "Fab": {
+        "message": "Fab"
+    }, 
+    "Factory": {
+        "message": "Fabriek"
+    }, 
+    "GAME SUMMARY": {
+        "message": "SPEL SAMENVATTING"
+    }, 
+    "In Progress": {
+        "message": "Bezig"
+    }, 
+    "Lost": {
+        "message": "Verloren"
+    }, 
+    "Mobile": {
+        "message": "Mobiel"
+    }, 
+    "Opp Killed": {
+        "message": "Tgns gedood"
+    }, 
+    "Produced": {
+        "message": "Geproduceerd"
+    }, 
+    "Retrieving Stats...": {
+        "message": "Statistieken ophalen..."
+    }, 
+    "Total": {
+        "message": "Totaal"
+    }, 
+    "Total APM": {
+        "message": "Totaal APM"
+    }, 
+    "Total Efficiency": {
+        "message": "Totale effici\u00ebntie"
+    }, 
+    "Total Energy": {
+        "message": "Totale energie"
+    }, 
+    "Total Metal": {
+        "message": "Totaal metaal"
+    }, 
+    "Total Units": {
+        "message": "Totaal eenheden"
+    }, 
+    "Wasted": {
+        "message": "Verspild"
+    }, 
+    "Winner:": {
+        "message": "Winnaar:"
+    }, 
+    "Winners:": {
+        "message": "Winnaars:"
+    }
+}

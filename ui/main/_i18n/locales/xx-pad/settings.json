@@ -1,0 +1,1090 @@
+{
+    "ALL": {
+        "message": "\u0202\u20a4\u20a4\u03a9", 
+        "original": "ALL"
+    }, 
+    "ALWAYS": {
+        "message": "\u0202\u20a4\u20a9\u0202\u0423\u1e60\u03a9\u03a9\u03a9", 
+        "original": "ALWAYS"
+    }, 
+    "AUTO": {
+        "message": "\u0202\u1ee6\u4e01\u0472\u03a9\u03a9", 
+        "original": "AUTO"
+    }, 
+    "Active Product": {
+        "message": "\u0202\u03f2\u04ad\u0457\u0477\u1f73 \u1e54\u0213\u020f\u0257\u0574\u03f2\u04ad\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9", 
+        "original": "Active Product"
+    }, 
+    "Ambient Occlusion": {
+        "message": "\u0202\u028d\u0411\u0457\u1f73\u019e\u04ad \u0472\u03f2\u03f2\u230a\u0574\u01a8\u0457\u020f\u019e\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9", 
+        "original": "Ambient Occlusion"
+    }, 
+    "Anti-Aliasing": {
+        "message": "\u0202\u019e\u04ad\u0457-\u0202\u230a\u0457\u0203\u01a8\u0457\u019e\u0260\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9", 
+        "original": "Anti-Aliasing"
+    }, 
+    "Audio": {
+        "message": "\u0202\u0574\u0257\u0457\u020f\u03a9\u03a9", 
+        "original": "Audio"
+    }, 
+    "Back": {
+        "message": "\u0e3f\u0203\u03f2\u045c\u03a9\u03a9", 
+        "original": "Back"
+    }, 
+    "Build Preview Behavior": {
+        "message": "\u0e3f\u0574\u0457\u230a\u0257 \u1e54\u0213\u1f73\u0477\u0457\u1f73\u1ff4 \u0e3f\u1f73\u043d\u0203\u0477\u0457\u020f\u0213\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9", 
+        "original": "Build Preview Behavior"
+    }, 
+    "CUSTOM": {
+        "message": "\u04aa\u1ee6\u1e60\u4e01\u0472\u039c\u03a9\u03a9\u03a9", 
+        "original": "CUSTOM"
+    }, 
+    "Camera": {
+        "message": "\u04aa\u0203\u028d\u1f73\u0213\u0203\u03a9\u03a9\u03a9", 
+        "original": "Camera"
+    }, 
+    "Camera Friction": {
+        "message": "\u04aa\u0203\u028d\u1f73\u0213\u0203 \u03dc\u0213\u0457\u03f2\u04ad\u0457\u020f\u019e\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9", 
+        "original": "Camera Friction"
+    }, 
+    "Cancel": {
+        "message": "\u04aa\u0203\u019e\u03f2\u1f73\u230a\u03a9\u03a9\u03a9", 
+        "original": "Cancel"
+    }, 
+    "Classic": {
+        "message": "\u04aa\u230a\u0203\u01a8\u01a8\u0457\u03f2\u03a9\u03a9\u03a9", 
+        "original": "Classic"
+    }, 
+    "Close": {
+        "message": "\u04aa\u230a\u020f\u01a8\u1f73\u03a9\u03a9", 
+        "original": "Close"
+    }, 
+    "Conflict:": {
+        "message": "\u04aa\u020f\u019e\u0493\u230a\u0457\u03f2\u04ad:\u03a9\u03a9\u03a9\u03a9", 
+        "original": "Conflict:"
+    }, 
+    "Display Mode": {
+        "message": "\u0189\u0457\u01a8\u2374\u230a\u0203\u0443 \u039c\u020f\u0257\u1f73\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9", 
+        "original": "Display Mode"
+    }, 
+    "Edge Scroll Options": {
+        "message": "\u0190\u0257\u0260\u1f73 \u1e60\u03f2\u0213\u020f\u230a\u230a \u0472\u2374\u04ad\u0457\u020f\u019e\u01a8\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9", 
+        "original": "Edge Scroll Options"
+    }, 
+    "FOV": {
+        "message": "\u03dc\u0472\u0476\u03a9", 
+        "original": "FOV"
+    }, 
+    "FULLSCREEN": {
+        "message": "\u03dc\u1ee6\u20a4\u20a4\u1e60\u04aa\u211d\u0190\u0190\u019d\u03a9\u03a9\u03a9\u03a9\u03a9", 
+        "original": "FULLSCREEN"
+    }, 
+    "FXAA": {
+        "message": "\u03dc\u04b2\u0202\u0202\u03a9\u03a9", 
+        "original": "FXAA"
+    }, 
+    "Forward": {
+        "message": "\u03dc\u020f\u0213\u1ff4\u0203\u0213\u0257\u03a9\u03a9\u03a9", 
+        "original": "Forward"
+    }, 
+    "GAMEPLAY": {
+        "message": "\u01f4\u0202\u039c\u0190\u1e54\u20a4\u0202\u0423\u03a9\u03a9\u03a9\u03a9", 
+        "original": "GAMEPLAY"
+    }, 
+    "GUI Size": {
+        "message": "\u01f4\u1ee6\u03aa \u1e60\u0457\u2124\u1f73\u03a9\u03a9\u03a9\u03a9", 
+        "original": "GUI Size"
+    }, 
+    "Graphics": {
+        "message": "\u01f4\u0213\u0203\u2374\u043d\u0457\u03f2\u01a8\u03a9\u03a9\u03a9\u03a9", 
+        "original": "Graphics"
+    }, 
+    "HDR": {
+        "message": "\u04c7\u0189\u211d\u03a9", 
+        "original": "HDR"
+    }, 
+    "HIGH": {
+        "message": "\u04c7\u03aa\u01f4\u04c7\u03a9\u03a9", 
+        "original": "HIGH"
+    }, 
+    "Headlights": {
+        "message": "\u04c7\u1f73\u0203\u0257\u230a\u0457\u0260\u043d\u04ad\u01a8\u03a9\u03a9\u03a9\u03a9\u03a9", 
+        "original": "Headlights"
+    }, 
+    "ICON DISPLAY DISTANCE": {
+        "message": "\u03aa\u04aa\u0472\u019d \u0189\u03aa\u1e60\u1e54\u20a4\u0202\u0423 \u0189\u03aa\u1e60\u4e01\u0202\u019d\u04aa\u0190\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9", 
+        "original": "ICON DISPLAY DISTANCE"
+    }, 
+    "Key Pan Speed": {
+        "message": "\u04a0\u1f73\u0443 \u1e54\u0203\u019e \u1e60\u2374\u1f73\u1f73\u0257\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9", 
+        "original": "Key Pan Speed"
+    }, 
+    "Keyboard": {
+        "message": "\u04a0\u1f73\u0443\u0411\u020f\u0203\u0213\u0257\u03a9\u03a9\u03a9\u03a9", 
+        "original": "Keyboard"
+    }, 
+    "LOW": {
+        "message": "\u20a4\u0472\u20a9\u03a9", 
+        "original": "LOW"
+    }, 
+    "Language": {
+        "message": "\u20a4\u0203\u019e\u0260\u0574\u0203\u0260\u1f73\u03a9\u03a9\u03a9\u03a9", 
+        "original": "Language"
+    }, 
+    "Local Server": {
+        "message": "\u20a4\u020f\u03f2\u0203\u230a \u1e60\u1f73\u0213\u0477\u1f73\u0213\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9", 
+        "original": "Local Server"
+    }, 
+    "Local server is not available on your configuration.  (64-bit OS required)": {
+        "message": "\u20a4\u020f\u03f2\u0203\u230a \u01a8\u1f73\u0213\u0477\u1f73\u0213 \u0457\u01a8 \u019e\u020f\u04ad \u0203\u0477\u0203\u0457\u230a\u0203\u0411\u230a\u1f73 \u020f\u019e \u0443\u020f\u0574\u0213 \u03f2\u020f\u019e\u0493\u0457\u0260\u0574\u0213\u0203\u04ad\u0457\u020f\u019e.  (64-\u0411\u0457\u04ad \u0472\u1e60 \u0213\u1f73\u0533\u0574\u0457\u0213\u1f73\u0257)\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9", 
+        "original": "Local server is not available on your configuration.  (64-bit OS required)"
+    }, 
+    "Local server is not recommended on your configuration.  (4 CPU cores and 8GB of memory recommended.)": {
+        "message": "\u20a4\u020f\u03f2\u0203\u230a \u01a8\u1f73\u0213\u0477\u1f73\u0213 \u0457\u01a8 \u019e\u020f\u04ad \u0213\u1f73\u03f2\u020f\u028d\u028d\u1f73\u019e\u0257\u1f73\u0257 \u020f\u019e \u0443\u020f\u0574\u0213 \u03f2\u020f\u019e\u0493\u0457\u0260\u0574\u0213\u0203\u04ad\u0457\u020f\u019e.  (4 \u04aa\u1e54\u1ee6 \u03f2\u020f\u0213\u1f73\u01a8 \u0203\u019e\u0257 8\u01f4\u0e3f \u020f\u0493 \u028d\u1f73\u028d\u020f\u0213\u0443 \u0213\u1f73\u03f2\u020f\u028d\u028d\u1f73\u019e\u0257\u1f73\u0257.)\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9", 
+        "original": "Local server is not recommended on your configuration.  (4 CPU cores and 8GB of memory recommended.)"
+    }, 
+    "MEDIUM": {
+        "message": "\u039c\u0190\u0189\u03aa\u1ee6\u039c\u03a9\u03a9\u03a9", 
+        "original": "MEDIUM"
+    }, 
+    "Master Volume": {
+        "message": "\u039c\u0203\u01a8\u04ad\u1f73\u0213 \u0476\u020f\u230a\u0574\u028d\u1f73\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9", 
+        "original": "Master Volume"
+    }, 
+    "Mouse Pan Speed": {
+        "message": "\u039c\u020f\u0574\u01a8\u1f73 \u1e54\u0203\u019e \u1e60\u2374\u1f73\u1f73\u0257\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9", 
+        "original": "Mouse Pan Speed"
+    }, 
+    "Music Volume": {
+        "message": "\u039c\u0574\u01a8\u0457\u03f2 \u0476\u020f\u230a\u0574\u028d\u1f73\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9", 
+        "original": "Music Volume"
+    }, 
+    "NATIVE (100%)": {
+        "message": "\u019d\u0202\u4e01\u03aa\u0476\u0190 (100%)\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9", 
+        "original": "NATIVE (100%)"
+    }, 
+    "NEVER": {
+        "message": "\u019d\u0190\u0476\u0190\u211d\u03a9\u03a9", 
+        "original": "NEVER"
+    }, 
+    "OFF": {
+        "message": "\u0472\u03dc\u03dc\u03a9", 
+        "original": "OFF"
+    }, 
+    "OFF (MOUSELOCK)": {
+        "message": "\u0472\u03dc\u03dc (\u039c\u0472\u1ee6\u1e60\u0190\u20a4\u0472\u04aa\u04a0)\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9", 
+        "original": "OFF (MOUSELOCK)"
+    }, 
+    "OFF (NO MOUSELOCK)": {
+        "message": "\u0472\u03dc\u03dc (\u019d\u0472 \u039c\u0472\u1ee6\u1e60\u0190\u20a4\u0472\u04aa\u04a0)\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9", 
+        "original": "OFF (NO MOUSELOCK)"
+    }, 
+    "ON": {
+        "message": "\u0472\u019d\u03a9", 
+        "original": "ON"
+    }, 
+    "Orbital Shell": {
+        "message": "\u0472\u0213\u0411\u0457\u04ad\u0203\u230a \u1e60\u043d\u1f73\u230a\u230a\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9", 
+        "original": "Orbital Shell"
+    }, 
+    "Order Preview Behavior": {
+        "message": "\u0472\u0213\u0257\u1f73\u0213 \u1e54\u0213\u1f73\u0477\u0457\u1f73\u1ff4 \u0e3f\u1f73\u043d\u0203\u0477\u0457\u020f\u0213\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9", 
+        "original": "Order Preview Behavior"
+    }, 
+    "Pole Lock": {
+        "message": "\u1e54\u020f\u230a\u1f73 \u20a4\u020f\u03f2\u045c\u03a9\u03a9\u03a9\u03a9", 
+        "original": "Pole Lock"
+    }, 
+    "Quality Preset": {
+        "message": "\u04a8\u0574\u0203\u230a\u0457\u04ad\u0443 \u1e54\u0213\u1f73\u01a8\u1f73\u04ad\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9", 
+        "original": "Quality Preset"
+    }, 
+    "RANGE DEPENDENT": {
+        "message": "\u211d\u0202\u019d\u01f4\u0190 \u0189\u0190\u1e54\u0190\u019d\u0189\u0190\u019d\u4e01\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9", 
+        "original": "RANGE DEPENDENT"
+    }, 
+    "Resolution Scaling": {
+        "message": "\u211d\u1f73\u01a8\u020f\u230a\u0574\u04ad\u0457\u020f\u019e \u1e60\u03f2\u0203\u230a\u0457\u019e\u0260\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9", 
+        "original": "Resolution Scaling"
+    }, 
+    "Restore All Defaults": {
+        "message": "\u211d\u1f73\u01a8\u04ad\u020f\u0213\u1f73 \u0202\u230a\u230a \u0189\u1f73\u0493\u0203\u0574\u230a\u04ad\u01a8\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9", 
+        "original": "Restore All Defaults"
+    }, 
+    "Restore Tab Defaults": {
+        "message": "\u211d\u1f73\u01a8\u04ad\u020f\u0213\u1f73 \u4e01\u0203\u0411 \u0189\u1f73\u0493\u0203\u0574\u230a\u04ad\u01a8\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9", 
+        "original": "Restore Tab Defaults"
+    }, 
+    "SELECTED": {
+        "message": "\u1e60\u0190\u20a4\u0190\u04aa\u4e01\u0190\u0189\u03a9\u03a9\u03a9\u03a9", 
+        "original": "SELECTED"
+    }, 
+    "SERVER": {
+        "message": "\u1e60\u0190\u211d\u0476\u0190\u211d\u03a9\u03a9\u03a9", 
+        "original": "SERVER"
+    }, 
+    "SHIFT": {
+        "message": "\u1e60\u04c7\u03aa\u03dc\u4e01\u03a9\u03a9", 
+        "original": "SHIFT"
+    }, 
+    "SUBSAMPLE (50%)": {
+        "message": "\u1e60\u1ee6\u0e3f\u1e60\u0202\u039c\u1e54\u20a4\u0190 (50%)\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9", 
+        "original": "SUBSAMPLE (50%)"
+    }, 
+    "SUBSAMPLE (75%)": {
+        "message": "\u1e60\u1ee6\u0e3f\u1e60\u0202\u039c\u1e54\u20a4\u0190 (75%)\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9", 
+        "original": "SUBSAMPLE (75%)"
+    }, 
+    "SUPERSAMPLE (110%)": {
+        "message": "\u1e60\u1ee6\u1e54\u0190\u211d\u1e60\u0202\u039c\u1e54\u20a4\u0190 (110%)\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9", 
+        "original": "SUPERSAMPLE (110%)"
+    }, 
+    "SUPERSAMPLE (150%)": {
+        "message": "\u1e60\u1ee6\u1e54\u0190\u211d\u1e60\u0202\u039c\u1e54\u20a4\u0190 (150%)\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9", 
+        "original": "SUPERSAMPLE (150%)"
+    }, 
+    "SUPERSAMPLE (175%)": {
+        "message": "\u1e60\u1ee6\u1e54\u0190\u211d\u1e60\u0202\u039c\u1e54\u20a4\u0190 (175%)\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9", 
+        "original": "SUPERSAMPLE (175%)"
+    }, 
+    "Save": {
+        "message": "\u1e60\u0203\u0477\u1f73\u03a9\u03a9", 
+        "original": "Save"
+    }, 
+    "Server": {
+        "message": "\u1e60\u1f73\u0213\u0477\u1f73\u0213\u03a9\u03a9\u03a9", 
+        "original": "Server"
+    }, 
+    "Settings": {
+        "message": "\u1e60\u1f73\u04ad\u04ad\u0457\u019e\u0260\u01a8\u03a9\u03a9\u03a9\u03a9", 
+        "original": "Settings"
+    }, 
+    "Shadows": {
+        "message": "\u1e60\u043d\u0203\u0257\u020f\u1ff4\u01a8\u03a9\u03a9\u03a9", 
+        "original": "Shadows"
+    }, 
+    "Show Build Previews": {
+        "message": "\u1e60\u043d\u020f\u1ff4 \u0e3f\u0574\u0457\u230a\u0257 \u1e54\u0213\u1f73\u0477\u0457\u1f73\u1ff4\u01a8\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9", 
+        "original": "Show Build Previews"
+    }, 
+    "Show Metal Spot Icons": {
+        "message": "\u1e60\u043d\u020f\u1ff4 \u039c\u1f73\u04ad\u0203\u230a \u1e60\u2374\u020f\u04ad \u03aa\u03f2\u020f\u019e\u01a8\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9", 
+        "original": "Show Metal Spot Icons"
+    }, 
+    "Show Order Previews": {
+        "message": "\u1e60\u043d\u020f\u1ff4 \u0472\u0213\u0257\u1f73\u0213 \u1e54\u0213\u1f73\u0477\u0457\u1f73\u1ff4\u01a8\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9", 
+        "original": "Show Order Previews"
+    }, 
+    "Show Stat Bars": {
+        "message": "\u1e60\u043d\u020f\u1ff4 \u1e60\u04ad\u0203\u04ad \u0e3f\u0203\u0213\u01a8\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9", 
+        "original": "Show Stat Bars"
+    }, 
+    "Show Unit Icons": {
+        "message": "\u1e60\u043d\u020f\u1ff4 \u1ee6\u019e\u0457\u04ad \u03aa\u03f2\u020f\u019e\u01a8\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9", 
+        "original": "Show Unit Icons"
+    }, 
+    "Show/Hide game stats": {
+        "message": "\u1e60\u043d\u020f\u1ff4/\u04c7\u0457\u0257\u1f73 \u0260\u0203\u028d\u1f73 \u01a8\u04ad\u0203\u04ad\u01a8\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9", 
+        "original": "Show/Hide game stats"
+    }, 
+    "Show/Hide pip": {
+        "message": "\u1e60\u043d\u020f\u1ff4/\u04c7\u0457\u0257\u1f73 \u2374\u0457\u2374\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9", 
+        "original": "Show/Hide pip"
+    }, 
+    "Sound Effects Volume": {
+        "message": "\u1e60\u020f\u0574\u019e\u0257 \u0190\u0493\u0493\u1f73\u03f2\u04ad\u01a8 \u0476\u020f\u230a\u0574\u028d\u1f73\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9", 
+        "original": "Sound Effects Volume"
+    }, 
+    "UBER": {
+        "message": "\u1ee6\u0e3f\u0190\u211d\u03a9\u03a9", 
+        "original": "UBER"
+    }, 
+    "User Interface": {
+        "message": "\u1ee6\u01a8\u1f73\u0213 \u03aa\u019e\u04ad\u1f73\u0213\u0493\u0203\u03f2\u1f73\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9", 
+        "original": "User Interface"
+    }, 
+    "VALUE DEPENDENT": {
+        "message": "\u0476\u0202\u20a4\u1ee6\u0190 \u0189\u0190\u1e54\u0190\u019d\u0189\u0190\u019d\u4e01\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9", 
+        "original": "VALUE DEPENDENT"
+    }, 
+    "Virtual Texture": {
+        "message": "\u0476\u0457\u0213\u04ad\u0574\u0203\u230a \u4e01\u1f73\u2327\u04ad\u0574\u0213\u1f73\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9", 
+        "original": "Virtual Texture"
+    }, 
+    "Voice Volume": {
+        "message": "\u0476\u020f\u0457\u03f2\u1f73 \u0476\u020f\u230a\u0574\u028d\u1f73\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9", 
+        "original": "Voice Volume"
+    }, 
+    "WINDOWED": {
+        "message": "\u20a9\u03aa\u019d\u0189\u0472\u20a9\u0190\u0189\u03a9\u03a9\u03a9\u03a9", 
+        "original": "WINDOWED"
+    }, 
+    "Zoom Speed": {
+        "message": "\u01b5\u020f\u020f\u028d \u1e60\u2374\u1f73\u1f73\u0257\u03a9\u03a9\u03a9\u03a9\u03a9", 
+        "original": "Zoom Speed"
+    }, 
+    "abort": {
+        "message": "\u0203\u0411\u020f\u0213\u04ad\u03a9\u03a9", 
+        "original": "abort"
+    }, 
+    "add landing zone": {
+        "message": "\u0203\u0257\u0257 \u230a\u0203\u019e\u0257\u0457\u019e\u0260 \u2124\u020f\u019e\u1f73\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9", 
+        "original": "add landing zone"
+    }, 
+    "add metal spot": {
+        "message": "\u0203\u0257\u0257 \u028d\u1f73\u04ad\u0203\u230a \u01a8\u2374\u020f\u04ad\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9", 
+        "original": "add metal spot"
+    }, 
+    "add/remove": {
+        "message": "\u0203\u0257\u0257/\u0213\u1f73\u028d\u020f\u0477\u1f73\u03a9\u03a9\u03a9\u03a9\u03a9", 
+        "original": "add/remove"
+    }, 
+    "alerts": {
+        "message": "\u0203\u230a\u1f73\u0213\u04ad\u01a8\u03a9\u03a9\u03a9", 
+        "original": "alerts"
+    }, 
+    "align to pole": {
+        "message": "\u0203\u230a\u0457\u0260\u019e \u04ad\u020f \u2374\u020f\u230a\u1f73\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9", 
+        "original": "align to pole"
+    }, 
+    "all chat": {
+        "message": "\u0203\u230a\u230a \u03f2\u043d\u0203\u04ad\u03a9\u03a9\u03a9\u03a9", 
+        "original": "all chat"
+    }, 
+    "alt fire": {
+        "message": "\u0203\u230a\u04ad \u0493\u0457\u0213\u1f73\u03a9\u03a9\u03a9\u03a9", 
+        "original": "alt fire"
+    }, 
+    "assist": {
+        "message": "\u0203\u01a8\u01a8\u0457\u01a8\u04ad\u03a9\u03a9\u03a9", 
+        "original": "assist"
+    }, 
+    "attack": {
+        "message": "\u0203\u04ad\u04ad\u0203\u03f2\u045c\u03a9\u03a9\u03a9", 
+        "original": "attack"
+    }, 
+    "bug report": {
+        "message": "\u0411\u0574\u0260 \u0213\u1f73\u2374\u020f\u0213\u04ad\u03a9\u03a9\u03a9\u03a9\u03a9", 
+        "original": "bug report"
+    }, 
+    "build": {
+        "message": "\u0411\u0574\u0457\u230a\u0257\u03a9\u03a9", 
+        "original": "build"
+    }, 
+    "build avatar": {
+        "message": "\u0411\u0574\u0457\u230a\u0257 \u0203\u0477\u0203\u04ad\u0203\u0213\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9", 
+        "original": "build avatar"
+    }, 
+    "build avatar factory": {
+        "message": "\u0411\u0574\u0457\u230a\u0257 \u0203\u0477\u0203\u04ad\u0203\u0213 \u0493\u0203\u03f2\u04ad\u020f\u0213\u0443\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9", 
+        "original": "build avatar factory"
+    }, 
+    "build bar groups": {
+        "message": "\u0411\u0574\u0457\u230a\u0257 \u0411\u0203\u0213 \u0260\u0213\u020f\u0574\u2374\u01a8\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9", 
+        "original": "build bar groups"
+    }, 
+    "build item __item_number__": {
+        "message": "\u0411\u0574\u0457\u230a\u0257 \u0457\u04ad\u1f73\u028d __item_number__\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9", 
+        "original": "build item __item_number__"
+    }, 
+    "build items": {
+        "message": "\u0411\u0574\u0457\u230a\u0257 \u0457\u04ad\u1f73\u028d\u01a8\u03a9\u03a9\u03a9\u03a9\u03a9", 
+        "original": "build items"
+    }, 
+    "build loop": {
+        "message": "\u0411\u0574\u0457\u230a\u0257 \u230a\u020f\u020f\u2374\u03a9\u03a9\u03a9\u03a9\u03a9", 
+        "original": "build loop"
+    }, 
+    "build once": {
+        "message": "\u0411\u0574\u0457\u230a\u0257 \u020f\u019e\u03f2\u1f73\u03a9\u03a9\u03a9\u03a9\u03a9", 
+        "original": "build once"
+    }, 
+    "build orders": {
+        "message": "\u0411\u0574\u0457\u230a\u0257 \u020f\u0213\u0257\u1f73\u0213\u01a8\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9", 
+        "original": "build orders"
+    }, 
+    "camera": {
+        "message": "\u03f2\u0203\u028d\u1f73\u0213\u0203\u03a9\u03a9\u03a9", 
+        "original": "camera"
+    }, 
+    "capture anchor": {
+        "message": "\u03f2\u0203\u2374\u04ad\u0574\u0213\u1f73 \u0203\u019e\u03f2\u043d\u020f\u0213\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9", 
+        "original": "capture anchor"
+    }, 
+    "capture anchor __anchor_number__": {
+        "message": "\u03f2\u0203\u2374\u04ad\u0574\u0213\u1f73 \u0203\u019e\u03f2\u043d\u020f\u0213 __anchor_number__\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9", 
+        "original": "capture anchor __anchor_number__"
+    }, 
+    "capture group __group_number__": {
+        "message": "\u03f2\u0203\u2374\u04ad\u0574\u0213\u1f73 \u0260\u0213\u020f\u0574\u2374 __group_number__\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9", 
+        "original": "capture group __group_number__"
+    }, 
+    "chronocam": {
+        "message": "\u03f2\u043d\u0213\u020f\u019e\u020f\u03f2\u0203\u028d\u03a9\u03a9\u03a9\u03a9", 
+        "original": "chronocam"
+    }, 
+    "communication": {
+        "message": "\u03f2\u020f\u028d\u028d\u0574\u019e\u0457\u03f2\u0203\u04ad\u0457\u020f\u019e\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9", 
+        "original": "communication"
+    }, 
+    "copy selected": {
+        "message": "\u03f2\u020f\u2374\u0443 \u01a8\u1f73\u230a\u1f73\u03f2\u04ad\u1f73\u0257\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9", 
+        "original": "copy selected"
+    }, 
+    "copy to pip": {
+        "message": "\u03f2\u020f\u2374\u0443 \u04ad\u020f \u2374\u0457\u2374\u03a9\u03a9\u03a9\u03a9\u03a9", 
+        "original": "copy to pip"
+    }, 
+    "copy unit": {
+        "message": "\u03f2\u020f\u2374\u0443 \u0574\u019e\u0457\u04ad\u03a9\u03a9\u03a9\u03a9", 
+        "original": "copy unit"
+    }, 
+    "crash": {
+        "message": "\u03f2\u0213\u0203\u01a8\u043d\u03a9\u03a9", 
+        "original": "crash"
+    }, 
+    "decrease camera pan speed": {
+        "message": "\u0257\u1f73\u03f2\u0213\u1f73\u0203\u01a8\u1f73 \u03f2\u0203\u028d\u1f73\u0213\u0203 \u2374\u0203\u019e \u01a8\u2374\u1f73\u1f73\u0257\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9", 
+        "original": "decrease camera pan speed"
+    }, 
+    "delete selected": {
+        "message": "\u0257\u1f73\u230a\u1f73\u04ad\u1f73 \u01a8\u1f73\u230a\u1f73\u03f2\u04ad\u1f73\u0257\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9", 
+        "original": "delete selected"
+    }, 
+    "dev mode": {
+        "message": "\u0257\u1f73\u0477 \u028d\u020f\u0257\u1f73\u03a9\u03a9\u03a9\u03a9", 
+        "original": "dev mode"
+    }, 
+    "direction": {
+        "message": "\u0257\u0457\u0213\u1f73\u03f2\u04ad\u0457\u020f\u019e\u03a9\u03a9\u03a9\u03a9", 
+        "original": "direction"
+    }, 
+    "disable navigation debug info": {
+        "message": "\u0257\u0457\u01a8\u0203\u0411\u230a\u1f73 \u019e\u0203\u0477\u0457\u0260\u0203\u04ad\u0457\u020f\u019e \u0257\u1f73\u0411\u0574\u0260 \u0457\u019e\u0493\u020f\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9", 
+        "original": "disable navigation debug info"
+    }, 
+    "disconnect twin": {
+        "message": "\u0257\u0457\u01a8\u03f2\u020f\u019e\u019e\u1f73\u03f2\u04ad \u04ad\u1ff4\u0457\u019e\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9", 
+        "original": "disconnect twin"
+    }, 
+    "dismiss alert notification": {
+        "message": "\u0257\u0457\u01a8\u028d\u0457\u01a8\u01a8 \u0203\u230a\u1f73\u0213\u04ad \u019e\u020f\u04ad\u0457\u0493\u0457\u03f2\u0203\u04ad\u0457\u020f\u019e\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9", 
+        "original": "dismiss alert notification"
+    }, 
+    "enable navigation debug info": {
+        "message": "\u1f73\u019e\u0203\u0411\u230a\u1f73 \u019e\u0203\u0477\u0457\u0260\u0203\u04ad\u0457\u020f\u019e \u0257\u1f73\u0411\u0574\u0260 \u0457\u019e\u0493\u020f\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9", 
+        "original": "enable navigation debug info"
+    }, 
+    "energy off": {
+        "message": "\u1f73\u019e\u1f73\u0213\u0260\u0443 \u020f\u0493\u0493\u03a9\u03a9\u03a9\u03a9\u03a9", 
+        "original": "energy off"
+    }, 
+    "energy on": {
+        "message": "\u1f73\u019e\u1f73\u0213\u0260\u0443 \u020f\u019e\u03a9\u03a9\u03a9\u03a9", 
+        "original": "energy on"
+    }, 
+    "fire at will": {
+        "message": "\u0493\u0457\u0213\u1f73 \u0203\u04ad \u1ff4\u0457\u230a\u230a\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9", 
+        "original": "fire at will"
+    }, 
+    "free move backward": {
+        "message": "\u0493\u0213\u1f73\u1f73 \u028d\u020f\u0477\u1f73 \u0411\u0203\u03f2\u045c\u1ff4\u0203\u0213\u0257\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9", 
+        "original": "free move backward"
+    }, 
+    "free move down": {
+        "message": "\u0493\u0213\u1f73\u1f73 \u028d\u020f\u0477\u1f73 \u0257\u020f\u1ff4\u019e\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9", 
+        "original": "free move down"
+    }, 
+    "free move forward": {
+        "message": "\u0493\u0213\u1f73\u1f73 \u028d\u020f\u0477\u1f73 \u0493\u020f\u0213\u1ff4\u0203\u0213\u0257\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9", 
+        "original": "free move forward"
+    }, 
+    "free move left": {
+        "message": "\u0493\u0213\u1f73\u1f73 \u028d\u020f\u0477\u1f73 \u230a\u1f73\u0493\u04ad\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9", 
+        "original": "free move left"
+    }, 
+    "free move right": {
+        "message": "\u0493\u0213\u1f73\u1f73 \u028d\u020f\u0477\u1f73 \u0213\u0457\u0260\u043d\u04ad\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9", 
+        "original": "free move right"
+    }, 
+    "free move up": {
+        "message": "\u0493\u0213\u1f73\u1f73 \u028d\u020f\u0477\u1f73 \u0574\u2374\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9", 
+        "original": "free move up"
+    }, 
+    "free movement": {
+        "message": "\u0493\u0213\u1f73\u1f73 \u028d\u020f\u0477\u1f73\u028d\u1f73\u019e\u04ad\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9", 
+        "original": "free movement"
+    }, 
+    "free pitch backward": {
+        "message": "\u0493\u0213\u1f73\u1f73 \u2374\u0457\u04ad\u03f2\u043d \u0411\u0203\u03f2\u045c\u1ff4\u0203\u0213\u0257\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9", 
+        "original": "free pitch backward"
+    }, 
+    "free pitch forward": {
+        "message": "\u0493\u0213\u1f73\u1f73 \u2374\u0457\u04ad\u03f2\u043d \u0493\u020f\u0213\u1ff4\u0203\u0213\u0257\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9", 
+        "original": "free pitch forward"
+    }, 
+    "free roll left": {
+        "message": "\u0493\u0213\u1f73\u1f73 \u0213\u020f\u230a\u230a \u230a\u1f73\u0493\u04ad\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9", 
+        "original": "free roll left"
+    }, 
+    "free roll right": {
+        "message": "\u0493\u0213\u1f73\u1f73 \u0213\u020f\u230a\u230a \u0213\u0457\u0260\u043d\u04ad\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9", 
+        "original": "free roll right"
+    }, 
+    "free yaw left": {
+        "message": "\u0493\u0213\u1f73\u1f73 \u0443\u0203\u1ff4 \u230a\u1f73\u0493\u04ad\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9", 
+        "original": "free yaw left"
+    }, 
+    "free yaw right": {
+        "message": "\u0493\u0213\u1f73\u1f73 \u0443\u0203\u1ff4 \u0213\u0457\u0260\u043d\u04ad\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9", 
+        "original": "free yaw right"
+    }, 
+    "free zoom in": {
+        "message": "\u0493\u0213\u1f73\u1f73 \u2124\u020f\u020f\u028d \u0457\u019e\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9", 
+        "original": "free zoom in"
+    }, 
+    "free zoom out": {
+        "message": "\u0493\u0213\u1f73\u1f73 \u2124\u020f\u020f\u028d \u020f\u0574\u04ad\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9", 
+        "original": "free zoom out"
+    }, 
+    "general": {
+        "message": "\u0260\u1f73\u019e\u1f73\u0213\u0203\u230a\u03a9\u03a9\u03a9", 
+        "original": "general"
+    }, 
+    "grab csg": {
+        "message": "\u0260\u0213\u0203\u0411 \u03f2\u01a8\u0260\u03a9\u03a9\u03a9\u03a9", 
+        "original": "grab csg"
+    }, 
+    "hold fire": {
+        "message": "\u043d\u020f\u230a\u0257 \u0493\u0457\u0213\u1f73\u03a9\u03a9\u03a9\u03a9", 
+        "original": "hold fire"
+    }, 
+    "hold position": {
+        "message": "\u043d\u020f\u230a\u0257 \u2374\u020f\u01a8\u0457\u04ad\u0457\u020f\u019e\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9", 
+        "original": "hold position"
+    }, 
+    "increase camera pan speed": {
+        "message": "\u0457\u019e\u03f2\u0213\u1f73\u0203\u01a8\u1f73 \u03f2\u0203\u028d\u1f73\u0213\u0203 \u2374\u0203\u019e \u01a8\u2374\u1f73\u1f73\u0257\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9", 
+        "original": "increase camera pan speed"
+    }, 
+    "jump to next planet": {
+        "message": "\u0644\u0574\u028d\u2374 \u04ad\u020f \u019e\u1f73\u2327\u04ad \u2374\u230a\u0203\u019e\u1f73\u04ad\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9", 
+        "original": "jump to next planet"
+    }, 
+    "jump to previous planet": {
+        "message": "\u0644\u0574\u028d\u2374 \u04ad\u020f \u2374\u0213\u1f73\u0477\u0457\u020f\u0574\u01a8 \u2374\u230a\u0203\u019e\u1f73\u04ad\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9", 
+        "original": "jump to previous planet"
+    }, 
+    "last pseudo frame": {
+        "message": "\u230a\u0203\u01a8\u04ad \u2374\u01a8\u1f73\u0574\u0257\u020f \u0493\u0213\u0203\u028d\u1f73\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9", 
+        "original": "last pseudo frame"
+    }, 
+    "load": {
+        "message": "\u230a\u020f\u0203\u0257\u03a9\u03a9", 
+        "original": "load"
+    }, 
+    "maneuver": {
+        "message": "\u028d\u0203\u019e\u1f73\u0574\u0477\u1f73\u0213\u03a9\u03a9\u03a9\u03a9", 
+        "original": "maneuver"
+    }, 
+    "manipulate": {
+        "message": "\u028d\u0203\u019e\u0457\u2374\u0574\u230a\u0203\u04ad\u1f73\u03a9\u03a9\u03a9\u03a9\u03a9", 
+        "original": "manipulate"
+    }, 
+    "mode": {
+        "message": "\u028d\u020f\u0257\u1f73\u03a9\u03a9", 
+        "original": "mode"
+    }, 
+    "modes": {
+        "message": "\u028d\u020f\u0257\u1f73\u01a8\u03a9\u03a9", 
+        "original": "modes"
+    }, 
+    "move": {
+        "message": "\u028d\u020f\u0477\u1f73\u03a9\u03a9", 
+        "original": "move"
+    }, 
+    "move csg down": {
+        "message": "\u028d\u020f\u0477\u1f73 \u03f2\u01a8\u0260 \u0257\u020f\u1ff4\u019e\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9", 
+        "original": "move csg down"
+    }, 
+    "move csg up": {
+        "message": "\u028d\u020f\u0477\u1f73 \u03f2\u01a8\u0260 \u0574\u2374\u03a9\u03a9\u03a9\u03a9\u03a9", 
+        "original": "move csg up"
+    }, 
+    "move down": {
+        "message": "\u028d\u020f\u0477\u1f73 \u0257\u020f\u1ff4\u019e\u03a9\u03a9\u03a9\u03a9", 
+        "original": "move down"
+    }, 
+    "move left": {
+        "message": "\u028d\u020f\u0477\u1f73 \u230a\u1f73\u0493\u04ad\u03a9\u03a9\u03a9\u03a9", 
+        "original": "move left"
+    }, 
+    "move right": {
+        "message": "\u028d\u020f\u0477\u1f73 \u0213\u0457\u0260\u043d\u04ad\u03a9\u03a9\u03a9\u03a9\u03a9", 
+        "original": "move right"
+    }, 
+    "move up": {
+        "message": "\u028d\u020f\u0477\u1f73 \u0574\u2374\u03a9\u03a9\u03a9", 
+        "original": "move up"
+    }, 
+    "navigate back/exit": {
+        "message": "\u019e\u0203\u0477\u0457\u0260\u0203\u04ad\u1f73 \u0411\u0203\u03f2\u045c/\u1f73\u2327\u0457\u04ad\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9", 
+        "original": "navigate back/exit"
+    }, 
+    "next pseudo frame": {
+        "message": "\u019e\u1f73\u2327\u04ad \u2374\u01a8\u1f73\u0574\u0257\u020f \u0493\u0213\u0203\u028d\u1f73\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9", 
+        "original": "next pseudo frame"
+    }, 
+    "paste": {
+        "message": "\u2374\u0203\u01a8\u04ad\u1f73\u03a9\u03a9", 
+        "original": "paste"
+    }, 
+    "paste unit": {
+        "message": "\u2374\u0203\u01a8\u04ad\u1f73 \u0574\u019e\u0457\u04ad\u03a9\u03a9\u03a9\u03a9\u03a9", 
+        "original": "paste unit"
+    }, 
+    "patrol": {
+        "message": "\u2374\u0203\u04ad\u0213\u020f\u230a\u03a9\u03a9\u03a9", 
+        "original": "patrol"
+    }, 
+    "pause game": {
+        "message": "\u2374\u0203\u0574\u01a8\u1f73 \u0260\u0203\u028d\u1f73\u03a9\u03a9\u03a9\u03a9\u03a9", 
+        "original": "pause game"
+    }, 
+    "pause time": {
+        "message": "\u2374\u0203\u0574\u01a8\u1f73 \u04ad\u0457\u028d\u1f73\u03a9\u03a9\u03a9\u03a9\u03a9", 
+        "original": "pause time"
+    }, 
+    "picture-in-picture": {
+        "message": "\u2374\u0457\u03f2\u04ad\u0574\u0213\u1f73-\u0457\u019e-\u2374\u0457\u03f2\u04ad\u0574\u0213\u1f73\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9", 
+        "original": "picture-in-picture"
+    }, 
+    "ping": {
+        "message": "\u2374\u0457\u019e\u0260\u03a9\u03a9", 
+        "original": "ping"
+    }, 
+    "planet jump": {
+        "message": "\u2374\u230a\u0203\u019e\u1f73\u04ad \u0644\u0574\u028d\u2374\u03a9\u03a9\u03a9\u03a9\u03a9", 
+        "original": "planet jump"
+    }, 
+    "play backwards at 10%": {
+        "message": "\u2374\u230a\u0203\u0443 \u0411\u0203\u03f2\u045c\u1ff4\u0203\u0213\u0257\u01a8 \u0203\u04ad 10%\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9", 
+        "original": "play backwards at 10%"
+    }, 
+    "play backwards at 100%": {
+        "message": "\u2374\u230a\u0203\u0443 \u0411\u0203\u03f2\u045c\u1ff4\u0203\u0213\u0257\u01a8 \u0203\u04ad 100%\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9", 
+        "original": "play backwards at 100%"
+    }, 
+    "play backwards at 50%": {
+        "message": "\u2374\u230a\u0203\u0443 \u0411\u0203\u03f2\u045c\u1ff4\u0203\u0213\u0257\u01a8 \u0203\u04ad 50%\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9", 
+        "original": "play backwards at 50%"
+    }, 
+    "play forward at 100%": {
+        "message": "\u2374\u230a\u0203\u0443 \u0493\u020f\u0213\u1ff4\u0203\u0213\u0257 \u0203\u04ad 100%\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9", 
+        "original": "play forward at 100%"
+    }, 
+    "play forward at 50%": {
+        "message": "\u2374\u230a\u0203\u0443 \u0493\u020f\u0213\u1ff4\u0203\u0213\u0257 \u0203\u04ad 50%\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9", 
+        "original": "play forward at 50%"
+    }, 
+    "play forwards at 10%": {
+        "message": "\u2374\u230a\u0203\u0443 \u0493\u020f\u0213\u1ff4\u0203\u0213\u0257\u01a8 \u0203\u04ad 10%\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9", 
+        "original": "play forwards at 10%"
+    }, 
+    "publish server mods": {
+        "message": "\u2374\u0574\u0411\u230a\u0457\u01a8\u043d \u01a8\u1f73\u0213\u0477\u1f73\u0213 \u028d\u020f\u0257\u01a8\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9", 
+        "original": "publish server mods"
+    }, 
+    "quick profile": {
+        "message": "\u0533\u0574\u0457\u03f2\u045c \u2374\u0213\u020f\u0493\u0457\u230a\u1f73\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9", 
+        "original": "quick profile"
+    }, 
+    "recall anchor": {
+        "message": "\u0213\u1f73\u03f2\u0203\u230a\u230a \u0203\u019e\u03f2\u043d\u020f\u0213\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9", 
+        "original": "recall anchor"
+    }, 
+    "recall anchor __anchor_number__": {
+        "message": "\u0213\u1f73\u03f2\u0203\u230a\u230a \u0203\u019e\u03f2\u043d\u020f\u0213 __anchor_number__\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9", 
+        "original": "recall anchor __anchor_number__"
+    }, 
+    "recall group __group_number__": {
+        "message": "\u0213\u1f73\u03f2\u0203\u230a\u230a \u0260\u0213\u020f\u0574\u2374 __group_number__\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9", 
+        "original": "recall group __group_number__"
+    }, 
+    "reclaim": {
+        "message": "\u0213\u1f73\u03f2\u230a\u0203\u0457\u028d\u03a9\u03a9\u03a9", 
+        "original": "reclaim"
+    }, 
+    "reload view": {
+        "message": "\u0213\u1f73\u230a\u020f\u0203\u0257 \u0477\u0457\u1f73\u1ff4\u03a9\u03a9\u03a9\u03a9\u03a9", 
+        "original": "reload view"
+    }, 
+    "remove landing zone": {
+        "message": "\u0213\u1f73\u028d\u020f\u0477\u1f73 \u230a\u0203\u019e\u0257\u0457\u019e\u0260 \u2124\u020f\u019e\u1f73\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9", 
+        "original": "remove landing zone"
+    }, 
+    "remove metal spot": {
+        "message": "\u0213\u1f73\u028d\u020f\u0477\u1f73 \u028d\u1f73\u04ad\u0203\u230a \u01a8\u2374\u020f\u04ad\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9", 
+        "original": "remove metal spot"
+    }, 
+    "repair": {
+        "message": "\u0213\u1f73\u2374\u0203\u0457\u0213\u03a9\u03a9\u03a9", 
+        "original": "repair"
+    }, 
+    "resume at latest time": {
+        "message": "\u0213\u1f73\u01a8\u0574\u028d\u1f73 \u0203\u04ad \u230a\u0203\u04ad\u1f73\u01a8\u04ad \u04ad\u0457\u028d\u1f73\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9", 
+        "original": "resume at latest time"
+    }, 
+    "return fire": {
+        "message": "\u0213\u1f73\u04ad\u0574\u0213\u019e \u0493\u0457\u0213\u1f73\u03a9\u03a9\u03a9\u03a9\u03a9", 
+        "original": "return fire"
+    }, 
+    "roam": {
+        "message": "\u0213\u020f\u0203\u028d\u03a9\u03a9", 
+        "original": "roam"
+    }, 
+    "rotate csg ccw": {
+        "message": "\u0213\u020f\u04ad\u0203\u04ad\u1f73 \u03f2\u01a8\u0260 \u03f2\u03f2\u1ff4\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9", 
+        "original": "rotate csg ccw"
+    }, 
+    "rotate csg cw": {
+        "message": "\u0213\u020f\u04ad\u0203\u04ad\u1f73 \u03f2\u01a8\u0260 \u03f2\u1ff4\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9", 
+        "original": "rotate csg cw"
+    }, 
+    "scale csg down": {
+        "message": "\u01a8\u03f2\u0203\u230a\u1f73 \u03f2\u01a8\u0260 \u0257\u020f\u1ff4\u019e\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9", 
+        "original": "scale csg down"
+    }, 
+    "scale csg horizontally down": {
+        "message": "\u01a8\u03f2\u0203\u230a\u1f73 \u03f2\u01a8\u0260 \u043d\u020f\u0213\u0457\u2124\u020f\u019e\u04ad\u0203\u230a\u230a\u0443 \u0257\u020f\u1ff4\u019e\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9", 
+        "original": "scale csg horizontally down"
+    }, 
+    "scale csg horizontally up": {
+        "message": "\u01a8\u03f2\u0203\u230a\u1f73 \u03f2\u01a8\u0260 \u043d\u020f\u0213\u0457\u2124\u020f\u019e\u04ad\u0203\u230a\u230a\u0443 \u0574\u2374\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9", 
+        "original": "scale csg horizontally up"
+    }, 
+    "scale csg up": {
+        "message": "\u01a8\u03f2\u0203\u230a\u1f73 \u03f2\u01a8\u0260 \u0574\u2374\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9", 
+        "original": "scale csg up"
+    }, 
+    "scale csg vertically down": {
+        "message": "\u01a8\u03f2\u0203\u230a\u1f73 \u03f2\u01a8\u0260 \u0477\u1f73\u0213\u04ad\u0457\u03f2\u0203\u230a\u230a\u0443 \u0257\u020f\u1ff4\u019e\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9", 
+        "original": "scale csg vertically down"
+    }, 
+    "scale csg vertically up": {
+        "message": "\u01a8\u03f2\u0203\u230a\u1f73 \u03f2\u01a8\u0260 \u0477\u1f73\u0213\u04ad\u0457\u03f2\u0203\u230a\u230a\u0443 \u0574\u2374\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9", 
+        "original": "scale csg vertically up"
+    }, 
+    "select air group": {
+        "message": "\u01a8\u1f73\u230a\u1f73\u03f2\u04ad \u0203\u0457\u0213 \u0260\u0213\u020f\u0574\u2374\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9", 
+        "original": "select air group"
+    }, 
+    "select all air combat units": {
+        "message": "\u01a8\u1f73\u230a\u1f73\u03f2\u04ad \u0203\u230a\u230a \u0203\u0457\u0213 \u03f2\u020f\u028d\u0411\u0203\u04ad \u0574\u019e\u0457\u04ad\u01a8\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9", 
+        "original": "select all air combat units"
+    }, 
+    "select all air combat units on screen": {
+        "message": "\u01a8\u1f73\u230a\u1f73\u03f2\u04ad \u0203\u230a\u230a \u0203\u0457\u0213 \u03f2\u020f\u028d\u0411\u0203\u04ad \u0574\u019e\u0457\u04ad\u01a8 \u020f\u019e \u01a8\u03f2\u0213\u1f73\u1f73\u019e\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9", 
+        "original": "select all air combat units on screen"
+    }, 
+    "select all combat units": {
+        "message": "\u01a8\u1f73\u230a\u1f73\u03f2\u04ad \u0203\u230a\u230a \u03f2\u020f\u028d\u0411\u0203\u04ad \u0574\u019e\u0457\u04ad\u01a8\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9", 
+        "original": "select all combat units"
+    }, 
+    "select all combat units on screen": {
+        "message": "\u01a8\u1f73\u230a\u1f73\u03f2\u04ad \u0203\u230a\u230a \u03f2\u020f\u028d\u0411\u0203\u04ad \u0574\u019e\u0457\u04ad\u01a8 \u020f\u019e \u01a8\u03f2\u0213\u1f73\u1f73\u019e\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9", 
+        "original": "select all combat units on screen"
+    }, 
+    "select all factories": {
+        "message": "\u01a8\u1f73\u230a\u1f73\u03f2\u04ad \u0203\u230a\u230a \u0493\u0203\u03f2\u04ad\u020f\u0213\u0457\u1f73\u01a8\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9", 
+        "original": "select all factories"
+    }, 
+    "select all factories on screen": {
+        "message": "\u01a8\u1f73\u230a\u1f73\u03f2\u04ad \u0203\u230a\u230a \u0493\u0203\u03f2\u04ad\u020f\u0213\u0457\u1f73\u01a8 \u020f\u019e \u01a8\u03f2\u0213\u1f73\u1f73\u019e\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9", 
+        "original": "select all factories on screen"
+    }, 
+    "select all idle factories": {
+        "message": "\u01a8\u1f73\u230a\u1f73\u03f2\u04ad \u0203\u230a\u230a \u0457\u0257\u230a\u1f73 \u0493\u0203\u03f2\u04ad\u020f\u0213\u0457\u1f73\u01a8\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9", 
+        "original": "select all idle factories"
+    }, 
+    "select all idle factories on screen": {
+        "message": "\u01a8\u1f73\u230a\u1f73\u03f2\u04ad \u0203\u230a\u230a \u0457\u0257\u230a\u1f73 \u0493\u0203\u03f2\u04ad\u020f\u0213\u0457\u1f73\u01a8 \u020f\u019e \u01a8\u03f2\u0213\u1f73\u1f73\u019e\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9", 
+        "original": "select all idle factories on screen"
+    }, 
+    "select all land combat units": {
+        "message": "\u01a8\u1f73\u230a\u1f73\u03f2\u04ad \u0203\u230a\u230a \u230a\u0203\u019e\u0257 \u03f2\u020f\u028d\u0411\u0203\u04ad \u0574\u019e\u0457\u04ad\u01a8\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9", 
+        "original": "select all land combat units"
+    }, 
+    "select all land combat units on screen": {
+        "message": "\u01a8\u1f73\u230a\u1f73\u03f2\u04ad \u0203\u230a\u230a \u230a\u0203\u019e\u0257 \u03f2\u020f\u028d\u0411\u0203\u04ad \u0574\u019e\u0457\u04ad\u01a8 \u020f\u019e \u01a8\u03f2\u0213\u1f73\u1f73\u019e\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9", 
+        "original": "select all land combat units on screen"
+    }, 
+    "select all matching units on screen": {
+        "message": "\u01a8\u1f73\u230a\u1f73\u03f2\u04ad \u0203\u230a\u230a \u028d\u0203\u04ad\u03f2\u043d\u0457\u019e\u0260 \u0574\u019e\u0457\u04ad\u01a8 \u020f\u019e \u01a8\u03f2\u0213\u1f73\u1f73\u019e\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9", 
+        "original": "select all matching units on screen"
+    }, 
+    "select all naval combat units": {
+        "message": "\u01a8\u1f73\u230a\u1f73\u03f2\u04ad \u0203\u230a\u230a \u019e\u0203\u0477\u0203\u230a \u03f2\u020f\u028d\u0411\u0203\u04ad \u0574\u019e\u0457\u04ad\u01a8\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9", 
+        "original": "select all naval combat units"
+    }, 
+    "select all naval combat units on screen": {
+        "message": "\u01a8\u1f73\u230a\u1f73\u03f2\u04ad \u0203\u230a\u230a \u019e\u0203\u0477\u0203\u230a \u03f2\u020f\u028d\u0411\u0203\u04ad \u0574\u019e\u0457\u04ad\u01a8 \u020f\u019e \u01a8\u03f2\u0213\u1f73\u1f73\u019e\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9", 
+        "original": "select all naval combat units on screen"
+    }, 
+    "select bot group": {
+        "message": "\u01a8\u1f73\u230a\u1f73\u03f2\u04ad \u0411\u020f\u04ad \u0260\u0213\u020f\u0574\u2374\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9", 
+        "original": "select bot group"
+    }, 
+    "select combat group": {
+        "message": "\u01a8\u1f73\u230a\u1f73\u03f2\u04ad \u03f2\u020f\u028d\u0411\u0203\u04ad \u0260\u0213\u020f\u0574\u2374\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9", 
+        "original": "select combat group"
+    }, 
+    "select commander": {
+        "message": "\u01a8\u1f73\u230a\u1f73\u03f2\u04ad \u03f2\u020f\u028d\u028d\u0203\u019e\u0257\u1f73\u0213\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9", 
+        "original": "select commander"
+    }, 
+    "select factory group": {
+        "message": "\u01a8\u1f73\u230a\u1f73\u03f2\u04ad \u0493\u0203\u03f2\u04ad\u020f\u0213\u0443 \u0260\u0213\u020f\u0574\u2374\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9", 
+        "original": "select factory group"
+    }, 
+    "select idle fabbers": {
+        "message": "\u01a8\u1f73\u230a\u1f73\u03f2\u04ad \u0457\u0257\u230a\u1f73 \u0493\u0203\u0411\u0411\u1f73\u0213\u01a8\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9", 
+        "original": "select idle fabbers"
+    }, 
+    "select orbital group (buildings)": {
+        "message": "\u01a8\u1f73\u230a\u1f73\u03f2\u04ad \u020f\u0213\u0411\u0457\u04ad\u0203\u230a \u0260\u0213\u020f\u0574\u2374 (\u0411\u0574\u0457\u230a\u0257\u0457\u019e\u0260\u01a8)\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9", 
+        "original": "select orbital group (buildings)"
+    }, 
+    "select orbital group (units)": {
+        "message": "\u01a8\u1f73\u230a\u1f73\u03f2\u04ad \u020f\u0213\u0411\u0457\u04ad\u0203\u230a \u0260\u0213\u020f\u0574\u2374 (\u0574\u019e\u0457\u04ad\u01a8)\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9", 
+        "original": "select orbital group (units)"
+    }, 
+    "select sea group": {
+        "message": "\u01a8\u1f73\u230a\u1f73\u03f2\u04ad \u01a8\u1f73\u0203 \u0260\u0213\u020f\u0574\u2374\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9", 
+        "original": "select sea group"
+    }, 
+    "select utility group": {
+        "message": "\u01a8\u1f73\u230a\u1f73\u03f2\u04ad \u0574\u04ad\u0457\u230a\u0457\u04ad\u0443 \u0260\u0213\u020f\u0574\u2374\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9", 
+        "original": "select utility group"
+    }, 
+    "select vehicle group": {
+        "message": "\u01a8\u1f73\u230a\u1f73\u03f2\u04ad \u0477\u1f73\u043d\u0457\u03f2\u230a\u1f73 \u0260\u0213\u020f\u0574\u2374\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9", 
+        "original": "select vehicle group"
+    }, 
+    "self destruct selected unit": {
+        "message": "\u01a8\u1f73\u230a\u0493 \u0257\u1f73\u01a8\u04ad\u0213\u0574\u03f2\u04ad \u01a8\u1f73\u230a\u1f73\u03f2\u04ad\u1f73\u0257 \u0574\u019e\u0457\u04ad\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9", 
+        "original": "self destruct selected unit"
+    }, 
+    "set army from hover": {
+        "message": "\u01a8\u1f73\u04ad \u0203\u0213\u028d\u0443 \u0493\u0213\u020f\u028d \u043d\u020f\u0477\u1f73\u0213\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9", 
+        "original": "set army from hover"
+    }, 
+    "set debug camera": {
+        "message": "\u01a8\u1f73\u04ad \u0257\u1f73\u0411\u0574\u0260 \u03f2\u0203\u028d\u1f73\u0213\u0203\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9", 
+        "original": "set debug camera"
+    }, 
+    "set default camera": {
+        "message": "\u01a8\u1f73\u04ad \u0257\u1f73\u0493\u0203\u0574\u230a\u04ad \u03f2\u0203\u028d\u1f73\u0213\u0203\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9", 
+        "original": "set default camera"
+    }, 
+    "set free camera": {
+        "message": "\u01a8\u1f73\u04ad \u0493\u0213\u1f73\u1f73 \u03f2\u0203\u028d\u1f73\u0213\u0203\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9", 
+        "original": "set free camera"
+    }, 
+    "set pathable csg": {
+        "message": "\u01a8\u1f73\u04ad \u2374\u0203\u04ad\u043d\u0203\u0411\u230a\u1f73 \u03f2\u01a8\u0260\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9", 
+        "original": "set pathable csg"
+    }, 
+    "set planet camera": {
+        "message": "\u01a8\u1f73\u04ad \u2374\u230a\u0203\u019e\u1f73\u04ad \u03f2\u0203\u028d\u1f73\u0213\u0203\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9", 
+        "original": "set planet camera"
+    }, 
+    "show player guide": {
+        "message": "\u01a8\u043d\u020f\u1ff4 \u2374\u230a\u0203\u0443\u1f73\u0213 \u0260\u0574\u0457\u0257\u1f73\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9", 
+        "original": "show player guide"
+    }, 
+    "show/hide UI": {
+        "message": "\u01a8\u043d\u020f\u1ff4/\u043d\u0457\u0257\u1f73 \u1ee6\u03aa\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9", 
+        "original": "show/hide UI"
+    }, 
+    "show/hide performance panel": {
+        "message": "\u01a8\u043d\u020f\u1ff4/\u043d\u0457\u0257\u1f73 \u2374\u1f73\u0213\u0493\u020f\u0213\u028d\u0203\u019e\u03f2\u1f73 \u2374\u0203\u019e\u1f73\u230a\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9", 
+        "original": "show/hide performance panel"
+    }, 
+    "show/hide visual aid overlays": {
+        "message": "\u01a8\u043d\u020f\u1ff4/\u043d\u0457\u0257\u1f73 \u0477\u0457\u01a8\u0574\u0203\u230a \u0203\u0457\u0257 \u020f\u0477\u1f73\u0213\u230a\u0203\u0443\u01a8\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9", 
+        "original": "show/hide visual aid overlays"
+    }, 
+    "skip backward 1s": {
+        "message": "\u01a8\u045c\u0457\u2374 \u0411\u0203\u03f2\u045c\u1ff4\u0203\u0213\u0257 1\u01a8\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9", 
+        "original": "skip backward 1s"
+    }, 
+    "skip forward 1s": {
+        "message": "\u01a8\u045c\u0457\u2374 \u0493\u020f\u0213\u1ff4\u0203\u0213\u0257 1\u01a8\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9", 
+        "original": "skip forward 1s"
+    }, 
+    "smooth zoom in": {
+        "message": "\u01a8\u028d\u020f\u020f\u04ad\u043d \u2124\u020f\u020f\u028d \u0457\u019e\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9", 
+        "original": "smooth zoom in"
+    }, 
+    "smooth zoom out": {
+        "message": "\u01a8\u028d\u020f\u020f\u04ad\u043d \u2124\u020f\u020f\u028d \u020f\u0574\u04ad\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9", 
+        "original": "smooth zoom out"
+    }, 
+    "special move": {
+        "message": "\u01a8\u2374\u1f73\u03f2\u0457\u0203\u230a \u028d\u020f\u0477\u1f73\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9", 
+        "original": "special move"
+    }, 
+    "stop": {
+        "message": "\u01a8\u04ad\u020f\u2374\u03a9\u03a9", 
+        "original": "stop"
+    }, 
+    "swap pip": {
+        "message": "\u01a8\u1ff4\u0203\u2374 \u2374\u0457\u2374\u03a9\u03a9\u03a9\u03a9", 
+        "original": "swap pip"
+    }, 
+    "team chat": {
+        "message": "\u04ad\u1f73\u0203\u028d \u03f2\u043d\u0203\u04ad\u03a9\u03a9\u03a9\u03a9", 
+        "original": "team chat"
+    }, 
+    "terrain editor": {
+        "message": "\u04ad\u1f73\u0213\u0213\u0203\u0457\u019e \u1f73\u0257\u0457\u04ad\u020f\u0213\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9", 
+        "original": "terrain editor"
+    }, 
+    "toggle FOW": {
+        "message": "\u04ad\u020f\u0260\u0260\u230a\u1f73 \u03dc\u0472\u20a9\u03a9\u03a9\u03a9\u03a9\u03a9", 
+        "original": "toggle FOW"
+    }, 
+    "toggle audio logging": {
+        "message": "\u04ad\u020f\u0260\u0260\u230a\u1f73 \u0203\u0574\u0257\u0457\u020f \u230a\u020f\u0260\u0260\u0457\u019e\u0260\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9", 
+        "original": "toggle audio logging"
+    }, 
+    "toggle build orders": {
+        "message": "\u04ad\u020f\u0260\u0260\u230a\u1f73 \u0411\u0574\u0457\u230a\u0257 \u020f\u0213\u0257\u1f73\u0213\u01a8\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9", 
+        "original": "toggle build orders"
+    }, 
+    "toggle console": {
+        "message": "\u04ad\u020f\u0260\u0260\u230a\u1f73 \u03f2\u020f\u019e\u01a8\u020f\u230a\u1f73\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9", 
+        "original": "toggle console"
+    }, 
+    "toggle debug camera": {
+        "message": "\u04ad\u020f\u0260\u0260\u230a\u1f73 \u0257\u1f73\u0411\u0574\u0260 \u03f2\u0203\u028d\u1f73\u0213\u0203\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9", 
+        "original": "toggle debug camera"
+    }, 
+    "toggle edit metal spots": {
+        "message": "\u04ad\u020f\u0260\u0260\u230a\u1f73 \u1f73\u0257\u0457\u04ad \u028d\u1f73\u04ad\u0203\u230a \u01a8\u2374\u020f\u04ad\u01a8\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9", 
+        "original": "toggle edit metal spots"
+    }, 
+    "toggle edit terrain mode": {
+        "message": "\u04ad\u020f\u0260\u0260\u230a\u1f73 \u1f73\u0257\u0457\u04ad \u04ad\u1f73\u0213\u0213\u0203\u0457\u019e \u028d\u020f\u0257\u1f73\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9", 
+        "original": "toggle edit terrain mode"
+    }, 
+    "toggle energy orders": {
+        "message": "\u04ad\u020f\u0260\u0260\u230a\u1f73 \u1f73\u019e\u1f73\u0213\u0260\u0443 \u020f\u0213\u0257\u1f73\u0213\u01a8\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9", 
+        "original": "toggle energy orders"
+    }, 
+    "toggle fire orders": {
+        "message": "\u04ad\u020f\u0260\u0260\u230a\u1f73 \u0493\u0457\u0213\u1f73 \u020f\u0213\u0257\u1f73\u0213\u01a8\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9", 
+        "original": "toggle fire orders"
+    }, 
+    "toggle free camera": {
+        "message": "\u04ad\u020f\u0260\u0260\u230a\u1f73 \u0493\u0213\u1f73\u1f73 \u03f2\u0203\u028d\u1f73\u0213\u0203\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9", 
+        "original": "toggle free camera"
+    }, 
+    "toggle fullscreen": {
+        "message": "\u04ad\u020f\u0260\u0260\u230a\u1f73 \u0493\u0574\u230a\u230a\u01a8\u03f2\u0213\u1f73\u1f73\u019e\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9", 
+        "original": "toggle fullscreen"
+    }, 
+    "toggle move orders": {
+        "message": "\u04ad\u020f\u0260\u0260\u230a\u1f73 \u028d\u020f\u0477\u1f73 \u020f\u0213\u0257\u1f73\u0213\u01a8\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9", 
+        "original": "toggle move orders"
+    }, 
+    "toggle music": {
+        "message": "\u04ad\u020f\u0260\u0260\u230a\u1f73 \u028d\u0574\u01a8\u0457\u03f2\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9", 
+        "original": "toggle music"
+    }, 
+    "toggle nav debug": {
+        "message": "\u04ad\u020f\u0260\u0260\u230a\u1f73 \u019e\u0203\u0477 \u0257\u1f73\u0411\u0574\u0260\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9", 
+        "original": "toggle nav debug"
+    }, 
+    "toggle pip mirror": {
+        "message": "\u04ad\u020f\u0260\u0260\u230a\u1f73 \u2374\u0457\u2374 \u028d\u0457\u0213\u0213\u020f\u0213\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9", 
+        "original": "toggle pip mirror"
+    }, 
+    "toggle show water": {
+        "message": "\u04ad\u020f\u0260\u0260\u230a\u1f73 \u01a8\u043d\u020f\u1ff4 \u1ff4\u0203\u04ad\u1f73\u0213\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9", 
+        "original": "toggle show water"
+    }, 
+    "track selection with camera": {
+        "message": "\u04ad\u0213\u0203\u03f2\u045c \u01a8\u1f73\u230a\u1f73\u03f2\u04ad\u0457\u020f\u019e \u1ff4\u0457\u04ad\u043d \u03f2\u0203\u028d\u1f73\u0213\u0203\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9", 
+        "original": "track selection with camera"
+    }, 
+    "tracking & alignment": {
+        "message": "\u04ad\u0213\u0203\u03f2\u045c\u0457\u019e\u0260 & \u0203\u230a\u0457\u0260\u019e\u028d\u1f73\u019e\u04ad\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9", 
+        "original": "tracking & alignment"
+    }, 
+    "tuning": {
+        "message": "\u04ad\u0574\u019e\u0457\u019e\u0260\u03a9\u03a9\u03a9", 
+        "original": "tuning"
+    }, 
+    "unit capture groups": {
+        "message": "\u0574\u019e\u0457\u04ad \u03f2\u0203\u2374\u04ad\u0574\u0213\u1f73 \u0260\u0213\u020f\u0574\u2374\u01a8\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9", 
+        "original": "unit capture groups"
+    }, 
+    "unit commands": {
+        "message": "\u0574\u019e\u0457\u04ad \u03f2\u020f\u028d\u028d\u0203\u019e\u0257\u01a8\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9", 
+        "original": "unit commands"
+    }, 
+    "unit orders": {
+        "message": "\u0574\u019e\u0457\u04ad \u020f\u0213\u0257\u1f73\u0213\u01a8\u03a9\u03a9\u03a9\u03a9\u03a9", 
+        "original": "unit orders"
+    }, 
+    "unit recall groups": {
+        "message": "\u0574\u019e\u0457\u04ad \u0213\u1f73\u03f2\u0203\u230a\u230a \u0260\u0213\u020f\u0574\u2374\u01a8\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9", 
+        "original": "unit recall groups"
+    }, 
+    "unit selection": {
+        "message": "\u0574\u019e\u0457\u04ad \u01a8\u1f73\u230a\u1f73\u03f2\u04ad\u0457\u020f\u019e\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9", 
+        "original": "unit selection"
+    }, 
+    "units": {
+        "message": "\u0574\u019e\u0457\u04ad\u01a8\u03a9\u03a9", 
+        "original": "units"
+    }, 
+    "unload": {
+        "message": "\u0574\u019e\u230a\u020f\u0203\u0257\u03a9\u03a9\u03a9", 
+        "original": "unload"
+    }, 
+    "zoom": {
+        "message": "\u2124\u020f\u020f\u028d\u03a9\u03a9", 
+        "original": "zoom"
+    }, 
+    "zoom in": {
+        "message": "\u2124\u020f\u020f\u028d \u0457\u019e\u03a9\u03a9\u03a9", 
+        "original": "zoom in"
+    }, 
+    "zoom out": {
+        "message": "\u2124\u020f\u020f\u028d \u020f\u0574\u04ad\u03a9\u03a9\u03a9\u03a9", 
+        "original": "zoom out"
+    }, 
+    "zoom to air": {
+        "message": "\u2124\u020f\u020f\u028d \u04ad\u020f \u0203\u0457\u0213\u03a9\u03a9\u03a9\u03a9\u03a9", 
+        "original": "zoom to air"
+    }, 
+    "zoom to celestial": {
+        "message": "\u2124\u020f\u020f\u028d \u04ad\u020f \u03f2\u1f73\u230a\u1f73\u01a8\u04ad\u0457\u0203\u230a\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9", 
+        "original": "zoom to celestial"
+    }, 
+    "zoom to combat": {
+        "message": "\u2124\u020f\u020f\u028d \u04ad\u020f \u03f2\u020f\u028d\u0411\u0203\u04ad\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9", 
+        "original": "zoom to combat"
+    }, 
+    "zoom to orbital": {
+        "message": "\u2124\u020f\u020f\u028d \u04ad\u020f \u020f\u0213\u0411\u0457\u04ad\u0203\u230a\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9", 
+        "original": "zoom to orbital"
+    }, 
+    "zoom to surface": {
+        "message": "\u2124\u020f\u020f\u028d \u04ad\u020f \u01a8\u0574\u0213\u0493\u0203\u03f2\u1f73\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9", 
+        "original": "zoom to surface"
+    }
+}

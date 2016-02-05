@@ -1,0 +1,86 @@
+{
+    "Avg": {
+        "message": "\u015ar."
+    }, 
+    "Consumed": {
+        "message": "Zu\u017cyto"
+    }, 
+    "Created": {
+        "message": "Stworzono"
+    }, 
+    "Current": {
+        "message": "Aktualnie"
+    }, 
+    "Current APM": {
+        "message": "Aktualne APM"
+    }, 
+    "Current Efficiency": {
+        "message": "Aktualna wydajno\u015b\u0107"
+    }, 
+    "Current Energy": {
+        "message": "Aktualna energia"
+    }, 
+    "Current Metal": {
+        "message": "Aktualny metal"
+    }, 
+    "Current Units": {
+        "message": "Aktualne jednostki"
+    }, 
+    "Draw": {
+        "message": "Remis"
+    }, 
+    "Fab": {
+        "message": "Fab"
+    }, 
+    "Factory": {
+        "message": "Fabryka"
+    }, 
+    "GAME SUMMARY": {
+        "message": "PODSUMOWANIE GRY"
+    }, 
+    "In Progress": {
+        "message": "W Trakcie"
+    }, 
+    "Lost": {
+        "message": "Przegrana"
+    }, 
+    "Mobile": {
+        "message": "Mobilno\u015b\u0107"
+    }, 
+    "Opp Killed": {
+        "message": "Przeciwnik zabity"
+    }, 
+    "Produced": {
+        "message": "Wyprodukowane"
+    }, 
+    "Retrieving Stats...": {
+        "message": "Pobieranie statystyk..."
+    }, 
+    "Total": {
+        "message": "Suma"
+    }, 
+    "Total APM": {
+        "message": "Suma APM"
+    }, 
+    "Total Efficiency": {
+        "message": "Suma wydajno\u015bci"
+    }, 
+    "Total Energy": {
+        "message": "Suma energii"
+    }, 
+    "Total Metal": {
+        "message": "Suma metalu"
+    }, 
+    "Total Units": {
+        "message": "Suma jednostek"
+    }, 
+    "Wasted": {
+        "message": "Zniszczone"
+    }, 
+    "Winner:": {
+        "message": "Zwyci\u0119zca:"
+    }, 
+    "Winners:": {
+        "message": "Zwyci\u0119zcy:"
+    }
+}

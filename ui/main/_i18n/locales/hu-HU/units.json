@@ -1,0 +1,548 @@
+{
+    "ARKYD": {
+        "message": "ARKYD"
+    }, 
+    "Advanced Air Factory": {
+        "message": "Fejlett Rep\u00fcl\u0151gy\u00e1r"
+    }, 
+    "Advanced Bot Factory": {
+        "message": "Fejlett Robotgy\u00e1r"
+    }, 
+    "Advanced Combat Fabrication Bot": {
+        "message": "Fejlett Harci Gy\u00e1rt\u00f3robot"
+    }, 
+    "Advanced Energy Plant": {
+        "message": "Fejlett Energia Gy\u00e1rt\u00f3"
+    }, 
+    "Advanced Fab Aircraft": {
+        "message": "Fejlett Gy\u00e1rt\u00f3rep\u00fcl\u0151"
+    }, 
+    "Advanced Fabrication Bot": {
+        "message": "Fejlett Gy\u00e1rt\u00f3robot"
+    }, 
+    "Advanced Fabrication Ship": {
+        "message": "Fejlett Gy\u00e1rt\u00f3haj\u00f3"
+    }, 
+    "Advanced Fabrication Vehicle": {
+        "message": "Fejlett Gy\u00e1rt\u00f3j\u00e1rm\u0171"
+    }, 
+    "Advanced Laser Defense Tower": {
+        "message": "Fejlett L\u00e9zeres V\u00e9delmi Torony"
+    }, 
+    "Advanced Metal Extractor": {
+        "message": "Fejlett F\u00e9mtermel\u0151"
+    }, 
+    "Advanced Naval Factory": {
+        "message": "Fejlett Haj\u00f3gy\u00e1r"
+    }, 
+    "Advanced Radar": {
+        "message": "Fejlett Radar"
+    }, 
+    "Advanced Radar Satellite": {
+        "message": "Fejlett Radar M\u0171hold"
+    }, 
+    "Advanced Sonar": {
+        "message": "Fejlett Szon\u00e1r"
+    }, 
+    "Advanced Tank: Anti-land and anti-ship guns": {
+        "message": "Fejlett Tank- F\u00f6ld- \u00e9s v\u00edzv\u00e9delmi fegyverzet."
+    }, 
+    "Advanced Torpedo Launcher": {
+        "message": "Fejlett Torped\u00f3kil\u00f6v\u0151"
+    }, 
+    "Advanced Vehicle Factory": {
+        "message": "Fejlett J\u00e1rm\u0171gy\u00e1r"
+    }, 
+    "Advanced artillery- Equipped with long range anti-land, and anti-ship gun.": {
+        "message": "Fejlett t\u00fcz\u00e9rs\u00e9g- Hossz\u00fat\u00e1v\u00fa f\u00f6ld- \u00e9s v\u00edzv\u00e9delmi \u00e1gy\u00faval van felszerelve."
+    }, 
+    "Advanced fabricator combatant- Wired to repair units and build battlefield structures. Can only build units for which it has a blueprint.": {
+        "message": "Fejlett gy\u00e1rt\u00f3-harcos- Egys\u00e9gek jav\u00edt\u00e1s\u00e1ra \u00e9s harct\u00e9ri \u00e9p\u00edtm\u00e9nyek k\u00e9sz\u00edt\u00e9s\u00e9re alkalmas. Csak olyan egys\u00e9geket tud \u00e9p\u00edteni, melyhez van tervrajza."
+    }, 
+    "Advanced fabricator- Builds orbital satellites and ships.": {
+        "message": "Fejlett gy\u00e1rt\u00f3- M\u0171holdakat \u00e9s \u0171rhaj\u00f3kat \u00e9p\u00edt."
+    }, 
+    "Advanced fabricator- Wired to build naval structures.": {
+        "message": "Fejlett gy\u00e1rt\u00f3- Tengeri \u00e9p\u00edtm\u00e9nyek elk\u00e9sz\u00edt\u00e9s\u00e9re alkalmas."
+    }, 
+    "Advanced fabricator- Wired to build structures.": {
+        "message": "Fejlett gy\u00e1rt\u00f3- \u00c9p\u00edtm\u00e9nyek elk\u00e9sz\u00edt\u00e9s\u00e9re alkalmas."
+    }, 
+    "Advanced manufacturing- Builds air units.": {
+        "message": "Fejlett gy\u00e1rt\u00e1s- L\u00e9gi egys\u00e9geket \u00e9p\u00edt."
+    }, 
+    "Advanced manufacturing- Builds bots.": {
+        "message": "Fejlett gy\u00e1rt\u00e1s- Robotokat \u00e9p\u00edt."
+    }, 
+    "Advanced manufacturing- Builds land vehicles.": {
+        "message": "Fejlett gy\u00e1rt\u00e1s- F\u00f6ldi j\u00e1rm\u0171veket \u00e9p\u00edt."
+    }, 
+    "Advanced manufacturing- Builds naval units.": {
+        "message": "Fejlett gy\u00e1rt\u00e1s- Tengeri egys\u00e9geket \u00e9p\u00edt."
+    }, 
+    "Advanced manufacturing- Builds orbital satellites.": {
+        "message": "Fejlett gy\u00e1rt\u00e1s- Bolyg\u00f3k\u00f6zeli m\u0171holdakat \u00e9p\u00edt."
+    }, 
+    "Advanced manufacturing- Produces energy.": {
+        "message": "Fejlett gy\u00e1rt\u00e1s- Energi\u00e1t \u00e1ll\u00edt el\u0151."
+    }, 
+    "Advanced manufacturing- Produces metal, can only be placed on metal deposits.": {
+        "message": "Fejlett gy\u00e1rt\u00e1s- F\u00e9met termel, csak f\u00e9mhelyekre helyezhet\u0151."
+    }, 
+    "Advanced radar satellite- Detects a vast area for enemy land, sea, and air units.": {
+        "message": "Fejlett radar m\u0171hold- Hatalmas ter\u00fcletet fed fel, nagy k\u00f6rben l\u00e1that\u00f3v\u00e1 teszi az ellens\u00e9ges f\u00f6ldi, tengeri \u00e9s l\u00e9gi egys\u00e9geket."
+    }, 
+    "Advanced radar- Detects nearby enemy land, sea, and air units.": {
+        "message": "Fejlett radar- \u00c9rz\u00e9keli a k\u00f6zelben l\u00e9v\u0151 f\u00f6ldi, tengeri \u00e9s l\u00e9gi egys\u00e9geket."
+    }, 
+    "Advanced sonar- Detects underwater units.": {
+        "message": "Fejlett szon\u00e1r- \u00c9rz\u00e9keli a v\u00edzalatti egys\u00e9geket."
+    }, 
+    "Advanced turret- Equipped with anti-air turret.": {
+        "message": "Fejlett l\u00f6veg- L\u00e9gv\u00e9delemmel van felszerelve."
+    }, 
+    "Advanced turret- Equipped with direct fire anti-land, and anti-ship defenses.": {
+        "message": "Fejlett l\u00f6veg- K\u00f6zvetlen t\u00fczel\u00e9s\u0171 f\u00f6ld- \u00e9s v\u00edzv\u00e9delemmel van felszerelve."
+    }, 
+    "Air Factory": {
+        "message": "Rep\u00fcl\u0151gy\u00e1r"
+    }, 
+    "Air Transport- Load a land unit for rapid long distance travel.": {
+        "message": "Sz\u00e1ll\u00edt\u00f3 Rep\u00fcl\u0151- F\u00f6ldi egys\u00e9gek gyors, hossz\u00fat\u00e1v\u00fa sz\u00e1ll\u00edt\u00e1s\u00e1ra alkalmas."
+    }, 
+    "All Terrain Bot: Can crawl almost anywhere.": {
+        "message": "Terepj\u00e1r\u00f3 Robot: Szinte b\u00e1rhol k\u00e9pes m\u00e1szni."
+    }, 
+    "Analysis: Controls things. Big things.": {
+        "message": "Anal\u00edzis: Dolgokat vez\u00e9rel. Nagy dolgokat."
+    }, 
+    "Anchor": {
+        "message": "Horgony"
+    }, 
+    "Ant": {
+        "message": "Hangya"
+    }, 
+    "Anti-Nuke Launcher": {
+        "message": "Anti-Atom Kil\u00f6v\u0151"
+    }, 
+    "Anti-nuke - Intercepts incoming nuclear missiles.": {
+        "message": "Anti-atom - Megsemmis\u00edti a k\u00f6zeled\u0151 nukle\u00e1ris rak\u00e9t\u00e1kat."
+    }, 
+    "Anti-nuke launcher- Equipped with advanced anti-nuclear missile weapon.": {
+        "message": "Anti-atom kil\u00f6v\u0151- Fejlett anti-nukle\u00e1ris rak\u00e9t\u00e1val van felszerelve."
+    }, 
+    "Artillery ship- Long range advanced guided missiles.": {
+        "message": "T\u00fcz\u00e9rs\u00e9gi haj\u00f3- Hossz\u00fat\u00e1v\u00fa, fejlett ir\u00e1ny\u00edtott rak\u00e9t\u00e1k."
+    }, 
+    "Assault bot- Equipped with advanced anti-land and anti-ship lasers.": {
+        "message": "Harcirobot- Fejlett f\u00f6ld- \u00e9s v\u00edzv\u00e9delmi l\u00e9zerekkel van felszerelve."
+    }, 
+    "Assault bot- Equipped with basic anti-land and anti-ship lasers.": {
+        "message": "Harcirobot- Alapszint\u0171 f\u00f6ld- \u00e9s v\u00edzv\u00e9delmi l\u00e9zerekkel van felszerelve."
+    }, 
+    "Assault: Anti-land and anti-ship lasers": {
+        "message": "Harci: F\u00f6ld- \u00e9s v\u00edzv\u00e9delmi l\u00e9zerek"
+    }, 
+    "Astraeus": {
+        "message": "Astraeus"
+    }, 
+    "Avenger": {
+        "message": "Bossz\u00fa\u00e1ll\u00f3"
+    }, 
+    "Barracuda": {
+        "message": "Barrakuda"
+    }, 
+    "Basic artillery- Equipped with medium range anti-land, and anti-ship gun.": {
+        "message": "Alapszint\u0171 t\u00fcz\u00e9rs\u00e9g- K\u00f6z\u00e9pt\u00e1v\u00fa f\u00f6ld- \u00e9s v\u00edzv\u00e9delmi \u00e1gy\u00faval van felszerelve."
+    }, 
+    "Basic defense- No weapon, high health.": {
+        "message": "Alapszint\u0171 v\u00e9delem- Fegyvertelen, sok \u00e9let."
+    }, 
+    "Basic fabricator combatant- Wired to build mines and repair units. Can only build units for which it has a blueprint.": {
+        "message": "Alapszint\u0171 gy\u00e1rt\u00f3-harcos- Akn\u00e1k \u00e9p\u00edt\u00e9s\u00e9re \u00e9s egys\u00e9gek jav\u00edt\u00e1s\u00e1ra alkalmas. Csak olyan egys\u00e9geket tud \u00e9p\u00edteni, melyhez van tervrajza."
+    }, 
+    "Basic fabricator- Wired to build naval structures.": {
+        "message": "Alapszint\u0171 gy\u00e1rt\u00f3- Tengeri \u00e9p\u00edtm\u00e9nyek elk\u00e9sz\u00edt\u00e9s\u00e9re alkalmas."
+    }, 
+    "Basic fabricator- Wired to build structures.": {
+        "message": "Alapszint\u0171 gy\u00e1rt\u00f3- \u00c9p\u00edtm\u00e9nyek elk\u00e9sz\u00edt\u00e9s\u00e9re alkalmas."
+    }, 
+    "Basic manufacturing- Builds air units.": {
+        "message": "Alapszint\u0171 gy\u00e1rt\u00e1s- L\u00e9gi egys\u00e9geket \u00e9p\u00edt."
+    }, 
+    "Basic manufacturing- Builds and launches satellites and other units.": {
+        "message": "Alapszint\u0171 gy\u00e1rt\u00e1s- M\u0171holdakat \u00e9s egy\u00e9b egys\u00e9geket \u00e9p\u00edt \u00e9s bocs\u00e1jt fel az bolyg\u00f3k\u00f6zeli z\u00f3n\u00e1ba."
+    }, 
+    "Basic manufacturing- Builds bots.": {
+        "message": "Alapszint\u0171 gy\u00e1rt\u00e1s- Robotokat \u00e9p\u00edt."
+    }, 
+    "Basic manufacturing- Builds land vehicles.": {
+        "message": "Alapszint\u0171 gy\u00e1rt\u00e1s- F\u00f6ldi j\u00e1rm\u0171veket \u00e9p\u00edt."
+    }, 
+    "Basic manufacturing- Builds naval units.": {
+        "message": "Alapszint\u0171 gy\u00e1rt\u00e1s- V\u00edzi egys\u00e9geket \u00e9p\u00edt."
+    }, 
+    "Basic manufacturing- Produces energy.": {
+        "message": "Alapszint\u0171 gy\u00e1rt\u00e1s- Energi\u00e1t \u00e1ll\u00edt el\u0151."
+    }, 
+    "Basic manufacturing- Produces metal, can only be placed on metal deposits.": {
+        "message": "Alapszint\u0171 gy\u00e1rt\u00e1s- F\u00e9met termel, csak f\u00e9mhelyekre helyezhet\u0151."
+    }, 
+    "Basic radar satellite- Detects a large area for enemy land, sea, and air units.": {
+        "message": "Alapszint\u0171 radar m\u0171hold- Nagy ter\u00fcletet fed fel, jelzi az ellens\u00e9ges f\u00f6ldi, tengeri \u00e9s l\u00e9gi egys\u00e9geket."
+    }, 
+    "Basic radar- Detects nearby enemy land, sea, and air units.": {
+        "message": "Alapszint\u0171 radar- \u00c9rz\u00e9keli a k\u00f6zeled\u0151 ellens\u00e9ges f\u00f6ldi, tengeri \u00e9s l\u00e9gi egys\u00e9geket."
+    }, 
+    "Basic sonar- Detects underwater units.": {
+        "message": "Alapszint\u0171 szon\u00e1r- \u00c9rz\u00e9keli a v\u00edzalatti egys\u00e9geket."
+    }, 
+    "Basic turret- Equipped with anti-air missiles.": {
+        "message": "Alapszint\u0171 l\u00f6veg- L\u00e9gv\u00e9delmi rak\u00e9t\u00e1kkal van felszerelve."
+    }, 
+    "Basic turret- Equipped with direct fire anti-land, and anti-ship defenses.": {
+        "message": "Alapszint\u0171 l\u00f6veg- K\u00f6zvetlen t\u00fczel\u00e9s\u0171 f\u00f6ld- \u00e9s v\u00edzv\u00e9delemmel van felszerelve."
+    }, 
+    "Battleship- Long range advanced anti-ship, and anti-land guns.": {
+        "message": "Csatahaj\u00f3- Hossz\u00fat\u00e1v\u00fa, fejlett v\u00edzi \u00e9s sz\u00e1razf\u00f6ldi egys\u00e9gek elleni fegyverzet."
+    }, 
+    "Bluehawk": {
+        "message": "K\u00e9kh\u00e9ja"
+    }, 
+    "Bolo": {
+        "message": "Bolo"
+    }, 
+    "Bomb bot- Equipped with Self Destruction mechanism.": {
+        "message": "Bomba robot- \u00d6nmegsemmis\u00edt\u0151 mechanizmussal rendelkezik."
+    }, 
+    "Bomber- Equipped with advanced anti-land and anti-naval tactical missiles.": {
+        "message": "Bomb\u00e1z\u00f3- Fejlett f\u00f6ld- \u00e9s v\u00edzv\u00e9delmi taktikai rak\u00e9t\u00e1kkal van felszerelve."
+    }, 
+    "Bomber- Equipped with basic anti-land and anti-naval bombs.": {
+        "message": "Bomb\u00e1z\u00f3- Alapszint\u0171 f\u00f6ld- \u00e9s v\u00edzv\u00e9delmi bomb\u00e1kkal van felszerelve."
+    }, 
+    "Boom": {
+        "message": "Bumm"
+    }, 
+    "Bot Factory": {
+        "message": "Robotgy\u00e1r"
+    }, 
+    "Bumblebee": {
+        "message": "Dong\u00f3"
+    }, 
+    "Catalyst": {
+        "message": "Kataliz\u00e1tor"
+    }, 
+    "Catapult": {
+        "message": "Katapult"
+    }, 
+    "Combat Fabrication Bot": {
+        "message": "Harci Gy\u00e1rt\u00f3robot"
+    }, 
+    "Combat bot- Equipped with basic anti-air missiles.": {
+        "message": "Csatarobot- Alapszint\u0171 l\u00e9gv\u00e9delmi rak\u00e9t\u00e1kkal van felszerelve."
+    }, 
+    "Combat vehicle- Equipped with basic anti-air missiles.": {
+        "message": "Harci j\u00e1rm\u0171- Alap l\u00e9gv\u00e9delmi rak\u00e9t\u00e1kkal van felszerelve."
+    }, 
+    "Defense satellite- Heavy orbital offensive and defensive platform with basic laser.": {
+        "message": "V\u00e9delmi m\u0171hold- Neh\u00e9z bolyg\u00f3k\u00f6zeli t\u00e1mad\u00f3 \u00e9s v\u00e9dekez\u0151 platform alapszint\u0171 l\u00e9zerrel."
+    }, 
+    "Delta V Engine- Used to move small to medium celestial bodies.": {
+        "message": "Delta V Hajt\u00f3m\u0171- kis \u00e9s k\u00f6zepes m\u00e9ret\u0171 \u00e9gitestek mozgat\u00e1s\u00e1ra k\u00e9pes."
+    }, 
+    "Destroyer- Basic anti-land and anti-ship guns.": {
+        "message": "Rombol\u00f3- Alapszint\u0171 f\u00f6ld- \u00e9s v\u00edzv\u00e9delmi fegyverzet."
+    }, 
+    "Dolphin": {
+        "message": "Delfin"
+    }, 
+    "Dox": {
+        "message": "Dox"
+    }, 
+    "Energy Plant": {
+        "message": "Energia Gy\u00e1rt\u00f3"
+    }, 
+    "Energy Storage": {
+        "message": "Energia T\u00e1rol\u00f3"
+    }, 
+    "Fabrication Aircraft": {
+        "message": "Gy\u00e1rt\u00f3rep\u00fcl\u0151"
+    }, 
+    "Fabrication Bot": {
+        "message": "Gy\u00e1rt\u00f3robot"
+    }, 
+    "Fabrication Ship": {
+        "message": "Gy\u00e1rt\u00f3haj\u00f3"
+    }, 
+    "Fabrication Sub": {
+        "message": "Gy\u00e1rt\u00f3 Tengeralattj\u00e1r\u00f3"
+    }, 
+    "Fabrication Vehicle": {
+        "message": "Gy\u00e1rt\u00f3j\u00e1rm\u0171"
+    }, 
+    "Fabricator: Builds naval structures": {
+        "message": "Gy\u00e1rt\u00f3: Tengeri \u00e9p\u00edtm\u00e9nyeket k\u00e9sz\u00edt"
+    }, 
+    "Fighter- Equipped with advanced anti-air missiles.": {
+        "message": "Vad\u00e1szrep\u00fcl\u0151- Fejlett l\u00e9gv\u00e9delmi rak\u00e9t\u00e1kkal van felszerelve."
+    }, 
+    "Fighter- Equipped with basic anti-air missiles.": {
+        "message": "Vad\u00e1szrep\u00fcl\u0151- Alapszint\u0171 l\u00e9gv\u00e9delmi rak\u00e9t\u00e1kkal van felszerelve."
+    }, 
+    "Firefly": {
+        "message": "Szentj\u00e1nosbog\u00e1r"
+    }, 
+    "Flak Cannon": {
+        "message": "L\u00e9gelh\u00e1r\u00edt\u00f3 \u00c1gy\u00fa"
+    }, 
+    "Flame tank- Short ranged, heavy armored vehicle.": {
+        "message": "L\u00e1ng tank- R\u00f6vidt\u00e1v\u00fa, neh\u00e9z p\u00e1nc\u00e9lzat\u00fa j\u00e1rm\u0171."
+    }, 
+    "Flux": {
+        "message": "Fluxus"
+    }, 
+    "Frigate- Basic anti-air missiles and anti-ship guns.": {
+        "message": "Fregatt- Alapszint\u0171 l\u00e9gv\u00e9delmi rak\u00e9t\u00e1k \u00e9s v\u00edzv\u00e9delmi \u00e1gy\u00fak."
+    }, 
+    "Galata Turret": {
+        "message": "Galata L\u00f6veg"
+    }, 
+    "Gas mining and metal creation satellite. Only works above gas giant planets.": {
+        "message": "G\u00e1z kiakn\u00e1z\u00f3 \u00e9s f\u00e9m el\u0151\u00e1ll\u00edt\u00f3 m\u0171hold. Csak g\u00e1z\u00f3ri\u00e1sok f\u00f6l\u00f6tt m\u0171k\u00f6dik."
+    }, 
+    "Gil-E": {
+        "message": "Gil-E"
+    }, 
+    "Grenadier": {
+        "message": "Gr\u00e1n\u00e1tos"
+    }, 
+    "Grenadier- Basic assault weapons dealing area effect damage.": {
+        "message": "Gr\u00e1n\u00e1tos- Alapszint\u0171 t\u00e9rsebz\u0151 harci fegyverek."
+    }, 
+    "Gunboat- Light weaponry, fast speed": {
+        "message": "Felder\u00edt\u0151- K\u00f6nny\u0171 fegyverzet, nagy sebess\u00e9g."
+    }, 
+    "Gunship- Equipped with strong anti-ground. No anti-air capabilities.": {
+        "message": "Harcirep\u00fcl\u0151- Er\u0151s, sz\u00e1razf\u00f6ldi egys\u00e9gek elleni v\u00e9delem. Nincs l\u00e9gv\u00e9delmi fegyverzete."
+    }, 
+    "Halley": {
+        "message": "Halley"
+    }, 
+    "Heavy tank- Advanced short range, heavily armored vehicle.": {
+        "message": "Neh\u00e9z Tank- Fejlett r\u00f6vidt\u00e1v\u00fa, neh\u00e9z p\u00e1nc\u00e9lzat\u00fa j\u00e1rm\u0171."
+    }, 
+    "Holkins": {
+        "message": "Holkins"
+    }, 
+    "Hornet": {
+        "message": "L\u00f3dar\u00e1zs"
+    }, 
+    "Hummingbird": {
+        "message": "Kolibri"
+    }, 
+    "Inferno": {
+        "message": "Inferno"
+    }, 
+    "Ion defense platform- Designed to take out orbital units above it.": {
+        "message": "Ion v\u00e9delmi platform- Kil\u00f6vi a felette lev\u0151 bolyg\u00f3k\u00f6zeli egys\u00e9geket."
+    }, 
+    "Jellyfish": {
+        "message": "Med\u00faza"
+    }, 
+    "Jig": {
+        "message": "Dzsigg"
+    }, 
+    "Kestrel": {
+        "message": "V\u00e9rcse"
+    }, 
+    "LR-96 -Pacifier- Missile": {
+        "message": "LR-96 -B\u00e9k\u00e9ltet\u0151- Rak\u00e9ta"
+    }, 
+    "Land Mine": {
+        "message": "Tapos\u00f3akna"
+    }, 
+    "Land mine- Detonates when enemy units are in proximity.": {
+        "message": "Tapos\u00f3akna- Felrobban, ha ellens\u00e9ges egys\u00e9gek a k\u00f6zel\u00e9be ker\u00fclnek."
+    }, 
+    "Laser Defense Tower": {
+        "message": "L\u00e9zeres V\u00e9delmi Torony"
+    }, 
+    "Laser tank- Equipped with advanced anti-land and anti-ship guns.": {
+        "message": "L\u00e9zer tank- Fejlett f\u00f6ld- \u00e9s v\u00edzv\u00e9delmi fegyverekkel van felszerelve."
+    }, 
+    "Leveler": {
+        "message": "Rombol\u00f3"
+    }, 
+    "Leviathan": {
+        "message": "Leviat\u00e1n"
+    }, 
+    "Light tank- Equipped with basic anti-land and anti-ship guns.": {
+        "message": "K\u00f6nny\u0171 tank- Alapszint\u0171 f\u00f6ld- \u00e9s v\u00edzv\u00e9delmi fegyverekkel van felszerelve."
+    }, 
+    "Manufacturing- Increases maximum energy storage capacity.": {
+        "message": "Gy\u00e1rt\u00e1s- Megn\u00f6veli a maxim\u00e1lis t\u00e1rolhat\u00f3 energia kapacit\u00e1s\u00e1t."
+    }, 
+    "Manufacturing- Increases maximum metal storage capacity.": {
+        "message": "Gy\u00e1rt\u00e1s- Megn\u00f6veli a maxim\u00e1lis t\u00e1rolhat\u00f3 f\u00e9m kapacit\u00e1s\u00e1t."
+    }, 
+    "Manufacturing- Orbital energy generation.": {
+        "message": "Gy\u00e1rt\u00e1s- M\u0171holdas energia termel\u00e9s"
+    }, 
+    "Metal Extractor": {
+        "message": "F\u00e9mtermel\u0151"
+    }, 
+    "Metal Storage": {
+        "message": "F\u00e9m T\u00e1rol\u00f3"
+    }, 
+    "Mortar tank- Equipped with advanced mobile artillery.": {
+        "message": "Aknavet\u0151 tank- Fejlett mobil t\u00fcz\u00e9rs\u00e9g."
+    }, 
+    "Narwhal": {
+        "message": "Narv\u00e1l"
+    }, 
+    "Naval Factory": {
+        "message": "Haj\u00f3gy\u00e1r"
+    }, 
+    "Nuclear Missile Launcher": {
+        "message": "Nukle\u00e1ris Rak\u00e9tavet\u0151"
+    }, 
+    "Nuclear missile - Long range, large area damage, projectile": {
+        "message": "Nukle\u00e1ris rak\u00e9ta - Hossz\u00fat\u00e1v\u00fa, nagy t\u00e9rsebz\u00e9s\u0171 l\u00f6ved\u00e9k"
+    }, 
+    "Nuclear missile launcher- Equipped with advanced long range, large area damage, nuclear missile.": {
+        "message": "Nukle\u00e1ris rak\u00e9ta kil\u00f6v\u0151- Fejlett hossz\u00fat\u00e1v\u00fa, nagy t\u00e9rsebz\u00e9s\u0171 nukle\u00e1ris rak\u00e9t\u00e1val van felszerelve."
+    }, 
+    "Orbital Fabrication Bot": {
+        "message": "Bolyg\u00f3k\u00f6zeli Gy\u00e1rt\u00f3robot"
+    }, 
+    "Orbital Factory": {
+        "message": "Bolyg\u00f3k\u00f6zeli Gy\u00e1r"
+    }, 
+    "Orbital Launcher": {
+        "message": "Bolyg\u00f3k\u00f6zeli Egys\u00e9g Kil\u00f6v\u0151"
+    }, 
+    "Orbital and Deepspace Radar": {
+        "message": "Bolyg\u00f3k\u00f6zeli \u00e9s M\u00e9ly\u0171r Radar"
+    }, 
+    "Orbital and deepspace radar- Orbital and Celestial radar telemetry.": {
+        "message": "Bolyg\u00f3k\u00f6zeli \u00e9s m\u00e9ly\u0171r radar- Bolyg\u00f3k\u00f6zeli \u00e9s Bolyg\u00f3k\u00f6zi radar telemetria."
+    }, 
+    "Orbital fighter- Fast moving orbital fighter for offense and defense.": {
+        "message": "Bolyg\u00f3k\u00f6zeli harci \u0171rhaj\u00f3- Gyorsan mozg\u00f3 bolyg\u00f3k\u00f6zeli \u0171rhaj\u00f3, t\u00e1mad\u00e1sra \u00e9s v\u00e9dekez\u00e9sre haszn\u00e1lhat\u00f3."
+    }, 
+    "Orbital lander- Load it up, get units to other planets.": {
+        "message": "Bolyg\u00f3k\u00f6zi sz\u00e1ll\u00edt\u00f3- Egys\u00e9gek bolyg\u00f3k k\u00f6z\u00f6tti sz\u00e1ll\u00edt\u00e1s\u00e1ra alkalmas."
+    }, 
+    "Orbital laser platform- Rains death from above.": {
+        "message": "Bolyg\u00f3k\u00f6zeli L\u00e9zer Platform- Hal\u00e1los l\u00e9zert z\u00fad\u00edt a f\u00f6ldiekre."
+    }, 
+    "Orca": {
+        "message": "B\u00e1lna"
+    }, 
+    "Pelican": {
+        "message": "Pelik\u00e1n"
+    }, 
+    "Pelter": {
+        "message": "Soroz\u00f3"
+    }, 
+    "Peregrine": {
+        "message": "Vad\u00e1sz"
+    }, 
+    "Radar": {
+        "message": "Radar"
+    }, 
+    "Recluse": {
+        "message": "Remete"
+    }, 
+    "SR-24 -Shield- Missile Defense": {
+        "message": "SR-24 -Pajzs- Rak\u00e9ta V\u00e9delem"
+    }, 
+    "SXX-1304 Laser Platform": {
+        "message": "SXX-1304 L\u00e9zer Platform"
+    }, 
+    "Scout- Weak, fast speed.": {
+        "message": "Felder\u00edt\u0151- Gyenge, nagy sebess\u00e9g."
+    }, 
+    "Sea mine- Detonates when ships are in proximity.": {
+        "message": "Tengeri akna- Felrobban, ha haj\u00f3k ker\u00fclnek a k\u00f6zel\u00e9be."
+    }, 
+    "Sheller": {
+        "message": "\u00c1gy\u00faz\u00f3"
+    }, 
+    "Single Laser Defense Tower": {
+        "message": "Egycs\u00f6v\u0171 L\u00e9zeres V\u00e9delmi Torony"
+    }, 
+    "Skitter": {
+        "message": "Szikra"
+    }, 
+    "Slammer": {
+        "message": "Szlemel\u0151"
+    }, 
+    "Sniper- Long range advanced anti-land, and anti-ship bot.": {
+        "message": "Orvl\u00f6v\u00e9sz- Hossz\u00fat\u00e1v\u00fa, fejlett sz\u00e1razf\u00f6ldi \u00e9s v\u00edzi egys\u00e9gek elleni robot."
+    }, 
+    "Solar Array": {
+        "message": "Szol\u00e1r Panel"
+    }, 
+    "Sonar": {
+        "message": "Szon\u00e1r"
+    }, 
+    "Spinner": {
+        "message": "Fon\u00f3"
+    }, 
+    "Stinger": {
+        "message": "Full\u00e1nk"
+    }, 
+    "Stingray": {
+        "message": "R\u00e1ja"
+    }, 
+    "Sub Class: Anti-sub and anti-ship torpedoes, long range ballistic nuclear missile": {
+        "message": "Tengeralatti Oszt\u00e1ly: V\u00edzalatti \u00e9s tengeri egys\u00e9gek elleni torped\u00f3k, hossz\u00fat\u00e1v\u00fa ballisztikus nukle\u00e1ris rak\u00e9ta"
+    }, 
+    "Submarine Class: Anti-sub and anti-ship torpedoes": {
+        "message": "Tengeralatti Oszt\u00e1ly: V\u00edzalatti \u00e9s tengeri egys\u00e9gek elleni torped\u00f3k"
+    }, 
+    "Tactical missile bot- Medium range advanced artillery bot.": {
+        "message": "Taktikai rak\u00e9ta robot- K\u00f6zepes hat\u00f3t\u00e1v\u00fa fejlett t\u00fcz\u00e9rs\u00e9gi robot."
+    }, 
+    "Tactical missile launcher- Equipped with advanced long range anti-land missile launcher.": {
+        "message": "Taktikai rak\u00e9tavet\u0151- Fejlett, hossz\u00fat\u00e1v\u00fa sz\u00e1razf\u00f6ldi egys\u00e9gek elleni rak\u00e9tavet\u0151vel van felszerelve."
+    }, 
+    "Tank: Anti-land and anti-ship guns": {
+        "message": "Tank: F\u00f6ld- \u00e9s v\u00edzv\u00e9delmi fegyverzet."
+    }, 
+    "Teleporter": {
+        "message": "Teleportkapu"
+    }, 
+    "Teleporter: Teleports units from one to another.": {
+        "message": "Teleportkapu: Egyik kapub\u00f3l a m\u00e1sikba teleport\u00e1lja az egys\u00e9geket."
+    }, 
+    "Torpedo Launcher": {
+        "message": "Torped\u00f3kil\u00f6v\u0151"
+    }, 
+    "Torpedo Launcher- Advanced anti-ship defense.": {
+        "message": "Torped\u00f3kil\u00f6v\u0151- Fejlett tengeri v\u00e9delem."
+    }, 
+    "Torpedo Launcher- Basic anti-ship defense.": {
+        "message": "Torped\u00f3kil\u00f6v\u0151- Alapszint\u0171 tengeri v\u00e9delem."
+    }, 
+    "Umbrella": {
+        "message": "Erny\u0151"
+    }, 
+    "Unit Cannon": {
+        "message": "Egys\u00e9g\u00e1gy\u00fa"
+    }, 
+    "Unit Cannon: Long range unit dispersal": {
+        "message": "Egys\u00e9g\u00e1gy\u00fa: Hossz\u00fat\u00e1v\u00fa egys\u00e9gkil\u00f6v\u0151"
+    }, 
+    "Vanguard": {
+        "message": "El\u0151\u0151rs"
+    }, 
+    "Vehicle Factory": {
+        "message": "J\u00e1rm\u0171gy\u00e1r"
+    }, 
+    "Wall": {
+        "message": "Fal"
+    }
+}

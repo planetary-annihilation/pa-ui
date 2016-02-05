@@ -1,0 +1,110 @@
+{
+    "Accept": {
+        "message": "\uc218\ub77d"
+    }, 
+    "Appear Offline": {
+        "message": "\uc624\ud504\ub77c\uc778\uc73c\ub85c \ud45c\uc2dc"
+    }, 
+    "Away": {
+        "message": "\uc6d0\uc815"
+    }, 
+    "Block": {
+        "message": "\ucc28\ub2e8"
+    }, 
+    "CANCEL": {
+        "message": "\ucde8\uc18c"
+    }, 
+    "CHANGE": {
+        "message": "\ubcc0\uacbd"
+    }, 
+    "Change Display Name": {
+        "message": "\ud45c\uc2dc\ud560 \uc774\ub984\uc744 \ubcc0\uacbd\ud560\ub798\uc694?"
+    }, 
+    "Change your display name?": {
+        "message": "\ud45c\uc2dc\ud560 \uc774\ub984 \ubcc0\uacbd?"
+    }, 
+    "Chat": {
+        "message": "\ucc44\ud305"
+    }, 
+    "Do Not Disturb": {
+        "message": "\ubc29\ud574 \uae08\uc9c0"
+    }, 
+    "Friends": {
+        "message": "\uce5c\uad6c"
+    }, 
+    "Ignore": {
+        "message": "\ubb34\uc2dc\ud558\uae30"
+    }, 
+    "Invite to Chat": {
+        "message": "\ucc44\ud305\uc5d0 \ucd08\ub300"
+    }, 
+    "Invite to game": {
+        "message": "\uac8c\uc784\uc5d0 \ucd08\ub300\ud558\uae30"
+    }, 
+    "Join Game": {
+        "message": "\uac8c\uc784 \ucc38\uac00"
+    }, 
+    "New Display Name:": {
+        "message": "\uc0c8\ub85c \ud45c\uc2dc\ub41c \uc774\ub984:"
+    }, 
+    "No pending notifications.": {
+        "message": "\ub300\uae30\uc911\uc778 \uacf5\uc9c0\uac00 \uc5c6\uc2b5\ub2c8\ub2e4."
+    }, 
+    "Offline": {
+        "message": "\uc624\ud504\ub77c\uc778"
+    }, 
+    "Online": {
+        "message": "\uc628\ub77c\uc778"
+    }, 
+    "Pending Invite": {
+        "message": "\ubcf4\ub958\uc911\uc778 \ucd08\ub300"
+    }, 
+    "Recent": {
+        "message": "\ucd5c\uadfc"
+    }, 
+    "Remove": {
+        "message": "\uc81c\uac70"
+    }, 
+    "Search Results": {
+        "message": "\uac80\uc0c9 \uacb0\uacfc"
+    }, 
+    "Send Friend Request": {
+        "message": "\uce5c\uad6c \uc2e0\uccad \ubcf4\ub0b4\uae30"
+    }, 
+    "Unblock": {
+        "message": "\ucc28\ub2e8 \ud574\uc81c"
+    }, 
+    "Unfriend": {
+        "message": "\uce5c\uad6c \uc0ad\uc81c"
+    }, 
+    "Users": {
+        "message": "\uc0ac\uc6a9\uc790"
+    }, 
+    "[B]": {
+        "message": "[B]"
+    }, 
+    "[CHAT]": {
+        "message": "[\ucc44\ud305]"
+    }, 
+    "[F]": {
+        "message": "[F]"
+    }, 
+    "[I]": {
+        "message": "[I]"
+    }, 
+    "[REMOVE]": {
+        "message": "[\uc81c\uac70]"
+    }, 
+    "[Tags:": {
+        "message": "[\ud0dc\uadf8:"
+    }, 
+    "invited you to a game.": {
+        "message": "\uac8c\uc784\uc5d0 \ucd08\ub300\ud588\uc2b5\ub2c8\ub2e4."
+    }, 
+    "invited you to chat.": {
+        "message": "\ub300\ud654\uc5d0 \ucd08\ub300\ud588\uc2b5\ub2c8\ub2e4."
+    }, 
+    "wants to be your friend.": {
+        "message": "\ub2f9\uc2e0\uc758 \uce5c\uad6c\uac00 \ub418\uace0 \uc2f6\uc2b5\ub2c8\ub2e4 ^^."
+    }
+}

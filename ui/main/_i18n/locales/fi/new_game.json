@@ -1,0 +1,122 @@
+{
+    "- Host": {
+        "message": "- Host"
+    }, 
+    "AI Commander": {
+        "message": "Teko\u00e4ly Komentaja"
+    }, 
+    "Add AI": {
+        "message": "Lis\u00e4\u00e4 tek\u00f6\u00e4ly"
+    }, 
+    "Add AI Commander": {
+        "message": "Lis\u00e4\u00e4 Teko\u00e4ly Komentaja"
+    }, 
+    "Add Slot": {
+        "message": "Lis\u00e4\u00e4 Paikka"
+    }, 
+    "Alliance Victory": {
+        "message": "Alliance Victory"
+    }, 
+    "Browse...": {
+        "message": "Browse..."
+    }, 
+    "CONNECTION TO SERVER LOST": {
+        "message": "YHTEYS PALVELIMEEN KATKESI"
+    }, 
+    "Chat": {
+        "message": "Chat"
+    }, 
+    "Cheats": {
+        "message": "Huijaukset"
+    }, 
+    "Dynamic Alliances": {
+        "message": "Dynamic Alliances"
+    }, 
+    "Empty": {
+        "message": "Tyhj\u00e4"
+    }, 
+    "Free For All": {
+        "message": "Kaikki vastaan kaikki"
+    }, 
+    "Friends": {
+        "message": "Kaverit"
+    }, 
+    "Game Lobby": {
+        "message": "Peliaula"
+    }, 
+    "Game Mode": {
+        "message": "Game Mode"
+    }, 
+    "Global Spectator Chat": {
+        "message": "Global Spectator Chat"
+    }, 
+    "Join": {
+        "message": "Liity"
+    }, 
+    "Kick": {
+        "message": "Poista"
+    }, 
+    "Leave": {
+        "message": "Poistu"
+    }, 
+    "New System": {
+        "message": "New System"
+    }, 
+    "Open to:": {
+        "message": "Avoinna:"
+    }, 
+    "Player Slot": {
+        "message": "Pelaajan Paikka"
+    }, 
+    "Player chooses spot on starting planet": {
+        "message": "Player chooses spot on starting planet"
+    }, 
+    "Players)": {
+        "message": "Players)"
+    }, 
+    "Private": {
+        "message": "Yksityinen"
+    }, 
+    "Public": {
+        "message": "Julkinen"
+    }, 
+    "Ready": {
+        "message": "Valmis"
+    }, 
+    "Remove": {
+        "message": "Poista"
+    }, 
+    "Returning to Main Menu": {
+        "message": "Palataan p\u00e4\u00e4valikkoon"
+    }, 
+    "SHARE ARMY": {
+        "message": "JAA ARMEIJA"
+    }, 
+    "Server Mods": {
+        "message": "Palvelimen modit"
+    }, 
+    "Spectate": {
+        "message": "Katsomo"
+    }, 
+    "Spectators": {
+        "message": "Katsojat"
+    }, 
+    "Start Game": {
+        "message": "Aloita peli"
+    }, 
+    "System": {
+        "message": "System"
+    }, 
+    "Tag:": {
+        "message": "Tag:"
+    }, 
+    "Team Armies": {
+        "message": "Joukkuearmeijat"
+    }, 
+    "Title": {
+        "message": "Title"
+    }, 
+    "You must have friends to play a friends-only game.": {
+        "message": "Sinulla t\u00e4ytyy olla kavereita pelataksesi vain-kaverit pelin."
+    }
+}

@@ -1,0 +1,23 @@
+{
+    "Factories": {
+        "message": "Fabriken"
+    }, 
+    "PA Guide: Factories": {
+        "message": "PA-Anleitung: Fabriken"
+    }, 
+    "Select a Factory to get access to Build Bar": {
+        "message": "Wähle eine Fabrik aus und erhalte Zugriff auf die Bauleiste."
+    }, 
+    "[style=text_callout]Control + Left Click[/style] a unit to make a factory produce a single one of that unit before continuing with the rest of the build queue.": {
+        "message": "[style=text_callout]Strg + Linksklick[/style] auf eine Einheit lässt eine Fabrik eine einzige Einheit dieser Art bauen, bevor sie mit der Baubefehl-Warteschlange fortfährt. "
+    }, 
+    "[style=text_callout]Left Click[/style] units on Build Bar to build": {
+        "message": "[style=text_callout]Linksklick[/style] auf Einheiten in der Bauleiste, um zu bauen."
+    }, 
+    "[style=text_callout]Right Click[/style] or [style=text_callout]Shift + Right Click[/style] on units to reduce number of units in queue": {
+        "message": "[style=text_callout]Rechtsklick[/style] oder [style=text_callout]Umschalttaste + Rechtsklick[/style] auf Einheiten, um die Anzahl der Einheiten in der Warteschlange zu verringern."
+    }, 
+    "[style=text_callout]Shift + Left Click[/style] units on Build Bar to build multiple": {
+        "message": "[style=text_callout]Umschalttaste + Linksklick[/style] auf Einheiten in der Bauleiste, um mehrere auf einmal zu bauen."
+    }
+}

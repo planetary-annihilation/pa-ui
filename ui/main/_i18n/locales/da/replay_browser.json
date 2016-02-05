@@ -1,0 +1,68 @@
+{
+    "(+ __aiCount__ AI)": {
+        "message": "(+ __aiCount__ AI)"
+    }, 
+    "(Updating...)": {
+        "message": "(Updating...)"
+    }, 
+    "(no info available)": {
+        "message": "(ingen info tilg\u00e6ngelig)"
+    }, 
+    "All Recent Games": {
+        "message": "All Recent Games"
+    }, 
+    "BuildVersion": {
+        "message": "BuildVersion"
+    }, 
+    "Duration": {
+        "message": "Duration"
+    }, 
+    "FAILED TO RETRIEVE REPLAY LIST": {
+        "message": "FAILED TO RETRIEVE REPLAY LIST"
+    }, 
+    "Game": {
+        "message": "Spillet"
+    }, 
+    "Highest Rated (TBD)": {
+        "message": "Highest Rated (TBD)"
+    }, 
+    "Lobby Id": {
+        "message": "Lobby Id"
+    }, 
+    "Longest Game Duration": {
+        "message": "Longest Game Duration"
+    }, 
+    "Most Recent": {
+        "message": "Most Recent"
+    }, 
+    "Most Viewed (TBD)": {
+        "message": "Most Viewed (TBD)"
+    }, 
+    "My Games Only": {
+        "message": "My Games Only"
+    }, 
+    "Replays": {
+        "message": "Replays"
+    }, 
+    "Returning to Main Menu": {
+        "message": "G\u00e5r til Hovedmenu"
+    }, 
+    "Search": {
+        "message": "S\u00f8g"
+    }, 
+    "Sorted By": {
+        "message": "Sorted By"
+    }, 
+    "View": {
+        "message": "View"
+    }, 
+    "Watch Direct Lobby Id:": {
+        "message": "Watch Direct Lobby Id:"
+    }, 
+    "Watch Replay": {
+        "message": "Watch Replay"
+    }, 
+    "__gwClientNames__: Galactic War \"__gwWarName__\" (turn __gwTurn__, __gwSystemName__), vs. __gwAiArmies__": {
+        "message": "__gwClientNames__: Galactic War \"__gwWarName__\" (turn __gwTurn__, __gwSystemName__), vs. __gwAiArmies__"
+    }
+}

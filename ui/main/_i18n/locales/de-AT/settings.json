@@ -1,0 +1,50 @@
+{
+    "Cancel": {
+        "message": "Abbrechen "
+    }, 
+    "ENABLE MICROPHONE": {
+        "message": "Mikrophone erlauben"
+    }, 
+    "ENABLE STREAMING (Takes effect immediately)": {
+        "message": "STREAMING AKTIVIEREN (Tritt sofort in Kraft)"
+    }, 
+    "ENABLE SYSTEM SOUNDS": {
+        "message": "System Sounds erlauben"
+    }, 
+    "Livestream Settings": {
+        "message": "Livestream Einstellungen"
+    }, 
+    "OFF": {
+        "message": "AUS"
+    }, 
+    "ON": {
+        "message": "AN"
+    }, 
+    "Password": {
+        "message": "Passwort"
+    }, 
+    "RESTORE ALL DEFAULTS": {
+        "message": "ALLE GRUNDEINSTELLUNGEN WIEDERHERSTELLEN"
+    }, 
+    "RESTORE DEFAULTS": {
+        "message": "Zur\u00fccksetzen"
+    }, 
+    "SERVER": {
+        "message": "SERVER"
+    }, 
+    "Save": {
+        "message": "Sichern"
+    }, 
+    "Save And Close": {
+        "message": "Speichern Und Schlie\u00dfen"
+    }, 
+    "Settings": {
+        "message": "Einstellungen"
+    }, 
+    "Sign in with Your Twitch ID": {
+        "message": "Mit Ihrer Twitch ID anmelden"
+    }, 
+    "Signed in as": {
+        "message": "Eingeloggt als"
+    }
+}

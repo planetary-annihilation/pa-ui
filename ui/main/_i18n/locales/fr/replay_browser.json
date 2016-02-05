@@ -1,0 +1,74 @@
+{
+    "(+ __aiCount__ AI)": {
+        "message": " (+ __aiCount__ IA)"
+    }, 
+    "(Updating...)": {
+        "message": " (Mise à jour...)"
+    }, 
+    "(no info available)": {
+        "message": "(aucune info disponible)"
+    }, 
+    "All Recent Games": {
+        "message": "Parties récentes"
+    }, 
+    "BuildVersion": {
+        "message": "Version"
+    }, 
+    "Duration": {
+        "message": "Durée"
+    }, 
+    "FAILED TO RETRIEVE REPLAY LIST": {
+        "message": "IMPOSSIBLE DE RÉCUPÉRER LA LISTE DES REPLAYS"
+    }, 
+    "Filter": {
+        "message": "Filtre"
+    }, 
+    "Galactic War": {
+        "message": "Guerre galactique"
+    }, 
+    "Game": {
+        "message": "Partie"
+    }, 
+    "Lobby Id": {
+        "message": "Identifiant du lobby"
+    }, 
+    "Longest Game Duration": {
+        "message": "Partie la plus longue"
+    }, 
+    "Most Recent": {
+        "message": "Plus récent"
+    }, 
+    "Multiplayer": {
+        "message": "Multijoueur"
+    }, 
+    "My Games Only": {
+        "message": "Uniquement mes parties"
+    }, 
+    "Replays": {
+        "message": "Replays"
+    }, 
+    "Returning to Main Menu": {
+        "message": "Retour au menu principal"
+    }, 
+    "Search": {
+        "message": "Rechercher"
+    }, 
+    "Sorted By": {
+        "message": "Trié par"
+    }, 
+    "Versus AI": {
+        "message": "Contre l'IA"
+    }, 
+    "View": {
+        "message": "Voir"
+    }, 
+    "Watch Direct Lobby Id: __lobby_id__": {
+        "message": "Identifiant de visionnage du lobby : __lobby_id__"
+    }, 
+    "Watch Replay": {
+        "message": "Voir le replay"
+    }, 
+    "__gwClientNames__: Galactic War \"__gwWarName__\" (turn __gwTurn__, __gwSystemName__), vs. __gwAiArmies__": {
+        "message": " __gwClientNames__ : Guerre galactique \"__gwWarName__\" (tour __gwTurn__, __gwSystemName__), contre. __gwAiArmies__"
+    }
+}

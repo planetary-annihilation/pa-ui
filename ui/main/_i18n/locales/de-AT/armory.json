@@ -1,0 +1,89 @@
+{
+    "Account Name:": {
+        "message": "Account Name:"
+    }, 
+    "Add To Cart": {
+        "message": "Zum Einkaufswagen hinzuf\u00fcgen"
+    }, 
+    "Armory": {
+        "message": "R\u00fcstung"
+    }, 
+    "Badges": {
+        "message": "Auszeichnungen"
+    }, 
+    "CHECKOUT": {
+        "message": "Kasse"
+    }, 
+    "Cancel": {
+        "message": "Abbrechen "
+    }, 
+    "Cart": {
+        "message": "Einkaufswagen"
+    }, 
+    "Commanders": {
+        "message": "Kommandeure"
+    }, 
+    "Confirmation code:": {
+        "message": "Best\u00e4tigungscode:"
+    }, 
+    "Confirmation of your purchase is provided below.": {
+        "message": "Eine Best\u00e4tigung Ihres Einkaufs finden Sie unten"
+    }, 
+    "Continue Shopping": {
+        "message": "Einkauf fortsetzen"
+    }, 
+    "Credit applied:": {
+        "message": "Gutschrift ausgestellt:"
+    }, 
+    "Designed in collaboration with": {
+        "message": "In Zusammenarbeit mit"
+    }, 
+    "Go to Main Menu": {
+        "message": "Gehe zum Hauptmen\u00fc"
+    }, 
+    "Here's your receipt.": {
+        "message": "Hier ist Ihre Rechnung"
+    }, 
+    "Item": {
+        "message": "Artikel"
+    }, 
+    "Item is already in cart.": {
+        "message": "Der Artikel befindet sich bereits im Einkaufswagen."
+    }, 
+    "Kickstarter Backer": {
+        "message": "Kickstart-Unterst\u00fctzung"
+    }, 
+    "Price": {
+        "message": "Preis"
+    }, 
+    "REMOVE": {
+        "message": "Entfernen"
+    }, 
+    "Redeem": {
+        "message": "Einl\u00f6sen"
+    }, 
+    "Refresh": {
+        "message": "Aktualisieren"
+    }, 
+    "Return to Armory": {
+        "message": "Arsenal"
+    }, 
+    "Set As Default Commander": {
+        "message": "Als Standard Kommandeur festlegen"
+    }, 
+    "Thank you for your purchase.": {
+        "message": "Danke f\u00fcr Ihre Bestellung."
+    }, 
+    "Total:": {
+        "message": "Gesamt:"
+    }, 
+    "Updating...": {
+        "message": "Aktualisiere..."
+    }, 
+    "Your cart is empty.": {
+        "message": "Ihr Einkaufswagen ist leer."
+    }, 
+    "Your purchased items are now registered to your account and are accessible in the game.": {
+        "message": "Die von Ihnen gekauften Artiklel werden nun Ihrem Konto zugeschrieben und sind im Spiel aufrufbar."
+    }
+}

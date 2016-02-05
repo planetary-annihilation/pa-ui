@@ -1,0 +1,77 @@
+{
+    "AI:": {
+        "message": "KI:"
+    }, 
+    "Abandon War": {
+        "message": "Krieg beenden"
+    }, 
+    "Card:": {
+        "message": "Karte:"
+    }, 
+    "Date:": {
+        "message": "Datum:"
+    }, 
+    "Delete Tech": {
+        "message": "Technologie l\u00f6schen"
+    }, 
+    "Dismiss": {
+        "message": "Entlassen"
+    }, 
+    "Download Tech": {
+        "message": "Technologie herunterladen"
+    }, 
+    "Exit": {
+        "message": "Aussteigen"
+    }, 
+    "Explore": {
+        "message": "Erkunden"
+    }, 
+    "Fight": {
+        "message": "K\u00e4mpfen"
+    }, 
+    "Give tech": {
+        "message": "Technologie geben"
+    }, 
+    "History:": {
+        "message": "Verlauf:"
+    }, 
+    "Jump": {
+        "message": "Springe"
+    }, 
+    "Load game": {
+        "message": "Spiel laden"
+    }, 
+    "Preparing for battle": {
+        "message": "Bereitmachen zur Schlacht"
+    }, 
+    "Record:": {
+        "message": "Aufzeichnung:"
+    }, 
+    "Reject Tech": {
+        "message": "Technologie Ablehnen"
+    }, 
+    "Save": {
+        "message": "Sichern"
+    }, 
+    "Scanning System": {
+        "message": "System scannen"
+    }, 
+    "Settings": {
+        "message": "Einstellungen"
+    }, 
+    "TECHS": {
+        "message": "TECHS"
+    }, 
+    "Turn State:": {
+        "message": "Turn State:"
+    }, 
+    "Unlock Commander": {
+        "message": "Befehlshaber freischalten"
+    }, 
+    "loss": {
+        "message": "Verlust"
+    }, 
+    "win /": {
+        "message": "Gewinnen /"
+    }
+}

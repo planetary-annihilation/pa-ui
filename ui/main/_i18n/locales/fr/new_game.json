@@ -1,0 +1,179 @@
+{
+    "- Host": {
+        "message": "- Hôte"
+    }, 
+    "AI Commander": {
+        "message": "IA Commandeur"
+    }, 
+    "AI:": {
+        "message": "IA : "
+    }, 
+    "Add AI": {
+        "message": "Ajouter IA"
+    }, 
+    "Add AI Commander": {
+        "message": "Ajouter IA Commandeur"
+    }, 
+    "Add Slot": {
+        "message": "Ajouter emplacement"
+    }, 
+    "Add Team": {
+        "message": "Ajouter équipe"
+    }, 
+    "Alliance Victory": {
+        "message": "Victoire de l'alliance"
+    }, 
+    "Bounty Mode": {
+        "message": "Mode prime"
+    }, 
+    "Bounty Value": {
+        "message": "Valeur de la prime"
+    }, 
+    "Browse systems...": {
+        "message": "Parcourir les systèmes..."
+    }, 
+    "Building planets": {
+        "message": "Construction de planètes"
+    }, 
+    "Building planets...": {
+        "message": "Construction de planètes..."
+    }, 
+    "CONNECTION TO SERVER LOST": {
+        "message": "CONNEXION AU SERVEUR PERDUE"
+    }, 
+    "Chat": {
+        "message": "Tchat"
+    }, 
+    "Cheats": {
+        "message": "Triche"
+    }, 
+    "Default": {
+        "message": "Par défaut"
+    }, 
+    "Dynamic Alliances": {
+        "message": "Alliances dynamiques"
+    }, 
+    "Econ Rate": {
+        "message": "Taux économique"
+    }, 
+    "Empty": {
+        "message": "Vide"
+    }, 
+    "Free For All": {
+        "message": "Chacun pour soi"
+    }, 
+    "Friends": {
+        "message": "Amis"
+    }, 
+    "Game Lobby": {
+        "message": "Lobby"
+    }, 
+    "Game Mode": {
+        "message": "Mode de jeu"
+    }, 
+    "Global Spectator Chat": {
+        "message": "Tchat spectateur global"
+    }, 
+    "Join": {
+        "message": "Rejoindre"
+    }, 
+    "Kick": {
+        "message": "Exclure"
+    }, 
+    "Large Planets": {
+        "message": "Grandes planètes"
+    }, 
+    "Leave": {
+        "message": "Abandonner"
+    }, 
+    "Open to:": {
+        "message": "Ouvrir à :"
+    }, 
+    "Password (optional)": {
+        "message": "Mot de passe (facultatif)"
+    }, 
+    "Player Slot": {
+        "message": "Emplacement de joueur"
+    }, 
+    "Player chooses spot on starting planet": {
+        "message": "Le joueur choisit un emplacement sur la planète de départ"
+    }, 
+    "Players)": {
+        "message": "Joueurs)"
+    }, 
+    "Private": {
+        "message": "Privé"
+    }, 
+    "Public": {
+        "message": "Public"
+    }, 
+    "Random": {
+        "message": "Aléatoire"
+    }, 
+    "Ready": {
+        "message": "Prêt"
+    }, 
+    "Remove": {
+        "message": "Enlever"
+    }, 
+    "Returning to Main Menu": {
+        "message": "Retour au menu principal"
+    }, 
+    "SHARE ARMY": {
+        "message": "PARTAGER L'ARMÉE"
+    }, 
+    "SPECTATORS": {
+        "message": "SPECTATEURS"
+    }, 
+    "Sandbox": {
+        "message": "Bac à sable"
+    }, 
+    "Select System": {
+        "message": "Sélectionner le système"
+    }, 
+    "Server Mods": {
+        "message": "Mods de serveur"
+    }, 
+    "Slot": {
+        "message": "Emplacement"
+    }, 
+    "Slot __slot_number__": {
+        "message": "Emplacement __slot_number__"
+    }, 
+    "Slots are empty.": {
+        "message": "Les emplacements sont vides."
+    }, 
+    "Spectate": {
+        "message": "Regarder"
+    }, 
+    "Spectators": {
+        "message": "Spectateurs"
+    }, 
+    "Start Game": {
+        "message": "Commencer une partie"
+    }, 
+    "Symmetrical": {
+        "message": "Symétrique"
+    }, 
+    "System": {
+        "message": "Système"
+    }, 
+    "Tag:": {
+        "message": "Tag :"
+    }, 
+    "Team": {
+        "message": "Équipe"
+    }, 
+    "Team Armies": {
+        "message": "Armées alliées"
+    }, 
+    "Team __team_number__": {
+        "message": "Équipe __team_number__"
+    }, 
+    "Title": {
+        "message": "Titre"
+    }, 
+    "You must have friends to play a friends-only game.": {
+        "message": "Vous devez avoir des amis pour commencer une partie entre amis."
+    }
+}

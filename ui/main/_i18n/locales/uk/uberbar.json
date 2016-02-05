@@ -1,0 +1,77 @@
+{
+    "Appear Offline": {
+        "message": "Appear Offline"
+    }, 
+    "Away": {
+        "message": "Away"
+    }, 
+    "Block": {
+        "message": "Block"
+    }, 
+    "Chat": {
+        "message": "\u0427\u0430\u0442"
+    }, 
+    "Do Not Disturb": {
+        "message": "Do Not Disturb"
+    }, 
+    "Friends": {
+        "message": "\u0414\u0440\u0443\u0437\u0456"
+    }, 
+    "Ignore": {
+        "message": "Ignore"
+    }, 
+    "Invite to game": {
+        "message": "Invite to game"
+    }, 
+    "Join Game": {
+        "message": "\u041f\u0440\u0438\u0454\u0434\u043d\u0430\u0442\u0438\u0441\u044f"
+    }, 
+    "No pending notifications.": {
+        "message": "No pending notifications."
+    }, 
+    "Offline": {
+        "message": "Offline"
+    }, 
+    "Online": {
+        "message": "Online"
+    }, 
+    "Recent": {
+        "message": "Recent"
+    }, 
+    "Remove": {
+        "message": "\u0412\u0438\u0434\u0430\u043b\u0438\u0442\u0438"
+    }, 
+    "Unblock": {
+        "message": "Unblock"
+    }, 
+    "Unfriend": {
+        "message": "Unfriend"
+    }, 
+    "Users": {
+        "message": "Users"
+    }, 
+    "[B]": {
+        "message": "[B]"
+    }, 
+    "[CHAT]": {
+        "message": "[CHAT]"
+    }, 
+    "[F]": {
+        "message": "[F]"
+    }, 
+    "[I]": {
+        "message": "[I]"
+    }, 
+    "[REMOVE]": {
+        "message": "[REMOVE]"
+    }, 
+    "[Tags:": {
+        "message": "[Tags:"
+    }, 
+    "invited you to a game.": {
+        "message": "invited you to a game."
+    }, 
+    "wants to be your friend.": {
+        "message": "wants to be your friend."
+    }
+}

@@ -1,0 +1,35 @@
+{
+    "CANCEL": {
+        "message": "PERUUTA"
+    }, 
+    "Delete": {
+        "message": "POISTA"
+    }, 
+    "Delete Planet": {
+        "message": "Poista planeetta"
+    }, 
+    "Delete this planet?": {
+        "message": "Haluatko poistaa t\u00e4m\u00e4n planeetan?"
+    }, 
+    "Delete this system?": {
+        "message": "Haluatko poistaa t\u00e4m\u00e4n j\u00e4rjestelm\u00e4n?"
+    }, 
+    "Load Planet": {
+        "message": "Lataa planeetta"
+    }, 
+    "Load System": {
+        "message": "Lataa j\u00e4rjestelm\u00e4"
+    }, 
+    "New system": {
+        "message": "New system"
+    }, 
+    "SHOW PLANETS": {
+        "message": "N\u00c4YT\u00c4 PLANEETAT"
+    }, 
+    "SHOW SYSTEMS": {
+        "message": "N\u00c4YT\u00c4 J\u00c4RJESTELM\u00c4T"
+    }, 
+    "System Designer": {
+        "message": "J\u00e4rjestelm\u00e4n suunnittelija"
+    }
+}

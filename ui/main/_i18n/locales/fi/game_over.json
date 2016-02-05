@@ -1,0 +1,44 @@
+{
+    "ANNIHILATION COMPLETE": {
+        "message": "ANNIHILATION COMPLETE"
+    }, 
+    "APM": {
+        "message": "APM"
+    }, 
+    "Average": {
+        "message": "Average"
+    }, 
+    "Built": {
+        "message": "Built"
+    }, 
+    "Destroyed": {
+        "message": "Destroyed"
+    }, 
+    "Draw": {
+        "message": "TASAPELI"
+    }, 
+    "Efficiency": {
+        "message": "Tehokkuus"
+    }, 
+    "GW GAME OVER": {
+        "message": "GW GAME OVER"
+    }, 
+    "The game has ended.": {
+        "message": "The game has ended."
+    }, 
+    "Used": {
+        "message": "Used"
+    }, 
+    "VICTORY IS YOURS": {
+        "message": "VICTORY IS YOURS"
+    }, 
+    "Winner:": {
+        "message": "Winner:"
+    }, 
+    "Winners:": {
+        "message": "Winners:"
+    }, 
+    "YOU'VE BEEN ANNIHILATED": {
+        "message": "YOU'VE BEEN ANNIHILATED"
+    }
+}

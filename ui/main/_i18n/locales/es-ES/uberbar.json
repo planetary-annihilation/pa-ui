@@ -1,0 +1,122 @@
+{
+    "Accept": {
+        "message": "Aceptar"
+    }, 
+    "Appear Offline": {
+        "message": "\n                                                   Aparecer como desconectado\n                                                "
+    }, 
+    "Away": {
+        "message": "\n                                                    Inactivo\n                                                "
+    }, 
+    "Block": {
+        "message": "Bloquear"
+    }, 
+    "Buy Expansion": {
+        "message": "Comprar expansión"
+    }, 
+    "CANCEL": {
+        "message": "CANCELAR"
+    }, 
+    "CHANGE": {
+        "message": "CAMBIAR"
+    }, 
+    "CHAT": {
+        "message": "CHAT"
+    }, 
+    "Cancel": {
+        "message": "Cancelar"
+    }, 
+    "Change Display Name": {
+        "message": "\n                                                   Cambiar nombre visible\n                                                "
+    }, 
+    "Change your display name?": {
+        "message": "¿Deseas cambiar tu nombre visible?"
+    }, 
+    "Chat": {
+        "message": "Chat"
+    }, 
+    "Date": {
+        "message": "Fecha"
+    }, 
+    "Do Not Disturb": {
+        "message": "\n                                                    No molestar\n                                                "
+    }, 
+    "Enter a status message": {
+        "message": "Introducir un mensaje de estado"
+    }, 
+    "Friends": {
+        "message": "Amigos"
+    }, 
+    "Ignore": {
+        "message": "Ignorar"
+    }, 
+    "Invite to Chat": {
+        "message": "Invitar a un chat"
+    }, 
+    "Invite to game": {
+        "message": "Invitar a una partida"
+    }, 
+    "Join Game": {
+        "message": "Unirse a una partida"
+    }, 
+    "New Display Name:": {
+        "message": "Nuevo nombre visible:"
+    }, 
+    "No pending notifications.": {
+        "message": "No tienes notificaciones pendientes."
+    }, 
+    "Offline": {
+        "message": "Desconectado"
+    }, 
+    "Online": {
+        "message": "\n                                                    Conectado\n                                                "
+    }, 
+    "Pending Invite": {
+        "message": "Tienes una invitación pendiente"
+    }, 
+    "REMOVE": {
+        "message": "ELIMINAR"
+    }, 
+    "Recent": {
+        "message": "Recientes"
+    }, 
+    "Remove": {
+        "message": "Eliminar"
+    }, 
+    "Required Expansion Pack": {
+        "message": "Se necesita un pack de expansión"
+    }, 
+    "Search Players": {
+        "message": "Buscar jugadores"
+    }, 
+    "Search Results": {
+        "message": "Resultados de la búsqueda"
+    }, 
+    "Send Friend Request": {
+        "message": "Enviar una solicitud de amistad"
+    }, 
+    "Tags:": {
+        "message": "Etiquetas:"
+    }, 
+    "The game you are trying to join requires the [style=content_description]__content_name__[/style] expansion for Planetary Annihilation.": {
+        "message": "Necesitas la expansión [style=content_description]__content_name__[/style] de Planetary Annihilation para poder unirte a esta partida."
+    }, 
+    "Unblock": {
+        "message": "Desbloquear"
+    }, 
+    "Unfriend": {
+        "message": "Eliminar de amigos"
+    }, 
+    "Users": {
+        "message": "Usuarios"
+    }, 
+    "__display_name__ invited you to a game.": {
+        "message": "__display_name__ te ha invitado a una partida."
+    }, 
+    "__display_name__ invited you to chat.": {
+        "message": "__display_name__ te ha invitado a una chat."
+    }, 
+    "__display_name__ wants to be your friend.": {
+        "message": "__display_name__ te ha enviado una solicitud de amistad."
+    }
+}

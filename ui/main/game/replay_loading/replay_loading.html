@@ -1,0 +1,31 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<noloc><title>Replay Loading</title></noloc>
+<link href="bundle://boot/boot.css" rel="stylesheet" type="text/css" />
+<script src="bundle://boot/boot.js" type="text/javascript"></script>
+<script src="replay_loading.js" type="text/javascript"></script>
+</head>
+<body class="full_screen">
+    <div class="div_panel_bar_background">
+        <div class="div_panel_primary_msg transit">
+            <!-- ko ifnot: loadGame -->
+            <span><loc>Loading Replay</loc></span>
+            <!-- /ko -->
+
+            <!-- ko if: loadGame -->
+            <span><loc>Loading Game</loc></span>
+            <!-- /ko -->
+        </div>
+        <div class="div_options_bar">
+            <div>
+                <img class="img_loading_animation working std" src="coui://ui/main/shared/img/working.svg" />
+            </div>
+            <input type="button" value="Cancel" id="Button1" class="btn_commit" data-bind="click: navToMainMenu, click_sound: 'default', rollover_sound: 'default'" />
+        </div>
+        <div class="div_bottom_margin_bar">
+        </div>
+    </div>
+</body>
+</html>

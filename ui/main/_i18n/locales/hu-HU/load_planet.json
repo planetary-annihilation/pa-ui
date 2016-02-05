@@ -1,0 +1,35 @@
+{
+    "CANCEL": {
+        "message": "M\u00c9GSE"
+    }, 
+    "Delete": {
+        "message": "T\u00d6RL\u00c9S"
+    }, 
+    "Delete Planet": {
+        "message": "Bolyg\u00f3 T\u00f6rl\u00e9se"
+    }, 
+    "Delete this planet?": {
+        "message": "T\u00f6rl\u00f6d ezt a bolyg\u00f3t?"
+    }, 
+    "Delete this system?": {
+        "message": "T\u00f6rl\u00f6d ezt a naprendszert?"
+    }, 
+    "Load Planet": {
+        "message": "Bolyg\u00f3 bet\u00f6lt\u00e9se"
+    }, 
+    "Load System": {
+        "message": "Naprendszer bet\u00f6lt\u00e9se"
+    }, 
+    "New system": {
+        "message": "\u00daj naprendszer"
+    }, 
+    "SHOW PLANETS": {
+        "message": "BOLYG\u00d3K MUTAT\u00c1SA"
+    }, 
+    "SHOW SYSTEMS": {
+        "message": "NAPRENDSZEREK MUTAT\u00c1SA"
+    }, 
+    "System Designer": {
+        "message": "Naprendszer tervez\u0151"
+    }
+}

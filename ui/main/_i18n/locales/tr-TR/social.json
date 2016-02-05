@@ -1,0 +1,92 @@
+{
+    "APPROVE": {
+        "message": "ONAYLA"
+    }, 
+    "APPROVED USERS": {
+        "message": "ONAYLI KULLANICILAR"
+    }, 
+    "Add": {
+        "message": "Ekle"
+    }, 
+    "Add a Friend": {
+        "message": "Arkada\u015f Ekle"
+    }, 
+    "BLOCK": {
+        "message": "ENGELLE"
+    }, 
+    "BLOCKED USERS": {
+        "message": "ENGELLENM\u0130\u015e KULLANICILAR"
+    }, 
+    "Cancel": {
+        "message": "\u0130ptal"
+    }, 
+    "Close": {
+        "message": "Kapat"
+    }, 
+    "Contact List Updated": {
+        "message": "Kontak Listesi G\u00fcncellendi"
+    }, 
+    "Contact Not Found": {
+        "message": "Kontak Bulunamad\u0131"
+    }, 
+    "Dismiss": {
+        "message": "Yoksay"
+    }, 
+    "Filter contatcs by tag:": {
+        "message": "Kontaklar\u0131 etiketlere g\u00f6re s\u0131rala:"
+    }, 
+    "Games you make will be hidden to these players.": {
+        "message": "A\u00e7t\u0131\u011f\u0131n\u0131z oyunlar bu oyunculardan gizlenecek."
+    }, 
+    "Name:": {
+        "message": "\u0130sim:"
+    }, 
+    "New Nickname:": {
+        "message": "Yeni Rumuz:"
+    }, 
+    "Players you have encountered recently.": {
+        "message": "Yak\u0131n zamanda kar\u015f\u0131last\u0131\u011f\u0131n\u0131z oyuncular."
+    }, 
+    "Private games you make will only be visible to these players.": {
+        "message": "A\u00e7t\u0131\u011f\u0131n\u0131z \u00f6zel oyunlar sadece bu oyunculara g\u00f6r\u00fcnecek."
+    }, 
+    "RECENT": {
+        "message": "YEN\u0130"
+    }, 
+    "REMOVE": {
+        "message": "\u00c7IKAR"
+    }, 
+    "RENAME": {
+        "message": "YEN\u0130DEN ADLANDIR"
+    }, 
+    "Refresh Contacts": {
+        "message": "Kontaklar\u0131 Yenile"
+    }, 
+    "Refreshing friends list.....": {
+        "message": "Arkada\u015f listesi yenileniyor....."
+    }, 
+    "SOCIAL": {
+        "message": "SOSYAL"
+    }, 
+    "Tag": {
+        "message": "Etiket"
+    }, 
+    "Tag Friend:": {
+        "message": "Arkada\u015f\u0131 Etiketle:"
+    }, 
+    "Tags:": {
+        "message": "Etiketler:"
+    }, 
+    "UBERDEX": {
+        "message": "UBERDEX"
+    }, 
+    "Uber Name": {
+        "message": "Uber \u0130sim"
+    }, 
+    "UberId:": {
+        "message": "UberId:"
+    }, 
+    "or": {
+        "message": "veya"
+    }
+}

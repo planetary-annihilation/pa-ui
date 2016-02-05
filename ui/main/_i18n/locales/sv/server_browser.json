@@ -1,0 +1,44 @@
+{
+    "Create Game": {
+        "message": "Skapa Spel"
+    }, 
+    "Game": {
+        "message": "Spel"
+    }, 
+    "In Lobby": {
+        "message": "I LOBBY"
+    }, 
+    "In Progress": {
+        "message": "P\u00e5g\u00e5r"
+    }, 
+    "Join Game": {
+        "message": "ANSLUT TILL SPEL"
+    }, 
+    "Locked Game": {
+        "message": "L\u00e5st Spel"
+    }, 
+    "Mode": {
+        "message": "Speltyp"
+    }, 
+    "Password": {
+        "message": "L\u00f6senord"
+    }, 
+    "Planets": {
+        "message": "Planeter"
+    }, 
+    "Players": {
+        "message": "Spelare"
+    }, 
+    "Region": {
+        "message": "Region"
+    }, 
+    "Slots": {
+        "message": "Platser"
+    }, 
+    "Spectate": {
+        "message": "Titta p\u00e5"
+    }, 
+    "Spectators": {
+        "message": "\u00c5sk\u00e5dare"
+    }
+}

@@ -1,0 +1,14 @@
+{
+    "Draw": {
+        "message": "\u5e73\u5206\u79cb\u8272"
+    }, 
+    "GW GAME OVER": {
+        "message": "\u6a6b\u6383\u5343\u661f\u904a\u6232\u7d50\u675f"
+    }, 
+    "Winner:": {
+        "message": "\u5b34\u5bb6:"
+    }, 
+    "Winners:": {
+        "message": "\u5b34\u5bb6:"
+    }
+}

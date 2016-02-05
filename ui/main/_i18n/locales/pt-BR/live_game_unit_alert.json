@@ -1,0 +1,29 @@
+{
+    "Allied": {
+        "message": "Aliado"
+    }, 
+    "Enemy Contact!": {
+        "message": "Contato com o inimigo!"
+    }, 
+    "Ping!": {
+        "message": "Sinalizar!"
+    }, 
+    "destroyed.": {
+        "message": "destru\u00eddo."
+    }, 
+    "launched!": {
+        "message": "lan\u00e7ado!"
+    }, 
+    "located.": {
+        "message": "localizado."
+    }, 
+    "lost.": {
+        "message": "perdido."
+    }, 
+    "ready.": {
+        "message": "pronto."
+    }, 
+    "under attack.": {
+        "message": "sob ataque."
+    }
+}

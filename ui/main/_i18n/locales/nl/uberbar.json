@@ -1,0 +1,110 @@
+{
+    "Accept": {
+        "message": "Accepteren"
+    }, 
+    "Appear Offline": {
+        "message": "Onzichtbaar"
+    }, 
+    "Away": {
+        "message": "Afwezig"
+    }, 
+    "Block": {
+        "message": "Blokkeren"
+    }, 
+    "CANCEL": {
+        "message": "ANNULEREN"
+    }, 
+    "CHANGE": {
+        "message": "VERANDEREN"
+    }, 
+    "Change Display Name": {
+        "message": "Schermnaam wijzigen"
+    }, 
+    "Change your display name?": {
+        "message": "Je schermnaam wijzigen?"
+    }, 
+    "Chat": {
+        "message": "Chat"
+    }, 
+    "Do Not Disturb": {
+        "message": "Niet storen"
+    }, 
+    "Friends": {
+        "message": "Vrienden"
+    }, 
+    "Ignore": {
+        "message": "Negeren"
+    }, 
+    "Invite to Chat": {
+        "message": "Uitnodigen voor chat"
+    }, 
+    "Invite to game": {
+        "message": "Voor een spel uitnodigen"
+    }, 
+    "Join Game": {
+        "message": "Meedoen met spel"
+    }, 
+    "New Display Name:": {
+        "message": "Nieuwe Schermnaam:"
+    }, 
+    "No pending notifications.": {
+        "message": "Geen notificaties in de wachtrij."
+    }, 
+    "Offline": {
+        "message": "Offline"
+    }, 
+    "Online": {
+        "message": "Online"
+    }, 
+    "Pending Invite": {
+        "message": "Wachtende uitnodiging"
+    }, 
+    "Recent": {
+        "message": "Recent"
+    }, 
+    "Remove": {
+        "message": "Verwijderen"
+    }, 
+    "Search Results": {
+        "message": "Zoekresultaten"
+    }, 
+    "Send Friend Request": {
+        "message": "Vriendschapsverzoek versturen"
+    }, 
+    "Unblock": {
+        "message": "Deblokkeren"
+    }, 
+    "Unfriend": {
+        "message": "Ontvrienden"
+    }, 
+    "Users": {
+        "message": "Gebruikers"
+    }, 
+    "[B]": {
+        "message": "[B]"
+    }, 
+    "[CHAT]": {
+        "message": "[CHAT]"
+    }, 
+    "[F]": {
+        "message": "[V]"
+    }, 
+    "[I]": {
+        "message": "[N]"
+    }, 
+    "[REMOVE]": {
+        "message": "[VERWIJDEREN]"
+    }, 
+    "[Tags:": {
+        "message": "[Tags:"
+    }, 
+    "invited you to a game.": {
+        "message": "heeft u uitgenodigd voor een spel."
+    }, 
+    "invited you to chat.": {
+        "message": "heeft u uitgenodigd om te chatten."
+    }, 
+    "wants to be your friend.": {
+        "message": "wil je vriend zijn."
+    }
+}

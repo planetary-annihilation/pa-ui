@@ -1,0 +1,20 @@
+{
+    "Area Commands": {
+        "message": "Area Commands"
+    }, 
+    "PA Guide: Area Commands": {
+        "message": "PA Guide: Area Commands"
+    }, 
+    "Select units, click [style=text_callout]Attack button[/style].": {
+        "message": "Select units, click [style=text_callout]Attack button[/style]."
+    }, 
+    "Select units, click [style=text_callout]Patrol button[/style].": {
+        "message": "Select units, click [style=text_callout]Patrol button[/style]."
+    }, 
+    "[style=text_callout]Left Click and drag[/style] an area to attack": {
+        "message": "[style=text_callout]Left Click and drag[/style] an area to attack"
+    }, 
+    "[style=text_callout]Left Click and drag[/style] an area to patrol": {
+        "message": "[style=text_callout]Left Click and drag[/style] an area to patrol"
+    }
+}

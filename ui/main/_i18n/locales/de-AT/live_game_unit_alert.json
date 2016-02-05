@@ -1,0 +1,29 @@
+{
+    "Allied": {
+        "message": "Allied"
+    }, 
+    "Enemy Contact!": {
+        "message": "Feind Kontakt!"
+    }, 
+    "Ping!": {
+        "message": "Ping!"
+    }, 
+    "destroyed.": {
+        "message": "destroyed."
+    }, 
+    "launched!": {
+        "message": "gestartet!"
+    }, 
+    "located.": {
+        "message": "entdeckt."
+    }, 
+    "lost.": {
+        "message": "lost."
+    }, 
+    "ready.": {
+        "message": "ready."
+    }, 
+    "under attack.": {
+        "message": "under attack."
+    }
+}

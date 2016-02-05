@@ -1,0 +1,98 @@
+{
+    "Accept": {
+        "message": "Acceptera"
+    }, 
+    "CLEAR SYSTEM": {
+        "message": "RENSA SYSTEM"
+    }, 
+    "CLOSE": {
+        "message": "St\u00e4ng"
+    }, 
+    "Cancel": {
+        "message": "Avbryt"
+    }, 
+    "Discard": {
+        "message": "Kasta"
+    }, 
+    "Do you want to save this system?": {
+        "message": "Vill du spara systemet?"
+    }, 
+    "EDIT PLANET": {
+        "message": "REDIGERA PLANET"
+    }, 
+    "HIDE": {
+        "message": "G\u00d6M"
+    }, 
+    "Height": {
+        "message": "H\u00f6jd"
+    }, 
+    "MY PLANETS": {
+        "message": "MINA PLANETER"
+    }, 
+    "Mass": {
+        "message": "MASSA"
+    }, 
+    "NAME:": {
+        "message": "NAMN:"
+    }, 
+    "PREVIEW ALL": {
+        "message": "F\u00d6RHANDSTITTA ALLA"
+    }, 
+    "Position": {
+        "message": "POSITION"
+    }, 
+    "RECENT": {
+        "message": "NYLIGEN"
+    }, 
+    "REMOVE": {
+        "message": "TA BORT"
+    }, 
+    "Radius": {
+        "message": "Radie"
+    }, 
+    "SAVE SYSTEM": {
+        "message": "SPARA SYSTEM"
+    }, 
+    "SHOW": {
+        "message": "VISA"
+    }, 
+    "SIMULATE": {
+        "message": "SIMULERA"
+    }, 
+    "SYSTEM DESIGNER": {
+        "message": "SYSTEM REDIGERARE"
+    }, 
+    "Save": {
+        "message": "Spara"
+    }, 
+    "TEMPLATES": {
+        "message": "MALLAR"
+    }, 
+    "Temp": {
+        "message": "Temp"
+    }, 
+    "The planet is loading. This can take a long time.": {
+        "message": "Denna planet laddas. Detta kan ta en tid."
+    }, 
+    "The program will be unresponsive until the planet has finished.": {
+        "message": "Programmet kommer inte svarar f\u00f6rr\u00e4n planeten \u00e4r klar."
+    }, 
+    "The system has been changed since it was last saved.": {
+        "message": "Systemet har \u00e4ndrats sedan det senast sparats."
+    }, 
+    "The system has not been saved.": {
+        "message": "Systemet har inte sparats."
+    }, 
+    "Velocity": {
+        "message": "HASTIGHET"
+    }, 
+    "Water": {
+        "message": "Vatten"
+    }, 
+    "X:": {
+        "message": "X:"
+    }, 
+    "Y:": {
+        "message": "Y:"
+    }
+}

@@ -1,0 +1,86 @@
+{
+    "AI:": {
+        "message": "AI:"
+    }, 
+    "Abandon War": {
+        "message": "H\u00e1bor\u00fa Elhagy\u00e1sa"
+    }, 
+    "Card:": {
+        "message": "K\u00e1rtya:"
+    }, 
+    "Data Banks Full": {
+        "message": "Data Banks Full"
+    }, 
+    "Date:": {
+        "message": "D\u00e1tum:"
+    }, 
+    "Delete Tech": {
+        "message": "Technol\u00f3gia t\u00f6rl\u00e9se"
+    }, 
+    "Dismiss": {
+        "message": "Elutas\u00edt"
+    }, 
+    "Download Tech": {
+        "message": "Technol\u00f3gia let\u00f6lt\u00e9se"
+    }, 
+    "Duplicate Tech": {
+        "message": "Duplicate Tech"
+    }, 
+    "Exit": {
+        "message": "Kil\u00e9p\u00e9s"
+    }, 
+    "Explore": {
+        "message": "\u00c1tkutat\u00e1s"
+    }, 
+    "Fight": {
+        "message": "Harc"
+    }, 
+    "Give tech": {
+        "message": "Technol\u00f3gia ad\u00e1sa"
+    }, 
+    "History:": {
+        "message": "Eddigi h\u00e1bor\u00fak:"
+    }, 
+    "Jump": {
+        "message": "Ugr\u00e1s"
+    }, 
+    "Load game": {
+        "message": "J\u00e1t\u00e9k bet\u00f6lt\u00e9se"
+    }, 
+    "Preparing for battle": {
+        "message": "Felk\u00e9sz\u00fcl\u00e9s a harcra"
+    }, 
+    "Record:": {
+        "message": "Rekord:"
+    }, 
+    "Reject Tech": {
+        "message": "Technol\u00f3gia elutas\u00edt\u00e1sa"
+    }, 
+    "Save": {
+        "message": "Ment\u00e9s"
+    }, 
+    "Scanning System": {
+        "message": "Naprendszer Szkennel\u00e9se"
+    }, 
+    "Settings": {
+        "message": "Be\u00e1ll\u00edt\u00e1sok"
+    }, 
+    "TECHS": {
+        "message": "TECHNOL\u00d3GI\u00c1K"
+    }, 
+    "To download, open a data bank by deleting an undesired tech.": {
+        "message": "To download, open a data bank by deleting an undesired tech."
+    }, 
+    "Turn State:": {
+        "message": "A k\u00f6r \u00e1llapota:"
+    }, 
+    "Unlock Commander": {
+        "message": "Parancsnok felold\u00e1sa"
+    }, 
+    "loss": {
+        "message": "vesztes\u00e9g"
+    }, 
+    "win /": {
+        "message": "gy\u0151zelem /"
+    }
+}

@@ -1,0 +1,30 @@
+﻿html, body {
+    height: 100%;
+    position: relative;
+    min-width: 1280px;
+    min-height: 720px;
+}
+
+body {
+    color: #e6e6e6;
+    font-family: 'Sansation Regular TTF';
+    font-size: 13px;
+    line-height: 1.7;
+    -webkit-text-stroke: 0px;
+}
+
+.container {
+    padding: 0;
+    position: absolute;
+    top: 15px;
+    left: 15px;
+}
+
+#building_planets {
+    width: 100%;
+    height: 100%;
+    border-style: none;
+    color: rgba(0,0,0,0);
+    display: block;
+    position: absolute;
+}

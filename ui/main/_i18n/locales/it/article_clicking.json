@@ -1,0 +1,20 @@
+{
+    "Clicking": {
+        "message": "Clic"
+    }, 
+    "PA Guide: Clicking": {
+        "message": "Guida di PA: Clic"
+    }, 
+    "[style=text_callout]Double click[/style] a unit to select similar units": {
+        "message": "[style=text_callout]Fai doppio clic[/style] su un'unità per selezionare le unità simili"
+    }, 
+    "[style=text_callout]Left Click + Hold[/style] and drag to window select multiple units": {
+        "message": "[style=text_callout]Tieni premuto il pulsante sinistro del mouse[/style] e trascinalo sullo schermo per selezionare più unità"
+    }, 
+    "[style=text_callout]Left Click[/style] to select unit, [style=text_callout]Right Click[/style] for action.": {
+        "message": "[style=text_callout]Fai clic col pulsante sinistro del mouse[/style] per selezionare un'unità e [style=text_callout]con quello destro[/style] per agire."
+    }, 
+    "[style=text_callout]Shift + Right Click[/style] to queue up multiple orders": {
+        "message": "[style=text_callout]Maiusc + fai clic col pulsante destro del mouse[/style] per accodare più ordini"
+    }
+}

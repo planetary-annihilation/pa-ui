@@ -1,0 +1,98 @@
+{
+    "Accept": {
+        "message": "Kabul et"
+    }, 
+    "CLEAR SYSTEM": {
+        "message": "S\u0130STEM\u0130 TEM\u0130ZLE"
+    }, 
+    "CLOSE": {
+        "message": "KAPAT"
+    }, 
+    "Cancel": {
+        "message": "\u0130ptal"
+    }, 
+    "Discard": {
+        "message": "\u0130ptal"
+    }, 
+    "Do you want to save this system?": {
+        "message": "Bu sistemi kaydetmek istiyor musunuz?"
+    }, 
+    "EDIT PLANET": {
+        "message": "GEZEGEN\u0130 D\u00dcZENLE"
+    }, 
+    "HIDE": {
+        "message": "G\u0130ZLE"
+    }, 
+    "Height": {
+        "message": "Y\u00fckseklik"
+    }, 
+    "MY PLANETS": {
+        "message": "BEN\u0130M GEZEGENLER\u0130M"
+    }, 
+    "Mass": {
+        "message": "K\u00dcTLE"
+    }, 
+    "NAME:": {
+        "message": "\u0130S\u0130M:"
+    }, 
+    "PREVIEW ALL": {
+        "message": "HEPS\u0130N\u0130 \u00d6N \u0130NCELE"
+    }, 
+    "Position": {
+        "message": "POZ\u0130SYON"
+    }, 
+    "RECENT": {
+        "message": "YEN\u0130"
+    }, 
+    "REMOVE": {
+        "message": "\u00c7IKAR"
+    }, 
+    "Radius": {
+        "message": "Yar\u0131 \u00e7ap"
+    }, 
+    "SAVE SYSTEM": {
+        "message": "S\u0130STEM\u0130 KAYDET"
+    }, 
+    "SHOW": {
+        "message": "G\u00d6STER"
+    }, 
+    "SIMULATE": {
+        "message": "S\u0130MULE ET"
+    }, 
+    "SYSTEM DESIGNER": {
+        "message": "Sistem olu\u015fturucu"
+    }, 
+    "Save": {
+        "message": "Kaydet"
+    }, 
+    "TEMPLATES": {
+        "message": "\u015eABLONLAR"
+    }, 
+    "Temp": {
+        "message": "S\u0131cakl\u0131k"
+    }, 
+    "The planet is loading. This can take a long time.": {
+        "message": "Gezegen y\u00fckleniyor. Bu uzun bir s\u00fcre alabilir."
+    }, 
+    "The program will be unresponsive until the planet has finished.": {
+        "message": "Gezegen bitene kadar program tepki vermeyecektir."
+    }, 
+    "The system has been changed since it was last saved.": {
+        "message": "En son kaydedildi\u011finden bu yana sistem de\u011fi\u015ftirildi."
+    }, 
+    "The system has not been saved.": {
+        "message": "Sistem kaydedilmedi."
+    }, 
+    "Velocity": {
+        "message": "HIZ"
+    }, 
+    "Water": {
+        "message": "Su"
+    }, 
+    "X:": {
+        "message": "X:"
+    }, 
+    "Y:": {
+        "message": "Y:"
+    }
+}

@@ -1,0 +1,62 @@
+{
+    "ACCESS TO WORLD SIMULATION DENIED": {
+        "message": "ACCESSO ALLA SIMULAZIONE DEL MONDO NEGATO"
+    }, 
+    "ACCESSING WORLD SIMULATION": {
+        "message": "ACCESSO ALLA SIMULAZIONE DEL MONDO IN CORSO..."
+    }, 
+    "ATTEMPTS REMAINING: __num_attempts_remaining__": {
+        "message": "TENTATIVI RIMASTI: __num_attempts_remaining__"
+    }, 
+    "CONNECTING TO SERVER": {
+        "message": "CONNESSIONE AL SERVER IN CORSO..."
+    }, 
+    "CONNECTION TO SERVER FAILED": {
+        "message": "IMPOSSIBILE CONNETTERSI AL SERVER"
+    }, 
+    "CONNECTION TO SERVER LOST": {
+        "message": "CONNESSIONE AL SERVER INTERROTTA"
+    }, 
+    "CREATING WORLD SIMULATION": {
+        "message": "CREAZIONE SIMULAZIONE DEL MONDO"
+    }, 
+    "FAILED TO GET PERMISSION": {
+        "message": "IMPOSSIBILE OTTENERE I PERMESSI"
+    }, 
+    "FAILED TO JOIN GAME": {
+        "message": "IMPOSSIBILE PARTECIPARE ALLA PARTITA"
+    }, 
+    "FAILED TO LOAD GAME": {
+        "message": "IMPOSSIBILE CARICARE LA PARTITA"
+    }, 
+    "FAILED TO START GAME": {
+        "message": "IMPOSSIBILE AVVIARE LA PARTITA"
+    }, 
+    "FAILED TO START REPLAY": {
+        "message": "IMPOSSIBILE AVVIARE IL REPLAY"
+    }, 
+    "LOGIN ACCEPTED": {
+        "message": "ACCESSO CONSENTITO"
+    }, 
+    "LOGIN TO SERVER REJECTED": {
+        "message": "ACCESSO AL SERVER RIFIUTATO"
+    }, 
+    "REQUESTING PERMISSION": {
+        "message": "RICHIESTA PERMESSI IN CORSO..."
+    }, 
+    "Returning to Main Menu": {
+        "message": "Stai per tornare al menu principale"
+    }, 
+    "STARTING GAME": {
+        "message": "AVVIO PARTITA IN CORSO..."
+    }, 
+    "UNABLE TO ACCESS WORLD SIMULATION": {
+        "message": "IMPOSSIBILE ACCEDERE ALLA SIMULAZIONE DEL MONDO"
+    }, 
+    "WORLD SIMULATION WENT AWAY": {
+        "message": "LA SIMULAZIONE DEL MONDO È SPARITA"
+    }, 
+    "You are starting an offline game, but your system does not meet the recommended specifications for offline play. Your gameplay experience may be negatively affected.": {
+        "message": "Stai per avviare una partita offline, ma il tuo sistema non soddisfa i requisiti consigliati. Le prestazioni e l'esperienza di gioco potrebbero risentirne."
+    }
+}

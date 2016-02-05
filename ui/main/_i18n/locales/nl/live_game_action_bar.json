@@ -1,0 +1,44 @@
+{
+    "AT WILL": {
+        "message": "NAAR BELIEVEN"
+    }, 
+    "BUILD MODE": {
+        "message": "BOUWMODUS"
+    }, 
+    "CONTINUOUS": {
+        "message": "DOORLOPEND"
+    }, 
+    "ENERGY ORDERS": {
+        "message": "ENERGIEINSTRUCTIES"
+    }, 
+    "FIRE ORDERS": {
+        "message": "SCHIET INSTRUCTIES"
+    }, 
+    "HOLD": {
+        "message": "BLIJF"
+    }, 
+    "HOLD POSITION": {
+        "message": "POSITIE BEHOUDEN"
+    }, 
+    "MANUEVER": {
+        "message": "MANOEUVREREN"
+    }, 
+    "MOVE ORDERS": {
+        "message": "VERPLAATSBEVELEN"
+    }, 
+    "NORMAL": {
+        "message": "NORMAAL"
+    }, 
+    "OFF": {
+        "message": "UIT"
+    }, 
+    "ON": {
+        "message": "AAN"
+    }, 
+    "RETURN FIRE": {
+        "message": "TERUGSCHIETEN"
+    }, 
+    "ROAM": {
+        "message": "RONDTREKKEN"
+    }
+}

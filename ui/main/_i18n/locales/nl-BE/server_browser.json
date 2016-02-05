@@ -1,0 +1,104 @@
+{
+    "AI Battle": {
+        "message": "Gevecht tegen Computer"
+    }, 
+    "Any": {
+        "message": "Alles"
+    }, 
+    "Can Join": {
+        "message": "Kan Meedoen"
+    }, 
+    "Can Play": {
+        "message": "Kan Spelen"
+    }, 
+    "Can Spectate": {
+        "message": "Kan Observeren"
+    }, 
+    "Casual": {
+        "message": "Ongedwongen"
+    }, 
+    "Competitive": {
+        "message": "Competetief"
+    }, 
+    "Create Game": {
+        "message": "Cre\u00eber Spel"
+    }, 
+    "Free For All": {
+        "message": "Free For All"
+    }, 
+    "Game": {
+        "message": "Spel"
+    }, 
+    "Game State": {
+        "message": "Spel status"
+    }, 
+    "In Lobby": {
+        "message": "In Lobby"
+    }, 
+    "In Progress": {
+        "message": "Bezig"
+    }, 
+    "Join Game": {
+        "message": "Doe mee aan spel"
+    }, 
+    "Locked Game": {
+        "message": "Gesloten Spel"
+    }, 
+    "Mod": {
+        "message": "Mod"
+    }, 
+    "Mode": {
+        "message": "Modus"
+    }, 
+    "Mods": {
+        "message": "Mods"
+    }, 
+    "Multiplayer": {
+        "message": "Multiplayer"
+    }, 
+    "No max": {
+        "message": "Geen maximum"
+    }, 
+    "No min": {
+        "message": "Geen minimum"
+    }, 
+    "Number of Planets": {
+        "message": "Aantal Planeten"
+    }, 
+    "Number of Players": {
+        "message": "Aantal Spelers"
+    }, 
+    "Password": {
+        "message": "Paswoord"
+    }, 
+    "Planets": {
+        "message": "Planeten"
+    }, 
+    "Players": {
+        "message": "SPELERS"
+    }, 
+    "Region": {
+        "message": "Regio"
+    }, 
+    "Slots": {
+        "message": "Slots"
+    }, 
+    "Spectate": {
+        "message": "Toeschouwen"
+    }, 
+    "Spectators": {
+        "message": "Toeschouwers"
+    }, 
+    "Status": {
+        "message": "Status"
+    }, 
+    "Tag": {
+        "message": "Tag"
+    }, 
+    "Team Armies": {
+        "message": "Team Legers"
+    }, 
+    "Testing": {
+        "message": "Testen"
+    }
+}

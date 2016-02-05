@@ -1,0 +1,86 @@
+{
+    "AI:": {
+        "message": "AI\uff1a"
+    }, 
+    "Abandon War": {
+        "message": "\u653e\u5f03\u6218\u4e89"
+    }, 
+    "Card:": {
+        "message": "\u5361\u7247\uff1a"
+    }, 
+    "Data Banks Full": {
+        "message": "\u79d1\u6280\u680f\u5df2\u6ee1"
+    }, 
+    "Date:": {
+        "message": "\u65e5\u671f\uff1a"
+    }, 
+    "Delete Tech": {
+        "message": "\u5220\u9664\u79d1\u6280"
+    }, 
+    "Dismiss": {
+        "message": "\u5173\u95ed"
+    }, 
+    "Download Tech": {
+        "message": "\u4e0b\u8f7d\u79d1\u6280"
+    }, 
+    "Duplicate Tech": {
+        "message": "\u5df2\u6709\u79d1\u6280"
+    }, 
+    "Exit": {
+        "message": "\u9000\u51fa"
+    }, 
+    "Explore": {
+        "message": "\u63a2\u7d22"
+    }, 
+    "Fight": {
+        "message": "\u6218\u6597"
+    }, 
+    "Give tech": {
+        "message": "\u83b7\u5f97\u7684\u79d1\u6280"
+    }, 
+    "History:": {
+        "message": "\u5386\u53f2\uff1a"
+    }, 
+    "Jump": {
+        "message": "\u8dc3\u8fc1"
+    }, 
+    "Load game": {
+        "message": "\u8f7d\u5165\u6e38\u620f"
+    }, 
+    "Preparing for battle": {
+        "message": "\u51c6\u5907\u6218\u6597"
+    }, 
+    "Record:": {
+        "message": "\u8bb0\u5f55\uff1a"
+    }, 
+    "Reject Tech": {
+        "message": "\u653e\u5f03\u79d1\u6280"
+    }, 
+    "Save": {
+        "message": "\u4fdd\u5b58"
+    }, 
+    "Scanning System": {
+        "message": "\u6b63\u5728\u626b\u63cf\u5f53\u524d\u661f\u7cfb"
+    }, 
+    "Settings": {
+        "message": "\u8bbe\u5b9a"
+    }, 
+    "TECHS": {
+        "message": "\u79d1\u6280"
+    }, 
+    "To download, open a data bank by deleting an undesired tech.": {
+        "message": "\u5728\u4e0b\u8f7d\u79d1\u6280\u524d\u4f60\u9700\u8981\u6253\u5f00\u79d1\u6280\u680f\u5e76\u5220\u9664\u4e00\u9879\u79d1\u6280\u4ee5\u817e\u51fa\u7a7a\u4f4d. "
+    }, 
+    "Turn State:": {
+        "message": "\u56de\u5408\u72b6\u6001\uff1a"
+    }, 
+    "Unlock Commander": {
+        "message": "\u89e3\u9501\u6307\u6325\u5b98"
+    }, 
+    "loss": {
+        "message": "\u5931\u8d25"
+    }, 
+    "win /": {
+        "message": "\u80dc\u5229 /"
+    }
+}

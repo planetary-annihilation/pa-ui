@@ -1,0 +1,44 @@
+{
+    "AT WILL": {
+        "message": "\u00c0 VONTADE"
+    }, 
+    "BUILD MODE": {
+        "message": "MODO DE CONSTRU\u00c7\u00c3O"
+    }, 
+    "CONTINUOUS": {
+        "message": "CONT\u00cdNUO"
+    }, 
+    "ENERGY ORDERS": {
+        "message": "ORDENS DE ENERGIA"
+    }, 
+    "FIRE ORDERS": {
+        "message": "ORDENS DE DISPARO"
+    }, 
+    "HOLD": {
+        "message": "PARAR"
+    }, 
+    "HOLD POSITION": {
+        "message": "MANTER POSI\u00c7\u00c3O"
+    }, 
+    "MANUEVER": {
+        "message": "MANOBRAR"
+    }, 
+    "MOVE ORDERS": {
+        "message": "ORDENS DE MOVIMENTO"
+    }, 
+    "NORMAL": {
+        "message": "NORMAL"
+    }, 
+    "OFF": {
+        "message": "DESLIGADO"
+    }, 
+    "ON": {
+        "message": "LIGADO"
+    }, 
+    "RETURN FIRE": {
+        "message": "DEVOLVER FOGO"
+    }, 
+    "ROAM": {
+        "message": "VAGUEAR"
+    }
+}

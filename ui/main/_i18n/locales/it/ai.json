@@ -1,0 +1,17 @@
+{
+    "Absurd": {
+        "message": "Assurda"
+    }, 
+    "Hard": {
+        "message": "Difficile"
+    }, 
+    "Idle": {
+        "message": "Inattiva"
+    }, 
+    "Normal": {
+        "message": "Normale"
+    }, 
+    "Relentless": {
+        "message": "Frenetica"
+    }
+}

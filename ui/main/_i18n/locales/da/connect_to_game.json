@@ -1,0 +1,26 @@
+{
+    "CONNECTION TO SERVER FAILED": {
+        "message": "KUNNE IKKE OPRETTE FORBINDELSE TIL SERVER"
+    }, 
+    "CONNECTION TO SERVER LOST": {
+        "message": "FORBINDELSE TIL SERVEREN ER TABT"
+    }, 
+    "FAILED TO JOIN GAME": {
+        "message": "KUNNE IKKE DELTAGE I SPILLET"
+    }, 
+    "FAILED TO START GAME": {
+        "message": "KUNNE IKKE STARTE SPIL"
+    }, 
+    "FAILED TO START REPLAY": {
+        "message": "KUNNE IKKE STARTE REPLAY"
+    }, 
+    "LOGIN ACCEPTED": {
+        "message": "LOGIN ACCEPTERET"
+    }, 
+    "LOGIN TO SERVER REJECTED": {
+        "message": "LOGIN TIL SERVER AFVIST"
+    }, 
+    "Returning to Main Menu": {
+        "message": "G\u00e5r tilbage til hovedmenu"
+    }
+}

@@ -1,0 +1,122 @@
+{
+    "- Host": {
+        "message": "- Hostitel"
+    }, 
+    "AI Commander": {
+        "message": "AI Velitel"
+    }, 
+    "Add AI": {
+        "message": "P\u0159idat AI"
+    }, 
+    "Add AI Commander": {
+        "message": "P\u0159idat AI Velitele"
+    }, 
+    "Add Slot": {
+        "message": "P\u0159idat m\u00edsto"
+    }, 
+    "Alliance Victory": {
+        "message": "V\u00edt\u011bzstv\u00ed aliance"
+    }, 
+    "Browse...": {
+        "message": "Proch\u00e1zet..."
+    }, 
+    "CONNECTION TO SERVER LOST": {
+        "message": "P\u0158IPOJEN\u00cd SE SERVEREM ZTRACENO"
+    }, 
+    "Chat": {
+        "message": "Chat"
+    }, 
+    "Cheats": {
+        "message": "Podvodn\u00edk"
+    }, 
+    "Dynamic Alliances": {
+        "message": "Dynamick\u00e9 aliance"
+    }, 
+    "Empty": {
+        "message": "Pr\u00e1zdn\u00fd"
+    }, 
+    "Free For All": {
+        "message": "V\u0161ichni proti v\u0161em"
+    }, 
+    "Friends": {
+        "message": "P\u0159\u00e1tel\u00e9"
+    }, 
+    "Game Lobby": {
+        "message": "Hern\u00ed M\u00edstnost"
+    }, 
+    "Game Mode": {
+        "message": "Hern\u00ed re\u017eim"
+    }, 
+    "Global Spectator Chat": {
+        "message": "Glob\u00e1ln\u00ed chat div\u00e1k\u016f"
+    }, 
+    "Join": {
+        "message": "P\u0159ipojit"
+    }, 
+    "Kick": {
+        "message": "Vyhodit"
+    }, 
+    "Leave": {
+        "message": "Odej\u00edt"
+    }, 
+    "New System": {
+        "message": "Nov\u00fd syst\u00e9m"
+    }, 
+    "Open to:": {
+        "message": "Otev\u0159\u00edt pro:"
+    }, 
+    "Player Slot": {
+        "message": "M\u00edsto pro hr\u00e1\u010de"
+    }, 
+    "Player chooses spot on starting planet": {
+        "message": "Hr\u00e1\u010d si vyb\u00edr\u00e1 m\u00edsto na za\u010d\u00e1te\u010dn\u00ed planet\u011b"
+    }, 
+    "Players)": {
+        "message": "Hr\u00e1\u010d\u016f)"
+    }, 
+    "Private": {
+        "message": "Soukrom\u00e1"
+    }, 
+    "Public": {
+        "message": "Ve\u0159ejn\u00e1"
+    }, 
+    "Ready": {
+        "message": "P\u0159ipraven"
+    }, 
+    "Remove": {
+        "message": "Odstranit"
+    }, 
+    "Returning to Main Menu": {
+        "message": "N\u00e1vrat do Hlavn\u00edho Menu"
+    }, 
+    "SHARE ARMY": {
+        "message": "SD\u00cdLET ARM\u00c1DU"
+    }, 
+    "Server Mods": {
+        "message": "M\u00f3d serveru"
+    }, 
+    "Spectate": {
+        "message": "Pozorovat"
+    }, 
+    "Spectators": {
+        "message": "Pozorovatel\u00e9"
+    }, 
+    "Start Game": {
+        "message": "Spustit hru"
+    }, 
+    "System": {
+        "message": "Syst\u00e9m"
+    }, 
+    "Tag:": {
+        "message": "Ozna\u010den\u00ed:"
+    }, 
+    "Team Armies": {
+        "message": "T\u00fdmov\u00e9 arm\u00e1dy"
+    }, 
+    "Title": {
+        "message": "N\u00e1zev"
+    }, 
+    "You must have friends to play a friends-only game.": {
+        "message": "Mus\u00ed\u0161 m\u00edt n\u011bjak\u00e9 p\u0159\u00e1tele aby jsi mohl hr\u00e1t hru pouze pro p\u0159\u00e1tele."
+    }
+}

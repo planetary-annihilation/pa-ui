@@ -1,0 +1,152 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta locns="live_game" />
+    <noloc><title>Live Game: Economy Bar</title></noloc>
+    <!--<title><loc>Live Game: Economy</loc></title>-->
+    <script src="bundle://boot/boot.js" type="text/javascript"></script>
+    <script src="live_game_econ.js" type="text/javascript"></script>
+    <link href="bundle://boot/boot.css" rel="stylesheet" type="text/css" />
+    <link href="live_game_econ.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body class="body_panel">
+    <svg xmlns="http://www.w3.org/2000/svg" version="1.1" x="0" y="0" width="0" height="0">
+        <defs>
+            <filter id="xfrm_green" x="0" y="0" width="100%" height="100%">
+                <feColorMatrix result="mat2" in="SourceGraphic"
+                    type="matrix"
+                    values="0  0   0   0   0
+                                     0  1   0   0   0
+                                     0  0   0   0   0
+                                     1  1  -1   1   0" />
+            </filter>
+
+            <filter id="xfrm_red" x="0" y="0" width="100%" height="100%">
+                <feColorMatrix result="mat2" in="SourceGraphic"
+                    type="matrix"
+                    values="0  1   0   0   0
+                                     0  0   0   0   0
+                                     0  0   0   0   0
+                                     1  1  -1   1   0" />
+            </filter>
+
+            <filter id="xfrm_black" x="0" y="0" width="100%" height="100%">
+                <feColorMatrix result="mat2" in="SourceGraphic"
+                    type="matrix"
+                    values="0  .2   0   0   0
+                                     0  .2   0   0   0
+                                     0  .2   0   0   0
+                                     1  1  -1   1   0" />
+            </filter>
+        </defs>
+    </svg>
+
+    <div class="div-econ-bar ignoreMouse" data-bind="css: {'show-econ': showResources}">
+        <!--- METAL ---->
+        <div class="div-metal receiveMouse">
+            <div class="contents">
+                <div class="category_icon_metal" data-placement="bottom" data-bind="tooltip: tooltipMetal">
+                    <img src="img/status_bar/icon-status-metal.png" />
+                </div>
+                <div class="div_status_bar_display" data-placement="bottom" data-bind="tooltip: tooltipMetalStorage">
+                    <div data-bind="css: { status_bar_frame_red: metalFraction() <= 0, status_bar_frame: !showSharedResources(), status_bar_frame_narrow: showSharedResources() }">
+                        <div class="status_bar_metal" data-bind="style: { width: metalFractionString() }, css: metalTextColorCSS">
+                        </div>
+                    </div>
+                    <div class="status_stats">
+                        <span data-bind="text: currentMetalString">8888</span>/<span data-bind="    text: maxMetalString">8888</span>
+                    </div>
+                </div>
+                <div class="div_rate_ctr_cont" data-bind="click: toggleMetalDisplay">
+                    <div class="div_plusminus_rate_cont">
+                        <div class="rate_stat text_rate color_positive" style="box-shadow: none;" data-placement="bottom" data-bind="text: metalGainString, tooltip: tooltipMetalProduced">+8888</div>
+                        <div class="rate_stat text_rate color_negative" style="box-shadow: none;" data-placement="bottom" data-bind="text: metalLossString, tooltip: tooltipMetalExpended">-8888</div>
+                    </div>
+                    <div class="div_rate_ctr_overall text_rate" style="box-shadow: none;" data-placement="bottom" data-bind="visible: !displayMetalAsPercent(), text: metalNetString, css: metalTextColorCSS, tooltip: tooltipNetMetalProduced">+8888</div>
+                    <div class="div_rate_ctr_overall text_rate" style="box-shadow: none;" data-placement="bottom" data-bind="visible: displayMetalAsPercent(), text: metalEfficiencyPercString, css: metalTextColorCSS, tooltip: tooltipMetalEfficiency">(8888%)</div>
+                    <!-- ko if: showSharedResources -->
+                    <div class="div_shared_resources" data-placement="bottom" data-bind="foreach: sharedMetalArray, tooltip: sharedMetalTooltip">
+                        <div class="shared_resource_icon">
+                            <!-- ko if: model.metalShared() < 0 -->
+                            <img src="img/status_bar/icon_resource_sharing_give.png" />
+                            <!-- /ko -->
+                            <!-- ko if: model.metalShared() >= 0 -->
+                            <img src="img/status_bar/icon_resource_sharing_receive.png" />
+                            <!-- /ko -->
+                        </div>
+                    </div>
+                    <!-- /ko -->
+                </div>
+            </div>
+        </div>
+        <!--- ENERGY ---->
+        <div class="div-energy receiveMouse">
+            <div class="contents">
+                <div class="category_icon_energy" data-placement="bottom" data-bind="tooltip: tooltipEnergy">
+                    <img src="img/status_bar/icon-status-energy.png" />
+                </div>
+                <div class="div_status_bar_display" data-placement="bottom" data-bind="tooltip: tooltipEnergyStorage">
+                    <div data-bind="css: { status_bar_frame_red: energyFraction() <= 0, status_bar_frame: !showSharedResources(), status_bar_frame_narrow: showSharedResources() }">
+                        <div class="status_bar_energy" data-bind="style: { width: energyFractionString() }, css: energyTextColorCSS">
+                        </div>
+                    </div>
+                    <div class="status_stats">
+                        <span data-bind="text: currentEnergyString">8888</span>/<span data-bind="    text: maxEnergyString">8888</span>
+                    </div>
+                </div>
+                <div class="div_rate_ctr_cont" data-bind="click: toggleEnergyDisplay">
+                    <div class="div_plusminus_rate_cont">
+                        <div class="rate_stat text_rate color_positive" style="box-shadow: none;" id="Div3" data-placement="bottom" data-bind="text: energyGainString, tooltip: tooltipEnergyProduced">+7777</div>
+                        <div class="rate_stat text_rate color_negative" style="box-shadow: none;" id="Div4" data-placement="bottom" data-bind="text: energyLossString, tooltip: tooltipEnergyExpended">-8888</div>
+                    </div>
+                    <div class="div_rate_ctr_overall text_rate" style="box-shadow: none;" data-placement="bottom" data-bind="visible: !displayEnergyAsPercent(), text: energyNetString, css: energyTextColorCSS, tooltip: tooltipNetEnergyProduced">+8888</div>
+                    <div class="div_rate_ctr_overall text_rate" style="box-shadow: none;" data-placement="bottom" data-bind="visible: displayEnergyAsPercent(), text: energyEfficiencyPercString, css: energyTextColorCSS, tooltip: tooltipEnergyEfficiency">(8888%)</div>
+                    <!-- ko if: showSharedResources -->
+                    <div class="div_shared_resources" data-placement="bottom" data-bind="foreach: sharedEnergyArray, tooltip: sharedEnergyTooltip">
+                        <div class="shared_resource_icon">
+                            <!-- ko if: model.energyShared() < 0 -->
+                            <img src="img/status_bar/icon_resource_sharing_give.png" />
+                            <!-- /ko -->
+                            <!-- ko if: model.energyShared() >= 0 -->
+                            <img src="img/status_bar/icon_resource_sharing_receive.png" />
+                            <!-- /ko -->
+                        </div>
+                    </div>
+                    <!-- /ko -->
+                </div>
+            </div>
+        </div>
+        <!--- EFFICIENCY & BOUNTY ---->
+        <div class="div-econ">
+            <div class="wrapper">
+                <!-- EFFICIENCY -->
+                <div class="div_efficiency" data-placement="bottom" data-bind="tooltip: economyEfficiencyTooltip">
+                    <div class="build_eff_text">
+                        <loc>Efficiency</loc>
+                    </div>
+                    <div class="div_rate_ctr_perc_center text_rate receiveMouse" style="box-shadow: none;"
+                        data-bind="text: economyEfficiencyPercString, css: { color_positive: economyEfficiencyPerc() >= 100, color_negative: economyEfficiencyPerc() < 100 }">
+                        100%
+                    </div>
+                </div>
+                <!-- MULTIPLIER -->
+                <div class="div_multiplier receiveMouse" data-placement="bottom" data-bind="visible: $root.econHandicapString() != 1, tooltip: tooltipHandicap">
+                    <div class="value">
+                        <span style="font-size:11px;"><noloc>x</noloc></span><span style="font-size: 13px; font-weight: bold;" data-bind="text: econHandicapString">0.0</span>
+                    </div>
+                </div>
+            </div>
+            <div class="div_econ_notification_bar" data-bind="css: { bounty_reward_notification: $root.econHandicapString() != 1 }">
+                <div class="notification">
+                    <div>
+                        <loc>Bounty kill rewarded. Econ multipliers enabled.</loc>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>

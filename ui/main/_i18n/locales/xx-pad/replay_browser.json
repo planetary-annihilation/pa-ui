@@ -1,0 +1,98 @@
+{
+    "(+ __aiCount__ AI)": {
+        "message": " (+ __aiCount__ \u0202\u03aa)\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9", 
+        "original": " (+ __aiCount__ AI)"
+    }, 
+    "(Updating...)": {
+        "message": " (\u1ee6\u2374\u0257\u0203\u04ad\u0457\u019e\u0260...)\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9", 
+        "original": " (Updating...)"
+    }, 
+    "(no info available)": {
+        "message": "(\u019e\u020f \u0457\u019e\u0493\u020f \u0203\u0477\u0203\u0457\u230a\u0203\u0411\u230a\u1f73)\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9", 
+        "original": "(no info available)"
+    }, 
+    "All Recent Games": {
+        "message": "\u0202\u230a\u230a \u211d\u1f73\u03f2\u1f73\u019e\u04ad \u01f4\u0203\u028d\u1f73\u01a8\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9", 
+        "original": "All Recent Games"
+    }, 
+    "BuildVersion": {
+        "message": "\u0e3f\u0574\u0457\u230a\u0257\u0476\u1f73\u0213\u01a8\u0457\u020f\u019e\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9", 
+        "original": "BuildVersion"
+    }, 
+    "Duration": {
+        "message": "\u0189\u0574\u0213\u0203\u04ad\u0457\u020f\u019e\u03a9\u03a9\u03a9\u03a9", 
+        "original": "Duration"
+    }, 
+    "FAILED TO RETRIEVE REPLAY LIST": {
+        "message": "\u03dc\u0202\u03aa\u20a4\u0190\u0189 \u4e01\u0472 \u211d\u0190\u4e01\u211d\u03aa\u0190\u0476\u0190 \u211d\u0190\u1e54\u20a4\u0202\u0423 \u20a4\u03aa\u1e60\u4e01\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9", 
+        "original": "FAILED TO RETRIEVE REPLAY LIST"
+    }, 
+    "Filter": {
+        "message": "\u03dc\u0457\u230a\u04ad\u1f73\u0213\u03a9\u03a9\u03a9", 
+        "original": "Filter"
+    }, 
+    "Galactic War": {
+        "message": "\u01f4\u0203\u230a\u0203\u03f2\u04ad\u0457\u03f2 \u20a9\u0203\u0213\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9", 
+        "original": "Galactic War"
+    }, 
+    "Game": {
+        "message": "\u01f4\u0203\u028d\u1f73\u03a9\u03a9", 
+        "original": "Game"
+    }, 
+    "Lobby Id": {
+        "message": "\u20a4\u020f\u0411\u0411\u0443 \u03aa\u0257\u03a9\u03a9\u03a9\u03a9", 
+        "original": "Lobby Id"
+    }, 
+    "Longest Game Duration": {
+        "message": "\u20a4\u020f\u019e\u0260\u1f73\u01a8\u04ad \u01f4\u0203\u028d\u1f73 \u0189\u0574\u0213\u0203\u04ad\u0457\u020f\u019e\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9", 
+        "original": "Longest Game Duration"
+    }, 
+    "Most Recent": {
+        "message": "\u039c\u020f\u01a8\u04ad \u211d\u1f73\u03f2\u1f73\u019e\u04ad\u03a9\u03a9\u03a9\u03a9\u03a9", 
+        "original": "Most Recent"
+    }, 
+    "Multiplayer": {
+        "message": "\u039c\u0574\u230a\u04ad\u0457\u2374\u230a\u0203\u0443\u1f73\u0213\u03a9\u03a9\u03a9\u03a9\u03a9", 
+        "original": "Multiplayer"
+    }, 
+    "My Games Only": {
+        "message": "\u039c\u0443 \u01f4\u0203\u028d\u1f73\u01a8 \u0472\u019e\u230a\u0443\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9", 
+        "original": "My Games Only"
+    }, 
+    "Replays": {
+        "message": "\u211d\u1f73\u2374\u230a\u0203\u0443\u01a8\u03a9\u03a9\u03a9", 
+        "original": "Replays"
+    }, 
+    "Returning to Main Menu": {
+        "message": "\u211d\u1f73\u04ad\u0574\u0213\u019e\u0457\u019e\u0260 \u04ad\u020f \u039c\u0203\u0457\u019e \u039c\u1f73\u019e\u0574\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9", 
+        "original": "Returning to Main Menu"
+    }, 
+    "Search": {
+        "message": "\u1e60\u1f73\u0203\u0213\u03f2\u043d\u03a9\u03a9\u03a9", 
+        "original": "Search"
+    }, 
+    "Sorted By": {
+        "message": "\u1e60\u020f\u0213\u04ad\u1f73\u0257 \u0e3f\u0443\u03a9\u03a9\u03a9\u03a9", 
+        "original": "Sorted By"
+    }, 
+    "Versus AI": {
+        "message": "\u0476\u1f73\u0213\u01a8\u0574\u01a8 \u0202\u03aa\u03a9\u03a9\u03a9\u03a9", 
+        "original": "Versus AI"
+    }, 
+    "View": {
+        "message": "\u0476\u0457\u1f73\u1ff4\u03a9\u03a9", 
+        "original": "View"
+    }, 
+    "Watch Direct Lobby Id: __lobby_id__": {
+        "message": "\u20a9\u0203\u04ad\u03f2\u043d \u0189\u0457\u0213\u1f73\u03f2\u04ad \u20a4\u020f\u0411\u0411\u0443 \u03aa\u0257: __lobby_id__\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9", 
+        "original": "Watch Direct Lobby Id: __lobby_id__"
+    }, 
+    "Watch Replay": {
+        "message": "\u20a9\u0203\u04ad\u03f2\u043d \u211d\u1f73\u2374\u230a\u0203\u0443\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9", 
+        "original": "Watch Replay"
+    }, 
+    "__gwClientNames__: Galactic War \"__gwWarName__\" (turn __gwTurn__, __gwSystemName__), vs. __gwAiArmies__": {
+        "message": " __gwClientNames__: \u01f4\u0203\u230a\u0203\u03f2\u04ad\u0457\u03f2 \u20a9\u0203\u0213 \"__gwWarName__\" (\u04ad\u0574\u0213\u019e __gwTurn__, __gwSystemName__), \u0477\u01a8. __gwAiArmies__\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9", 
+        "original": " __gwClientNames__: Galactic War \"__gwWarName__\" (turn __gwTurn__, __gwSystemName__), vs. __gwAiArmies__"
+    }
+}

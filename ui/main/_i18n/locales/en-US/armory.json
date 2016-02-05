@@ -1,0 +1,119 @@
+{
+    "Account Name:": {
+        "message": "Account Name:"
+    }, 
+    "Add To Cart": {
+        "message": "Add To Cart"
+    }, 
+    "Armory": {
+        "message": "Armory"
+    }, 
+    "Badges": {
+        "message": "Badges"
+    }, 
+    "CHECKOUT": {
+        "message": "CHECKOUT"
+    }, 
+    "Cancel": {
+        "message": "Cancel"
+    }, 
+    "Cart": {
+        "message": "Cart"
+    }, 
+    "Commanders": {
+        "message": "Commanders"
+    }, 
+    "Confirmation code:": {
+        "message": "Confirmation code:"
+    }, 
+    "Confirmation of your purchase is provided below.": {
+        "message": "Confirmation of your purchase is provided below."
+    }, 
+    "Continue Shopping": {
+        "message": "Continue Shopping"
+    }, 
+    "Coupon code": {
+        "message": "Coupon code"
+    }, 
+    "Credit applied:": {
+        "message": "Credit applied: "
+    }, 
+    "Designed in collaboration with": {
+        "message": "Designed in collaboration with"
+    }, 
+    "Dismiss": {
+        "message": "Dismiss"
+    }, 
+    "Go to Main Menu": {
+        "message": "Go to Main Menu"
+    }, 
+    "Here's your receipt.": {
+        "message": "Here's your receipt."
+    }, 
+    "It appears that you have turned off the Steam Overlay, and we are unable to initiate your purchase without it.": {
+        "message": "It appears that you have turned off the Steam Overlay, and we are unable to initiate your purchase without it."
+    }, 
+    "Item": {
+        "message": "Item"
+    }, 
+    "Item is already in cart.": {
+        "message": "Item is already in cart."
+    }, 
+    "Kickstarter Backer": {
+        "message": "Kickstarter Backer"
+    }, 
+    "PA: Titans": {
+        "message": "PA: Titans"
+    }, 
+    "Please enjoy all the new units, new worlds, and new ways to annihilate everything!.": {
+        "message": "Please enjoy all the new units, new worlds, and new ways to annihilate everything!."
+    }, 
+    "Please exit the game, find it in your Steam library, right click it, select Properties, and make sure that \"Enable the Steam Overlay while in-game\" is checked. After doing so, start the game and try again.": {
+        "message": "Please exit the game, find it in your Steam library, right click it, select Properties, and make sure that \"Enable the Steam Overlay while in-game\" is checked. After doing so, start the game and try again."
+    }, 
+    "Price": {
+        "message": "Price"
+    }, 
+    "QUIT & INSTALL TITANS": {
+        "message": "QUIT & INSTALL TITANS"
+    }, 
+    "REMOVE": {
+        "message": "REMOVE"
+    }, 
+    "Redeem": {
+        "message": "Redeem"
+    }, 
+    "Reset Default Commander": {
+        "message": "Reset Default Commander"
+    }, 
+    "Return to Armory": {
+        "message": "Return to Armory"
+    }, 
+    "Set As Default Commander": {
+        "message": "Set As Default Commander"
+    }, 
+    "Steam Overlay Disabled": {
+        "message": "Steam Overlay Disabled"
+    }, 
+    "THE TITANS HAVE ARRIVED": {
+        "message": "THE TITANS HAVE ARRIVED"
+    }, 
+    "Thank you for purchasing TITANS! You'll find it in your Steam library right next to Planetary Annihilation!": {
+        "message": "Thank you for purchasing TITANS! You'll find it in your Steam library right next to Planetary Annihilation!"
+    }, 
+    "Thank you for your purchase.": {
+        "message": "Thank you for your purchase."
+    }, 
+    "Total:": {
+        "message": "Total: "
+    }, 
+    "Updating...": {
+        "message": "Updating..."
+    }, 
+    "Your cart is empty.": {
+        "message": "Your cart is empty."
+    }, 
+    "Your purchased items are now registered to your account and are accessible in the game.": {
+        "message": "Your purchased items are now registered to your account and are accessible in the game."
+    }
+}

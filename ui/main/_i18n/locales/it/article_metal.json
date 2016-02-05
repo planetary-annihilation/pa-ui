@@ -1,0 +1,26 @@
+{
+    "Both Basic and Advanced Metal Extractors can be built on top of the same Metal Spot": {
+        "message": "Gli estrattori normali e quelli avanzati possono essere costruiti sopra lo stesso giacimento metallifero"
+    }, 
+    "Build Metal Extractors on Metal Spots": {
+        "message": "Costruisci gli estrattori sui giacimenti metalliferi"
+    }, 
+    "Build Metal Storage to expand resource capacity": {
+        "message": "Costruisci un deposito di metallo per aumentare la capacità delle risorse"
+    }, 
+    "Metal Resource": {
+        "message": "Risorse di metallo"
+    }, 
+    "Metal is required for building units and structures": {
+        "message": "Il metallo serve per costruire unità e strutture"
+    }, 
+    "PA Guide: Metal": {
+        "message": "Guida di PA: Metallo"
+    }, 
+    "Select Fabber, select [style=text_callout]Build Metal Extractor Icon[/style].": {
+        "message": "Seleziona un fabbricatore, quindi [style=text_callout]l'icona Costruisci estrattore[/style]."
+    }, 
+    "[style=text_callout]Left Click + drag[/style] in the world to build over multiple Metal Spots.": {
+        "message": "[style=text_callout]Fai clic col pulsante sinistro e trascina[/style] per costruire sopra più giacimenti metalliferi."
+    }
+}

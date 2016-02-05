@@ -1,0 +1,113 @@
+{
+    "Abandon": {
+        "message": "Abandonner"
+    }, 
+    "Accept": {
+        "message": "Accepter"
+    }, 
+    "Back": {
+        "message": "Retour"
+    }, 
+    "Cancel": {
+        "message": "Annuler"
+    }, 
+    "Decline": {
+        "message": "Refuser"
+    }, 
+    "Enter Queue": {
+        "message": "Rejoindre la file d'attente"
+    }, 
+    "Failed to Join": {
+        "message": "Impossible de rejoindre"
+    }, 
+    "Failed to connect to match making server.": {
+        "message": "Impossible de se connecter au serveur de mise en relation."
+    }, 
+    "Failed to create game.": {
+        "message": "Impossible de créer une partie"
+    }, 
+    "Match Making Error": {
+        "message": "Erreur de mise en relation"
+    }, 
+    "Match Making Penalty": {
+        "message": "Pénalité de mise en relation"
+    }, 
+    "Matchmaking found a match!": {
+        "message": "Match trouvé !"
+    }, 
+    "One or more other players declined or the match expired.": {
+        "message": "Un ou plusieurs joueurs ont décliné la requête ou le match a expiré."
+    }, 
+    "Opponent": {
+        "message": "Adversaire"
+    }, 
+    "Reconnect": {
+        "message": "Se reconnecter"
+    }, 
+    "Unable to connect to server.": {
+        "message": "Impossible de se connecter au serveur."
+    }, 
+    "You": {
+        "message": "Vous"
+    }, 
+    "You are already assigned to a match.": {
+        "message": "Vous êtes déjà assigné à une partie."
+    }, 
+    "You have been penalized for abandoning a game, please try matchmaking again when your penalty has expired.": {
+        "message": "Vous avez reçu une pénalité pour avoir abandonné une partie. Réessayez la mise en relation une fois votre pénalité expirée."
+    }, 
+    "You have been penalized for abandoning a game.": {
+        "message": "Vous avez reçu une pénalité pour avoir abandonné une partie."
+    }, 
+    "You were penalized for abandoning, but your penalty has now expired.": {
+        "message": "Vous avez reçu une pénalité pour avoir abandonné une partie; mais elle a expiré."
+    }, 
+    "Your confirmation was not received in time.": {
+        "message": "Votre confirmation n'a pas été reçue à temps."
+    }, 
+    "average queue time": {
+        "message": "temps moyen d'attente"
+    }, 
+    "beginning match making": {
+        "message": "début de mise en relation"
+    }, 
+    "connecting to matchmaker": {
+        "message": "connexion à la mise en relation"
+    }, 
+    "finding game server": {
+        "message": "recherche d'un serveur de partie"
+    }, 
+    "idle": {
+        "message": "inactif"
+    }, 
+    "leaving match making": {
+        "message": "abandon de mise en relation"
+    }, 
+    "leaving queue": {
+        "message": "abandon de la file d'attente"
+    }, 
+    "match expires in:": {
+        "message": "le match expire dans :"
+    }, 
+    "match found": {
+        "message": "match trouvé"
+    }, 
+    "penalty expires in:": {
+        "message": "la pénalité expire dans :"
+    }, 
+    "players in queue": {
+        "message": "joueurs en attente"
+    }, 
+    "queue time": {
+        "message": "temps d'attente"
+    }, 
+    "reconnect": {
+        "message": "se reconnecter"
+    }, 
+    "searching for opponent": {
+        "message": "recherche d'un adversaire"
+    }, 
+    "searching for opponents": {
+        "message": "recherche d'adversaires"
+    }
+}

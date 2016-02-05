@@ -1,0 +1,26 @@
+{
+    "Both Basic and Advanced Metal Extractors can be built on top of the same Metal Spot": {
+        "message": "Les extracteurs de métal de base et avancés peuvent être construits sur le même gisement de métal."
+    }, 
+    "Build Metal Extractors on Metal Spots": {
+        "message": "Construisez des extracteurs de métal sur les gisements de métal."
+    }, 
+    "Build Metal Storage to expand resource capacity": {
+        "message": "Construisez des réserves de métal pour accroître la quantité de ressources disponibles."
+    }, 
+    "Metal Resource": {
+        "message": "Ressources en métal"
+    }, 
+    "Metal is required for building units and structures": {
+        "message": "La construction d'unités et de structures exige du métal."
+    }, 
+    "PA Guide: Metal": {
+        "message": "Guide de PA : métal"
+    }, 
+    "Select Fabber, select [style=text_callout]Build Metal Extractor Icon[/style].": {
+        "message": "Choisissez un constructeur et sélectionnez [style=text_callout]l'icône de construction d'extracteur de métal[/style]."
+    }, 
+    "[style=text_callout]Left Click + drag[/style] in the world to build over multiple Metal Spots.": {
+        "message": "[style=text_callout]Faites un clic gauche et faites glisser[/style] sur la carte pour construire plusieurs extracteurs de métal."
+    }
+}

@@ -1,0 +1,803 @@
+@import url('logo-gloss.css');
+
+@font-face {
+    font-family: "DINPRO-LIGHT";
+    src: url('font/DINPRO-LIGHT.TTF');
+}
+
+/*@font-face {
+    font-family: "Glyphicons Halflings";
+    src: url('font/glyphicons-halflings-regular.ttf');
+}*/
+
+
+@font-face {
+    font-family: 'Sansation Regular';
+    src: url('https://planetary-live.s3-us-west-2.amazonaws.com/media/font/Sansation_Regular-webfont.svg') format('svg'), url('font/Sansation_Regular-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Sansation Regular TTF';
+    src: url('font/Sansation_Regular-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+@font-face {
+    font-family: 'Sansation Light';
+    src: url('https://planetary-live.s3-us-west-2.amazonaws.com/media/font/Sansation_Light-webfont.svg') format('svg'), url('font/Sansation_Light-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Sansation Bold';
+    src: url('https://planetary-live.s3-us-west-2.amazonaws.com/media/font/Sansation_Bold-webfont.svg') format('svg'), url('font/Sansation_Bold-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Armata Regular';
+    src: url('https://planetary-live.s3-us-west-2.amazonaws.com/media/font/Armata-Regular-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Droid Sans Mono';
+    src: url('https://planetary-live.s3-us-west-2.amazonaws.com/media/font/DroidSansMono-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+html {
+	height: 100%;
+	max-height: 100%;
+	font-size: 13px;
+	font-family: 'Sansation Regular TTF';
+    box-shadow: inset 0px 0px 50px rgba(30,122,161,.5);
+}
+
+body {
+	/*background: #fff url("../img/top-background.png") top repeat-x;
+	color: #333;*/
+    color: #fff;
+    background: black;
+    font-family: 'Sansation Regular TTF';
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color:#fff;
+    font-family: 'Sansation Bold';
+}
+
+ul, li {
+    font-family:'Sansation Regular TTF';
+}
+
+
+/* Main Elements */
+#container {
+	margin: 0 auto;
+	width: 700px;
+}
+
+#logoheader {
+	height: 100px;
+	background: url("../img/Adyen_logo.png") left 20px no-repeat;
+    display:none;
+}
+
+#content {
+}
+
+#pmcontent {
+	margin-top: 10px;
+}
+
+#foot {
+	background-color: none;
+	padding: 5px;
+	padding-top: 0px;
+}
+
+#footc {
+	margin-bottom: 0px;
+	padding: 0px 0px;
+	height: 68px;
+}
+
+.paddiv1, .paddiv2 {
+	height: 0px;
+}
+
+#mainBack {
+    display:none;
+}
+
+#nextstep {
+	font-weight: bold;
+	height: 22px;
+	color: #fff;
+	font-size: 1.1em;
+}
+
+#nextstepc {
+    color:#fff;
+	text-align: center;
+	padding-top: 12px;
+	padding-bottom: 2px;
+}
+
+.popupMsg {
+	display: none;
+	border: 0px;
+	background-color: none;
+	margin-bottom: 5px;
+	margin-right: 10px;
+	margin-left: 10px;
+	padding: 6px;
+    color:#00ff00;
+    background:none;
+}
+
+.popupMsgOPP {
+	position: relative; 
+	top: -155px; 
+	margin-left: 0px;
+	z-index: 10;
+}
+
+/* Common HTML Elements in #content */
+
+#content p,#content ul,#content pre {
+	padding: 5px;
+}
+
+#content h2 {
+	/*color: #696969;*/
+	padding-top: 16px;
+	font-size: 24px;
+	font-weight: normal;
+	margin-bottom: 24px;
+}
+
+#content h3 {
+	margin-left: 5px;
+	font-size: 1.3em;
+	font-weight: bold;
+	margin-top: 0.5em;
+	margin-bottom: 0.5em;
+}
+
+#content pre {
+	/*font-family: courier, monospace;*/
+	font-size: 1em;
+}
+
+.pmmdetails {
+	padding-left: 80px;
+    height:215px;
+}
+
+.fieldSubHeader {
+	font-weight:bold;
+	margin-bottom:0.5em;
+	margin-top:0.5em;
+}
+
+#displayAmount {
+	font-weight: bold;
+	font-size: 14px;
+	margin-bottom: 20px;
+}
+
+/* Table */
+table.basetable {
+    color:#fff;
+	margin-left: 5px;
+	width: 500px;
+    font-size:12px;
+}
+
+table.basetable td {
+	padding-bottom: 0.6em;
+	padding-right: 0.6em;
+}
+
+/* Order Data Layout */
+table.od {
+	margin: 10px 0px 10px 0px;
+}
+
+table.od td, table.od th  {
+	padding: 3px;
+	border: 0px;
+}
+
+table.od th {
+	font-weight: bold;
+}
+
+#paymentMethods li {
+    font-family:'Sansation Regular TTF';
+    padding:4px;
+    height:100%;
+    width:100%; 
+    color: #00B3FF;
+    text-shadow: 0px 0px 10px #00B3FF;
+    border: 1px solid rgba(0,179,255,.5);
+    box-shadow: none;
+    cursor: default;
+    -webkit-animation: fadeout;
+    -webkit-transition: .3s ease-out;
+}
+
+#paymentMethods li:hover {
+        /*color: #FFFFFF;*/
+        text-shadow: 0px 0px 10px rgba(255,255,255,.5);
+        /*background: #1E7AA1;*/
+        border: 1px solid #00B3FF;
+        box-shadow: inset 0px 0px 10px #00B3FF;
+        -webkit-animation: none;
+        -webkit-transition: none;
+}
+
+#paymentMethods li:active {
+        /*color: #FFFFFF;
+        text-shadow: 0px 0px 10px #FFFFFF;
+        background: #00B3FF;
+        border: 1px solid #00B3FF;
+        box-shadow: inset 0px 0px 10px #00B3FF;*/
+}
+
+
+/* Image Buttons (Payment Methods) */
+
+.imgB {
+	width: 158px;
+	height: 32px;
+	padding: 0;
+	border: 0;
+	background: transparent url("../img/bg_buttons.png") no-repeat left 0px;
+	overflow: hidden;
+	color: #00b3ff;
+	cursor: pointer; /* hand-shaped cursor */
+	cursor: hand; /* for IE 5.x */
+	font-weight: bold;
+	font-size: 1.2em;
+	outline: none;
+    text-shadow:0px 0px 10px #00b3ff;   
+}
+
+.imgB:hover, .imgB:active {
+	/*color: #00b3ff;*/
+}
+
+.pmB {
+	width: 400px;
+	height: 42px;
+	padding-left: 85px;
+	text-align: left;
+	margin-bottom: 6px;
+	font-size: 1.1em;
+	background-color: transparent !important;
+}
+
+/* Image Buttons Footer (next/previous/pay) */
+
+#footerb1div {
+	float: left;
+	text-align: left;
+}
+
+#footerb2div {
+	float: right;
+	text-align: right;
+}
+
+.footerB, .paySubmit, div.pmOcDetail input[type="submit"] {
+	background-color: #3C8A2E;
+	font-size: 15px;
+	padding: 6px 20px 6px;
+    font-family: 'Sansation Regular TTF';
+	font-weight: bold;
+	line-height: 1;
+	text-shadow: 0 -1px 1px rgba(0, 0, 0, 0.25);
+	display: inline-block;
+	color: white;
+	text-decoration: none;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	border-radius: 5px;
+	-moz-box-shadow: 0 1px 3px rgba(0,0,0,0.5);
+	-webkit-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.5);
+	border: none;
+	border-bottom: 1px solid rgba(0, 0, 0, 0.25);
+	position: relative;
+	cursor: pointer;
+}
+
+.paySubmit:hover, .footerB:hover, div.pmOcDetail input[type="submit"]:hover {
+	/*background-color: #00AA00;*/
+    color:#fff;
+}
+
+.paySubmit {
+    text-transform: uppercase;
+    font-family: 'Sansation bold';
+    font-size: 14px;
+    background: #008C00;
+    border-radius: 0px;
+    box-shadow: inset 0px 0px 8px rgba(255,255,255,.50);
+    border: 1px solid #0F0;
+    color: white;
+}
+
+.backB {
+	background: #696969 !important;
+}
+
+/* Links */
+
+a {
+	text-decoration: none;
+	color: #3d892e;
+}
+
+a:visited {
+	text-decoration: none;
+	color: #3d892e;
+}
+
+/* Form elements */
+
+input,select {
+	font-size: 0.95em;
+	padding: 1px;
+	border: 1px solid #C3C3C3;
+	border-top-color: #7C7C7C;
+	border-bottom-color: #DDD;
+}
+
+button:focus {
+	outline: none;
+}
+
+/* Validation */
+
+table.basetable .inputField {
+	padding: 1px 2px 2px 2px;
+    background:black;
+    color:#fff;
+}
+
+table.basetable .errorField {
+	border: 2px solid #f33;
+	background-color: #fff3f3;
+	padding: 1px 1px 1px 1px;
+    color:#000;
+}
+
+.fieldDiv {
+	padding-right: 20px;
+	background: transparent;
+}
+
+#card .cvcWhatIs {
+    color: #00b3ff;
+}
+
+.errorDiv {
+	background: transparent url("/hpp/img/icons/error.png") no-repeat right 3px;
+	padding-right: 20px;
+    color:#fff;
+}
+
+.errorFrame {
+	background-color: #fff3f3;
+}
+
+/********************************************/
+/*               oneclick                   */
+/********************************************/
+.pmOc {
+	margin-bottom: 10px;
+}
+
+.pmOc div.pmOcDetail {
+	background-color: #EEEEEE;
+	border: 1px solid #00b3ff;
+	padding: 6px;
+	display: block;
+	margin-right: 8px;
+	margin-bottom: 8px;
+	width: 400px;
+}
+
+.pmOc div.pmOcPad {
+	height: 1px;
+	display: block;
+	clear: both;
+}
+
+.pmOcRemove {
+	float: left;
+	margin-left: 10px;
+}
+
+.pmOcInput {
+	background-color: #fff;
+}
+
+.pmOcRadio {
+	float: left;
+}
+
+#pmmdetails-card {
+    height: 210px;
+}
+
+.pmOcDetailSummary {
+
+	height: 97px; /*101px;*/
+	width: 160px;
+	color: white;
+	clear:both;
+	font-family:monospace;
+	font-size: 11px;
+	font-weight:bold;
+	line-height:1.3;
+	padding-top: 10px;
+	margin:4px 0 0 4px;
+}
+
+
+.pmOcDetailSummaryCard {
+	background-image: url(/hpp/img/card_generic.png);
+	background-repeat: no-repeat;
+}
+.pmOcDetailSummaryElv {
+	background-image: url(/hpp/img/elv_generic.png);
+	background-repeat: no-repeat;
+}
+
+.pmOcLogo {
+	height:22px;
+	width:40px;
+	background-color: white;
+	margin: 0px 0px 11px 110px;
+}
+.pmOcElv {
+	color: #888;
+	margin-bottom: 19px;
+	height:15px;
+	margin-left: 10px;
+	letter-spacing: 3px;
+}
+.pmOcPan {
+	height:15px;
+	padding-top: 9px;
+	margin-left: 14px;
+}
+.pmOcExp {
+	height:15px;
+	font-size: 10px;
+	margin-left: 105px;
+}
+.pmOcName {
+	height:15px;
+	margin-left: 14px;
+	text-transform: uppercase;
+}
+
+.pmOcArrow {
+	margin-left: 65px;
+	height: 20px;
+	background-repeat: no-repeat;
+	background-image: url(/hpp/img/arrow_down.png);
+}
+
+/* old oneclick - directdebit_NL */
+.pmOcDDNL, .pmOcDDNLHeader {
+	color: #888;
+}
+
+.pmOcDDNLHeader {
+	margin-bottom: 15px;
+	font-weight: bold;
+	font-size: 1.1em;
+}
+
+.pmOcDDNL {
+	margin-bottom: 5px;
+	letter-spacing: 2px;
+}
+
+div.pmOcDetail .fieldDiv, div.pmOcDetail .errorDiv {
+	display: inline;
+}
+
+div.pmOcDetail input {
+	background-color: white;
+}
+
+div.pmOcPay {
+	text-align: right;
+}
+
+/********************************************/
+/********************************************/
+
+
+/********************************************/
+/*            new oneclick                  */
+/********************************************/
+
+.pmOcOverview {
+	margin-bottom: 10px;
+	display: block;
+}
+
+.pmOcOverview div.pmOcDetail {
+	background-color: #EEEEEE;
+	border: 1px solid #fff;
+	padding: 6px;
+	display: block;
+	margin-right: 8px;
+	margin-bottom: 8px;
+	float: left;
+	width: 278px;
+}
+
+.pmOcOverview div.pmOcDetailSummary {
+	margin: 0px;
+	padding: 0px;
+	height: 58px;
+	width: 272px;
+	clear:both;
+	font-size: 11px;
+	font-weight:normal;
+	line-height:1.3;
+	cursor: pointer;
+	color: black;
+	font-family: tahoma, verdana, arial, sans-serif;
+}
+
+.pmOcOverview div.pmOcPad {
+	height: 1px;
+	display: block;
+	clear: both;
+}
+
+.pmOcOverview div.pmOcLogo {
+	height:22px;
+	width:40px;
+	background-color: white;
+	margin: 0px;
+}
+
+.pmOcOverview div.pmOcField1 {
+	height:15px;
+	padding-top: 9px;
+	margin-left: 0px;
+}
+
+.pmOcOverview div.pmOcField2 {
+	padding-top: 0px;
+	height:15px;
+	margin-left: 0px;
+}
+
+.pmOcOverview span.pmOcFieldTitle {
+	float: left;	
+	width: 130px;
+}
+
+.ocRemoveDetail {
+	cursor: pointer;
+	position: relative;
+	top: 3px;
+	left: 2px;
+}
+
+.ocNewDetailsLink {
+	cursor: pointer;
+	text-decoration: underline;
+}
+
+.ocStoredDetails {
+	font-size: 1.25em;
+}
+
+/* new oneclick - card */
+.ocCardLogo {
+	cursor: pointer;
+}
+.ocCardUpdateExpiryDate {
+
+}
+.ocCardUpdateExpiryDateLink {
+	cursor: pointer;
+	text-decoration: underline;
+}
+.cardNumberTitle {
+	width:	200px;
+}
+
+
+/* new oneclick - directdebit - generic */
+
+.ocDDAccount {
+	float:	left;
+	padding: 4px;
+}
+
+.ocDDAccountLink {
+	cursor: pointer;
+	border: 1px solid #84e33c;
+	margin: 3px 9px 3px 1px;
+	color: #999999;
+}
+
+.ocDDAccountNoLink {
+	margin: 2px 8px 2px 0px;
+	border: 2px solid #84e33c;
+}
+/* new oneclick - directdebit_NL */
+.ocDDNLAccount {}
+.ocDDNLAccountLink {}
+.ocDDNLAccountNoLink {}
+
+/* new oneclick - directdebit_BR */
+.ocDDBRAccount {}
+.ocDDBRAccountLink {}
+.ocDDBRAccountNoLink {}
+
+/********************************************/
+/********************************************/
+
+
+/* ivr specific css */
+
+.ivricon {
+        display: block;
+        margin-right: 10px;
+        float: left;
+}
+.ivrmessage {
+        display: block;
+        font-weight: bold;
+}
+.ivrdetail {
+        display: block;
+        margin-top: 5px;
+        font-weight: bold;
+        font-family: arial, sans-serif;
+}
+
+
+#phoneNumber .ivrdetail {
+        color: #57A022;
+        font-size: 2.4em;
+}
+
+#payCode .ivrdetail {
+        color: #1F5F98;
+        font-size: 2.4em;
+}
+#timeToCall .ivrmessage {
+        font-weight: normal;
+        line-height: 1.1em;
+}
+
+#timeToCall .ivrmessage .phoneDetails, #timeLeft {
+        font-weight: bold;
+        color:  #57A022;
+        font-family: arial, sans-serif;
+}
+
+
+.progressW {
+        width: 400px; 
+        margin-left: 50px; 
+        padding: 1px;
+        border: 1px solid #666;
+        background-color: transparent
+}
+.progress {
+        width: 0px;
+        font-size: 1px;
+        height: 14px;
+        margin: 0px;
+        padding:0px;
+        background-color: #66C931;
+        background-image: url(/hpp/img/progress3.png);
+        background-repeat: repeat-x;
+}
+
+.ebanking_FIFrame {
+	width: 300px;
+	float: right;
+}
+
+.ebanking_FIHeader {
+    font-weight:    bold;
+    margin-bottom:  5px;
+    margin-top:     5px;
+    color:          #1678A5;
+}
+
+.ebanking_FIText {
+    padding:        5px;
+}
+
+.invoicestat {
+    width: 55%;
+    border: 2px solid black;
+    font-family: courier, monospace;
+    padding: 17px 10px 17px 61px;
+}
+
+.invoicestatPaid      { border-color: green; background-color: #efe; }  
+.invoicestatUnPaid    { border-color: orange; background-color: #fff5ee; } 
+.invoicestatCannotPay { border-color: red; background-color: #fee; } 
+
+.receiptNoPrint {
+	display: none;
+}
+.receiptPrint {
+	display: none;
+}
+
+
+.btn_std_ix {
+    color: #00B3FF;
+    text-shadow: 0px 0px 10px #00B3FF;
+    border: 1px solid transparent;
+    box-shadow: none;
+    cursor: default;
+    -webkit-animation: fadeout;
+    -webkit-transition: .3s ease-out;
+}
+
+    .btn_std_ix:hover {
+        color: #FFFFFF;
+        text-shadow: 0px 0px 10px rgba(255,255,255,.5);
+        background: #1E7AA1;
+        border: 1px solid #00B3FF;
+        box-shadow: inset 0px 0px 10px #00B3FF;
+        -webkit-animation: none;
+        -webkit-transition: none;
+    }
+
+    .btn_std_ix:active {
+        color: #FFFFFF;
+        text-shadow: 0px 0px 10px rgba(255,255,255,.5);
+        background: #00B3FF;
+        border: 1px solid #00B3FF;
+        box-shadow: inset 0px 0px 10px #00B3FF;
+    }
+
+
+
+@-webkit-keyframes fadeout {
+    to {
+        background: #1E7AA1;
+        border: 1px solid #00B3FF;
+        color: #fff;
+        text-shadow: 0px 0px 10px rgba(255,255,255,.5);
+    }
+    from {
+        background: none;
+        border: 1px solid transparent;
+        border-bottom:1px solid rgba(0,179,255,.05);
+        box-shadow: none;
+        color: inherit;
+        text-shadow: inherit;
+    }
+}

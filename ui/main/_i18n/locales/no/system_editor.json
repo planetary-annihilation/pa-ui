@@ -1,0 +1,107 @@
+{
+    "Accept": {
+        "message": "Godta"
+    }, 
+    "CLEAR SYSTEM": {
+        "message": "NULLSTILL SYSTEM"
+    }, 
+    "CLOSE": {
+        "message": "AVSLUTT"
+    }, 
+    "Cancel": {
+        "message": "Avbryt"
+    }, 
+    "Discard": {
+        "message": "Forkast"
+    }, 
+    "Do you want to save this system?": {
+        "message": "Vil du lagre systemet?"
+    }, 
+    "EDIT PLANET": {
+        "message": "REDIGER PLANET"
+    }, 
+    "HIDE": {
+        "message": "SKJUL"
+    }, 
+    "Height": {
+        "message": "H\u00f8yde"
+    }, 
+    "MY PLANETS": {
+        "message": "MINE PLANETER"
+    }, 
+    "Mass": {
+        "message": "MASSE"
+    }, 
+    "NAME:": {
+        "message": "NAVN:"
+    }, 
+    "PREVIEW ALL": {
+        "message": "FORH\u00c5NDSVIS ALLE"
+    }, 
+    "Position": {
+        "message": "POSISJON"
+    }, 
+    "RECENT": {
+        "message": "NYLIGE"
+    }, 
+    "REMOVE": {
+        "message": "SLETT"
+    }, 
+    "Radius": {
+        "message": "RADIUS"
+    }, 
+    "SAVE SYSTEM": {
+        "message": "LAGRE SYSTEM"
+    }, 
+    "SHOW": {
+        "message": "VIS"
+    }, 
+    "SIMULATE": {
+        "message": "SIMULER"
+    }, 
+    "SYSTEM DESIGNER": {
+        "message": "SYSTEMBYGGER"
+    }, 
+    "Save": {
+        "message": "Lagre"
+    }, 
+    "System has no starting planet.": {
+        "message": "Systemet har ingen startplanet."
+    }, 
+    "System radius is too large.": {
+        "message": "Systemets radius er for stor."
+    }, 
+    "System radius is too small.": {
+        "message": "Systemets radius er for liten."
+    }, 
+    "TEMPLATES": {
+        "message": "MALER"
+    }, 
+    "Temp": {
+        "message": "Temp"
+    }, 
+    "The planet is loading. This can take a long time.": {
+        "message": "Planeten laster. Dette kan ta lang tid."
+    }, 
+    "The program will be unresponsive until the planet has finished.": {
+        "message": "Programmet vil henge inntil planeten er ferdig."
+    }, 
+    "The system has been changed since it was last saved.": {
+        "message": "Systemet er blitt endret siden siste lagring."
+    }, 
+    "The system has not been saved.": {
+        "message": "Systemet har ikke blitt lagret."
+    }, 
+    "Velocity": {
+        "message": "HASTIGHET"
+    }, 
+    "Water": {
+        "message": "Vann"
+    }, 
+    "X:": {
+        "message": "X:"
+    }, 
+    "Y:": {
+        "message": "Y:"
+    }
+}

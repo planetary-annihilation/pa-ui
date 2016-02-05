@@ -1,0 +1,810 @@
+html, body {
+    height: 100%;
+    position: relative;
+    min-width: 1280px;
+    min-height: 720px;
+    z-index: -3;
+    background: none;
+}
+
+.container {
+    height: 100%;
+    width: 100%;
+    position: relative;
+    padding: 0px;
+    text-align: center;
+}
+
+.ignoremouse {
+    pointer-events: none;
+}
+
+.attendmouse {
+    pointer-events: all;
+}
+
+#test_gw_server {
+    position: absolute;
+    top: 15px;
+    right: 15px;
+}
+
+#galaxy-map {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+    background: transparent url('coui://ui/main/game/galactic_war/gw_play/backdrop.png') center no-repeat;
+    background-size: cover;
+}
+
+#selected-system-anchor {
+    position: fixed;
+}
+
+    #selected-system-anchor .below {
+        position: relative;
+        top: 5000%;
+        width: 100em;
+    }
+
+    #selected-system-anchor .btn_hero {
+        position: relative;
+        left: -50%;
+    }
+
+#header {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0px;
+}
+
+#header-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    width: 100%;
+}
+
+#system-column {
+    height: 100%;
+    background: rgba(0, 0, 0, 0.2);
+    text-align: left;
+    float: right;
+}
+
+#system-detail {
+    width: 280px;
+    text-align: left;
+    background: rgba(11, 26, 31, 0.9);
+    padding: 16px 0px 16px 16px;
+    box-shadow: 0px 0px 100px rgb(0, 0, 0);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    position: relative;
+    float: left;
+    margin: 10px;
+    max-height: 90%;
+    overflow-y: auto;
+}
+
+    #system-detail .div_credits_title {
+        font-family: 'Sansation Bold';
+        font-size: 18px;
+        color: #88DBFF;
+        text-shadow: 0px 0px 20px #88DBFF;
+        margin-bottom: 4px;
+        line-height: 1.3;
+    }
+
+    #system-detail .div_credits_name {
+        min-width: 300px;
+    }
+
+    #system-detail .system-name,
+    #system-detail .credits-category {
+        font-family: 'Sansation Bold';
+        font-size: 28px;
+        color: #88DBFF;
+        text-shadow: 0px 0px 20px #88DBFF;
+        margin: 0px 0px 4px 0px;
+    }
+
+    #system-detail .credits_list .system-display {
+    }
+
+.system-display .content {
+    display: inline-block;
+}
+
+.system-display .planets {
+    display: block;
+    margin-bottom: 0.5em;
+}
+
+.system-display .all-planets {
+    /*vertical-align: top;*/
+}
+
+    .system-display .all-planets img {
+        /*vertical-align: top;*/
+    }
+
+#system-detail .credits_list,
+.system-display .description {
+    max-height: 400px;
+    color: #88DBFF;
+    line-height: 1.7;
+    padding-right: 16px;
+    overflow: auto;
+}
+
+#system-detail .credits_list {
+    max-height: 600px;
+}
+
+#system-card-info {
+    width: 1500px;
+    /*margin: 0px;*/
+    margin-top: -150px;
+    z-index: 1;
+}
+
+#system-card {
+    width: 500px;
+    z-index: 1;
+}
+
+    #system-card .warning {
+        font-size: 20px;
+        color: #FC0;
+        font-weight: bold;
+        font-family: 'Sansation Bold';
+    }
+
+    #system-card .warning-desc {
+        font-size: 1em;
+        color: white;
+        padding-bottom: 12px;
+    }
+
+#body-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+
+#scanning {
+    color: #88DBFF;
+    text-shadow: 0px 0px 20px #88DBFF;
+    font-size: 24px;
+    font-family: 'Sansation bold';
+    background: rgba(11, 26, 31, 0.9);
+    box-shadow: 0px 0px 100px #000;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-transform: uppercase;
+    padding: 8px;
+}
+
+#game_menu {
+    display: flex;
+    position: absolute;
+    bottom: 30px;
+    right: 122px;
+    z-index: 2;
+}
+
+    #game_menu .center {
+        margin: auto 0;
+    }
+
+.div_game_menu_panel {
+    position: relative;
+    margin: auto;
+}
+
+.div_game_menu_frame {
+    border-image: url('coui://ui/main/game/live_game/img/game_menu/img_game_menu_bar_frame.png') 60 0 60 56;
+    border-width: 60px 0px 60px 56px;
+    margin: 0px 0px 0px -6px;
+}
+
+.div_panel_bar_background.tech {
+    background: -webkit-radial-gradient(top,rgba(0, 221, 27, 0.8) 0%,rgba(0, 0, 0, 0.5) 50%);
+    margin-top: -250px;
+}
+
+.div_card_bground {
+    width: 100%;
+    background: rgba(0, 0, 0, 0.65);
+    padding: 4px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.div_panel_primary_msg.tech_discovered {
+    color: #01ff4f;
+    background: rgba(0,0,0,.2);
+    box-shadow: none;
+    border: none;
+}
+
+.div_options_bar {
+    background: rgba(0,0,0,.5);
+    pointer-events: all;
+}
+
+
+
+.div_game_menu_panel {
+    position: relative;
+    margin: auto;
+}
+
+.div_game_menu_frame {
+    border-image: url('coui://ui/main/game/live_game/img/game_menu/img_game_menu_bar_frame.png') 60 0 60 56;
+    border-width: 60px 0px 60px 56px;
+    margin: 0px 0px 0px -6px;
+}
+
+.div_game_menu {
+    position: relative;
+    border-image: url('coui://ui/main/game/live_game/img/game_menu/img_game_menu_bground.png') 26 26 26 26 fill;
+    border-width: 26px 26px 0 26px;
+    pointer-events: all;
+}
+
+.div_game_menu_cont {
+    margin: -9px -18px 0 -18px;
+    border-top: 1px solid rgba(255,255,255,.05);
+    border-bottom: 1px solid #1e7aa1;
+}
+
+.div_game_menu_item {
+    height: 100%;
+    width: 100%;
+    margin: 0px 0px;
+    border: 1px solid transparent;
+    border-bottom: 1px solid rgba(255,255,255,.05);
+    position: relative;
+    font-family: 'Sansation Bold';
+    font-size: 18px;
+    color: #00b3ff;
+    text-shadow: 0px 0px 20px #00b3ff;
+    padding: 16px 36px 16px 16px;
+    text-align: left;
+    -webkit-animation: fadeout;
+    -webkit-transition: .3s ease-out;
+}
+
+    .div_game_menu_item:hover {
+        height: 100%;
+        width: 100%;
+        background: #1E7AA1;
+        border: 1px solid #00B3FF;
+        box-shadow: inset 0px 0px 8px #00B3FF;
+        color: #fff;
+        -webkit-animation: none;
+        -webkit-transition: none;
+    }
+
+    .div_game_menu_item:active {
+        height: 100%;
+        width: 100%;
+        background: #00B3FF;
+        border: 1px solid #00B3FF;
+        box-shadow: 0px 0px 30px #00B3FF;
+        color: #fff;
+    }
+
+/* IN GAME OPTIONS BAR*/
+
+.div_ingame_options_bar {
+    width: auto;
+    height: 56px;
+    border-image: url(coui://ui/main/shared/img/build_bar/img_build_bar_bground_fill.png) 19 45 19 45 fill;
+    border-width: 19px 45px 19px 45px;
+    white-space: nowrap;
+    text-align: right;
+    margin: -13px -40px -13px 0px;
+    display: flex;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    z-index: 2;
+    pointer-events: all;
+}
+
+.div_ingame_info_bar {
+    min-width: 300px;
+    right: auto;
+    left: 0px;
+    margin: 0px 0px -15px -40px;
+}
+
+.div_ingame_options_bar_cont {
+    height: 30px;
+    margin: -6px -5px 0px 0px;
+    display: flex;
+}
+
+.btn_ingame_options {
+    height: 26px;
+    margin: 2px -1px 0px 0px;
+    padding: 4px 6px;
+    border: 1px solid #4D4D4D;
+    box-shadow: inset 0px 0px 10px #414141;
+}
+
+.div_uberbar_toggle_cont {
+}
+
+.div_ingame_timer {
+    height: 30px;
+    width: 220px;
+    font-family: 'Sansation Bold';
+    font-size: 14px;
+    color: #00b3ff;
+    text-shadow: 0px 0px 30px #00b3ff;
+    background: url(coui://ui/main/game/live_game/img/ingame_options_bar/img_bar_clock.png) left top no-repeat;
+    margin: 0px 0px 0px -4px;
+    padding: 0px 6px 0px 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+#footer {
+    position: absolute;
+    width: 100%;
+    bottom: 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    z-index: 2;
+}
+
+#tech_bar_cont {
+    margin: 0px auto;
+}
+
+#inventory {
+    height: auto;
+    min-width: 480px;
+    max-width: 572px;
+    margin-bottom: -20px;
+    display: flex;
+    justify-content: center;
+    align-content: flex-end;
+    position: relative;
+}
+
+    #inventory .scroll-container {
+        max-height: 200px;
+        position: relative;
+        text-align: left;
+        overflow-y: auto;
+        margin: -10px -10px 0px;
+        border: 1px solid rgba(30, 122, 161, 0.1);
+    }
+
+        #inventory .scroll-container .content {
+            height: 100%;
+            width: 100%;
+            border: 1px solid transparent;
+            max-height: 193px;
+            display: flex;
+            flex-wrap: wrap;
+            max-height: 200px;
+        }
+
+    #inventory .one-card {
+        display: inline-flex;
+        width: 102px;
+        height: 96px;
+        vertical-align: top;
+        margin: 0px -1px -1px 0px;
+    }
+
+        #inventory .one-card .icon {
+            width: 72px;
+            height: 72px;
+            padding: 2px;
+            vertical-align: text-top;
+            margin: auto auto;
+        }
+
+        #inventory .one-card .tool-tip {
+            position: absolute;
+            top: -25px;
+            border-width: 1px;
+            border-style: solid;
+            background: black;
+        }
+
+#hover-card, #system-card {
+    justify-content: center;
+    pointer-events: all;
+}
+
+#hover-card, #system-card {
+    height: 300px;
+    width: 300px;
+    background: linear-gradient(to top, #222 0%, #000 100%);
+    padding: 24px 4px 0px 4px;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    box-shadow: 0px 0px 50px rgba(0, 0, 0, 0.8);
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    position: relative;
+    -webkit-animation: window_appear .07s;
+}
+
+#hover-card {
+}
+
+#system-card {
+    margin: 0 12px;
+}
+
+.card .col1 {
+    padding: 0px 12px 0px;
+}
+
+    .card .col1 .icon, .img_card_icon {
+        width: 128px;
+    }
+
+.card .col2 {
+    width: 315px;
+}
+
+    .card .col2 .summary, .div_card_summary {
+        font-family: 'Sansation Bold';
+        font-size: 20px;
+        color: #01ff4f;
+        text-shadow: none;
+        margin: 0px 0px 6px 0px;
+        max-width: 372px;
+        line-height: 1;
+        flex-shrink: 0;
+    }
+
+    .card .col2 .desc, .div_card_desc {
+        height: 81px;
+        max-width: 372px;
+        font-family: 'Sansation Regular TTF';
+        line-height: 1.5;
+        margin: 0px -20px 0px 0px;
+        overflow: auto;
+    }
+
+.close {
+    position: absolute;
+    top: -0px;
+    right: 0px;
+    height: 24px;
+    width: 24px;
+    color: white;
+    background: url('coui://ui/main/shared/img/window_controls/btn_close_10.png') center center no-repeat;
+    border: 1px solid #666;
+    opacity: 1.0;
+    filter: alpha(opacity=100);
+}
+
+    .close:hover,
+    .close:focus {
+        color: white;
+        opacity: 1.0;
+        filter: alpha(opacity=100);
+        background-color: #666;
+    }
+
+    .close:active {
+        background-color: #333;
+    }
+
+.discard {
+    display: inline-block;
+}
+
+.close {
+    margin: 4px;
+    z-index: 3;
+}
+
+.wrap {
+    border-image: url('coui://ui/main/shared/img/build_bar/img_build_bar_menu_bground.png') 35 35 23 35 fill;
+    border-width: 35px 35px 23px 35px;
+}
+
+#test-panel {
+    position: absolute;
+    bottom: 35px;
+    left: 15px;
+    overflow-x: hidden;
+    overflow-y: auto;
+    max-height: 450px;
+    min-height: 90px;
+    min-width: 110px;
+    word-wrap: break-word;
+}
+
+    #test-panel .close-target {
+        width: 400px;
+    }
+
+    #test-panel .no-fog {
+        display: inline-block;
+        width: 32px;
+        height: 32px;
+        background-image: url(coui://ui/main/atlas/icon_atlas/img/strategic_icons/icon_si_air_scout.png);
+    }
+
+    #test-panel .jump {
+        display: inline-block;
+        width: 32px;
+        height: 32px;
+        background-image: url(coui://ui/main/atlas/icon_atlas/img/strategic_icons/icon_si_teleporter.png);
+    }
+
+    #test-panel .test-cards {
+        display: inline-block;
+        width: 32px;
+        height: 32px;
+        background-image: url(coui://ui/main/atlas/icon_atlas/img/strategic_icons/icon_si_avatar.png);
+    }
+
+#test-give-card-id {
+    display: inline;
+}
+
+#test-panel .give-card {
+    display: inline-block;
+    width: 32px;
+    height: 32px;
+    background-image: url(coui://ui/main/atlas/icon_atlas/img/strategic_icons/icon_si_fabrication_vehicle_adv.png);
+}
+
+#test-panel .load-game {
+    display: inline-block;
+    width: 32px;
+    height: 32px;
+    background-image: url(coui://ui/main/atlas/icon_atlas/img/strategic_icons/icon_si_nuke_launcher.png);
+}
+
+#test-panel form {
+    margin-bottom: 8px;
+}
+
+#fade {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    background-color: black;
+}
+
+.bottom-bar {
+    height: 30px;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    background: rgba(0,0,0,.5);
+    z-index: 0;
+    border-top: 1px solid rgba(255,255,255,.15);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(0, 0, 0, 0.4)), color-stop(50%,rgba(0, 0, 0, 0.5)), color-stop(100%,rgba(0,0,0,.80)));
+}
+
+.div_build_bar_tab_cont {
+    /*height: 90px;
+    min-width: 500px;
+    text-align: center;
+    display:inline-block;*/
+    position: relative;
+    z-index: 1;
+    margin-bottom: -13px;
+}
+
+    .div_build_bar_tab_cont .tab_grp {
+        width: 100%;
+        display: inline-block;
+        /*padding: 0 47px;*/
+        display: flex;
+        flex-grow: 0;
+        justify-content: space-around;
+        margin: -3px 0px 0px 0px;
+    }
+
+.div_build_bar_tab_background {
+    height: 56px;
+    width: calc(100% + 80px);
+    margin-left: -40px;
+    border-image: url(coui://ui/main/shared/img/build_bar/img_build_bar_bground_30.png) 19 45 19 45 fill;
+    border-width: 19px 45px 19px 45px;
+    display: inline-block;
+}
+
+.div_build_bar_tab_background_inner {
+    height: 28px;
+    border-image: url(coui://ui/main/shared/img/build_bar/img_build_bar_tab_bground_28.png) 4 29 4 29 fill;
+    border-width: 4px 29px 4px 29px;
+    margin: -6px auto 0px;
+}
+
+.div_build_bar_tab_cont .tab_grp_body {
+    display: inline-block;
+    background: none;
+    padding: 0;
+    margin: 0;
+}
+
+.div_build_bar_tab_cont .span_hotkey {
+    display: inline-block;
+    position: relative;
+    float: left;
+    margin: 2px;
+    top: auto;
+    left: auto;
+}
+
+.span_build_bar_tab {
+    height: 26px;
+    width: 180px;
+    background: none;
+    font-size: 14px;
+    color: #00b3ff;
+    text-shadow: 0px 0px 30px #00b3ff;
+    font-family: 'Sansation Bold';
+    text-transform: uppercase;
+    font-weight: normal;
+    text-align: center;
+    background: #1D1D1D;
+    border: none;
+    display: block;
+    position: relative;
+    padding-top: 7px;
+}
+
+.btn_slot {
+    display: inline-block;
+    font-size: 14px;
+    cursor: default;
+    -webkit-user-select: none;
+    user-select: none;
+    text-align: center;
+    border: 1px solid #1E7AA1;
+}
+
+    .btn_slot:hover {
+        border-width: 10px 21px 21px 21px;
+        border-image: url(coui://ui/main/shared/img/buttons/btn_lrg_std_hover.png) 10 21 21 21 fill;
+        display: inline-block;
+        -webkit-transition: .3s;
+        border: 1px solid rgba(0,179,255,1);
+        background-color: rgba(0,179,255,0.6);
+    }
+
+    .btn_slot:active {
+        border-width: 10px 21px 21px 21px;
+        border-image: url(coui://ui/main/shared/img/buttons/btn_lrg_std_active.png) 10 21 21 21 fill;
+        display: inline-block;
+        border: 3px solid rgba(0,230,255,1);
+        background-color: rgba(0,179,255,1);
+    }
+
+#intro .ui-dialog-titlebar-close {
+    position: absolute;
+    right: -10px;
+    padding: 1px;
+    height: 24px;
+    width: 24px;
+    background: url('coui://ui/main/shared/img/window_controls/btn_close_10.png') center center no-repeat;
+    border: 1px solid #666;
+}
+
+    #intro .ui-dialog-titlebar-close:hover {
+        background-color: #666;
+    }
+
+    #intro .ui-dialog-titlebar-close:active {
+        background-color: #333;
+    }
+
+#intro .panel_std {
+    display: flex;
+    align-items: center;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+}
+
+/*----- SETTINGS PANEL
+-----------------------------------------------------------------*/
+#settings {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 10000;
+}
+
+.div_drive_access {
+    color: #88DBFF;
+    background: rgba(0,0,0,.5);
+    font-family: "Sansation Bold";
+    padding: 2px 16px 2px 6px;
+    position: absolute;
+    right: 4px;
+    bottom: 36px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    -webkit-animation: connecting .5s ease-in-out;
+}
+
+    .div_drive_access > .text {
+        min-width: 80px;
+        margin: 4px 0 0 0;
+        text-align: left;
+    }
+
+@-webkit-keyframes connecting {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+
+.figure_wrapper {
+    display: flex;
+     align-items: center
+}
+
+.figure_wrapper > .visual {   
+
+}
+
+.figure_wrapper > .text,
+.text_wrapper > .text {
+    width: 150px;
+    display: block;
+    line-height: 1.2em;
+}
+
+.text_wrapper {
+    display: flex;
+}
+
+.text_wrapper > .visual {
+    width: 60px;
+    text-align: right;
+    display: block;
+    padding: 0 6px 0 0;
+}
+
+.control {
+    font-weight: bold;
+    color: #00b3ff;
+}

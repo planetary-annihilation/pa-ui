@@ -1,0 +1,77 @@
+{
+    "Appear Offline": {
+        "message": "Appear Offline"
+    }, 
+    "Away": {
+        "message": "Away"
+    }, 
+    "Block": {
+        "message": "Block"
+    }, 
+    "Chat": {
+        "message": "Conversa\u0163ie"
+    }, 
+    "Do Not Disturb": {
+        "message": "Do Not Disturb"
+    }, 
+    "Friends": {
+        "message": "Prieteni"
+    }, 
+    "Ignore": {
+        "message": "Ignore"
+    }, 
+    "Invite to game": {
+        "message": "Invite to game"
+    }, 
+    "Join Game": {
+        "message": "Al\u0103tur\u0103-te Jocului"
+    }, 
+    "No pending notifications.": {
+        "message": "No pending notifications."
+    }, 
+    "Offline": {
+        "message": "Offline"
+    }, 
+    "Online": {
+        "message": "Online"
+    }, 
+    "Recent": {
+        "message": "Recent"
+    }, 
+    "Remove": {
+        "message": "Elimin\u0103"
+    }, 
+    "Unblock": {
+        "message": "Unblock"
+    }, 
+    "Unfriend": {
+        "message": "Unfriend"
+    }, 
+    "Users": {
+        "message": "Users"
+    }, 
+    "[B]": {
+        "message": "[B]"
+    }, 
+    "[CHAT]": {
+        "message": "[CHAT]"
+    }, 
+    "[F]": {
+        "message": "[F]"
+    }, 
+    "[I]": {
+        "message": "[I]"
+    }, 
+    "[REMOVE]": {
+        "message": "[REMOVE]"
+    }, 
+    "[Tags:": {
+        "message": "[Tags:"
+    }, 
+    "invited you to a game.": {
+        "message": "invited you to a game."
+    }, 
+    "wants to be your friend.": {
+        "message": "wants to be your friend."
+    }
+}

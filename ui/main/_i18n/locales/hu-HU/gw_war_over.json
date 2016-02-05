@@ -1,0 +1,26 @@
+{
+    "Annihilated": {
+        "message": "Megsemmis\u00edtve"
+    }, 
+    "Close": {
+        "message": "Bez\u00e1r\u00e1s"
+    }, 
+    "Delete Archive": {
+        "message": "Arch\u00edvum t\u00f6rl\u00e9se"
+    }, 
+    "Discards": {
+        "message": "Eldob\u00e1sok"
+    }, 
+    "Final Tech": {
+        "message": "Legutols\u00f3 Technol\u00f3gia"
+    }, 
+    "Turns:": {
+        "message": "K\u00f6r\u00f6k:"
+    }, 
+    "Victory": {
+        "message": "Gy\u0151zelem"
+    }, 
+    "Wins:": {
+        "message": "Gy\u0151zelmek:"
+    }
+}

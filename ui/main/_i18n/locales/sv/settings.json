@@ -1,0 +1,92 @@
+{
+    "Ambient Occlusion": {
+        "message": "AMBIENT OCCLUSION"
+    }, 
+    "Anti-Aliasing": {
+        "message": "KANTUJ\u00c4MNING"
+    }, 
+    "Audio": {
+        "message": "LJUD"
+    }, 
+    "Camera": {
+        "message": "KAMERA"
+    }, 
+    "Camera Friction": {
+        "message": "KAMERAFRIKTION"
+    }, 
+    "Cancel": {
+        "message": "AVBRYT"
+    }, 
+    "Display Mode": {
+        "message": "BILDL\u00c4GE"
+    }, 
+    "Graphics": {
+        "message": "GRAFIK"
+    }, 
+    "HDR": {
+        "message": "HDR"
+    }, 
+    "Headlights": {
+        "message": "LYKTOR"
+    }, 
+    "Key Pan Speed": {
+        "message": "NYCKEL PAN HASTIGHET"
+    }, 
+    "Keyboard": {
+        "message": "TANGENTBORD"
+    }, 
+    "Master Volume": {
+        "message": "HUVUDVOLYM"
+    }, 
+    "Mouse Pan Speed": {
+        "message": "Hastighet f\u00f6r muspanorering"
+    }, 
+    "Orbital Shell": {
+        "message": "OMLOPPS SKAL"
+    }, 
+    "Quality Preset": {
+        "message": "KVALITETSINST\u00c4LLNINGAR"
+    }, 
+    "RESTORE DEFAULTS": {
+        "message": "\u00c5TERST\u00c4LL STANDARV\u00c4RDEN"
+    }, 
+    "Resolution Scaling": {
+        "message": "UPPL\u00d6SNINGSSKALNING"
+    }, 
+    "SIGN IN": {
+        "message": "LOGGA IN"
+    }, 
+    "SIGN OUT": {
+        "message": "LOGGA UT"
+    }, 
+    "Save And Close": {
+        "message": "SPARA OCH ST\u00c4NG"
+    }, 
+    "Settings": {
+        "message": "INST\u00c4LLNINGAR"
+    }, 
+    "Shadows": {
+        "message": "SKUGGOR"
+    }, 
+    "Show Build Previews": {
+        "message": "VISA F\u00d6RHANDSVISNINGSBUILD"
+    }, 
+    "Show Metal Spot Icons": {
+        "message": "VISA METALLIKONER"
+    }, 
+    "Show Stat Bars": {
+        "message": "VISA STATUSRADER"
+    }, 
+    "Show Unit Icons": {
+        "message": "VISA ENHETSIKONER"
+    }, 
+    "UI": {
+        "message": "UI"
+    }, 
+    "Virtual Texture": {
+        "message": "VIRTUELL TEXTUR"
+    }, 
+    "Zoom Speed": {
+        "message": "ZOOMHASTIGHET"
+    }
+}

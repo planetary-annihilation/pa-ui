@@ -1,0 +1,122 @@
+{
+    "- Host": {
+        "message": "- H\u00e1zigazda"
+    }, 
+    "AI Commander": {
+        "message": "AI Parancsnok"
+    }, 
+    "Add AI": {
+        "message": "AI hozz\u00e1ad\u00e1sa"
+    }, 
+    "Add AI Commander": {
+        "message": "AI Parancsnok hozz\u00e1ad\u00e1sa"
+    }, 
+    "Add Slot": {
+        "message": "Hely Hozz\u00e1ad\u00e1sa"
+    }, 
+    "Alliance Victory": {
+        "message": "Sz\u00f6vets\u00e9gi Gy\u0151zelem"
+    }, 
+    "Browse...": {
+        "message": "Keres\u00e9s..."
+    }, 
+    "CONNECTION TO SERVER LOST": {
+        "message": "MEGSZAKADT A KAPCSOLAT A SZERVERREL"
+    }, 
+    "Chat": {
+        "message": "CSEVEG\u00c9S"
+    }, 
+    "Cheats": {
+        "message": "Csal\u00e1sok"
+    }, 
+    "Dynamic Alliances": {
+        "message": "Dinamikus Sz\u00f6vets\u00e9gek"
+    }, 
+    "Empty": {
+        "message": "\u00dcres"
+    }, 
+    "Free For All": {
+        "message": "Mindenki mindenki ellen"
+    }, 
+    "Friends": {
+        "message": "Bar\u00e1tok"
+    }, 
+    "Game Lobby": {
+        "message": "J\u00e1t\u00e9k V\u00e1r\u00f3terem"
+    }, 
+    "Game Mode": {
+        "message": "J\u00e1t\u00e9km\u00f3d"
+    }, 
+    "Global Spectator Chat": {
+        "message": "Glob\u00e1lis N\u00e9z\u0151 Chat"
+    }, 
+    "Join": {
+        "message": "Csatlakoz\u00e1s"
+    }, 
+    "Kick": {
+        "message": "Kir\u00fag\u00e1s"
+    }, 
+    "Leave": {
+        "message": "T\u00e1voz\u00e1s"
+    }, 
+    "New System": {
+        "message": "\u00daj Naprendszer"
+    }, 
+    "Open to:": {
+        "message": "Hozz\u00e1f\u00e9rhet\u0151s\u00e9g:"
+    }, 
+    "Player Slot": {
+        "message": "J\u00e1t\u00e9kos Hely"
+    }, 
+    "Player chooses spot on starting planet": {
+        "message": "A j\u00e1t\u00e9kos a kezd\u0151bolyg\u00f3n v\u00e1laszt kezd\u0151helyet."
+    }, 
+    "Players)": {
+        "message": "J\u00e1t\u00e9kosok)"
+    }, 
+    "Private": {
+        "message": "Priv\u00e1t"
+    }, 
+    "Public": {
+        "message": "Nyilv\u00e1nos"
+    }, 
+    "Ready": {
+        "message": "K\u00e9sz"
+    }, 
+    "Remove": {
+        "message": "Elt\u00e1vol\u00edt\u00e1s"
+    }, 
+    "Returning to Main Menu": {
+        "message": "Visszat\u00e9r\u00e9s a f\u0151men\u00fcbe"
+    }, 
+    "SHARE ARMY": {
+        "message": "HADER\u0150 MEGOSZT\u00c1SA"
+    }, 
+    "Server Mods": {
+        "message": "Szerver Modok"
+    }, 
+    "Spectate": {
+        "message": "N\u00e9z\u0151"
+    }, 
+    "Spectators": {
+        "message": "N\u00e9z\u0151k"
+    }, 
+    "Start Game": {
+        "message": "J\u00e1t\u00e9k Ind\u00edt\u00e1sa"
+    }, 
+    "System": {
+        "message": "Naprendszer"
+    }, 
+    "Tag:": {
+        "message": "C\u00edmke:"
+    }, 
+    "Team Armies": {
+        "message": "T\u00f6bb j\u00e1t\u00e9kos seregenk\u00e9nt"
+    }, 
+    "Title": {
+        "message": "C\u00edm"
+    }, 
+    "You must have friends to play a friends-only game.": {
+        "message": "Sz\u00fcks\u00e9ged lesz bar\u00e1tokra egy csak bar\u00e1toknak sz\u00f3l\u00f3 j\u00e1t\u00e9khoz."
+    }
+}

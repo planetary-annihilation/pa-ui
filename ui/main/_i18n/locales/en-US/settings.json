@@ -1,0 +1,818 @@
+{
+    "ALL": {
+        "message": "ALL"
+    }, 
+    "ALWAYS": {
+        "message": "ALWAYS"
+    }, 
+    "AUTO": {
+        "message": "AUTO"
+    }, 
+    "Active Product": {
+        "message": "Active Product"
+    }, 
+    "Ambient Occlusion": {
+        "message": "Ambient Occlusion"
+    }, 
+    "Anti-Aliasing": {
+        "message": "Anti-Aliasing"
+    }, 
+    "Audio": {
+        "message": "Audio"
+    }, 
+    "Back": {
+        "message": "Back"
+    }, 
+    "Build Preview Behavior": {
+        "message": "Build Preview Behavior"
+    }, 
+    "CUSTOM": {
+        "message": "CUSTOM"
+    }, 
+    "Camera": {
+        "message": "Camera"
+    }, 
+    "Camera Friction": {
+        "message": "Camera Friction"
+    }, 
+    "Cancel": {
+        "message": "Cancel"
+    }, 
+    "Classic": {
+        "message": "Classic"
+    }, 
+    "Close": {
+        "message": "Close"
+    }, 
+    "Conflict:": {
+        "message": "Conflict:"
+    }, 
+    "Display Mode": {
+        "message": "Display Mode"
+    }, 
+    "Edge Scroll Options": {
+        "message": "Edge Scroll Options"
+    }, 
+    "FOV": {
+        "message": "FOV"
+    }, 
+    "FULLSCREEN": {
+        "message": "FULLSCREEN"
+    }, 
+    "FXAA": {
+        "message": "FXAA"
+    }, 
+    "Forward": {
+        "message": "Forward"
+    }, 
+    "GAMEPLAY": {
+        "message": "GAMEPLAY"
+    }, 
+    "GUI Size": {
+        "message": "GUI Size"
+    }, 
+    "Graphics": {
+        "message": "Graphics"
+    }, 
+    "HDR": {
+        "message": "HDR"
+    }, 
+    "HIGH": {
+        "message": "HIGH"
+    }, 
+    "Headlights": {
+        "message": "Headlights"
+    }, 
+    "ICON DISPLAY DISTANCE": {
+        "message": "ICON DISPLAY DISTANCE"
+    }, 
+    "Key Pan Speed": {
+        "message": "Key Pan Speed"
+    }, 
+    "Keyboard": {
+        "message": "Keyboard"
+    }, 
+    "LOW": {
+        "message": "LOW"
+    }, 
+    "Language": {
+        "message": "Language"
+    }, 
+    "Local Server": {
+        "message": "Local Server"
+    }, 
+    "Local server is not available on your configuration.  (64-bit OS required)": {
+        "message": "Local server is not available on your configuration.  (64-bit OS required)"
+    }, 
+    "Local server is not recommended on your configuration.  (4 CPU cores and 8GB of memory recommended.)": {
+        "message": "Local server is not recommended on your configuration.  (4 CPU cores and 8GB of memory recommended.)"
+    }, 
+    "MEDIUM": {
+        "message": "MEDIUM"
+    }, 
+    "Master Volume": {
+        "message": "Master Volume"
+    }, 
+    "Mouse Pan Speed": {
+        "message": "Mouse Pan Speed"
+    }, 
+    "Music Volume": {
+        "message": "Music Volume"
+    }, 
+    "NATIVE (100%)": {
+        "message": "NATIVE (100%)"
+    }, 
+    "NEVER": {
+        "message": "NEVER"
+    }, 
+    "OFF": {
+        "message": "OFF"
+    }, 
+    "OFF (MOUSELOCK)": {
+        "message": "OFF (MOUSELOCK)"
+    }, 
+    "OFF (NO MOUSELOCK)": {
+        "message": "OFF (NO MOUSELOCK)"
+    }, 
+    "ON": {
+        "message": "ON"
+    }, 
+    "Orbital Shell": {
+        "message": "Orbital Shell"
+    }, 
+    "Order Preview Behavior": {
+        "message": "Order Preview Behavior"
+    }, 
+    "Pole Lock": {
+        "message": "Pole Lock"
+    }, 
+    "Quality Preset": {
+        "message": "Quality Preset"
+    }, 
+    "RANGE DEPENDENT": {
+        "message": "RANGE DEPENDENT"
+    }, 
+    "Resolution Scaling": {
+        "message": "Resolution Scaling"
+    }, 
+    "Restore All Defaults": {
+        "message": "Restore All Defaults"
+    }, 
+    "Restore Tab Defaults": {
+        "message": "Restore Tab Defaults"
+    }, 
+    "SELECTED": {
+        "message": "SELECTED"
+    }, 
+    "SERVER": {
+        "message": "SERVER"
+    }, 
+    "SHIFT": {
+        "message": "SHIFT"
+    }, 
+    "SUBSAMPLE (50%)": {
+        "message": "SUBSAMPLE (50%)"
+    }, 
+    "SUBSAMPLE (75%)": {
+        "message": "SUBSAMPLE (75%)"
+    }, 
+    "SUPERSAMPLE (110%)": {
+        "message": "SUPERSAMPLE (110%)"
+    }, 
+    "SUPERSAMPLE (150%)": {
+        "message": "SUPERSAMPLE (150%)"
+    }, 
+    "SUPERSAMPLE (175%)": {
+        "message": "SUPERSAMPLE (175%)"
+    }, 
+    "Save": {
+        "message": "Save"
+    }, 
+    "Server": {
+        "message": "Server"
+    }, 
+    "Settings": {
+        "message": "Settings"
+    }, 
+    "Shadows": {
+        "message": "Shadows"
+    }, 
+    "Show Build Previews": {
+        "message": "Show Build Previews"
+    }, 
+    "Show Metal Spot Icons": {
+        "message": "Show Metal Spot Icons"
+    }, 
+    "Show Order Previews": {
+        "message": "Show Order Previews"
+    }, 
+    "Show Stat Bars": {
+        "message": "Show Stat Bars"
+    }, 
+    "Show Unit Icons": {
+        "message": "Show Unit Icons"
+    }, 
+    "Show/Hide game stats": {
+        "message": "Show/Hide game stats"
+    }, 
+    "Show/Hide pip": {
+        "message": "Show/Hide pip"
+    }, 
+    "Sound Effects Volume": {
+        "message": "Sound Effects Volume"
+    }, 
+    "UBER": {
+        "message": "UBER"
+    }, 
+    "User Interface": {
+        "message": "User Interface"
+    }, 
+    "VALUE DEPENDENT": {
+        "message": "VALUE DEPENDENT"
+    }, 
+    "Virtual Texture": {
+        "message": "Virtual Texture"
+    }, 
+    "Voice Volume": {
+        "message": "Voice Volume"
+    }, 
+    "WINDOWED": {
+        "message": "WINDOWED"
+    }, 
+    "Zoom Speed": {
+        "message": "Zoom Speed"
+    }, 
+    "abort": {
+        "message": "abort"
+    }, 
+    "add landing zone": {
+        "message": "add landing zone"
+    }, 
+    "add metal spot": {
+        "message": "add metal spot"
+    }, 
+    "add/remove": {
+        "message": "add/remove"
+    }, 
+    "alerts": {
+        "message": "alerts"
+    }, 
+    "align to pole": {
+        "message": "align to pole"
+    }, 
+    "all chat": {
+        "message": "all chat"
+    }, 
+    "alt fire": {
+        "message": "alt fire"
+    }, 
+    "assist": {
+        "message": "assist"
+    }, 
+    "attack": {
+        "message": "attack"
+    }, 
+    "bug report": {
+        "message": "bug report"
+    }, 
+    "build": {
+        "message": "build"
+    }, 
+    "build avatar": {
+        "message": "build avatar"
+    }, 
+    "build avatar factory": {
+        "message": "build avatar factory"
+    }, 
+    "build bar groups": {
+        "message": "build bar groups"
+    }, 
+    "build item __item_number__": {
+        "message": "build item __item_number__"
+    }, 
+    "build items": {
+        "message": "build items"
+    }, 
+    "build loop": {
+        "message": "build loop"
+    }, 
+    "build once": {
+        "message": "build once"
+    }, 
+    "build orders": {
+        "message": "build orders"
+    }, 
+    "camera": {
+        "message": "camera"
+    }, 
+    "capture anchor": {
+        "message": "capture anchor"
+    }, 
+    "capture anchor __anchor_number__": {
+        "message": "capture anchor __anchor_number__"
+    }, 
+    "capture group __group_number__": {
+        "message": "capture group __group_number__"
+    }, 
+    "chronocam": {
+        "message": "chronocam"
+    }, 
+    "communication": {
+        "message": "communication"
+    }, 
+    "copy selected": {
+        "message": "copy selected"
+    }, 
+    "copy to pip": {
+        "message": "copy to pip"
+    }, 
+    "copy unit": {
+        "message": "copy unit"
+    }, 
+    "crash": {
+        "message": "crash"
+    }, 
+    "decrease camera pan speed": {
+        "message": "decrease camera pan speed"
+    }, 
+    "delete selected": {
+        "message": "delete selected"
+    }, 
+    "dev mode": {
+        "message": "dev mode"
+    }, 
+    "direction": {
+        "message": "direction"
+    }, 
+    "disable navigation debug info": {
+        "message": "disable navigation debug info"
+    }, 
+    "disconnect twin": {
+        "message": "disconnect twin"
+    }, 
+    "dismiss alert notification": {
+        "message": "dismiss alert notification"
+    }, 
+    "enable navigation debug info": {
+        "message": "enable navigation debug info"
+    }, 
+    "energy off": {
+        "message": "energy off"
+    }, 
+    "energy on": {
+        "message": "energy on"
+    }, 
+    "fire at will": {
+        "message": "fire at will"
+    }, 
+    "free move backward": {
+        "message": "free move backward"
+    }, 
+    "free move down": {
+        "message": "free move down"
+    }, 
+    "free move forward": {
+        "message": "free move forward"
+    }, 
+    "free move left": {
+        "message": "free move left"
+    }, 
+    "free move right": {
+        "message": "free move right"
+    }, 
+    "free move up": {
+        "message": "free move up"
+    }, 
+    "free movement": {
+        "message": "free movement"
+    }, 
+    "free pitch backward": {
+        "message": "free pitch backward"
+    }, 
+    "free pitch forward": {
+        "message": "free pitch forward"
+    }, 
+    "free roll left": {
+        "message": "free roll left"
+    }, 
+    "free roll right": {
+        "message": "free roll right"
+    }, 
+    "free yaw left": {
+        "message": "free yaw left"
+    }, 
+    "free yaw right": {
+        "message": "free yaw right"
+    }, 
+    "free zoom in": {
+        "message": "free zoom in"
+    }, 
+    "free zoom out": {
+        "message": "free zoom out"
+    }, 
+    "general": {
+        "message": "general"
+    }, 
+    "grab csg": {
+        "message": "grab csg"
+    }, 
+    "hold fire": {
+        "message": "hold fire"
+    }, 
+    "hold position": {
+        "message": "hold position"
+    }, 
+    "increase camera pan speed": {
+        "message": "increase camera pan speed"
+    }, 
+    "jump to next planet": {
+        "message": "jump to next planet"
+    }, 
+    "jump to previous planet": {
+        "message": "jump to previous planet"
+    }, 
+    "last pseudo frame": {
+        "message": "last pseudo frame"
+    }, 
+    "load": {
+        "message": "load"
+    }, 
+    "maneuver": {
+        "message": "maneuver"
+    }, 
+    "manipulate": {
+        "message": "manipulate"
+    }, 
+    "mode": {
+        "message": "mode"
+    }, 
+    "modes": {
+        "message": "modes"
+    }, 
+    "move": {
+        "message": "move"
+    }, 
+    "move csg down": {
+        "message": "move csg down"
+    }, 
+    "move csg up": {
+        "message": "move csg up"
+    }, 
+    "move down": {
+        "message": "move down"
+    }, 
+    "move left": {
+        "message": "move left"
+    }, 
+    "move right": {
+        "message": "move right"
+    }, 
+    "move up": {
+        "message": "move up"
+    }, 
+    "navigate back/exit": {
+        "message": "navigate back/exit"
+    }, 
+    "next pseudo frame": {
+        "message": "next pseudo frame"
+    }, 
+    "paste": {
+        "message": "paste"
+    }, 
+    "paste unit": {
+        "message": "paste unit"
+    }, 
+    "patrol": {
+        "message": "patrol"
+    }, 
+    "pause game": {
+        "message": "pause game"
+    }, 
+    "pause time": {
+        "message": "pause time"
+    }, 
+    "picture-in-picture": {
+        "message": "picture-in-picture"
+    }, 
+    "ping": {
+        "message": "ping"
+    }, 
+    "planet jump": {
+        "message": "planet jump"
+    }, 
+    "play backwards at 10%": {
+        "message": "play backwards at 10%"
+    }, 
+    "play backwards at 100%": {
+        "message": "play backwards at 100%"
+    }, 
+    "play backwards at 50%": {
+        "message": "play backwards at 50%"
+    }, 
+    "play forward at 100%": {
+        "message": "play forward at 100%"
+    }, 
+    "play forward at 50%": {
+        "message": "play forward at 50%"
+    }, 
+    "play forwards at 10%": {
+        "message": "play forwards at 10%"
+    }, 
+    "publish server mods": {
+        "message": "publish server mods"
+    }, 
+    "quick profile": {
+        "message": "quick profile"
+    }, 
+    "recall anchor": {
+        "message": "recall anchor"
+    }, 
+    "recall anchor __anchor_number__": {
+        "message": "recall anchor __anchor_number__"
+    }, 
+    "recall group __group_number__": {
+        "message": "recall group __group_number__"
+    }, 
+    "reclaim": {
+        "message": "reclaim"
+    }, 
+    "reload view": {
+        "message": "reload view"
+    }, 
+    "remove landing zone": {
+        "message": "remove landing zone"
+    }, 
+    "remove metal spot": {
+        "message": "remove metal spot"
+    }, 
+    "repair": {
+        "message": "repair"
+    }, 
+    "resume at latest time": {
+        "message": "resume at latest time"
+    }, 
+    "return fire": {
+        "message": "return fire"
+    }, 
+    "roam": {
+        "message": "roam"
+    }, 
+    "rotate csg ccw": {
+        "message": "rotate csg ccw"
+    }, 
+    "rotate csg cw": {
+        "message": "rotate csg cw"
+    }, 
+    "scale csg down": {
+        "message": "scale csg down"
+    }, 
+    "scale csg horizontally down": {
+        "message": "scale csg horizontally down"
+    }, 
+    "scale csg horizontally up": {
+        "message": "scale csg horizontally up"
+    }, 
+    "scale csg up": {
+        "message": "scale csg up"
+    }, 
+    "scale csg vertically down": {
+        "message": "scale csg vertically down"
+    }, 
+    "scale csg vertically up": {
+        "message": "scale csg vertically up"
+    }, 
+    "select air group": {
+        "message": "select air group"
+    }, 
+    "select all air combat units": {
+        "message": "select all air combat units"
+    }, 
+    "select all air combat units on screen": {
+        "message": "select all air combat units on screen"
+    }, 
+    "select all combat units": {
+        "message": "select all combat units"
+    }, 
+    "select all combat units on screen": {
+        "message": "select all combat units on screen"
+    }, 
+    "select all factories": {
+        "message": "select all factories"
+    }, 
+    "select all factories on screen": {
+        "message": "select all factories on screen"
+    }, 
+    "select all idle factories": {
+        "message": "select all idle factories"
+    }, 
+    "select all idle factories on screen": {
+        "message": "select all idle factories on screen"
+    }, 
+    "select all land combat units": {
+        "message": "select all land combat units"
+    }, 
+    "select all land combat units on screen": {
+        "message": "select all land combat units on screen"
+    }, 
+    "select all matching units on screen": {
+        "message": "select all matching units on screen"
+    }, 
+    "select all naval combat units": {
+        "message": "select all naval combat units"
+    }, 
+    "select all naval combat units on screen": {
+        "message": "select all naval combat units on screen"
+    }, 
+    "select bot group": {
+        "message": "select bot group"
+    }, 
+    "select combat group": {
+        "message": "select combat group"
+    }, 
+    "select commander": {
+        "message": "select commander"
+    }, 
+    "select factory group": {
+        "message": "select factory group"
+    }, 
+    "select idle fabbers": {
+        "message": "select idle fabbers"
+    }, 
+    "select orbital group (buildings)": {
+        "message": "select orbital group (buildings)"
+    }, 
+    "select orbital group (units)": {
+        "message": "select orbital group (units)"
+    }, 
+    "select sea group": {
+        "message": "select sea group"
+    }, 
+    "select utility group": {
+        "message": "select utility group"
+    }, 
+    "select vehicle group": {
+        "message": "select vehicle group"
+    }, 
+    "self destruct selected unit": {
+        "message": "self destruct selected unit"
+    }, 
+    "set army from hover": {
+        "message": "set army from hover"
+    }, 
+    "set debug camera": {
+        "message": "set debug camera"
+    }, 
+    "set default camera": {
+        "message": "set default camera"
+    }, 
+    "set free camera": {
+        "message": "set free camera"
+    }, 
+    "set pathable csg": {
+        "message": "set pathable csg"
+    }, 
+    "set planet camera": {
+        "message": "set planet camera"
+    }, 
+    "show player guide": {
+        "message": "show player guide"
+    }, 
+    "show/hide UI": {
+        "message": "show/hide UI"
+    }, 
+    "show/hide performance panel": {
+        "message": "show/hide performance panel"
+    }, 
+    "show/hide visual aid overlays": {
+        "message": "show/hide visual aid overlays"
+    }, 
+    "skip backward 1s": {
+        "message": "skip backward 1s"
+    }, 
+    "skip forward 1s": {
+        "message": "skip forward 1s"
+    }, 
+    "smooth zoom in": {
+        "message": "smooth zoom in"
+    }, 
+    "smooth zoom out": {
+        "message": "smooth zoom out"
+    }, 
+    "special move": {
+        "message": "special move"
+    }, 
+    "stop": {
+        "message": "stop"
+    }, 
+    "swap pip": {
+        "message": "swap pip"
+    }, 
+    "team chat": {
+        "message": "team chat"
+    }, 
+    "terrain editor": {
+        "message": "terrain editor"
+    }, 
+    "toggle FOW": {
+        "message": "toggle FOW"
+    }, 
+    "toggle audio logging": {
+        "message": "toggle audio logging"
+    }, 
+    "toggle build orders": {
+        "message": "toggle build orders"
+    }, 
+    "toggle console": {
+        "message": "toggle console"
+    }, 
+    "toggle debug camera": {
+        "message": "toggle debug camera"
+    }, 
+    "toggle edit metal spots": {
+        "message": "toggle edit metal spots"
+    }, 
+    "toggle edit terrain mode": {
+        "message": "toggle edit terrain mode"
+    }, 
+    "toggle energy orders": {
+        "message": "toggle energy orders"
+    }, 
+    "toggle fire orders": {
+        "message": "toggle fire orders"
+    }, 
+    "toggle free camera": {
+        "message": "toggle free camera"
+    }, 
+    "toggle fullscreen": {
+        "message": "toggle fullscreen"
+    }, 
+    "toggle move orders": {
+        "message": "toggle move orders"
+    }, 
+    "toggle music": {
+        "message": "toggle music"
+    }, 
+    "toggle nav debug": {
+        "message": "toggle nav debug"
+    }, 
+    "toggle pip mirror": {
+        "message": "toggle pip mirror"
+    }, 
+    "toggle show water": {
+        "message": "toggle show water"
+    }, 
+    "track selection with camera": {
+        "message": "track selection with camera"
+    }, 
+    "tracking & alignment": {
+        "message": "tracking & alignment"
+    }, 
+    "tuning": {
+        "message": "tuning"
+    }, 
+    "unit capture groups": {
+        "message": "unit capture groups"
+    }, 
+    "unit commands": {
+        "message": "unit commands"
+    }, 
+    "unit orders": {
+        "message": "unit orders"
+    }, 
+    "unit recall groups": {
+        "message": "unit recall groups"
+    }, 
+    "unit selection": {
+        "message": "unit selection"
+    }, 
+    "units": {
+        "message": "units"
+    }, 
+    "unload": {
+        "message": "unload"
+    }, 
+    "zoom": {
+        "message": "zoom"
+    }, 
+    "zoom in": {
+        "message": "zoom in"
+    }, 
+    "zoom out": {
+        "message": "zoom out"
+    }, 
+    "zoom to air": {
+        "message": "zoom to air"
+    }, 
+    "zoom to celestial": {
+        "message": "zoom to celestial"
+    }, 
+    "zoom to combat": {
+        "message": "zoom to combat"
+    }, 
+    "zoom to orbital": {
+        "message": "zoom to orbital"
+    }, 
+    "zoom to surface": {
+        "message": "zoom to surface"
+    }
+}

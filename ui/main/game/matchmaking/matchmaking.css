@@ -1,0 +1,213 @@
+﻿/*----- MATCH MAKING
+-----------------------------------------------------------------*/
+
+html, body {
+    height: 100%;
+    width: 100%;
+    position: relative;
+    min-width: 1280px;
+    min-height: 720px;
+    overflow: hidden;
+}
+
+.flex-container {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 1000;
+    position: absolute;
+    top: 0;
+}
+
+.div_panel_bar_background {
+    width: 100%;
+    position: relative;
+    font-family:"Sansation Bold";
+    box-shadow: 0px 0px 100px #000;
+    text-align: center;
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(0,0,0,.5)), color-stop(100%,rgba(0,0,0,.5)));
+}
+
+.div_bottom_margin_bar {
+    min-height: 20px;
+    height: 100%;
+    width: 100%;
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(0,0,0,.3)), color-stop(100%,rgba(0,0,0,.3)));
+}
+
+    .div_bottom_margin_bar input[type="button"] {
+        margin: 10px;
+        font-size: 18px;
+        padding: 12px 36px;
+        box-shadow: 0px 0px 20px #000;
+        text-transform: uppercase;
+    }
+
+.div-queue-dialog {
+    width: 100%;
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(0,0,0,.6)), color-stop(100%,rgba(0,0,0,.6)));
+    display: block;
+    align-content: center;
+    justify-content: center;
+    padding: 10px 0px;
+    min-height: 40px;
+    font-size: 16px;
+    font-family:"Sansation Bold";
+}
+
+.div-queue-title {
+    height: 56px;
+    width: 100%;
+    background: url(coui://ui/main/game/game_over/img/bground_summary.png) center center no-repeat, -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(0,0,0,.7)), color-stop(100%,rgba(0,0,0,.7)));
+    font-family: 'Sansation Bold';
+    font-size: 3em;
+    color: #fff;
+    border: 1px solid rgba(255,255,255,.15);
+    border-width: 1px 0px;
+    text-shadow: 0px 0px 25px rgba(0, 0, 0, 1);
+    box-shadow: 0px 0px 50px #000;
+    padding: 8px 0 0 0;
+    text-transform: uppercase;
+    line-height: 1;
+}
+    .div-queue-title.error {
+        background: url(coui://ui/main/game/game_over/img/bground_defeat.png) center center no-repeat, -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(0,0,0,.7)), color-stop(100%,rgba(0,0,0,.7)));
+    }
+
+    .div-queue-title.challenge {
+        background: url(coui://ui/main/shared/img/title_bars/bground_challenge.png) center center no-repeat, -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(0,0,0,.7)), color-stop(100%,rgba(0,0,0,.7)));
+    }
+
+.div-queue-info {
+    padding: 8px;
+    text-shadow: 0px 0px 3px rgba(0, 0, 0, 1);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    line-height: 1;
+    font-size: 16px;
+    font-family: 'sansation bold';
+}
+
+.div-queue-info .category {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0px 20px;
+    border-right: 1px solid #333;
+    text-align: center;
+}
+
+.div-queue-info .category:last-child {
+    border-right: 0;
+}
+
+    .div-queue-info.time-out {
+        padding-bottom: 0px;
+    }
+
+    .div-queue-info.player-status {
+        padding: 0px;
+    }
+
+.div-queue-info-element {
+    display: flex;
+    text-transform: capitalize;
+    color: #999;
+    font-size:14px;
+}
+
+.div-queue-info-data {
+    font-family: 'Trebuchet MS';
+    font-size: 18px;
+    margin: 6px 0px 0px 0px;
+    text-shadow: 0px 0px 10px #00b3ff;
+}
+
+.div-queue-challenge {
+    font-family: 'Sansation Bold';
+    font-size: 24px;
+}
+
+.div-queue-queue-time-element {
+    font-family: "Sansation Bold";
+    font-size:16px;
+    color: #0FF;
+    text-transform: capitalize;
+    text-align: center;
+    text-shadow: 0px 0px 20px #0FF;
+}
+
+.div-queue-queue-time-data {
+    font-family: 'Trebuchet MS';
+    font-size: 24px;
+    margin: 4px 0px 8px 0px;
+    text-shadow: 0px 0px 10px #00b3ff;
+}
+
+.div-queue-status-player-status {
+    min-width: 120px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px 10px 10px;
+}
+
+.div-queue-status-player-status-element {
+    display: flex;
+    text-transform: capitalize;
+    color: #999;
+}
+
+.div-queue-status-player-status-data {
+    font-family: 'Trebuchet MS';
+    font-size: 18px;
+    margin: 6px 0px 0px 0px;
+    text-shadow: 0px 0px 10px #00b3ff;
+}
+
+.div-queue-status-player-status-img {
+    height: 96px;
+    width: 96px;
+    margin: 8px 0px 8px 0px;
+}
+
+.div-queue-status-player-status-img-ready {
+    background: url(coui://ui/main/game/matchmaking/img/commander_profile_green.png) no-repeat center center;
+}
+
+.div-queue-status-player-status-img-cancel {
+    background: url(coui://ui/main/game/matchmaking/img/commander_profile_red.png) no-repeat center center;
+}
+
+.div-queue-status-player-status-img-pending {
+    background: url(coui://ui/main/game/matchmaking/img/commander_profile_gray.png) no-repeat center center;
+    -webkit-animation: commander-pulse 1s infinite;
+}
+
+@-webkit-keyframes commander-pulse {
+    0% {opacity: 1;}
+    50% {opacity: .5;}
+    100% {opacity: 1;}
+}
+
+.div-versus {
+    font-size: 32px;
+    font-family: "Sansation Bold";
+    color: #fff;
+    text-shadow: 0px 0px 20px #00b3ff;
+}
+
+.div-queue-warning {
+    font-size: 20px;
+    font-family: "sansation bold";
+    background: rgb(0, 0, 0);
+    padding: 8px 0px;
+    color: rgb(0, 255, 255);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-width: 0px 0px 1px;
+    text-shadow: 0px 0px 20px #0ff;
+}

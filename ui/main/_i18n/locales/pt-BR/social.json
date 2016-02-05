@@ -1,0 +1,92 @@
+{
+    "APPROVE": {
+        "message": "APROVAR"
+    }, 
+    "APPROVED USERS": {
+        "message": "USU\u00c1RIOS APROVADOS"
+    }, 
+    "Add": {
+        "message": "Adicionar"
+    }, 
+    "Add a Friend": {
+        "message": "Adicionar Amigos"
+    }, 
+    "BLOCK": {
+        "message": "BLOQUEAR"
+    }, 
+    "BLOCKED USERS": {
+        "message": "USU\u00c1RIOS BLOQUEADOS"
+    }, 
+    "Cancel": {
+        "message": "Cancelar"
+    }, 
+    "Close": {
+        "message": "Fechar"
+    }, 
+    "Contact List Updated": {
+        "message": "Lista de Contatos Atualizada"
+    }, 
+    "Contact Not Found": {
+        "message": "Contato n\u00e3o encontrado"
+    }, 
+    "Dismiss": {
+        "message": "Dispensar"
+    }, 
+    "Filter contatcs by tag:": {
+        "message": "Filtrar contatos por marca\u00e7\u00e3o:"
+    }, 
+    "Games you make will be hidden to these players.": {
+        "message": "Jogos criados ficar\u00e3o ocultos para esses jogadores."
+    }, 
+    "Name:": {
+        "message": "Nome:"
+    }, 
+    "New Nickname:": {
+        "message": "Novo apelido:"
+    }, 
+    "Players you have encountered recently.": {
+        "message": "Jogadores com quem se encontrou recentemente."
+    }, 
+    "Private games you make will only be visible to these players.": {
+        "message": "Jogos privados s\u00f3 aparecer\u00e3o para esses jogadores."
+    }, 
+    "RECENT": {
+        "message": "RECENTE"
+    }, 
+    "REMOVE": {
+        "message": "REMOVER"
+    }, 
+    "RENAME": {
+        "message": "RENOMEAR"
+    }, 
+    "Refresh Contacts": {
+        "message": "Atualizar Contatos"
+    }, 
+    "Refreshing friends list.....": {
+        "message": "Atualizando lista de amigos..."
+    }, 
+    "SOCIAL": {
+        "message": "SOCIAL"
+    }, 
+    "Tag": {
+        "message": "Marcar"
+    }, 
+    "Tag Friend:": {
+        "message": "Marcar Amigo:"
+    }, 
+    "Tags:": {
+        "message": "Marca\u00e7\u00f5es:"
+    }, 
+    "UBERDEX": {
+        "message": "UBERDEX"
+    }, 
+    "Uber Name": {
+        "message": "Nome Uber"
+    }, 
+    "UberId:": {
+        "message": "Uberid:"
+    }, 
+    "or": {
+        "message": "ou"
+    }
+}

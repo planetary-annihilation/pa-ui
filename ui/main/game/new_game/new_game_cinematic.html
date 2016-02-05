@@ -1,0 +1,54 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <meta locns="new_game" />
+        <noloc><title>Game Lobby: Cinematic</title></noloc>
+        <link href="bundle://boot/boot.css" rel="stylesheet" type="text/css" />
+        <link href="new_game_cinematic.css" rel="stylesheet" type="text/css" />
+        <script src="bundle://boot/boot.js" type="text/javascript"></script>
+        <script src="coui://ui/main/shared/js/commander_utility.js" type="text/javascript"></script>
+
+        <script src="new_game_cinematic.js" type="text/javascript"></script>
+    </head>
+    <body class="body_panel">
+        <body-dock data-bind="
+            css: {
+                crowded: crowded,
+                snug: snug,
+                fade: animate
+            }">
+            <!-- ko foreach: teams -->
+                <!-- ko foreach: players -->
+                <div class="player" style="display: none" data-bind="visible: true">
+                    <div class="offset" data-bind="
+                        css: {
+                            topTeam: $parent.isTop,
+                            bottomTeam: $parent.isBottom,
+                            offTop: $parent.isOffTop,
+                            offBottom: $parent.isOffBottom,
+                            even: isEven,
+                            odd: isOdd
+                        }
+                        ">
+                            <div class="column">
+                                <div class="card">
+                                    <div class="background" data-bind="style: { backgroundColor: color }">
+                                        <div class="gradient"></div>
+                                    </div>
+                                    <div class="background_bar" data-bind="style: { backgroundColor: color }">
+                                        <div class="gradient"></div>
+                                    </div>
+                                    <div class="commander">
+                                        <img data-bind="attr: { src: commanderImage }" />
+                                    </div>
+                                </div>
+                                <div class="name" data-bind="text: name"></div>
+                            </div>
+                    </div>
+                </div>
+                <!-- /ko -->
+            <!-- /ko -->
+        </body-dock>
+    </body>
+</html>

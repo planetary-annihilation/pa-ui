@@ -1,0 +1,62 @@
+{
+    "ACCESS TO WORLD SIMULATION DENIED": {
+        "message": "KEIN ZUGANG ZUR PLANETENSIMULATION"
+    }, 
+    "ACCESSING WORLD SIMULATION": {
+        "message": "ZUGRIFF AUF PLANETENSIMULATION"
+    }, 
+    "ATTEMPTS REMAINING: __num_attempts_remaining__": {
+        "message": "VERBLEIBENDE VERSUCHE: __num_attempts_remaining__"
+    }, 
+    "CONNECTING TO SERVER": {
+        "message": "MIT SERVER VERBINDEN"
+    }, 
+    "CONNECTION TO SERVER FAILED": {
+        "message": "SERVERVERBINDUNG FEHLGESCHLAGEN"
+    }, 
+    "CONNECTION TO SERVER LOST": {
+        "message": "VERBINDUNG ZUM SERVER ABGEBROCHEN"
+    }, 
+    "CREATING WORLD SIMULATION": {
+        "message": "PLANETENSIMULATION ERSTELLEN"
+    }, 
+    "FAILED TO GET PERMISSION": {
+        "message": "ZUGANG VERWEIGERT"
+    }, 
+    "FAILED TO JOIN GAME": {
+        "message": "SPIELTEILNAHME FEHLGESCHLAGEN"
+    }, 
+    "FAILED TO LOAD GAME": {
+        "message": "LADEN DES SPIELS FEHLGESCHLAGEN"
+    }, 
+    "FAILED TO START GAME": {
+        "message": "SPIELSTART FEHLGESCHLAGEN"
+    }, 
+    "FAILED TO START REPLAY": {
+        "message": "START DES WIEDERHOLUNGSSPIELS FEHLGESCHLAGEN"
+    }, 
+    "LOGIN ACCEPTED": {
+        "message": "ANMELDUNG WURDE AKZEPTIERT"
+    }, 
+    "LOGIN TO SERVER REJECTED": {
+        "message": "SERVERANMELDUNG WURDE ABGELEHNT"
+    }, 
+    "REQUESTING PERMISSION": {
+        "message": "ZUGANG ANFORDERN"
+    }, 
+    "Returning to Main Menu": {
+        "message": "Zurück zum Hauptmenü"
+    }, 
+    "STARTING GAME": {
+        "message": "SPIEL BEGINNEN"
+    }, 
+    "UNABLE TO ACCESS WORLD SIMULATION": {
+        "message": "KEIN ZUGRIFF AUF PLANETENSIMULATION"
+    }, 
+    "WORLD SIMULATION WENT AWAY": {
+        "message": "PLANETENSIMULATION WURDE ENTFERNT"
+    }, 
+    "You are starting an offline game, but your system does not meet the recommended specifications for offline play. Your gameplay experience may be negatively affected.": {
+        "message": "Du startest ein Offline-Spiel, aber dein System verfügt nicht über die empfohlenen Bedingungen für ein Offline-Spiel. Dein Spielerlebnis könnte dadurch negativ beeinflusst werden."
+    }
+}

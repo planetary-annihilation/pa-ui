@@ -1,0 +1,221 @@
+{
+    "2m": {
+        "message": "2m"
+    }, 
+    "ALLY": {
+        "message": "ALLY"
+    }, 
+    "ANNIHILATE": {
+        "message": "ANNIHILATE"
+    }, 
+    "APS:": {
+        "message": "APS:"
+    }, 
+    "ARMY": {
+        "message": "ARMEIJA"
+    }, 
+    "AT WILL": {
+        "message": "AT WILL"
+    }, 
+    "Accept": {
+        "message": "Hyv\u00e4ksy"
+    }, 
+    "Activate planetary laser": {
+        "message": "Activate planetary laser"
+    }, 
+    "Alliance Request": {
+        "message": "Alliance Request"
+    }, 
+    "Alliance requested": {
+        "message": "Alliance requested"
+    }, 
+    "Allied": {
+        "message": "Allied"
+    }, 
+    "Allied With:": {
+        "message": "Allied with:"
+    }, 
+    "Anti-nuke - Intercepts incoming nuclear missiles.": {
+        "message": "Anti-nuke - Intercepts incoming nuclear missiles."
+    }, 
+    "Awesome": {
+        "message": "Awesome"
+    }, 
+    "BP:": {
+        "message": "BP:"
+    }, 
+    "BUILD MODE": {
+        "message": "BUILD MODE"
+    }, 
+    "CONNECTION TO SERVER LOST": {
+        "message": "YHTEYS PALVELIMEEN KATKESI"
+    }, 
+    "CONTINUOUS": {
+        "message": "JATKUVA"
+    }, 
+    "Cancel": {
+        "message": "Peruuta"
+    }, 
+    "Change orbit": {
+        "message": "Change orbit"
+    }, 
+    "Close": {
+        "message": "Sulje"
+    }, 
+    "Count": {
+        "message": "Count"
+    }, 
+    "DEV MODE": {
+        "message": "DEV MODE"
+    }, 
+    "DMG:": {
+        "message": "DMG:"
+    }, 
+    "ECONOMY": {
+        "message": "ECONOMY"
+    }, 
+    "EFF:": {
+        "message": "EFF:"
+    }, 
+    "ENERGY ORDERS": {
+        "message": "ENERGY ORDERS"
+    }, 
+    "Efficiency": {
+        "message": "Tehokkuus"
+    }, 
+    "Enemy Contact!": {
+        "message": "Viholliskontakti!"
+    }, 
+    "Exit Game?": {
+        "message": "Poistu pelist\u00e4?"
+    }, 
+    "FIRE ORDERS": {
+        "message": "FIRE ORDERS"
+    }, 
+    "Fabber": {
+        "message": "Fabber"
+    }, 
+    "Factory": {
+        "message": "Factory"
+    }, 
+    "GAME PAUSED": {
+        "message": "PELI PYS\u00c4YTETTY"
+    }, 
+    "HOLD": {
+        "message": "HOLD"
+    }, 
+    "HOLD POSITION": {
+        "message": "HOLD POSITION"
+    }, 
+    "Ignore": {
+        "message": "Ignore"
+    }, 
+    "LR-96 -Pacifier- Missile": {
+        "message": "LR-96 -Pacifier- Missile"
+    }, 
+    "MANUEVER": {
+        "message": "MANUEVER"
+    }, 
+    "MOVE ORDERS": {
+        "message": "MOVE ORDERS"
+    }, 
+    "Mobile": {
+        "message": "Mobile"
+    }, 
+    "NORMAL": {
+        "message": "NORMAALI"
+    }, 
+    "Nuclear missile - Long range, large area damage, projectile.": {
+        "message": "Nuclear missile - Long range, large area damage, projectile."
+    }, 
+    "OFF": {
+        "message": "OFF"
+    }, 
+    "ON": {
+        "message": "ON"
+    }, 
+    "PLAYER": {
+        "message": "PLAYER"
+    }, 
+    "Pick a location inside one of the green zones to spawn your Commander.": {
+        "message": "Valitse komentajan aloituspiste haluamaltasi vihre\u00e4lt\u00e4 alueelta."
+    }, 
+    "Ping!": {
+        "message": "Ping!"
+    }, 
+    "Position targeted. Click to confirm.": {
+        "message": "Aloituspiste Lukittu. Hyv\u00e4ksy klikkaamalla"
+    }, 
+    "RESC": {
+        "message": "RESC"
+    }, 
+    "RETURN FIRE": {
+        "message": "VASTAA TULEEN"
+    }, 
+    "ROAM": {
+        "message": "ROAM"
+    }, 
+    "Request pending": {
+        "message": "Request pending"
+    }, 
+    "Returning to Main Menu": {
+        "message": "Palataan p\u00e4\u00e4valikkoon"
+    }, 
+    "SANDBOX": {
+        "message": "SANDBOX"
+    }, 
+    "SR-24 -Shield- Missile Defense": {
+        "message": "SR-24 -Shield- Missile Defense"
+    }, 
+    "START ANNIHILATION": {
+        "message": "ALOITA TUHOAMINEN"
+    }, 
+    "Select a new gravity well.": {
+        "message": "Select a new gravity well."
+    }, 
+    "Select a planet to attack.": {
+        "message": "Select a planet to attack."
+    }, 
+    "Select a planet to destroy.": {
+        "message": "Select a planet to destroy."
+    }, 
+    "Set course for annihilation": {
+        "message": "Set course for annihilation"
+    }, 
+    "Set target spot": {
+        "message": "Set target spot"
+    }, 
+    "Then confirm destination to set course.": {
+        "message": "Then confirm destination to set course."
+    }, 
+    "Unknown": {
+        "message": "Unknown"
+    }, 
+    "Waiting for other players to select a spawn location.": {
+        "message": "Waiting for other players to select a spawn location."
+    }, 
+    "Yes": {
+        "message": "Kyll\u00e4"
+    }, 
+    "destroyed.": {
+        "message": "tuhottu."
+    }, 
+    "launched!": {
+        "message": "laukaistu!"
+    }, 
+    "located.": {
+        "message": "paikallistettu."
+    }, 
+    "lost.": {
+        "message": "lost."
+    }, 
+    "ready.": {
+        "message": "valmis."
+    }, 
+    "under attack.": {
+        "message": "hy\u00f6kk\u00e4yksen kohteena."
+    }, 
+    "v": {
+        "message": "v"
+    }
+}

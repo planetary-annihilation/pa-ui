@@ -1,0 +1,44 @@
+{
+    "AT WILL": {
+        "message": "AT WILL"
+    }, 
+    "BUILD MODE": {
+        "message": "BUILD MODE"
+    }, 
+    "CONTINUOUS": {
+        "message": "\uc5f0\uc18d"
+    }, 
+    "ENERGY ORDERS": {
+        "message": "ENERGY ORDERS"
+    }, 
+    "FIRE ORDERS": {
+        "message": "FIRE ORDERS"
+    }, 
+    "HOLD": {
+        "message": "\uace0\uc815"
+    }, 
+    "HOLD POSITION": {
+        "message": "\uc704\uce58 \uace0\uc815"
+    }, 
+    "MANUEVER": {
+        "message": "\uc870\uc885"
+    }, 
+    "MOVE ORDERS": {
+        "message": "\uc774\ub3d9 \uba85\ub839"
+    }, 
+    "NORMAL": {
+        "message": "\ubcf4\ud1b5"
+    }, 
+    "OFF": {
+        "message": "OFF"
+    }, 
+    "ON": {
+        "message": "ON"
+    }, 
+    "RETURN FIRE": {
+        "message": "RETURN FIRE"
+    }, 
+    "ROAM": {
+        "message": "ROAM"
+    }
+}

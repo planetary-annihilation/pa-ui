@@ -1,0 +1,147 @@
+{
+    "Avg": {
+        "message": "Durchschnittlich"
+    }, 
+    "Build Efficiency": {
+        "message": "Baueffizienz"
+    }, 
+    "CLOSE": {
+        "message": "SCHLIEßEN"
+    }, 
+    "Command Rate": {
+        "message": "Kommandorate"
+    }, 
+    "Consumed": {
+        "message": "Verbraucht"
+    }, 
+    "Created": {
+        "message": "Entwickelt"
+    }, 
+    "Current": {
+        "message": "Aktuell"
+    }, 
+    "Current APM": {
+        "message": "Aktuelle APM"
+    }, 
+    "Current Efficiency": {
+        "message": "Aktuelle Effizienz"
+    }, 
+    "Current Energy": {
+        "message": "Aktuelle Energie"
+    }, 
+    "Current Metal": {
+        "message": "Aktuelles Metall"
+    }, 
+    "Current Units": {
+        "message": "Aktuelle Einheiten"
+    }, 
+    "Draw": {
+        "message": "Aus Lager"
+    }, 
+    "Energy Demand": {
+        "message": "Energiebedarf"
+    }, 
+    "Energy Production": {
+        "message": "Energiegenerierung"
+    }, 
+    "Energy Wasted": {
+        "message": "Verschwendete Energie"
+    }, 
+    "Fab": {
+        "message": "Fabrikation"
+    }, 
+    "Factory": {
+        "message": "Fabrik"
+    }, 
+    "GAME SUMMARY": {
+        "message": "SPIELZUSAMMENFASSUNG"
+    }, 
+    "In Progress": {
+        "message": "Im Aufbau"
+    }, 
+    "Lost": {
+        "message": "Verloren"
+    }, 
+    "Metal Demand": {
+        "message": "Metallbedarf"
+    }, 
+    "Metal Destruction Rate": {
+        "message": "Metall-Zerstörungsrate"
+    }, 
+    "Metal Loss Rate": {
+        "message": "Metall-Verlustrate"
+    }, 
+    "Metal Production": {
+        "message": "Metallproduktion"
+    }, 
+    "Metal Wasted": {
+        "message": "Verschwendetes Metall"
+    }, 
+    "Mobile": {
+        "message": "Mobil"
+    }, 
+    "Opp Killed": {
+        "description": "Bezeichnung für eine Rubrik mit der Anzahl der gegnerischen Einheiten, die du getötet hast.", 
+        "message": "Getötete Gegner"
+    }, 
+    "Produced": {
+        "message": "Produziert"
+    }, 
+    "Retrieving Stats...": {
+        "message": "Lädt Statistiken..."
+    }, 
+    "Total": {
+        "message": "Gesamt"
+    }, 
+    "Total APM": {
+        "message": "Gesamte APM"
+    }, 
+    "Total Efficiency": {
+        "message": "Gesamteffizienz"
+    }, 
+    "Total Energy": {
+        "message": "Gesamtenergie"
+    }, 
+    "Total Metal": {
+        "message": "Gesamtmetall"
+    }, 
+    "Total Units": {
+        "message": "Gesamteinheiten"
+    }, 
+    "Unit Build Rate": {
+        "message": "Baurate pro Einheit"
+    }, 
+    "Unit Destruction Rate": {
+        "message": "Zerstörungsrate pro Einheit"
+    }, 
+    "Unit Loss Rate": {
+        "message": "Verlustrate pro Einheit"
+    }, 
+    "Units In Combat": {
+        "message": "Einheiten im Kampf"
+    }, 
+    "Units: Fabricators": {
+        "message": "Einheiten: Fabrikatoren"
+    }, 
+    "Units: Factory": {
+        "message": "Einheiten: Fabrik"
+    }, 
+    "Units: Mobile": {
+        "message": "Einheiten: Mobil"
+    }, 
+    "View Box Score": {
+        "message": "Punktebewertung anzeigen"
+    }, 
+    "View Graph Analysis": {
+        "message": "Grafikanalysen ansehen"
+    }, 
+    "Wasted": {
+        "message": "Verschwendet"
+    }, 
+    "Winner:": {
+        "message": "Sieger:"
+    }, 
+    "Winners:": {
+        "message": "Sieger:"
+    }
+}

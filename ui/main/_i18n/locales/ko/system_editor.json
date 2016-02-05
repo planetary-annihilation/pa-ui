@@ -1,0 +1,107 @@
+{
+    "Accept": {
+        "message": "\uc218\ub77d"
+    }, 
+    "CLEAR SYSTEM": {
+        "message": "\uc2dc\uc2a4\ud15c \ube44\uc6b0\uae30"
+    }, 
+    "CLOSE": {
+        "message": "\ub2eb\uae30"
+    }, 
+    "Cancel": {
+        "message": "\ucde8\uc18c"
+    }, 
+    "Discard": {
+        "message": "\ubc84\ub9ac\uae30"
+    }, 
+    "Do you want to save this system?": {
+        "message": "\uc774 \ud589\uc131\uacc4\ub97c \uc800\uc7a5\ud560\uae4c\uc694?"
+    }, 
+    "EDIT PLANET": {
+        "message": "\ud589\uc131 \ud3b8\uc9d1"
+    }, 
+    "HIDE": {
+        "message": "\uc228\uae30\uae30"
+    }, 
+    "Height": {
+        "message": "\ub192\uc774"
+    }, 
+    "MY PLANETS": {
+        "message": "\ub098\uc758 \ud589\uc131"
+    }, 
+    "Mass": {
+        "message": "\uc9c8\ub7c9"
+    }, 
+    "NAME:": {
+        "message": "\uc774\ub984:"
+    }, 
+    "PREVIEW ALL": {
+        "message": "\ubaa8\ub450 \ubbf8\ub9ac\ubcf4\uae30"
+    }, 
+    "Position": {
+        "message": "\uc704\uce58"
+    }, 
+    "RECENT": {
+        "message": "\ucd5c\uadfc"
+    }, 
+    "REMOVE": {
+        "message": "\uc81c\uac70"
+    }, 
+    "Radius": {
+        "message": "\ubc18\uc9c0\ub984"
+    }, 
+    "SAVE SYSTEM": {
+        "message": "\ud589\uc131\uacc4 \uc800\uc7a5"
+    }, 
+    "SHOW": {
+        "message": "\ubcf4\uae30"
+    }, 
+    "SIMULATE": {
+        "message": "\uc2dc\ubbac\ub808\uc774\ud2b8"
+    }, 
+    "SYSTEM DESIGNER": {
+        "message": "\ud589\uc131\uacc4 \ud3b8\uc9d1\uae30"
+    }, 
+    "Save": {
+        "message": "\uc800\uc7a5"
+    }, 
+    "System has no starting planet.": {
+        "message": "\ud589\uc131\uacc4\uc5d0 \uc2dc\uc791\ud560 \ud589\uc131\uc774 \uc5c6\uc2b5\ub2c8\ub2e4."
+    }, 
+    "System radius is too large.": {
+        "message": "\ud589\uc131\uacc4 \ubc18\uacbd\uc774 \ub108\ubb34 \ud07d\ub2c8\ub2e4."
+    }, 
+    "System radius is too small.": {
+        "message": "\ud589\uc131\uacc4 \ubc18\uacbd\uc774 \ub108\ubb34 \uc791\uc2b5\ub2c8\ub2e4."
+    }, 
+    "TEMPLATES": {
+        "message": "\ud15c\ud50c\ub9bf"
+    }, 
+    "Temp": {
+        "message": "\uae30\uc628"
+    }, 
+    "The planet is loading. This can take a long time.": {
+        "message": "\ud589\uc131\uc744 \ubd88\ub7ec\uc624\ub294 \uc911. \uc2dc\uac04\uc774 \uaf64 \uac78\ub9b4 \uc218 \uc788\uc2b5\ub2c8\ub2e4."
+    }, 
+    "The program will be unresponsive until the planet has finished.": {
+        "message": "\ud589\uc131\uc774 \uc644\ub8cc \ub420 \ub54c\uae4c\uc9c0 \ud504\ub85c\uadf8\ub7a8\uc774 \uc751\ub2f5\ud558\uc9c0 \uc54a\uc744 \uc218 \uc788\uc2b5\ub2c8\ub2e4."
+    }, 
+    "The system has been changed since it was last saved.": {
+        "message": "\uc774 \ud589\uc131\uacc4\ub294 \ub9c8\uc9c0\ub9c9\uc800\uc7a5\ud6c4 \ubcc0\uacbd\ub418\uc5c8\uc2b5\ub2c8\ub2e4."
+    }, 
+    "The system has not been saved.": {
+        "message": "\uc774 \ud589\uc131\uacc4\ub294 \uc800\uc7a5\ub418\uc9c0 \uc54a\uc2b5\ub2c8\ub2e4."
+    }, 
+    "Velocity": {
+        "message": "\uc18d\ub3c4"
+    }, 
+    "Water": {
+        "message": "\ud574\uc218\uba74"
+    }, 
+    "X:": {
+        "message": "X:"
+    }, 
+    "Y:": {
+        "message": "Y:"
+    }
+}

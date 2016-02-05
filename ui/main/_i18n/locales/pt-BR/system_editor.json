@@ -1,0 +1,107 @@
+{
+    "Accept": {
+        "message": "Aceitar"
+    }, 
+    "CLEAR SYSTEM": {
+        "message": "LIMPAR SISTEMA"
+    }, 
+    "CLOSE": {
+        "message": "FECHAR"
+    }, 
+    "Cancel": {
+        "message": "Cancelar"
+    }, 
+    "Discard": {
+        "message": "Descartar"
+    }, 
+    "Do you want to save this system?": {
+        "message": "Deseja salvar esse sistema?"
+    }, 
+    "EDIT PLANET": {
+        "message": "EDITAR PLANETA"
+    }, 
+    "HIDE": {
+        "message": "ESCONDER"
+    }, 
+    "Height": {
+        "message": "Altura"
+    }, 
+    "MY PLANETS": {
+        "message": "MEUS PLANETAS"
+    }, 
+    "Mass": {
+        "message": "MASSA"
+    }, 
+    "NAME:": {
+        "message": "NOME:"
+    }, 
+    "PREVIEW ALL": {
+        "message": "PR\u00c9VIA DE TODOS"
+    }, 
+    "Position": {
+        "message": "POSI\u00c7\u00c3O"
+    }, 
+    "RECENT": {
+        "message": "RECENTE"
+    }, 
+    "REMOVE": {
+        "message": "REMOVER"
+    }, 
+    "Radius": {
+        "message": "RAIO"
+    }, 
+    "SAVE SYSTEM": {
+        "message": "SALVAR SISTEMA"
+    }, 
+    "SHOW": {
+        "message": "MOSTRAR"
+    }, 
+    "SIMULATE": {
+        "message": "SIMULAR"
+    }, 
+    "SYSTEM DESIGNER": {
+        "message": "PROJETAR SISTEMA"
+    }, 
+    "Save": {
+        "message": "Salvar"
+    }, 
+    "System has no starting planet.": {
+        "message": "Sistema n\u00e3o possu\u00ed um planeta inicial."
+    }, 
+    "System radius is too large.": {
+        "message": "O raio do sistema \u00e9 muito grande."
+    }, 
+    "System radius is too small.": {
+        "message": "Raio do sistema \u00e9 muito pequeno."
+    }, 
+    "TEMPLATES": {
+        "message": "MODELOS"
+    }, 
+    "Temp": {
+        "message": "Temp"
+    }, 
+    "The planet is loading. This can take a long time.": {
+        "message": "O planeta est\u00e1 sendo carregado. Isso pode levar algum tempo."
+    }, 
+    "The program will be unresponsive until the planet has finished.": {
+        "message": "O programa n\u00e3o responder\u00e1 bem at\u00e9 que o planeta esteja terminado."
+    }, 
+    "The system has been changed since it was last saved.": {
+        "message": "O sistema foi modificado desde a \u00faltima vez em que foi salvo."
+    }, 
+    "The system has not been saved.": {
+        "message": "O sistema n\u00e3o foi salvo."
+    }, 
+    "Velocity": {
+        "message": "VELOCIDADE"
+    }, 
+    "Water": {
+        "message": "\u00c1gua"
+    }, 
+    "X:": {
+        "message": "X:"
+    }, 
+    "Y:": {
+        "message": "Y:"
+    }
+}

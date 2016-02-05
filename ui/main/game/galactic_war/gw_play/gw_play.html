@@ -1,0 +1,345 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta content="text/html; charset=utf-8" http-equiv="Content-Type" />
+    <noloc><title>Galactic War: Play</title></noloc>
+    <link href="bundle://boot/boot.css" rel="stylesheet" type="text/css" />
+    <link href="gw_play.css" rel="stylesheet" type="text/css" />
+    <script src="bundle://boot/boot.js" type="text/javascript"></script>
+    <script src="coui://ui/main/game/galactic_war/shared/js/easeljs-0.7.1.min.js"></script>
+    <script src="coui://ui/main/shared/js/commander_utility.js" type="text/javascript"></script>
+    <script src="coui://ui/main/shared/js/playfab.js" type="text/javascript"></script>
+    <script src="gw_play.js" type="text/javascript"></script>
+</head>
+
+<body>
+
+<script id="cardTemplate">
+    app.loadTemplate("coui://ui/main/game/galactic_war/shared/template/gwt_card");
+</script>
+
+<div class="container" data-bind="visible: !hidingUI()" style="display: none">
+
+    <canvas id="galaxy-map" height="800" width="800" data-bind="attr: { height: galaxy.canvasHeight(), width: galaxy.canvasWidth(), visible: !hidingUI() }"></canvas>
+
+    <div id="game_menu" class="ignoremouse" data-bind="visible: showSideBar" style="display: none">
+        <div class="div_game_menu">
+            <div class="div_game_menu_cont">
+                <div class="div_game_menu_item" data-bind="click: menuSettings, click_sound: 'default', rollover_sound: 'default'">
+                    <loc>Settings</loc>
+                </div>
+                <div class="div_game_menu_item" data-bind="click: exitGame, click_sound: 'default', rollover_sound: 'default'">
+                    <loc>Save</loc> & <loc>Exit</loc>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="selected-system-anchor" class="ignoremouse" data-bind="visible: selection && !hidingUI()" style="display: none">
+        <div class="below">
+            <div class="attendmouse btn_hero jump" data-bind="click: move, click_sound: '/SE/UI/UI_GW_Jump', rollover_sound: 'default', visible: displayMove">
+                <div class="btn_label">
+                    <loc>Jump</loc>
+                </div>
+            </div>
+            <div class="attendmouse btn_hero fight" data-bind="click: fight, click_sound: 'default', rollover_sound: 'default', visible: displayFight">
+                <div class="btn_label">
+                    <loc>Fight</loc>
+                </div>
+            </div>
+            <div class="attendmouse btn_hero fight" data-bind="click: restartFight, click_sound: 'default', rollover_sound: 'default', visible: displayLoadSave">
+                <div class="btn_label">
+                    <loc>Restart</loc>
+                </div>
+            </div>
+            <div class="attendmouse btn_hero fight" data-bind="click: fight, click_sound: 'default', rollover_sound: 'default', visible: displayLoadSave">
+                <div class="btn_label">
+                    <loc>Continue</loc>
+                </div>
+            </div>
+            <div class="attendmouse btn_hero explore" data-bind="click: explore, click_sound: 'default', rollover_sound: 'default', visible: displayExplore">
+                <div class="btn_label">
+                    <loc>Explore</loc>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="header" class="ignoremouse">
+        <div id="system-detail" class="attendmouse" data-bind="visible: $root.selection && !$root.showSystemCard() && !$root.hidingUI()" style="display: none">
+            <!-- SYSTEM DESCRIPTION -->
+            <div class="system-display" data-bind="visible: selection.system">
+                <!-- ko if: selection.html() -->
+                <div data-bind="html: selection.html"></div>
+                <!-- /ko -->
+                <!-- ko if: !selection.html() -->
+                <div class="system-name" data-bind="text: selection.name, visible: !$root.game().isTutorial()"></div>
+                <div class="content">
+                    <div class="planets" data-bind="visible: $root.showSelectionPlanets">
+                        <div class="all-planets" data-bind="foreach: selection.system().planets()">
+                            <img style="height: 20px; width: 20px;" data-bind="attr: { src: 'coui://ui/main/shared/img/planets/' + $data.generator.biome + '.png' }" />
+                        </div>
+                    </div>
+                    <div class="description" data-bind="html: selection.description"></div>
+                </div>
+                <!-- /ko -->
+            </div>
+
+            <div data-bind="visible: launchingFight" style="display: none; margin-top: 24px;">
+                <loc>Preparing for battle</loc>
+            </div>
+        </div>
+        <div id="header-center" class="ignoremouse">
+        </div>
+    </div>
+
+    <div id="footer" class="ignoremouse">
+        <!-- Note: we often add display none to prevent elements from appearing before the model has loaded;
+             however, this is a loading icon, so it makes sense for it to appear early. -->
+        <div class="div_drive_access" data-bind="visible: driveAccessInProgress() || launchingTutorialFight()">
+            <img class="img_loading_animation working std" src="coui://ui/main/shared/img/working.svg" style="height: 28px; width: 28px; margin-right: 4px;" />
+            <div class="text" data-bind="visible: launchingTutorialFight()"><loc>Loading...</loc></div>
+            <div class="text" style="display: none;" data-bind="visible: !launchingTutorialFight()"><loc>Saving...</loc></div>
+        </div>
+
+
+        <!-- TECH BANK: CARD -->
+        <div id="hover-card" data-bind="visible: !!model.hoverCard() && !hidingUI()" style="display: none;">
+            <div class="card" style="flex-grow: 1" data-bind="with: hoverCard">
+                <div class="close" data-bind="click: function () { model.setHoverCard(undefined); }, click_sound: 'default', rollover_sound: 'default'">
+                </div>
+                <!-- ko template: 'cardTemplate' -->
+                <!-- /ko -->
+                <!-- ko if: !isEmpty() -->
+                <div class="card_action" data-bind="visible: $root.showDataBankFullWarning">
+                    <div class="btn_neg discard" data-bind="click: model.discardHoverCard">
+                        <div class="btn_label" style="font-size: 16px;">
+                            <loc>Delete Tech</loc>
+                        </div>
+                    </div>
+                </div>
+                <!-- /ko -->
+            </div>
+        </div>
+
+        <!-- TECH BANK: INVENTORY -->
+        <div id="tech_bar_cont" style="margin: 0px auto; display: none;" data-bind="visible: !hidingUI()">
+            <div id="inventory" class="attendmouse wrap" data-bind="visible: cards().length" style="display: none">
+                <div class="scroll-container">
+                    <div class="content">
+                        <!-- ko foreach: cards -->
+                        <div class="one-card btn_slot"
+                            data-bind="
+                                visible: visible,
+                                click: model.setHoverCard,
+                                click_sound: 'default',
+                                rollover_sound: 'default'
+                                "
+                            style="display: none">
+                            <img class="icon" data-bind="visible: icon, attr: { src: icon }" />
+                        </div>
+                        <!-- /ko -->
+                    </div>
+                </div>
+            </div>
+            <div class="div_build_bar_tab_cont receiveMouse">
+                <div class="div_build_bar_tab_background">
+                    <div class="div_build_bar_tab_background_inner">
+                        <div class="tab_grp">
+                            <span class="tab_grp_body">
+                                <span class="span_build_bar_tab">
+                                    <span class="span_build_bar_tab_label">
+                                        <loc>TECHS</loc>
+                                    </span>
+                                </span>
+                            </span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- IN GAME OPTIONS BAR -->
+        <div class="div_ingame_options_bar" style="display: none" data-bind="visible: !hidingUI()">
+            <div class="div_ingame_options_bar_cont">
+                <!-- TOGGLE UBERBAR BUTTON -->
+                <div class="btn_ingame_options div_uberbar_toggle_cont btn_std_ix"
+                     data-bind="tooltip: '!LOC:Social Bar', click: $root.toggleUberBar, click_sound: 'default', rollover_sound: 'default'">
+                     <!-- ko if: $root.isUberBarVisible -->
+                     <img src="coui://ui/main/game/live_game/img/ingame_options_bar/uberbar_hide.png" />
+                     <!-- /ko -->
+
+                    <!-- ko ifnot: $root.isUberBarVisible -->
+                    <img src="coui://ui/main/game/live_game/img/ingame_options_bar/uberbar_show.png" />
+                    <!-- /ko -->
+                </div>
+                <!-- GAME MENU BUTTON -->
+                <div class="btn_ingame_options div_uberbar_toggle_cont btn_std_ix"
+                     data-bind="tooltip: '!LOC:Game Menu', click: function () { $root.showSideBar(!$root.showSideBar()); }, click_sound: 'default', rollover_sound: 'default'">
+                    <img src="coui://ui/main/game/live_game/img/ingame_options_bar/game_menu.png" />
+                </div>
+                <!-- TIMER / CLOCK -->
+                <!-- ko with: $root.game().stats() -->
+                <div class="div_ingame_timer">
+                    <span style="margin-right: 8px;"><loc>Turns:</loc> <span data-bind="text: turns"></span></span>
+                    <span><loc>Wins:</loc> <span data-bind="text: wins"></span></span>
+                </div>
+                <!-- /ko -->
+            </div>
+        </div>
+    </div>
+
+    <div id="body-center" class="ignoremouse" style="display: none;" data-bind="visible: !hidingUI()">
+
+        <div class="popup-container"></div>
+
+        <!-- NEW TECH BAR -->
+        <div class="div_panel_bar_background tech" data-bind="visible: $root.showSystemCard">
+            <div class="div_panel_primary_msg tech_discovered">
+                <loc>Data Cache Discovered</loc>
+            </div>
+            <div class="div_panel_secondary_msg">
+                <div data-bind="visible: !$root.showDataBankFullWarning()">
+                    <loc>Select a technology to develop using this data.</loc>
+                </div>
+                <div class="warning" style="display:none;" data-bind="visible: $root.showDataBankFullWarning">
+                    <loc>Tech Bank is full. To develop new technology, select an existing tech and delete it to open a slot.</loc>
+                </div>
+            </div>
+            <div class="div_card_bground">
+                <!-- ko foreach: currentSystemCardList -->
+                <div id="system-card" class="attendmouse card" data-bind="visible: $root.showSystemCard" style="display: none">
+                    <!-- ko with: $data -->
+                    <!-- ko template: 'cardTemplate' -->
+                    <!-- /ko -->
+                    <!-- /ko -->
+                    <div class="exploring card_action" data-bind="visible: $root.exploring" style="display: none">
+                        <!-- ko if: $root.currentSystemCardListConditions()[$index()] && $root.currentSystemCardListConditions()[$index()].ok -->
+                        <div class="btn_hero" data-bind="click: function () { $root.win($index()); }, click_sound: '/SE/UI/UI_GW_Download_Tech', rollover_sound: 'default'">
+                            <!-- ko with: $data -->
+                            <div class="btn_label">
+                                <!-- ko if: !isLoadout() -->
+                                <loc>Acquire</loc>
+                                <!-- /ko -->
+                                <!-- ko if: isLoadout() -->
+                                <loc>Unlock Commander</loc>
+                                <!-- /ko -->
+                            </div>
+                            <!-- /ko -->
+                        </div>
+                        <!-- /ko -->
+
+                        <!-- ko if: $root.currentSystemCardListConditions()[$index()] -->
+                        <div class="warning" data-bind="visible: !$root.currentSystemCardListConditions()[$index()].ok" style="display: none">
+                            <!-- ko if: $root.currentSystemCardListConditions()[$index()].duplicate -->
+                            <loc>Duplicate Tech</loc>
+                            <!-- /ko -->
+                            <!-- ko if: !$root.currentSystemCardListConditions()[$index()].duplicate && !$root.currentSystemCardListConditions()[$index()].can_fit -->
+                            <div class="btn_std disabled">
+                                <div class="btn_label">
+                                    <loc>Acquire</loc>
+                                </div>
+                            </div>
+                            <!-- /ko -->
+                        </div>
+                        <!-- /ko -->
+                    </div>
+                </div>
+                <!-- /ko -->
+            </div>
+            <div class="div_options_bar" data-bind="visible: !$root.game().isTutorial()">
+                <input type="button" value="Dismiss Tech" class="" data-bind="click: $root.dismissTech, click_sound: 'default', rollover_sound: 'default'" />
+            </div>
+        </div>
+
+        <div id="scanning" class="attendmouse" data-bind="visible: $root.scanning" style="display:none">
+            <img class="working std" src="coui://ui/main/shared/img/working.svg"  />
+            <span style="margin: 4px 8px 0px 8px;">
+                <loc>Scanning System</loc>
+            </span>
+        </div>
+    </div>
+
+    <div class="bottom-bar"></div>
+
+    <!--Testing-->
+    <noloc>
+        <div id="test-panel" class="wrap" data-bind="visible: devMode" style="display: none">
+            <div class="close" data-bind="
+        click: function (event) { $('#test-panel .close-target').toggle(); },
+        click_sound: 'default',
+        rollover_sound: 'default'
+            "></div>
+            <div class="close-target" style="display: none">
+                <!-- ko with: model.cheats -->
+                <div class="no-fog" data-bind="click: function () { model.cheats.noFog(!model.cheats.noFog()); }"></div>
+                <div class="jump" data-bind="click: function () { model.cheats.jump(model, model.selection.star()); }"></div>
+                <div class="test-cards" data-bind="click: function () { model.cheats.testCards(model.game()); }"></div>
+                <br />
+                <form data-bind="submit: function () { model.cheats.giveCard(model.game()); }">
+                    <label for="test-give-card-id">Give tech</label>
+                    <input id="test-give-card-id" data-bind="value: giveCardId"></input>
+                    <input type="submit" class="give-card" data-bind="click: function () { model.cheats.giveCard(model.game()); }"></input>
+                </form>
+                <form data-bind="submit: function () { model.cheats.loadGame(model.game()); }">
+                    <label for="load-game-text">Load game</label>
+                    <textarea type="area" id="load-game-text" data-bind="value: loadGameText"></textarea>
+                    <input type="submit" class="load-game" title="Load game" data-bind="click: function () { model.cheats.loadGame(model.game()); }"></input>
+                </form>
+                <!-- /ko -->
+                <br />
+
+                <div class="btn_hero" data-bind="click: function (model, event) { fight(model, event, true); }, click_sound: 'default', rollover_sound: 'default', visible: canFight">
+                    <div class="btn_label">
+                        Cheat
+                    </div>
+                </div>
+
+                <div data-bind="visible: fighting">
+                    <div class="btn_hero" data-bind="click: win, click_sound: 'default', rollover_sound: 'default'">
+                        <div class="btn_label">
+                            Win
+                        </div>
+                    </div>
+                    <div class="btn_hero" data-bind="click: lose, click_sound: 'default', rollover_sound: 'default'">
+                        <div class="btn_label">
+                            Lose
+                        </div>
+                    </div>
+                </div>
+
+                <div style="text-align:left">
+                    <div>Turn State:<span data-bind="text: game().turnState"></span></div>
+                    <!-- ko with: selection.system().star  -->
+                    <div data-bind="visible: hasCard">
+                        Card: <span data-bind="text: JSON.stringify(cardList(), null, '\t')"></span><br />
+                    </div>
+                    <div data-bind="visible: history().length">
+                        History: <span data-bind="text: JSON.stringify(history(), null, '\t')"></span><br />
+                    </div>
+                    <div data-bind="visible: ai">
+                        AI: <span data-bind="text: JSON.stringify(ai(), null, '\t')"></span><br />
+                    </div>
+                    <!-- /ko -->
+
+                    Date: <span data-bind="text: game().stats().turns"></span> <br/>
+                    Record: <span data-bind="text: game().stats().wins"></span> win / <span data-bind="    text: game().stats().losses"></span> loss <br/>
+                </div>
+            </div>
+        </div>
+    </noloc>
+    <!--End Testing-->
+
+    <!--
+       SETTINGS POPUP
+       __________________________________________________________________________-->
+    <panel id="settings" src="coui://ui/main/game/settings/settings.html" fit="dock" style="display: none" data-bind="visible: showSettings">
+    </panel>
+</div> <!-- container -->
+
+<div id="fade"></div>
+
+</body>
+</html>

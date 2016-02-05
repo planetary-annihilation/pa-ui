@@ -1,0 +1,110 @@
+{
+    "Accept": {
+        "message": "Elfogad"
+    }, 
+    "Appear Offline": {
+        "message": "Megjelen\u00edt\u00e9s Offline-k\u00e9nt"
+    }, 
+    "Away": {
+        "message": "T\u00e1vol van"
+    }, 
+    "Block": {
+        "message": "Blokkol"
+    }, 
+    "CANCEL": {
+        "message": "M\u00c9GSE"
+    }, 
+    "CHANGE": {
+        "message": "V\u00c1LTOZTAT"
+    }, 
+    "Change Display Name": {
+        "message": "Megjelen\u00edtett N\u00e9v Megv\u00e1ltoztat\u00e1sa"
+    }, 
+    "Change your display name?": {
+        "message": "Megv\u00e1ltoztatn\u00e1d a megjelen\u00edtett neved?"
+    }, 
+    "Chat": {
+        "message": "Chat"
+    }, 
+    "Do Not Disturb": {
+        "message": "Ne Zavarj"
+    }, 
+    "Friends": {
+        "message": "Bar\u00e1tok"
+    }, 
+    "Ignore": {
+        "message": "Figyelmen k\u00edv\u00fcl hagy"
+    }, 
+    "Invite to Chat": {
+        "message": "Megh\u00edv\u00e1s Cseveg\u00e9sbe"
+    }, 
+    "Invite to game": {
+        "message": "Megh\u00edv\u00e1s j\u00e1t\u00e9kba"
+    }, 
+    "Join Game": {
+        "message": "Csatlakoz\u00e1s a j\u00e1t\u00e9khoz"
+    }, 
+    "New Display Name:": {
+        "message": "\u00daj Megjelen\u00edtett N\u00e9v:"
+    }, 
+    "No pending notifications.": {
+        "message": "Nincs f\u00fcgg\u0151ben l\u00e9v\u0151 \u00e9rtes\u00edt\u00e9s"
+    }, 
+    "Offline": {
+        "message": "Offline"
+    }, 
+    "Online": {
+        "message": "Online"
+    }, 
+    "Pending Invite": {
+        "message": "F\u00fcgg\u0151ben l\u00e9v\u0151 megh\u00edv\u00e1s"
+    }, 
+    "Recent": {
+        "message": "Legut\u00f3bbi"
+    }, 
+    "Remove": {
+        "message": "Elt\u00e1vol\u00edt\u00e1s"
+    }, 
+    "Search Results": {
+        "message": "Keres\u00e9si Eredm\u00e9nyek"
+    }, 
+    "Send Friend Request": {
+        "message": "Bar\u00e1tk\u00e9relem K\u00fcld\u00e9se"
+    }, 
+    "Unblock": {
+        "message": "Felold\u00e1s"
+    }, 
+    "Unfriend": {
+        "message": "Bar\u00e1ts\u00e1g megsz\u00fcntet\u00e9se"
+    }, 
+    "Users": {
+        "message": "Felhaszn\u00e1l\u00f3k"
+    }, 
+    "[B]": {
+        "message": "[B]"
+    }, 
+    "[CHAT]": {
+        "message": "[CSEVEG\u00c9S]"
+    }, 
+    "[F]": {
+        "message": " [F]"
+    }, 
+    "[I]": {
+        "message": "[I]"
+    }, 
+    "[REMOVE]": {
+        "message": "[ELT\u00c1VOL\u00cdT\u00c1S]"
+    }, 
+    "[Tags:": {
+        "message": "[C\u00edmk\u00e9k:"
+    }, 
+    "invited you to a game.": {
+        "message": "megh\u00edvott egy j\u00e1t\u00e9kba."
+    }, 
+    "invited you to chat.": {
+        "message": "megh\u00edvott cseveg\u00e9sbe."
+    }, 
+    "wants to be your friend.": {
+        "message": "a bar\u00e1tod szeretne lenni."
+    }
+}

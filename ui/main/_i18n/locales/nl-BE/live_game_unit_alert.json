@@ -1,0 +1,29 @@
+{
+    "Allied": {
+        "message": "Gealli\u00eberd"
+    }, 
+    "Enemy Contact!": {
+        "message": "Contact met de Vijand!"
+    }, 
+    "Ping!": {
+        "message": "Ping!"
+    }, 
+    "destroyed.": {
+        "message": "vernietigd"
+    }, 
+    "launched!": {
+        "message": "Gelanceerd!"
+    }, 
+    "located.": {
+        "message": "gevonden"
+    }, 
+    "lost.": {
+        "message": "Verloren."
+    }, 
+    "ready.": {
+        "message": "klaar;"
+    }, 
+    "under attack.": {
+        "message": "onder aanval."
+    }
+}

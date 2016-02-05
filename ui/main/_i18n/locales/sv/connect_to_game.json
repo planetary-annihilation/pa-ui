@@ -1,0 +1,26 @@
+{
+    "CONNECTION TO SERVER FAILED": {
+        "message": "ANSLUTNING TILL SERVER MISSLYCKADES"
+    }, 
+    "CONNECTION TO SERVER LOST": {
+        "message": "ANSLUTNING TILL SERVER F\u00d6RLORAD"
+    }, 
+    "FAILED TO JOIN GAME": {
+        "message": "MISSLYCKADES MED ATT ANSLUTA TILL SPELET"
+    }, 
+    "FAILED TO START GAME": {
+        "message": "MISSLYCKADES MED ATT STARTA SPELET"
+    }, 
+    "FAILED TO START REPLAY": {
+        "message": "FAILED TO START REPLAY"
+    }, 
+    "LOGIN ACCEPTED": {
+        "message": "INLOGGNING ACCEPTERAD"
+    }, 
+    "LOGIN TO SERVER REJECTED": {
+        "message": "INLOGGNING TILL SERVER NEKAD"
+    }, 
+    "Returning to Main Menu": {
+        "message": "\u00c5terg\u00e5r till Huvudmeny"
+    }
+}

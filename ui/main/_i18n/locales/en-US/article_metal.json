@@ -1,0 +1,26 @@
+{
+    "Both Basic and Advanced Metal Extractors can be built on top of the same Metal Spot": {
+        "message": "Both Basic and Advanced Metal Extractors can be built on top of the same Metal Spot"
+    }, 
+    "Build Metal Extractors on Metal Spots": {
+        "message": "Build Metal Extractors on Metal Spots"
+    }, 
+    "Build Metal Storage to expand resource capacity": {
+        "message": "Build Metal Storage to expand resource capacity"
+    }, 
+    "Metal Resource": {
+        "message": "Metal Resource"
+    }, 
+    "Metal is required for building units and structures": {
+        "message": "Metal is required for building units and structures"
+    }, 
+    "PA Guide: Metal": {
+        "message": "PA Guide: Metal"
+    }, 
+    "Select Fabber, select [style=text_callout]Build Metal Extractor Icon[/style].": {
+        "message": "Select Fabber, select [style=text_callout]Build Metal Extractor Icon[/style]."
+    }, 
+    "[style=text_callout]Left Click + drag[/style] in the world to build over multiple Metal Spots.": {
+        "message": "[style=text_callout]Left Click + drag[/style] in the world to build over multiple Metal Spots."
+    }
+}

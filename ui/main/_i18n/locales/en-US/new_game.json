@@ -1,0 +1,191 @@
+{
+    "- Host": {
+        "message": "- Host"
+    }, 
+    "AI Commander": {
+        "message": "AI Commander"
+    }, 
+    "AI:": {
+        "message": "AI: "
+    }, 
+    "Add AI": {
+        "message": "Add AI"
+    }, 
+    "Add AI Commander": {
+        "message": "Add AI Commander"
+    }, 
+    "Add Slot": {
+        "message": "Add Slot"
+    }, 
+    "Add Team": {
+        "message": "Add Team"
+    }, 
+    "Allow for players to make and break in-game alliances and the option to share resources": {
+        "message": " Allow for players to make and break in-game alliances and the option to share resources"
+    }, 
+    "Allows for players to cut and paste units for experimenting": {
+        "message": " Allows for players to cut and paste units for experimenting"
+    }, 
+    "Bounty Mode": {
+        "message": "Bounty Mode"
+    }, 
+    "Browse systems...": {
+        "message": "Browse systems..."
+    }, 
+    "Building planets": {
+        "message": "Building planets"
+    }, 
+    "Building planets...": {
+        "message": "Building planets..."
+    }, 
+    "CONNECTION TO SERVER LOST": {
+        "message": "CONNECTION TO SERVER LOST"
+    }, 
+    "Chat": {
+        "message": "Chat"
+    }, 
+    "Cheats": {
+        "message": "Cheats"
+    }, 
+    "Default": {
+        "message": "Default"
+    }, 
+    "Dynamic Alliances": {
+        "message": "Dynamic Alliances"
+    }, 
+    "Econ Rate": {
+        "message": "Econ Rate"
+    }, 
+    "Empty": {
+        "message": "Empty"
+    }, 
+    "For every army a player kills, an economy multiplier is awarded to them that boosts their rate of production": {
+        "message": " For every army a player kills, an economy multiplier is awarded to them that boosts their rate of production"
+    }, 
+    "Free For All": {
+        "message": "Free For All"
+    }, 
+    "Friends": {
+        "message": "Friends"
+    }, 
+    "Game Lobby": {
+        "message": "Game Lobby"
+    }, 
+    "Game Mode": {
+        "message": "Game Mode"
+    }, 
+    "Global Spectator Chat": {
+        "message": "Global Spectator Chat"
+    }, 
+    "Join": {
+        "message": "Join"
+    }, 
+    "Kick": {
+        "message": "Kick"
+    }, 
+    "Large Planets": {
+        "message": "Large Planets"
+    }, 
+    "Leave": {
+        "message": "Leave"
+    }, 
+    "Multiplier Per Army Kill:": {
+        "message": "Multiplier Per Army Kill:"
+    }, 
+    "No green starting zones used. Players can start anywhere they pick.": {
+        "message": " No green starting zones used. Players can start anywhere they pick."
+    }, 
+    "Open to:": {
+        "message": "Open to:"
+    }, 
+    "Password (optional)": {
+        "message": "Password (optional)"
+    }, 
+    "Player Slot": {
+        "message": "Player Slot"
+    }, 
+    "Player chooses spot on starting planet": {
+        "message": "Player chooses spot on starting planet"
+    }, 
+    "Players)": {
+        "message": "Players)"
+    }, 
+    "Private": {
+        "message": "Private"
+    }, 
+    "Public": {
+        "message": "Public"
+    }, 
+    "Random": {
+        "message": "Random"
+    }, 
+    "Ready": {
+        "message": "Ready"
+    }, 
+    "Remove": {
+        "message": "Remove"
+    }, 
+    "Returning to Main Menu": {
+        "message": "Returning to Main Menu"
+    }, 
+    "SHARE ARMY": {
+        "message": "SHARE ARMY"
+    }, 
+    "SPECTATORS": {
+        "message": "SPECTATORS"
+    }, 
+    "Sandbox": {
+        "message": "Sandbox"
+    }, 
+    "Select System": {
+        "message": "Select System"
+    }, 
+    "Server Mods": {
+        "message": "Server Mods"
+    }, 
+    "Slot": {
+        "message": "Slot"
+    }, 
+    "Slot __slot_number__": {
+        "message": "Slot __slot_number__"
+    }, 
+    "Slots are empty.": {
+        "message": "Slots are empty."
+    }, 
+    "Spectate": {
+        "message": "Spectate"
+    }, 
+    "Spectator messages are visible during in-game chat": {
+        "message": " Spectator messages are visible during in-game chat"
+    }, 
+    "Spectators": {
+        "message": "Spectators"
+    }, 
+    "Start Game": {
+        "message": "Start Game"
+    }, 
+    "Symmetrical": {
+        "message": "Symmetrical"
+    }, 
+    "System": {
+        "message": "System"
+    }, 
+    "Tag:": {
+        "message": "Tag:"
+    }, 
+    "Team": {
+        "message": "Team"
+    }, 
+    "Team Armies": {
+        "message": "Team Armies"
+    }, 
+    "Team __team_number__": {
+        "message": "Team __team_number__"
+    }, 
+    "Title": {
+        "message": "Title"
+    }, 
+    "You must have friends to play a friends-only game.": {
+        "message": "You must have friends to play a friends-only game."
+    }
+}

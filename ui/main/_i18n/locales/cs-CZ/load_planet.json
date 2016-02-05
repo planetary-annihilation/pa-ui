@@ -1,0 +1,35 @@
+{
+    "CANCEL": {
+        "message": "Zru\u0161it"
+    }, 
+    "Delete": {
+        "message": "VYMAZAT"
+    }, 
+    "Delete Planet": {
+        "message": "Smazat planetu"
+    }, 
+    "Delete this planet?": {
+        "message": "Smazat planetu?"
+    }, 
+    "Delete this system?": {
+        "message": "Smazat tento syst\u00e9m?"
+    }, 
+    "Load Planet": {
+        "message": "Nahr\u00e1t planetu"
+    }, 
+    "Load System": {
+        "message": "Nahr\u00e1t syst\u00e9m"
+    }, 
+    "New system": {
+        "message": "Nov\u00fd syst\u00e9m"
+    }, 
+    "SHOW PLANETS": {
+        "message": "UK\u00c1ZAT PLANETY"
+    }, 
+    "SHOW SYSTEMS": {
+        "message": "UK\u00c1ZAT SYST\u00c9MY"
+    }, 
+    "System Designer": {
+        "message": "N\u00e1vrh\u00e1\u0159 Syst\u00e9m\u016f"
+    }
+}

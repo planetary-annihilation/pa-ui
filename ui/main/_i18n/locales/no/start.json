@@ -1,0 +1,221 @@
+{
+    "AI Skirmish": {
+        "message": "\u00c5pne kamper mot AI"
+    }, 
+    "Account information sent": {
+        "message": "Kontoinformasjon er sendt"
+    }, 
+    "Accounts linked": {
+        "message": "Kontoer sammenkoblet"
+    }, 
+    "Already have a PlayFab account?": {
+        "message": "Har du allerede en PlayFab-konto?"
+    }, 
+    "An email with a link to recover your account was sent to username@domain.com.": {
+        "message": "En e-post med en lenke for \u00e5 gjenopprette kontoen din ble sendt til username@domain.com."
+    }, 
+    "Armory": {
+        "message": "Rustkammer"
+    }, 
+    "Audio Engine:": {
+        "message": "Lydprogram"
+    }, 
+    "CONTINUE TO MAIN MENU": {
+        "message": "FORTSETT TIL HOVEDMENY"
+    }, 
+    "CREATE ACCOUNT AND LINK": {
+        "message": "OPPRETT KONTO OG LINK"
+    }, 
+    "Channels Streaming": {
+        "message": "Str\u00f8mmende kanaler"
+    }, 
+    "Click here.": {
+        "message": "Klikk her."
+    }, 
+    "Click to play the Credits Galaxy": {
+        "message": "Klikk for \u00e5 spille av galaxe-kreditteringer"
+    }, 
+    "Confirm Password:": {
+        "message": "Bekreft passord:"
+    }, 
+    "Connecting to PlayFab": {
+        "message": "Tilkobler til PlayFab"
+    }, 
+    "Cosmic Edition Commanders": {
+        "message": "Kommand\u00f8rer i Kosmisk utgave"
+    }, 
+    "Create a PlayFab account to link with Steam": {
+        "message": "Opprett en Play-Fab-konto for \u00e5 linke med Steam"
+    }, 
+    "Don't have an PlayFab account?": {
+        "message": "Har du ingen PlayFab-konto?"
+    }, 
+    "Email address already exists": {
+        "message": "E-postadressen finnes allerede"
+    }, 
+    "Email address is invalid": {
+        "message": "E-postadressen er ugyldig"
+    }, 
+    "Email:": {
+        "message": "E-post:"
+    }, 
+    "Extra special thanks to our:": {
+        "message": "Spesiell takk til v\u00e5r:"
+    }, 
+    "Forgot username or password?": {
+        "message": "Glemt brukernavn eller passord?"
+    }, 
+    "Founding Commanders": {
+        "message": "Grunnleggende kommand\u00f8rer"
+    }, 
+    "Galactic War": {
+        "message": "Galaksekrig"
+    }, 
+    "Incorrect username or password. Please check your entry and try again.": {
+        "message": "Feil brukernavn eller passord. Vennligst sjekk disse og pr\u00f8v igjen."
+    }, 
+    "Link PlayFab with Steam": {
+        "message": "Link PlayFab-konto med Steam"
+    }, 
+    "Multiplayer": {
+        "message": "Flerspiller"
+    }, 
+    "New Build Available:": {
+        "message": "Ny oppdatering tilgjengelig:"
+    }, 
+    "None of this would have been possible without your generosity, and we are grateful that you took the chance and believed in our vision.": {
+        "message": "Ikke noe av dette ville v\u00e6rt mulig uten din hjelp og vi er takknemlige for at du tok sjansen og trodde p\u00e5 v\u00e5r visjon."
+    }, 
+    "Password": {
+        "message": "Passord"
+    }, 
+    "Passwords are different": {
+        "message": "Ulike passord"
+    }, 
+    "PlayFab Username:": {
+        "message": "PlayFab-brukernavn:"
+    }, 
+    "PlayFab account already linked to a different Steam account": {
+        "message": "PlayFab-kontoen er allerede linket til en annen Steam-konto"
+    }, 
+    "Please choose a default region.": {
+        "message": "V\u00e6r vennlig \u00e5 velg din standardregion."
+    }, 
+    "Please try again later. If this error persists, please contact support and check the forums.": {
+        "message": "V\u00e6r vennelig \u00e5 pr\u00f8ve igjen senere. Kontakt support og sjekk forumsidene hvis feilen ikke forsvinner."
+    }, 
+    "Please try to link your account at": {
+        "message": "Fors\u00f8k \u00e5 koble til din konto p\u00e5"
+    }, 
+    "Problem with Steam Account.": {
+        "message": "Problemer med Steam-konto."
+    }, 
+    "Quit": {
+        "message": "Avslutt"
+    }, 
+    "RETURN TO SIGN IN": {
+        "message": "G\u00c5 TILBAKE FOR \u00c5 LOGGE P\u00c5"
+    }, 
+    "Reconnecting to Game": {
+        "message": "Kobler til spill p\u00e5 nytt"
+    }, 
+    "Replays": {
+        "message": "Repriser"
+    }, 
+    "Settings": {
+        "message": "Innstillinger"
+    }, 
+    "Sign in": {
+        "message": "Logg inn"
+    }, 
+    "Sign in with your PlayFab ID": {
+        "message": "Logg inn med din PlayFab-ID"
+    }, 
+    "Sign into your PlayFab account.": {
+        "message": "Log in p\u00e5 din PlayFab-konto"
+    }, 
+    "Single Player": {
+        "message": "Enspiller"
+    }, 
+    "System Designer": {
+        "message": "Systemdesigner"
+    }, 
+    "Thank you for your support!": {
+        "message": "Takk for din support!"
+    }, 
+    "There are no regions available for this build version.": {
+        "message": "Det er ingen regioner tilgjengelig for denne versjonen."
+    }, 
+    "There is a problem with Steam. Please restart Steam and try again or login using your PlayFab credentials.": {
+        "message": "Det er et problem med Steam. Restart Steam og pr\u00f8v p\u00e5 nytt eller logg inn med din PlayFab-konto."
+    }, 
+    "This shouldn't happen. Please contact us at": {
+        "message": "Dette skulle ikke ha skjedd. Vennligst kontakt oss p\u00e5"
+    }, 
+    "This title has not been activated.": {
+        "message": "Dette produktet er ikke aktivert."
+    }, 
+    "To those who contributed to our Kickstarter campaign, we'd like to thank you for all the support.": {
+        "message": "Til dere som deltok i v\u00e5r Kickstarter-kampanje: vi vil takke dere for all support."
+    }, 
+    "Twitch": {
+        "message": "Twitch"
+    }, 
+    "Unable to Sign In": {
+        "message": "Innlogging mislyktes"
+    }, 
+    "User account has not been linked to steam.": {
+        "message": "Brukerkonto har ikke blitt koblet til Steam."
+    }, 
+    "Username": {
+        "message": "Brukernavn"
+    }, 
+    "Username already exists": {
+        "message": "Brukernavnet finnes allerede"
+    }, 
+    "Version:": {
+        "message": "Versjon:"
+    }, 
+    "Videos": {
+        "message": "Videoer"
+    }, 
+    "Visit our website \u00bb": {
+        "message": "Bes\u00f8k v\u00e5r nettside \u00bb"
+    }, 
+    "You are already assigned to a game.": {
+        "message": "Du er allerede koblet til et spill."
+    }, 
+    "You can change the region later in the settings menu.": {
+        "message": "Du kan endre region senere i innstillingene."
+    }, 
+    "You need a new client to play the game. Steam users may need to restart Steam to get the new client.": {
+        "message": "Du trenger en ny klient for \u00e5 spille. Er du Steam-bruker kan det hende du m\u00e5 starte Steam p\u00e5 nytt for \u00e5 f\u00e5 tilgang til den nye klienten."
+    }, 
+    "Your Steam ID and PlayFab accounts have been successfully linked.": {
+        "message": "Din Steam-ID og PlayFab-konto er linket sammen."
+    }, 
+    "Your account has been banned.": {
+        "message": "Kontoen din er utestengt."
+    }, 
+    "Your account has been banned. If you believe this is in error, contact us at": {
+        "message": "Din konto er blitt stengt. Dersom du tror dette skyldes en feil, vennligst kontakt oss p\u00e5"
+    }, 
+    "Your default region is currently unavailable. Please choose a different region.": {
+        "message": "Din standardregion er for tiden utilgjengelig. Vennligst velg en annen region."
+    }, 
+    "Your steam account does not own this application.": {
+        "message": "Din Steam-konto innehar ikke dette programmet."
+    }, 
+    "set by code": {
+        "message": "set by code"
+    }, 
+    "viewers": {
+        "message": "seere"
+    }, 
+    "| UI Library: Coherent Labs, copyright \u00a9 2012-2014": {
+        "message": "| UI Library: Coherent Labs, copyright \u00a9 2012-2014"
+    }, 
+    "\u00a9 2014 Uber Entertainment Inc.": {
+        "message": "\u00a9 2014 Uber Entertainment Inc."
+    }
+}

@@ -1,0 +1,50 @@
+{
+    "ALLY": {
+        "message": "ALLY"
+    }, 
+    "ARMY": {
+        "message": "H\u00c6R"
+    }, 
+    "Accept": {
+        "message": "Accepter"
+    }, 
+    "Alliance Request": {
+        "message": "Alliance Request"
+    }, 
+    "Alliance requested": {
+        "message": "Alliance requested"
+    }, 
+    "Allied With:": {
+        "message": "Allied with:"
+    }, 
+    "Count": {
+        "message": "Count"
+    }, 
+    "ECONOMY": {
+        "message": "ECONOMY"
+    }, 
+    "Efficiency": {
+        "message": "Effektivitet"
+    }, 
+    "Fabber": {
+        "message": "Fabber"
+    }, 
+    "Factory": {
+        "message": "Factory"
+    }, 
+    "Ignore": {
+        "message": "Ignorer"
+    }, 
+    "Mobile": {
+        "message": "Mobile"
+    }, 
+    "PLAYER": {
+        "message": "PLAYER"
+    }, 
+    "RESC": {
+        "message": "RESC"
+    }, 
+    "Request pending": {
+        "message": "Request pending"
+    }
+}

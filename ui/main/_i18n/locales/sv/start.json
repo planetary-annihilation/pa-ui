@@ -1,0 +1,140 @@
+{
+    "Account information sent": {
+        "message": "Kontoinformation skickad"
+    }, 
+    "Accounts linked": {
+        "message": "Konton l\u00e4nkade"
+    }, 
+    "An email with a link to recover your account was sent to username@domain.com.": {
+        "message": "Ett email med en l\u00e4nk f\u00f6r att \u00e5terst\u00e4lla ditt konto var skickat till anv\u00e4ndarnamn@domain.com."
+    }, 
+    "Armory": {
+        "message": "Vapenf\u00f6rr\u00e5d"
+    }, 
+    "CONTINUE TO MAIN MENU": {
+        "message": "FORTS\u00c4TT TILL HUVUDMENYN"
+    }, 
+    "CREATE ACCOUNT AND LINK": {
+        "message": "SKAPA NYTT KONTO OCH L\u00c4NKA"
+    }, 
+    "Channels Streaming": {
+        "message": "KANALER SOM STREAMAR"
+    }, 
+    "Click here.": {
+        "message": "Klicka h\u00e4r."
+    }, 
+    "Confirm Password:": {
+        "message": "Konfirmera L\u00f6senord"
+    }, 
+    "Email address already exists": {
+        "message": "Denna email finns redan"
+    }, 
+    "Email address is invalid": {
+        "message": "Email adressen \u00e4r felaktig"
+    }, 
+    "Email:": {
+        "message": "Email:"
+    }, 
+    "Forgot username or password?": {
+        "message": "Gl\u00f6mt anv\u00e4ndarnamn och l\u00f6senord?"
+    }, 
+    "Incorrect username or password. Please check your entry and try again.": {
+        "message": "Felaktigt anv\u00e4ndarnamn eller l\u00f6senord. Kontrollera dina uppgifter och f\u00f6rs\u00f6k igen."
+    }, 
+    "New Build Available:": {
+        "message": "Ny version \u00e4r tillg\u00e4nglig."
+    }, 
+    "Password": {
+        "message": "L\u00f6senord"
+    }, 
+    "Passwords are different": {
+        "message": "L\u00f6senorden \u00e4r olika"
+    }, 
+    "Please choose a default region.": {
+        "message": "V\u00e4lja en standard region."
+    }, 
+    "Please try again later. If this error persists, please contact support and check the forums.": {
+        "message": "Var god att f\u00f6rs\u00f6k senare. Om det h\u00e4r felet kvarst\u00e5r, kontakta support och kolla forumet."
+    }, 
+    "Please try to link your account at": {
+        "message": "F\u00f6rs\u00f6k att l\u00e4nka ditt konto p\u00e5"
+    }, 
+    "Problem with Steam Account.": {
+        "message": "Problem med Steam-konto."
+    }, 
+    "Quit": {
+        "message": "Avsluta"
+    }, 
+    "RETURN TO SIGN IN": {
+        "message": "G\u00c5 TILLBAKA F\u00d6R ATT LOGGA IN"
+    }, 
+    "Reconnecting to Game": {
+        "message": "\u00c5teransluta till Spel"
+    }, 
+    "Settings": {
+        "message": "Inst\u00e4llningar"
+    }, 
+    "Sign in": {
+        "message": "Logga in"
+    }, 
+    "System Designer": {
+        "message": "System Designer"
+    }, 
+    "There are no regions available for this build version.": {
+        "message": "There are no regions available for this build version."
+    }, 
+    "This shouldn't happen. Please contact us at": {
+        "message": "Det h\u00e4r borde inte h\u00e4nda. V\u00e4nligen kontakta oss p\u00e5"
+    }, 
+    "This title has not been activated.": {
+        "message": "Denna titel har inte blivit aktiverad."
+    }, 
+    "Twitch": {
+        "message": "Twitch"
+    }, 
+    "Unable to Sign In": {
+        "message": "Det g\u00e5r inte att Logga in"
+    }, 
+    "User account has not been linked to steam.": {
+        "message": "Anv\u00e4ndarkontot har inte kopplats till steam."
+    }, 
+    "Username": {
+        "message": "Anv\u00e4ndarnamn"
+    }, 
+    "Username already exists": {
+        "message": "Anv\u00e4ndarnamnet finns redan"
+    }, 
+    "Videos": {
+        "message": "Videos"
+    }, 
+    "You are already assigned to a game.": {
+        "message": "Du har redan tilldelats ett spel."
+    }, 
+    "You can change the region later in the settings menu.": {
+        "message": "Du kan byta region senare i inst\u00e4llningar."
+    }, 
+    "You need a new client to play the game. Steam users may need to restart Steam to get the new client.": {
+        "message": "Du beh\u00f6ver en ny klient f\u00f6r att spela spelet. Steam-anv\u00e4ndare kan beh\u00f6va starta om Steam f\u00f6r att h\u00e4mta den nya klienten."
+    }, 
+    "Your account has been banned.": {
+        "message": "Ditt konto har blivit bannlyst."
+    }, 
+    "Your account has been banned. If you believe this is in error, contact us at": {
+        "message": "Ditt konto har blivit bannlyst. Om du tror att detta \u00e4r fel, kontakta oss p\u00e5"
+    }, 
+    "Your default region is currently unavailable. Please choose a different region.": {
+        "message": "Din standard regionen \u00e4r inte tillg\u00e4nglig just nu. V\u00e4lj en annan region."
+    }, 
+    "Your steam account does not own this application.": {
+        "message": "Ditt Steam-konto \u00e4ger inte det h\u00e4r programmet."
+    }, 
+    "set by code": {
+        "message": "st\u00e4llas in med kod"
+    }, 
+    "viewers": {
+        "message": "\u00c5sk\u00e5dare"
+    }, 
+    "\u00a9 2014 Uber Entertainment Inc.": {
+        "message": "\u00a9 2014 Uber Entertainment Inc."
+    }
+}

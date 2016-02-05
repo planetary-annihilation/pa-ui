@@ -1,0 +1,83 @@
+{
+    "Acquire": {
+        "message": "Akquirieren"
+    }, 
+    "All progress and Tech will be lost.": {
+        "message": "Jeglicher Fortschritt und alle Technologien gehen verloren."
+    }, 
+    "Are you sure you want to abandon this Galactic War?": {
+        "message": "Bist du sicher, dass du diesen Galaktischen Krieg abbrechen möchtest?"
+    }, 
+    "Continue": {
+        "message": "Fortfahren"
+    }, 
+    "Data Cache Discovered": {
+        "message": "Datencache entdeckt"
+    }, 
+    "Delete Tech": {
+        "message": "Technologie zerstören"
+    }, 
+    "Dismiss Tech": {
+        "message": "Technologie ablehnen"
+    }, 
+    "Duplicate Tech": {
+        "message": "Technologie kopieren"
+    }, 
+    "Exit": {
+        "message": "Beenden"
+    }, 
+    "Explore": {
+        "message": "Entdecken"
+    }, 
+    "Fight": {
+        "message": "Kämpfen"
+    }, 
+    "Game Menu": {
+        "message": "Spielmenü"
+    }, 
+    "Jump": {
+        "message": "Springen"
+    }, 
+    "Loading...": {
+        "message": "Ladevorgang..."
+    }, 
+    "Preparing for battle": {
+        "message": "Kampfvorbereitung"
+    }, 
+    "Restart": {
+        "message": "Erneut starten"
+    }, 
+    "Save": {
+        "message": "Speichern"
+    }, 
+    "Saving...": {
+        "message": "Speichert..."
+    }, 
+    "Scanning System": {
+        "message": "Systemscan"
+    }, 
+    "Select a technology to develop using this data.": {
+        "message": "Wähle aus, welche Technologie du mit diesen Daten entwickeln möchtest."
+    }, 
+    "Settings": {
+        "message": "Einstellungen"
+    }, 
+    "Social Bar": {
+        "message": "Kommunikationsleiste"
+    }, 
+    "TECHS": {
+        "message": "TECHNOLOGIEN"
+    }, 
+    "Tech Bank is full. To develop new technology, select an existing tech and delete it to open a slot.": {
+        "message": "Der Technologiespeicher ist voll. Um eine neue Technologie zu entwickeln, wähle eine bereits existierende aus und lösche sie, um einen freien Speicherplatz zu erhalten."
+    }, 
+    "Turns:": {
+        "message": "Runden:"
+    }, 
+    "Unlock Commander": {
+        "message": "Kommandanten freischalten"
+    }, 
+    "Wins:": {
+        "message": "Siege:"
+    }
+}

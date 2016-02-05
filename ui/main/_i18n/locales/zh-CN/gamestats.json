@@ -1,0 +1,86 @@
+{
+    "Avg": {
+        "message": "\u5e73\u5747"
+    }, 
+    "Consumed": {
+        "message": "\u6d88\u8017"
+    }, 
+    "Created": {
+        "message": "\u751f\u4ea7"
+    }, 
+    "Current": {
+        "message": "\u5f53\u524d"
+    }, 
+    "Current APM": {
+        "message": "\u5f53\u524dAPM"
+    }, 
+    "Current Efficiency": {
+        "message": "\u5f53\u524d\u6548\u80fd"
+    }, 
+    "Current Energy": {
+        "message": "\u5f53\u524d\u80fd\u91cf"
+    }, 
+    "Current Metal": {
+        "message": "\u5f53\u524d\u91d1\u5c5e"
+    }, 
+    "Current Units": {
+        "message": "\u5f53\u524d\u5355\u4f4d"
+    }, 
+    "Draw": {
+        "message": "\u5e73\u5c40"
+    }, 
+    "Fab": {
+        "message": "\u5de5\u7a0b\u5355\u4f4d"
+    }, 
+    "Factory": {
+        "message": "\u5de5\u5382"
+    }, 
+    "GAME SUMMARY": {
+        "message": "\u6e38\u620f\u7edf\u8ba1"
+    }, 
+    "In Progress": {
+        "message": "\u8fdb\u884c\u4e2d"
+    }, 
+    "Lost": {
+        "message": "\u635f\u5931"
+    }, 
+    "Mobile": {
+        "message": "\u673a\u52a8\u5355\u4f4d"
+    }, 
+    "Opp Killed": {
+        "message": "\u6d88\u706d\u5bf9\u624b"
+    }, 
+    "Produced": {
+        "message": "\u751f\u4ea7"
+    }, 
+    "Retrieving Stats...": {
+        "message": "\u83b7\u53d6\u7edf\u8ba1\u6570\u636e\u4e2d\u2026\u2026"
+    }, 
+    "Total": {
+        "message": "\u603b\u8ba1"
+    }, 
+    "Total APM": {
+        "message": "\u603b\u4f53APM"
+    }, 
+    "Total Efficiency": {
+        "message": "\u603b\u8ba1\u6548\u80fd"
+    }, 
+    "Total Energy": {
+        "message": "\u80fd\u91cf\u603b\u8ba1"
+    }, 
+    "Total Metal": {
+        "message": "\u91d1\u5c5e\u603b\u8ba1"
+    }, 
+    "Total Units": {
+        "message": "\u5168\u90e8\u5355\u4f4d"
+    }, 
+    "Wasted": {
+        "message": "\u6d6a\u8d39"
+    }, 
+    "Winner:": {
+        "message": "\u80dc\u5229\u8005: "
+    }, 
+    "Winners:": {
+        "message": "\u80dc\u5229\u8005: "
+    }
+}

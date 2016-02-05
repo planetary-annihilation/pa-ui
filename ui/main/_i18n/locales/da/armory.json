@@ -1,0 +1,89 @@
+{
+    "Account Name:": {
+        "message": "Brugernavn:"
+    }, 
+    "Add To Cart": {
+        "message": "Tilf\u00f8j til Vognen"
+    }, 
+    "Armory": {
+        "message": "Arsenal"
+    }, 
+    "Badges": {
+        "message": "M\u00e6rker"
+    }, 
+    "CHECKOUT": {
+        "message": "KASSE"
+    }, 
+    "Cancel": {
+        "message": "Annullere"
+    }, 
+    "Cart": {
+        "message": "Vogn"
+    }, 
+    "Commanders": {
+        "message": "Kommand\u00f8rer"
+    }, 
+    "Confirmation code:": {
+        "message": "Bekr\u00e6ftningskode:"
+    }, 
+    "Confirmation of your purchase is provided below.": {
+        "message": "Confirmation of your purchase is provided below."
+    }, 
+    "Continue Shopping": {
+        "message": "Continue Shopping"
+    }, 
+    "Credit applied:": {
+        "message": "Credit applied:"
+    }, 
+    "Designed in collaboration with": {
+        "message": "Designet i samarbejde med"
+    }, 
+    "Go to Main Menu": {
+        "message": "G\u00e5 til Hovedmenuen"
+    }, 
+    "Here's your receipt.": {
+        "message": "Her er din kvittering."
+    }, 
+    "Item": {
+        "message": "Genstand"
+    }, 
+    "Item is already in cart.": {
+        "message": "Genstanden er allerede i kurven."
+    }, 
+    "Kickstarter Backer": {
+        "message": "Kickstarter Backer"
+    }, 
+    "Price": {
+        "message": "Pris"
+    }, 
+    "REMOVE": {
+        "message": "Fjern"
+    }, 
+    "Redeem": {
+        "message": "Indl\u00f8s"
+    }, 
+    "Refresh": {
+        "message": "Refresh"
+    }, 
+    "Return to Armory": {
+        "message": "Retuner til Arsenal"
+    }, 
+    "Set As Default Commander": {
+        "message": "Set As Default Commander"
+    }, 
+    "Thank you for your purchase.": {
+        "message": "Tak for dit k\u00f8b."
+    }, 
+    "Total:": {
+        "message": "I alt:"
+    }, 
+    "Updating...": {
+        "message": "Opdaterer..."
+    }, 
+    "Your cart is empty.": {
+        "message": "Din vogn er tom."
+    }, 
+    "Your purchased items are now registered to your account and are accessible in the game.": {
+        "message": "Dine k\u00f8bte genstande er nu registrerede til din konto og er tilg\u00e6ngelige i spillet."
+    }
+}

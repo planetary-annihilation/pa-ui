@@ -1,0 +1,113 @@
+{
+    "2m": {
+        "message": "2dk"
+    }, 
+    "AT WILL": {
+        "message": "SERBEST"
+    }, 
+    "Awesome": {
+        "message": "M\u00fcthi\u015f"
+    }, 
+    "BUILD MODE": {
+        "message": "\u00dcRET\u0130M MODU"
+    }, 
+    "CONNECTION TO SERVER LOST": {
+        "message": "SUNUCUYLA BA\u011eLANTI KAYBOLDU"
+    }, 
+    "CONTINUOUS": {
+        "message": "S\u00dcREKL\u0130"
+    }, 
+    "Cancel": {
+        "message": "\u0130ptal"
+    }, 
+    "Chrono Cam": {
+        "message": "KRONO KAMERA"
+    }, 
+    "Close": {
+        "message": "KAPAT"
+    }, 
+    "ENERGY ORDERS": {
+        "message": "ENERJ\u0130 EM\u0130RLER\u0130"
+    }, 
+    "Enemy Contact!": {
+        "message": "D\u00fc\u015fmanla Temas!"
+    }, 
+    "Exit Game?": {
+        "message": "Oyundan \u00e7\u0131k?"
+    }, 
+    "FIRE ORDERS": {
+        "message": "ATE\u015e EM\u0130RLER\u0130"
+    }, 
+    "GAME PAUSED": {
+        "message": "OYUN DURDURULDU"
+    }, 
+    "Game Settings": {
+        "message": "OYUN AYARLARI"
+    }, 
+    "HOLD": {
+        "message": "TUT"
+    }, 
+    "HOLD POSITION": {
+        "message": "POZ\u0130SYONU KORU"
+    }, 
+    "MANUEVER": {
+        "message": "MANEVRA"
+    }, 
+    "MOVE ORDERS": {
+        "message": "G\u0130T EM\u0130RLER\u0130"
+    }, 
+    "Main Menu": {
+        "message": "ANA MEN\u00dc"
+    }, 
+    "NORMAL": {
+        "message": "NORMAL"
+    }, 
+    "OFF": {
+        "message": "KAPALI"
+    }, 
+    "ON": {
+        "message": "A\u00c7IK"
+    }, 
+    "Pick a location inside one of the green zones to spawn your Commander.": {
+        "message": "Kumandan\u0131n\u0131z i\u00e7in ba\u015flang\u0131\u00e7 noktas\u0131 olarak ye\u015fil alanlardan bir tanesini se\u00e7in."
+    }, 
+    "Ping!": {
+        "message": "Ping!"
+    }, 
+    "Position targeted. Click to confirm.": {
+        "message": "Ba\u015flang\u0131\u00e7 noktas\u0131 se\u00e7ildi. Onaylamak i\u00e7in t\u0131klay\u0131n."
+    }, 
+    "Quit": {
+        "message": "\u00c7IK"
+    }, 
+    "RETURN FIRE": {
+        "message": "KAR\u015eI ATE\u015e"
+    }, 
+    "ROAM": {
+        "message": "DOLA\u015eIM"
+    }, 
+    "Returning to Main Menu": {
+        "message": "Ana Men\u00fcye Geri D\u00f6n\u00fcl\u00fcyor"
+    }, 
+    "START ANNIHILATION": {
+        "message": "YOK ETMEYE BA\u015eLA"
+    }, 
+    "Yes": {
+        "message": "Evet"
+    }, 
+    "destroyed.": {
+        "message": "yok edildi."
+    }, 
+    "launched!": {
+        "message": "f\u0131rlat\u0131ld\u0131!"
+    }, 
+    "located.": {
+        "message": "yeri tespit edildi."
+    }, 
+    "ready.": {
+        "message": "haz\u0131r."
+    }, 
+    "under attack.": {
+        "message": "sald\u0131r\u0131 alt\u0131nda."
+    }
+}

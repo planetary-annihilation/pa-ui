@@ -1,0 +1,130 @@
+.body_panel {
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+body-dock {
+    width: 100%;
+    display: flex;
+}
+
+/* UTILITY */
+.receiveMouse {
+    pointer-events: all;
+}
+
+.ignoreMouse {
+    pointer-events: none;
+}
+
+/* CELESTIAL VIEW   */
+.celestial_control_cont {
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    
+    display: flex;
+    flex-direction: row;
+    align-items: top;
+    justify-content: center;
+}
+
+.div_celestial_control_bar {
+    width: 100%;
+    border: 1px solid rgba(255,0,0,.5);
+    border-width: 1px 0;
+    background: -webkit-radial-gradient(top,rgba(255, 0, 0, 0.8) 0%, rgba(255, 61, 0, 0.8) 20%,rgba(0, 0, 0, 0.5));
+    padding: 8px;
+    position:relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 0;
+}
+
+.div_celestial_control_bar_cont {
+}
+
+
+.div_celestial_control_bar_message_cont {
+}
+
+.div_celestial_control_bar_message_icon {
+    text-align: center;
+    margin-top: 9px;
+}
+
+.div_celestial_control_bar_message {
+    margin: 0px auto;
+    text-align: center;
+}
+
+    .div_celestial_control_bar_message > .primary_msg {
+        text-transform: uppercase;
+        font-size: 26px;
+        text-shadow: 0 0 5px #FFF500;
+    }
+
+    .div_celestial_control_bar_message > .secondary_msg {
+        font-family: "Sansation Bold";
+        font-size: 18px;
+        text-transform: none;
+        margin: 4px 0px;
+        text-shadow: 0 0 5px #FFF500;
+
+    }
+.div_celestial_submit_btn_cont {
+    margin: 12px 0px 0px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div_celestial_control_bar_button_cont {
+    display: inline-block;
+}
+
+.div_celestial_control_bar_button_cont_active {
+    background-color: #00FFFF;
+}
+
+.div_celestial_control_bar_button {
+    margin-top: 9px;
+}
+
+.div_celestial_control_bar_button_cont:hover {
+    background-color: white;
+    color: black;
+}
+
+.div_celestial_confirmation_bar_cont {
+    position: fixed;
+    bottom: 0px;
+    left: 0px;
+    width: 100%;
+    height: 60px;
+}
+
+.div_celestial_confirmation_bar_button {
+    width: 97px;
+    height: 38px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: black;
+    color: white;
+    border: 1px solid grey;
+}
+
+    .div_celestial_confirmation_bar_button:hover {
+        background-color: white;
+        color: black;
+    }
+

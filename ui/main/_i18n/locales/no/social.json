@@ -1,0 +1,92 @@
+{
+    "APPROVE": {
+        "message": "AKSEPTER"
+    }, 
+    "APPROVED USERS": {
+        "message": "GODKJENTE BRUKERE"
+    }, 
+    "Add": {
+        "message": "Legg til"
+    }, 
+    "Add a Friend": {
+        "message": "Legg til en venn"
+    }, 
+    "BLOCK": {
+        "message": "BLOKKER"
+    }, 
+    "BLOCKED USERS": {
+        "message": "BLOKKERTE BRUKERE"
+    }, 
+    "Cancel": {
+        "message": "Avbryt"
+    }, 
+    "Close": {
+        "message": "Lukk"
+    }, 
+    "Contact List Updated": {
+        "message": "Kontaktliste oppdatert"
+    }, 
+    "Contact Not Found": {
+        "message": "Fant ikke kontakt"
+    }, 
+    "Dismiss": {
+        "message": "Fjern"
+    }, 
+    "Filter contatcs by tag:": {
+        "message": "Filtrer kontakter etter merke:"
+    }, 
+    "Games you make will be hidden to these players.": {
+        "message": "Kamper du lager vil v\u00e6re skjult for disse spillerne."
+    }, 
+    "Name:": {
+        "message": "Navn:"
+    }, 
+    "New Nickname:": {
+        "message": "Nytt kallenavn:"
+    }, 
+    "Players you have encountered recently.": {
+        "message": "Spillere du nylig har spilt med."
+    }, 
+    "Private games you make will only be visible to these players.": {
+        "message": "Private kamper du lager vil v\u00e6re synlig kun for disse spillerne."
+    }, 
+    "RECENT": {
+        "message": "NYLIGE"
+    }, 
+    "REMOVE": {
+        "message": "SLETT"
+    }, 
+    "RENAME": {
+        "message": "ENDRE NAVN"
+    }, 
+    "Refresh Contacts": {
+        "message": "Oppdater kontakter"
+    }, 
+    "Refreshing friends list.....": {
+        "message": "Oppdaterer venneliste....."
+    }, 
+    "SOCIAL": {
+        "message": "SOSIALT"
+    }, 
+    "Tag": {
+        "message": "Merk"
+    }, 
+    "Tag Friend:": {
+        "message": "Merk venn:"
+    }, 
+    "Tags:": {
+        "message": "Merker:"
+    }, 
+    "UBERDEX": {
+        "message": "UBERDEX"
+    }, 
+    "Uber Name": {
+        "message": "Uber-navn"
+    }, 
+    "UberId:": {
+        "message": "Uber-ID:"
+    }, 
+    "or": {
+        "message": "eller"
+    }
+}

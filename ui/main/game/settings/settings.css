@@ -1,0 +1,322 @@
+.body_panel {
+  background-color: rgba(0,0,0,.9);
+  background-image: none;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  position: absolute;
+}
+
+﻿h3, h4 {
+    text-transform: uppercase;
+}
+
+h3 {
+    margin-left: 6px;
+}
+
+h4 {
+    font-size: 10px;
+    font-weight: normal;
+    margin: 0;
+    padding: 0;
+}
+
+label {
+    font-family:'Sansation Bold';
+    font-size: 13px;
+    color:#999;
+    text-transform: uppercase;
+    text-shadow:0px 0px 0px;
+}
+
+.section_title {
+    height: 60px;
+    text-align: center;
+    font-size: 36px;
+    font-family: 'Sansation Bold';
+    text-transform: uppercase;
+    text-shadow: 0px 0px 20px rgb(0, 179, 255);
+    position: relative;
+    z-index: 2;
+    border-bottom: 14px solid rgba(0, 0, 0, 0.2);
+}
+
+.container {
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    width: auto;
+}
+
+#main .wrapper {
+    position: absolute;
+    top: 65px;
+    right: 0px;
+    left: 330px;
+    bottom: 70px;
+    width: auto;
+    height: auto;
+}
+
+#main .content .form-group {
+    width: 300px;
+    position: relative;
+}
+
+#main .content .option-list {
+    overflow-y: scroll;
+    overflow-x: hidden;
+    height: 100%;
+}
+
+    #main .content .option-list > div {
+        /*float: left;
+        margin-right: 20px;*/
+    }
+
+#main .content .tab-content > .tab-pane {
+}
+
+.container_settings {
+    background: #0D0D0D;
+    border: 1px solid rgba(255, 255, 255, 0.05);
+    padding: 20px 20px;
+    box-shadow: 0px 0px 50px #000;
+}
+
+.slider {
+    display: block;
+}
+
+    .slider.slider-horizontal {
+        height:38px;
+        width: 100%;
+        background:#141414;
+    }
+
+        .slider.slider-horizontal .slider-track {
+            height: 16px;
+            border-radius: 0px;
+            margin-top: -9px;
+            border: 1px solid #666;
+            background: #131313;
+            box-shadow: 0px 0px 40px rgba(20, 122, 161, 0.3);
+        }
+
+            .slider.slider-horizontal .slider-track .slider-handle {
+                background: #FFF;
+                height: 30px;
+                opacity: 1;
+                width: 10px;
+                margin-left: -4px;
+                margin-top: -8px;
+                box-shadow: 0px 0px 40px rgba(20, 122, 161, 0.3);
+            }
+
+        .slider.slider-horizontal .slider-selection {
+            background: #131313;
+        }
+
+.tooltip.top .tooltip-arrow {
+    margin-left: -4px;
+}
+
+.one-keybind {
+    width: 190px;
+    min-height: 110px;
+    margin: 0px 8px 30px 0px;
+    padding: 10px;
+    position: relative;
+    border: 1px solid #222;
+    box-shadow: inset 0px 0px 10px rgba(255, 255, 255, 0.05);
+}
+
+    .one-keybind .label_cont {
+        min-height: 60px;
+        width: 170px;
+        margin:0px 0px 10px 0px;
+        word-break: break-word;
+    }
+
+    .one-keybind .bind_cont {
+        width: 100%;
+        position: relative;
+    }
+
+    .one-keybind label {
+        line-height: 1.3;
+        font-size: 16px;
+        text-transform: capitalize;
+        color:#D6D6D6;
+        text-shadow: 0px 0px 10px rgba(255, 255, 255, 0.2);
+    }
+    .one-keybind .form-control {
+        text-align: center;
+        font-size:14px;
+        color:#00ccff;
+        flex-grow: 1;
+    }
+
+    .one-keybind .close {
+        float: none;
+        position: absolute;
+        right: 0;
+        top: 0;
+        bottom: 0;
+        width: 24px;
+        background: url('coui://ui/main/shared/img/window_controls/btn_close_10.png') center center no-repeat;
+        border: 1px solid #00ccff;
+        opacity: 1.0;
+    }
+
+    .one-keybind-group {
+        width:100%;
+        margin-bottom: 20px;
+    }
+
+        .one-keybind-group .category {
+            font-size: 20px;
+            font-family: "Sansation Bold";
+            text-transform: uppercase;
+            text-shadow: none;
+            color: #FFF;
+            background: #08161A;
+            margin-bottom: 8px;
+            padding: 2px 10px 0px;
+        }
+
+    .one-keybind .conflict {
+        color: #F33;
+        font-weight: bold;
+    }
+
+input.active:disabled {
+    color:#00ccff;
+    border: 1px solid #00ccff;
+}
+
+h4.conflicted {
+    color: rgb(0,255,255);
+}
+
+#keyboard-conflict-message {
+    color: red;
+    float: left;
+    margin-left: 21px;
+}
+
+.option-list {
+    height: 100%;
+    width: 100%;
+    padding:0px 0px 0px 0px;
+    display: flex;
+    align-items: flex-start;
+    align-content: flex-start;
+    flex-wrap: wrap;
+}
+
+.option-list .option {
+    width:280px;
+    margin:0px 20px 20px 0px;
+}
+
+.option-list .option.disabled {
+    opacity: 0.5;
+}
+
+.option-list .option.slider {
+    width:360px;
+    margin:0px 20px 20px 0px;
+}
+
+.option-list.keyboard {
+    display:flex;
+    flex-direction:column;
+    flex-wrap:nowrap;
+}
+
+    .option-list .tab_cont {
+        height: 43px;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        background: #000;
+        border-bottom: 1px solid #333;
+    }
+
+    .option-list .section_cont {
+        width: 100%;
+        position: relative;
+        flex-grow: 1;
+    }
+
+        .option-list .section_cont > div {
+            height: 100%;
+            width: 100%;
+            position: absolute;
+            overflow: auto;
+            padding: 10px 0px 0px 0px;
+            display: flex;
+            flex-wrap: wrap;
+        }
+
+
+    .option > .bootstrap-select.btn-group .dropdown-menu  {
+        max-height: 240px !important;
+    }
+
+
+.form-group {
+    width:100%;
+    margin:0px 20px 32px 0px;
+}
+
+    .form-group.stack {
+        margin: 0px 10px 10px 0px;
+    }
+
+.sub-group {
+    display: flex;
+    flex-wrap: wrap;
+    border-top:1px solid #333;
+    padding-top:10px;
+
+}
+
+.sub-group.top {
+    border-top:none;
+    padding-top:0px;
+
+}
+
+.sub-group-title {
+    width: 100%;
+    padding: 0px 10px;
+    font-family: 'Sansation Bold';
+    text-transform: capitalize;
+    font-size: 24px;
+    background: #1B1B1B;
+    margin: 0px 0px 10px 0px;
+}
+
+.form-control {
+    box-shadow: 0px 0px 40px rgba(20, 122, 161, 0.3);
+}
+
+.warn-group {
+    display: flex;
+    flex-direction: horizontal;
+}
+
+.warn-group > div {
+    flex-grow: 0;
+    flex-shrink: 0;
+}
+
+.warn-group .warning {
+    align-self: center;
+    color: salmon;
+}

@@ -1,0 +1,221 @@
+{
+    "2m": {
+        "message": "2m"
+    }, 
+    "ALLY": {
+        "message": "\ub3d9\ub9f9"
+    }, 
+    "ANNIHILATE": {
+        "message": "ANNIHILATE"
+    }, 
+    "APS:": {
+        "message": "APS:"
+    }, 
+    "ARMY": {
+        "message": "ARMY"
+    }, 
+    "AT WILL": {
+        "message": "AT WILL"
+    }, 
+    "Accept": {
+        "message": "\uc218\ub77d"
+    }, 
+    "Activate planetary laser": {
+        "message": "\ud589\uc131 \ub808\uc774\uc838 \ud65c\uc131\ud654"
+    }, 
+    "Alliance Request": {
+        "message": "\ub3d9\ub9f9 \uc81c\uc758"
+    }, 
+    "Alliance requested": {
+        "message": "\ub3d9\ub9f9\uc774 \uc81c\uc548\ub418\uc5c8\uc2b5\ub2c8\ub2e4."
+    }, 
+    "Allied": {
+        "message": "Allied"
+    }, 
+    "Allied With:": {
+        "message": "Allied with:"
+    }, 
+    "Anti-nuke - Intercepts incoming nuclear missiles.": {
+        "message": "\uc548\ud2f0 \ud575 - \ub2e4\uac00\uc624\ub294 \ud575\ubbf8\uc0ac\uc77c\uc744 \uc694\uaca9."
+    }, 
+    "Awesome": {
+        "message": "Awesome"
+    }, 
+    "BP:": {
+        "message": "BP:"
+    }, 
+    "BUILD MODE": {
+        "message": "BUILD MODE"
+    }, 
+    "CONNECTION TO SERVER LOST": {
+        "message": "\uc11c\ubc84\uc640\uc758 \uc5f0\uacb0 \ub04a\uae40"
+    }, 
+    "CONTINUOUS": {
+        "message": "\uc5f0\uc18d"
+    }, 
+    "Cancel": {
+        "message": "\ucde8\uc18c"
+    }, 
+    "Change orbit": {
+        "message": "\uada4\ub3c4 \ubcc0\uacbd"
+    }, 
+    "Close": {
+        "message": "\ub2eb\uae30"
+    }, 
+    "Count": {
+        "message": "Count"
+    }, 
+    "DEV MODE": {
+        "message": "\uac1c\ubc1c\uc790 \ubaa8\ub4dc"
+    }, 
+    "DMG:": {
+        "message": "DMG:"
+    }, 
+    "ECONOMY": {
+        "message": "ECONOMY"
+    }, 
+    "EFF:": {
+        "message": "EFF:"
+    }, 
+    "ENERGY ORDERS": {
+        "message": "ENERGY ORDERS"
+    }, 
+    "Efficiency": {
+        "message": "\ud6a8\uc728"
+    }, 
+    "Enemy Contact!": {
+        "message": "\uc801 \ubc1c\uacac!"
+    }, 
+    "Exit Game?": {
+        "message": "\uac8c\uc784\uc744\ub098\uac08\uae4c\uc694?"
+    }, 
+    "FIRE ORDERS": {
+        "message": "FIRE ORDERS"
+    }, 
+    "Fabber": {
+        "message": "Fabber"
+    }, 
+    "Factory": {
+        "message": "\uacf5\uc7a5"
+    }, 
+    "GAME PAUSED": {
+        "message": "GAME PAUSED"
+    }, 
+    "HOLD": {
+        "message": "\uace0\uc815"
+    }, 
+    "HOLD POSITION": {
+        "message": "\uc704\uce58 \uace0\uc815"
+    }, 
+    "Ignore": {
+        "message": "\ubb34\uc2dc\ud558\uae30"
+    }, 
+    "LR-96 -Pacifier- Missile": {
+        "message": "LA-96 \ud575\ubbf8\uc0ac\uc77c"
+    }, 
+    "MANUEVER": {
+        "message": "\uc870\uc885"
+    }, 
+    "MOVE ORDERS": {
+        "message": "\uc774\ub3d9 \uba85\ub839"
+    }, 
+    "Mobile": {
+        "message": "Mobile"
+    }, 
+    "NORMAL": {
+        "message": "\ubcf4\ud1b5"
+    }, 
+    "Nuclear missile - Long range, large area damage, projectile.": {
+        "message": "\uae34 \uc0ac\uac70\ub9ac, \ub113\uc740 \ud3ed\ubc1c \ubc18\uacbd\uc744 \uac00\uc9c4 \ud575 \ubbf8\uc0ac\uc77c\uc785\ub2c8\ub2e4."
+    }, 
+    "OFF": {
+        "message": "OFF"
+    }, 
+    "ON": {
+        "message": "ON"
+    }, 
+    "PLAYER": {
+        "message": "\ud50c\ub808\uc774\uc5b4"
+    }, 
+    "Pick a location inside one of the green zones to spawn your Commander.": {
+        "message": "\uc9c0\ud718\uad00 \ubc30\uce58\ub97c \uc704\ud574 \ub179\uc0c9 \uc9c0\uc5ed\uc758 \ud55c \uc9c0\uc810\uc744 \uc120\ud0dd\ud558\ub77c."
+    }, 
+    "Ping!": {
+        "message": "Ping!"
+    }, 
+    "Position targeted. Click to confirm.": {
+        "message": "\ubaa9\ud45c \uc704\uce58. \ud074\ub9ad\uc73c\ub85c \ud655\uc778."
+    }, 
+    "RESC": {
+        "message": "RESC"
+    }, 
+    "RETURN FIRE": {
+        "message": "RETURN FIRE"
+    }, 
+    "ROAM": {
+        "message": "ROAM"
+    }, 
+    "Request pending": {
+        "message": "Request pending"
+    }, 
+    "Returning to Main Menu": {
+        "message": "\uba54\uc778 \uba54\ub274\ub85c \ub3cc\uc544\uac00\ub294 \uc911"
+    }, 
+    "SANDBOX": {
+        "message": "\uc0cc\ub4dc\ubc15\uc2a4"
+    }, 
+    "SR-24 -Shield- Missile Defense": {
+        "message": "SR-24 \ud575 \uc694\uaca9\ubbf8\uc0ac\uc77c"
+    }, 
+    "START ANNIHILATION": {
+        "message": "\uc12c\uba78 \uc2dc\uc791"
+    }, 
+    "Select a new gravity well.": {
+        "message": "Select a new gravity well."
+    }, 
+    "Select a planet to attack.": {
+        "message": "\uacf5\uaca9\ud560 \ud589\uc131\uc744 \uc120\ud0dd\ud558\uc2ed\uc2dc\uc624."
+    }, 
+    "Select a planet to destroy.": {
+        "message": "\ud30c\uad34\ud560 \ud589\uc131\uc744 \uc120\ud0dd\ud558\uc2ed\uc2dc\uc624."
+    }, 
+    "Set course for annihilation": {
+        "message": "\uc12c\uba78\ud560 \uacbd\ub85c \uc9c0\uc815"
+    }, 
+    "Set target spot": {
+        "message": "\ubaa9\ud45c \uc9c0\uc810 \uc124\uc815"
+    }, 
+    "Then confirm destination to set course.": {
+        "message": "Then confirm destination to set course."
+    }, 
+    "Unknown": {
+        "message": "\ubbf8\ud655\uc778"
+    }, 
+    "Waiting for other players to select a spawn location.": {
+        "message": "\ub2e4\ub978 \ud50c\ub808\uc774\uc5b4\uac00 \uc2dc\uc791 \uc9c0\uc810\uc744 \uc120\ud0dd\ud560 \ub54c \uae4c\uc9c0 \uae30\ub2e4\ub824\uc8fc\uc138\uc694."
+    }, 
+    "Yes": {
+        "message": "\uc608"
+    }, 
+    "destroyed.": {
+        "message": "\ud30c\uad34\ub428."
+    }, 
+    "launched!": {
+        "message": "launched!"
+    }, 
+    "located.": {
+        "message": "located."
+    }, 
+    "lost.": {
+        "message": "lost."
+    }, 
+    "ready.": {
+        "message": "\uc900\ube44."
+    }, 
+    "under attack.": {
+        "message": "\uacf5\uaca9\ubc1b\uace0 \uc788\uc2b5\ub2c8\ub2e4."
+    }, 
+    "v": {
+        "message": "v"
+    }
+}

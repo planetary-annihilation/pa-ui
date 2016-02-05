@@ -1,0 +1,68 @@
+{
+    "(+ __aiCount__ AI)": {
+        "message": "(+ __aiCount__ AI)"
+    }, 
+    "(Updating...)": {
+        "message": "(Aktualizacja...)"
+    }, 
+    "(no info available)": {
+        "message": "(brak dost\u0119pnych informacji)"
+    }, 
+    "All Recent Games": {
+        "message": "Wszystkie najnowsze gry"
+    }, 
+    "BuildVersion": {
+        "message": "Wersja build"
+    }, 
+    "Duration": {
+        "message": "Czas trwania"
+    }, 
+    "FAILED TO RETRIEVE REPLAY LIST": {
+        "message": "NIE UDA\u0141O SI\u0118 POBRA\u0106 LISTY POWT\u00d3REK"
+    }, 
+    "Game": {
+        "message": "Gra"
+    }, 
+    "Highest Rated (TBD)": {
+        "message": "Najwy\u017cej oceniane (TBD)"
+    }, 
+    "Lobby Id": {
+        "message": "Lobby id"
+    }, 
+    "Longest Game Duration": {
+        "message": "Najd\u0142u\u017cszy czas trwania gry"
+    }, 
+    "Most Recent": {
+        "message": "Najnowsze"
+    }, 
+    "Most Viewed (TBD)": {
+        "message": "Najcz\u0119\u015bciej ogl\u0105dane (TBD)"
+    }, 
+    "My Games Only": {
+        "message": "Tylko moje gry"
+    }, 
+    "Replays": {
+        "message": "Powt\u00f3rki"
+    }, 
+    "Returning to Main Menu": {
+        "message": "Powr\u00f3t do menu g\u0142\u00f3wnego"
+    }, 
+    "Search": {
+        "message": "Szukaj"
+    }, 
+    "Sorted By": {
+        "message": "Sortowanie wg"
+    }, 
+    "View": {
+        "message": "Podgl\u0105d"
+    }, 
+    "Watch Direct Lobby Id:": {
+        "message": "Obejrzyj Direct Lobby Id:"
+    }, 
+    "Watch Replay": {
+        "message": "Obejrzyj powt\u00f3rk\u0119"
+    }, 
+    "__gwClientNames__: Galactic War \"__gwWarName__\" (turn __gwTurn__, __gwSystemName__), vs. __gwAiArmies__": {
+        "message": "__gwClientNames__: Galaktyczna wojna \"__gwWarName__\" (turn __gwTurn__, __gwSystemName__), vs. __gwAiArmies__"
+    }
+}

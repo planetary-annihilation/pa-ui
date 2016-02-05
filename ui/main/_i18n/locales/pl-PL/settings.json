@@ -1,0 +1,911 @@
+{
+    "1100 (recommended for 480p)": {
+        "message": "1100 (zalecane dla 480p)"
+    }, 
+    "2000 (recommended for 720p)": {
+        "message": "2000 (zalecane dla 720p)"
+    }, 
+    "3200 (recommended for 1080p)": {
+        "message": "3200 (zalecane dla 1080p)"
+    }, 
+    "500 (recommended for 240p)": {
+        "message": "500 (zalecane dla 240p)"
+    }, 
+    "700 (recommended for 360p)": {
+        "message": "700 (zalecane dla 360p)"
+    }, 
+    "ALL": {
+        "message": "WSZYSTKIE"
+    }, 
+    "ALWAYS": {
+        "message": "ZAWSZE"
+    }, 
+    "AUTO": {
+        "message": "Automatycznie"
+    }, 
+    "Ambient Occlusion": {
+        "message": "Okluzja otoczenia"
+    }, 
+    "Anti-Aliasing": {
+        "message": "Antyaliasing"
+    }, 
+    "Audio": {
+        "message": "D\u017awi\u0119k"
+    }, 
+    "Bitrate": {
+        "message": "Przep\u0142ywno\u015b\u0107"
+    }, 
+    "Build Preview Behavior": {
+        "message": "Dzia\u0142anie podgl\u0105du budowy"
+    }, 
+    "CUSTOM": {
+        "message": "W\u0141ASNE"
+    }, 
+    "Camera": {
+        "message": "Kamera"
+    }, 
+    "Camera Friction": {
+        "message": "Wyg\u0142adzanie ruchu kamery"
+    }, 
+    "Cancel": {
+        "message": "Anuluj"
+    }, 
+    "Conflict:": {
+        "message": "Konflikt:"
+    }, 
+    "Display Mode": {
+        "message": "Tryb wy\u015bwietlania"
+    }, 
+    "ENABLE MICROPHONE": {
+        "message": "W\u0141\u0104CZ MIKROFON"
+    }, 
+    "ENABLE STREAMING (Takes effect immediately)": {
+        "message": "Transmisja w\u0142\u0105czona (dzia\u0142a natychmiast)"
+    }, 
+    "ENABLE SYSTEM SOUNDS": {
+        "message": "WL\u0104CZ DZWI\u0118KI SYSTEMOWE"
+    }, 
+    "Edge Scroll Options": {
+        "message": "Przewijanie przy kraw\u0119dziach"
+    }, 
+    "FOV": {
+        "message": "Pole widzenia"
+    }, 
+    "FPS": {
+        "message": "Klatek na sek."
+    }, 
+    "FULLSCREEN": {
+        "message": "PE\u0141NY EKRAN"
+    }, 
+    "FXAA": {
+        "message": "FXAA"
+    }, 
+    "Graphics": {
+        "message": "Grafika"
+    }, 
+    "HDR": {
+        "message": "HDR"
+    }, 
+    "HIGH": {
+        "message": "WYSOKIE"
+    }, 
+    "Headlights": {
+        "message": "Reflektory"
+    }, 
+    "ICON DISPLAY DISTANCE": {
+        "message": "ODLEG\u0141O\u015a\u0106 WY\u015aWIETLANIA IKON"
+    }, 
+    "Key Pan Speed": {
+        "message": "Szybko\u015b\u0107 obrotu kamery klawiszem"
+    }, 
+    "Keyboard": {
+        "message": "Klawiatura"
+    }, 
+    "LOW": {
+        "message": "NISKIE"
+    }, 
+    "Language": {
+        "message": "J\u0119zyk"
+    }, 
+    "Livestream Settings": {
+        "message": "Ustawienia Livestream"
+    }, 
+    "Local Server": {
+        "message": "Serwer lokalny"
+    }, 
+    "MEDIUM": {
+        "message": "\u015aREDNIE"
+    }, 
+    "Master Volume": {
+        "message": "G\u0142o\u015bno\u015b\u0107 og\u00f3lna"
+    }, 
+    "Mouse Pan Speed": {
+        "message": "Szybko\u015b\u0107 obrotu kamery myszk\u0105"
+    }, 
+    "Music Volume": {
+        "message": "G\u0142o\u015bno\u015b\u0107 muzyki"
+    }, 
+    "NATIVE (100%)": {
+        "message": "NATYWNE (100%)"
+    }, 
+    "NEVER": {
+        "message": "NIGDY"
+    }, 
+    "OFF": {
+        "message": "WY\u0141."
+    }, 
+    "OFF (MOUSELOCK)": {
+        "message": "WY\u0141. (rozgl\u0105danie si\u0119 za pomoc\u0105 myszki)"
+    }, 
+    "OFF (NO MOUSELOCK)": {
+        "message": "WY\u0141. (bez rozgl\u0105dania si\u0119 za pomoc\u0105 myszki)"
+    }, 
+    "ON": {
+        "message": "W\u0141."
+    }, 
+    "Orbital Shell": {
+        "message": "Warstwa orbitalna"
+    }, 
+    "Order Preview Behavior": {
+        "message": "Dzia\u0142anie podgl\u0105du rozkaz\u00f3w"
+    }, 
+    "Password": {
+        "message": "Has\u0142o"
+    }, 
+    "Pole Lock": {
+        "message": "Blokada biegunowa"
+    }, 
+    "Quality Preset": {
+        "message": "Gotowe ustawienia jako\u015bci"
+    }, 
+    "RANGE DEPENDENT": {
+        "message": "ZALE\u017bNIE OD ODLEG\u0141O\u015aCI"
+    }, 
+    "RESTORE ALL DEFAULTS": {
+        "message": "WSZYSTKIE USTAWIENIA DOMY\u015aLNE"
+    }, 
+    "RESTORE DEFAULTS": {
+        "message": "PRZYWR\u00d3\u0106 USTAWIENIA DOMY\u015aLNE"
+    }, 
+    "Resolution": {
+        "message": "Rozdzielczo\u015b\u0107"
+    }, 
+    "Resolution Scaling": {
+        "message": "Skalowanie rozdzielczo\u015bci"
+    }, 
+    "SELECTED": {
+        "message": "WYBRANE"
+    }, 
+    "SERVER": {
+        "message": "SERWER"
+    }, 
+    "SHIFT": {
+        "message": "SHIFT"
+    }, 
+    "SIGN IN": {
+        "message": "ZALOGUJ SI\u0118"
+    }, 
+    "SIGN OUT": {
+        "message": "WYLOGUJ"
+    }, 
+    "SUBSAMPLE (50%)": {
+        "message": "POMNIEJSZENIE (50%)"
+    }, 
+    "SUBSAMPLE (75%)": {
+        "message": "POMNIEJSZENIE (75%)"
+    }, 
+    "SUPERSAMPLE (110%)": {
+        "message": "POWI\u0118KSZENIE (110%)"
+    }, 
+    "SUPERSAMPLE (150%)": {
+        "message": "POWI\u0118KSZENIE (150%)"
+    }, 
+    "SUPERSAMPLE (175%)": {
+        "message": "POWI\u0118KSZENIE (175%)"
+    }, 
+    "Save": {
+        "message": "Zapisz"
+    }, 
+    "Save And Close": {
+        "message": "Zapisz i zamknij"
+    }, 
+    "Server": {
+        "message": "SERWER"
+    }, 
+    "Settings": {
+        "message": "Ustawienia"
+    }, 
+    "Shadows": {
+        "message": "Cienie"
+    }, 
+    "Show Build Previews": {
+        "message": "Poka\u017c podgl\u0105dy budowy"
+    }, 
+    "Show Metal Spot Icons": {
+        "message": "Poka\u017c ikony z\u0142\u00f3\u017c metalu"
+    }, 
+    "Show Order Previews": {
+        "message": "Poka\u017c podgl\u0105dy rozkaz\u00f3w"
+    }, 
+    "Show Stat Bars": {
+        "message": "Poka\u017c paski statystyk"
+    }, 
+    "Show Unit Icons": {
+        "message": "Poka\u017c ikony jednostek"
+    }, 
+    "Show/Hide game stats": {
+        "message": "ukrywa statystyki gry"
+    }, 
+    "Show/Hide pip": {
+        "message": "ukrywa PiP"
+    }, 
+    "Sign in with Your Twitch ID": {
+        "message": "Zaloguj si\u0119 za pomoc\u0105 Twitch ID"
+    }, 
+    "Signed in as": {
+        "message": "Zalogowany jako"
+    }, 
+    "Sound Effects Volume": {
+        "message": "G\u0142o\u015bno\u015b\u0107 efekt\u00f3w d\u017awi\u0119kowych"
+    }, 
+    "Twitch chat": {
+        "message": "Rozmowa Twitch"
+    }, 
+    "UBER": {
+        "message": "NAJWY\u017bSZE"
+    }, 
+    "UI": {
+        "message": "INTERFEJS U\u017bYTKOWNIKA"
+    }, 
+    "VALUE DEPENDENT": {
+        "message": "ZALE\u017bNIE OD WARTO\u015aCI"
+    }, 
+    "Virtual Texture": {
+        "message": "Tekstury wirtualne"
+    }, 
+    "Voice Volume": {
+        "message": "G\u0142o\u015bno\u015b\u0107 dialog\u00f3w"
+    }, 
+    "WINDOWED": {
+        "message": "W OKNIE"
+    }, 
+    "Zoom Speed": {
+        "message": "Szybko\u015b\u0107 przybli\u017cania"
+    }, 
+    "abort": {
+        "message": "Przerwanie"
+    }, 
+    "alerts": {
+        "message": "Powiadomienia"
+    }, 
+    "align to pole": {
+        "message": "R\u00f3wnanie do bieguna"
+    }, 
+    "alt fire": {
+        "message": "Alternatywny strza\u0142"
+    }, 
+    "assist": {
+        "message": "Asysta"
+    }, 
+    "attack": {
+        "message": "Atak"
+    }, 
+    "bug report": {
+        "message": "Raport o b\u0142\u0119dach"
+    }, 
+    "build": {
+        "message": "Budowa"
+    }, 
+    "build avatar": {
+        "message": "Budowa awatara"
+    }, 
+    "build avatar factory": {
+        "message": "Budowa fabryki awatar\u00f3w"
+    }, 
+    "build bar groups": {
+        "message": "Grupy pask\u00f3w budowy"
+    }, 
+    "build item 1": {
+        "message": "Budowa elementu 1"
+    }, 
+    "build item 10": {
+        "message": "Budowa elementu 10"
+    }, 
+    "build item 11": {
+        "message": "Budowa elementu 11"
+    }, 
+    "build item 12": {
+        "message": "Budowa elementu 12"
+    }, 
+    "build item 13": {
+        "message": "Budowa elementu 13"
+    }, 
+    "build item 14": {
+        "message": "Budowa elementu 14"
+    }, 
+    "build item 15": {
+        "message": "Budowa elementu 15"
+    }, 
+    "build item 2": {
+        "message": "Budowa elementu 2"
+    }, 
+    "build item 3": {
+        "message": "Budowa elementu 3"
+    }, 
+    "build item 4": {
+        "message": "Budowa elementu 4"
+    }, 
+    "build item 5": {
+        "message": "Budowa elementu 5"
+    }, 
+    "build item 6": {
+        "message": "Budowa elementu 6"
+    }, 
+    "build item 7": {
+        "message": "Budowa elementu 7"
+    }, 
+    "build item 8": {
+        "message": "Budowa elementu 8"
+    }, 
+    "build item 9": {
+        "message": "Budowa elementu 9"
+    }, 
+    "build items": {
+        "message": "Budowa element\u00f3w"
+    }, 
+    "build loop": {
+        "message": "P\u0119tla budowania"
+    }, 
+    "build once": {
+        "message": "Jednokrotna budowa"
+    }, 
+    "build orders": {
+        "message": "Rozkazy budowy"
+    }, 
+    "capture anchor": {
+        "message": "Kotwica zdobywania "
+    }, 
+    "capture anchor 1": {
+        "message": "Kotwica zdobywania 1"
+    }, 
+    "capture anchor 10": {
+        "message": "Kotwica zdobywania 10"
+    }, 
+    "capture anchor 2": {
+        "message": "Kotwica zdobywania 2"
+    }, 
+    "capture anchor 3": {
+        "message": "Kotwica zdobywania 3"
+    }, 
+    "capture anchor 4": {
+        "message": "Kotwica zdobywania 4"
+    }, 
+    "capture anchor 5": {
+        "message": "Kotwica zdobywania 5"
+    }, 
+    "capture anchor 6": {
+        "message": "Kotwica zdobywania 6"
+    }, 
+    "capture anchor 7": {
+        "message": "Kotwica zdobywania 7"
+    }, 
+    "capture anchor 8": {
+        "message": "Kotwica zdobywania 8"
+    }, 
+    "capture anchor 9": {
+        "message": "Kotwica zdobywania 9"
+    }, 
+    "capture group 0": {
+        "message": "Grupa 0"
+    }, 
+    "capture group 1": {
+        "message": "Grupa 1"
+    }, 
+    "capture group 2": {
+        "message": "Grupa 2"
+    }, 
+    "capture group 3": {
+        "message": "Grupa 3"
+    }, 
+    "capture group 4": {
+        "message": "Grupa 4"
+    }, 
+    "capture group 5": {
+        "message": "Grupa 5"
+    }, 
+    "capture group 6": {
+        "message": "Grupa 6"
+    }, 
+    "capture group 7": {
+        "message": "Grupa 7"
+    }, 
+    "capture group 8": {
+        "message": "Grupa 8"
+    }, 
+    "capture group 9": {
+        "message": "Grupa 9"
+    }, 
+    "chronocam": {
+        "message": "Kamera chronologiczna"
+    }, 
+    "communication": {
+        "message": "Komunikacja"
+    }, 
+    "copy to pip": {
+        "message": "Kopiuj do PiP"
+    }, 
+    "copy unit": {
+        "message": "Kopiuj jednostk\u0119"
+    }, 
+    "crash": {
+        "message": "Crash"
+    }, 
+    "decrease camera pan speed": {
+        "message": "Zmniejszenie szybko\u015bci kamery"
+    }, 
+    "dev mode": {
+        "message": "Tryb DEV"
+    }, 
+    "direction": {
+        "message": "Kierunek"
+    }, 
+    "disable navigation debug info": {
+        "message": "Wy\u0142. inf. o usuwaniu b\u0142\u0119d\u00f3w nawigacji"
+    }, 
+    "dismiss alert notification": {
+        "message": "Odrzucanie powiadomie\u0144"
+    }, 
+    "enable navigation debug info": {
+        "message": "W\u0142. Inf. o usuwaniu b\u0142\u0119d\u00f3w nawigacji"
+    }, 
+    "energy off": {
+        "message": "Energia wy\u0142."
+    }, 
+    "energy on": {
+        "message": "Energia w\u0142."
+    }, 
+    "fire at will": {
+        "message": "Strzelanie bez rozkazu"
+    }, 
+    "free move backward": {
+        "message": "Swobodny ruch do ty\u0142u"
+    }, 
+    "free move down": {
+        "message": "Swobodny ruch w d\u00f3\u0142"
+    }, 
+    "free move forward": {
+        "message": "Swobodny ruch do przodu"
+    }, 
+    "free move left": {
+        "message": "Swobodny ruch w lewo"
+    }, 
+    "free move right": {
+        "message": "Swobodny ruch w prawo"
+    }, 
+    "free move up": {
+        "message": "Swobodny ruch w g\u00f3r\u0119"
+    }, 
+    "free movement": {
+        "message": "Swobodny ruch "
+    }, 
+    "free pitch backward": {
+        "message": "Swobodne wychylenie w ty\u0142"
+    }, 
+    "free pitch forward": {
+        "message": "Swobodne wychylenie w prz\u00f3d"
+    }, 
+    "free roll left": {
+        "message": "Swobodne przetoczenie w lewo"
+    }, 
+    "free roll right": {
+        "message": "Swobodne przetoczenie w prawo"
+    }, 
+    "free yaw left": {
+        "message": "Swobodne odchylenie w lewo"
+    }, 
+    "free yaw right": {
+        "message": "Swobodne odchylenie w prawo"
+    }, 
+    "free zoom in": {
+        "message": "Swobodne przybli\u017cenie"
+    }, 
+    "free zoom out": {
+        "message": "Swobodne oddalenie"
+    }, 
+    "general": {
+        "message": "Og\u00f3lne "
+    }, 
+    "hold fire": {
+        "message": "Wstrzymanie ognia"
+    }, 
+    "hold position": {
+        "message": "Utrzymanie pozycji"
+    }, 
+    "increase camera pan speed": {
+        "message": "Zwi\u0119kszenie szybko\u015bci kamery"
+    }, 
+    "jump to next planet": {
+        "message": "Skok do nast\u0119pnej planety"
+    }, 
+    "jump to previous planet": {
+        "message": "Skok do poprzedniej planety"
+    }, 
+    "last pseudo frame": {
+        "message": "Ostatnia pseudo klatka"
+    }, 
+    "load": {
+        "message": "Wczytaj"
+    }, 
+    "maneuver": {
+        "message": "Manewr"
+    }, 
+    "modes": {
+        "message": "Tryby"
+    }, 
+    "move": {
+        "message": "Ruch"
+    }, 
+    "move down": {
+        "message": "Ruch w d\u00f3\u0142"
+    }, 
+    "move left": {
+        "message": "Ruch w lewo"
+    }, 
+    "move right": {
+        "message": "Ruch w prawo"
+    }, 
+    "move up": {
+        "message": "Ruch w g\u00f3r\u0119"
+    }, 
+    "navigate back/exit": {
+        "message": "Powr\u00f3t/wyj\u015bcie"
+    }, 
+    "next pseudo frame": {
+        "message": "Nast\u0119pna pseudo klatka"
+    }, 
+    "normal chat": {
+        "message": "Normalna rozmowa"
+    }, 
+    "paste unit": {
+        "message": "Wklej jednostk\u0119"
+    }, 
+    "patrol": {
+        "message": "Patrol"
+    }, 
+    "pause game": {
+        "message": "Pauza"
+    }, 
+    "pause time": {
+        "message": "Zatrzymanie czasu"
+    }, 
+    "picture-in-picture": {
+        "message": "Picture in Picture"
+    }, 
+    "ping": {
+        "message": "Ping"
+    }, 
+    "planet jump": {
+        "message": "Skok do planety"
+    }, 
+    "play backwards at 100%": {
+        "message": "Odtwarzanie w ty\u0142: 100%"
+    }, 
+    "play backwards at 50%": {
+        "message": "Odtwarzanie w ty\u0142: 50%"
+    }, 
+    "play forward at 100%": {
+        "message": "Odtwarzanie w prz\u00f3d: 100%"
+    }, 
+    "play forward at 50%": {
+        "message": "Odtwarzanie w prz\u00f3d: 50%"
+    }, 
+    "publish server mods": {
+        "message": "Zamie\u015b\u0107 mody serwer\u00f3w"
+    }, 
+    "quick profile": {
+        "message": "Szybki profil"
+    }, 
+    "recall anchor": {
+        "message": "Przywo\u0142anie kotwicy"
+    }, 
+    "recall anchor 0": {
+        "message": "Przywo\u0142anie kotwicy 0"
+    }, 
+    "recall anchor 1": {
+        "message": "Przywo\u0142anie kotwicy 1"
+    }, 
+    "recall anchor 2": {
+        "message": "Przywo\u0142anie kotwicy 2"
+    }, 
+    "recall anchor 3": {
+        "message": "Przywo\u0142anie kotwicy 3"
+    }, 
+    "recall anchor 4": {
+        "message": "Przywo\u0142anie kotwicy 4"
+    }, 
+    "recall anchor 5": {
+        "message": "Przywo\u0142anie kotwicy 5"
+    }, 
+    "recall anchor 6": {
+        "message": "Przywo\u0142anie kotwicy 6"
+    }, 
+    "recall anchor 7": {
+        "message": "Przywo\u0142anie kotwicy 7"
+    }, 
+    "recall anchor 8": {
+        "message": "Przywo\u0142anie kotwicy 8"
+    }, 
+    "recall anchor 9": {
+        "message": "Przywo\u0142anie kotwicy 9"
+    }, 
+    "recall group 0": {
+        "message": "Przywo\u0142anie grupy 0"
+    }, 
+    "recall group 1": {
+        "message": "Przywo\u0142anie grupy 1"
+    }, 
+    "recall group 2": {
+        "message": "Przywo\u0142anie grupy 2"
+    }, 
+    "recall group 3": {
+        "message": "Przywo\u0142anie grupy 3"
+    }, 
+    "recall group 4": {
+        "message": "Przywo\u0142anie grupy 4"
+    }, 
+    "recall group 5": {
+        "message": "Przywo\u0142anie grupy 5"
+    }, 
+    "recall group 6": {
+        "message": "Przywo\u0142anie grupy 6"
+    }, 
+    "recall group 7": {
+        "message": "Przywo\u0142anie grupy 7"
+    }, 
+    "recall group 8": {
+        "message": "Przywo\u0142anie grupy 8"
+    }, 
+    "recall group 9": {
+        "message": "Przywo\u0142anie grupy 9"
+    }, 
+    "reclaim": {
+        "message": "Odbierz "
+    }, 
+    "reload view": {
+        "message": "Ponownie wczytaj widok"
+    }, 
+    "repair": {
+        "message": "Naprawa"
+    }, 
+    "resume at latest time": {
+        "message": "Wznowienie w ostatnim momencie"
+    }, 
+    "return fire": {
+        "message": "Odpowied\u017a ogniem"
+    }, 
+    "roam": {
+        "message": "W\u0119dr\u00f3wka"
+    }, 
+    "run twitch commercial": {
+        "message": "Uruchomienie reklamy Twitch"
+    }, 
+    "select air group": {
+        "message": "Wyb\u00f3r grupy powietrznej"
+    }, 
+    "select all air combat units": {
+        "message": "Wyb\u00f3r wszystkich bojowych jednostek powietrznych"
+    }, 
+    "select all air combat units on screen": {
+        "message": "Wyb\u00f3r wszystkich bojowych jednostek powietrznych na ekranie"
+    }, 
+    "select all combat units": {
+        "message": "Wyb\u00f3r wszystkich jednostek bojowych"
+    }, 
+    "select all combat units on screen": {
+        "message": "Wyb\u00f3r wszystkich jednostek bojowych na ekranie"
+    }, 
+    "select all factories": {
+        "message": "Wyb\u00f3r wszystkich fabryk"
+    }, 
+    "select all factories on screen": {
+        "message": "Wyb\u00f3r wszystkich fabryk na ekranie"
+    }, 
+    "select all idle factories": {
+        "message": "Wyb\u00f3r wszystkich bezczynnych fabryk "
+    }, 
+    "select all idle factories on screen": {
+        "message": "Wyb\u00f3r wszystkich bezczynnych fabryk na ekranie"
+    }, 
+    "select all land combat units": {
+        "message": "Wyb\u00f3r wszystkich bojowych jednostek l\u0105dowe"
+    }, 
+    "select all land combat units on screen": {
+        "message": "Wyb\u00f3r wszystkich bojowych jednostek l\u0105dowe na ekranie"
+    }, 
+    "select all matching units on screen": {
+        "message": "Wyb\u00f3r wszystkich bli\u017aniaczych jednostek na ekranie"
+    }, 
+    "select all naval combat units": {
+        "message": "Wyb\u00f3r wszystkich bojowych jednostek morskich"
+    }, 
+    "select all naval combat units on screen": {
+        "message": "Wyb\u00f3r wszystkich bojowych jednostek morskich na ekranie"
+    }, 
+    "select bot group": {
+        "message": "Wyb\u00f3r grupy bot\u00f3w"
+    }, 
+    "select combat group": {
+        "message": "Wyb\u00f3r grupy bojowej"
+    }, 
+    "select commander": {
+        "message": "Wyb\u00f3r dow\u00f3dcy"
+    }, 
+    "select factory group": {
+        "message": "Wyb\u00f3r grupy fabryk"
+    }, 
+    "select idle fabbers": {
+        "message": "Wyb\u00f3r bezczynnych fabber\u00f3w"
+    }, 
+    "select orbital group (buildings)": {
+        "message": "Wyb\u00f3r grupy orbitalnej (budynki)"
+    }, 
+    "select orbital group (units)": {
+        "message": "Wyb\u00f3r grupy orbitalnej (jednostki)"
+    }, 
+    "select sea group": {
+        "message": "Wyb\u00f3r grupy morskiej"
+    }, 
+    "select utility group": {
+        "message": "Wyb\u00f3r grupy pomocniczej"
+    }, 
+    "select vehicle group": {
+        "message": "Wyb\u00f3r grupy pojazd\u00f3w"
+    }, 
+    "self destruct selected unit": {
+        "message": "Autodestrukcja wybranej jednostki"
+    }, 
+    "set army from hover": {
+        "message": "Ustawienie armii z g\u00f3ry"
+    }, 
+    "set debug camera": {
+        "message": "Ustawienie kamery usuwania b\u0142\u0119d\u00f3w"
+    }, 
+    "set default camera": {
+        "message": "Ustawienie kamery domy\u015blnej"
+    }, 
+    "set free camera": {
+        "message": "Ustawienie kamery swobodnej"
+    }, 
+    "set planet camera": {
+        "message": "Ustawienie kamery planetarnej"
+    }, 
+    "show/hide UI": {
+        "message": "ukrywa interfejs u\u017cytkownika"
+    }, 
+    "show/hide performance panel": {
+        "message": "ukrywa panel dokona\u0144"
+    }, 
+    "show/hide visual aid overlays": {
+        "message": "ukrywa pomoc wizualn\u0105"
+    }, 
+    "smooth zoom in": {
+        "message": "P\u0142ynne zbli\u017canie"
+    }, 
+    "smooth zoom out": {
+        "message": "P\u0142ynne oddalanie"
+    }, 
+    "special move": {
+        "message": "Manewr specjalny"
+    }, 
+    "stop": {
+        "message": "Stop"
+    }, 
+    "streaming": {
+        "message": "Transmisja"
+    }, 
+    "swap pip": {
+        "message": "Zmiana PiP"
+    }, 
+    "team chat": {
+        "message": "Rozmowa dru\u017cynowa"
+    }, 
+    "toggle FOW": {
+        "message": "Prze\u0142\u0105czanie pola widzenia"
+    }, 
+    "toggle audio logging": {
+        "message": "Prze\u0142\u0105czanie rejestracji d\u017awi\u0119ku"
+    }, 
+    "toggle build orders": {
+        "message": "Prze\u0142\u0105czanie rozkaz\u00f3w budowy"
+    }, 
+    "toggle console": {
+        "message": "Prze\u0142\u0105czanie konsoli"
+    }, 
+    "toggle debug camera": {
+        "message": "Prze\u0142\u0105czanie kamery usuwania b\u0142\u0119d\u00f3w"
+    }, 
+    "toggle energy orders": {
+        "message": "Prze\u0142\u0105czanie rozkaz\u00f3w energii"
+    }, 
+    "toggle fire orders": {
+        "message": "Prze\u0142\u0105czanie rozkaz\u00f3w ostrza\u0142u"
+    }, 
+    "toggle free camera": {
+        "message": "Prze\u0142\u0105czanie kamery swobodnej"
+    }, 
+    "toggle fullscreen": {
+        "message": "Prze\u0142\u0105czanie pe\u0142nego ekranu"
+    }, 
+    "toggle move orders": {
+        "message": "Prze\u0142\u0105czanie rozkaz\u00f3w ruchu"
+    }, 
+    "toggle music": {
+        "message": "Prze\u0142\u0105czanie muzyki"
+    }, 
+    "toggle nav debug": {
+        "message": "Prze\u0142\u0105czanie usuwania b\u0142\u0119d\u00f3w nawigacji"
+    }, 
+    "toggle pip mirror": {
+        "message": "Prze\u0142\u0105czanie lustrzanego PiP"
+    }, 
+    "toggle twitch microphone": {
+        "message": "Prze\u0142\u0105czanie mikrofonu Twitch"
+    }, 
+    "toggle twitch streaming": {
+        "message": "Prze\u0142\u0105czanie transmisji Twitch"
+    }, 
+    "toggle twitch system audio recording": {
+        "message": "Prze\u0142\u0105czanie nagrywania d\u017awi\u0119ku Twitch"
+    }, 
+    "track selection with camera": {
+        "message": "\u015aledzenie wybranego obiektu przez kamer\u0119"
+    }, 
+    "tracking & alignment": {
+        "message": "\u015aledzenie i ustawianie"
+    }, 
+    "tuning": {
+        "message": "Tuning"
+    }, 
+    "unit capture groups": {
+        "message": "Grupowanie jednostek"
+    }, 
+    "unit commands": {
+        "message": "Polecenia jednostek"
+    }, 
+    "unit orders": {
+        "message": "Rozkazy jednostek"
+    }, 
+    "unit recall groups": {
+        "message": "Przywo\u0142anie grup jednostek"
+    }, 
+    "unit selection": {
+        "message": "Wyb\u00f3r jednostek"
+    }, 
+    "units": {
+        "message": "Jednostki"
+    }, 
+    "unload": {
+        "message": "Wy\u0142aduj"
+    }, 
+    "zoom": {
+        "message": "Przybli\u017canie"
+    }, 
+    "zoom in": {
+        "message": "Zbli\u017cenie"
+    }, 
+    "zoom out": {
+        "message": "Oddalenie"
+    }, 
+    "zoom to air": {
+        "message": "Przybli\u017canie na powietrze"
+    }, 
+    "zoom to celestial": {
+        "message": "Przybli\u017canie na niebo"
+    }, 
+    "zoom to orbital": {
+        "message": "Przybli\u017canie na orbit\u0119"
+    }, 
+    "zoom to surface": {
+        "message": "Przybli\u017canie na powierzchni\u0119"
+    }
+}

@@ -1,0 +1,26 @@
+{
+    "Important Hotkeys": {
+        "message": "Teclas de acceso rápido esenciales"
+    }, 
+    "PA Guide: Basic Hotkeys": {
+        "message": "Guía de PA: Teclas de acceso rápido esenciales"
+    }, 
+    "[style=hotkey_title]__hotkey__[/style] - Select Commander": {
+        "message": "[style=hotkey_title]__hotkey__[/style] - Seleccionar comandante."
+    }, 
+    "[style=hotkey_title]__hotkey__[/style] - Select all of currently-selected unit(s) that are visible": {
+        "message": "[style=hotkey_title]__hotkey__[/style] - Seleccionar todas las unidades seleccionadas a la vista."
+    }, 
+    "[style=hotkey_title]__hotkey__[/style] - Select idle fabbers on screen": {
+        "message": "[style=hotkey_title]__hotkey__[/style] - Seleccionar los fabricantes inactivos de la pantalla."
+    }, 
+    "[style=hotkey_title]__hotkey__[/style] - Toggle energy orders": {
+        "message": "[style=hotkey_title]__hotkey__[/style] - Activar y desactivar órdenes de energía."
+    }, 
+    "[style=hotkey_title]__hotkey__[/style] - Toggle production": {
+        "message": "[style=hotkey_title]__hotkey__[/style] - Cambia el modo de producción."
+    }, 
+    "[style=hotkey_title]__hotkey__[/style] - Zoom to selected unit": {
+        "message": "[style=hotkey_title]__hotkey__[/style] - Acercarse a la unidad seleccionada."
+    }
+}

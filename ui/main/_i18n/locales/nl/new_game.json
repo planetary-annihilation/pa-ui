@@ -1,0 +1,122 @@
+{
+    "- Host": {
+        "message": "- Host"
+    }, 
+    "AI Commander": {
+        "message": "AI commandant"
+    }, 
+    "Add AI": {
+        "message": "AI toevoegen"
+    }, 
+    "Add AI Commander": {
+        "message": "Voeg AI commandant toe"
+    }, 
+    "Add Slot": {
+        "message": "Opening toevoegen"
+    }, 
+    "Alliance Victory": {
+        "message": "Alliantie-overwinning"
+    }, 
+    "Browse...": {
+        "message": "Bladeren..."
+    }, 
+    "CONNECTION TO SERVER LOST": {
+        "message": "VERBINDING MET DE SERVER VERLOREN"
+    }, 
+    "Chat": {
+        "message": "Chat"
+    }, 
+    "Cheats": {
+        "message": "Cheats"
+    }, 
+    "Dynamic Alliances": {
+        "message": "Dynamische Allianties"
+    }, 
+    "Empty": {
+        "message": "Leeg"
+    }, 
+    "Free For All": {
+        "message": "Iedereen voor zichzelf"
+    }, 
+    "Friends": {
+        "message": "Vrienden"
+    }, 
+    "Game Lobby": {
+        "message": "Spellobby"
+    }, 
+    "Game Mode": {
+        "message": "Spelmodus"
+    }, 
+    "Global Spectator Chat": {
+        "message": "Globale Toeschouwer-chat"
+    }, 
+    "Join": {
+        "message": "Meedoen"
+    }, 
+    "Kick": {
+        "message": "Kick"
+    }, 
+    "Leave": {
+        "message": "Verlaten"
+    }, 
+    "New System": {
+        "message": "Nieuw Stelsel"
+    }, 
+    "Open to:": {
+        "message": "Open voor:"
+    }, 
+    "Player Slot": {
+        "message": "Speleropening"
+    }, 
+    "Player chooses spot on starting planet": {
+        "message": "Speler kiest een locatie op de startplaneet"
+    }, 
+    "Players)": {
+        "message": "Spelers)"
+    }, 
+    "Private": {
+        "message": "Priv\u00e9"
+    }, 
+    "Public": {
+        "message": "Publiek"
+    }, 
+    "Ready": {
+        "message": "Gereed"
+    }, 
+    "Remove": {
+        "message": "Verwijderen"
+    }, 
+    "Returning to Main Menu": {
+        "message": "Terugkeren naar Hoofdmenu"
+    }, 
+    "SHARE ARMY": {
+        "message": "DEEL LEGER"
+    }, 
+    "Server Mods": {
+        "message": "Servermods"
+    }, 
+    "Spectate": {
+        "message": "Toeschouwen"
+    }, 
+    "Spectators": {
+        "message": "Toeschouwers"
+    }, 
+    "Start Game": {
+        "message": "Start spel"
+    }, 
+    "System": {
+        "message": "Stelsel"
+    }, 
+    "Tag:": {
+        "message": "Tag:"
+    }, 
+    "Team Armies": {
+        "message": "Teamlegers"
+    }, 
+    "Title": {
+        "message": "Titel"
+    }, 
+    "You must have friends to play a friends-only game.": {
+        "message": "Je moet vrienden hebben om een alleen-voor-vrienden spel te spelen."
+    }
+}

@@ -1,0 +1,92 @@
+{
+    "Ambient Occlusion": {
+        "message": "AMBIENT OCCLUSION"
+    }, 
+    "Anti-Aliasing": {
+        "message": "\u53cd\u92f8\u9f52"
+    }, 
+    "Audio": {
+        "message": "\u97f3\u6548"
+    }, 
+    "Camera": {
+        "message": "\u93e1\u982d"
+    }, 
+    "Camera Friction": {
+        "message": "\u93e1\u982d\u6469\u64e6"
+    }, 
+    "Cancel": {
+        "message": "\u53d6\u6d88"
+    }, 
+    "Display Mode": {
+        "message": "\u986f\u793a\u6a21\u5f0f"
+    }, 
+    "Graphics": {
+        "message": "\u756b\u8cea"
+    }, 
+    "HDR": {
+        "message": "\u9ad8\u52d5\u614b\u7bc4\u570d"
+    }, 
+    "Headlights": {
+        "message": "\u8eca\u524d\u71c8"
+    }, 
+    "Key Pan Speed": {
+        "message": "KEY PAN SPEED"
+    }, 
+    "Keyboard": {
+        "message": "\u9375\u76e4"
+    }, 
+    "Master Volume": {
+        "message": "\u4e3b\u97f3\u91cf"
+    }, 
+    "Mouse Pan Speed": {
+        "message": "\u6ed1\u9f20\u5e73\u79fb\u901f\u5ea6"
+    }, 
+    "Orbital Shell": {
+        "message": "ORBITAL SHELL"
+    }, 
+    "Quality Preset": {
+        "message": "\u8cea\u7d20\u9810\u8a2d\u6a94"
+    }, 
+    "RESTORE DEFAULTS": {
+        "message": "\u56de\u5fa9\u9810\u8a2d\u503c"
+    }, 
+    "Resolution Scaling": {
+        "message": "\u89e3\u6790\u5ea6\u7e2e\u653e"
+    }, 
+    "SIGN IN": {
+        "message": "\u767b\u5165"
+    }, 
+    "SIGN OUT": {
+        "message": "\u767b\u51fa"
+    }, 
+    "Save And Close": {
+        "message": "\u5132\u5b58\u4e26\u95dc\u9589"
+    }, 
+    "Settings": {
+        "message": "\u8a2d\u5b9a"
+    }, 
+    "Shadows": {
+        "message": "\u9670\u5f71"
+    }, 
+    "Show Build Previews": {
+        "message": "\u986f\u793a\u5efa\u7bc9\u9810\u89bd"
+    }, 
+    "Show Metal Spot Icons": {
+        "message": "\u986f\u793a\u91d1\u5c6c\u7926\u4f4d\u7f6e\u5716\u793a"
+    }, 
+    "Show Stat Bars": {
+        "message": "\u986f\u793a\u7d71\u8a08\u5217"
+    }, 
+    "Show Unit Icons": {
+        "message": "\u986f\u793a\u55ae\u4f4d\u5716\u793a"
+    }, 
+    "UI": {
+        "message": "\u4f7f\u7528\u8005\u754c\u9762"
+    }, 
+    "Virtual Texture": {
+        "message": "\u865b\u64ec\u6750\u8cea"
+    }, 
+    "Zoom Speed": {
+        "message": "\u7e2e\u653e\u901f\u5ea6"
+    }
+}

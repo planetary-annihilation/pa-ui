@@ -1,0 +1,65 @@
+{
+    "AI:": {
+        "message": "YZ:"
+    }, 
+    "Card:": {
+        "message": "Kart:"
+    }, 
+    "Date:": {
+        "message": "Tarih:"
+    }, 
+    "Delete Tech": {
+        "message": "Teknolojiyi Sil"
+    }, 
+    "Download Tech": {
+        "message": "Teknoloyi \u0130ndir"
+    }, 
+    "Exit": {
+        "message": "\u00c7IK"
+    }, 
+    "Explore": {
+        "message": "Ara\u015ft\u0131r"
+    }, 
+    "Fight": {
+        "message": "Savas"
+    }, 
+    "Give tech": {
+        "message": "Teknoloji ver"
+    }, 
+    "History:": {
+        "message": "Ge\u00e7mi\u015f:"
+    }, 
+    "Jump": {
+        "message": "G\u00f6zat"
+    }, 
+    "Load game": {
+        "message": "Oyunu y\u00fckle"
+    }, 
+    "Preparing for battle": {
+        "message": "Sava\u015f haz\u0131rlan\u0131yor"
+    }, 
+    "Record:": {
+        "message": "Kay\u0131t:"
+    }, 
+    "Reject Tech": {
+        "message": "Teknolojiyi Reddet"
+    }, 
+    "Save": {
+        "message": "KAYDET"
+    }, 
+    "Scanning System": {
+        "message": "Sistemi Tara"
+    }, 
+    "Turn State:": {
+        "message": "S\u0131ra Durumu:"
+    }, 
+    "Unlock Commander": {
+        "message": "Kumandan Kilidini A\u00e7"
+    }, 
+    "loss": {
+        "message": "kay\u0131p"
+    }, 
+    "win /": {
+        "message": "kazan /"
+    }
+}

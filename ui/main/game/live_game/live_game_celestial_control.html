@@ -1,0 +1,55 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <meta locns="live_game" />
+        <noloc><title>Live Game: Celestial Control</title></noloc>
+        <link href="bundle://boot/boot.css" rel="stylesheet" type="text/css" />
+        <link href="live_game_celestial_control.css" rel="stylesheet" type="text/css" />
+        <script src="bundle://boot/boot.js" type="text/javascript"></script>
+
+        <script src="live_game_celestial_control.js" type="text/javascript"></script>
+    </head>
+    <body class="body_panel">
+        <body-dock>
+            <!-- ko if: model.state().active -->
+            <div class="div_celestial_control_bar">
+                <div class="div_celestial_control_bar_cont">
+                    <div class="div_celestial_control_bar_message_cont">
+                        <!-- ko if:  model.state().findingTargetPlanet -->
+                        <div class="div_celestial_control_bar_message">
+                            <!-- ko if: model.state().actionIndex === 1 -->
+                            <div class="primary_msg"><loc>Change orbit</loc></div>
+                            <div class="secondary_msg"><loc>Select a new gravity well.</loc></div>
+                            <!-- /ko -->
+                            <!-- ko if: model.state().actionIndex === 2 -->
+                            <div class="primary_msg"><loc>Set course for annihilation</loc></div>
+                            <div class="secondary_msg"><loc>Select a planet to attack.</loc></div>
+                            <!-- /ko -->
+                            <!-- ko if: model.state().actionIndex === 3 -->
+                            <div class="primary_msg"><loc>Activate planetary laser</loc></div>
+                            <div class="secondary_msg"><loc>Select a planet to destroy.</loc></div>
+                            <!-- /ko -->
+                        </div>
+                        <!-- /ko -->
+                        <!-- ko if: model.state().findingTargetSurfacePosition -->
+                        <div class="div_celestial_control_bar_message">
+                            <div class="primary_msg"><loc>Set target spot</loc></div>
+                            <div class="secondary_msg"><loc>Then confirm destination to set course.</loc></div>
+                        </div>
+                        <!-- /ko -->
+                        <div class="div_celestial_submit_btn_cont">
+                            <div class="div_celestial_control_bar_button_cont">
+                                <input type="button" class="btn_std btn_toolbar"
+                                    data-bind="click: cancel" value="Cancel" />
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="div_celestial_control_bar_bottom">
+                </div>
+            </div>
+            <!-- /ko -->
+        </body-dock>
+    </body>
+</html>

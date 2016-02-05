@@ -1,0 +1,20 @@
+{
+    "Annihilated": {
+        "message": "Annihilé"
+    }, 
+    "Archived Wars": {
+        "message": "Guerres archivées"
+    }, 
+    "Details": {
+        "message": "Détails"
+    }, 
+    "Turns:": {
+        "message": "Tours :"
+    }, 
+    "Victory": {
+        "message": "Victoire"
+    }, 
+    "Wins:": {
+        "message": "Victoires :"
+    }
+}

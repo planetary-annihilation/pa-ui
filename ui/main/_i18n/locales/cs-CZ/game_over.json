@@ -1,0 +1,44 @@
+{
+    "ANNIHILATION COMPLETE": {
+        "message": "ZNI\u010cEN\u00cd DOKON\u010cENO."
+    }, 
+    "APM": {
+        "message": "APM"
+    }, 
+    "Average": {
+        "message": "Pr\u016fm\u011br"
+    }, 
+    "Built": {
+        "message": "Postaveno"
+    }, 
+    "Destroyed": {
+        "message": "Zni\u010deno"
+    }, 
+    "Draw": {
+        "message": "REM\u00cdZA"
+    }, 
+    "Efficiency": {
+        "message": "Efektivita"
+    }, 
+    "GW GAME OVER": {
+        "message": "GV - HRA SKON\u010cILA"
+    }, 
+    "The game has ended.": {
+        "message": "Hra skon\u010dila."
+    }, 
+    "Used": {
+        "message": "Pou\u017eito"
+    }, 
+    "VICTORY IS YOURS": {
+        "message": "V\u00cdT\u011aZSTV\u00cd JE TVOJE"
+    }, 
+    "Winner:": {
+        "message": "V\u00edt\u011bz:"
+    }, 
+    "Winners:": {
+        "message": "V\u00edt\u011bzov\u00e9:"
+    }, 
+    "YOU'VE BEEN ANNIHILATED": {
+        "message": "BYL JSI ZNI\u010cEN"
+    }
+}

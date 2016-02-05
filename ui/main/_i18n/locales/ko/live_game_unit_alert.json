@@ -1,0 +1,29 @@
+{
+    "Allied": {
+        "message": "Allied"
+    }, 
+    "Enemy Contact!": {
+        "message": "\uc801 \ubc1c\uacac!"
+    }, 
+    "Ping!": {
+        "message": "Ping!"
+    }, 
+    "destroyed.": {
+        "message": "\ud30c\uad34\ub428."
+    }, 
+    "launched!": {
+        "message": "launched!"
+    }, 
+    "located.": {
+        "message": "located."
+    }, 
+    "lost.": {
+        "message": "lost."
+    }, 
+    "ready.": {
+        "message": "\uc900\ube44."
+    }, 
+    "under attack.": {
+        "message": "\uacf5\uaca9\ubc1b\uace0 \uc788\uc2b5\ub2c8\ub2e4."
+    }
+}

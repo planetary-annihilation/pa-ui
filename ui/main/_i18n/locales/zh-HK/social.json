@@ -1,0 +1,92 @@
+{
+    "APPROVE": {
+        "message": "\u6279\u51c6"
+    }, 
+    "APPROVED USERS": {
+        "message": "\u5df2\u6279\u51c6\u7684\u4f7f\u7528\u8005"
+    }, 
+    "Add": {
+        "message": "\u589e\u52a0"
+    }, 
+    "Add a Friend": {
+        "message": "\u65b0\u589e\u4e00\u500b\u670b\u53cb"
+    }, 
+    "BLOCK": {
+        "message": "\u5c4f\u853d"
+    }, 
+    "BLOCKED USERS": {
+        "message": "\u5df2\u5c4f\u853d\u7684\u4f7f\u7528\u8005"
+    }, 
+    "Cancel": {
+        "message": "\u53d6\u6d88"
+    }, 
+    "Close": {
+        "message": "\u95dc\u9589"
+    }, 
+    "Contact List Updated": {
+        "message": "\u9023\u7d61\u4eba\u5217\u8868\u5df2\u66f4\u65b0"
+    }, 
+    "Contact Not Found": {
+        "message": "\u627e\u4e0d\u5230\u9023\u7d61\u4eba"
+    }, 
+    "Dismiss": {
+        "message": "\u95dc\u9589"
+    }, 
+    "Filter contatcs by tag:": {
+        "message": "\u4ee5\u6a19\u7c64\u904e\u6ffe\u9023\u7d61\u4eba:"
+    }, 
+    "Games you make will be hidden to these players.": {
+        "message": "\u9019\u4e9b\u73a9\u5bb6\u5c07\u4e0d\u80fd\u5920\u770b\u898b\u4f60\u5efa\u7acb\u7684\u904a\u6232\u3002"
+    }, 
+    "Name:": {
+        "message": "\u540d\u7a31:"
+    }, 
+    "New Nickname:": {
+        "message": "\u65b0\u7684\u66b1\u7a31:"
+    }, 
+    "Players you have encountered recently.": {
+        "message": "\u4f60\u6700\u8fd1\u63a5\u89f8\u5230\u7684\u73a9\u5bb6\u3002"
+    }, 
+    "Private games you make will only be visible to these players.": {
+        "message": "\u4f60\u5efa\u7acb\u7684\u79c1\u4eba\u904a\u6232\u53ea\u80fd\u5920\u88ab\u9019\u4e9b\u73a9\u5bb6\u770b\u5230\u3002"
+    }, 
+    "RECENT": {
+        "message": "\u6700\u8fd1"
+    }, 
+    "REMOVE": {
+        "message": "\u79fb\u9664"
+    }, 
+    "RENAME": {
+        "message": "\u91cd\u65b0\u547d\u540d"
+    }, 
+    "Refresh Contacts": {
+        "message": "\u91cd\u65b0\u6574\u7406\u6e05\u55ae"
+    }, 
+    "Refreshing friends list.....": {
+        "message": "\u6b63\u5728\u91cd\u65b0\u6574\u7406\u597d\u53cb\u5217\u8868....."
+    }, 
+    "SOCIAL": {
+        "message": "\u793e\u4ea4"
+    }, 
+    "Tag": {
+        "message": "\u6a19\u7c64"
+    }, 
+    "Tag Friend:": {
+        "message": "\u6a19\u7c64\u597d\u53cb:"
+    }, 
+    "Tags:": {
+        "message": "\u6a19\u7c64:"
+    }, 
+    "UBERDEX": {
+        "message": "UBERDEX"
+    }, 
+    "Uber Name": {
+        "message": "Uber \u540d\u7a31"
+    }, 
+    "UberId:": {
+        "message": "UberId:"
+    }, 
+    "or": {
+        "message": "\u6216"
+    }
+}

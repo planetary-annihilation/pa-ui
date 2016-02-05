@@ -1,0 +1,35 @@
+{
+    "CANCEL": {
+        "message": "LUK"
+    }, 
+    "Delete": {
+        "message": "SLET"
+    }, 
+    "Delete Planet": {
+        "message": "Slet Planet"
+    }, 
+    "Delete this planet?": {
+        "message": "Slet Planeten?"
+    }, 
+    "Delete this system?": {
+        "message": "Slet Systemet?"
+    }, 
+    "Load Planet": {
+        "message": "Load Planet"
+    }, 
+    "Load System": {
+        "message": "Load System"
+    }, 
+    "New system": {
+        "message": "New system"
+    }, 
+    "SHOW PLANETS": {
+        "message": "VIS PLANETER"
+    }, 
+    "SHOW SYSTEMS": {
+        "message": "VIS SYSTEMER"
+    }, 
+    "System Designer": {
+        "message": "System Designer"
+    }
+}

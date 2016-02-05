@@ -1,0 +1,35 @@
+{
+    "CANCEL": {
+        "message": "\u041e\u0422\u041c\u0415\u041d\u0410"
+    }, 
+    "Delete": {
+        "message": "\u0423\u0414\u0410\u041b\u0418\u0422\u042c"
+    }, 
+    "Delete Planet": {
+        "message": "\u0423\u0434\u0430\u043b\u0438\u0442\u044c \u043f\u043b\u0430\u043d\u0435\u0442\u0443"
+    }, 
+    "Delete this planet?": {
+        "message": "\u0423\u0434\u0430\u043b\u0438\u0442\u044c \u044d\u0442\u0443 \u043f\u043b\u0430\u043d\u0435\u0442\u0443?"
+    }, 
+    "Delete this system?": {
+        "message": "\u0423\u0434\u0430\u043b\u0438\u0442\u044c \u044d\u0442\u0443 \u0441\u0438\u0441\u0442\u0435\u043c\u0443?"
+    }, 
+    "Load Planet": {
+        "message": "\u0417\u0430\u0433\u0440\u0443\u0437\u0438\u0442\u044c \u043f\u043b\u0430\u043d\u0435\u0442\u0443"
+    }, 
+    "Load System": {
+        "message": "\u0417\u0430\u0433\u0440\u0443\u0437\u0438\u0442\u044c \u0441\u0438\u0441\u0442\u0435\u043c\u0443"
+    }, 
+    "New system": {
+        "message": "\u041d\u043e\u0432\u0430\u044f \u0441\u0438\u0441\u0442\u0435\u043c\u0430"
+    }, 
+    "SHOW PLANETS": {
+        "message": "\u041f\u041e\u041a\u0410\u0417\u0410\u0422\u042c \u041f\u041b\u0410\u041d\u0415\u0422\u042b"
+    }, 
+    "SHOW SYSTEMS": {
+        "message": "\u041f\u041e\u041a\u0410\u0417\u0410\u0422\u042c \u0421\u0418\u0421\u0422\u0415\u041c\u042b"
+    }, 
+    "System Designer": {
+        "message": "\u0414\u0438\u0437\u0430\u0439\u043d\u0435\u0440 \u0421\u0438\u0441\u0442\u0435\u043c"
+    }
+}

@@ -1,0 +1,29 @@
+{
+    "AI Skirmish": {
+        "message": "Escaramuza IA"
+    }, 
+    "Cancel": {
+        "message": "Cancelar"
+    }, 
+    "Delete": {
+        "message": "Eliminar"
+    }, 
+    "Galactic War": {
+        "message": "Guerra galáctica"
+    }, 
+    "Game": {
+        "message": "Partida"
+    }, 
+    "Last Saved": {
+        "message": "Fecha de guardado"
+    }, 
+    "Resume Game": {
+        "message": "Retomar partida"
+    }, 
+    "Saved Games": {
+        "message": "Partidas guardadas"
+    }, 
+    "Type": {
+        "message": "Tipo"
+    }
+}

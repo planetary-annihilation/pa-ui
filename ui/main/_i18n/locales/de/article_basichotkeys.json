@@ -1,0 +1,26 @@
+{
+    "Important Hotkeys": {
+        "message": "Wichtige Hotkeys"
+    }, 
+    "PA Guide: Basic Hotkeys": {
+        "message": "PA-Anleitung: Grundlegende Hotkeys"
+    }, 
+    "[style=hotkey_title]__hotkey__[/style] - Select Commander": {
+        "message": "[style=hotkey_title]__hotkey__[/style] - Wähle Kommandanten"
+    }, 
+    "[style=hotkey_title]__hotkey__[/style] - Select all of currently-selected unit(s) that are visible": {
+        "message": "[style=hotkey_title]__hotkey__[/style] - Von allen ausgewählten Einheiten die auswählen, die sichtbar sind"
+    }, 
+    "[style=hotkey_title]__hotkey__[/style] - Select idle fabbers on screen": {
+        "message": "[style=hotkey_title]__hotkey__[/style] - Wähle inaktive Fabber auf dem Bildschirm aus"
+    }, 
+    "[style=hotkey_title]__hotkey__[/style] - Toggle energy orders": {
+        "message": "[style=hotkey_title]__hotkey__[/style] - Energiebefehle umschalten"
+    }, 
+    "[style=hotkey_title]__hotkey__[/style] - Toggle production": {
+        "message": "[style=hotkey_title]__hotkey__[/style] - Produktion umschalten"
+    }, 
+    "[style=hotkey_title]__hotkey__[/style] - Zoom to selected unit": {
+        "message": "[style=hotkey_title]__hotkey__[/style] - Gewählte Einheit heranzoomen"
+    }
+}

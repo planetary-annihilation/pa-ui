@@ -1,0 +1,119 @@
+{
+    "ABSURD": {
+        "message": "ABSURD"
+    }, 
+    "Active Wars": {
+        "message": "Actieve Oorlogen"
+    }, 
+    "Annihilate enemies on claimed systems to collect their Tech.": {
+        "message": "Vernietig vijanden in geclaimde sterrenstelsels om hun Technologie te verkrijgen."
+    }, 
+    "Annihilated": {
+        "message": "Vernietigd"
+    }, 
+    "Annihilation is final.": {
+        "message": "Vernietiging is definitief."
+    }, 
+    "Archived Wars": {
+        "message": "Gerachiveerde Oorlogen"
+    }, 
+    "Choose a loadout to give your Commander different starting Tech configurations.": {
+        "message": "Kies een uitrusting om je Commandant verschillende start Technologie\u00ebn te geven."
+    }, 
+    "Commander": {
+        "message": "Commandant"
+    }, 
+    "Details": {
+        "message": "Details"
+    }, 
+    "Difficulty:": {
+        "message": "Moeilijkheidsgraad:"
+    }, 
+    "EPIC": {
+        "message": "EPISCH"
+    }, 
+    "Explore unclaimed systems to recover Tech.": {
+        "message": "Verken ongeclaimde sterrenstelsels om Technologie te verkrijgen."
+    }, 
+    "Faction": {
+        "message": "Factie"
+    }, 
+    "Go to War": {
+        "message": "Ga ten Oorlog"
+    }, 
+    "HARD": {
+        "message": "MOEILIJK"
+    }, 
+    "How to Play": {
+        "message": "Hoe te Spelen"
+    }, 
+    "LARGE": {
+        "message": "GROOT"
+    }, 
+    "LOCKED": {
+        "message": "VERGRENDELD"
+    }, 
+    "Loadout": {
+        "message": "Uitrusting"
+    }, 
+    "MEDIUM": {
+        "message": "MEDIUM"
+    }, 
+    "Move from star system to star system collecting Techs. Use those Techs to defeat the enemy faction leaders and conquer the galaxy!": {
+        "message": "Beweeg van sterrenstelsel tot sterrenstel en verzamel technologie. Gebruik deze technologie om de vijandelijke factieleiders te verslaan en verover de melkweg."
+    }, 
+    "NORMAL": {
+        "message": "NORMAAL"
+    }, 
+    "Name": {
+        "message": "Naam"
+    }, 
+    "Navigate the galaxy map by jumping from system to system.": {
+        "message": "Navigeer de galactische kaart door van sterrenstelsel naar sterrenstelsel te springen."
+    }, 
+    "New Data Banks to store Techs can be found by exploring systems.": {
+        "message": "Door sterrenstelsel te verkennen kan je nieuwe Databanken vinden om technologie\u00ebn te bewaren."
+    }, 
+    "New War": {
+        "message": "Nieuwe Oorlog"
+    }, 
+    "RELENTLESS": {
+        "message": "MEEDOGENLOOS"
+    }, 
+    "SMALL": {
+        "message": "KLEIN"
+    }, 
+    "Seed Value": {
+        "message": "Seed Waarde"
+    }, 
+    "Setup": {
+        "message": "Configuratie"
+    }, 
+    "Size:": {
+        "message": "Grootte:"
+    }, 
+    "Some systems have hidden Commander loadouts. Recover them for future Galactic Wars.": {
+        "message": "Sommige sterrenstelsels bevatten verborgen uitrusting voor de Commandant. Verzamel deze voor volgende Galactische Oorlogen."
+    }, 
+    "Tech can be deleted to make room for new ones to download. Deleted and rejected Techs are lost for the remainder of the Galactic War.": {
+        "message": "Technologie kan verwijderd worden om plaats te maken voor nieuwe technologie. Verwijderde en verworpen technologie gaan verloren voor de rest van de Galactische Oorlog."
+    }, 
+    "Tip:": {
+        "message": "Tip:"
+    }, 
+    "Tips": {
+        "message": "Tips"
+    }, 
+    "Turns:": {
+        "message": "Beurtren:"
+    }, 
+    "UBER": {
+        "message": "UBER"
+    }, 
+    "Victory": {
+        "message": "Overwinning"
+    }, 
+    "Wins:": {
+        "message": "Overwinningen:"
+    }
+}

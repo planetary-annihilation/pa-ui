@@ -1,0 +1,104 @@
+{
+    "APPROVE": {
+        "message": "APPROVE"
+    }, 
+    "APPROVED USERS": {
+        "message": "APPROVED USERS"
+    }, 
+    "Add": {
+        "message": "Add"
+    }, 
+    "Add Contacts": {
+        "message": "Add Contacts"
+    }, 
+    "Add a Friend": {
+        "message": "Add a Friend"
+    }, 
+    "BLOCK": {
+        "message": "BLOCK"
+    }, 
+    "BLOCKED USERS": {
+        "message": "BLOCKED USERS"
+    }, 
+    "Cancel": {
+        "message": "Cancel"
+    }, 
+    "Close": {
+        "message": "Close"
+    }, 
+    "Contact List Updated": {
+        "message": "Contact List Updated"
+    }, 
+    "Contact Not Found": {
+        "message": "Contact Not Found"
+    }, 
+    "Current Nickname:": {
+        "message": "Current Nickname:"
+    }, 
+    "Dismiss": {
+        "message": "Dismiss"
+    }, 
+    "Filter contacts by tag:": {
+        "message": "Filter contacts by tag:"
+    }, 
+    "Games you make will be hidden to these players.": {
+        "message": "Games you make will be hidden to these players."
+    }, 
+    "Name:": {
+        "message": "Name: "
+    }, 
+    "New Nickname:": {
+        "message": "New Nickname: "
+    }, 
+    "New Tag:": {
+        "message": "New Tag: "
+    }, 
+    "Players you have encountered recently.": {
+        "message": "Players you have encountered recently."
+    }, 
+    "Private games you make will only be visible to these players.": {
+        "message": "Private games you make will only be visible to these players."
+    }, 
+    "RECENT": {
+        "message": "RECENT"
+    }, 
+    "REMOVE": {
+        "message": "REMOVE"
+    }, 
+    "RENAME": {
+        "message": "RENAME"
+    }, 
+    "Refresh Contacts": {
+        "message": "Refresh Contacts"
+    }, 
+    "Refreshing friends list.....": {
+        "message": "Refreshing friends list....."
+    }, 
+    "Rename": {
+        "message": "Rename"
+    }, 
+    "Rename Friend": {
+        "message": "Rename Friend"
+    }, 
+    "SOCIAL": {
+        "message": "SOCIAL"
+    }, 
+    "Tag": {
+        "message": "Tag"
+    }, 
+    "Tag Friend:": {
+        "message": "Tag Friend: "
+    }, 
+    "Tags:": {
+        "message": "Tags: "
+    }, 
+    "UBERDEX": {
+        "message": "UBERDEX"
+    }, 
+    "Uber Name": {
+        "message": "Uber Name"
+    }, 
+    "or": {
+        "message": "or"
+    }
+}

@@ -1,0 +1,29 @@
+{
+    "AI Skirmish": {
+        "message": "KI-Gefecht"
+    }, 
+    "Cancel": {
+        "message": "Abbrechen"
+    }, 
+    "Delete": {
+        "message": "Löschen"
+    }, 
+    "Galactic War": {
+        "message": "Galaktischer Krieg"
+    }, 
+    "Game": {
+        "message": "Spiel"
+    }, 
+    "Last Saved": {
+        "message": "Zuletzt gespeichert"
+    }, 
+    "Resume Game": {
+        "message": "Spiel fortsetzen"
+    }, 
+    "Saved Games": {
+        "message": "Gespeicherte Spiele"
+    }, 
+    "Type": {
+        "message": "Art"
+    }
+}

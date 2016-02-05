@@ -1,0 +1,113 @@
+{
+    "Abandon": {
+        "message": "Abbandona"
+    }, 
+    "Accept": {
+        "message": "Conferma"
+    }, 
+    "Back": {
+        "message": "Indietro"
+    }, 
+    "Cancel": {
+        "message": "Annulla"
+    }, 
+    "Decline": {
+        "message": "Rifiuta"
+    }, 
+    "Enter Queue": {
+        "message": "Entra in coda"
+    }, 
+    "Failed to Join": {
+        "message": "Impossibile partecipare"
+    }, 
+    "Failed to connect to match making server.": {
+        "message": "Impossibile connettersi al server del matchmaking."
+    }, 
+    "Failed to create game.": {
+        "message": "Impossibile creare la partita."
+    }, 
+    "Match Making Error": {
+        "message": "Errore del matchmaking"
+    }, 
+    "Match Making Penalty": {
+        "message": "Penalità del matchmaking"
+    }, 
+    "Matchmaking found a match!": {
+        "message": "Il matchmaking ha trovato una partita!"
+    }, 
+    "One or more other players declined or the match expired.": {
+        "message": "La partita è scaduta oppure uno o più giocatori hanno rifiutato."
+    }, 
+    "Opponent": {
+        "message": "Avversario"
+    }, 
+    "Reconnect": {
+        "message": "Riconnetti"
+    }, 
+    "Unable to connect to server.": {
+        "message": "Impossibile connettersi al server."
+    }, 
+    "You": {
+        "message": "Tu"
+    }, 
+    "You are already assigned to a match.": {
+        "message": "Ti è già stata assegnata una partita."
+    }, 
+    "You have been penalized for abandoning a game, please try matchmaking again when your penalty has expired.": {
+        "message": "Hai subìto una penalità per aver abbandonato una partita. Prova a effettuare nuovamente il matchmaking quando la penalità sarà scaduta."
+    }, 
+    "You have been penalized for abandoning a game.": {
+        "message": "Hai subìto una penalità per aver abbandonato una partita."
+    }, 
+    "You were penalized for abandoning, but your penalty has now expired.": {
+        "message": "La penalità per aver abbandonato una partita è scaduta."
+    }, 
+    "Your confirmation was not received in time.": {
+        "message": "La tua conferma non è stata ricevuta in tempo."
+    }, 
+    "average queue time": {
+        "message": "tempo medio d'attesa"
+    }, 
+    "beginning match making": {
+        "message": "avvio matchmaking..."
+    }, 
+    "connecting to matchmaker": {
+        "message": "connessione al matchmaking in corso..."
+    }, 
+    "finding game server": {
+        "message": "ricerca del server di gioco in corso..."
+    }, 
+    "idle": {
+        "message": "in attesa"
+    }, 
+    "leaving match making": {
+        "message": "abbandono del matchmaking in corso..."
+    }, 
+    "leaving queue": {
+        "message": "abbandono della coda in corso..."
+    }, 
+    "match expires in:": {
+        "message": "la partita scadrà fra"
+    }, 
+    "match found": {
+        "message": "partita trovata"
+    }, 
+    "penalty expires in:": {
+        "message": "la penalità scadrà fra"
+    }, 
+    "players in queue": {
+        "message": "giocatori in coda"
+    }, 
+    "queue time": {
+        "message": "tempo d'attesa"
+    }, 
+    "reconnect": {
+        "message": "riconnetti"
+    }, 
+    "searching for opponent": {
+        "message": "in cerca di un avversario"
+    }, 
+    "searching for opponents": {
+        "message": "in cerca di avversari"
+    }
+}

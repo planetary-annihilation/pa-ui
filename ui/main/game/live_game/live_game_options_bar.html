@@ -1,0 +1,56 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <meta locns="live_game" />
+        <noloc><title>Live Game: Options Bar</title></noloc>
+        <link href="bundle://boot/boot.css" rel="stylesheet" type="text/css" />
+        <link href="live_game_options_bar.css" rel="stylesheet" type="text/css" />
+        <script src="bundle://boot/boot.js" type="text/javascript"></script>
+
+        <script src="live_game_options_bar.js" type="text/javascript"></script>
+    </head>
+    <body class="body_panel">
+        <body-dock class="body-dock">
+            <!-- PIP BUTTON -->
+            <div class="btn_std_ix div_pip_toggle_cont" data-placement="left" data-tooltipkey="toggle_pips" data-bind="tooltip: '!LOC:Second Camera PIP'">
+                <img class="img_pip" data-bind="click: togglePips, attr: { src: pipImage }" />
+            </div>
+            <div class="wrapper_ingame_options_bar">
+                <div class="div_ingame_options_bar" style="display: none" data-bind="visible: true">
+                    <div class="div_ingame_options_bar_cont">
+                        <!-- PING -->
+                        <div class="btn_ingame_options btn_std_ix" data-tooltipkey="command_mode_ping" data-bind="click: startCommandModePing, tooltip: '!LOC:Ping', click_sound: 'default', rollover_sound: 'default'">
+                            <img src="img/ingame_options_bar/ping.png" />
+                        </div>
+                        <!-- TIME CONTROLS BUTTON -->
+                        <div class="btn_ingame_options div_time_invoke_cont btn_std_ix" id="btn_time_controls" data-bind="click: toggleTimeControls, tooltip: '!LOC:Chrono Cam Replay', click_sound: 'default', rollover_sound: 'default'">
+                            <img src="img/ingame_options_bar/chronocam.png" />
+                        </div>
+                        <!-- TOGGLE UBERBAR BUTTON -->
+                        <div class="btn_ingame_options div_uberbar_toggle_cont btn_std_ix" id="btn_uberbar" data-bind="click: toggleUberBar, tooltip: '!LOC:Social Bar', click_sound: 'default', rollover_sound: 'default'">
+                            <img data-bind="attr: { src: uberBarImage }" />
+                        </div>
+                        <!-- GAME MENU BUTTON -->
+
+                        <!-- ko ifnot: saving -->
+                        <div class="btn_ingame_options div_uberbar_toggle_cont btn_std_ix"
+                             data-tooltipkey="modal_back" data-bind="click: toggleMenu, tooltip: '!LOC:Game Menu', click_sound: 'default', rollover_sound: 'default'">
+                            <img src="img/ingame_options_bar/game_menu.png" />
+                        </div>
+                        <!-- /ko -->
+
+                        <!-- ko if: saving -->
+                        <div class="btn_ingame_options div_uberbar_toggle_cont btn_std_ix" style="opacity: 0.5" data-tooltipkey="modal_back" data-bind="tooltip: '!LOC:Game Menu'">
+                            <img src="img/ingame_options_bar/game_menu.png" />
+                        </div>
+                        <!-- /ko -->
+
+                        <!-- TIMER / CLOCK -->
+                        <div class="div_ingame_timer" data-bind="text: endOfTimeString">00:01</div>
+                    </div>
+                </div>
+            </div>
+        </body-dock>
+    </body>
+</html>

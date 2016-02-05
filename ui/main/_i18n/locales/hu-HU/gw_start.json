@@ -1,0 +1,119 @@
+{
+    "ABSURD": {
+        "message": "ABSZURD"
+    }, 
+    "Active Wars": {
+        "message": "Akt\u00edv H\u00e1bor\u00fak"
+    }, 
+    "Annihilate enemies on claimed systems to collect their Tech.": {
+        "message": "Semmis\u00edtsd meg az ellenfeleidet az elfoglalt naprendszerekben, hogy begy\u0171jthesd a Technol\u00f3gi\u00e1jukat. "
+    }, 
+    "Annihilated": {
+        "message": "Megsemmis\u00edtve"
+    }, 
+    "Annihilation is final.": {
+        "message": "A Megsemmis\u00edt\u00e9s befejez\u0151d\u00f6tt."
+    }, 
+    "Archived Wars": {
+        "message": "T\u00e1rolt H\u00e1bor\u00fak"
+    }, 
+    "Choose a loadout to give your Commander different starting Tech configurations.": {
+        "message": "V\u00e1lassz egy felszerel\u00e9st, hogy k\u00fcl\u00f6nb\u00f6z\u0151 technol\u00f3giai konfigur\u00e1ci\u00f3kat adhass a Parancsnokodnak."
+    }, 
+    "Commander": {
+        "message": "Parancsnok"
+    }, 
+    "Details": {
+        "message": "R\u00e9szletek"
+    }, 
+    "Difficulty:": {
+        "message": "Neh\u00e9zs\u00e9g:"
+    }, 
+    "EPIC": {
+        "message": "EPIKUS"
+    }, 
+    "Explore unclaimed systems to recover Tech.": {
+        "message": "Kutass \u00e1t gazd\u00e1tlan naprendszereket, hogy szerezhess \u00faj Technol\u00f3gi\u00e1kat."
+    }, 
+    "Faction": {
+        "message": "Frakci\u00f3"
+    }, 
+    "Go to War": {
+        "message": "Indul\u00e1s a H\u00e1bor\u00faba"
+    }, 
+    "HARD": {
+        "message": "NEH\u00c9Z"
+    }, 
+    "How to Play": {
+        "message": "S\u00fag\u00f3"
+    }, 
+    "LARGE": {
+        "message": "NAGY"
+    }, 
+    "LOCKED": {
+        "message": "Z\u00c1ROLVA"
+    }, 
+    "Loadout": {
+        "message": "Felszerel\u00e9s"
+    }, 
+    "MEDIUM": {
+        "message": "K\u00d6ZEPES"
+    }, 
+    "Move from star system to star system collecting Techs. Use those Techs to defeat the enemy faction leaders and conquer the galaxy!": {
+        "message": "Haladj naprendszerr\u0151l naprendszerre \u00e9s gy\u0171jts Technol\u00f3gi\u00e1kat, valamint ezek seg\u00edts\u00e9g\u00e9vel hajtsd uralmad al\u00e1 az ellens\u00e9ges frakci\u00f3k vezet\u0151it \u00e9s az eg\u00e9sz galaxist!"
+    }, 
+    "NORMAL": {
+        "message": "NORM\u00c1L"
+    }, 
+    "Name": {
+        "message": "N\u00e9v"
+    }, 
+    "Navigate the galaxy map by jumping from system to system.": {
+        "message": "Naprenszerek k\u00f6z\u00f6tti ugr\u00e1l\u00e1ssal navig\u00e1ld a galaxist."
+    }, 
+    "New Data Banks to store Techs can be found by exploring systems.": {
+        "message": "\u00daj adatbankokat - melyeket Technol\u00f3gi\u00e1k t\u00e1rol\u00e1s\u00e1ra haszn\u00e1lhatsz - a naprendszerek felkutat\u00e1s\u00e1val szerezhetsz."
+    }, 
+    "New War": {
+        "message": "\u00daj H\u00e1bor\u00fa"
+    }, 
+    "RELENTLESS": {
+        "message": "K\u00d6NY\u00d6RTELEN"
+    }, 
+    "SMALL": {
+        "message": "KICSI"
+    }, 
+    "Seed Value": {
+        "message": "Kezd\u0151\u00e9rt\u00e9k"
+    }, 
+    "Setup": {
+        "message": "Be\u00e1ll\u00edt\u00e1s"
+    }, 
+    "Size:": {
+        "message": "M\u00e9ret:"
+    }, 
+    "Some systems have hidden Commander loadouts. Recover them for future Galactic Wars.": {
+        "message": "N\u00e9h\u00e1ny naprendszerben elrejtett Parancsnoki felszerel\u00e9sek vannak. Szerezd meg \u0151ket k\u00e9s\u0151bbi Galaktikus H\u00e1bor\u00fak lebonyol\u00edt\u00e1s\u00e1hoz."
+    }, 
+    "Tech can be deleted to make room for new ones to download. Deleted and rejected Techs are lost for the remainder of the Galactic War.": {
+        "message": "T\u00f6r\u00f6lhetsz Technol\u00f3gi\u00e1kat, hogy helyet csin\u00e1lj az \u00fajabbaknak. A t\u00f6r\u00f6lt vagy elutas\u00edtott Technol\u00f3gi\u00e1k nem \u00e1ll\u00edthat\u00f3ak m\u00e1r vissza a Galaktikus H\u00e1bor\u00faba."
+    }, 
+    "Tip:": {
+        "message": "Tipp:"
+    }, 
+    "Tips": {
+        "message": "Tippek"
+    }, 
+    "Turns:": {
+        "message": "K\u00f6r\u00f6k:"
+    }, 
+    "UBER": {
+        "message": "UBER"
+    }, 
+    "Victory": {
+        "message": "Gy\u0151zelem"
+    }, 
+    "Wins:": {
+        "message": "Gy\u0151zelmek:"
+    }
+}

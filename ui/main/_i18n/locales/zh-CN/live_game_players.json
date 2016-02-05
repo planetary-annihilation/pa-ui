@@ -1,0 +1,50 @@
+{
+    "ALLY": {
+        "message": "\u8054\u76df"
+    }, 
+    "ARMY": {
+        "message": "\u519b\u56e2"
+    }, 
+    "Accept": {
+        "message": "\u540c\u610f"
+    }, 
+    "Alliance Request": {
+        "message": "\u8054\u76df\u8bf7\u6c42"
+    }, 
+    "Alliance requested": {
+        "message": "\u5df2\u53d1\u51fa\u8054\u76df\u8bf7\u6c42"
+    }, 
+    "Allied With:": {
+        "message": "\u5df2\u7ed3\u76df\u73a9\u5bb6: "
+    }, 
+    "Count": {
+        "message": "\u6570\u91cf"
+    }, 
+    "ECONOMY": {
+        "message": "\u7ecf\u6d4e"
+    }, 
+    "Efficiency": {
+        "message": "\u6548\u80fd"
+    }, 
+    "Fabber": {
+        "message": "\u5de5\u7a0b\u5355\u4f4d"
+    }, 
+    "Factory": {
+        "message": "\u5de5\u5382\u6570\u91cf"
+    }, 
+    "Ignore": {
+        "message": "\u5ffd\u7565"
+    }, 
+    "Mobile": {
+        "message": "\u79fb\u52a8\u901f\u5ea6"
+    }, 
+    "PLAYER": {
+        "message": "\u73a9\u5bb6"
+    }, 
+    "RESC": {
+        "message": "RESC"
+    }, 
+    "Request pending": {
+        "message": "\u7b49\u5f85\u786e\u8ba4"
+    }
+}

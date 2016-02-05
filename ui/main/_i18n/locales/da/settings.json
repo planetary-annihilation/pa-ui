@@ -1,0 +1,50 @@
+{
+    "Cancel": {
+        "message": "Annull\u00e9r"
+    }, 
+    "ENABLE MICROPHONE": {
+        "message": "SL\u00c5 MIKROFON TIL"
+    }, 
+    "ENABLE STREAMING (Takes effect immediately)": {
+        "message": "ENABLE STREAMING (Takes effect immediately)"
+    }, 
+    "ENABLE SYSTEM SOUNDS": {
+        "message": "SL\u00c5 SYSTEM LYDE TIL"
+    }, 
+    "Livestream Settings": {
+        "message": "Livestream Settings"
+    }, 
+    "OFF": {
+        "message": "OFF"
+    }, 
+    "ON": {
+        "message": "ON"
+    }, 
+    "Password": {
+        "message": "Kode"
+    }, 
+    "RESTORE ALL DEFAULTS": {
+        "message": "RESTORE ALL DEFAULTS"
+    }, 
+    "RESTORE DEFAULTS": {
+        "message": "GENSKAB STANDARDER"
+    }, 
+    "SERVER": {
+        "message": "SERVER"
+    }, 
+    "Save": {
+        "message": "Gem"
+    }, 
+    "Save And Close": {
+        "message": "Save And Close"
+    }, 
+    "Settings": {
+        "message": "Indstillinger"
+    }, 
+    "Sign in with Your Twitch ID": {
+        "message": "Sign in with Your Twitch ID"
+    }, 
+    "Signed in as": {
+        "message": "Logget ind som"
+    }
+}

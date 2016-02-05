@@ -1,0 +1,89 @@
+{
+    "ANNIHILATION COMPLETE": {
+        "message": "ANNIHILATION COMPLETE"
+    }, 
+    "APM": {
+        "message": "APM"
+    }, 
+    "Average": {
+        "message": "Average"
+    }, 
+    "Built": {
+        "message": "Built"
+    }, 
+    "Destroyed": {
+        "message": "Destroyed"
+    }, 
+    "Determining ladder rank...": {
+        "message": "Determining ladder rank..."
+    }, 
+    "Draw": {
+        "message": "Draw"
+    }, 
+    "Duration:": {
+        "message": "Duration:"
+    }, 
+    "Efficiency": {
+        "message": "Efficiency"
+    }, 
+    "Energy": {
+        "message": "Energy"
+    }, 
+    "Metal": {
+        "message": "Metal"
+    }, 
+    "Produced": {
+        "message": "Produced"
+    }, 
+    "QUIT TO MAIN MENU": {
+        "message": "QUIT TO MAIN MENU"
+    }, 
+    "REVIEW": {
+        "message": "REVIEW"
+    }, 
+    "Requeue": {
+        "message": "Requeue"
+    }, 
+    "SPECTATE": {
+        "message": "SPECTATE"
+    }, 
+    "The battle ended in a draw.": {
+        "message": "The battle ended in a draw."
+    }, 
+    "The game has ended.": {
+        "message": "The game has ended."
+    }, 
+    "Total Oblivion": {
+        "message": "Total Oblivion"
+    }, 
+    "Units": {
+        "message": "Units"
+    }, 
+    "Used": {
+        "message": "Used"
+    }, 
+    "VICTORY IS YOURS": {
+        "message": "VICTORY IS YOURS"
+    }, 
+    "VIEW RESULTS": {
+        "message": "VIEW RESULTS"
+    }, 
+    "VIEW STATS": {
+        "message": "VIEW STATS"
+    }, 
+    "Winner:": {
+        "message": "Winner:"
+    }, 
+    "Winners:": {
+        "message": "Winners:"
+    }, 
+    "YOU'VE BEEN ANNIHILATED": {
+        "message": "YOU'VE BEEN ANNIHILATED"
+    }, 
+    "You currently have an unknown rank status. Complete more games to determine your ladder ranking.": {
+        "message": "You currently have an unknown rank status. Complete more games to determine your ladder ranking."
+    }, 
+    "Your 1v1 Ladder rank is __rank_title__.": {
+        "message": "Your 1v1 Ladder rank is __rank_title__."
+    }
+}

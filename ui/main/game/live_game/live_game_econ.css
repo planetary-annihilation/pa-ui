@@ -1,0 +1,377 @@
+/* UTILITY */
+.receiveMouse {
+    pointer-events: all;
+}
+
+.ignoreMouse {
+    pointer-events: none;
+}
+
+.body_panel {
+    width: 100%;
+}
+
+/*----- STATUS BAR
+-----------------------------------------------------------------*/
+
+.div-econ-bar {
+    position: relative;
+    top: -30px;
+    height: 120px;
+    width: 100%;
+    font-family: 'Trebuchet MS';
+    font-weight: bold;
+    margin: -15px auto 0px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    opacity: 0;
+    -webkit-transition: all .2s ease-in-out; /* this timing keeps us in sync with the action bar pretty well */
+}
+
+.show-econ {
+    opacity: 1;
+    top: 0;
+}
+
+.div-metal {
+    width: 360px;
+    border-image: url('img/status_bar/img-econ-bar-left.png') 60 25 0 51 fill;
+    border-width: 60px 25px 0px 51px;
+    margin-right: 0px;
+    position: relative;
+}
+
+
+.div-energy {
+    width: 360px;
+    border-image: url('img/status_bar/img-econ-bar-right.png') 60 51 0 25 fill;
+    border-width: 60px 51px 0px 25px;
+    margin-left: 0px;
+    position: relative;
+}
+
+    .div-metal .contents, .div-energy .contents {
+        height: 30px;
+        margin: -45px 0px 0px 0px;
+        position: relative;
+    }
+
+.div-metal .contents {
+    margin-left: -6px;
+    display: flex;
+}
+
+.div-energy .contents {
+    margin-right: 0px;
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 94px;
+}
+
+.div-econ {
+    height: 45px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    position: absolute;
+    z-index: 1;
+    left: 0;
+    right: 0;
+}
+
+    .div-econ > .wrapper {
+        height: 60px;
+        border-image: url('img/status_bar/img-efficiency-bground.png') 18 47 18 47 fill;
+        border-width: 18px 47px 18px 47px;
+        margin-top: 0px;
+        position: relative;
+        display: flex;
+    }
+
+        .div-econ > .wrapper > div {
+            height: 28px;
+            display: flex;
+            flex-direction: column;
+            align-content: center;
+            align-items: center;
+            justify-content: center;
+        }
+
+.div_efficiency {
+    margin: 0 -8px 0 -8px;
+    padding: 0 0 0 0;
+    display: flex;
+}
+
+.div_multiplier {
+    height: 100%;
+    margin: -2px 0 0 16px;
+    flex-shrink: 0;
+    font-family: 'Trebuchet MS';
+    padding: 0 0 0 8px;
+    border-left: 1px solid #4D4D4D;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+    .div_multiplier > .value {
+        min-width: 40px;
+        color: #000;
+        background: linear-gradient(to top, #ff0000 0%, #ff7e00 20%, #fcff00 100%);
+        padding: 1px 4px 1px;
+        text-shadow: 0 0 10px #fff600;
+        border: 1px solid #eaff00;
+        box-shadow: 0 0 20px #fff600;
+    }
+
+.div_handicap_ctr_perc_center {
+    font-size: 16px;
+    color: #FFF;
+    margin: 0px 0px 0px 0px;
+}
+
+.div_econ_notification_bar {
+    height: 100%;
+    width: 100%;
+    z-index: 2;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    opacity: 0;
+}
+
+    .div_econ_notification_bar > .notification {
+        border-image: url('img/status_bar/img-bounty-bground.png') 18 47 0 47 fill;
+        border-width: 18px 47px 0 47px;
+        display: flex;
+        margin-top: 15px;
+        justify-content: center;
+        align-items: center;
+        padding: 0 10px;
+        color: #000;
+        font-family: 'Sansation Regular TTF';
+        font-size: 14px;
+        font-weight: normal;
+        text-shadow: 0 0 10px #fff600;
+    }
+
+        .div_econ_notification_bar > .notification > div {
+            margin: -18px 0 0 0;
+        }
+
+.category_icon_metal {
+    width: 34px;
+    border-left: 1px solid #4D4D4D;
+    padding: 5px 6px 0px;
+}
+
+.category_icon_energy {
+    width: 34px;
+    border-left: 1px solid #4D4D4D;
+    padding: 6px 6px 0px;
+    text-align: center;
+}
+
+.div_status_bar_display {
+    margin: 10px 6px 0px 0px;
+}
+
+.status_bar_frame {
+    border: 1px solid #D1D1D1;
+    border-radius: 0px;
+    height: 6px;
+    margin: -4px 0px 0px 0px;
+    width: 90px;
+}
+
+.status_bar_frame_narrow {
+    border: 1px solid #D1D1D1;
+    border-radius: 0px;
+    height: 6px;
+    margin: -4px 0px 0px 0px;
+    width: 70px;
+}
+
+.status_bar_frame_red {
+    opacity: .3;
+}
+
+.status_bar_metal {
+    height: 100%;
+    width: 75%;
+}
+
+.status_bar_energy {
+    height: 100%;
+    width: 75%;
+}
+
+.status_stats {
+    color: #D1D1D1;
+    font-size: 10px;
+    margin: 0px 0px 0px 0px;
+    text-align: left;
+    width: 100%;
+}
+
+.div_rate_ctr_cont {
+    display: flex;
+    margin: 0px -100px 0px 0px;
+    overflow: hidden;
+}
+
+.div_build_rate_cont {
+    text-align: center;
+}
+
+.div_rate_ctr_overall {
+    width: 72px;
+    font-size: 16px;
+    text-align: left;
+    border: 1px solid #4D4D4D;
+    border-width: 0px 1px;
+    margin: 0px 0px 0px 0px;
+    padding: 2px 4px 0px;
+    box-shadow: inset 0px 0px 10px red;
+    -webkit-transition: .3s ease-out;
+}
+
+    .div_rate_ctr_overall:hover {
+        border: 1px solid rgba(30,122,161,1);
+        border-width: 0px 1px;
+        -webkit-transition: none;
+    }
+
+    .div_rate_ctr_overall:active {
+        border: 1px solid rgba(0,179,255,1);
+        border-width: 0px 1px;
+        color: #fff;
+    }
+
+.div_rate_ctr_perc_center {
+    font-size: 16px;
+    text-align: center;
+    margin: 0px 0px 0px 0px;
+}
+
+.build_eff_text {
+    margin: -1px 0px -4px 0px;
+    text-transform: uppercase;
+    color: #FFF;
+    font-family: 'Sansation Bold';
+    font-size: 10px;
+    text-shadow: 0px 0px 20px #00B3FF;
+}
+
+.color_positive {
+    background-image: -webkit-gradient( linear, left bottom, left top, color-stop(0, #00B800), color-stop(1, #4FFF69) );
+    box-shadow: 0px 0px 20px #4FFF69;
+    text-shadow: 0px 0px 20px rgba(79, 255, 105,.5);
+}
+
+.color_handicap {
+    background-image: -webkit-gradient( linear, left bottom, left top, color-stop(0, #FFFF00), color-stop(1, #FFFF99) );
+    box-shadow: 0px 0px 20px #4FFF69;
+    text-shadow: 0px 0px 20px rgba(79, 255, 105,.5);
+}
+
+.color_negative {
+    background-image: -webkit-gradient( linear, left bottom, left top, color-stop(0, #E00000), color-stop(1, #FF0000) );
+    box-shadow: 0px 0px 20px #FF0000;
+    text-shadow: 0px 0px 20px rgba(255, 0, 0,.5);
+}
+
+.color_warning {
+    background-image: -webkit-gradient( linear, left bottom, left top, color-stop(0, #B5B500), color-stop(1, #FFFF00) );
+    box-shadow: 0px 0px 20px #FFFF00;
+    text-shadow: 0px 0px 20px rgba(255, 255, 0, .5);
+}
+
+.color_waste {
+    background-image: -webkit-gradient( linear, left bottom, left top, color-stop(0, #008EBD), color-stop(1, #00BFFF) );
+    box-shadow: 0px 0px 20px #00BFFF;
+    text-shadow: 0px 0px 20px rgba(0, 191, 255, .5);
+}
+
+.text_rate {
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.rate_positive_small {
+    color: #4FFF69;
+}
+
+.rate_negative_small {
+    color: #ff0000;
+}
+
+.div_plusminus_rate_cont {
+    /*height: 30px;*/
+    width: auto;
+    min-width: 30px;
+    text-align: left;
+    margin: 1px 6px 0px 0px;
+}
+
+.rate_stat {
+    font-size: 10px;
+    margin: 0px 0px -4px 0px;
+}
+
+.div_shared_resources {
+    width: 16px;
+    margin: 0px 0px 0px 0px;
+    border-right: 1px solid #4d4d4d;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.shared_resource_icon {
+    display: inline-block;
+    vertical-align: top;
+    margin: 0px 0px 0px -2px;
+}
+
+.tooltip {
+    font-weight: normal;
+    max-width: none;
+    line-height: 1.2;
+}
+
+.bounty_reward_notification {
+    opacity: 0;
+    -webkit-animation: reward_appear;
+    -webkit-animation-duration: 2.2s;
+}
+
+@-webkit-keyframes reward_appear {
+    0% {
+        opacity: 0;
+    }
+
+    20% {
+        opacity: 1;
+    }
+
+    80% {
+        opacity: 1;
+    }
+
+    100% {
+        opacity: 0;
+    }
+}
+
+.tooltip-inner {
+    white-space: nowrap;
+}

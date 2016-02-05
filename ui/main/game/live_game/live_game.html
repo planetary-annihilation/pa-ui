@@ -1,0 +1,198 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <noloc><title>Live Game</title></noloc>
+    <link href="bundle://boot/boot.css" rel="stylesheet" type="text/css" />
+    <link href="live_game.css" rel="stylesheet" type="text/css" />
+    <script src="bundle://boot/boot.js" type="text/javascript"></script>
+    <script src="coui://ui/main/shared/js/build.js" type="text/javascript"></script>
+
+    <script src="./js/constants.js" type="text/javascript"></script>
+    <script src="./js/audio.js" type="text/javascript"></script>
+    <script src="./js/events.js" type="text/javascript"></script>
+    <script src="./js/triggers.js" type="text/javascript"></script>
+    <script src="live_game.js" type="text/javascript"></script>
+</head>
+<body class="body_live_game" id="page" data-bind="event: { 'mousemove': globalMousemoveHandler, 'click': globalClickHandler, 'keyup': globalKeyupHandler }">
+    <svg xmlns="http://www.w3.org/2000/svg" version="1.1" x="0" y="0" width="0" height="0">
+        <defs>
+            <filter id="xfrm_greyscale_mask_green" x="0" y="0" width="100%" height="100%">
+                <feColorMatrix result="mat2" in="SourceGraphic"
+                    type="matrix"
+                    values="1  0   0   0   0
+                            1  0   0   0   0
+                            1  0   0   0   0
+                            0  -1   0   1   0" />
+            </filter>
+            <filter id="maskfilter">
+                <feColorMatrix in="SourceAlpha" type="matrix"
+                    values="0 0 0 1 0
+                            0 0 0 1 0
+                            0 0 0 1 0
+                            0 0 0 1 0">
+                </feColorMatrix>
+            </filter>
+            <mask id="player-mask">
+                <image width="12px" height="12px" xlink:href="img/players_list_panel/icon_player_fill.png" filter="url(#maskfilter)"></image>
+            </mask>
+        </defs>
+    </svg>
+
+    <!--TOP-->
+
+        <!--STATUS BAR-->
+        <panel id="header" no-gpu class="header-bar ignoreMouse" src="coui://ui/main/game/live_game/live_game_header.html" no-input fit="dock-top-width"></panel>
+        <div class="div_status_bar_cont ignoreMouse">
+            <panel id="econ" class="div_status_bar_panel" src="coui://ui/main/game/live_game/live_game_econ.html" no-keyboard yield-focus fit="dock-top" data-bind="visible: showResources"></panel>
+        </div>
+
+        <!--PLAYER LIST PANEL-->    
+        <panel id="players" src="coui://ui/main/game/live_game/live_game_players.html" no-keyboard yield-focus fit="dock-top-left" style="display: none" data-bind="visible: model.celestialControlModel.notActive"></panel>
+
+        <!--PLANET LIST PANEL-->    
+        <panel id="planets" src="coui://ui/main/game/live_game/live_game_planets.html" no-keyboard yield-focus fit="dock-top-right"></panel>
+
+        <!--CELESTIAL CONTROL BAR-->
+        <div class="celestial_control_cont ignoreMouse" style="display: none" data-bind="visible: showCelestialControl">
+            <panel id="celestial_control" no-gpu src="coui://ui/main/game/live_game/live_game_celestial_control.html" fit="dock-top" ></panel>
+        </div>
+
+        <!--ALERT PANEL-->
+        <div class="div_alert_panel_cont ignoreMouse" data-bind="visible: model.celestialControlModel.notActive() && !model.defeated()">
+            <panel id="unit_alert" src="coui://ui/main/game/live_game/live_game_unit_alert.html" no-keyboard yield-focus></panel>
+        </div>
+
+        <holodeck class="preview" style="display: none" no-focus>
+                <panel id="preview_pip_border" no-gpu class="pip_border" no-input border="{ image: '/ui/main/game/live_game/img/pip/pip_border.png', size: [44, 44, 44, 44], inset: [3, 3, 3, 3]}"></panel>
+        </holodeck>        
+
+    <!--RIGHT-->
+
+        <!--ACTION BAR (COMMAND + ORDERS)-->
+        <div class="div_sidebar_right ignoreMouse">
+            <panel id="action_bar" src="coui://ui/main/game/live_game/live_game_action_bar.html" no-keyboard yield-focus fit="dock-top-right" data-bind="visible: showActionBar"></panel>
+        </div>
+    
+    <!--LEFT-->
+
+        <!-- DEVMODE CONTROLS-->    
+        <div class="devmode_controls ignoreMouse" style="display: none" data-bind="visible: showDevControls">
+            <panel id="devmode" no-gpu no-keyboard yield-focus fit="dock-top-left" data-bind="attr: { src: devModePanelUrl }"></panel>
+            <br />
+            <panel id="sandbox" no-gpu no-keyboard yield-focus fit="dock-top-left" data-bind="attr: { src: sandboxPanelUrl }"></panel>
+        </div>
+    
+        <!--CHAT-->
+        <panel id="chat" no-gpu src="coui://ui/main/game/live_game/live_game_chat.html" fit="dock-bottom-left"></panel>
+
+    
+    <!--POPUPS AND OVERLAYS-->
+        <panel id="building_planets" no-gpu src="coui://ui/main/game/building_planets/building_planets.html" data-bind="visible: showGameLoading"></panel>
+        <panel id="popup" no-gpu src="coui://ui/main/game/live_game/live_game_popup.html" fit="dock" style="display: none" data-bind="visible: showPopUp"></panel>
+
+        <!--MESSAGE DISPLAY-->
+        <panel id="message" no-gpu class="div_widespan_msg" src="coui://ui/main/game/live_game/live_game_message.html" no-keyboard yield-focus fit="dock-bottom" style="display: none" data-bind="visible: showMessage"></panel>
+
+        <!--GAME PAUSED POPUP-->
+        <div class="div_game_paused ignoreMouse" style="display: none;" data-bind="visible: showPause">
+            <panel id="game_paused_panel" no-gpu src="coui://ui/main/game/live_game/live_game_paused_popup.html" no-keyboard yield-focus data-bind="visible: showPause">
+            </panel>
+        </div>
+
+        <!--GAMESTATS PANEL-->
+        <div class="div_gamestats_panel" data-bind="visible: gamestatsPanelIsOpen">
+            <panel id="gamestats" src="coui://ui/main/game/gamestats/gamestats.html" no-keyboard yield-focus></panel>
+        </div>
+
+        <!--GAME OVER POPUP-->
+        <div id="game_over" class="div_game_over_popup_overlay" style="display: none;" data-bind="visible: showGameOver">
+            <panel id="game_over_panel" src="coui://ui/main/game/game_over/game_over.html" style="display: none" data-bind="visible: showGameOver">
+            </panel>
+        </div>
+
+        <!--SETTINGS POPUP-->
+        <panel id="settings" src="coui://ui/main/game/settings/settings.html" fit="dock" style="display: none" data-bind="visible: showSettings">
+        </panel>
+
+        <!--PLAYER GUIDE POPUP-->
+        <panel id="player_guide" src="coui://ui/main/game/guide/guide.html" fit="dock" style="display: none" data-bind="visible: showPlayerGuide">
+        </panel>
+
+    <!--BOTTOM-->
+ 
+        <!--PIP-->
+        <holodeck class="primary"></holodeck>
+        <holodeck class="pip bottom_right"
+            style="display: none"
+            data-bind="visible: showPips,
+                    event: {
+                        mouseenter: function () { model.showPipControls(true) },
+                        mouseleave: function () { model.showPipControls(false || input.captured()) }
+                    },
+                    css: { bottom_show_uberbar: showUberBar }
+                ">
+                <panel id="bottom_right_pip_border" no-gpu class="pip_border" no-input border="{ image: '/ui/main/game/live_game/img/pip/pip_border.png', size: [44, 44, 44, 44], inset: [3, 3, 3, 3]}"></panel>
+                <div class="pip_controls ignoreMouse" no-gpu data-bind="visible: showPipControls">
+                    <panel id="pip_br_tl" no-gpu class="pip_controls_tl" src="coui://ui/main/game/live_game/live_game_pip_tl.html" no-keyboard yield-focus fit="dock-top-left"></panel>
+                </div>
+        </holodeck>
+
+        <!--FOOTER BACKGROUND-->
+        <panel id="footer" no-gpu class="bottom-bar ignoreMouse" src="coui://ui/main/game/live_game/live_game_footer.html" no-input style="display: none" 
+               data-bind="css: { bottom_show_uberbar: showUberBar, bottom_hide_unit_group_controls: !$root.showControlGroups(), bottom_show_unit_group_controls: $root.showControlGroups() }, visible: true" fit="dock-bottom-width"></panel>
+
+        <!--SELECTION-->
+        <div class="div_unit_selection_cont" data-bind="visible: showSelectionBar, css: { bottom_show_uberbar: showUberBar }">
+            <panel id="selection" src="coui://ui/main/game/live_game/live_game_selection.html" no-keyboard yield-focus fit="dock-bottom-left">
+                </panel>
+        </div>
+
+        <!--BUILD BAR-->
+        <div class="div_build_bar_cont ignoreMouse" data-bind="visible: showBuildList, css: { bottom_show_uberbar: showUberBar }">
+            <div class="div_build_grp">
+                <div class="div_build_hover">
+                    <panel id="build_hover" src="coui://ui/main/game/live_game/live_game_build_hover.html" no-input fit="dock-bottom" style="display: none" data-bind="visible: showBuildHover"></panel>
+                </div>
+                <div class="div_build_bar" id="bldbar1">
+                    <panel id="build_bar" src="coui://ui/main/game/live_game/live_game_build_bar.html" no-keyboard yield-focus fit="dock-bottom"></panel>
+                </div>
+            </div>
+        </div>
+
+        <!--GAME OPTIONS BAR-->
+        <panel id="options_bar" no-gpu src="coui://ui/main/game/live_game/live_game_options_bar.html" no-keyboard yield-focus fit="dock-bottom" 
+               data-bind="css: { bottom_show_uberbar: showUberBar, bottom_hide_unit_group_controls: !$root.showControlGroups(), bottom_show_unit_group_controls: $root.showControlGroups() }"></panel>
+
+        <!--GAME MENU-->
+        <div class="div_game_menu" 
+             data-bind="visible: showMenu, css: { bottom_show_uberbar: showUberBar, div_game_menu_hide_unit_group_controls: !$root.showControlGroups(), div_game_menu_bottom_show_unit_group_controls: $root.showControlGroups() }">
+            <panel id="menu" no-gpu src="coui://ui/main/game/live_game/live_game_menu.html" no-keyboard yield-focus fit="dock-left"></panel>
+        </div>
+
+        <!--CONTROL GROUP CONTROLS-->
+        <panel id="control_group_bar" src="coui://ui/main/game/live_game/live_game_control_group_bar.html" yield-focus fit="dock-bottom-right" style="display: none" data-bind="css: { bottom_show_uberbar: showUberBar }, visible: $root.showControlGroups()"></panel>
+
+        <!--TIME CONTROLS-->
+        <div class="div_time_bar ignoreMouse">
+            <div class="div_video_controls">
+                <panel id="time_bar" src="coui://ui/main/game/live_game/live_game_time_bar.html" no-keyboard yield-focus data-bind="visible: showTimeControls , css: { bottom_show_uberbar: showUberBar }" ></panel>
+            </div>
+        </div>
+
+        <!-- INGAME INFO BAR-->
+        <div class="div_ingame_info_bar"></div>
+
+        <!--UNIT HOVER INFO-->
+        <div class="div_bottom_left" data-bind="css: { bottom_show_uberbar: showUberBar, bottom_show_unit_group_controls: showControlGroups }">
+            <div class="div_unit_hover_info ignoreMouse">
+                <panel id="unit_hover_info" class="ignoreMouse" src="coui://ui/main/game/live_game/live_game_world_popup.html" no-input fit="dock-bottom-left">
+                </panel>
+            </div>
+        </div>
+
+        <div class="div_tutorial_bar" style="display: none;" data-bind="visible: $root.showTutorial()">
+            <panel id="tutorial" yield-focus fit="dock-top-left" src="" data-bind="attr: { src: $root.tutorialPanelSource() }"></panel>
+        </div>
+</body>
+</html>

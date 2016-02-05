@@ -1,0 +1,20 @@
+{
+    "Area Commands": {
+        "message": "Gebietsbefehle"
+    }, 
+    "PA Guide: Area Commands": {
+        "message": "PA-Anleitung: Gebietsbefehle"
+    }, 
+    "Select units, click [style=text_callout]Attack button[/style].": {
+        "message": "Wähle Einheiten aus, klicke auf [style=text_callout]Angriff[/style]."
+    }, 
+    "Select units, click [style=text_callout]Patrol button[/style].": {
+        "message": "Wähle Einheiten aus, klicke auf [style=text_callout]Spähtrupp[/style]."
+    }, 
+    "[style=text_callout]Left Click and drag[/style] an area to attack": {
+        "message": "[style=text_callout]Klicke links und wähle[/style] ein Gebiet aus, um anzugreifen."
+    }, 
+    "[style=text_callout]Left Click and drag[/style] an area to patrol": {
+        "message": "[style=text_callout]Klicke links und wähle[style=text_callout] ein Gebiet aus, um es zu überwachen."
+    }
+}

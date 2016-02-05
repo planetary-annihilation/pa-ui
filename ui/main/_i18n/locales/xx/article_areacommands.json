@@ -1,0 +1,26 @@
+{
+    "Area Commands": {
+        "message": "\u0202\u0213\u1f73\u0203 \u04aa\u020f\u028d\u028d\u0203\u019e\u0257\u01a8", 
+        "original": "Area Commands"
+    }, 
+    "PA Guide: Area Commands": {
+        "message": "\u1e54\u0202 \u01f4\u0574\u0457\u0257\u1f73: \u0202\u0213\u1f73\u0203 \u04aa\u020f\u028d\u028d\u0203\u019e\u0257\u01a8", 
+        "original": "PA Guide: Area Commands"
+    }, 
+    "Select units, click [style=text_callout]Attack button[/style].": {
+        "message": "\u1e60\u1f73\u230a\u1f73\u03f2\u04ad \u0574\u019e\u0457\u04ad\u01a8, \u03f2\u230a\u0457\u03f2\u045c [style=text_callout]\u0202\u04ad\u04ad\u0203\u03f2\u045c \u0411\u0574\u04ad\u04ad\u020f\u019e[/style].", 
+        "original": "Select units, click [style=text_callout]Attack button[/style]."
+    }, 
+    "Select units, click [style=text_callout]Patrol button[/style].": {
+        "message": "\u1e60\u1f73\u230a\u1f73\u03f2\u04ad \u0574\u019e\u0457\u04ad\u01a8, \u03f2\u230a\u0457\u03f2\u045c [style=text_callout]\u1e54\u0203\u04ad\u0213\u020f\u230a \u0411\u0574\u04ad\u04ad\u020f\u019e[/style].", 
+        "original": "Select units, click [style=text_callout]Patrol button[/style]."
+    }, 
+    "[style=text_callout]Left Click and drag[/style] an area to attack": {
+        "message": "[style=text_callout]\u20a4\u1f73\u0493\u04ad \u04aa\u230a\u0457\u03f2\u045c \u0203\u019e\u0257 \u0257\u0213\u0203\u0260[/style] \u0203\u019e \u0203\u0213\u1f73\u0203 \u04ad\u020f \u0203\u04ad\u04ad\u0203\u03f2\u045c", 
+        "original": "[style=text_callout]Left Click and drag[/style] an area to attack"
+    }, 
+    "[style=text_callout]Left Click and drag[/style] an area to patrol": {
+        "message": "[style=text_callout]\u20a4\u1f73\u0493\u04ad \u04aa\u230a\u0457\u03f2\u045c \u0203\u019e\u0257 \u0257\u0213\u0203\u0260[/style] \u0203\u019e \u0203\u0213\u1f73\u0203 \u04ad\u020f \u2374\u0203\u04ad\u0213\u020f\u230a", 
+        "original": "[style=text_callout]Left Click and drag[/style] an area to patrol"
+    }
+}

@@ -1,0 +1,20 @@
+{
+    "Area Commands": {
+        "message": "Comandos de área"
+    }, 
+    "PA Guide: Area Commands": {
+        "message": "Guía de PA: Comandos de área"
+    }, 
+    "Select units, click [style=text_callout]Attack button[/style].": {
+        "message": "Selecciona las unidades que desees y haz clic en el botón [style=text_callout]Atacar[/style]."
+    }, 
+    "Select units, click [style=text_callout]Patrol button[/style].": {
+        "message": "Selecciona las unidades que desees y haz clic en el botón [style=text_callout]Patrullar[/style]."
+    }, 
+    "[style=text_callout]Left Click and drag[/style] an area to attack": {
+        "message": "[style=text_callout]Haz clic con el botón izquierdo del ratón y arrastra[/style] para seleccionar el área en la que quieres atacar."
+    }, 
+    "[style=text_callout]Left Click and drag[/style] an area to patrol": {
+        "message": "[style=text_callout]Haz clic con el botón izquierdo del ratón y arrastra[/style] para seleccionar el área en la que quieres patrullar."
+    }
+}

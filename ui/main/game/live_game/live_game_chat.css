@@ -1,0 +1,113 @@
+.body_panel {
+
+    position: absolute;
+    bottom: 0;
+    left: 0;
+
+    display: flex;
+    flex-grow: 0;
+    flex-shrink: 0;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-start;
+}
+
+body-dock {
+    overflow: none;
+}
+
+/* UTILITY */
+.receiveMouse {
+    pointer-events: all;
+}
+
+.ignoreMouse {
+    pointer-events: none;
+}
+
+/*----- CHAT
+-----------------------------------------------------------------*/
+body {
+    text-shadow: 0px 2px 2px #000;
+    font-size: 13px;
+    font-family: 'Sansation Regular TTF';
+}
+
+.div_chat_feed {
+    overflow: hidden;
+    max-height: 400px;
+}
+
+.div_chat_log {
+    background: rgba(11,26,31,.7);
+}
+
+.div_chat_log_feed {
+    overflow: auto;
+    max-height: 320px;
+    padding: 0px;
+}
+
+.chat_message {
+    margin: 4px 4px 4px 10px;
+    line-height:1.3;
+}
+
+.server_message {
+    color: #ffff0f;
+    text-shadow: none;
+}
+
+.chat_message_player_name {
+    color: #b3b3b3;
+    display: inline-block;
+    padding: 2px 2px 2px 0px;
+}
+
+.team_chat_message_body {
+    color: #FAE093;
+}
+
+.team_chat_message_bground {
+    /*background:#FF9500;*/
+}
+
+.team_chat_message_player_name {
+    color: #FF9500;
+}
+
+
+.chat_message_body {
+    margin: 0px 0px 0px 0px;
+    width: 350px;
+    word-wrap: break-word;
+}
+
+.chat_input {
+    background: black;
+    border: 1px solid #666;
+}
+
+.chat_input_form {
+    bottom: 0px;
+    margin: 0px 0px 0px 0px;
+    /*
+    outline:3px;
+    outline-color: -webkit-focus-ring-color;
+    outline-style:auto;
+    outline-width: 3px
+*/
+}
+
+.chat_input_tag {
+    vertical-align: middle;
+    text-align: center;
+    min-width: 50px;
+    color: #b3b3b3;
+}
+
+.input_chat_text, input[type="text"] {
+    width: 300px;
+    margin:0px;
+}
+

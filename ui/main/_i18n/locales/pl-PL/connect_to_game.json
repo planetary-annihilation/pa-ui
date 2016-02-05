@@ -1,0 +1,26 @@
+{
+    "CONNECTION TO SERVER FAILED": {
+        "message": "POL\u0104CZENIE Z SERWEREM NIE POWIOD\u0141O SI\u0118"
+    }, 
+    "CONNECTION TO SERVER LOST": {
+        "message": "UTRACONO PO\u0141\u0104CZENIE Z SERWEREM"
+    }, 
+    "FAILED TO JOIN GAME": {
+        "message": "NIE UDA\u0141O SI\u0118 DO\u0141\u0104CZY\u0106 DO GRY"
+    }, 
+    "FAILED TO START GAME": {
+        "message": "NIE UDA\u0141O SI\u0118 URUCHOMI\u0106 GRY"
+    }, 
+    "FAILED TO START REPLAY": {
+        "message": "NIE UDA\u0141O SI\u0118 URUCHOMI\u0106 POWT\u00d3RKI"
+    }, 
+    "LOGIN ACCEPTED": {
+        "message": "LOGOWANIE UDANE"
+    }, 
+    "LOGIN TO SERVER REJECTED": {
+        "message": "SERWER ODRZUCI\u0141 LOGOWANIE"
+    }, 
+    "Returning to Main Menu": {
+        "message": "Powr\u00f3t do menu g\u0142\u00f3wnego"
+    }
+}

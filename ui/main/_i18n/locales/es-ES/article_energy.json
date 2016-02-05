@@ -1,0 +1,23 @@
+{
+    "Advanced Energy Plants generate 8x more energy": {
+        "message": "Las plantas energéticas avanzadas producen ocho veces más energía que las normales."
+    }, 
+    "Build Energy Plants to generate energy": {
+        "message": "Construye plantas energéticas para generar energía."
+    }, 
+    "Energy Resource": {
+        "message": "Energía"
+    }, 
+    "Energy is required for building units, structures and some functionality": {
+        "message": "La energía es necesaria para construir unidades, estructuras y para algunas funciones del juego."
+    }, 
+    "PA Guide: Energy": {
+        "message": "Guía de PA: Energía"
+    }, 
+    "Select Fabber, select [style=text_callout]Build Energy Plant Icon[/style].": {
+        "message": "Selecciona el fabricante y, a continuación, haz clic en el icono [style=text_callout]Planta energética[/style] para construir una."
+    }, 
+    "[style=text_callout]Left Click + drag[/style] in the world to build multiple Energy Plants.": {
+        "message": "[style=text_callout]Haz clic en el botón izquierdo del ratón y arrastra[/style] por la superficie del planeta para construir varias plantas energéticas."
+    }
+}

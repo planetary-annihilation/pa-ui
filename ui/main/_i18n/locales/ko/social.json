@@ -1,0 +1,92 @@
+{
+    "APPROVE": {
+        "message": "\uc2b9\uc778"
+    }, 
+    "APPROVED USERS": {
+        "message": "\uc0ac\uc6a9\uc790 \uc2b9\uc778"
+    }, 
+    "Add": {
+        "message": "\ucd94\uac00"
+    }, 
+    "Add a Friend": {
+        "message": "\uce5c\uad6c \ucd94\uac00"
+    }, 
+    "BLOCK": {
+        "message": "\ucc28\ub2e8"
+    }, 
+    "BLOCKED USERS": {
+        "message": "\ucc28\ub2e8\ub41c \uc0ac\uc6a9\uc790"
+    }, 
+    "Cancel": {
+        "message": "\ucde8\uc18c"
+    }, 
+    "Close": {
+        "message": "\ub2eb\uae30"
+    }, 
+    "Contact List Updated": {
+        "message": "\uc5f0\ub77d\ucc98 \ubaa9\ub85d \uac31\uc2e0\ub428"
+    }, 
+    "Contact Not Found": {
+        "message": "\ubaa9\ub85d\uc5d0 \uc5c6\uc74c"
+    }, 
+    "Dismiss": {
+        "message": "\ud574\uc81c"
+    }, 
+    "Filter contatcs by tag:": {
+        "message": "\ud0dc\uadf8\ub85c \uc5f0\ub77d\ucc98 \ud544\ud130:"
+    }, 
+    "Games you make will be hidden to these players.": {
+        "message": "\ud55c\uc815\ub41c \ud50c\ub808\uc774\uc5b4\uc5d0\uac8c \uc228\uae38 \uc218 \uc788\ub294 \uac8c\uc784."
+    }, 
+    "Name:": {
+        "message": "\uc774\ub984:"
+    }, 
+    "New Nickname:": {
+        "message": "\uc0c8\ub85c\uc6b4 \ubcc4\uba85:"
+    }, 
+    "Players you have encountered recently.": {
+        "message": "\ucd5c\uadfc\uc5d0 \ub9cc\ub09c \uc0ac\uc6a9\uc790"
+    }, 
+    "Private games you make will only be visible to these players.": {
+        "message": "\ud55c\uc815\ub41c \ud50c\ub808\uc774\uc5b4\uc5d0\uac8c\ub9cc \ubcf4\uc77c \uc218 \uc788\ub294 \ube44\uacf5\uac1c \uac8c\uc784."
+    }, 
+    "RECENT": {
+        "message": "\ucd5c\uadfc"
+    }, 
+    "REMOVE": {
+        "message": "\uc81c\uac70"
+    }, 
+    "RENAME": {
+        "message": "\uc774\ub984 \uc218\uc815"
+    }, 
+    "Refresh Contacts": {
+        "message": "\ubaa9\ub85d \uc0c8\ub85c\uace0\uce68"
+    }, 
+    "Refreshing friends list.....": {
+        "message": "\uce5c\uad6c \ubaa9\ub85d \uac31\uc2e0\uc911....."
+    }, 
+    "SOCIAL": {
+        "message": "\uc18c\uc15c"
+    }, 
+    "Tag": {
+        "message": "\ud0dc\uadf8"
+    }, 
+    "Tag Friend:": {
+        "message": "\uce5c\uad6c \ud0dc\uadf8:"
+    }, 
+    "Tags:": {
+        "message": "\ud0dc\uadf8"
+    }, 
+    "UBERDEX": {
+        "message": "UBERDEX"
+    }, 
+    "Uber Name": {
+        "message": "Uber \uc0ac\uc6a9\uc790"
+    }, 
+    "UberId:": {
+        "message": "\uc6b0\ubc84 ID"
+    }, 
+    "or": {
+        "message": "\ub610\ub294"
+    }
+}

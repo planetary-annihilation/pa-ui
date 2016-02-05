@@ -1,0 +1,62 @@
+{
+    "ACCESS TO WORLD SIMULATION DENIED": {
+        "message": "ACCESO A LA SIMULACIÓN DEL PLANETA DENEGADO"
+    }, 
+    "ACCESSING WORLD SIMULATION": {
+        "message": "ACCEDIENDO A LA SIMULACIÓN DEL PLANETA"
+    }, 
+    "ATTEMPTS REMAINING: __num_attempts_remaining__": {
+        "message": "INTENTOS RESTANTES: __num_attempts_remaining__"
+    }, 
+    "CONNECTING TO SERVER": {
+        "message": "CONECTANDO CON EL SERVIDOR"
+    }, 
+    "CONNECTION TO SERVER FAILED": {
+        "message": "LA CONEXIÓN HA FALLADO"
+    }, 
+    "CONNECTION TO SERVER LOST": {
+        "message": "SE HA PERDIDO LA CONEXIÓN CON EL SERVIDOR"
+    }, 
+    "CREATING WORLD SIMULATION": {
+        "message": "CREANDO SIMULACIÓN DEL PLANETA"
+    }, 
+    "FAILED TO GET PERMISSION": {
+        "message": "NO SE HA OBTENIDO PERMISO"
+    }, 
+    "FAILED TO JOIN GAME": {
+        "message": "NO SE HA PODIDO ACCEDER A LA PARTIDA"
+    }, 
+    "FAILED TO LOAD GAME": {
+        "message": "NO SE HA PODIDO CARGAR LA PARTIDA"
+    }, 
+    "FAILED TO START GAME": {
+        "message": "NO SE HA PODIDO EMPEZAR LA PARTIDA"
+    }, 
+    "FAILED TO START REPLAY": {
+        "message": "NO SE HA PODIDO REPRODUCIR LA REPETICIÓN"
+    }, 
+    "LOGIN ACCEPTED": {
+        "message": "ACCESO PERMITIDO"
+    }, 
+    "LOGIN TO SERVER REJECTED": {
+        "message": "EL ACCESO AL SERVIDOR DENEGADO"
+    }, 
+    "REQUESTING PERMISSION": {
+        "message": "SOLICITANDO PERMISO"
+    }, 
+    "Returning to Main Menu": {
+        "message": "Volviendo al menú principal"
+    }, 
+    "STARTING GAME": {
+        "message": "COMENZANDO PARTIDA"
+    }, 
+    "UNABLE TO ACCESS WORLD SIMULATION": {
+        "message": "NO SE PUEDE ACCEDER A LA SIMULACIÓN DEL PLANETA"
+    }, 
+    "WORLD SIMULATION WENT AWAY": {
+        "message": "LA SIMULACIÓN DEL PLANETA SE HA IDO A PASEO"
+    }, 
+    "You are starting an offline game, but your system does not meet the recommended specifications for offline play. Your gameplay experience may be negatively affected.": {
+        "message": "Estás comenzando una partida en modo sin conexión, pero tu sistema no cumple con los requisitos necesarios para jugar en este modo, por lo que tu experiencia de juego podría verse afectada."
+    }
+}

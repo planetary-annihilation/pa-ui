@@ -1,0 +1,110 @@
+{
+    "Accept": {
+        "message": "Hyv\u00e4ksy"
+    }, 
+    "Appear Offline": {
+        "message": "Appear Offline"
+    }, 
+    "Away": {
+        "message": "Poissa"
+    }, 
+    "Block": {
+        "message": "Est\u00e4"
+    }, 
+    "CANCEL": {
+        "message": "PERUUTA"
+    }, 
+    "CHANGE": {
+        "message": "CHANGE"
+    }, 
+    "Change Display Name": {
+        "message": "Change Display Name"
+    }, 
+    "Change your display name?": {
+        "message": "Change your display name?"
+    }, 
+    "Chat": {
+        "message": "Chat"
+    }, 
+    "Do Not Disturb": {
+        "message": "\u00c4l\u00e4 h\u00e4iritse"
+    }, 
+    "Friends": {
+        "message": "Kaverit"
+    }, 
+    "Ignore": {
+        "message": "Ignore"
+    }, 
+    "Invite to Chat": {
+        "message": "Kutsu chattiin"
+    }, 
+    "Invite to game": {
+        "message": "Kutsu peliin"
+    }, 
+    "Join Game": {
+        "message": "Liity peliin"
+    }, 
+    "New Display Name:": {
+        "message": "New Display Name:"
+    }, 
+    "No pending notifications.": {
+        "message": "Ei katsomattomia ilmoituksia."
+    }, 
+    "Offline": {
+        "message": "Offline"
+    }, 
+    "Online": {
+        "message": "Online"
+    }, 
+    "Pending Invite": {
+        "message": "Pending Invite"
+    }, 
+    "Recent": {
+        "message": "Recent"
+    }, 
+    "Remove": {
+        "message": "Poista"
+    }, 
+    "Search Results": {
+        "message": "Search Results"
+    }, 
+    "Send Friend Request": {
+        "message": "L\u00e4het\u00e4 yst\u00e4v\u00e4pyynt\u00f6"
+    }, 
+    "Unblock": {
+        "message": "Pura esto"
+    }, 
+    "Unfriend": {
+        "message": "Poista yst\u00e4v\u00e4"
+    }, 
+    "Users": {
+        "message": "K\u00e4ytt\u00e4j\u00e4t"
+    }, 
+    "[B]": {
+        "message": "[B]"
+    }, 
+    "[CHAT]": {
+        "message": "[CHAT]"
+    }, 
+    "[F]": {
+        "message": "[F]"
+    }, 
+    "[I]": {
+        "message": "[I]"
+    }, 
+    "[REMOVE]": {
+        "message": "Poista"
+    }, 
+    "[Tags:": {
+        "message": "[Tags:"
+    }, 
+    "invited you to a game.": {
+        "message": "Kutsui sinut peliin."
+    }, 
+    "invited you to chat.": {
+        "message": "Kutsui sinut chattiin."
+    }, 
+    "wants to be your friend.": {
+        "message": "haluaa olla yst\u00e4v\u00e4si."
+    }
+}

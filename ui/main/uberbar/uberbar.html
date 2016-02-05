@@ -1,0 +1,522 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <noloc><title>UberBar</title></noloc>
+    <link href="bundle://boot/boot.css" rel="stylesheet" type="text/css" />
+    <link href="uberbar.css" rel="stylesheet" type="text/css" />
+    <script src="bundle://boot/boot.js" type="text/javascript"></script>
+    <script src="coui://ui/main/shared/js/jabber.js" type="text/javascript"></script>
+    <script src="coui://ui/main/shared/js/leaderboard_utility.js" type="text/javascript"></script>
+    <script src="uberbar.js" type="text/javascript"></script>
+</head>
+<body data-bind="click: hideContextMenu">
+    <div id="social-wrapper">
+        <!-- ko if: (model.showUberBar()) -->
+        <div id="uberbar_watermark">
+             <loc>Offline</loc>
+        </div>
+        <!-- /ko -->
+        <!-- ko if: (model.showUberBar() && model.hasJabber()) -->
+        <!-- ko if: showUserDetails -->
+        <div style="color: #fff; background-color: black; border: 1px solid white; display: none" data-bind="visible: true">
+            <loc>Users</loc>
+            <div data-bind="foreach: { data: users, as: 'contact' }">
+                <div>
+                    <span data-bind="text: contact.displayName"></span>:
+                    <span data-bind="text: contact.presenceType"></span>:
+                    <span data-bind="text: contact.status"></span>:
+                    <span>
+                        [<loc>Tags:</loc>
+                        <span data-bind="foreach: { data: contact.tagList, as: 'tag' }">
+                            <span data-bind="text: tag"></span>
+                        </span>
+                        ]
+                    </span>
+                    <br />
+                    <span data-bind="click: function () { model.startConversationsWith($data.uberId()) }">
+                        [<loc>CHAT</loc>]
+                    </span>
+                    <br />
+                    <span data-bind="click: function () { contact.addTag('FRIEND') }">
+                        <noloc>[F]</noloc>
+                    </span>
+                    <span data-bind="click: function () { contact.addTag('IGNORED') }">
+                        <noloc>[I]</noloc>
+                    </span>
+                    <span data-bind="click: block">
+                        <noloc>[B]</noloc>
+                    </span>
+                    <span data-bind="click: function () { contact.removeTag('FRIEND') }">
+                        <noloc>[/F]</noloc>
+                    </span>
+                    <span data-bind="click: function () { contact.removeTag('IGNORED') }">
+                        <noloc>[/I]</noloc>
+                    </span>
+                    <span data-bind="click: unblock">
+                        <noloc>[/B]</noloc>
+                    </span>
+                    <span data-bind="click: contact.remove">
+                        [<loc>REMOVE</loc>]
+                    </span>
+                    <br />
+                </div>
+            </div>
+        </div>
+        <!-- /ko -->
+
+        <!--- NOTIFICATION WIDGET --->
+        <!-- ko if: showNotificationWidget -->
+        <div class="notification-wrapper" data-bind="visible: true">
+            <div class="div-win">
+                <div class="div-notification-widget">
+                    <div class="div-notification-cont">
+                        <div class="div-win-ctrl-bar">
+                            <div class="btn_win btn_win_min" style="float: right;" data-bind="click: toggleShowOldNotifications"></div>
+                        </div>
+
+                        <!-- ko ifnot: notificationCount -->
+                        <div class="lbl-notification-empty">
+                            <loc>No pending notifications.</loc>
+                        </div>
+                        <!-- /ko -->
+
+                        <!-- ko foreach: visibleNotifications -->
+                        <!-- ko if: partnerDisplayName -->
+                        <div class="div-notification-item">
+                            <!--- PROFILE PIC --->
+                            <div class="div-user-profile-pic">
+                                <img src="../shared/img/commanders/user_profile_pics/img_profile_pic_sample.png" />
+                            </div>
+                            <!--- DETAILS --->
+                            <div class="div-notification-details">
+                                <div class="div-notification-body">
+                                    <div class="div-notification-msg" data-bind="vars: { display_name: partnerDisplayName }">
+                                        <!-- ko if: isFriendRequest -->
+                                        <span>
+                                            <loc>__display_name__ wants to be your friend.</loc>
+                                        </span>
+                                        <!-- /ko -->
+                                        <!-- ko if: isGameInvite -->
+                                        <span>
+                                            <loc>__display_name__ invited you to a game.</loc>
+                                        </span>
+                                        <!-- /ko -->
+                                        <!-- ko if: isChatInvite -->
+                                        <span>
+                                            <loc>__display_name__ invited you to chat.</loc>
+                                        </span>
+                                        <!-- /ko -->
+                                    </div>
+                                </div>
+                                <!--- CONTROLS --->
+                                <div class="div-notification-ctrls">
+                                    <div class="btn-notification btn_std_gray">
+                                        <div class="btn_std_label lbl-notification-btn" data-bind="click: ignore">
+                                            <loc>Ignore</loc>
+                                        </div>
+                                    </div>
+                                    <!-- ko if: isFriendRequest -->
+                                    <div class="btn_std_gray btn-notification" data-bind="click: ok">
+                                        <div class="btn_std_label lbl-notification-btn">
+                                            <loc>Accept</loc>
+                                        </div>
+                                    </div>
+                                    <!-- /ko -->
+                                    <!-- TBA
+                            <div class="btn_std_gray btn-notification" data-bind="">
+                                <div class="btn_std_label lbl-notification-btn">View Profile</div>
+                            </div>
+                            -->
+                                    <!-- ko if: isGameInvite -->
+                                    <div class="btn_std_gray btn-notification" data-bind="click: ok">
+                                        <div class="btn_std_label lbl-notification-btn">
+                                            <loc>Join Game</loc>
+                                        </div>
+                                    </div>
+                                    <!-- /ko -->
+                                    <!-- ko if: isChatInvite -->
+                                    <div class="btn_std_gray btn-notification" data-bind="click: ok">
+                                        <div class="btn_std_label lbl-notification-btn">
+                                            <loc>Accept</loc>
+                                        </div>
+                                    </div>
+                                    <!-- /ko -->
+                                </div>
+                            </div>
+                            <!--- ABUSE --->
+                            <div class="div-abuse-ctrl-cont">
+                                <div class="btn-abuse btn-block-user" data-bind="click: block"></div>
+                                <div class="btn-abuse btn-report-user" data-bind="click: report"></div>
+                            </div>
+                        </div>
+                        <!-- /ko -->
+                        <!-- /ko -->
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- /ko -->
+        <!--- SOCIAL CANVAS --->
+        <div class="div-social-canvas" style="display: none" data-bind="visible: true">
+            <!--- CHAT WINDOWS --->
+            <div class="chat-wrapper">
+                <!-- ko foreach: conversations -->
+                <!-- ko if: partnerDisplayName -->
+                <div class="div-win" style="margin-bottom:-36px;">
+                    <div class="div-chat-window">
+                        <div class="div-chat-header" data-bind="css: { 'dirty': dirty }, click: toggleMinimized">
+                            <div class="div-chat-username">
+                                <!-- ko with: partner -->
+                                <!-- ko if: friend -->
+                                <div class="status-visual" data-bind="css: { 'online': available, 'offline': offline, 'away': away, 'dnd': dnd }"></div>
+                                <!-- /ko -->
+                                <div class="username" data-bind="text: displayName"></div>
+                                <!-- /ko -->
+                            </div>
+                            <div class="div-chat-win-controls">
+                                <div class="btn_win btn_win_min btn-chat-win-control"></div>
+                                <div class="btn_win btn_win_close btn-chat-win-control" data-bind="click: close"></div>
+                            </div>
+                            <!-- ko if: partner().pendingChat() -->
+                            <div>
+                                <loc>Pending Invite</loc>
+                            </div>
+                            <!-- /ko -->
+                        </div>
+                        <!-- ko ifnot: minimized -->
+                        <div class="div-chat-cont">
+                            <div class="div-chat-body">
+                                <!-- ko foreach: messageLog -->
+                                <div class="chat_message">
+                                    <span class="chat_message_player_name" data-bind="text: name"></span>:
+                                    <span class="chat-msg" data-bind="text: message"></span>
+                                </div>
+                                <!-- /ko -->
+                                <div data-bind="autoscroll: messageLog"></div>
+                            </div>
+                        </div>
+                        <div class="div-chat-input">
+                            <form data-bind="submit: sendReply">
+                                <input class="input-chat" type="text" data-bind="value: reply, disable: partner().pendingChat()" autofocus />
+                            </form>
+                        </div>
+                        <!-- /ko -->
+                    </div>
+                </div>
+                <!-- /ko -->
+                <!-- /ko -->
+            </div>
+            <!--- CONTACTS --->
+            <div class="contacts-wrapper">
+                <!---CONTACTS CONTEXT MENU---->
+                <div id="contextMenu" class="dropdown clearfix contacts">
+                    <!-- ko with: selectedContact -->
+                    <ul class="dropdown-menu" role="menu" aria-labelledby="dropdownMenu" style="display: block; position: static; margin-bottom: 5px;">
+                        <!-- ko if: (friend() && online()) -->
+                        <li><a data-bind="click: startChat" tabindex="-1" href="#"><span class="menu-action">
+                            <loc>Chat</loc>
+                        </span></a></li>
+                        <!-- /ko -->
+                        <!-- ko if: (!friend() && !blocked()) -->
+                        <li><a data-bind="click: sendFriendRequest" tabindex="-1" href="#"><span class="menu-action">
+                            <loc>Send Friend Request</loc>
+                        </span></a></li>
+                        <!-- /ko -->
+                        <!-- ko if: (!friend() && !blocked()) -->
+                        <li><a data-bind="click: sendChatInvite" tabindex="-1" href="#"><span class="menu-action">
+                            <loc>Invite to Chat</loc>
+                        </span></a></li>
+                        <!-- /ko -->
+                        <!-- ko if: (model.readyToSendLobbyInfo()) -->
+                        <li><a data-bind="click: sendInviteToGame" tabindex="-1" href="#"><span class="menu-action">
+                            <loc>Invite to game</loc>
+                        </span></a></li>
+                        <!-- /ko -->
+                        <!--<li><a data-bind="click: viewProfile" tabindex="-1" href="#"><span class="menu-action">View profile</span></a></li>-->
+                        <!-- ko if: friend -->
+                        <li><a data-bind="click: sendUnfriend" tabindex="-1" href="#"><span class="menu-action">
+                            <loc>Unfriend</loc>
+                        </span></a></li>
+                        <!-- /ko -->
+                        <li><a data-bind="click: remove" tabindex="-1" href="#"><span class="menu-action">
+                            <loc>Remove</loc>
+                        </span></a></li>
+                        <!-- ko ifnot: blocked -->
+                        <li><a data-bind="click: block" tabindex="-1" href="#"><span class="menu-action">
+                            <loc>Block</loc>
+                        </span></a></li>
+                        <!-- /ko -->
+                        <!-- ko if: blocked -->
+                        <li><a data-bind="click: unblock" tabindex="-1" href="#"><span class="menu-action">
+                            <loc>Unblock</loc>
+                        </span></a></li>
+                        <!-- /ko -->
+                        <!--<li><a data-bind="click: report" tabindex="-1" href="#"><span class="menu-action">Report</span></a></li>-->
+                    </ul>
+                    <!-- /ko -->
+                </div>
+                <!---CONTACTS LIST --->
+                <div class="div-contacts">
+                    <!--- SOCIAL WIDGET --->
+                    <!-- ko if: showSocialWidget -->
+                    <div class="div-win" style="width:250px;">
+                        <div class="div-social-widget">
+                            <div style="margin: -6px 0px 12px 0px;">
+                                <div class="btn_win btn_win_min" style="float: right;" data-bind="click: togglePinSocialWidget"></div>
+                            </div>
+                            <!---USER CONTAINER---->
+                            <div class="div-user-profile-container">
+                                <div class="fill">
+                                    <div class="user-profile-controls">
+                                        <div class="div-user-profile-status status-picker">
+                                            <select data-bind="selectPicker: jabberPresenceType">
+                                                <option data-content="<div class='status-visual online'></div><span class='status-label'>Online</span>" value="available">
+                                                    Online
+                                                </option>
+                                                <option data-content="<div class='status-visual away'></div><span class='status-label'>Away</span>" value="away">
+                                                    Away
+                                                </option>
+                                                <option data-content="<div class='status-visual dnd'></div><span class='status-label'>Do Not Disturb</span>" value="dnd">
+                                                    Do Not Disturb
+                                                </option>
+                                                <option data-content="<div class='status-visual offline'></div><span class='status-label'>Appear Offline</span>" value="unavailable">
+                                                    Appear Offline
+                                                </option>
+                                                <option data-divider="true"></option>
+                                                <option value="change_name">
+                                                    Change Display Name
+                                                </option>
+                                            </select>
+                                        </div>
+                                        <div class="lbl-user-profile-btn" data-bind="text: displayName"></div>
+                                        <form data-bind="submit: function () { }">
+                                            <input type="text" class="input-text-req-focus input-psm" placeholder="Enter a status message" maxlength="144" data-bind="value: jabberPresenceStatus" />
+                                        </form>
+                                    </div>
+                                </div>
+                            </div>
+                            <!---CONTACTS CONTAINER---->
+                            <div class="div-contacts-cont">
+                                <div class="div-tab-controls-cont">
+                                    <ul id="contacts-tabs" class="nav nav-tabs">
+                                        <li class="active">
+                                            <a href="#friends-pane"
+                                                data-toggle="tab"
+                                                data-bind="click_sound: 'default', rollover_sound: 'default'">
+                                                <loc>Friends</loc>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#contacts-pane"
+                                                data-toggle="tab"
+                                                data-bind="click_sound: 'default', rollover_sound: 'default'">
+                                                <loc>Recent</loc>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <script type="text/html" id="contact-template">
+                                    <div class="contact-item" data-bind="event: { click: startChatIfOnline, contextmenu: model.contextMenuForContact }">
+                                        <!-- ko if: friend -->
+                                        <div>
+                                            <div class="status-visual" data-bind="css: { 'online': available, 'offline': offline, 'away': away, 'dnd': dnd }"></div>
+                                            <div class="status-username" data-bind="text: displayName"></div>
+                                        </div>
+                                        <div class="status-psm" data-bind="text: status"></div>
+                                        <!-- /ko -->
+
+                                        <!-- ko ifnot: friend -->
+                                        <div class="status-username nofriend" data-bind="text: displayName, click: startChat">
+                                        </div>
+                                        <!-- /ko -->
+                                    </div>
+                                </script>
+
+                                <!---CONTACTS TABS---->
+                                <div class="div-contacts-cont tab-content">
+                                    <!--- TABS--->
+                                    <div class="tab-pane active tabs-contacts" id="friends-pane">
+                                        <div class="div-contact-category">
+                                            <div class="category-label">
+                                                <loc>Online</loc>
+                                            </div>
+                                            <!-- ko foreach: onlineFriends -->
+                                            <div data-bind="template: { name: 'contact-template', data: $data }"></div>
+                                            <!-- /ko -->
+                                        </div>
+                                        <div class="div-contact-category">
+                                            <div class="category-label">
+                                                <loc>Offline</loc>
+                                            </div>
+                                            <!-- ko foreach: offlineFriends -->
+                                            <div data-bind="template: { name: 'contact-template', data: $data }"></div>
+                                            <!-- /ko -->
+                                        </div>
+                                    </div>
+                                    <div class="tab-pane tabs-contacts" id="contacts-pane">
+                                        <div class="contact_sort_controls">
+                                            <div class="btn_toggle contact_sort" data-bind="css: { live: !doSortByInteractionTime() }, click: function () { $root.doSortByInteractionTime(false); }">
+                                                <div class="btn_std_label btn_toggle_label contact_sort_label">
+                                                    <noloc>A-Z</noloc>
+                                                </div>
+                                            </div>
+                                            <div class="btn_toggle contact_sort" data-bind="css: { live: doSortByInteractionTime() }, click: function () { $root.doSortByInteractionTime(true); }">
+                                                <div class="btn_std_label btn_toggle_label contact_sort_label">
+                                                    <loc>Date</loc>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="div-contact-category recent-contacts">
+                                            <!-- ko foreach: contacts -->
+                                            <div data-bind="template: { name: 'contact-template', data: $data }"></div>
+                                            <!-- /ko -->
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div>
+                                <div class="div-seach-cont" style="padding: 1px">
+                                    <form data-bind="submit: function () { model.findUserId(); model.showSearchResults(true); model.contactSearch(''); }">
+                                        <input type="text" style="width: 100%;" placeholder="Search Players" value="" class="input_text input_chat_text" data-bind="value: contactSearch" />
+                                    </form>
+                                </div>
+                            </div>
+                            <!-- ko if: showSearchResults -->
+                            <div style="position: absolute; top: 100px; right: 5px; width: 240px;">
+                                <div class="div-search-results">
+                                    <div style="padding-bottom: 8px;">
+                                        <span>
+                                            <loc>Search Results</loc>
+                                        </span>
+                                        <div class="btn_win btn_win_close btn-chat-win-control" style="float: right" data-bind="click: closeSearchResults"></div>
+                                    </div>
+                                    <div class="div-contact-category">
+                                        <!-- ko foreach: searchResults -->
+                                        <div data-bind="template: { name: 'contact-template', data: $data }"></div>
+                                        <!-- /ko -->
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- /ko -->
+                        </div>
+                    </div>
+                    <!-- /ko -->
+                </div>
+            </div>
+        </div>
+        <!--- SOCIAL BAR --->
+        <div class="div-social-bar" style="display: none" data-bind="visible: true">
+            <div class="content-wrapper">
+                <div class="div-social-bar-menu">
+                    <!-- CONTACTS -->
+                    <div class="div-social-bar-item div-social-bar-menu-item div-social-btn btn_std_ix"
+                        data-bind="click: togglePinSocialWidget, css: { 'btn_std_ix_active': showSocialWidget }">
+                        <div class="item-social">
+                            <img class="icon" src="img/icon_social.png" />
+                            <!-- ko if:onlineFriendsCount -->
+                            <div class="count">
+                                <span class="contacts-online" data-bind="text: onlineFriendsCount">888</span>
+                            </div>
+                            <!--/ko-->
+                        </div>
+                    </div>
+                    <!-- NOTIFICATIONS -->
+                    <div class="div-social-bar-item div-social-bar-menu-item div-notifications-btn btn_std_ix"
+                        data-bind="click: toggleShowOldNotifications, css: { 'btn_std_ix_active': showOldNotifications }">
+                        <div class="item-social">
+                            <img class="icon" src="img/icon_notifications.png" style="margin-top: -1px;" />
+                            <!-- ko if: notificationCount -->
+                            <div class="count">
+                               <span class="pending-notifications" data-bind="text: notificationCount">888</span>
+                            </div>
+                            <!-- /ko -->
+                        </div>
+                    </div>
+                    <!-- CLOCK -->
+                    <div class="div-social-bar-item div-clock">
+                        <div class="clock" data-bind="text: time"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- /ko -->
+
+    </div>
+
+    <!-- Modal -->
+    <div class="modal fade" id="confirm" tabindex="-1" role="dialog" aria-labelledby="changeDisplayNameLabel" aria-hidden="true" data-show="false" style="display: none">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                    <h4 class="modal-title" id="changeDisplayNameLabel">
+                        <loc>Change your display name?</loc>
+                    </h4>
+                </div>
+                <div class="modal-body">
+                    <!-- ko if: $root.showUsernamePolicyOptions -->
+                    <div class="select-name-policy">  
+                        <select class="selectpicker form-control" name="dropdown"
+                                data-bind="options: usernamePolicyOptions,
+                                            optionsText: $data.optionsText,
+                                            optionsValue: function (item) { return item.value },
+                                            optionsText: function (item) { return loc(item.text) },
+                                            selectPicker: $root.selectedNamePolicy">
+                        </select>        
+                    </div>
+                    <!-- /ko -->
+                    <div>
+                        <span>
+                            <loc>New Display Name:</loc>
+                            <input style="margin-left: 6px" type="text" data-bind="value: newDisplayName, valueUpdate: 'afterkeydown', attr: { disabled: $root.lockDisplayName }" />                   
+                        </span>
+                        <span style="color: red" data-bind="text: newDisplayNameError"></span>
+                    </div>
+                    
+                </div>
+                <div class="modal-footer">
+                    <button data-bind="click: finishChangeDisplayName, click_sound: 'default', rollover_sound: 'default', css: { 'disabled': isNewDisplayNameInvalid }">
+                        <loc>CHANGE</loc>
+                    </button>
+                    <button data-bind="click: function () { $('#confirm').modal('hide'); model.newDisplayNameError(''); }, click_sound: 'default', rollover_sound: 'default'">
+                        <loc>CANCEL</loc>
+                    </button>
+                </div>
+            </div>
+            <!-- /.modal-content -->
+        </div>
+        <!-- /.modal-dialog -->
+    </div>
+    <!-- /.modal -->
+
+    <!-- MISSING CONTENT MODAL -->
+    <div class="modal fade" id="buyContent" tabindex="-1" role="dialog" aria-labelledby="buyContentLabel" aria-hidden="true" data-show="false">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                    <h4 class="modal-title" id="buyContentLabel">
+                        <loc>Required Expansion Pack</loc>
+                    </h4>
+                </div>
+                <div class="modal-body">
+                    <p data-bind="vars: { content_name: missingContentDescription }"><loc>The game you are trying to join requires the [style=content_description]__content_name__[/style] expansion for Planetary Annihilation.</loc></p>
+                </div>
+                <div class="modal-footer">
+                    <button class="btn_std btn_hero" id="contentBuy" data-bind="click: buyMissingContent, click_sound: 'default', rollover_sound: 'default', visible: showUberBar">
+                        <loc>Buy Expansion</loc>
+                    </button>
+                    <button class="btn_std btn_hero" id="contentBuyCancel" data-dismiss="modal" data-bind="click_sound: 'default', rollover_sound: 'default'">
+                        <loc>Cancel</loc>
+                    </button>
+                </div>
+            </div>
+            <!-- /.modal-content -->
+        </div>
+        <!-- /.modal-dialog -->
+    </div>
+    <!-- /.modal -->
+</body>
+</html>

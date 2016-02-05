@@ -1,0 +1,234 @@
+{
+    "AI Battle": {
+        "message": "\u0202\u03aa \u0e3f\u0203\u04ad\u04ad\u230a\u1f73\u03a9\u03a9\u03a9\u03a9", 
+        "original": "AI Battle"
+    }, 
+    "Any": {
+        "message": "\u0202\u019e\u0443\u03a9", 
+        "original": "Any"
+    }, 
+    "Auto refresh": {
+        "message": "\u0202\u0574\u04ad\u020f \u0213\u1f73\u0493\u0213\u1f73\u01a8\u043d\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9", 
+        "original": "Auto refresh"
+    }, 
+    "Bounty Mode": {
+        "message": "\u0e3f\u020f\u0574\u019e\u04ad\u0443 \u039c\u020f\u0257\u1f73\u03a9\u03a9\u03a9\u03a9\u03a9", 
+        "original": "Bounty Mode"
+    }, 
+    "Buy Expansion": {
+        "message": "\u0e3f\u0574\u0443 \u0190\u2327\u2374\u0203\u019e\u01a8\u0457\u020f\u019e\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9", 
+        "original": "Buy Expansion"
+    }, 
+    "Can Join": {
+        "message": "\u04aa\u0203\u019e \u06b7\u020f\u0457\u019e\u03a9\u03a9\u03a9\u03a9", 
+        "original": "Can Join"
+    }, 
+    "Can Play": {
+        "message": "\u04aa\u0203\u019e \u1e54\u230a\u0203\u0443\u03a9\u03a9\u03a9\u03a9", 
+        "original": "Can Play"
+    }, 
+    "Can Spectate": {
+        "message": "\u04aa\u0203\u019e \u1e60\u2374\u1f73\u03f2\u04ad\u0203\u04ad\u1f73\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9", 
+        "original": "Can Spectate"
+    }, 
+    "Cancel": {
+        "message": "\u04aa\u0203\u019e\u03f2\u1f73\u230a\u03a9\u03a9\u03a9", 
+        "original": "Cancel"
+    }, 
+    "Casual": {
+        "message": "\u04aa\u0203\u01a8\u0574\u0203\u230a\u03a9\u03a9\u03a9", 
+        "original": "Casual"
+    }, 
+    "Competitive": {
+        "message": "\u04aa\u020f\u028d\u2374\u1f73\u04ad\u0457\u04ad\u0457\u0477\u1f73\u03a9\u03a9\u03a9\u03a9\u03a9", 
+        "original": "Competitive"
+    }, 
+    "Could not retrieve game list because no network connection could be found.": {
+        "message": "\u04aa\u020f\u0574\u230a\u0257 \u019e\u020f\u04ad \u0213\u1f73\u04ad\u0213\u0457\u1f73\u0477\u1f73 \u0260\u0203\u028d\u1f73 \u230a\u0457\u01a8\u04ad \u0411\u1f73\u03f2\u0203\u0574\u01a8\u1f73 \u019e\u020f \u019e\u1f73\u04ad\u1ff4\u020f\u0213\u045c \u03f2\u020f\u019e\u019e\u1f73\u03f2\u04ad\u0457\u020f\u019e \u03f2\u020f\u0574\u230a\u0257 \u0411\u1f73 \u0493\u020f\u0574\u019e\u0257.\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9", 
+        "original": "Could not retrieve game list because no network connection could be found."
+    }, 
+    "Create Game": {
+        "message": "\u04aa\u0213\u1f73\u0203\u04ad\u1f73 \u01f4\u0203\u028d\u1f73\u03a9\u03a9\u03a9\u03a9\u03a9", 
+        "original": "Create Game"
+    }, 
+    "Enter game password": {
+        "message": "\u0190\u019e\u04ad\u1f73\u0213 \u0260\u0203\u028d\u1f73 \u2374\u0203\u01a8\u01a8\u1ff4\u020f\u0213\u0257\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9", 
+        "original": "Enter game password"
+    }, 
+    "Free For All": {
+        "message": "\u03dc\u0213\u1f73\u1f73 \u03dc\u020f\u0213 \u0202\u230a\u230a\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9", 
+        "original": "Free For All"
+    }, 
+    "Game": {
+        "message": "\u01f4\u0203\u028d\u1f73\u03a9\u03a9", 
+        "original": "Game"
+    }, 
+    "Game State": {
+        "message": "\u01f4\u0203\u028d\u1f73 \u1e60\u04ad\u0203\u04ad\u1f73\u03a9\u03a9\u03a9\u03a9\u03a9", 
+        "original": "Game State"
+    }, 
+    "Host game locally": {
+        "message": "\u04c7\u020f\u01a8\u04ad \u0260\u0203\u028d\u1f73 \u230a\u020f\u03f2\u0203\u230a\u230a\u0443\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9", 
+        "original": "Host game locally"
+    }, 
+    "In Lobby": {
+        "message": "\u03aa\u019e \u20a4\u020f\u0411\u0411\u0443\u03a9\u03a9\u03a9\u03a9", 
+        "original": "In Lobby"
+    }, 
+    "In Progress": {
+        "message": "\u03aa\u019e \u1e54\u0213\u020f\u0260\u0213\u1f73\u01a8\u01a8\u03a9\u03a9\u03a9\u03a9\u03a9", 
+        "original": "In Progress"
+    }, 
+    "Join Game": {
+        "message": "\u06b7\u020f\u0457\u019e \u01f4\u0203\u028d\u1f73\u03a9\u03a9\u03a9\u03a9", 
+        "original": "Join Game"
+    }, 
+    "LOCKED": {
+        "message": "\u20a4\u0472\u04aa\u04a0\u0190\u0189\u03a9\u03a9\u03a9", 
+        "original": "LOCKED"
+    }, 
+    "Locked": {
+        "message": "\u20a4\u020f\u03f2\u045c\u1f73\u0257\u03a9\u03a9\u03a9", 
+        "original": "Locked"
+    }, 
+    "Locked Game": {
+        "message": "\u20a4\u020f\u03f2\u045c\u1f73\u0257 \u01f4\u0203\u028d\u1f73\u03a9\u03a9\u03a9\u03a9\u03a9", 
+        "original": "Locked Game"
+    }, 
+    "Mod": {
+        "message": "\u039c\u020f\u0257\u03a9", 
+        "original": "Mod"
+    }, 
+    "Modded": {
+        "message": "\u039c\u020f\u0257\u0257\u1f73\u0257\u03a9\u03a9\u03a9", 
+        "original": "Modded"
+    }, 
+    "Mode": {
+        "message": "\u039c\u020f\u0257\u1f73\u03a9\u03a9", 
+        "original": "Mode"
+    }, 
+    "Mods": {
+        "message": "\u039c\u020f\u0257\u01a8\u03a9\u03a9", 
+        "original": "Mods"
+    }, 
+    "Multiplayer": {
+        "message": "\u039c\u0574\u230a\u04ad\u0457\u2374\u230a\u0203\u0443\u1f73\u0213\u03a9\u03a9\u03a9\u03a9\u03a9", 
+        "original": "Multiplayer"
+    }, 
+    "No connection to PlayFab servers was found. New games will be hosted locally.": {
+        "message": "\u019d\u020f \u03f2\u020f\u019e\u019e\u1f73\u03f2\u04ad\u0457\u020f\u019e \u04ad\u020f \u1e54\u230a\u0203\u0443\u03dc\u0203\u0411 \u01a8\u1f73\u0213\u0477\u1f73\u0213\u01a8 \u1ff4\u0203\u01a8 \u0493\u020f\u0574\u019e\u0257. \u019d\u1f73\u1ff4 \u0260\u0203\u028d\u1f73\u01a8 \u1ff4\u0457\u230a\u230a \u0411\u1f73 \u043d\u020f\u01a8\u04ad\u1f73\u0257 \u230a\u020f\u03f2\u0203\u230a\u230a\u0443.\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9", 
+        "original": "No connection to PlayFab servers was found. New games will be hosted locally."
+    }, 
+    "No max": {
+        "message": "\u019d\u020f \u028d\u0203\u2327\u03a9\u03a9\u03a9", 
+        "original": "No max"
+    }, 
+    "No min": {
+        "message": "\u019d\u020f \u028d\u0457\u019e\u03a9\u03a9\u03a9", 
+        "original": "No min"
+    }, 
+    "Not Bounty Mode": {
+        "message": "\u019d\u020f\u04ad \u0e3f\u020f\u0574\u019e\u04ad\u0443 \u039c\u020f\u0257\u1f73\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9", 
+        "original": "Not Bounty Mode"
+    }, 
+    "Not Modded": {
+        "message": "\u019d\u020f\u04ad \u039c\u020f\u0257\u0257\u1f73\u0257\u03a9\u03a9\u03a9\u03a9\u03a9", 
+        "original": "Not Modded"
+    }, 
+    "Not Selected": {
+        "message": "\u019d\u020f\u04ad \u1e60\u1f73\u230a\u1f73\u03f2\u04ad\u1f73\u0257\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9", 
+        "original": "Not Selected"
+    }, 
+    "Number of Planets": {
+        "message": "\u019d\u0574\u028d\u0411\u1f73\u0213 \u020f\u0493 \u1e54\u230a\u0203\u019e\u1f73\u04ad\u01a8\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9", 
+        "original": "Number of Planets"
+    }, 
+    "Number of Players": {
+        "message": "\u019d\u0574\u028d\u0411\u1f73\u0213 \u020f\u0493 \u1e54\u230a\u0203\u0443\u1f73\u0213\u01a8\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9", 
+        "original": "Number of Players"
+    }, 
+    "Open": {
+        "message": "\u0472\u2374\u1f73\u019e\u03a9\u03a9", 
+        "original": "Open"
+    }, 
+    "Open slot": {
+        "message": "\u0472\u2374\u1f73\u019e \u01a8\u230a\u020f\u04ad\u03a9\u03a9\u03a9\u03a9", 
+        "original": "Open slot"
+    }, 
+    "Password": {
+        "message": "\u1e54\u0203\u01a8\u01a8\u1ff4\u020f\u0213\u0257\u03a9\u03a9\u03a9\u03a9", 
+        "original": "Password"
+    }, 
+    "Planets": {
+        "message": "\u1e54\u230a\u0203\u019e\u1f73\u04ad\u01a8\u03a9\u03a9\u03a9", 
+        "original": "Planets"
+    }, 
+    "Players": {
+        "message": "\u1e54\u230a\u0203\u0443\u1f73\u0213\u01a8\u03a9\u03a9\u03a9", 
+        "original": "Players"
+    }, 
+    "Radius __radius__": {
+        "message": "\u211d\u0203\u0257\u0457\u0574\u01a8 __radius__\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9", 
+        "original": "Radius __radius__"
+    }, 
+    "Refresh": {
+        "message": "\u211d\u1f73\u0493\u0213\u1f73\u01a8\u043d\u03a9\u03a9\u03a9", 
+        "original": "Refresh"
+    }, 
+    "Region": {
+        "message": "\u211d\u1f73\u0260\u0457\u020f\u019e\u03a9\u03a9\u03a9", 
+        "original": "Region"
+    }, 
+    "Rejoin Local Game": {
+        "message": "\u211d\u1f73\u0644\u020f\u0457\u019e \u20a4\u020f\u03f2\u0203\u230a \u01f4\u0203\u028d\u1f73\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9", 
+        "original": "Rejoin Local Game"
+    }, 
+    "Required Expansion Pack": {
+        "message": "\u211d\u1f73\u0533\u0574\u0457\u0213\u1f73\u0257 \u0190\u2327\u2374\u0203\u019e\u01a8\u0457\u020f\u019e \u1e54\u0203\u03f2\u045c\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9", 
+        "original": "Required Expansion Pack"
+    }, 
+    "Sandbox": {
+        "message": "\u1e60\u0203\u019e\u0257\u0411\u020f\u2327\u03a9\u03a9\u03a9", 
+        "original": "Sandbox"
+    }, 
+    "Slots": {
+        "message": "\u1e60\u230a\u020f\u04ad\u01a8\u03a9\u03a9", 
+        "original": "Slots"
+    }, 
+    "Spectate": {
+        "message": "\u1e60\u2374\u1f73\u03f2\u04ad\u0203\u04ad\u1f73\u03a9\u03a9\u03a9\u03a9", 
+        "original": "Spectate"
+    }, 
+    "Spectators": {
+        "message": "\u1e60\u2374\u1f73\u03f2\u04ad\u0203\u04ad\u020f\u0213\u01a8\u03a9\u03a9\u03a9\u03a9\u03a9", 
+        "original": "Spectators"
+    }, 
+    "Status": {
+        "message": "\u1e60\u04ad\u0203\u04ad\u0574\u01a8\u03a9\u03a9\u03a9", 
+        "original": "Status"
+    }, 
+    "Tag": {
+        "message": "\u4e01\u0203\u0260\u03a9", 
+        "original": "Tag"
+    }, 
+    "Team Armies": {
+        "message": "\u4e01\u1f73\u0203\u028d \u0202\u0213\u028d\u0457\u1f73\u01a8\u03a9\u03a9\u03a9\u03a9\u03a9", 
+        "original": "Team Armies"
+    }, 
+    "Testing": {
+        "message": "\u4e01\u1f73\u01a8\u04ad\u0457\u019e\u0260\u03a9\u03a9\u03a9", 
+        "original": "Testing"
+    }, 
+    "The game you are trying to join requires the [style=content_description]__expansion_name__[/style] expansion for Planetary Annihilation.": {
+        "message": "\u4e01\u043d\u1f73 \u0260\u0203\u028d\u1f73 \u0443\u020f\u0574 \u0203\u0213\u1f73 \u04ad\u0213\u0443\u0457\u019e\u0260 \u04ad\u020f \u0644\u020f\u0457\u019e \u0213\u1f73\u0533\u0574\u0457\u0213\u1f73\u01a8 \u04ad\u043d\u1f73 [style=content_description]__expansion_name__[/style] \u1f73\u2327\u2374\u0203\u019e\u01a8\u0457\u020f\u019e \u0493\u020f\u0213 \u1e54\u230a\u0203\u019e\u1f73\u04ad\u0203\u0213\u0443 \u0202\u019e\u019e\u0457\u043d\u0457\u230a\u0203\u04ad\u0457\u020f\u019e.\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9", 
+        "original": "The game you are trying to join requires the [style=content_description]__expansion_name__[/style] expansion for Planetary Annihilation."
+    }, 
+    "This game is no longer available.": {
+        "message": "\u4e01\u043d\u0457\u01a8 \u0260\u0203\u028d\u1f73 \u0457\u01a8 \u019e\u020f \u230a\u020f\u019e\u0260\u1f73\u0213 \u0203\u0477\u0203\u0457\u230a\u0203\u0411\u230a\u1f73.\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9", 
+        "original": "This game is no longer available."
+    }, 
+    "__expansion_name__ Expansion": {
+        "message": "__expansion_name__ \u0190\u2327\u2374\u0203\u019e\u01a8\u0457\u020f\u019e\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9", 
+        "original": "__expansion_name__ Expansion"
+    }
+}

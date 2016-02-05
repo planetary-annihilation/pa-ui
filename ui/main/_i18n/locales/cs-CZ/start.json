@@ -1,0 +1,221 @@
+{
+    "AI Skirmish": {
+        "message": "AI \u0160arv\u00e1tka"
+    }, 
+    "Account information sent": {
+        "message": "Informace o \u00fa\u010dt\u011b byli zasl\u00e1ny"
+    }, 
+    "Accounts linked": {
+        "message": "\u00da\u010dty propojeny"
+    }, 
+    "Already have a PlayFab account?": {
+        "message": "M\u00e1te ji\u017e \u00fa\u010det PlayFab?"
+    }, 
+    "An email with a link to recover your account was sent to username@domain.com.": {
+        "message": "Email s odkazem pro obnoven\u00ed va\u0161eho \u00fa\u010dtu byl zasl\u00e1n na username@domain.com."
+    }, 
+    "Armory": {
+        "message": "Zbrojnice"
+    }, 
+    "Audio Engine:": {
+        "message": "Audio Engine:"
+    }, 
+    "CONTINUE TO MAIN MENU": {
+        "message": "POKRA\u010cOVAT DO HLAVN\u00cdHO MENU"
+    }, 
+    "CREATE ACCOUNT AND LINK": {
+        "message": "VYTVO\u0158 \u00da\u010cET A SPOJ HO"
+    }, 
+    "Channels Streaming": {
+        "message": "Kan\u00e1lov\u00fdch p\u0159enos\u016f"
+    }, 
+    "Click here.": {
+        "message": "Klikni sem."
+    }, 
+    "Click to play the Credits Galaxy": {
+        "message": "Click to play the Credits Galaxy"
+    }, 
+    "Confirm Password:": {
+        "message": "Potvrdit Heslo"
+    }, 
+    "Connecting to PlayFab": {
+        "message": "P\u0159ipojuji se k PlayFab"
+    }, 
+    "Cosmic Edition Commanders": {
+        "message": "Velitel\u00e9 Kosmick\u00e9 Edice"
+    }, 
+    "Create a PlayFab account to link with Steam": {
+        "message": "Vytvo\u0159it \u00fa\u010det PlayFab a propojit s \u00fa\u010dtem Steam"
+    }, 
+    "Don't have an PlayFab account?": {
+        "message": "Nem\u00e1te PlayFab \u00fa\u010det?"
+    }, 
+    "Email address already exists": {
+        "message": "Emailov\u00e1 adresa u\u017e existuje"
+    }, 
+    "Email address is invalid": {
+        "message": "Nespr\u00e1vn\u00fd email"
+    }, 
+    "Email:": {
+        "message": "Email:"
+    }, 
+    "Extra special thanks to our:": {
+        "message": "Extra speci\u00e1ln\u00ed pod\u011bkov\u00e1n\u00ed na\u0161\u00edm:"
+    }, 
+    "Forgot username or password?": {
+        "message": "Zapom\u011bli jste u\u017eivatelsk\u00e9 jm\u00e9no nebo heslo?"
+    }, 
+    "Founding Commanders": {
+        "message": "Zakl\u00e1daj\u00edc\u00ed Velitel\u00e9"
+    }, 
+    "Galactic War": {
+        "message": "Galaktick\u00e1 v\u00e1lka"
+    }, 
+    "Incorrect username or password. Please check your entry and try again.": {
+        "message": "Nespr\u00e1vn\u00e9 u\u017eivatelsk\u00e9 jm\u00e9no nebo heslo. Pros\u00edm zkontroluj spr\u00e1vnost a zkus to znovu."
+    }, 
+    "Link PlayFab with Steam": {
+        "message": "Propojit \u00fa\u010det PlayFab s \u00fa\u010dtem Steam."
+    }, 
+    "Multiplayer": {
+        "message": "V\u00edce hr\u00e1\u010d\u016f"
+    }, 
+    "New Build Available:": {
+        "message": "Nov\u00e9 dostupn\u00e9 budovy."
+    }, 
+    "None of this would have been possible without your generosity, and we are grateful that you took the chance and believed in our vision.": {
+        "message": "Nic z tohoto by nebylo mo\u017en\u00e9 bez va\u0161\u00ed \u0161t\u011bdrosti a my d\u011bkujeme, \u017ee jste na sebe vzali to riziko a v\u011b\u0159ili na\u0161\u00ed vizi."
+    }, 
+    "Password": {
+        "message": "Heslo"
+    }, 
+    "Passwords are different": {
+        "message": "Hesla jsou jin\u00e1"
+    }, 
+    "PlayFab Username:": {
+        "message": "U\u017eivatelsk\u00e9 jm\u00e9no PlayFab:"
+    }, 
+    "PlayFab account already linked to a different Steam account": {
+        "message": "FlayFab \u00fa\u010det je ji\u017e propojen s jin\u00fdm Steam \u00fa\u010dtem."
+    }, 
+    "Please choose a default region.": {
+        "message": "Zvol pros\u00edm v\u00fdchoz\u00ed oblast."
+    }, 
+    "Please try again later. If this error persists, please contact support and check the forums.": {
+        "message": "Pros\u00edm, zkuste to pozd\u011bji. Pokud tato chyba p\u0159etrv\u00e1v\u00e1, zkontaktujte pros\u00edm podporu a koukn\u011bte na f\u00f3rum."
+    }, 
+    "Please try to link your account at": {
+        "message": "Pros\u00edm, zkuste propojit v\u00e1\u0161 \u00fa\u010det na"
+    }, 
+    "Problem with Steam Account.": {
+        "message": "Probl\u00e9m s Steam \u00fa\u010dtem."
+    }, 
+    "Quit": {
+        "message": "Konec"
+    }, 
+    "RETURN TO SIGN IN": {
+        "message": "ZP\u00c1TKY NA P\u0158IHL\u00c1\u0160EN\u00cd"
+    }, 
+    "Reconnecting to Game": {
+        "message": "Znovu p\u0159ipojov\u00e1n\u00ed do hry"
+    }, 
+    "Replays": {
+        "message": "Z\u00e1znamy"
+    }, 
+    "Settings": {
+        "message": "Nastaven\u00ed"
+    }, 
+    "Sign in": {
+        "message": "P\u0159ihl\u00e1sit se"
+    }, 
+    "Sign in with your PlayFab ID": {
+        "message": "P\u0159ihl\u00e1sit se pomoc\u00ed PlayFab ID"
+    }, 
+    "Sign into your PlayFab account.": {
+        "message": "P\u0159ihl\u00e1sit se k \u00fa\u010dtu PlayFab."
+    }, 
+    "Single Player": {
+        "message": "Jeden hr\u00e1\u010d"
+    }, 
+    "System Designer": {
+        "message": "N\u00e1vrh\u00e1\u0159 Syst\u00e9m\u016f"
+    }, 
+    "Thank you for your support!": {
+        "message": "D\u011bkujeme za va\u0161\u00ed p\u0159\u00edze\u0148!"
+    }, 
+    "There are no regions available for this build version.": {
+        "message": "Pro tuto verzi nejsou dostupn\u00e9 \u017e\u00e1dn\u00e9 oblasti."
+    }, 
+    "There is a problem with Steam. Please restart Steam and try again or login using your PlayFab credentials.": {
+        "message": "Vyskytl se probl\u00e9m se syst\u00e9mem Steam. Restartujte pros\u00edm Steam a zkuste to znovu nebo se p\u0159ihlaste s p\u0159ihla\u0161ovac\u00edmi \u00fadaji k \u00fa\u010dtu PlayFab."
+    }, 
+    "This shouldn't happen. Please contact us at": {
+        "message": "Tohle by se nem\u011blo st\u00e1t. Pros\u00edm zkontaktuj n\u00e1s na"
+    }, 
+    "This title has not been activated.": {
+        "message": "Tento produkt je\u0161t\u011b nebyl aktivov\u00e1n."
+    }, 
+    "To those who contributed to our Kickstarter campaign, we'd like to thank you for all the support.": {
+        "message": "T\u011bm, kte\u0159\u00ed podpo\u0159ili na\u0161\u00ed Kickstarterovou kampa\u0148, chceme pod\u011bkovat za ve\u0161kerou podporu."
+    }, 
+    "Twitch": {
+        "message": "Twitch"
+    }, 
+    "Unable to Sign In": {
+        "message": "Nemo\u017eno se p\u0159ihl\u00e1sit"
+    }, 
+    "User account has not been linked to steam.": {
+        "message": "\u00da\u010det nebyl propojen se slu\u017ebou steam."
+    }, 
+    "Username": {
+        "message": "U\u017eivatelsk\u00e9 jm\u00e9no"
+    }, 
+    "Username already exists": {
+        "message": "U\u017eivatelsk\u00e9 jm\u00e9no u\u017e existuje"
+    }, 
+    "Version:": {
+        "message": "Verze:"
+    }, 
+    "Videos": {
+        "message": "Videa"
+    }, 
+    "Visit our website \u00bb": {
+        "message": "Nav\u0161tivte n\u00e1\u0161 web \u00bb"
+    }, 
+    "You are already assigned to a game.": {
+        "message": "U\u017e jste ji\u017e p\u0159i\u0159azen ke h\u0159e."
+    }, 
+    "You can change the region later in the settings menu.": {
+        "message": "Oblast m\u016f\u017ee b\u00fdt pozd\u011bji zm\u011bn\u011bna v Nastaven\u00ed."
+    }, 
+    "You need a new client to play the game. Steam users may need to restart Steam to get the new client.": {
+        "message": "Pot\u0159ebuje\u0161 novou verzi klienta ke hran\u00ed. Steam u\u017eivatel\u00e9 budou nejsp\u00ed\u0161 muset Steam restartovat pro novou klientskou verzi."
+    }, 
+    "Your Steam ID and PlayFab accounts have been successfully linked.": {
+        "message": "Va\u0161e \u00fa\u010dty Steam ID a PlayFab byly \u00fasp\u011b\u0161n\u011b propojeny."
+    }, 
+    "Your account has been banned.": {
+        "message": "V\u00e1\u0161 \u00fa\u010det byl zablokov\u00e1n."
+    }, 
+    "Your account has been banned. If you believe this is in error, contact us at": {
+        "message": "Tv\u016fj \u00fa\u010det byl zablokov\u00e1n. Pokud si mysl\u00ed\u0161 \u017ee je to chyba, zkontaktuj n\u00e1s na"
+    }, 
+    "Your default region is currently unavailable. Please choose a different region.": {
+        "message": "Va\u0161e v\u00fdchoz\u00ed oblast je moment\u00e1ln\u011b nedostupn\u00e1. Zvolte pros\u00edm jinou oblast."
+    }, 
+    "Your steam account does not own this application.": {
+        "message": "V\u00e1\u0161 \u00fa\u010det na steamu nevlastn\u00ed tuto aplikaci."
+    }, 
+    "set by code": {
+        "message": "nastaveno podle k\u00f3du"
+    }, 
+    "viewers": {
+        "message": "div\u00e1ci"
+    }, 
+    "| UI Library: Coherent Labs, copyright \u00a9 2012-2014": {
+        "message": "| UI Library: Coherent Labs, copyright \u00a9 2012-2014"
+    }, 
+    "\u00a9 2014 Uber Entertainment Inc.": {
+        "message": "\u00a9 2014 Uber Entertainment Inc."
+    }
+}

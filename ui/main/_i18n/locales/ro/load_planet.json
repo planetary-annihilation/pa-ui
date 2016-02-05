@@ -1,0 +1,29 @@
+{
+    "CANCEL": {
+        "message": "ANULEAZ\u0102"
+    }, 
+    "Delete": {
+        "message": "\u015eTERGE"
+    }, 
+    "Delete this planet?": {
+        "message": "Delete this planet?"
+    }, 
+    "Delete this system?": {
+        "message": "Delete this system?"
+    }, 
+    "Load Planet": {
+        "message": "Load Planet"
+    }, 
+    "Load System": {
+        "message": "Load System"
+    }, 
+    "SHOW PLANETS": {
+        "message": "ARAT\u0102 PLANETELE"
+    }, 
+    "SHOW SYSTEMS": {
+        "message": "ARAT\u0102 SISTEMELE"
+    }, 
+    "System Designer": {
+        "message": "SYSTEM DESIGNER"
+    }
+}

@@ -1,0 +1,491 @@
+.container {
+    width: 100%;
+    height: calc(100% - 10px);
+}
+
+.tab-pane {
+    height: 100%;
+    overflow-y: auto;
+}
+
+.col-padding {
+    padding: 0px 16px;
+}
+
+#tab3 {
+    display: flex;
+}
+
+.wrap {
+    border-width: 10px 21px 21px 21px;
+    border-image: url('coui://ui/main/shared/img/buttons/btn_lrg_std.png') 10 21 21 21;
+    box-shadow: inset 500px 500px 500px 500px #0d0d0d;
+}
+
+#main .wrapper {
+    height: 100%;
+}
+
+#main {
+    padding-left: 0;
+}
+
+    #main .header {
+        padding-top: 45px;
+    }
+
+    #main .content {
+        padding-top: 97px;
+    }
+
+.one-game {
+    width: 247px;
+    height: 250px;
+    float: left;
+    margin: 0;
+    padding: 10px 20px;
+    position: relative;
+}
+
+    .one-game img.icon {
+        height: 150px;
+        width: 150px;
+    }
+
+    .one-game .stats {
+        font-size: 13px;
+    }
+
+    .one-game .victory {
+        color: white;
+        font-weight: bold;
+        text-shadow: black 0px 0px 15px;
+    }
+
+    .one-game .defeat {
+        color: red;
+        font-weight: bold;
+        text-shadow: black 0px 0px 15px;
+    }
+
+.col {
+    border-right: 1px solid rgba(255, 255, 255, 0.1);
+    box-shadow: inset 0px 0px 20px rgba(255,255,255,.05);
+}
+
+#new-game-left {
+    display: inline-block;
+}
+
+    #new-game-left .form-group {
+        position: relative;
+        height: 100%;
+    }
+
+    #new-game-left p {
+        margin-bottom: 0;
+    }
+
+.header {
+    font-size: 2em;
+    text-align: left;
+    padding-top: 0px;
+    height: auto;
+    flex-shrink: 0;
+    font-family: 'Sansation Bold';
+    text-transform: uppercase;
+    background: rgba(255, 255, 255, 0.1);
+    margin: 10px 0px 10px 0px;
+    padding: 0px 0px 0px 16px;
+    color: #00B3FF;
+    text-shadow: 0px 0px 20px #00B3FF;
+}
+
+#commander-select {
+    height: 100%;
+    box-shadow: inset 500px 500px 500px 500px #0D0D0D;
+    display: inline-block;
+    cursor: default;
+    -webkit-user-select: none;
+    user-select: none;
+    font-family: 'Sansation Bold';
+    font-size: 24px;
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+    color: #FFF;
+}
+
+#faction-select {
+    height: 30px;
+    border: 1px solid #b2b2b2;
+    box-shadow: 0px 3px 4px rgba(0,0,0,.6);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    color: black;
+}
+
+#new-game-right {
+    width: 300px;
+    display: inline-block;
+}
+
+#commander-prev, #commander-next {
+    height: 74px;
+    width: 82px;
+}
+
+#commander-prev {
+    background: url(coui://ui/main/shared/img/buttons/btn_back.png) top center no-repeat;
+    float: left;
+}
+
+    #commander-prev:hover {
+        background: url(coui://ui/main/shared/img/buttons/btn_back_hover.png) top center no-repeat;
+    }
+
+    #commander-prev:active {
+        background: url(coui://ui/main/shared/img/buttons/btn_back_active.png) top center no-repeat;
+    }
+
+#commander-next {
+    background: url(coui://ui/main/shared/img/buttons/btn_forward.png) top center no-repeat;
+    float: right;
+}
+
+    #commander-next:hover {
+        background: url(coui://ui/main/shared/img/buttons/btn_forward_hover.png) top center no-repeat;
+    }
+
+    #commander-next:active {
+        background: url(coui://ui/main/shared/img/buttons/btn_forward_active.png) top center no-repeat;
+    }
+
+#loadouts {
+    position: relative;
+    width: calc(100% - 600px);
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+
+#start-cards,
+.loadout-card {
+    display: flex;
+    align-content: stretch;
+    flex-wrap: wrap;
+    overflow-y: auto;
+    justify-content: flex-start;
+    pointer-events: all;
+    padding-left: 16px;
+}
+
+    #start-cards > .card,
+    .loadout-card > .card {
+        height: 180px;
+        width: 480px;
+        background: rgba(0, 0, 0, 0.9);
+        position: relative;
+        margin: 0px 16px 16px 0px;
+        padding: 16px;
+        border: 1px solid rgba(255, 255, 255, 0.5);
+        box-shadow: 0px 0px 50px rgba(0, 0, 0, 0.8);
+        align-items: flex-start;
+        justify-content: flex-start;
+        -webkit-animation: tile_fadeout;
+        -webkit-transition: .3s ease-out;
+    }
+
+        #start-cards > .card:hover {
+            border-color: rgb(0, 179, 255);
+            box-shadow: 0px 0px 50px rgba(0, 179, 255, 0.5);
+            -webkit-animation: none;
+            -webkit-transition: none;
+        }
+
+    #start-cards > .card_active {
+        height: 180px;
+        width: 480px;
+        background: red;
+        position: relative;
+        margin: 0px 16px 16px 0px;
+        padding: 16px;
+        background: rgb(30, 122, 161);
+        border: 1px solid #00B3FF;
+        box-shadow: inset 0px 0px 10px rgb(0, 179, 255);
+    }
+
+    #start-cards > .card_locked {
+        height: 180px;
+        width: 480px;
+        background: none;
+        position: relative;
+        margin: 0px 16px 16px 0px;
+        padding: 16px;
+        border: 1px solid rgba(255, 255, 255, 0.05);
+    }
+
+.tip {
+    background: #060;
+    display: inline-block;
+    padding: 0px 4px;
+    margin: 0px 4px 0px 0px;
+}
+
+#start-cards > .card > .summary,
+.loadout-card > .card > .summary {
+    margin-top: 0px;
+}
+
+.col1 {
+    width: 90px;
+}
+
+.card .col1 .icon {
+}
+
+.loadout-card > .card .col1 .icon {
+    height:90px;
+    width:90px;
+}
+
+.col2 {
+    width: 345px;
+    padding: 0px 16px;
+}
+
+    .col2 .summary {
+        font-family: 'Sansation Bold';
+        font-size: 24px;
+        color: #199919;
+        text-shadow: none;
+        margin: 0px 0px 6px 0px;
+        line-height: 1;
+    }
+
+.card_active .col2 .summary {
+    color: #fff;
+}
+
+.col2 .desc {
+    line-height: 1.7;
+}
+
+.card > .unknown {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+}
+
+    .card > .unknown > .unknown-default-icon {
+        display: block;
+        font-size: 5em;
+        font-weight: bolder;
+    }
+
+    .card > .unknown > .unknown-description {
+        margin: 10px 0px 0px 0px;
+        padding: 0px 16px;
+    }
+
+#tutorial {
+    min-width: 80%;
+    padding: 0px;
+    overflow-y: auto;
+}
+
+    #tutorial .header {
+        text-align: center;
+        font-size: 30px;
+        font-weight: bold;
+        height: auto;
+        margin: 0;
+        padding: 0;
+    }
+
+    #tutorial .details {
+        margin-top: 0.5em;
+        font-size:14px;
+    }
+
+.section_wrapper {
+    margin: 0px 0px;
+    display: flex;
+    justify-content: flex-start;
+    align-content: flex-start;
+}
+
+.section_title {
+    white-space: nowrap;
+}
+
+.div_credits_top_spacer {
+    display: block;
+    width: 100%;
+    height: 43px;
+}
+
+.one_war {
+    height: 370px;
+    width: 300px;
+    float: left;
+    margin: 10px 10px;
+    padding: 0px 0px;
+    position: relative;
+    border: 1px solid rgba(20, 122, 161, 0.5);
+    box-shadow: 0px 0px 50px rgba(0, 179, 255, 0.1);
+    display: flex;
+    flex-direction: column;
+    -webkit-animation: tile_fadeout;
+    -webkit-transition: .3s ease-out;
+    position: relative;
+    font-family: 'Sansation Bold';
+    font-size: 16px;
+}
+
+    .one_war:hover {
+        color: #FFFFFF;
+        text-shadow: 0px 0px 10px #FFFFFF;
+        border-color: #00B3FF;
+        box-shadow: 0px 0px 50px rgba(0, 179, 255, 0.5);
+        -webkit-animation: none;
+        -webkit-transition: none;
+    }
+
+    .one_war:active {
+        color: #FFFFFF;
+        text-shadow: 0px 0px 10px #FFFFFF;
+        background: #00B3FF;
+        border-color: #00B3FF;
+        box-shadow: 0px 0px 50px rgba(0, 179, 255, 1);
+    }
+
+.one_war_selected {
+    width: 300px;
+    float: left;
+    margin: 10px 10px;
+    padding: 0px 0px;
+    position: relative;
+    border: 1px solid rgba(20, 122, 161, 0.5);
+    box-shadow: 0px 0px 50px rgba(0, 179, 255, 0.1);
+    display: flex;
+    flex-direction: column;
+    background: #1E7AA1;
+    border-color: #00B3FF;
+    box-shadow: inset 0px 0px 10px #00B3FF;
+}
+
+
+.one_war img.icon {
+    height: 100%;
+    width: 100%;
+}
+
+
+.war-title-grp {
+    width: 100%;
+    position: absolute;
+}
+
+.war-title {
+    font-family: "Sansation Bold";
+    font-size: 20px;
+    background: rgba(0, 179, 255, 0.2);
+    color: rgb(0, 179, 255);
+    text-shadow: 0px 0px 20px rgb(0, 179, 255);
+    color: rgb(255, 255, 255);
+    padding: 8px 8px;
+    line-height: 1.2;
+}
+
+.war-abandon {
+    float: right;
+    margin-top: -30px;
+    margin-right: 5px;
+}
+
+.war-thumb {
+    height: 220px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+}
+
+    .war-thumb .position {
+        height: 200px;
+        overflow: hidden;
+    }
+
+
+.one_war .bottom {
+    height: 100px;
+    width: 100%;
+    position: absolute;
+    bottom: 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.one_war .stats {
+    text-transform: uppercase;
+    font-size: 16px;
+    color: #999;
+}
+
+    .one_war .stats .unit {
+        color: #fff;
+    }
+
+.result {
+    padding: 2px 8px;
+    position: relative;
+}
+
+.victory {
+    padding: 0px 8px;
+    background: rgba(0, 88, 168,.65);
+    text-transform: uppercase;
+    font-size: 24px;
+}
+
+.defeat {
+    padding: 0px 8px;
+    background: rgba(168, 0, 0, 0.65);
+    text-transform: uppercase;
+    font-size: 24px;
+}
+
+/*FOR TUTORIAL DIALOG*/
+.ui-widget-content {
+    background:inherit;
+}
+
+/*.victory {
+    padding-top:4px;
+    background: rgba(0, 88, 168,.5);
+    border-bottom: 30px solid rgba(0, 88, 168,.8);
+    margin-bottom: -27px;
+    text-transform: uppercase;
+    font-size: 24px;
+}
+
+.defeat {
+    padding-top: 4px;
+    background: rgba(168, 0, 0, 0.5);
+    border-bottom: 30px solid rgba(168, 0, 0, 0.8);
+    margin-bottom: -27px;
+    text-transform: uppercase;
+    font-size: 24px;
+}*/
+
+

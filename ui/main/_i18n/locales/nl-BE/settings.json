@@ -1,0 +1,902 @@
+{
+    "1100 (recommended for 480p)": {
+        "message": "1100 (recommended for 480p)"
+    }, 
+    "2000 (recommended for 720p)": {
+        "message": "2000 (recommended for 720p)"
+    }, 
+    "3200 (recommended for 1080p)": {
+        "message": "3200 (recommended for 1080p)"
+    }, 
+    "500 (recommended for 240p)": {
+        "message": "500 (recommended for 240p)"
+    }, 
+    "700 (recommended for 360p)": {
+        "message": "700 (recommended for 360p)"
+    }, 
+    "ALL": {
+        "message": "ALLE"
+    }, 
+    "ALWAYS": {
+        "message": "ALTIJD"
+    }, 
+    "Ambient Occlusion": {
+        "message": "Ambient Occlusion"
+    }, 
+    "Anti-Aliasing": {
+        "message": "Anti-Aliasing"
+    }, 
+    "Audio": {
+        "message": "Audio"
+    }, 
+    "Bitrate": {
+        "message": "Bitsnelheid"
+    }, 
+    "Build Preview Behavior": {
+        "message": "Gedrag van Bouwplannen"
+    }, 
+    "CUSTOM": {
+        "message": "CUSTOM"
+    }, 
+    "Camera": {
+        "message": "Camera"
+    }, 
+    "Camera Friction": {
+        "message": "Camera Friction"
+    }, 
+    "Cancel": {
+        "message": "Annuleer"
+    }, 
+    "Display Mode": {
+        "message": "Display Mode"
+    }, 
+    "ENABLE MICROPHONE": {
+        "message": "ACTIVEER MICROFOON"
+    }, 
+    "ENABLE STREAMING (Takes effect immediately)": {
+        "message": "Streamen inschakelen (onmiddellijk van toepassing)"
+    }, 
+    "ENABLE SYSTEM SOUNDS": {
+        "message": "ACTIVEER SYSTEEM GELUIDEN"
+    }, 
+    "Edge Scroll Options": {
+        "message": "Opties voor scrollen naar de zijkant"
+    }, 
+    "FOV": {
+        "message": "FOV"
+    }, 
+    "FPS": {
+        "message": "FPS"
+    }, 
+    "FULLSCREEN": {
+        "message": "VOLLEDIG SCHERM"
+    }, 
+    "FXAA": {
+        "message": "FXAA"
+    }, 
+    "Graphics": {
+        "message": "Graphics"
+    }, 
+    "HDR": {
+        "message": "HDR"
+    }, 
+    "HIGH": {
+        "message": "HIGH"
+    }, 
+    "Headlights": {
+        "message": "Headlights"
+    }, 
+    "ICON DISPLAY DISTANCE": {
+        "message": "ICOON WEERGAVE-AFSTAND"
+    }, 
+    "Key Pan Speed": {
+        "message": "Key Pan Speed"
+    }, 
+    "Keyboard": {
+        "message": "Toetsenbord"
+    }, 
+    "LOW": {
+        "message": "LOW"
+    }, 
+    "Language": {
+        "message": "Language"
+    }, 
+    "Livestream Settings": {
+        "message": "Livestream instellingen"
+    }, 
+    "MEDIUM": {
+        "message": "MEDIUM"
+    }, 
+    "Master Volume": {
+        "message": "Volume meesterswitch"
+    }, 
+    "Mouse Pan Speed": {
+        "message": "Mouse Pan Speed"
+    }, 
+    "Music Volume": {
+        "message": "Muziekvolume"
+    }, 
+    "NATIVE (100%)": {
+        "message": "NATIVE (100%)"
+    }, 
+    "NEVER": {
+        "message": "NOOIT"
+    }, 
+    "OFF": {
+        "message": "UIT"
+    }, 
+    "OFF (MOUSELOCK)": {
+        "message": "UIT (MUIS VASTZETTEN)"
+    }, 
+    "OFF (NO MOUSELOCK)": {
+        "message": "OFF (NO MOUSELOCK)"
+    }, 
+    "ON": {
+        "message": "AAN"
+    }, 
+    "Orbital Shell": {
+        "message": "Orbital Shell"
+    }, 
+    "Order Preview Behavior": {
+        "message": "Order Preview Behavior"
+    }, 
+    "Password": {
+        "message": "Paswoord"
+    }, 
+    "Pole Lock": {
+        "message": "Stel vast op de polen"
+    }, 
+    "Quality Preset": {
+        "message": "Quality Preset"
+    }, 
+    "RANGE DEPENDENT": {
+        "message": "RANGE DEPENDENT"
+    }, 
+    "RESTORE ALL DEFAULTS": {
+        "message": "HERSTEL ALLE STANDAARDINSTELLINGEN"
+    }, 
+    "RESTORE DEFAULTS": {
+        "message": "HERSTEL STANDAARDINSTELLINGEN"
+    }, 
+    "Resolution": {
+        "message": "Resolution"
+    }, 
+    "Resolution Scaling": {
+        "message": "Resolutie Schalen"
+    }, 
+    "SELECTED": {
+        "message": "GESELECTEERD"
+    }, 
+    "SERVER": {
+        "message": "Server"
+    }, 
+    "SHIFT": {
+        "message": "SHIFT"
+    }, 
+    "SIGN IN": {
+        "message": "LOG IN"
+    }, 
+    "SIGN OUT": {
+        "message": "LOG OUT"
+    }, 
+    "SUBSAMPLE (50%)": {
+        "message": "SUBSAMPLE (50%)"
+    }, 
+    "SUBSAMPLE (75%)": {
+        "message": "SUBSAMPLE (75%)"
+    }, 
+    "SUPERSAMPLE (110%)": {
+        "message": "SUPERSAMPLE (110%)"
+    }, 
+    "SUPERSAMPLE (150%)": {
+        "message": "SUPERSAMPLE (150%)"
+    }, 
+    "SUPERSAMPLE (175%)": {
+        "message": "SUPERSAMPLE (175%)"
+    }, 
+    "Save": {
+        "message": "Opslaan"
+    }, 
+    "Save And Close": {
+        "message": "Opslaan en Sluiten"
+    }, 
+    "Server": {
+        "message": "Server"
+    }, 
+    "Settings": {
+        "message": "Instellingen"
+    }, 
+    "Shadows": {
+        "message": "Schaduwen"
+    }, 
+    "Show Build Previews": {
+        "message": "Toon bouwplannen"
+    }, 
+    "Show Metal Spot Icons": {
+        "message": "Show Metal Spot Icons"
+    }, 
+    "Show Order Previews": {
+        "message": "Toon Orderplannen"
+    }, 
+    "Show Stat Bars": {
+        "message": "Show Stat Bars"
+    }, 
+    "Show Unit Icons": {
+        "message": "Show Unit Icons"
+    }, 
+    "Show/Hide game stats": {
+        "message": "Toon/verstop spelstatistieken"
+    }, 
+    "Show/Hide pip": {
+        "message": "Show/Hide pip"
+    }, 
+    "Sign in with Your Twitch ID": {
+        "message": "Inloggen met je Twitch ID"
+    }, 
+    "Signed in as": {
+        "message": "Login als"
+    }, 
+    "Sound Effects Volume": {
+        "message": "Volume geluidseffecten"
+    }, 
+    "Twitch chat": {
+        "message": "Twitch chat"
+    }, 
+    "UBER": {
+        "message": "UBER"
+    }, 
+    "UI": {
+        "message": "UI"
+    }, 
+    "VALUE DEPENDENT": {
+        "message": "VALUE DEPENDENT"
+    }, 
+    "Virtual Texture": {
+        "message": "Virtuele texture"
+    }, 
+    "Voice Volume": {
+        "message": "Voice Volume"
+    }, 
+    "WINDOWED": {
+        "message": "SPEEL IN WINDOWED"
+    }, 
+    "Zoom Speed": {
+        "message": "Zoom Speed"
+    }, 
+    "abort": {
+        "message": "abort"
+    }, 
+    "alerts": {
+        "message": "alerts"
+    }, 
+    "align to pole": {
+        "message": "Aligneer met polen"
+    }, 
+    "alt fire": {
+        "message": "alternatieve aanvalsmodus"
+    }, 
+    "assist": {
+        "message": "assisteer"
+    }, 
+    "attack": {
+        "message": "attack"
+    }, 
+    "bug report": {
+        "message": "Bug rapport"
+    }, 
+    "build": {
+        "message": "build"
+    }, 
+    "build avatar": {
+        "message": "build avatar"
+    }, 
+    "build avatar factory": {
+        "message": "build avatar factory"
+    }, 
+    "build bar groups": {
+        "message": "build bar groups"
+    }, 
+    "build item 1": {
+        "message": "build item 1"
+    }, 
+    "build item 10": {
+        "message": "build item 10"
+    }, 
+    "build item 11": {
+        "message": "build item 11"
+    }, 
+    "build item 12": {
+        "message": "build item 12"
+    }, 
+    "build item 13": {
+        "message": "build item 13"
+    }, 
+    "build item 14": {
+        "message": "build item 14"
+    }, 
+    "build item 15": {
+        "message": "build item 15"
+    }, 
+    "build item 2": {
+        "message": "build item 2"
+    }, 
+    "build item 3": {
+        "message": "build item 3"
+    }, 
+    "build item 4": {
+        "message": "build item 4"
+    }, 
+    "build item 5": {
+        "message": "build item 5"
+    }, 
+    "build item 6": {
+        "message": "build item 6"
+    }, 
+    "build item 7": {
+        "message": "build item 7"
+    }, 
+    "build item 8": {
+        "message": "build item 8"
+    }, 
+    "build item 9": {
+        "message": "build item 9"
+    }, 
+    "build items": {
+        "message": "build items"
+    }, 
+    "build loop": {
+        "message": "build loop"
+    }, 
+    "build once": {
+        "message": "build once"
+    }, 
+    "build orders": {
+        "message": "build orders"
+    }, 
+    "capture anchor": {
+        "message": "Stel anker in"
+    }, 
+    "capture anchor 1": {
+        "message": "capture anchor 1"
+    }, 
+    "capture anchor 10": {
+        "message": "capture anchor 10"
+    }, 
+    "capture anchor 2": {
+        "message": "capture anchor 2"
+    }, 
+    "capture anchor 3": {
+        "message": "capture anchor 3"
+    }, 
+    "capture anchor 4": {
+        "message": "capture anchor 4"
+    }, 
+    "capture anchor 5": {
+        "message": "capture anchor 5"
+    }, 
+    "capture anchor 6": {
+        "message": "capture anchor 6"
+    }, 
+    "capture anchor 7": {
+        "message": "capture anchor 7"
+    }, 
+    "capture anchor 8": {
+        "message": "capture anchor 8"
+    }, 
+    "capture anchor 9": {
+        "message": "capture anchor 9"
+    }, 
+    "capture group 0": {
+        "message": "stel groep 0 in"
+    }, 
+    "capture group 1": {
+        "message": "stel groep 1 in"
+    }, 
+    "capture group 2": {
+        "message": "stel groep 2 in"
+    }, 
+    "capture group 3": {
+        "message": "stel groep 3 in"
+    }, 
+    "capture group 4": {
+        "message": "stel groep 4 in"
+    }, 
+    "capture group 5": {
+        "message": "stel groep 5 in"
+    }, 
+    "capture group 6": {
+        "message": "stel groep 6 in"
+    }, 
+    "capture group 7": {
+        "message": "stel groep 7 in"
+    }, 
+    "capture group 8": {
+        "message": "stel groep 8 in"
+    }, 
+    "capture group 9": {
+        "message": "stel groep 9 in"
+    }, 
+    "chronocam": {
+        "message": "chronocamera"
+    }, 
+    "communication": {
+        "message": "communication"
+    }, 
+    "copy to pip": {
+        "message": "copy to pip"
+    }, 
+    "copy unit": {
+        "message": "copy unit"
+    }, 
+    "crash": {
+        "message": "crash"
+    }, 
+    "decrease camera pan speed": {
+        "message": "decrease camera pan speed"
+    }, 
+    "dev mode": {
+        "message": "Ontwerpersmodus"
+    }, 
+    "direction": {
+        "message": "direction"
+    }, 
+    "disable navigation debug info": {
+        "message": "disable navigation debug info"
+    }, 
+    "dismiss alert notification": {
+        "message": "dismiss alert notification"
+    }, 
+    "enable navigation debug info": {
+        "message": "enable navigation debug info"
+    }, 
+    "energy off": {
+        "message": "energy off"
+    }, 
+    "energy on": {
+        "message": "energy on"
+    }, 
+    "fire at will": {
+        "message": "Vuur naar believen"
+    }, 
+    "free move backward": {
+        "message": "free move backward"
+    }, 
+    "free move down": {
+        "message": "free move down"
+    }, 
+    "free move forward": {
+        "message": "free move forward"
+    }, 
+    "free move left": {
+        "message": "free move left"
+    }, 
+    "free move right": {
+        "message": "free move right"
+    }, 
+    "free move up": {
+        "message": "free move up"
+    }, 
+    "free movement": {
+        "message": "free movement"
+    }, 
+    "free pitch backward": {
+        "message": "free pitch backward"
+    }, 
+    "free pitch forward": {
+        "message": "free pitch forward"
+    }, 
+    "free roll left": {
+        "message": "free roll left"
+    }, 
+    "free roll right": {
+        "message": "Vrij draaien rechts"
+    }, 
+    "free yaw left": {
+        "message": "free yaw left"
+    }, 
+    "free yaw right": {
+        "message": "free yaw right"
+    }, 
+    "free zoom in": {
+        "message": "vrije zoom"
+    }, 
+    "free zoom out": {
+        "message": "free zoom out"
+    }, 
+    "general": {
+        "message": "general"
+    }, 
+    "hold fire": {
+        "message": "hold fire"
+    }, 
+    "hold position": {
+        "message": "behoudt positie"
+    }, 
+    "increase camera pan speed": {
+        "message": "increase camera pan speed"
+    }, 
+    "jump to next planet": {
+        "message": "jump to next planet"
+    }, 
+    "jump to previous planet": {
+        "message": "jump to previous planet"
+    }, 
+    "last pseudo frame": {
+        "message": "last pseudo frame"
+    }, 
+    "load": {
+        "message": "load"
+    }, 
+    "maneuver": {
+        "message": "maneuver"
+    }, 
+    "modes": {
+        "message": "modes"
+    }, 
+    "move": {
+        "message": "bewegen"
+    }, 
+    "move down": {
+        "message": "beweeg naar beneden"
+    }, 
+    "move left": {
+        "message": "move left"
+    }, 
+    "move right": {
+        "message": "move right"
+    }, 
+    "move up": {
+        "message": "move up"
+    }, 
+    "navigate back/exit": {
+        "message": "navigate back/exit"
+    }, 
+    "next pseudo frame": {
+        "message": "next pseudo frame"
+    }, 
+    "normal chat": {
+        "message": "normale chat"
+    }, 
+    "paste unit": {
+        "message": "plak eenheden"
+    }, 
+    "patrol": {
+        "message": "patrol"
+    }, 
+    "pause game": {
+        "message": "pauzeer spel"
+    }, 
+    "pause time": {
+        "message": "pause time"
+    }, 
+    "picture-in-picture": {
+        "message": "picture-in-picture"
+    }, 
+    "ping": {
+        "message": "ping"
+    }, 
+    "planet jump": {
+        "message": "planet jump"
+    }, 
+    "play backwards at 100%": {
+        "message": "Spoel terug aan 100% snelheid"
+    }, 
+    "play backwards at 50%": {
+        "message": "play backwards at 50%"
+    }, 
+    "play forward at 100%": {
+        "message": "play forward at 100%"
+    }, 
+    "play forward at 50%": {
+        "message": "Speel aan 50% snelheid"
+    }, 
+    "publish server mods": {
+        "message": "publiceer server mods"
+    }, 
+    "quick profile": {
+        "message": "snel profiel"
+    }, 
+    "recall anchor": {
+        "message": "recall anchor"
+    }, 
+    "recall anchor 0": {
+        "message": "Roep anker 0 op"
+    }, 
+    "recall anchor 1": {
+        "message": "Roep anker 1 op"
+    }, 
+    "recall anchor 2": {
+        "message": "recall anchor 2"
+    }, 
+    "recall anchor 3": {
+        "message": "Roep anker 3 op"
+    }, 
+    "recall anchor 4": {
+        "message": "recall anchor 4"
+    }, 
+    "recall anchor 5": {
+        "message": "recall anchor 5"
+    }, 
+    "recall anchor 6": {
+        "message": "recall anchor 6"
+    }, 
+    "recall anchor 7": {
+        "message": "recall anchor 7"
+    }, 
+    "recall anchor 8": {
+        "message": "Roep anker 8 op"
+    }, 
+    "recall anchor 9": {
+        "message": "Roep anker 9 op"
+    }, 
+    "recall group 0": {
+        "message": "recall group 0"
+    }, 
+    "recall group 1": {
+        "message": "recall group 1"
+    }, 
+    "recall group 2": {
+        "message": "recall group 2"
+    }, 
+    "recall group 3": {
+        "message": "recall group 3"
+    }, 
+    "recall group 4": {
+        "message": "recall group 4"
+    }, 
+    "recall group 5": {
+        "message": "recall group 5"
+    }, 
+    "recall group 6": {
+        "message": "recall group 6"
+    }, 
+    "recall group 7": {
+        "message": "recall group 7"
+    }, 
+    "recall group 8": {
+        "message": "recall group 8"
+    }, 
+    "recall group 9": {
+        "message": "recall group 9"
+    }, 
+    "reclaim": {
+        "message": "reclaim"
+    }, 
+    "reload view": {
+        "message": "reload view"
+    }, 
+    "repair": {
+        "message": "repair"
+    }, 
+    "resume at latest time": {
+        "message": "resume at latest time"
+    }, 
+    "return fire": {
+        "message": "return fire"
+    }, 
+    "roam": {
+        "message": "roam"
+    }, 
+    "run twitch commercial": {
+        "message": "run twitch commercial"
+    }, 
+    "select air group": {
+        "message": "selecteer luchttroepen"
+    }, 
+    "select all air combat units": {
+        "message": "select all air combat units"
+    }, 
+    "select all air combat units on screen": {
+        "message": "select all air combat units on screen"
+    }, 
+    "select all combat units": {
+        "message": "select all combat units"
+    }, 
+    "select all combat units on screen": {
+        "message": "select all combat units on screen"
+    }, 
+    "select all factories": {
+        "message": "selecteer alle fabrieken"
+    }, 
+    "select all factories on screen": {
+        "message": "selecteer alle fabrieken op het scherm"
+    }, 
+    "select all idle factories": {
+        "message": "selecteer stilstaande fabrieken"
+    }, 
+    "select all idle factories on screen": {
+        "message": "select all idle factories on screen"
+    }, 
+    "select all land combat units": {
+        "message": "selecteer alle landtroepen"
+    }, 
+    "select all land combat units on screen": {
+        "message": "select all land combat units on screen"
+    }, 
+    "select all matching units on screen": {
+        "message": "select all matching units on screen"
+    }, 
+    "select all naval combat units": {
+        "message": "select all naval combat units"
+    }, 
+    "select all naval combat units on screen": {
+        "message": "select all naval combat units on screen"
+    }, 
+    "select bot group": {
+        "message": "select bot group"
+    }, 
+    "select combat group": {
+        "message": "Selecteer aanvalsgroep"
+    }, 
+    "select commander": {
+        "message": "select commander"
+    }, 
+    "select factory group": {
+        "message": "select factory group"
+    }, 
+    "select idle fabbers": {
+        "message": "Selecteer stilstaande fabriceerders"
+    }, 
+    "select orbital group (buildings)": {
+        "message": "selecteer ruimteeenheden(gebouwen)"
+    }, 
+    "select orbital group (units)": {
+        "message": "select orbital group (units)"
+    }, 
+    "select sea group": {
+        "message": "selecteer zeegroep"
+    }, 
+    "select utility group": {
+        "message": "selecteer geniegroep"
+    }, 
+    "select vehicle group": {
+        "message": "select vehicle group"
+    }, 
+    "self destruct selected unit": {
+        "message": "self destruct selected unit"
+    }, 
+    "set army from hover": {
+        "message": "set army from hover"
+    }, 
+    "set debug camera": {
+        "message": "stel debug camera in"
+    }, 
+    "set default camera": {
+        "message": "set default camera"
+    }, 
+    "set free camera": {
+        "message": "set free camera"
+    }, 
+    "set planet camera": {
+        "message": "set planet camera"
+    }, 
+    "show/hide UI": {
+        "message": "show/hide UI"
+    }, 
+    "show/hide performance panel": {
+        "message": "show/hide performance panel"
+    }, 
+    "show/hide visual aid overlays": {
+        "message": "toon/verstop visuele helpmiddelen"
+    }, 
+    "smooth zoom in": {
+        "message": "smooth zoom in"
+    }, 
+    "smooth zoom out": {
+        "message": "smooth zoom out"
+    }, 
+    "special move": {
+        "message": "special move"
+    }, 
+    "stop": {
+        "message": "stop"
+    }, 
+    "streaming": {
+        "message": "streaming"
+    }, 
+    "swap pip": {
+        "message": "swap pip"
+    }, 
+    "team chat": {
+        "message": "team chat"
+    }, 
+    "toggle FOW": {
+        "message": "toggle FOW"
+    }, 
+    "toggle audio logging": {
+        "message": "toggle audio loggen"
+    }, 
+    "toggle build orders": {
+        "message": "toggle bouworders"
+    }, 
+    "toggle console": {
+        "message": "toggle console"
+    }, 
+    "toggle debug camera": {
+        "message": "toggle debug camera"
+    }, 
+    "toggle energy orders": {
+        "message": "toggle energy orders"
+    }, 
+    "toggle fire orders": {
+        "message": "toggle fire orders"
+    }, 
+    "toggle free camera": {
+        "message": "toggle free camera"
+    }, 
+    "toggle fullscreen": {
+        "message": "Wissel tussen volledig scherm"
+    }, 
+    "toggle move orders": {
+        "message": "toggle maneuver-orders"
+    }, 
+    "toggle music": {
+        "message": "toggle music"
+    }, 
+    "toggle nav debug": {
+        "message": "toggle nav debug"
+    }, 
+    "toggle pip mirror": {
+        "message": "toggle pip spiegel"
+    }, 
+    "toggle twitch microphone": {
+        "message": "toggle twitch microphone"
+    }, 
+    "toggle twitch streaming": {
+        "message": "toggle twitch streamen"
+    }, 
+    "toggle twitch system audio recording": {
+        "message": "toggle twitch system audio recording"
+    }, 
+    "track selection with camera": {
+        "message": "track selection with camera"
+    }, 
+    "tracking & alignment": {
+        "message": "tracking & alignment"
+    }, 
+    "tuning": {
+        "message": "tuning"
+    }, 
+    "unit capture groups": {
+        "message": "unit capture groups"
+    }, 
+    "unit commands": {
+        "message": "troepencommando's"
+    }, 
+    "unit orders": {
+        "message": "unit orders"
+    }, 
+    "unit recall groups": {
+        "message": "Roep groepen op"
+    }, 
+    "unit selection": {
+        "message": "Troepenselectie"
+    }, 
+    "units": {
+        "message": "Troepen"
+    }, 
+    "unload": {
+        "message": "unload"
+    }, 
+    "zoom": {
+        "message": "zoom"
+    }, 
+    "zoom in": {
+        "message": "zoom in"
+    }, 
+    "zoom out": {
+        "message": "zoom out"
+    }, 
+    "zoom to air": {
+        "message": "zoom to air"
+    }, 
+    "zoom to celestial": {
+        "message": "zoom to celestial"
+    }, 
+    "zoom to orbital": {
+        "message": "zoom to orbital"
+    }, 
+    "zoom to surface": {
+        "message": "zoom naar de oppervlakte"
+    }
+}

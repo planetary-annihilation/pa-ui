@@ -1,0 +1,122 @@
+{
+    "- Host": {
+        "message": "- Host"
+    }, 
+    "AI Commander": {
+        "message": "COMPUTERSPILLER"
+    }, 
+    "Add AI": {
+        "message": "Tilf\u00f8j AI"
+    }, 
+    "Add AI Commander": {
+        "message": "Tilf\u00f8j Virtuel Modstander"
+    }, 
+    "Add Slot": {
+        "message": "Tilf\u00f8j plads"
+    }, 
+    "Alliance Victory": {
+        "message": "Alliance Victory"
+    }, 
+    "Browse...": {
+        "message": "Browse..."
+    }, 
+    "CONNECTION TO SERVER LOST": {
+        "message": "MISTET FORBINDELSE TIL SERVER"
+    }, 
+    "Chat": {
+        "message": "Chat"
+    }, 
+    "Cheats": {
+        "message": "Snyd"
+    }, 
+    "Dynamic Alliances": {
+        "message": "Dynamic Alliances"
+    }, 
+    "Empty": {
+        "message": "Tom"
+    }, 
+    "Free For All": {
+        "message": "Alle mod alle"
+    }, 
+    "Friends": {
+        "message": "Venner"
+    }, 
+    "Game Lobby": {
+        "message": "Spil Lobby"
+    }, 
+    "Game Mode": {
+        "message": "Game Mode"
+    }, 
+    "Global Spectator Chat": {
+        "message": "Global Spectator Chat"
+    }, 
+    "Join": {
+        "message": "Deltag"
+    }, 
+    "Kick": {
+        "message": "SMID UD"
+    }, 
+    "Leave": {
+        "message": "Forlad"
+    }, 
+    "New System": {
+        "message": "New System"
+    }, 
+    "Open to:": {
+        "message": "\u00c5ben for:"
+    }, 
+    "Player Slot": {
+        "message": "Spiller plads"
+    }, 
+    "Player chooses spot on starting planet": {
+        "message": "Player chooses spot on starting planet"
+    }, 
+    "Players)": {
+        "message": "Players)"
+    }, 
+    "Private": {
+        "message": "Privat"
+    }, 
+    "Public": {
+        "message": "Offentlig"
+    }, 
+    "Ready": {
+        "message": "Klar"
+    }, 
+    "Remove": {
+        "message": "Fjern"
+    }, 
+    "Returning to Main Menu": {
+        "message": "G\u00e5r til Hovedmenu"
+    }, 
+    "SHARE ARMY": {
+        "message": "DEL H\u00c6R"
+    }, 
+    "Server Mods": {
+        "message": "Server Modifikationer"
+    }, 
+    "Spectate": {
+        "message": "V\u00e6r tilskuer"
+    }, 
+    "Spectators": {
+        "message": "Tilskuere"
+    }, 
+    "Start Game": {
+        "message": "Start Spil"
+    }, 
+    "System": {
+        "message": "System"
+    }, 
+    "Tag:": {
+        "message": "Tag:"
+    }, 
+    "Team Armies": {
+        "message": "Hold"
+    }, 
+    "Title": {
+        "message": "Title"
+    }, 
+    "You must have friends to play a friends-only game.": {
+        "message": "Du skal have venner for at kunne spille med venner"
+    }
+}

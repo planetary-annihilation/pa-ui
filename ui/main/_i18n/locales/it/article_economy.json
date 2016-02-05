@@ -1,0 +1,29 @@
+{
+    "As Efficiency percentage lowers, all fabbers, factories and Commanders build slower": {
+        "message": "Se diminuisce la percentuale d’efficienza, tutti i fabbricatori, le fabbriche e i Comandanti producono più lentamente"
+    }, 
+    "Build Metal Storage and Energy Storage to stockpile more resources": {
+        "message": "Costruisci un deposito di metallo e un deposito di energia per accumulare risorse"
+    }, 
+    "Economy and Resources": {
+        "message": "Economia e risorse"
+    }, 
+    "Energy and Metal resources get consumed while building": {
+        "message": "Energia e metallo vengono consumati costruendo"
+    }, 
+    "If you\u2019re consuming more than you are producing, build efficiency slows down": {
+        "message": "Se ne consumi più di quanti ne produci, l’efficienza produttiva diminuisce"
+    }, 
+    "PA Guide: Economy": {
+        "message": "Guida di PA: Economia"
+    }, 
+    "Resources build up over time": {
+        "message": "Le risorse si accumulano col tempo"
+    }, 
+    "To generate Energy, build Energy Plants": {
+        "message": "Per generare energia, costruisci le centrali energetiche"
+    }, 
+    "To generate Metal, build Metal Extractors": {
+        "message": "Per generare metallo, costruisci gli estrattori"
+    }
+}

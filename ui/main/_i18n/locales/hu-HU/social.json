@@ -1,0 +1,92 @@
+{
+    "APPROVE": {
+        "message": "J\u00d3V\u00c1HAGY"
+    }, 
+    "APPROVED USERS": {
+        "message": "J\u00d3V\u00c1HAGYOTT FELHASZN\u00c1L\u00d3K"
+    }, 
+    "Add": {
+        "message": "Hozz\u00e1ad\u00e1s"
+    }, 
+    "Add a Friend": {
+        "message": "Bar\u00e1t Felv\u00e9tele"
+    }, 
+    "BLOCK": {
+        "message": "BLOKKOL"
+    }, 
+    "BLOCKED USERS": {
+        "message": "BLOKKOLT FELHASZN\u00c1L\u00d3K"
+    }, 
+    "Cancel": {
+        "message": "M\u00e9gse"
+    }, 
+    "Close": {
+        "message": "Bez\u00e1r\u00e1s"
+    }, 
+    "Contact List Updated": {
+        "message": "Kapcsolatlista Friss\u00edtve"
+    }, 
+    "Contact Not Found": {
+        "message": "J\u00e1t\u00e9kos Nem Tal\u00e1lhat\u00f3"
+    }, 
+    "Dismiss": {
+        "message": "Elutas\u00edt"
+    }, 
+    "Filter contatcs by tag:": {
+        "message": "Kapcsolatok sz\u0171r\u00e9se c\u00edmk\u00e9k szerint:"
+    }, 
+    "Games you make will be hidden to these players.": {
+        "message": "J\u00e1t\u00e9kok, melyeket l\u00e9trehozol nem lesznek l\u00e1that\u00f3ak ezen j\u00e1t\u00e9kosok sz\u00e1m\u00e1ra."
+    }, 
+    "Name:": {
+        "message": "N\u00e9v:"
+    }, 
+    "New Nickname:": {
+        "message": "\u00daj Becen\u00e9v:"
+    }, 
+    "Players you have encountered recently.": {
+        "message": "J\u00e1t\u00e9kosok, akikkel nemr\u00e9g tal\u00e1lkozt\u00e1l."
+    }, 
+    "Private games you make will only be visible to these players.": {
+        "message": "Priv\u00e1t j\u00e1t\u00e9kok, melyeket l\u00e9trehozol, csak ezen j\u00e1t\u00e9kosok sz\u00e1m\u00e1ra lesznek l\u00e1that\u00f3ak."
+    }, 
+    "RECENT": {
+        "message": "LEGUT\u00d3BBI"
+    }, 
+    "REMOVE": {
+        "message": "ELT\u00c1VOL\u00cdT\u00c1S"
+    }, 
+    "RENAME": {
+        "message": "\u00c1TNEVEZ\u00c9S"
+    }, 
+    "Refresh Contacts": {
+        "message": "Kapcsolatok Friss\u00edt\u00e9se"
+    }, 
+    "Refreshing friends list.....": {
+        "message": "Bar\u00e1tlista friss\u00edt\u00e9se......"
+    }, 
+    "SOCIAL": {
+        "message": "BAR\u00c1TOK"
+    }, 
+    "Tag": {
+        "message": "C\u00edmke"
+    }, 
+    "Tag Friend:": {
+        "message": "Bar\u00e1t Megc\u00edmk\u00e9z\u00e9se:"
+    }, 
+    "Tags:": {
+        "message": "C\u00edmk\u00e9k:"
+    }, 
+    "UBERDEX": {
+        "message": "UBERDEX"
+    }, 
+    "Uber Name": {
+        "message": "Uber N\u00e9v"
+    }, 
+    "UberId:": {
+        "message": "Uberid:"
+    }, 
+    "or": {
+        "message": "vagy"
+    }
+}

@@ -1,0 +1,392 @@
+﻿html, body {
+    height: 100%;
+    position: relative;
+    min-width: 1280px;
+    min-height: 720px;
+}
+
+body {
+    height: 100%;
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    flex-direction: column;
+    color: #e6e6e6;
+    font-family: 'Sansation Regular TTF';
+    font-size: 13px;
+    line-height: 1.7;
+    background-color: rgba(0,0,0,0);
+    z-index: 0;
+}
+
+div {
+}
+
+table {
+    height: 100%;
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+    border-spacing: 0;
+}
+
+    table tr td {
+        margin: 0px;
+        padding: 0px;
+    }
+
+.background_glow {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    z-index: -2;
+    background: url(coui://ui/main/game/new_game/img/background_lobby.png) center center no-repeat transparent;
+    opacity: .6;
+}
+
+.title_watermark {
+    color: #fff;
+    font-size: 128px;
+    font-family: Sansation Bold;
+    text-transform: uppercase;
+    text-shadow: 0px 0px 30px #fff;
+    margin: -50px 0px 0px 0px;
+    position: absolute;
+    opacity: 0;
+    z-index: -1;
+    -webkit-animation: header_scroll 24s linear infinite;
+    word-break: keep-all;
+    white-space: nowrap;
+}
+
+
+@-webkit-keyframes header_scroll {
+    70% {
+        opacity: 0;
+        left: -100%;
+    }
+
+    50% {
+        opacity: .10;
+    }
+
+    0% {
+        opacity: 0;
+        left: 50%;
+    }
+}
+
+#header-input {
+    float: right;
+    width: 250px;
+    margin-top: 2px;
+    padding: 7px 10px;
+}
+
+
+.section_title {
+    height: 60px;
+    text-align: left;
+    border-bottom: 20px solid rgba(0,0,0,.15);
+    position: relative;
+    z-index: 2;
+}
+
+.section_title_centered {
+    text-align: center;
+    font-family: "Sansation Bold";
+    font-size: 36px;
+    text-transform: uppercase;
+    text-shadow: 0px 0px 20px rgb(0, 179, 255);
+    border-bottom: 14px solid rgba(0, 0, 0, 0.2);
+}
+
+.section_title .content {
+    margin: 20px 20px 0px 20px;
+    display: flex;
+}
+
+    .section_title .content .btn_back {
+        height: 32px;
+        width: 32px;
+        border: 1px solid #137aa1;
+        margin: 8px 16px 0px 16px;
+    }
+
+    .section_title .content .title {
+        font-size: 32px;
+        font-family: 'Sansation Bold';
+        text-transform: uppercase;
+        text-shadow: 0px 0px 30px #00B3FF;
+        margin: 0px 0px 0px 0px;
+        display: flex;
+    }
+
+.section_content_top_bar {
+    min-height: 20px;
+    width: 100%;
+    background: rgba(0,0,0,.75);
+    box-shadow: 0px 0px 50px #000;
+    display: flex;
+    justify-content: center;
+}
+
+    .section_content_top_bar .tab_cont {
+        width: 100%;
+        position: relative;
+        margin: 10px 0px 0px 0px;
+        display: flex;
+        justify-content: center;
+        flex-grow: 1;
+    }
+
+        .section_content_top_bar .tab_cont .tabs {
+            font-size: 14px;
+            text-shadow: 0px 0px 20px rgba(0,179,255,1);
+            z-index: 1;
+        }
+
+
+
+.section_content {
+    height: calc(100% - 260px); /* TO ACCOMMODATE SOCIAL BAR*/
+    width: 100%;
+    background: #0d0d0d;
+    box-shadow: 0px 0px 80px #000;
+    border: 1px solid rgba(255,255,255,.05);
+    border-width: 1px 0px;
+    padding: 0px 0px 0px 0px;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+}
+
+.background_bar {
+    background: rgba(0,0,0,.6);
+    height: 100%;
+    width: 100%;
+    left: 0;
+    right: 0;
+    border: 1px solid rgba(255,255,255,.1);
+    border-width: 1px 0px;
+    position: absolute;
+    z-index: -1;
+    box-shadow: 0px 0px 100px #000;
+}
+
+/* ------ FRAMEWORK 
+------------------------------------------------*/
+
+.overall_width {
+    /*width: calc(100% - 100px);
+    min-width: 1260px;*/
+}
+
+
+.container_centered {
+    height: 100%;
+    width: 1260px;
+    overflow-y: scroll;
+    overflow: auto;
+    position: relative;
+}
+
+.section_content_table {
+    height: 100%;
+    width: 100%;
+    box-shadow: inset 0px 0px 25px #161616;
+    min-width: 1260px;
+    padding: 0px 0px 0px 20px;
+    position: relative;
+}
+
+    .section_content_table.full_width {
+        padding: 0 20px;
+    }
+
+.section_content.bground {
+    background: rgba(0, 0, 0, 0.65);
+}
+
+.section_content table tbody {
+    vertical-align: top;
+}
+
+    .section_content table tbody tr td.header {
+        height: 10px;
+    }
+
+    .section_content table tbody tr td.col_1 {
+        width: 240px;
+    }
+
+    .section_content table tbody tr td.col_2 {
+        height: 100%;
+        width: 100%;
+        position: relative;
+        display: flex;
+    }
+
+    .section_content table tbody tr td.col_3 {
+        min-width: 240px;
+    }
+
+.section_content .header {
+    /*height: 10px;*/
+}
+
+.section_content .col_1 {
+    width: 240px;
+}
+
+.section_content .col_2 {
+    height: 100%;
+    width: 100%;
+    position: relative;
+    display: flex;
+    flex-grow: 1;
+}
+
+.section_content .col_3 {
+    min-width: 240px;
+    display: flex;
+}
+
+.section_wrapper {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+    position: relative;
+    overflow: auto;
+}
+
+    .section_wrapper .container {
+        height: 100%;
+        width: 100%;
+        overflow: auto;
+    }
+
+    .section_wrapper table {
+    }
+
+.section_controls {
+    height: 100%;
+    overflow-y: auto;
+    padding: 12px 16px 0px 0px;
+}
+
+    .section_controls > button {
+        width: 100%;
+        text-transform: uppercase;
+        margin: 0 0 16px 0;
+    }
+
+.div_data_table {
+    background: #0b1a1f;
+    font-family: "Sansation Bold";
+    font-size: 16px;
+    border: 1px solid #1e7aa1;
+    box-shadow: inset 0px 0px 50px rgba(30,122,161,.1);
+    margin: 10px 0px;
+    position: relative;
+    flex-grow: 1;
+}
+
+    .div_data_table .table_glow {
+        height: 100%;
+        width: 100%;
+        box-shadow: 0px 0px 20px rgba(0,179,255,.5);
+        margin: 0px 0px;
+        pointer-events: none;
+        position: absolute;
+    }
+
+    .div_data_table .row {
+        margin: 0px;
+        border-bottom: 1px solid rgba(30,122,161,.4);
+    }
+
+.div_commit_cont {
+    width: 100%;
+    background: rgba(0,0,0,0.5);
+    border-top: 14px solid rgba(0,0,0,.2);
+    box-shadow: 0px 0px 20px #000;
+    margin: 0px auto;
+    padding: 0px 20px 14px 0px;
+    display: flex;
+    justify-content: flex-end;
+    align-content: center;
+}
+
+    .div_commit_cont.centered {
+        padding-right: 0px;
+        justify-content: center;
+    }
+
+.div_commit_btns {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.div_commit_secondary_options {
+    padding: 2px 16px;
+    flex-grow: 1;
+}
+
+    .div_commit_secondary_options > button {
+        margin: 0 8px 0 0;
+        text-transform: uppercase;
+    }
+
+.nav {
+    margin: 0px 0px 0px 0px;
+}
+
+.nav-pills > li > a {
+    position: relative;
+    display: block;
+    margin: 0px 0px -8px;
+    padding: 0px 10px;
+    border-radius: 0px;
+    text-decoration: none;
+    border-image: url(coui://ui/main/shared/img/tabs/img_tab_std_rest.png) 12 12 8 11 fill;
+    border-width: 12px 12px 8px 11px;
+    text-transform: uppercase;
+    color: #fff;
+    font-family: "Sansation Bold";
+    font-size: 14px;
+    background: none;
+    text-shadow: 0px 0px 20px #00b3ff;
+}
+
+    .nav-pills > li > a:hover {
+        text-decoration: none;
+        border-image: url(coui://ui/main/shared/img/tabs/img_tab_std_hover.png) 12 12 8 11 fill;
+        border-width: 12px 12px 8px 11px;
+        background: none;
+        text-shadow: 0px 0px 20px #00b3ff;
+    }
+
+.nav-pills > li.active > a, .nav-pills > li.active > a:hover, .nav-pills > li.active > a:focus {
+    text-decoration: none;
+    border-image: url(coui://ui/main/shared/img/tabs/img_tab_std_active.png) 12 12 8 11 fill;
+    border-width: 12px 12px 8px 11px;
+    background: none;
+    text-shadow: 0px 0px 20px #00b3ff;
+}
+
+.form-group label,
+#detail-pane .col-header {
+    font-family: "Sansation Regular";
+    font-size: 13px;
+    color: #ccc;
+    /*text-transform: uppercase;*/
+    text-shadow: 0px 0px 0px;
+    margin: 0px 0px 4px 0px;
+}

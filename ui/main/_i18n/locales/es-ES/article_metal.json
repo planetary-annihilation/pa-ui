@@ -1,0 +1,26 @@
+{
+    "Both Basic and Advanced Metal Extractors can be built on top of the same Metal Spot": {
+        "message": "En una misma zona metalúrgica se pueden construir tanto extractores de metal avanzados como básicos."
+    }, 
+    "Build Metal Extractors on Metal Spots": {
+        "message": "Construye extractores de metal en zonas metalúrgicas."
+    }, 
+    "Build Metal Storage to expand resource capacity": {
+        "message": "Construye almacenes de metal para tener más recursos."
+    }, 
+    "Metal Resource": {
+        "message": "Metal"
+    }, 
+    "Metal is required for building units and structures": {
+        "message": "El metal es necesario para construir unidades y estructuras."
+    }, 
+    "PA Guide: Metal": {
+        "message": "Guía de PA: Metal"
+    }, 
+    "Select Fabber, select [style=text_callout]Build Metal Extractor Icon[/style].": {
+        "message": "Selecciona el fabricante y, a continuación, haz clic en el icono [style=text_callout]Extractor de metales[/style] para construir uno."
+    }, 
+    "[style=text_callout]Left Click + drag[/style] in the world to build over multiple Metal Spots.": {
+        "message": "[style=text_callout]Haz clic en el botón izquierdo del ratón y arrastra[/style] por la superficie del planeta para construir en varias zonas metalúrgicas."
+    }
+}

@@ -1,0 +1,162 @@
+{
+    "Accept": {
+        "message": "\u0202\u03f2\u03f2\u1f73\u2374\u04ad\u03a9\u03a9\u03a9", 
+        "original": "Accept"
+    }, 
+    "Appear Offline": {
+        "message": "\n                                                    \u0202\u2374\u2374\u1f73\u0203\u0213 \u0472\u0493\u0493\u230a\u0457\u019e\u1f73\n                                                \u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9", 
+        "original": "\n                                                    Appear Offline\n                                                "
+    }, 
+    "Away": {
+        "message": "\n                                                    \u0202\u1ff4\u0203\u0443\n                                                \u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9", 
+        "original": "\n                                                    Away\n                                                "
+    }, 
+    "Block": {
+        "message": "\u0e3f\u230a\u020f\u03f2\u045c\u03a9\u03a9", 
+        "original": "Block"
+    }, 
+    "Buy Expansion": {
+        "message": "\u0e3f\u0574\u0443 \u0190\u2327\u2374\u0203\u019e\u01a8\u0457\u020f\u019e\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9", 
+        "original": "Buy Expansion"
+    }, 
+    "CANCEL": {
+        "message": "\u04aa\u0202\u019d\u04aa\u0190\u20a4\u03a9\u03a9\u03a9", 
+        "original": "CANCEL"
+    }, 
+    "CHANGE": {
+        "message": "\u04aa\u04c7\u0202\u019d\u01f4\u0190\u03a9\u03a9\u03a9", 
+        "original": "CHANGE"
+    }, 
+    "CHAT": {
+        "message": "\u04aa\u04c7\u0202\u4e01\u03a9\u03a9", 
+        "original": "CHAT"
+    }, 
+    "Cancel": {
+        "message": "\u04aa\u0203\u019e\u03f2\u1f73\u230a\u03a9\u03a9\u03a9", 
+        "original": "Cancel"
+    }, 
+    "Change Display Name": {
+        "message": "\n                                                    \u04aa\u043d\u0203\u019e\u0260\u1f73 \u0189\u0457\u01a8\u2374\u230a\u0203\u0443 \u019d\u0203\u028d\u1f73\n                                                \u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9", 
+        "original": "\n                                                    Change Display Name\n                                                "
+    }, 
+    "Change your display name?": {
+        "message": "\u04aa\u043d\u0203\u019e\u0260\u1f73 \u0443\u020f\u0574\u0213 \u0257\u0457\u01a8\u2374\u230a\u0203\u0443 \u019e\u0203\u028d\u1f73?\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9", 
+        "original": "Change your display name?"
+    }, 
+    "Chat": {
+        "message": "\u04aa\u043d\u0203\u04ad\u03a9\u03a9", 
+        "original": "Chat"
+    }, 
+    "Date": {
+        "message": "\u0189\u0203\u04ad\u1f73\u03a9\u03a9", 
+        "original": "Date"
+    }, 
+    "Do Not Disturb": {
+        "message": "\n                                                    \u0189\u020f \u019d\u020f\u04ad \u0189\u0457\u01a8\u04ad\u0574\u0213\u0411\n                                                \u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9", 
+        "original": "\n                                                    Do Not Disturb\n                                                "
+    }, 
+    "Enter a status message": {
+        "message": "\u0190\u019e\u04ad\u1f73\u0213 \u0203 \u01a8\u04ad\u0203\u04ad\u0574\u01a8 \u028d\u1f73\u01a8\u01a8\u0203\u0260\u1f73\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9", 
+        "original": "Enter a status message"
+    }, 
+    "Friends": {
+        "message": "\u03dc\u0213\u0457\u1f73\u019e\u0257\u01a8\u03a9\u03a9\u03a9", 
+        "original": "Friends"
+    }, 
+    "Ignore": {
+        "message": "\u03aa\u0260\u019e\u020f\u0213\u1f73\u03a9\u03a9\u03a9", 
+        "original": "Ignore"
+    }, 
+    "Invite to Chat": {
+        "message": "\u03aa\u019e\u0477\u0457\u04ad\u1f73 \u04ad\u020f \u04aa\u043d\u0203\u04ad\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9", 
+        "original": "Invite to Chat"
+    }, 
+    "Invite to game": {
+        "message": "\u03aa\u019e\u0477\u0457\u04ad\u1f73 \u04ad\u020f \u0260\u0203\u028d\u1f73\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9", 
+        "original": "Invite to game"
+    }, 
+    "Join Game": {
+        "message": "\u06b7\u020f\u0457\u019e \u01f4\u0203\u028d\u1f73\u03a9\u03a9\u03a9\u03a9", 
+        "original": "Join Game"
+    }, 
+    "New Display Name:": {
+        "message": "\u019d\u1f73\u1ff4 \u0189\u0457\u01a8\u2374\u230a\u0203\u0443 \u019d\u0203\u028d\u1f73:\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9", 
+        "original": "New Display Name:"
+    }, 
+    "No pending notifications.": {
+        "message": "\u019d\u020f \u2374\u1f73\u019e\u0257\u0457\u019e\u0260 \u019e\u020f\u04ad\u0457\u0493\u0457\u03f2\u0203\u04ad\u0457\u020f\u019e\u01a8.\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9", 
+        "original": "No pending notifications."
+    }, 
+    "Offline": {
+        "message": "\u0472\u0493\u0493\u230a\u0457\u019e\u1f73\u03a9\u03a9\u03a9", 
+        "original": "Offline"
+    }, 
+    "Online": {
+        "message": "\n                                                    \u0472\u019e\u230a\u0457\u019e\u1f73\n                                                \u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9", 
+        "original": "\n                                                    Online\n                                                "
+    }, 
+    "Pending Invite": {
+        "message": "\u1e54\u1f73\u019e\u0257\u0457\u019e\u0260 \u03aa\u019e\u0477\u0457\u04ad\u1f73\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9", 
+        "original": "Pending Invite"
+    }, 
+    "REMOVE": {
+        "message": "\u211d\u0190\u039c\u0472\u0476\u0190\u03a9\u03a9\u03a9", 
+        "original": "REMOVE"
+    }, 
+    "Recent": {
+        "message": "\u211d\u1f73\u03f2\u1f73\u019e\u04ad\u03a9\u03a9\u03a9", 
+        "original": "Recent"
+    }, 
+    "Remove": {
+        "message": "\u211d\u1f73\u028d\u020f\u0477\u1f73\u03a9\u03a9\u03a9", 
+        "original": "Remove"
+    }, 
+    "Required Expansion Pack": {
+        "message": "\u211d\u1f73\u0533\u0574\u0457\u0213\u1f73\u0257 \u0190\u2327\u2374\u0203\u019e\u01a8\u0457\u020f\u019e \u1e54\u0203\u03f2\u045c\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9", 
+        "original": "Required Expansion Pack"
+    }, 
+    "Search Players": {
+        "message": "\u1e60\u1f73\u0203\u0213\u03f2\u043d \u1e54\u230a\u0203\u0443\u1f73\u0213\u01a8\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9", 
+        "original": "Search Players"
+    }, 
+    "Search Results": {
+        "message": "\u1e60\u1f73\u0203\u0213\u03f2\u043d \u211d\u1f73\u01a8\u0574\u230a\u04ad\u01a8\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9", 
+        "original": "Search Results"
+    }, 
+    "Send Friend Request": {
+        "message": "\u1e60\u1f73\u019e\u0257 \u03dc\u0213\u0457\u1f73\u019e\u0257 \u211d\u1f73\u0533\u0574\u1f73\u01a8\u04ad\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9", 
+        "original": "Send Friend Request"
+    }, 
+    "Tags:": {
+        "message": "\u4e01\u0203\u0260\u01a8:\u03a9\u03a9", 
+        "original": "Tags:"
+    }, 
+    "The game you are trying to join requires the [style=content_description]__content_name__[/style] expansion for Planetary Annihilation.": {
+        "message": "\u4e01\u043d\u1f73 \u0260\u0203\u028d\u1f73 \u0443\u020f\u0574 \u0203\u0213\u1f73 \u04ad\u0213\u0443\u0457\u019e\u0260 \u04ad\u020f \u0644\u020f\u0457\u019e \u0213\u1f73\u0533\u0574\u0457\u0213\u1f73\u01a8 \u04ad\u043d\u1f73 [style=content_description]__content_name__[/style] \u1f73\u2327\u2374\u0203\u019e\u01a8\u0457\u020f\u019e \u0493\u020f\u0213 \u1e54\u230a\u0203\u019e\u1f73\u04ad\u0203\u0213\u0443 \u0202\u019e\u019e\u0457\u043d\u0457\u230a\u0203\u04ad\u0457\u020f\u019e.\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9", 
+        "original": "The game you are trying to join requires the [style=content_description]__content_name__[/style] expansion for Planetary Annihilation."
+    }, 
+    "Unblock": {
+        "message": "\u1ee6\u019e\u0411\u230a\u020f\u03f2\u045c\u03a9\u03a9\u03a9", 
+        "original": "Unblock"
+    }, 
+    "Unfriend": {
+        "message": "\u1ee6\u019e\u0493\u0213\u0457\u1f73\u019e\u0257\u03a9\u03a9\u03a9\u03a9", 
+        "original": "Unfriend"
+    }, 
+    "Users": {
+        "message": "\u1ee6\u01a8\u1f73\u0213\u01a8\u03a9\u03a9", 
+        "original": "Users"
+    }, 
+    "__display_name__ invited you to a game.": {
+        "message": "__display_name__ \u0457\u019e\u0477\u0457\u04ad\u1f73\u0257 \u0443\u020f\u0574 \u04ad\u020f \u0203 \u0260\u0203\u028d\u1f73.\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9", 
+        "original": "__display_name__ invited you to a game."
+    }, 
+    "__display_name__ invited you to chat.": {
+        "message": "__display_name__ \u0457\u019e\u0477\u0457\u04ad\u1f73\u0257 \u0443\u020f\u0574 \u04ad\u020f \u03f2\u043d\u0203\u04ad.\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9", 
+        "original": "__display_name__ invited you to chat."
+    }, 
+    "__display_name__ wants to be your friend.": {
+        "message": "__display_name__ \u1ff4\u0203\u019e\u04ad\u01a8 \u04ad\u020f \u0411\u1f73 \u0443\u020f\u0574\u0213 \u0493\u0213\u0457\u1f73\u019e\u0257.\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9\u03a9", 
+        "original": "__display_name__ wants to be your friend."
+    }
+}

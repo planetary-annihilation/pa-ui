@@ -1,0 +1,92 @@
+{
+    "Ambient Occlusion": {
+        "message": "AMBIENT OCCLUSION"
+    }, 
+    "Anti-Aliasing": {
+        "message": "ANTI-ALIASING"
+    }, 
+    "Audio": {
+        "message": "AUDIO"
+    }, 
+    "Camera": {
+        "message": "CAMERA"
+    }, 
+    "Camera Friction": {
+        "message": "FRIC\u0162IUNEA CAMEREI"
+    }, 
+    "Cancel": {
+        "message": "ANULEAZ\u0102"
+    }, 
+    "Display Mode": {
+        "message": "MOD DE PREZENTARE"
+    }, 
+    "Graphics": {
+        "message": "GRAFIC\u0102"
+    }, 
+    "HDR": {
+        "message": "HDR"
+    }, 
+    "Headlights": {
+        "message": "FARURI"
+    }, 
+    "Key Pan Speed": {
+        "message": "VITEZ\u0102 DE MI\u015eCARE PRIN COMAND\u0102"
+    }, 
+    "Keyboard": {
+        "message": "TASTATUR\u0102"
+    }, 
+    "Master Volume": {
+        "message": "VOLUM PRINCIPAL"
+    }, 
+    "Mouse Pan Speed": {
+        "message": "VITEZ\u0102 DE MI\u015eCARE MOUSE"
+    }, 
+    "Orbital Shell": {
+        "message": "CARAPACE ORIBTAL\u0102"
+    }, 
+    "Quality Preset": {
+        "message": "SETARE DE CALITATE"
+    }, 
+    "RESTORE DEFAULTS": {
+        "message": "RESTOREAZ\u0102 SET\u0102RILE ORIGINALE"
+    }, 
+    "Resolution Scaling": {
+        "message": "SCALARE REZOLU\u0162IE"
+    }, 
+    "SIGN IN": {
+        "message": "CONECTEAZ\u0102-TE"
+    }, 
+    "SIGN OUT": {
+        "message": "DECONECTEAZ\u0102-TE"
+    }, 
+    "Save And Close": {
+        "message": "SALVEAZ\u0102 \u015eI \u00ceNCHIDE"
+    }, 
+    "Settings": {
+        "message": "SET\u0102RI"
+    }, 
+    "Shadows": {
+        "message": "UMBRE"
+    }, 
+    "Show Build Previews": {
+        "message": "ARAT\u0102 AVANPREMIER\u0102 CONSTRUC\u0162IE"
+    }, 
+    "Show Metal Spot Icons": {
+        "message": "ARAT\u0102 ICONI\u0162E PENTRU SPOT DE METAL"
+    }, 
+    "Show Stat Bars": {
+        "message": "ARAT\u0102 BARELE PENTRU STATISTICI"
+    }, 
+    "Show Unit Icons": {
+        "message": "ARAT\u0102 ICONI\u0162ELE TRUPELOR"
+    }, 
+    "UI": {
+        "message": "INTERFA\u0162A PENTRU UTILIZATOR"
+    }, 
+    "Virtual Texture": {
+        "message": "TEXTUR\u0102 VIRTUAL\u0102"
+    }, 
+    "Zoom Speed": {
+        "message": "VITEZ\u0102 ZOOM"
+    }
+}

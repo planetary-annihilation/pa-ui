@@ -1,0 +1,32 @@
+{
+    "Advanced Fabbers come from Advanced Factories and can build both basic and advanced structures": {
+        "message": "Advanced Fabbers come from Advanced Factories and can build both basic and advanced structures"
+    }, 
+    "Basic Fabbers build basic structures and Advanced Factories": {
+        "message": "Basic Fabbers build basic structures and Advanced Factories"
+    }, 
+    "Fabbers are built by Vehicle, Air, Naval, Bot, and Orbital Factories": {
+        "message": "Fabbers are built by Vehicle, Air, Naval, Bot, and Orbital Factories"
+    }, 
+    "Fabrication Units": {
+        "message": "Fabrication Units"
+    }, 
+    "Hold Shift + Left Click to queue up multiple build orders": {
+        "message": "Hold Shift + Left Click to queue up multiple build orders"
+    }, 
+    "Left Click units on Build Bar and select a space in the world to build": {
+        "message": "Left Click units on Build Bar and select a space in the world to build"
+    }, 
+    "PA Guide: Fabbers": {
+        "message": "PA Guide: Fabbers"
+    }, 
+    "Select a Fabber to get access to Build Bar": {
+        "message": "Select a Fabber to get access to Build Bar"
+    }, 
+    "[style=text_callout]Control + left click[/style] a unit to make a factory produce a single one of that unit before continuing with the rest of the build queue.": {
+        "message": "[style=text_callout]Control + left click[/style] a unit to make a factory produce a single one of that unit before continuing with the rest of the build queue."
+    }, 
+    "[style=text_callout]Right Click[/style] or [style=text_callout]Shift + Right Click[/style] on units to reduce number of units in queue": {
+        "message": "[style=text_callout]Right Click[/style] or [style=text_callout]Shift + Right Click[/style] on units to reduce number of units in queue"
+    }
+}

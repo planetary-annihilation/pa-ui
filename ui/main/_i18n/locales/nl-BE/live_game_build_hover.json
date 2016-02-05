@@ -1,0 +1,14 @@
+{
+    "APS:": {
+        "message": "APS"
+    }, 
+    "BP:": {
+        "message": "BK:"
+    }, 
+    "DMG:": {
+        "message": "SCHADE:"
+    }, 
+    "EFF:": {
+        "message": "EFF:"
+    }
+}

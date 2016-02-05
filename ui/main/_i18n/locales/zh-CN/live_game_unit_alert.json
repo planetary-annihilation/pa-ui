@@ -1,0 +1,29 @@
+{
+    "Allied": {
+        "message": "\u5df2\u7ed3\u76df"
+    }, 
+    "Enemy Contact!": {
+        "message": "\u53d1\u73b0\u654c\u519b\uff01"
+    }, 
+    "Ping!": {
+        "message": "\u4fe1\u606f\uff01"
+    }, 
+    "destroyed.": {
+        "message": "\u5df2\u88ab\u6467\u6bc1\u3002"
+    }, 
+    "launched!": {
+        "message": "\u5df2\u53d1\u5c04\uff01"
+    }, 
+    "located.": {
+        "message": "\u53d1\u73b0\u76ee\u6807\u3002"
+    }, 
+    "lost.": {
+        "message": "\u88ab\u6467\u6bc1"
+    }, 
+    "ready.": {
+        "message": "\u51c6\u5907\u3002"
+    }, 
+    "under attack.": {
+        "message": "\u906d\u5230\u653b\u51fb\u3002"
+    }
+}

@@ -1,0 +1,44 @@
+{
+    "ANNIHILATION COMPLETE": {
+        "message": "ANIQUILA\u00c7\u00c3O COMPLETADA"
+    }, 
+    "APM": {
+        "message": "APM"
+    }, 
+    "Average": {
+        "message": "M\u00e9dia"
+    }, 
+    "Built": {
+        "message": "Constru\u00eddo"
+    }, 
+    "Destroyed": {
+        "message": "Destru\u00eddo"
+    }, 
+    "Draw": {
+        "message": "EMPATE"
+    }, 
+    "Efficiency": {
+        "message": "Efici\u00eancia"
+    }, 
+    "GW GAME OVER": {
+        "message": "GW GAME OVER"
+    }, 
+    "The game has ended.": {
+        "message": "O jogo foi finalizado."
+    }, 
+    "Used": {
+        "message": "Utilizado"
+    }, 
+    "VICTORY IS YOURS": {
+        "message": "A VIT\u00d3RIA \u00c9 SUA"
+    }, 
+    "Winner:": {
+        "message": "Ganhador:"
+    }, 
+    "Winners:": {
+        "message": "Ganhadores:"
+    }, 
+    "YOU'VE BEEN ANNIHILATED": {
+        "message": "VOC\u00ca FOI ANIQUILADO"
+    }
+}

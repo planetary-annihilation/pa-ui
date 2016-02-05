@@ -1,0 +1,221 @@
+{
+    "2m": {
+        "message": "2m"
+    }, 
+    "ALLY": {
+        "message": "SPOJENEC"
+    }, 
+    "ANNIHILATE": {
+        "message": "ZNI\u010cIT"
+    }, 
+    "APS:": {
+        "message": "APS:"
+    }, 
+    "ARMY": {
+        "message": "ARM\u00c1DA"
+    }, 
+    "AT WILL": {
+        "message": "NA P\u0158\u00c1N\u00cd"
+    }, 
+    "Accept": {
+        "message": "P\u0159ijmout"
+    }, 
+    "Activate planetary laser": {
+        "message": "Aktivovat planet\u00e1rn\u00ed laser"
+    }, 
+    "Alliance Request": {
+        "message": "\u017d\u00e1dost o spojenectv\u00ed"
+    }, 
+    "Alliance requested": {
+        "message": "Po\u017e\u00e1d\u00e1no o spojenectv\u00ed"
+    }, 
+    "Allied": {
+        "message": "Allied"
+    }, 
+    "Allied With:": {
+        "message": "Spojenectv\u00ed s:"
+    }, 
+    "Anti-nuke - Intercepts incoming nuclear missiles.": {
+        "message": "Anti-nuke - Zachycuje p\u0159\u00edchoz\u00ed jadern\u00e9 hlavice"
+    }, 
+    "Awesome": {
+        "message": "Skv\u011bl\u00fd"
+    }, 
+    "BP:": {
+        "message": "BP:"
+    }, 
+    "BUILD MODE": {
+        "message": "Budovatelsk\u00fd r\u00e9\u017eim"
+    }, 
+    "CONNECTION TO SERVER LOST": {
+        "message": "P\u0158IPOJEN\u00cd K SERVERU ZTRACENO"
+    }, 
+    "CONTINUOUS": {
+        "message": "KONTINU\u00c1LN\u00cd"
+    }, 
+    "Cancel": {
+        "message": "Zru\u0161it"
+    }, 
+    "Change orbit": {
+        "message": "Zm\u011bnit ob\u011b\u017enou dr\u00e1hu"
+    }, 
+    "Close": {
+        "message": "Zav\u0159\u00edt"
+    }, 
+    "Count": {
+        "message": "Po\u010det"
+    }, 
+    "DEV MODE": {
+        "message": "DEV RE\u017dIM"
+    }, 
+    "DMG:": {
+        "message": "DMG:"
+    }, 
+    "ECONOMY": {
+        "message": "EKONOMIKA"
+    }, 
+    "EFF:": {
+        "message": "EFF:"
+    }, 
+    "ENERGY ORDERS": {
+        "message": "Energetick\u00e9 p\u0159\u00edkazy"
+    }, 
+    "Efficiency": {
+        "message": "Efektivita"
+    }, 
+    "Enemy Contact!": {
+        "message": "Nep\u0159\u00e1telsk\u00fd kontakt!"
+    }, 
+    "Exit Game?": {
+        "message": "Ukon\u010dit hru?"
+    }, 
+    "FIRE ORDERS": {
+        "message": "ROZKAZY PRO \u00daTOK"
+    }, 
+    "Fabber": {
+        "message": "Konstrukt\u00e9r"
+    }, 
+    "Factory": {
+        "message": "Tov\u00e1rna"
+    }, 
+    "GAME PAUSED": {
+        "message": "Hra pozastavena"
+    }, 
+    "HOLD": {
+        "message": "DR\u017dET"
+    }, 
+    "HOLD POSITION": {
+        "message": "DR\u017dET POZICE"
+    }, 
+    "Ignore": {
+        "message": "Ignorovat"
+    }, 
+    "LR-96 -Pacifier- Missile": {
+        "message": "LR-96 -Pacifier- Missile"
+    }, 
+    "MANUEVER": {
+        "message": "MAN\u00c9VR"
+    }, 
+    "MOVE ORDERS": {
+        "message": "P\u0158ESUN"
+    }, 
+    "Mobile": {
+        "message": "Mobiln\u00ed"
+    }, 
+    "NORMAL": {
+        "message": "NORM\u00c1LN\u00cd"
+    }, 
+    "Nuclear missile - Long range, large area damage, projectile.": {
+        "message": "Nukle\u00e1rn\u00ed st\u0159ela - Dalek\u00fd dost\u0159el, velik\u00e1 plocha po\u0161kozen\u00ed, projektil."
+    }, 
+    "OFF": {
+        "message": "OFF"
+    }, 
+    "ON": {
+        "message": "ON"
+    }, 
+    "PLAYER": {
+        "message": "HR\u00c1\u010c"
+    }, 
+    "Pick a location inside one of the green zones to spawn your Commander.": {
+        "message": "Vyber pozici, ve kter\u00e9 chce\u0161 za\u010d\u00edt se sv\u00fdm Velitelem."
+    }, 
+    "Ping!": {
+        "message": "Ozna\u010dit!"
+    }, 
+    "Position targeted. Click to confirm.": {
+        "message": "Pozice zac\u00edlena. Klikni pro potvrzen\u00ed."
+    }, 
+    "RESC": {
+        "message": "ZDROJE"
+    }, 
+    "RETURN FIRE": {
+        "message": "OP\u011aTOVAT PALBU"
+    }, 
+    "ROAM": {
+        "message": "Toulat se"
+    }, 
+    "Request pending": {
+        "message": "\u017d\u00e1dost se vy\u0159izuje"
+    }, 
+    "Returning to Main Menu": {
+        "message": "Vrac\u00edm se do hlavn\u00edho menu"
+    }, 
+    "SANDBOX": {
+        "message": "P\u00cdSKOVI\u0160T\u011a"
+    }, 
+    "SR-24 -Shield- Missile Defense": {
+        "message": "Sr-24 -\u0160t\u00edt- Proti-raketov\u00e1 Obrana"
+    }, 
+    "START ANNIHILATION": {
+        "message": "ZA\u010c\u00cdT HRU"
+    }, 
+    "Select a new gravity well.": {
+        "message": "Zvolte novou gravita\u010dn\u00ed studnu."
+    }, 
+    "Select a planet to attack.": {
+        "message": "Zvolte planetu, na kterou chcete za\u00fato\u010dit."
+    }, 
+    "Select a planet to destroy.": {
+        "message": "Zvolte planetu, kterou chcete zni\u010dit."
+    }, 
+    "Set course for annihilation": {
+        "message": "Nastavit sm\u011br pro zni\u010den\u00ed"
+    }, 
+    "Set target spot": {
+        "message": "Nastavit c\u00edlov\u00fd bod"
+    }, 
+    "Then confirm destination to set course.": {
+        "message": "Pak potvr\u010fte c\u00edl pro nastaven\u00ed sm\u011bru."
+    }, 
+    "Unknown": {
+        "message": "Nezn\u00e1mo"
+    }, 
+    "Waiting for other players to select a spawn location.": {
+        "message": "\u010cek\u00e1m na v\u00fdb\u011br m\u00edsta ostatn\u00edch hr\u00e1\u010d\u016f."
+    }, 
+    "Yes": {
+        "message": "Ano"
+    }, 
+    "destroyed.": {
+        "message": "Zni\u010den"
+    }, 
+    "launched!": {
+        "message": "Odp\u00e1len!"
+    }, 
+    "located.": {
+        "message": "nalezen"
+    }, 
+    "lost.": {
+        "message": "ztraceno."
+    }, 
+    "ready.": {
+        "message": "P\u0159ipraven"
+    }, 
+    "under attack.": {
+        "message": "Pod \u00fatokem."
+    }, 
+    "v": {
+        "message": "v"
+    }
+}

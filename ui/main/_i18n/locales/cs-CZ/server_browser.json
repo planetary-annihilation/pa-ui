@@ -1,0 +1,104 @@
+{
+    "AI Battle": {
+        "message": "Bitva AI"
+    }, 
+    "Any": {
+        "message": "Libovoln\u00e9"
+    }, 
+    "Can Join": {
+        "message": "M\u016f\u017ee se p\u0159ipojit"
+    }, 
+    "Can Play": {
+        "message": "M\u016f\u017ee hr\u00e1t"
+    }, 
+    "Can Spectate": {
+        "message": "M\u016f\u017ee pozorovat"
+    }, 
+    "Casual": {
+        "message": "Neform\u00e1ln\u00ed"
+    }, 
+    "Competitive": {
+        "message": "Sout\u011b\u017en\u00ed"
+    }, 
+    "Create Game": {
+        "message": "Vytvo\u0159it Hru"
+    }, 
+    "Free For All": {
+        "message": "V\u0161ichni proti v\u0161em"
+    }, 
+    "Game": {
+        "message": "Hra"
+    }, 
+    "Game State": {
+        "message": "Stav hry"
+    }, 
+    "In Lobby": {
+        "message": "V hale"
+    }, 
+    "In Progress": {
+        "message": "Prob\u00edh\u00e1"
+    }, 
+    "Join Game": {
+        "message": "P\u0159ipojit se ke h\u0159e"
+    }, 
+    "Locked Game": {
+        "message": "Zamknut\u00e1 hra"
+    }, 
+    "Mod": {
+        "message": "Mod"
+    }, 
+    "Mode": {
+        "message": "M\u00f3d"
+    }, 
+    "Mods": {
+        "message": "Mody"
+    }, 
+    "Multiplayer": {
+        "message": "V\u00edce hr\u00e1\u010d\u016f"
+    }, 
+    "No max": {
+        "message": "Bez maxima"
+    }, 
+    "No min": {
+        "message": "Bez minima"
+    }, 
+    "Number of Planets": {
+        "message": "Po\u010det planet"
+    }, 
+    "Number of Players": {
+        "message": "Po\u010det hr\u00e1\u010d\u016f"
+    }, 
+    "Password": {
+        "message": "Heslo"
+    }, 
+    "Planets": {
+        "message": "Planety"
+    }, 
+    "Players": {
+        "message": "Hr\u00e1\u010di"
+    }, 
+    "Region": {
+        "message": "Oblast"
+    }, 
+    "Slots": {
+        "message": "M\u00edsta"
+    }, 
+    "Spectate": {
+        "message": "Pozorovat"
+    }, 
+    "Spectators": {
+        "message": "Pozorovatel\u00e9"
+    }, 
+    "Status": {
+        "message": "Stav"
+    }, 
+    "Tag": {
+        "message": "Ozna\u010dit"
+    }, 
+    "Team Armies": {
+        "message": "T\u00fdmov\u00e9 arm\u00e1dy"
+    }, 
+    "Testing": {
+        "message": "Testovac\u00ed"
+    }
+}

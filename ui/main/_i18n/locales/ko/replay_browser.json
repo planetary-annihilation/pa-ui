@@ -1,0 +1,68 @@
+{
+    "(+ __aiCount__ AI)": {
+        "message": "(+ __aiCount__ AI)"
+    }, 
+    "(Updating...)": {
+        "message": "(\uc5c5\ub370\uc774\ud2b8 \uc911...)"
+    }, 
+    "(no info available)": {
+        "message": "(\uc815\ubcf4 \uc5c6\uc74c)"
+    }, 
+    "All Recent Games": {
+        "message": "\ucd5c\uadfc \uac8c\uc784"
+    }, 
+    "BuildVersion": {
+        "message": "\uac8c\uc784 \ubc84\uc804"
+    }, 
+    "Duration": {
+        "message": "\uc7ac\uc0dd \uc2dc\uac04 :"
+    }, 
+    "FAILED TO RETRIEVE REPLAY LIST": {
+        "message": "\uc774\ub7f0....\ub9ac\ud50c\ub808\uc774 \ubaa9\ub85d \uac80\uc0c9\uc744 \uc2e4\ud328\ud558\uc600\uc2b5\ub2c8\ub2e4."
+    }, 
+    "Game": {
+        "message": "\uac8c\uc784"
+    }, 
+    "Highest Rated (TBD)": {
+        "message": "\uac00\uc7a5 \ub192\uc740 \ud3c9\uc810 (TBD)"
+    }, 
+    "Lobby Id": {
+        "message": "\ub85c\ube44 id"
+    }, 
+    "Longest Game Duration": {
+        "message": "\ucd5c\uc7a5 \uacbd\uae30 \uc2dc\uac04"
+    }, 
+    "Most Recent": {
+        "message": "\ucd5c\uadfc \uacbd\uae30\ub4e4"
+    }, 
+    "Most Viewed (TBD)": {
+        "message": "\ucd5c\uace0 \uc870\ud68c(TBD)"
+    }, 
+    "My Games Only": {
+        "message": "\ub098\uc758 \uac8c\uc784\ub9cc \ubcf4\uae30"
+    }, 
+    "Replays": {
+        "message": "\ub2e4\uc2dc\ubcf4\uae30"
+    }, 
+    "Returning to Main Menu": {
+        "message": "\uba54\uc778 \uba54\ub274\ub85c \ub3cc\uc544\uac00\ub294 \uc911"
+    }, 
+    "Search": {
+        "message": "\uac80\uc0c9\ud558\uae30"
+    }, 
+    "Sorted By": {
+        "message": "\uc815\ub82c"
+    }, 
+    "View": {
+        "message": "\ubcf4\uae30"
+    }, 
+    "Watch Direct Lobby Id:": {
+        "message": "\ub85c\ube44 ID \ubc14\ub85c \ubcf4\uae30"
+    }, 
+    "Watch Replay": {
+        "message": "\uacbd\uae30 \uc7ac\uc0dd"
+    }, 
+    "__gwClientNames__: Galactic War \"__gwWarName__\" (turn __gwTurn__, __gwSystemName__), vs. __gwAiArmies__": {
+        "message": "__gwClientNames__: \uc740\ud558\uc804\uc7c1 \"__gwWarName__\" (turn __gwTurn__, __gwSystemName__), vs. __gwAiArmies__"
+    }
+}

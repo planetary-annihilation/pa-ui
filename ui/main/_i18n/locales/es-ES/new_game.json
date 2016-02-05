@@ -1,0 +1,179 @@
+{
+    "- Host": {
+        "message": "- Anfitrión"
+    }, 
+    "AI Commander": {
+        "message": "Comandante de la IA"
+    }, 
+    "AI:": {
+        "message": "IA: "
+    }, 
+    "Add AI": {
+        "message": "Añadir IA:"
+    }, 
+    "Add AI Commander": {
+        "message": "Añadir comandante de la IA:"
+    }, 
+    "Add Slot": {
+        "message": "Añadir hueco"
+    }, 
+    "Add Team": {
+        "message": "Añadir equipo"
+    }, 
+    "Alliance Victory": {
+        "message": "Victoria de los aliados"
+    }, 
+    "Bounty Mode": {
+        "message": "Modo recompensa"
+    }, 
+    "Bounty Value": {
+        "message": "Valor de la recompensa"
+    }, 
+    "Browse systems...": {
+        "message": "Explorando sistemas..."
+    }, 
+    "Building planets": {
+        "message": "Construyendo planetas"
+    }, 
+    "Building planets...": {
+        "message": "Construyendo planetas..."
+    }, 
+    "CONNECTION TO SERVER LOST": {
+        "message": "SE HA PERDIDO LA CONEXIÓN CON EL SERVIDOR"
+    }, 
+    "Chat": {
+        "message": "Chat"
+    }, 
+    "Cheats": {
+        "message": "Trucos"
+    }, 
+    "Default": {
+        "message": "Por defecto"
+    }, 
+    "Dynamic Alliances": {
+        "message": "Alianzas dinámicas"
+    }, 
+    "Econ Rate": {
+        "message": "Índice de economía"
+    }, 
+    "Empty": {
+        "message": "Vacío"
+    }, 
+    "Free For All": {
+        "message": "Todos contra todos"
+    }, 
+    "Friends": {
+        "message": "Amigos"
+    }, 
+    "Game Lobby": {
+        "message": "Sala de espera"
+    }, 
+    "Game Mode": {
+        "message": "Modo de la partida"
+    }, 
+    "Global Spectator Chat": {
+        "message": "Chat general de los espectadores"
+    }, 
+    "Join": {
+        "message": "Unirse"
+    }, 
+    "Kick": {
+        "message": "Expulsar"
+    }, 
+    "Large Planets": {
+        "message": "Planetas grandes"
+    }, 
+    "Leave": {
+        "message": "Abandonar"
+    }, 
+    "Open to:": {
+        "message": "Abierto a:"
+    }, 
+    "Password (optional)": {
+        "message": "Contraseña (opcional)"
+    }, 
+    "Player Slot": {
+        "message": "Hueco de jugador"
+    }, 
+    "Player chooses spot on starting planet": {
+        "message": "El jugador escoge dónde quiere empezar en el primer planeta."
+    }, 
+    "Players)": {
+        "message": "(Jugadores)"
+    }, 
+    "Private": {
+        "message": "Privado"
+    }, 
+    "Public": {
+        "message": "Público"
+    }, 
+    "Random": {
+        "message": "Aleatorio"
+    }, 
+    "Ready": {
+        "message": "Listo"
+    }, 
+    "Remove": {
+        "message": "Eliminar"
+    }, 
+    "Returning to Main Menu": {
+        "message": "Volviendo al menú principal"
+    }, 
+    "SHARE ARMY": {
+        "message": "COMPARTIR EJÉRCITO"
+    }, 
+    "SPECTATORS": {
+        "message": "ESPECTADORES"
+    }, 
+    "Sandbox": {
+        "message": "Modo libre"
+    }, 
+    "Select System": {
+        "message": "Seleccionar sistema"
+    }, 
+    "Server Mods": {
+        "message": "Modificaciones del servidor"
+    }, 
+    "Slot": {
+        "message": "Hueco"
+    }, 
+    "Slot __slot_number__": {
+        "message": "Hueco __slot_number__"
+    }, 
+    "Slots are empty.": {
+        "message": "Hay huecos vacíos."
+    }, 
+    "Spectate": {
+        "message": "Observar"
+    }, 
+    "Spectators": {
+        "message": "Espectadores"
+    }, 
+    "Start Game": {
+        "message": "Comenzar partida"
+    }, 
+    "Symmetrical": {
+        "message": "Simétrica"
+    }, 
+    "System": {
+        "message": "Sistema"
+    }, 
+    "Tag:": {
+        "message": "Etiqueta:"
+    }, 
+    "Team": {
+        "message": "Equipo"
+    }, 
+    "Team Armies": {
+        "message": "Por equipos"
+    }, 
+    "Team __team_number__": {
+        "message": "Equipo __team_number__"
+    }, 
+    "Title": {
+        "message": "Título"
+    }, 
+    "You must have friends to play a friends-only game.": {
+        "message": "Es necesario tener amigos en la lista de contactos para poder jugar a partidas privadas entre amigos."
+    }
+}

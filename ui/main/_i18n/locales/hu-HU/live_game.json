@@ -1,0 +1,221 @@
+{
+    "2m": {
+        "message": "2m"
+    }, 
+    "ALLY": {
+        "message": "SZ\u00d6VETS\u00c9GES"
+    }, 
+    "ANNIHILATE": {
+        "message": "MEGSEMMIS\u00cdT\u00c9S"
+    }, 
+    "APS:": {
+        "message": "M\u0171velet/ mp:"
+    }, 
+    "ARMY": {
+        "message": "SEREG"
+    }, 
+    "AT WILL": {
+        "message": "TETSZ\u00c9S SZERINT"
+    }, 
+    "Accept": {
+        "message": "Elfogad"
+    }, 
+    "Activate planetary laser": {
+        "message": "Planet\u00e1ris l\u00e9zer aktiv\u00e1l\u00e1sa"
+    }, 
+    "Alliance Request": {
+        "message": "Sz\u00f6vets\u00e9g K\u00e9relem"
+    }, 
+    "Alliance requested": {
+        "message": "Sz\u00f6vetkez\u00e9s k\u00e9relmezve"
+    }, 
+    "Allied": {
+        "message": "Sz\u00f6vets\u00e9ges"
+    }, 
+    "Allied With:": {
+        "message": "Sz\u00f6vets\u00e9gben vele:"
+    }, 
+    "Anti-nuke - Intercepts incoming nuclear missiles.": {
+        "message": "Anti-atom - Megsemmis\u00edti a k\u00f6zeled\u0151 nukle\u00e1ris rak\u00e9t\u00e1kat."
+    }, 
+    "Awesome": {
+        "message": "Fantasztikus"
+    }, 
+    "BP:": {
+        "message": "BP:"
+    }, 
+    "BUILD MODE": {
+        "message": "\u00c9P\u00cdT\u00c9SI M\u00d3D"
+    }, 
+    "CONNECTION TO SERVER LOST": {
+        "message": "MEGSZAKADT A KAPCSOLAT A SZERVERREL"
+    }, 
+    "CONTINUOUS": {
+        "message": "FOLYTONOS"
+    }, 
+    "Cancel": {
+        "message": "M\u00e9gse"
+    }, 
+    "Change orbit": {
+        "message": "Kering\u00e9si p\u00e1lya v\u00e1ltoztat\u00e1sa"
+    }, 
+    "Close": {
+        "message": "Bez\u00e1r\u00e1s"
+    }, 
+    "Count": {
+        "message": "Darab"
+    }, 
+    "DEV MODE": {
+        "message": "FEJLESZT\u0150I M\u00d3D"
+    }, 
+    "DMG:": {
+        "message": "SEBZ\u00c9S:"
+    }, 
+    "ECONOMY": {
+        "message": "NYERSANYAG"
+    }, 
+    "EFF:": {
+        "message": "EFF:"
+    }, 
+    "ENERGY ORDERS": {
+        "message": "ENERGIA PARANCSOK"
+    }, 
+    "Efficiency": {
+        "message": "Hat\u00e9konys\u00e1g"
+    }, 
+    "Enemy Contact!": {
+        "message": "Ellens\u00e9ges \u00c9rintkez\u00e9s!"
+    }, 
+    "Exit Game?": {
+        "message": "Kil\u00e9psz a j\u00e1t\u00e9kb\u00f3l?"
+    }, 
+    "FIRE ORDERS": {
+        "message": "T\u0170Z PARANCSOK"
+    }, 
+    "Fabber": {
+        "message": "Gy\u00e1rt\u00f3"
+    }, 
+    "Factory": {
+        "message": "Gy\u00e1r"
+    }, 
+    "GAME PAUSED": {
+        "message": "J\u00c1T\u00c9K SZ\u00dcNETELTETVE"
+    }, 
+    "HOLD": {
+        "message": "TART"
+    }, 
+    "HOLD POSITION": {
+        "message": "POZ\u00cdCI\u00d3 TART\u00c1SA"
+    }, 
+    "Ignore": {
+        "message": "Figyelmen k\u00edv\u00fcl hagy"
+    }, 
+    "LR-96 -Pacifier- Missile": {
+        "message": "LR-96 -B\u00e9k\u00e9ltet\u0151- Rak\u00e9ta"
+    }, 
+    "MANUEVER": {
+        "message": "MAN\u0150VER"
+    }, 
+    "MOVE ORDERS": {
+        "message": "MOZG\u00c1SI PARANCSOK"
+    }, 
+    "Mobile": {
+        "message": "Mozg\u00f3"
+    }, 
+    "NORMAL": {
+        "message": "NORM\u00c1L"
+    }, 
+    "Nuclear missile - Long range, large area damage, projectile.": {
+        "message": "Nukle\u00e1ris rak\u00e9ta - Nagy hat\u00f3t\u00e1v, nagy t\u00e9rsebz\u00e9s, l\u00f6ved\u00e9k."
+    }, 
+    "OFF": {
+        "message": "KI"
+    }, 
+    "ON": {
+        "message": "BE"
+    }, 
+    "PLAYER": {
+        "message": "J\u00c1T\u00c9KOS"
+    }, 
+    "Pick a location inside one of the green zones to spawn your Commander.": {
+        "message": "V\u00e1lassz egy helyet valamelyik z\u00f6ld k\u00f6r ter\u00fclet\u00e9n bel\u00fcl, hogy elhelyezd a Parancsnokod."
+    }, 
+    "Ping!": {
+        "message": "Jel\u00f6l\u00e9s!"
+    }, 
+    "Position targeted. Click to confirm.": {
+        "message": "Poz\u00edci\u00f3 c\u00e9lba v\u00e9ve. Kattints a j\u00f3v\u00e1hagy\u00e1shoz."
+    }, 
+    "RESC": {
+        "message": "NYERSI"
+    }, 
+    "RETURN FIRE": {
+        "message": "T\u0170Z VISZONOZ\u00c1S"
+    }, 
+    "ROAM": {
+        "message": "K\u00d3BORL\u00c1S"
+    }, 
+    "Request pending": {
+        "message": "F\u00fcgg\u0151ben l\u00e9v\u0151 k\u00e9relem"
+    }, 
+    "Returning to Main Menu": {
+        "message": "Visszat\u00e9r\u00e9s a f\u0151men\u00fcbe"
+    }, 
+    "SANDBOX": {
+        "message": "SZABAD \u00c9P\u00cdT\u00c9S"
+    }, 
+    "SR-24 -Shield- Missile Defense": {
+        "message": "SR-24 -Pajzs- Rak\u00e9ta V\u00e9delem"
+    }, 
+    "START ANNIHILATION": {
+        "message": "MEGSEMMIS\u00cdT\u00c9S IND\u00cdT\u00c1SA"
+    }, 
+    "Select a new gravity well.": {
+        "message": "\u00daj gravit\u00e1ci\u00f3s k\u00f6zpont kiv\u00e1laszt\u00e1sa."
+    }, 
+    "Select a planet to attack.": {
+        "message": "V\u00e1lassz egy megt\u00e1madni k\u00edv\u00e1nt bolyg\u00f3t."
+    }, 
+    "Select a planet to destroy.": {
+        "message": "V\u00e1lassz egy elpuszt\u00edtani k\u00edv\u00e1nt bolyg\u00f3t."
+    }, 
+    "Set course for annihilation": {
+        "message": "P\u00e1lya be\u00e1ll\u00edt\u00e1sa a megsemmis\u00edt\u00e9shez"
+    }, 
+    "Set target spot": {
+        "message": "C\u00e9lter\u00fclet kiv\u00e1laszt\u00e1sa"
+    }, 
+    "Then confirm destination to set course.": {
+        "message": "Majd er\u0151s\u00edtsd meg a c\u00e9lt, hogy be\u00e1ll\u00edtsd a p\u00e1ly\u00e1t."
+    }, 
+    "Unknown": {
+        "message": "Ismeretlen"
+    }, 
+    "Waiting for other players to select a spawn location.": {
+        "message": "V\u00e1rakoz\u00e1s a t\u00f6bbi j\u00e1t\u00e9kosra m\u00edg kezd\u0151helyet nem tal\u00e1lnak."
+    }, 
+    "Yes": {
+        "message": "Igen"
+    }, 
+    "destroyed.": {
+        "message": "elpuszt\u00edtva."
+    }, 
+    "launched!": {
+        "message": "kil\u0151ve!"
+    }, 
+    "located.": {
+        "message": "\u00e9szlelve."
+    }, 
+    "lost.": {
+        "message": "elvesztett."
+    }, 
+    "ready.": {
+        "message": "k\u00e9sz."
+    }, 
+    "under attack.": {
+        "message": "megt\u00e1madt\u00e1k."
+    }, 
+    "v": {
+        "message": "v"
+    }
+}

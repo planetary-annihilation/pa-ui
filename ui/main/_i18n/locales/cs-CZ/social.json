@@ -1,0 +1,92 @@
+{
+    "APPROVE": {
+        "message": "SCHV\u00c1LIT"
+    }, 
+    "APPROVED USERS": {
+        "message": "POVOLEN\u00cd U\u017dIVATEL\u00c9"
+    }, 
+    "Add": {
+        "message": "P\u0159idat"
+    }, 
+    "Add a Friend": {
+        "message": "P\u0159idat P\u0159\u00edtele"
+    }, 
+    "BLOCK": {
+        "message": "BLOKOVAT"
+    }, 
+    "BLOCKED USERS": {
+        "message": "BLOKOVAN\u00cd U\u017dIVATEL\u00c9"
+    }, 
+    "Cancel": {
+        "message": "Zru\u0161it"
+    }, 
+    "Close": {
+        "message": "Zav\u0159\u00edt"
+    }, 
+    "Contact List Updated": {
+        "message": "Kontakty upraveny"
+    }, 
+    "Contact Not Found": {
+        "message": "Kontakt nenalezen"
+    }, 
+    "Dismiss": {
+        "message": "Rozpustit"
+    }, 
+    "Filter contatcs by tag:": {
+        "message": "Filtrovat kontakty podle:"
+    }, 
+    "Games you make will be hidden to these players.": {
+        "message": "V\u00e1mi vytvo\u0159en\u00e9 hry nebudou viditeln\u00e9 t\u011bmto hr\u00e1\u010d\u016fm."
+    }, 
+    "Name:": {
+        "message": "Jm\u00e9no:"
+    }, 
+    "New Nickname:": {
+        "message": "Nov\u00e1 p\u0159ezd\u00edvka:"
+    }, 
+    "Players you have encountered recently.": {
+        "message": "Hr\u00e1\u010di, kter\u00e9 jste potkali v posledn\u00ed dob\u011b."
+    }, 
+    "Private games you make will only be visible to these players.": {
+        "message": "V\u00e1mi vytvo\u0159en\u00e9 soukrom\u00e9 hry budou viditeln\u00e9 jen t\u011bmto hr\u00e1\u010d\u016fm."
+    }, 
+    "RECENT": {
+        "message": "NED\u00c1VN\u00c9"
+    }, 
+    "REMOVE": {
+        "message": "ODSTRANIT"
+    }, 
+    "RENAME": {
+        "message": "P\u0158EJMENOVAT"
+    }, 
+    "Refresh Contacts": {
+        "message": "Obnovit kontakty"
+    }, 
+    "Refreshing friends list.....": {
+        "message": "Obnovuji kontakty....."
+    }, 
+    "SOCIAL": {
+        "message": "SOCIAL"
+    }, 
+    "Tag": {
+        "message": "Ozna\u010dit"
+    }, 
+    "Tag Friend:": {
+        "message": "Ozna\u010d P\u0159\u00edtele:"
+    }, 
+    "Tags:": {
+        "message": "Znaky:"
+    }, 
+    "UBERDEX": {
+        "message": "UBERDEX"
+    }, 
+    "Uber Name": {
+        "message": "Uber jm\u00e9no"
+    }, 
+    "UberId:": {
+        "message": "UberId:"
+    }, 
+    "or": {
+        "message": "nebo"
+    }
+}

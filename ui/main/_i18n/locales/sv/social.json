@@ -1,0 +1,92 @@
+{
+    "APPROVE": {
+        "message": "GODK\u00c4NN"
+    }, 
+    "APPROVED USERS": {
+        "message": "TILL\u00c5T ANV\u00c4NDARE"
+    }, 
+    "Add": {
+        "message": "L\u00e4gg Till"
+    }, 
+    "Add a Friend": {
+        "message": "L\u00e4gg till en V\u00e4n"
+    }, 
+    "BLOCK": {
+        "message": "BLOCKERA"
+    }, 
+    "BLOCKED USERS": {
+        "message": "BLOCKERADE ANV\u00c4NDARE"
+    }, 
+    "Cancel": {
+        "message": "Avbryt"
+    }, 
+    "Close": {
+        "message": "St\u00e4ng"
+    }, 
+    "Contact List Updated": {
+        "message": "Kontaktlista uppdaterad"
+    }, 
+    "Contact Not Found": {
+        "message": "Kontakt kunde inte hittas."
+    }, 
+    "Dismiss": {
+        "message": "Avf\u00e4rda"
+    }, 
+    "Filter contatcs by tag:": {
+        "message": "Filtrera kontakter genom taggar:"
+    }, 
+    "Games you make will be hidden to these players.": {
+        "message": "Spel som du g\u00f6r kommer att d\u00f6ljas f\u00f6r dessa spelare."
+    }, 
+    "Name:": {
+        "message": "Namn:"
+    }, 
+    "New Nickname:": {
+        "message": "Nytt smeknamn."
+    }, 
+    "Players you have encountered recently.": {
+        "message": "Spelare du har tr\u00e4ffat tidigare."
+    }, 
+    "Private games you make will only be visible to these players.": {
+        "message": "Privata spel du g\u00f6r kommer bara att visas f\u00f6r dessa spelare."
+    }, 
+    "RECENT": {
+        "message": "TIDIGARE"
+    }, 
+    "REMOVE": {
+        "message": "TA BORT"
+    }, 
+    "RENAME": {
+        "message": "BYT NAMN"
+    }, 
+    "Refresh Contacts": {
+        "message": "Uppdatera Kontakter"
+    }, 
+    "Refreshing friends list.....": {
+        "message": "F\u00f6rnyar v\u00e4nlista...."
+    }, 
+    "SOCIAL": {
+        "message": "Social"
+    }, 
+    "Tag": {
+        "message": "Tagga"
+    }, 
+    "Tag Friend:": {
+        "message": "Tagga V\u00e4n:"
+    }, 
+    "Tags:": {
+        "message": "Tags:"
+    }, 
+    "UBERDEX": {
+        "message": "UBERDEX"
+    }, 
+    "Uber Name": {
+        "message": "Uber Namn"
+    }, 
+    "UberId:": {
+        "message": "UberId:"
+    }, 
+    "or": {
+        "message": "eller"
+    }
+}

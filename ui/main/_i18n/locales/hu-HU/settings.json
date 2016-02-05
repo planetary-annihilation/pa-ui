@@ -1,0 +1,902 @@
+{
+    "1100 (recommended for 480p)": {
+        "message": "1100 (recommended for 480p)"
+    }, 
+    "2000 (recommended for 720p)": {
+        "message": "2000 (recommended for 720p)"
+    }, 
+    "3200 (recommended for 1080p)": {
+        "message": "3200 (recommended for 1080p)"
+    }, 
+    "500 (recommended for 240p)": {
+        "message": "500 (recommended for 240p)"
+    }, 
+    "700 (recommended for 360p)": {
+        "message": "700 (recommended for 360p)"
+    }, 
+    "ALL": {
+        "message": "ALL"
+    }, 
+    "ALWAYS": {
+        "message": "MINDIG"
+    }, 
+    "Ambient Occlusion": {
+        "message": "Ambient Occlusion"
+    }, 
+    "Anti-Aliasing": {
+        "message": "Anti-Aliasing"
+    }, 
+    "Audio": {
+        "message": "Audio"
+    }, 
+    "Bitrate": {
+        "message": "Bitrate"
+    }, 
+    "Build Preview Behavior": {
+        "message": "Build Preview Behavior"
+    }, 
+    "CUSTOM": {
+        "message": "EGYEDI"
+    }, 
+    "Camera": {
+        "message": "Kamera"
+    }, 
+    "Camera Friction": {
+        "message": "Camera Friction"
+    }, 
+    "Cancel": {
+        "message": "M\u00e9gse"
+    }, 
+    "Display Mode": {
+        "message": "Display Mode"
+    }, 
+    "ENABLE MICROPHONE": {
+        "message": "MIKROFON ENGED\u00c9LYEZ\u00c9SE"
+    }, 
+    "ENABLE STREAMING (Takes effect immediately)": {
+        "message": "K\u00d6ZVET\u00cdT\u00c9S ENGED\u00c9LYEZ\u00c9SE (Azonnal hat\u00e1lyba l\u00e9p)"
+    }, 
+    "ENABLE SYSTEM SOUNDS": {
+        "message": "RENDSZERHANGOK ENGED\u00c9LYEZ\u00c9SE"
+    }, 
+    "Edge Scroll Options": {
+        "message": "Edge Scroll Options"
+    }, 
+    "FOV": {
+        "message": "FOV"
+    }, 
+    "FPS": {
+        "message": "FPS"
+    }, 
+    "FULLSCREEN": {
+        "message": "FULLSCREEN"
+    }, 
+    "FXAA": {
+        "message": "FXAA"
+    }, 
+    "Graphics": {
+        "message": "Graphics"
+    }, 
+    "HDR": {
+        "message": "HDR"
+    }, 
+    "HIGH": {
+        "message": "HIGH"
+    }, 
+    "Headlights": {
+        "message": "Headlights"
+    }, 
+    "ICON DISPLAY DISTANCE": {
+        "message": "ICON DISPLAY DISTANCE"
+    }, 
+    "Key Pan Speed": {
+        "message": "Key Pan Speed"
+    }, 
+    "Keyboard": {
+        "message": "Keyboard"
+    }, 
+    "LOW": {
+        "message": "ALACSONY"
+    }, 
+    "Language": {
+        "message": "Nyelv"
+    }, 
+    "Livestream Settings": {
+        "message": "K\u00f6zvet\u00edt\u00e9s Be\u00e1ll\u00edt\u00e1sai"
+    }, 
+    "MEDIUM": {
+        "message": "K\u00d6ZEPES"
+    }, 
+    "Master Volume": {
+        "message": "F\u0151hanger\u0151"
+    }, 
+    "Mouse Pan Speed": {
+        "message": "Mouse Pan Speed"
+    }, 
+    "Music Volume": {
+        "message": "Zene Hangereje"
+    }, 
+    "NATIVE (100%)": {
+        "message": "NATIVE (100%)"
+    }, 
+    "NEVER": {
+        "message": "SOHA"
+    }, 
+    "OFF": {
+        "message": "KI"
+    }, 
+    "OFF (MOUSELOCK)": {
+        "message": "OFF (MOUSELOCK)"
+    }, 
+    "OFF (NO MOUSELOCK)": {
+        "message": "OFF (NO MOUSELOCK)"
+    }, 
+    "ON": {
+        "message": "BE"
+    }, 
+    "Orbital Shell": {
+        "message": "Orbital Shell"
+    }, 
+    "Order Preview Behavior": {
+        "message": "Order Preview Behavior"
+    }, 
+    "Password": {
+        "message": "Jelsz\u00f3"
+    }, 
+    "Pole Lock": {
+        "message": "P\u00f3lus Z\u00e1r"
+    }, 
+    "Quality Preset": {
+        "message": "Quality Preset"
+    }, 
+    "RANGE DEPENDENT": {
+        "message": "RANGE DEPENDENT"
+    }, 
+    "RESTORE ALL DEFAULTS": {
+        "message": "ALAP\u00c9RTELMEZETT \u00c9RT\u00c9KEK"
+    }, 
+    "RESTORE DEFAULTS": {
+        "message": "ALAPBE\u00c1LL\u00cdT\u00c1SOK VISSZA\u00c1LL\u00cdT\u00c1SA"
+    }, 
+    "Resolution": {
+        "message": "Resolution"
+    }, 
+    "Resolution Scaling": {
+        "message": "Felbont\u00e1s Ar\u00e1nya a Monitorhoz K\u00e9pest"
+    }, 
+    "SELECTED": {
+        "message": "SELECTED"
+    }, 
+    "SERVER": {
+        "message": "SZERVER"
+    }, 
+    "SHIFT": {
+        "message": "SHIFT"
+    }, 
+    "SIGN IN": {
+        "message": "BEJELENTKEZ\u00c9S"
+    }, 
+    "SIGN OUT": {
+        "message": "KIJELENTKEZ\u00c9S"
+    }, 
+    "SUBSAMPLE (50%)": {
+        "message": "SUBSAMPLE (50%)"
+    }, 
+    "SUBSAMPLE (75%)": {
+        "message": "SUBSAMPLE (75%)"
+    }, 
+    "SUPERSAMPLE (110%)": {
+        "message": "SUPERSAMPLE (110%)"
+    }, 
+    "SUPERSAMPLE (150%)": {
+        "message": "SUPERSAMPLE (150%)"
+    }, 
+    "SUPERSAMPLE (175%)": {
+        "message": "SUPERSAMPLE (175%)"
+    }, 
+    "Save": {
+        "message": "Ment\u00e9s"
+    }, 
+    "Save And Close": {
+        "message": "Ment\u00e9s \u00e9s Bez\u00e1r\u00e1s"
+    }, 
+    "Server": {
+        "message": "Szerver"
+    }, 
+    "Settings": {
+        "message": "Be\u00e1ll\u00edt\u00e1sok"
+    }, 
+    "Shadows": {
+        "message": "\u00c1rny\u00e9kok"
+    }, 
+    "Show Build Previews": {
+        "message": "Show Build Previews"
+    }, 
+    "Show Metal Spot Icons": {
+        "message": "Show Metal Spot Icons"
+    }, 
+    "Show Order Previews": {
+        "message": "Show Order Previews"
+    }, 
+    "Show Stat Bars": {
+        "message": "Show Stat Bars"
+    }, 
+    "Show Unit Icons": {
+        "message": "Egys\u00e9g Ikonok Mutat\u00e1sa"
+    }, 
+    "Show/Hide game stats": {
+        "message": "Show/Hide game stats"
+    }, 
+    "Show/Hide pip": {
+        "message": "Show/Hide pip"
+    }, 
+    "Sign in with Your Twitch ID": {
+        "message": "Jelentkezz be a Twitch azonos\u00edtoddal"
+    }, 
+    "Signed in as": {
+        "message": "Bejelentkezve ezen a n\u00e9ven:"
+    }, 
+    "Sound Effects Volume": {
+        "message": "Sound Effects Volume"
+    }, 
+    "Twitch chat": {
+        "message": "Twitch chat"
+    }, 
+    "UBER": {
+        "message": "UBER"
+    }, 
+    "UI": {
+        "message": "UI"
+    }, 
+    "VALUE DEPENDENT": {
+        "message": "VALUE DEPENDENT"
+    }, 
+    "Virtual Texture": {
+        "message": "Virtual Texture"
+    }, 
+    "Voice Volume": {
+        "message": "Voice Volume"
+    }, 
+    "WINDOWED": {
+        "message": "ABLAKOS"
+    }, 
+    "Zoom Speed": {
+        "message": "K\u00f6zel\u00edt\u00e9si Sebess\u00e9g"
+    }, 
+    "abort": {
+        "message": "abort"
+    }, 
+    "alerts": {
+        "message": "alerts"
+    }, 
+    "align to pole": {
+        "message": "p\u00f3lusokhoz igaz\u00edt\u00e1s"
+    }, 
+    "alt fire": {
+        "message": "m\u00e1sodlagos t\u0171z"
+    }, 
+    "assist": {
+        "message": "t\u00e1mogat"
+    }, 
+    "attack": {
+        "message": "t\u00e1mad\u00e1s"
+    }, 
+    "bug report": {
+        "message": "hibajelent\u00e9s"
+    }, 
+    "build": {
+        "message": "build"
+    }, 
+    "build avatar": {
+        "message": "avat\u00e1r \u00e9p\u00edt\u00e9se"
+    }, 
+    "build avatar factory": {
+        "message": "avat\u00e1r gy\u00e1r \u00e9p\u00edt\u00e9se"
+    }, 
+    "build bar groups": {
+        "message": "build bar groups"
+    }, 
+    "build item 1": {
+        "message": "build item 1"
+    }, 
+    "build item 10": {
+        "message": "build item 10"
+    }, 
+    "build item 11": {
+        "message": "build item 11"
+    }, 
+    "build item 12": {
+        "message": "build item 12"
+    }, 
+    "build item 13": {
+        "message": "build item 13"
+    }, 
+    "build item 14": {
+        "message": "build item 14"
+    }, 
+    "build item 15": {
+        "message": "build item 15"
+    }, 
+    "build item 2": {
+        "message": "build item 2"
+    }, 
+    "build item 3": {
+        "message": "build item 3"
+    }, 
+    "build item 4": {
+        "message": "build item 4"
+    }, 
+    "build item 5": {
+        "message": "build item 5"
+    }, 
+    "build item 6": {
+        "message": "build item 6"
+    }, 
+    "build item 7": {
+        "message": "build item 7"
+    }, 
+    "build item 8": {
+        "message": "build item 8"
+    }, 
+    "build item 9": {
+        "message": "build item 9"
+    }, 
+    "build items": {
+        "message": "build items"
+    }, 
+    "build loop": {
+        "message": "build loop"
+    }, 
+    "build once": {
+        "message": "build once"
+    }, 
+    "build orders": {
+        "message": "build orders"
+    }, 
+    "capture anchor": {
+        "message": "capture anchor"
+    }, 
+    "capture anchor 1": {
+        "message": "capture anchor 1"
+    }, 
+    "capture anchor 10": {
+        "message": "capture anchor 10"
+    }, 
+    "capture anchor 2": {
+        "message": "capture anchor 2"
+    }, 
+    "capture anchor 3": {
+        "message": "capture anchor 3"
+    }, 
+    "capture anchor 4": {
+        "message": "capture anchor 4"
+    }, 
+    "capture anchor 5": {
+        "message": "capture anchor 5"
+    }, 
+    "capture anchor 6": {
+        "message": "capture anchor 6"
+    }, 
+    "capture anchor 7": {
+        "message": "capture anchor 7"
+    }, 
+    "capture anchor 8": {
+        "message": "capture anchor 8"
+    }, 
+    "capture anchor 9": {
+        "message": "capture anchor 9"
+    }, 
+    "capture group 0": {
+        "message": "capture group 0"
+    }, 
+    "capture group 1": {
+        "message": "capture group 1"
+    }, 
+    "capture group 2": {
+        "message": "capture group 2"
+    }, 
+    "capture group 3": {
+        "message": "capture group 3"
+    }, 
+    "capture group 4": {
+        "message": "capture group 4"
+    }, 
+    "capture group 5": {
+        "message": "capture group 5"
+    }, 
+    "capture group 6": {
+        "message": "capture group 6"
+    }, 
+    "capture group 7": {
+        "message": "capture group 7"
+    }, 
+    "capture group 8": {
+        "message": "capture group 8"
+    }, 
+    "capture group 9": {
+        "message": "capture group 9"
+    }, 
+    "chronocam": {
+        "message": "chronocam"
+    }, 
+    "communication": {
+        "message": "kommunik\u00e1ci\u00f3"
+    }, 
+    "copy to pip": {
+        "message": "copy to pip"
+    }, 
+    "copy unit": {
+        "message": "copy unit"
+    }, 
+    "crash": {
+        "message": "\u00f6sszeoml\u00e1s"
+    }, 
+    "decrease camera pan speed": {
+        "message": "decrease camera pan speed"
+    }, 
+    "dev mode": {
+        "message": "dev mode"
+    }, 
+    "direction": {
+        "message": "direction"
+    }, 
+    "disable navigation debug info": {
+        "message": "disable navigation debug info"
+    }, 
+    "dismiss alert notification": {
+        "message": "dismiss alert notification"
+    }, 
+    "enable navigation debug info": {
+        "message": "enable navigation debug info"
+    }, 
+    "energy off": {
+        "message": "energia fogyaszt\u00e1s kikapcsol\u00e1sa"
+    }, 
+    "energy on": {
+        "message": "energy on"
+    }, 
+    "fire at will": {
+        "message": "fire at will"
+    }, 
+    "free move backward": {
+        "message": "free move backward"
+    }, 
+    "free move down": {
+        "message": "free move down"
+    }, 
+    "free move forward": {
+        "message": "free move forward"
+    }, 
+    "free move left": {
+        "message": "free move left"
+    }, 
+    "free move right": {
+        "message": "free move right"
+    }, 
+    "free move up": {
+        "message": "free move up"
+    }, 
+    "free movement": {
+        "message": "free movement"
+    }, 
+    "free pitch backward": {
+        "message": "free pitch backward"
+    }, 
+    "free pitch forward": {
+        "message": "free pitch forward"
+    }, 
+    "free roll left": {
+        "message": "free roll left"
+    }, 
+    "free roll right": {
+        "message": "free roll right"
+    }, 
+    "free yaw left": {
+        "message": "free yaw left"
+    }, 
+    "free yaw right": {
+        "message": "free yaw right"
+    }, 
+    "free zoom in": {
+        "message": "free zoom in"
+    }, 
+    "free zoom out": {
+        "message": "free zoom out"
+    }, 
+    "general": {
+        "message": "general"
+    }, 
+    "hold fire": {
+        "message": "hold fire"
+    }, 
+    "hold position": {
+        "message": "hold position"
+    }, 
+    "increase camera pan speed": {
+        "message": "increase camera pan speed"
+    }, 
+    "jump to next planet": {
+        "message": "jump to next planet"
+    }, 
+    "jump to previous planet": {
+        "message": "jump to previous planet"
+    }, 
+    "last pseudo frame": {
+        "message": "last pseudo frame"
+    }, 
+    "load": {
+        "message": "load"
+    }, 
+    "maneuver": {
+        "message": "maneuver"
+    }, 
+    "modes": {
+        "message": "modes"
+    }, 
+    "move": {
+        "message": "move"
+    }, 
+    "move down": {
+        "message": "move down"
+    }, 
+    "move left": {
+        "message": "move left"
+    }, 
+    "move right": {
+        "message": "move right"
+    }, 
+    "move up": {
+        "message": "move up"
+    }, 
+    "navigate back/exit": {
+        "message": "navigate back/exit"
+    }, 
+    "next pseudo frame": {
+        "message": "next pseudo frame"
+    }, 
+    "normal chat": {
+        "message": "normal chat"
+    }, 
+    "paste unit": {
+        "message": "paste unit"
+    }, 
+    "patrol": {
+        "message": "patrol"
+    }, 
+    "pause game": {
+        "message": "j\u00e1t\u00e9k sz\u00fcneteltet\u00e9se"
+    }, 
+    "pause time": {
+        "message": "pause time"
+    }, 
+    "picture-in-picture": {
+        "message": "picture-in-picture"
+    }, 
+    "ping": {
+        "message": "ping"
+    }, 
+    "planet jump": {
+        "message": "planet jump"
+    }, 
+    "play backwards at 100%": {
+        "message": "play backwards at 100%"
+    }, 
+    "play backwards at 50%": {
+        "message": "play backwards at 50%"
+    }, 
+    "play forward at 100%": {
+        "message": "play forward at 100%"
+    }, 
+    "play forward at 50%": {
+        "message": "play forward at 50%"
+    }, 
+    "publish server mods": {
+        "message": "publish server mods"
+    }, 
+    "quick profile": {
+        "message": "quick profile"
+    }, 
+    "recall anchor": {
+        "message": "recall anchor"
+    }, 
+    "recall anchor 0": {
+        "message": "ugr\u00e1s a 0-\u00e1s kamer\u00e1ra"
+    }, 
+    "recall anchor 1": {
+        "message": "ugr\u00e1s az 1-es kamer\u00e1ra"
+    }, 
+    "recall anchor 2": {
+        "message": "ugr\u00e1s a 2-es kamer\u00e1ra"
+    }, 
+    "recall anchor 3": {
+        "message": "ugr\u00e1s a 3-as kamer\u00e1ra"
+    }, 
+    "recall anchor 4": {
+        "message": "ugr\u00e1s a 4-es kamer\u00e1ra"
+    }, 
+    "recall anchor 5": {
+        "message": "ugr\u00e1s az 5-\u00f6s kamer\u00e1ra"
+    }, 
+    "recall anchor 6": {
+        "message": "ugr\u00e1s a 6-os kamer\u00e1ra"
+    }, 
+    "recall anchor 7": {
+        "message": "ugr\u00e1s a 7-es kamer\u00e1ra"
+    }, 
+    "recall anchor 8": {
+        "message": "ugr\u00e1s a 8-as kamer\u00e1ra"
+    }, 
+    "recall anchor 9": {
+        "message": "ugr\u00e1s a 9-es kamer\u00e1ra"
+    }, 
+    "recall group 0": {
+        "message": "recall group 0"
+    }, 
+    "recall group 1": {
+        "message": "recall group 1"
+    }, 
+    "recall group 2": {
+        "message": "recall group 2"
+    }, 
+    "recall group 3": {
+        "message": "recall group 3"
+    }, 
+    "recall group 4": {
+        "message": "recall group 4"
+    }, 
+    "recall group 5": {
+        "message": "recall group 5"
+    }, 
+    "recall group 6": {
+        "message": "recall group 6"
+    }, 
+    "recall group 7": {
+        "message": "recall group 7"
+    }, 
+    "recall group 8": {
+        "message": "recall group 8"
+    }, 
+    "recall group 9": {
+        "message": "recall group 9"
+    }, 
+    "reclaim": {
+        "message": "reclaim"
+    }, 
+    "reload view": {
+        "message": "reload view"
+    }, 
+    "repair": {
+        "message": "jav\u00edt\u00e1s"
+    }, 
+    "resume at latest time": {
+        "message": "resume at latest time"
+    }, 
+    "return fire": {
+        "message": "return fire"
+    }, 
+    "roam": {
+        "message": "roam"
+    }, 
+    "run twitch commercial": {
+        "message": "run twitch commercial"
+    }, 
+    "select air group": {
+        "message": "select air group"
+    }, 
+    "select all air combat units": {
+        "message": "select all air combat units"
+    }, 
+    "select all air combat units on screen": {
+        "message": "select all air combat units on screen"
+    }, 
+    "select all combat units": {
+        "message": "select all combat units"
+    }, 
+    "select all combat units on screen": {
+        "message": "select all combat units on screen"
+    }, 
+    "select all factories": {
+        "message": "\u00f6sszes gy\u00e1r kiv\u00e1laszt\u00e1sa"
+    }, 
+    "select all factories on screen": {
+        "message": "select all factories on screen"
+    }, 
+    "select all idle factories": {
+        "message": "select all idle factories"
+    }, 
+    "select all idle factories on screen": {
+        "message": "select all idle factories on screen"
+    }, 
+    "select all land combat units": {
+        "message": "select all land combat units"
+    }, 
+    "select all land combat units on screen": {
+        "message": "select all land combat units on screen"
+    }, 
+    "select all matching units on screen": {
+        "message": "select all matching units on screen"
+    }, 
+    "select all naval combat units": {
+        "message": "select all naval combat units"
+    }, 
+    "select all naval combat units on screen": {
+        "message": "select all naval combat units on screen"
+    }, 
+    "select bot group": {
+        "message": "select bot group"
+    }, 
+    "select combat group": {
+        "message": "select combat group"
+    }, 
+    "select commander": {
+        "message": "select commander"
+    }, 
+    "select factory group": {
+        "message": "select factory group"
+    }, 
+    "select idle fabbers": {
+        "message": "select idle fabbers"
+    }, 
+    "select orbital group (buildings)": {
+        "message": "select orbital group (buildings)"
+    }, 
+    "select orbital group (units)": {
+        "message": "select orbital group (units)"
+    }, 
+    "select sea group": {
+        "message": "select sea group"
+    }, 
+    "select utility group": {
+        "message": "select utility group"
+    }, 
+    "select vehicle group": {
+        "message": "select vehicle group"
+    }, 
+    "self destruct selected unit": {
+        "message": "self destruct selected unit"
+    }, 
+    "set army from hover": {
+        "message": "set army from hover"
+    }, 
+    "set debug camera": {
+        "message": "set debug camera"
+    }, 
+    "set default camera": {
+        "message": "set default camera"
+    }, 
+    "set free camera": {
+        "message": "set free camera"
+    }, 
+    "set planet camera": {
+        "message": "set planet camera"
+    }, 
+    "show/hide UI": {
+        "message": "show/hide UI"
+    }, 
+    "show/hide performance panel": {
+        "message": "show/hide performance panel"
+    }, 
+    "show/hide visual aid overlays": {
+        "message": "show/hide visual aid overlays"
+    }, 
+    "smooth zoom in": {
+        "message": "smooth zoom in"
+    }, 
+    "smooth zoom out": {
+        "message": "smooth zoom out"
+    }, 
+    "special move": {
+        "message": "special move"
+    }, 
+    "stop": {
+        "message": "\u00e1llj"
+    }, 
+    "streaming": {
+        "message": "streaming"
+    }, 
+    "swap pip": {
+        "message": "swap pip"
+    }, 
+    "team chat": {
+        "message": "team chat"
+    }, 
+    "toggle FOW": {
+        "message": "toggle FOW"
+    }, 
+    "toggle audio logging": {
+        "message": "toggle audio logging"
+    }, 
+    "toggle build orders": {
+        "message": "toggle build orders"
+    }, 
+    "toggle console": {
+        "message": "toggle console"
+    }, 
+    "toggle debug camera": {
+        "message": "toggle debug camera"
+    }, 
+    "toggle energy orders": {
+        "message": "toggle energy orders"
+    }, 
+    "toggle fire orders": {
+        "message": "toggle fire orders"
+    }, 
+    "toggle free camera": {
+        "message": "toggle free camera"
+    }, 
+    "toggle fullscreen": {
+        "message": "toggle fullscreen"
+    }, 
+    "toggle move orders": {
+        "message": "toggle move orders"
+    }, 
+    "toggle music": {
+        "message": "zene ki/be kapcsol\u00e1sa"
+    }, 
+    "toggle nav debug": {
+        "message": "toggle nav debug"
+    }, 
+    "toggle pip mirror": {
+        "message": "toggle pip mirror"
+    }, 
+    "toggle twitch microphone": {
+        "message": "toggle twitch microphone"
+    }, 
+    "toggle twitch streaming": {
+        "message": "toggle twitch streaming"
+    }, 
+    "toggle twitch system audio recording": {
+        "message": "toggle twitch system audio recording"
+    }, 
+    "track selection with camera": {
+        "message": "track selection with camera"
+    }, 
+    "tracking & alignment": {
+        "message": "tracking & alignment"
+    }, 
+    "tuning": {
+        "message": "tuning"
+    }, 
+    "unit capture groups": {
+        "message": "unit capture groups"
+    }, 
+    "unit commands": {
+        "message": "unit commands"
+    }, 
+    "unit orders": {
+        "message": "unit orders"
+    }, 
+    "unit recall groups": {
+        "message": "unit recall groups"
+    }, 
+    "unit selection": {
+        "message": "unit selection"
+    }, 
+    "units": {
+        "message": "egys\u00e9gek"
+    }, 
+    "unload": {
+        "message": "unload"
+    }, 
+    "zoom": {
+        "message": "k\u00f6zel\u00edt\u00e9s"
+    }, 
+    "zoom in": {
+        "message": "r\u00e1k\u00f6zel\u00edt\u00e9s"
+    }, 
+    "zoom out": {
+        "message": "zoom out"
+    }, 
+    "zoom to air": {
+        "message": "zoom to air"
+    }, 
+    "zoom to celestial": {
+        "message": "zoom to celestial"
+    }, 
+    "zoom to orbital": {
+        "message": "zoom to orbital"
+    }, 
+    "zoom to surface": {
+        "message": "k\u00f6zel\u00edt\u00e9s felsz\u00ednre"
+    }
+}

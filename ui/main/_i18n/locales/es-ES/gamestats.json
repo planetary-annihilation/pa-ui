@@ -1,0 +1,147 @@
+{
+    "Avg": {
+        "message": "Media"
+    }, 
+    "Build Efficiency": {
+        "message": "Eficiencia de construcción"
+    }, 
+    "CLOSE": {
+        "message": "CERRAR"
+    }, 
+    "Command Rate": {
+        "message": "Índice de comandos"
+    }, 
+    "Consumed": {
+        "message": "Consumido"
+    }, 
+    "Created": {
+        "message": "Creado"
+    }, 
+    "Current": {
+        "message": "Actual"
+    }, 
+    "Current APM": {
+        "message": "APM actual"
+    }, 
+    "Current Efficiency": {
+        "message": "Eficiencia actual"
+    }, 
+    "Current Energy": {
+        "message": "Cantidad de energía actual"
+    }, 
+    "Current Metal": {
+        "message": "Cantidad de metal actual"
+    }, 
+    "Current Units": {
+        "message": "Número de unidades actuales"
+    }, 
+    "Draw": {
+        "message": "Empate"
+    }, 
+    "Energy Demand": {
+        "message": "Demanda energética"
+    }, 
+    "Energy Production": {
+        "message": "Producción energética"
+    }, 
+    "Energy Wasted": {
+        "message": "Gasto energético"
+    }, 
+    "Fab": {
+        "message": "Fab."
+    }, 
+    "Factory": {
+        "message": "Fábricas"
+    }, 
+    "GAME SUMMARY": {
+        "message": "RESUMEN DE LA PARTIDA"
+    }, 
+    "In Progress": {
+        "message": "En desarrollo"
+    }, 
+    "Lost": {
+        "message": "Pérdidas"
+    }, 
+    "Metal Demand": {
+        "message": "Demanda metalúrgica"
+    }, 
+    "Metal Destruction Rate": {
+        "message": "Índice de destrucción metalúrgica"
+    }, 
+    "Metal Loss Rate": {
+        "message": "Índice de pérdida metalúrgica"
+    }, 
+    "Metal Production": {
+        "message": "Producción metalúrgica"
+    }, 
+    "Metal Wasted": {
+        "message": "Gasto metalúrgico"
+    }, 
+    "Mobile": {
+        "message": "Móviles"
+    }, 
+    "Opp Killed": {
+        "description": "Etiqueta para la columna que contiene el número de unidades enemigas con las que has terminado.", 
+        "message": "Adversarios eliminados"
+    }, 
+    "Produced": {
+        "message": "Total"
+    }, 
+    "Retrieving Stats...": {
+        "message": "Cargando estadísticas..."
+    }, 
+    "Total": {
+        "message": "Total"
+    }, 
+    "Total APM": {
+        "message": "APM total"
+    }, 
+    "Total Efficiency": {
+        "message": "Eficiencia total"
+    }, 
+    "Total Energy": {
+        "message": "Cantidad de energía total"
+    }, 
+    "Total Metal": {
+        "message": "Cantidad de metal total"
+    }, 
+    "Total Units": {
+        "message": "Cantidad total de unidades"
+    }, 
+    "Unit Build Rate": {
+        "message": "Índice de construcción de unidades"
+    }, 
+    "Unit Destruction Rate": {
+        "message": "Índice de destrucción de unidades"
+    }, 
+    "Unit Loss Rate": {
+        "message": "Índice de pérdida de unidades"
+    }, 
+    "Units In Combat": {
+        "message": "Unidades en combate"
+    }, 
+    "Units: Fabricators": {
+        "message": "Unidades de fabricantes"
+    }, 
+    "Units: Factory": {
+        "message": "Unidades de fábricas"
+    }, 
+    "Units: Mobile": {
+        "message": "Unidad móviles"
+    }, 
+    "View Box Score": {
+        "message": "Ver panel de puntuaciones"
+    }, 
+    "View Graph Analysis": {
+        "message": "Ver gráficos de análisis"
+    }, 
+    "Wasted": {
+        "message": "Malgasto"
+    }, 
+    "Winner:": {
+        "message": "Ganador:"
+    }, 
+    "Winners:": {
+        "message": "Ganadores:"
+    }
+}

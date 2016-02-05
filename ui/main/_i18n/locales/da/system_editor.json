@@ -1,0 +1,107 @@
+{
+    "Accept": {
+        "message": "Accepter"
+    }, 
+    "CLEAR SYSTEM": {
+        "message": "Ryd System"
+    }, 
+    "CLOSE": {
+        "message": "LUK"
+    }, 
+    "Cancel": {
+        "message": "Annullere"
+    }, 
+    "Discard": {
+        "message": "Udsmid"
+    }, 
+    "Do you want to save this system?": {
+        "message": "Vil du gemme dette system?"
+    }, 
+    "EDIT PLANET": {
+        "message": "REDIGER PLANET"
+    }, 
+    "HIDE": {
+        "message": "Skjul"
+    }, 
+    "Height": {
+        "message": "H\u00f8jde"
+    }, 
+    "MY PLANETS": {
+        "message": "MINE PLANETER"
+    }, 
+    "Mass": {
+        "message": "MASSEFYLDE"
+    }, 
+    "NAME:": {
+        "message": "NAVN:"
+    }, 
+    "PREVIEW ALL": {
+        "message": "SE EKSEMPEL"
+    }, 
+    "Position": {
+        "message": "POSITION"
+    }, 
+    "RECENT": {
+        "message": "Nyligt"
+    }, 
+    "REMOVE": {
+        "message": "FJERN"
+    }, 
+    "Radius": {
+        "message": "RADIUS"
+    }, 
+    "SAVE SYSTEM": {
+        "message": "Gem System"
+    }, 
+    "SHOW": {
+        "message": "VIS"
+    }, 
+    "SIMULATE": {
+        "message": "SIMUL\u00c9R"
+    }, 
+    "SYSTEM DESIGNER": {
+        "message": "SYSTEM DESIGNER"
+    }, 
+    "Save": {
+        "message": "Gem"
+    }, 
+    "System has no starting planet.": {
+        "message": "System has no starting planet."
+    }, 
+    "System radius is too large.": {
+        "message": "System radius is too large."
+    }, 
+    "System radius is too small.": {
+        "message": "System radius is too small."
+    }, 
+    "TEMPLATES": {
+        "message": "SKABELONER"
+    }, 
+    "Temp": {
+        "message": "Temperatur"
+    }, 
+    "The planet is loading. This can take a long time.": {
+        "message": "Planeten bliver genereret, dette kan tage lang tid."
+    }, 
+    "The program will be unresponsive until the planet has finished.": {
+        "message": "Programmet vil ikke reagere indtil planeten er f\u00e6rdig."
+    }, 
+    "The system has been changed since it was last saved.": {
+        "message": "Systemet er blevet \u00e6ndret siden det sidst blev \u00e6ndret."
+    }, 
+    "The system has not been saved.": {
+        "message": "Systemet blev ikke gemt."
+    }, 
+    "Velocity": {
+        "message": "HASTIGHED"
+    }, 
+    "Water": {
+        "message": "Vand"
+    }, 
+    "X:": {
+        "message": "X:"
+    }, 
+    "Y:": {
+        "message": "Y:"
+    }
+}

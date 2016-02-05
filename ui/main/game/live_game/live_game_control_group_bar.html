@@ -1,0 +1,217 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta locns="live_game" />
+    <noloc><title>Live Game: Control Group Bar</title></noloc>
+    <link href="bundle://boot/boot.css" rel="stylesheet" type="text/css" />
+    <link href="live_game_control_group_bar.css" rel="stylesheet" type="text/css" />
+    <script src="bundle://boot/boot.js" type="text/javascript"></script>
+    <script src="./js/constants.js" type="text/javascript"></script>
+    <script src="./js/preview.js" type="text/javascript"></script>
+    <script src="live_game_control_group_bar.js" type="text/javascript"></script>
+</head>
+<body class="body_panel">
+    <body-dock class="body-dock">
+        <div class="wrapper">
+
+            <!-- IDLE FAB/FACTORY GROUP SELECT -->
+            <!-- ko if: $root.currentFocusPlanetIdleFabberGroup().total || $root.currentFocusPlanetIdleFactoryGroup().total -->
+
+            <div class="div_implicit_group_cont idle_groups">
+                <!-- IDLE FABBERS -->
+                <!-- ko with: $root.currentFocusPlanetIdleFabberGroup -->
+                <div class="implicit_group_item" data-bind="event: { mouseover: function () { $root.setHover($element, $data.index); }, mouseleave: $root.clearHover }">
+                    <!-- ko if: $data.total -->
+                    <!-- ko if: $data.index === $root.hoverIndex() -->
+                    <div class="unit_group_menu">
+                        <!-- ko foreach: $root.typeItemsForIdleFabberGroup() -->
+                        <div class="item btn_std_ix" data-bind="click: function () { api.select.idleFabbersWithTypeFilter($root.currentFocusPlanetId(), $data.type); }">
+                            <img class="icon" data-bind="attr: { src: $data.source }" />
+                            <div>
+                                <span class="count" data-bind="text: $data.count"></span>
+                                <span data-bind="locText: $data.type"></span>
+                            </div>
+                        </div>
+                        <!-- /ko -->
+                    </div>
+                    <!-- /ko -->
+                    <!-- /ko -->
+                    <div class="implicit_group btn_std_ix idle_fabber" data-placement="right" data-tooltipkey="select_idle_fabbers" data-bind="tooltip: '!LOC:Select idle fabbers' , css: { available: $data.total }, click: function () { $root.idleSelect('Fabber'); }">
+                        <div class="build_stripe"></div>
+                        <span data-bind="vars: { num_idle_fabbers: $data.total }"><loc>__num_idle_fabbers__&nbsp;Idle</loc></span>
+                    </div>
+                </div>
+                <!-- /ko -->
+
+                <!-- IDLE FACTORIES -->
+                <!-- ko with: $root.currentFocusPlanetIdleFactoryGroup -->
+                <div class="implicit_group_item" data-bind="event: { mouseover: function () { $root.setHover($element, $data.index); }, mouseleave: $root.clearHover }">
+                    <!-- ko if: $data.total -->
+                    <!-- ko if: $data.index === $root.hoverIndex() -->
+                    <div class="unit_group_menu">
+                        <!-- ko foreach: $root.typeItemsForIdleFactoryGroup() -->
+                        <div class="item btn_std_ix" data-bind="click: function () { api.select.idleFactoriesWithTypeFilter($root.currentFocusPlanetId(), $data.type); }">
+                            <img class="icon" data-bind="attr: { src: $data.source }" />
+                            <div>
+                                <span class="count" data-bind="text: $data.count"></span>
+                                <!-- ko if: $data.type === 'Tank' -->
+                                <span><loc>Vehicle</loc></span>
+                                <!-- /ko -->
+                                <!-- ko ifnot: $data.type === 'Tank' -->
+                                <span data-bind="text: $data.type"></span>
+                                <!-- /ko -->
+                            </div>
+                        </div>
+                        <!-- /ko -->
+                    </div>
+                    <!-- /ko -->
+                    <!-- /ko -->
+                    <div class="implicit_group idle_factory btn_std_ix" data-placement="right" data-tooltipkey="select_all_factories" data-bind="tooltip: '!LOC:Select idle factories', css: { available: $data.total }, click: function () { $root.idleSelect('Factory'); }">
+                        <div class="build_stripe"></div>
+                        <span data-bind="vars: { num_idle_factories: $data.total }"><loc>__num_idle_factories__&nbsp;Idle</loc></span>
+                    </div>
+                </div>
+                <!-- /ko -->
+            </div>
+
+            <!-- /ko -->
+
+            <!-- IMPLICIT GROUP SELECT -->
+            <div class="div_implicit_group_cont">
+                <div class="wrapper">
+                    <div class="implicit_group_item combat btn_std_ix" data-placement="top" data-bind="click: function () { $root.quickSelect('Bot'); }, tooltip: '!LOC:Select all bot units in view'">
+                        <img class="img_select_all" src="coui://ui/main/game/live_game/img/control_group_bar/icon_category_bot.png" />
+                    </div>
+                    <div class="implicit_group_item combat btn_std_ix" data-placement="top" data-bind="click: function () { $root.quickSelect('Tank'); }, tooltip: '!LOC:Select all vehicle units in view'">
+                        <img class="img_select_all" src="coui://ui/main/game/live_game/img/control_group_bar/icon_category_tank.png" />
+                    </div>
+                    <div class="implicit_group_item combat btn_std_ix" data-placement="top" data-bind="click: function () { $root.quickSelect('Air'); }, tooltip: '!LOC:Select all air units in view'">
+                        <img class="img_select_all" src="coui://ui/main/game/live_game/img/control_group_bar/icon_category_air.png" />
+                    </div>
+                    <div class="implicit_group_item combat btn_std_ix" data-placement="top" data-bind="click: function () { $root.quickSelect('Naval'); }, tooltip: '!LOC:Select all naval units in view'">
+                        <img class="img_select_all" src="coui://ui/main/game/live_game/img/control_group_bar/icon_category_naval.png" />
+                    </div>
+                    <div class="implicit_group_item combat btn_std_ix" data-placement="top" data-bind="click: function () { $root.quickSelect('Orbital'); }, tooltip: '!LOC:Select all orbital units in view'">
+                        <img class="img_select_all" src="coui://ui/main/game/live_game/img/control_group_bar/icon_category_orbital.png" />
+                    </div>
+                    <div class="implicit_group_item combat btn_std_ix" data-placement="top" data-bind="click: function () { $root.quickSelect('Advanced'); }, tooltip: '!LOC:Select all advanced units in view'">
+                        <img class="img_select_all" src="coui://ui/main/game/live_game/img/control_group_bar/icon_category_advanced.png" />
+                    </div>
+                    <div class="implicit_group_item combat btn_std_ix" data-placement="top" data-bind="click: function () { $root.quickSelect('Fabber'); }, tooltip: '!LOC:Select all fabber units in view'">
+                        <img class="img_select_all" src="coui://ui/main/game/live_game/img/control_group_bar/icon_category_fabber.png" />
+                    </div>
+                </div>
+            </div>
+
+            <!-- EXPLICIT GROUP SELECT -->
+            <div class="unit_control_group_bar">
+                <!-- CUSTOM GROUP SELECT -->
+                <div class="div_group_select">
+                    <div class="bground"></div>
+                    <div class="wrapper">
+                        <!-- ko foreach: orderedControlGroupList -->
+                        <div data-bind="event: { mouseover: function () { $root.setHover($element, $data.index); }, mouseleave: $root.clearHover }">
+                        <div class="div_control_group_cont">
+                            <!-- ko if: $data.total -->
+                            <!-- ko if: $data.index === $root.hoverIndex() -->
+                            <div class="unit_group_menu">
+                                <!-- ko foreach: $root.typeItemsForGroup($data.index) -->
+                                <div class="item btn_std_ix" data-bind="click: function () { api.select.recallGroupWithTypeFilter(index, $data.type); }">
+                                    <img class="icon" data-bind="attr: { src: $data.source }" />
+                                    <div>
+                                        <span class="count" data-bind="text: $data.count"></span>
+                                        <!-- ko if: $data.type === 'Tank' -->
+                                        <span><loc>Vehicle</loc></span>
+                                        <!-- /ko -->
+                                        <!-- ko ifnot: $data.type === 'Tank' -->
+                                        <span data-bind="text: $data.type"></span>
+                                        <!-- /ko -->
+                                    </div>
+                                </div>
+                                <!-- /ko -->
+                            </div>
+                            <!-- /ko -->
+                            <!-- /ko -->
+
+                            <!-- ko ifnot: $data.total -->
+                            <!-- ko ifnot: $root.hasSelection -->
+                            <div class="btn_std_ix unit_group_item disabled">
+                                <div class="numkey disabled" data-bind="text: $data.index"></div>
+                            </div>
+                            <!-- /ko -->
+                            <!-- /ko -->
+
+                            <!-- ko if: $data.total -->
+                            <!-- ko ifnot: $root.hasSelection -->
+                            <div class="btn_std_ix unit_group_item"
+                                data-bind="click: function () { $root.captureOrRecall($data, $data.index); }, css: { active: $data.total }">
+                                <div class="numkey" data-bind="text: $data.index"></div>
+                                <!-- ko if: $data.total -->
+                                <div class="total" data-bind="text: $data.total"></div>
+                                    <div class="category">
+                                        <!-- ko foreach: $root.typeItemsForGroup($data.index) -->
+                                        <img class="icon" data-bind="attr: { src: $data.source }" />
+                                        <!-- /ko -->
+                                    </div>
+                                <div class="btn_win btn_win_close btn_clear" data-bind="click: function () { $root.forget($data.index); }, clickBubble: false"></div>
+                                <!-- /ko -->
+                            </div>
+                            <!-- /ko -->
+                            <!-- /ko -->
+
+                            <!-- ko ifnot: $data.total -->
+                            <!-- ko if: $root.hasSelection -->
+                            <div class="btn_std_ix unit_group_item"
+                                data-bind="click: function () { $root.captureOrRecall($data, $data.index); }, click_sound: '/SE/UI/UI_Controlgroup_add', css: { active: $data.total }">
+                                <div class="numkey" data-bind="text: $data.index"></div>
+                                <!-- ko ifnot: $data.total -->
+                                <!-- ko if: $root.hasSelection -->
+                                <div class="watermark_add">
+                                    <loc>Add</loc>
+                                </div>
+                                <!-- /ko -->
+                                <!-- /ko -->
+                                <!-- ko if: ($data.total) && ($root.typeItemsForGroup($data.index) > 0) -->
+                                <div class="total" data-bind="text: $data.total"></div>
+                                    <div class="category">
+                                        <!-- ko foreach: $root.typeItemsForGroup($data.index) -->
+                                        <img class="icon" data-bind="attr: { src: $data.source }" />
+                                        <!-- /ko -->
+                                    </div>
+                                <div class="btn_win btn_win_close btn_clear" data-bind="click: function () { $root.forget($data.index); }, clickBubble: false"></div>
+                                <!-- /ko -->
+                            </div>
+                            <!-- /ko -->
+                            <!-- /ko -->
+
+                            <!-- ko if: $data.total -->
+                            <!-- ko if: $root.hasSelection -->
+                            <div class="btn_std_ix unit_group_item"
+                                data-bind="click: function () { $root.captureOrRecall($data, $data.index); }, css: { active: $data.total }">
+                                <div class="numkey" data-bind="text: $data.index"></div>
+                                <!-- ko if: $data.total -->
+                                <div class="total" data-bind="text: $data.total"></div>
+                                    <div class="category">
+                                        <!-- ko foreach: $root.typeItemsForGroup($data.index) -->
+                                        <img class="icon" data-bind="attr: { src: $data.source }" />
+                                        <!-- /ko -->
+                                    </div>
+                                <div class="btn_win btn_win_close btn_clear" data-bind="click: function () { $root.forget($data.index); }, clickBubble: false"></div>
+                                <!-- /ko -->
+                            </div>
+                            <!-- /ko -->
+                            <!-- /ko -->
+
+                            <!-- /ko -->
+                        </div>
+                        </div>
+                        <!-- /ko -->
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body-dock>
+</body>
+</html>

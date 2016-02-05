@@ -1,0 +1,107 @@
+{
+    "Accept": {
+        "message": "P\u0159ijmout"
+    }, 
+    "CLEAR SYSTEM": {
+        "message": "VY\u010cISTIT SYST\u00c9M"
+    }, 
+    "CLOSE": {
+        "message": "ZAV\u0158\u00cdT"
+    }, 
+    "Cancel": {
+        "message": "Zru\u0161it"
+    }, 
+    "Discard": {
+        "message": "Odstranit"
+    }, 
+    "Do you want to save this system?": {
+        "message": "Chcete ulo\u017eit tento syst\u00e9m?"
+    }, 
+    "EDIT PLANET": {
+        "message": "UPRAVIT PLANETU"
+    }, 
+    "HIDE": {
+        "message": "SCHOVAT"
+    }, 
+    "Height": {
+        "message": "V\u00fd\u0161ka"
+    }, 
+    "MY PLANETS": {
+        "message": "MOJE PLANETY"
+    }, 
+    "Mass": {
+        "message": "HMOTA"
+    }, 
+    "NAME:": {
+        "message": "N\u00c1ZEV"
+    }, 
+    "PREVIEW ALL": {
+        "message": "ZOBRAZIT V\u0160ECHNY"
+    }, 
+    "Position": {
+        "message": "POZICE"
+    }, 
+    "RECENT": {
+        "message": "NED\u00c1VN\u00c9"
+    }, 
+    "REMOVE": {
+        "message": "ODSTRANIT"
+    }, 
+    "Radius": {
+        "message": "R\u00c1DIUS"
+    }, 
+    "SAVE SYSTEM": {
+        "message": "ULO\u017dIT SYST\u00c9M"
+    }, 
+    "SHOW": {
+        "message": "UK\u00c1ZAT"
+    }, 
+    "SIMULATE": {
+        "message": "SIMULOVAT"
+    }, 
+    "SYSTEM DESIGNER": {
+        "message": "N\u00c1VRH\u00c1\u0158 SYST\u00c9M\u016e"
+    }, 
+    "Save": {
+        "message": "Ulo\u017eit"
+    }, 
+    "System has no starting planet.": {
+        "message": "Syst\u00e9m nem\u00e1 \u017e\u00e1dnou v\u00fdchoz\u00ed planetu."
+    }, 
+    "System radius is too large.": {
+        "message": "R\u00e1dius syst\u00e9mu je p\u0159\u00edli\u0161 velk\u00fd."
+    }, 
+    "System radius is too small.": {
+        "message": "R\u00e1dius syst\u00e9mu je p\u0159\u00edli\u0161 mal\u00fd."
+    }, 
+    "TEMPLATES": {
+        "message": "\u0160ABLONY"
+    }, 
+    "Temp": {
+        "message": "Teplota"
+    }, 
+    "The planet is loading. This can take a long time.": {
+        "message": "Planeta se nahr\u00e1v\u00e1. To m\u016f\u017ee trvat del\u0161\u00ed dobu."
+    }, 
+    "The program will be unresponsive until the planet has finished.": {
+        "message": "Program nebude odpov\u00eddat dokud nebude planeta dokon\u010dena."
+    }, 
+    "The system has been changed since it was last saved.": {
+        "message": "Syst\u00e9m byl pozm\u011bn\u011bn od posledn\u00edho ulo\u017een\u00ed."
+    }, 
+    "The system has not been saved.": {
+        "message": "Syst\u00e9m nebyl ulo\u017een."
+    }, 
+    "Velocity": {
+        "message": "RYCHLOST"
+    }, 
+    "Water": {
+        "message": "Voda"
+    }, 
+    "X:": {
+        "message": "X:"
+    }, 
+    "Y:": {
+        "message": "Y:"
+    }
+}

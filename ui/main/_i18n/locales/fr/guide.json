@@ -1,0 +1,38 @@
+{
+    "Area Commands": {
+        "message": "Commandes de zone"
+    }, 
+    "Basic Camera Controls": {
+        "message": "Commandes de base de la caméra"
+    }, 
+    "Clicking": {
+        "message": "Cliquer"
+    }, 
+    "Close": {
+        "message": "Fermer"
+    }, 
+    "Commander Basics": {
+        "message": "Règles de base des Commandeurs"
+    }, 
+    "Economy and Resources": {
+        "message": "Économie et ressources"
+    }, 
+    "Energy Resources": {
+        "message": "Ressources en énergie"
+    }, 
+    "Fabrication Units": {
+        "message": "Unités de fabrication"
+    }, 
+    "Factories": {
+        "message": "Usines"
+    }, 
+    "Important Hotkeys": {
+        "message": "Raccourcis clavier importants"
+    }, 
+    "Metal Resources": {
+        "message": "Ressources en métal"
+    }, 
+    "Player Guide": {
+        "message": "Guide"
+    }
+}

@@ -1,0 +1,95 @@
+{
+    "AI Battle": {
+        "message": "AI-Schlacht"
+    }, 
+    "Any": {
+        "message": "Beliebig"
+    }, 
+    "Casual": {
+        "message": "Zwanglos"
+    }, 
+    "Competitive": {
+        "message": "Konkurrierend"
+    }, 
+    "Create Game": {
+        "message": "Spiel erstellen"
+    }, 
+    "Free For All": {
+        "message": "Alle gegen Alle"
+    }, 
+    "Game": {
+        "message": "Spiel"
+    }, 
+    "Game State": {
+        "message": "Spiel-Status"
+    }, 
+    "In Lobby": {
+        "message": "In Lobby"
+    }, 
+    "In Progress": {
+        "message": "Laufend"
+    }, 
+    "Join Game": {
+        "message": "Spiel beitreten"
+    }, 
+    "Locked Game": {
+        "message": "Geschlossenes Spiel"
+    }, 
+    "Mod": {
+        "message": "Mod"
+    }, 
+    "Mode": {
+        "message": "Modus"
+    }, 
+    "Mods": {
+        "message": "Mods"
+    }, 
+    "Multiplayer": {
+        "message": "Mehrspieler"
+    }, 
+    "No max": {
+        "message": "Kein Maximum"
+    }, 
+    "No min": {
+        "message": "Kein Minimum"
+    }, 
+    "Number of Planets": {
+        "message": "Anzahl der Planeten"
+    }, 
+    "Number of Players": {
+        "message": "Anzahl der Spieler"
+    }, 
+    "Password": {
+        "message": "Passwort"
+    }, 
+    "Planets": {
+        "message": "Planeten"
+    }, 
+    "Players": {
+        "message": "Spieler"
+    }, 
+    "Region": {
+        "message": "Region"
+    }, 
+    "Slots": {
+        "message": "Slots"
+    }, 
+    "Spectate": {
+        "message": "Zuschauen"
+    }, 
+    "Spectators": {
+        "message": "Zuschauer"
+    }, 
+    "Status": {
+        "message": "Status"
+    }, 
+    "Tag": {
+        "message": "Tag"
+    }, 
+    "Team Armies": {
+        "message": "Team Armee"
+    }, 
+    "Testing": {
+        "message": "Testen"
+    }
+}

@@ -1,0 +1,35 @@
+{
+    "CANCEL": {
+        "message": "CANCELAR"
+    }, 
+    "Delete": {
+        "message": "DELETAR"
+    }, 
+    "Delete Planet": {
+        "message": "Excluir o planeta"
+    }, 
+    "Delete this planet?": {
+        "message": "Apagar este planeta?"
+    }, 
+    "Delete this system?": {
+        "message": "Apagar esse sistema?"
+    }, 
+    "Load Planet": {
+        "message": "Carregar Planeta"
+    }, 
+    "Load System": {
+        "message": "Carregar Sistema"
+    }, 
+    "New system": {
+        "message": "Novo sistema"
+    }, 
+    "SHOW PLANETS": {
+        "message": "MOSTRAR PLANETAS"
+    }, 
+    "SHOW SYSTEMS": {
+        "message": "MOSTRAR SISTEMAS"
+    }, 
+    "System Designer": {
+        "message": "Projetar Sistema"
+    }
+}

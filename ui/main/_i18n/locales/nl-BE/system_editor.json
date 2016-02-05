@@ -1,0 +1,107 @@
+{
+    "Accept": {
+        "message": "Aanvaarden"
+    }, 
+    "CLEAR SYSTEM": {
+        "message": "Begin met een nieuw systeem."
+    }, 
+    "CLOSE": {
+        "message": "SLUITEN"
+    }, 
+    "Cancel": {
+        "message": "Annuleren"
+    }, 
+    "Discard": {
+        "message": "Verwijderen"
+    }, 
+    "Do you want to save this system?": {
+        "message": "Wilt u dit systeem bewaren?"
+    }, 
+    "EDIT PLANET": {
+        "message": "BEWERK PLANEET"
+    }, 
+    "HIDE": {
+        "message": "VERBERG"
+    }, 
+    "Height": {
+        "message": "Hoogte"
+    }, 
+    "MY PLANETS": {
+        "message": "MIJN PLANETEN"
+    }, 
+    "Mass": {
+        "message": "MASSA"
+    }, 
+    "NAME:": {
+        "message": "NAAM:"
+    }, 
+    "PREVIEW ALL": {
+        "message": "BEKIJK ALLES"
+    }, 
+    "Position": {
+        "message": "POSITIE"
+    }, 
+    "RECENT": {
+        "message": "RECENT"
+    }, 
+    "REMOVE": {
+        "message": "VERWIJDERD"
+    }, 
+    "Radius": {
+        "message": "RADIUS"
+    }, 
+    "SAVE SYSTEM": {
+        "message": "BEWAAR SYSTEEM"
+    }, 
+    "SHOW": {
+        "message": "TOON"
+    }, 
+    "SIMULATE": {
+        "message": "SIMULEREN"
+    }, 
+    "SYSTEM DESIGNER": {
+        "message": "Cre\u00eber je universum"
+    }, 
+    "Save": {
+        "message": "Opslaan"
+    }, 
+    "System has no starting planet.": {
+        "message": "Systeem heeft geen startplaneet."
+    }, 
+    "System radius is too large.": {
+        "message": "Systeemradius is te groot."
+    }, 
+    "System radius is too small.": {
+        "message": "Systeemradius is te klein."
+    }, 
+    "TEMPLATES": {
+        "message": "SJABLOON"
+    }, 
+    "Temp": {
+        "message": "Temp"
+    }, 
+    "The planet is loading. This can take a long time.": {
+        "message": "De planeet is aan het laden. Dit kan een lange tijd duren."
+    }, 
+    "The program will be unresponsive until the planet has finished.": {
+        "message": "Het programma zal niet reageren totdat de planeet klaar is."
+    }, 
+    "The system has been changed since it was last saved.": {
+        "message": "Het systeem is veranderd nadat het voor de laatste keer was opgeslagen."
+    }, 
+    "The system has not been saved.": {
+        "message": "Het systeem werd niet bewaard."
+    }, 
+    "Velocity": {
+        "message": "SNELHEID"
+    }, 
+    "Water": {
+        "message": "Water"
+    }, 
+    "X:": {
+        "message": "X:"
+    }, 
+    "Y:": {
+        "message": "Y:"
+    }
+}

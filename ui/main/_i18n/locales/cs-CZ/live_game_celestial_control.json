@@ -1,0 +1,26 @@
+{
+    "Activate planetary laser": {
+        "message": "Aktivovat planet\u00e1rn\u00ed laser"
+    }, 
+    "Change orbit": {
+        "message": "Zm\u011bnit ob\u011b\u017enou dr\u00e1hu"
+    }, 
+    "Select a new gravity well.": {
+        "message": "Zvolte novou gravita\u010dn\u00ed studnu."
+    }, 
+    "Select a planet to attack.": {
+        "message": "Zvolte planetu, na kterou chcete za\u00fato\u010dit."
+    }, 
+    "Select a planet to destroy.": {
+        "message": "Zvolte planetu, kterou chcete zni\u010dit."
+    }, 
+    "Set course for annihilation": {
+        "message": "Nastavit sm\u011br pro zni\u010den\u00ed"
+    }, 
+    "Set target spot": {
+        "message": "Nastavit c\u00edlov\u00fd bod"
+    }, 
+    "Then confirm destination to set course.": {
+        "message": "Pak potvr\u010fte c\u00edl pro nastaven\u00ed sm\u011bru."
+    }
+}

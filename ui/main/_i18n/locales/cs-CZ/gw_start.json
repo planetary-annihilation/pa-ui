@@ -1,0 +1,119 @@
+{
+    "ABSURD": {
+        "message": "ABSURDN\u00cd"
+    }, 
+    "Active Wars": {
+        "message": "Aktivn\u00ed v\u00e1lky"
+    }, 
+    "Annihilate enemies on claimed systems to collect their Tech.": {
+        "message": "Zlikviduj nep\u0159\u00edtele v zabran\u00fdch syst\u00e9mech abys z\u00edskal jejich technologii."
+    }, 
+    "Annihilated": {
+        "message": "Zni\u010deno"
+    }, 
+    "Annihilation is final.": {
+        "message": "Zni\u010den\u00ed je kone\u010dn\u00e9."
+    }, 
+    "Archived Wars": {
+        "message": "Archivovan\u00e9 v\u00e1lky"
+    }, 
+    "Choose a loadout to give your Commander different starting Tech configurations.": {
+        "message": "Abyste z\u00edskali jinou startovn\u00ed technologickou konfiguraci vyberte jinou v\u00fdzbroj."
+    }, 
+    "Commander": {
+        "message": "Velitel"
+    }, 
+    "Details": {
+        "message": "Detaily"
+    }, 
+    "Difficulty:": {
+        "message": "Obt\u00ed\u017enost:"
+    }, 
+    "EPIC": {
+        "message": "EPICK\u00c1"
+    }, 
+    "Explore unclaimed systems to recover Tech.": {
+        "message": "Prozkoumejte nezabran\u00e9 syst\u00e9my k z\u00edsk\u00e1n\u00ed technologie."
+    }, 
+    "Faction": {
+        "message": "Frakce"
+    }, 
+    "Go to War": {
+        "message": "P\u0159ej\u00edt na v\u00e1lku"
+    }, 
+    "HARD": {
+        "message": "T\u011a\u017dK\u00c1"
+    }, 
+    "How to Play": {
+        "message": "Jak hr\u00e1t"
+    }, 
+    "LARGE": {
+        "message": "VELK\u00c1"
+    }, 
+    "LOCKED": {
+        "message": "UZAM\u010cENO"
+    }, 
+    "Loadout": {
+        "message": "V\u00fdzbroj"
+    }, 
+    "MEDIUM": {
+        "message": "ST\u0158EDN\u00cd"
+    }, 
+    "Move from star system to star system collecting Techs. Use those Techs to defeat the enemy faction leaders and conquer the galaxy!": {
+        "message": "P\u0159esu\u0148 se z hv\u011bzdn\u00e9 soustavy do dal\u0161\u00ed, abys sb\u00edral dal\u0161\u00ed technologie. Pou\u017eij tyto technologie k zlikvidov\u00e1n\u00ed velitel\u016f nep\u0159\u00e1telsk\u00fdch frakc\u00ed a dobij galaxii."
+    }, 
+    "NORMAL": {
+        "message": "Norm\u00e1ln\u00ed"
+    }, 
+    "Name": {
+        "message": "Jm\u00e9no"
+    }, 
+    "Navigate the galaxy map by jumping from system to system.": {
+        "message": "P\u0159ejd\u011bte galaktickou mapu skokem ze syst\u00e9mu do syst\u00e9mu."
+    }, 
+    "New Data Banks to store Techs can be found by exploring systems.": {
+        "message": "Nov\u00e9 disky s technick\u00fdmi daty  mohou b\u00fdt nalezeny p\u0159i prohled\u00e1v\u00e1n\u00ed syst\u00e9mu."
+    }, 
+    "New War": {
+        "message": "Nov\u00e1 v\u00e1lka"
+    }, 
+    "RELENTLESS": {
+        "message": "NEL\u00cdTOSTN\u00dd"
+    }, 
+    "SMALL": {
+        "message": "MAL\u00c1"
+    }, 
+    "Seed Value": {
+        "message": "Po\u010date\u010dn\u00ed hodnota"
+    }, 
+    "Setup": {
+        "message": "Nastaven\u00ed"
+    }, 
+    "Size:": {
+        "message": "Velikost:"
+    }, 
+    "Some systems have hidden Commander loadouts. Recover them for future Galactic Wars.": {
+        "message": "N\u011bkter\u00e9 syst\u00e9my skr\u00fdvaj\u00ed v\u00fdstroj pro Komand\u00e9ra. Z\u00edskej je pro budouc\u00ed galaktick\u00e9 v\u00e1lky."
+    }, 
+    "Tech can be deleted to make room for new ones to download. Deleted and rejected Techs are lost for the remainder of the Galactic War.": {
+        "message": "Abyste mohly ud\u011blat m\u00edsto pro novou technologii m\u016f\u017eete smazat starou. Smazan\u00e9 a odm\u00edtnute technologie jsou ztraceny pro zbytek galaktick\u00e9 v\u00e1lky."
+    }, 
+    "Tip:": {
+        "message": "Tip:"
+    }, 
+    "Tips": {
+        "message": "Tipy"
+    }, 
+    "Turns:": {
+        "message": "Uk\u00e1zalo:"
+    }, 
+    "UBER": {
+        "message": "UBER"
+    }, 
+    "Victory": {
+        "message": "V\u00edt\u011bzstv\u00ed"
+    }, 
+    "Wins:": {
+        "message": "V\u00fdhry:"
+    }
+}

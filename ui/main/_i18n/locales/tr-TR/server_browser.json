@@ -1,0 +1,44 @@
+{
+    "Create Game": {
+        "message": "Oyun Olu\u015ftur"
+    }, 
+    "Game": {
+        "message": "Oyun"
+    }, 
+    "In Lobby": {
+        "message": "Lobide"
+    }, 
+    "In Progress": {
+        "message": "Devam Ediyor"
+    }, 
+    "Join Game": {
+        "message": "Oyuna Kat\u0131l"
+    }, 
+    "Locked Game": {
+        "message": "Kilitli Oyun"
+    }, 
+    "Mode": {
+        "message": "Mod"
+    }, 
+    "Password": {
+        "message": "\u015eifre"
+    }, 
+    "Planets": {
+        "message": "Gezegenler"
+    }, 
+    "Players": {
+        "message": "OYUNCULAR"
+    }, 
+    "Region": {
+        "message": "B\u00f6lge"
+    }, 
+    "Slots": {
+        "message": "Slotlar"
+    }, 
+    "Spectate": {
+        "message": "\u0130zle"
+    }, 
+    "Spectators": {
+        "message": "\u0130zleyiciler"
+    }
+}

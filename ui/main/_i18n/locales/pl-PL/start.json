@@ -1,0 +1,230 @@
+{
+    "AI Skirmish": {
+        "message": "Potyczka z SI"
+    }, 
+    "Account information sent": {
+        "message": "Wys\u0142ano informacje o koncie"
+    }, 
+    "Accounts linked": {
+        "message": "Konta powi\u0105zane"
+    }, 
+    "Already have a PlayFab account?": {
+        "message": "Masz ju\u017c konto PlayFab?"
+    }, 
+    "An email with a link to recover your account was sent to username@domain.com.": {
+        "message": "Email z linkiem do odzyskania konta zostal wyslany do username@domain.com."
+    }, 
+    "An unknown error has occurred.": {
+        "message": "Wyst\u0105pi\u0142 nieznany b\u0142\u0105d."
+    }, 
+    "Armory": {
+        "message": "Zbrojownia"
+    }, 
+    "Audio Engine:": {
+        "message": "Silnik Audio:"
+    }, 
+    "CONTINUE TO MAIN MENU": {
+        "message": "KONTYNUUJ DO MENU G\u0141\u00d3WNEGO"
+    }, 
+    "CREATE ACCOUNT AND LINK": {
+        "message": "STW\u00d3RZ KONTO I POL\u0104CZ"
+    }, 
+    "Channels Streaming": {
+        "message": "Aktywne Kana\u0142y"
+    }, 
+    "Click here.": {
+        "message": "Kliknij tutaj."
+    }, 
+    "Click to play the Credits Galaxy": {
+        "message": "Click to play the Credits Galaxy"
+    }, 
+    "Confirm Password:": {
+        "message": "Potwierd\u017a Has\u0142o"
+    }, 
+    "Connecting to PlayFab": {
+        "message": "\u0141\u0105czenie z PlayFab"
+    }, 
+    "Cosmic Edition Commanders": {
+        "message": "Komanderzy Edycji Kosmicznej"
+    }, 
+    "Create a PlayFab account to link with Steam": {
+        "message": "Utw\u00f3rz konto PlayFab, kt\u00f3re zostanie po\u0142\u0105czone z serwisem Steam"
+    }, 
+    "Don't have an PlayFab account?": {
+        "message": "Nie posiadasz konta PlayFab?"
+    }, 
+    "Email address already exists": {
+        "message": "Adres email ju\u017c istnieje"
+    }, 
+    "Email address is invalid": {
+        "message": "Adres Email jest nieprawid\u0142owy"
+    }, 
+    "Email:": {
+        "message": "Email:"
+    }, 
+    "Extra special thanks to our:": {
+        "message": "Specjalne podzi\u0119kowania dla naszych:"
+    }, 
+    "Forgot username or password?": {
+        "message": "Zapomnia\u0142e\u015b/a\u015b nazwy u\u017cytkownika b\u0105d\u017a has\u0142a?"
+    }, 
+    "Founding Commanders": {
+        "message": "Dow\u00f3dcy-za\u0142o\u017cyciele"
+    }, 
+    "Galactic War": {
+        "message": "Wojna galaktyczna"
+    }, 
+    "Incorrect username or password. Please check your entry and try again.": {
+        "message": "Nieprawid\u0142owa nazwa uzytkownika lub has\u0142o. Sprawd\u017a dane i spr\u00f3buj ponownie."
+    }, 
+    "Invalid user name or password": {
+        "message": "Nieprawid\u0142owa nazwa lub has\u0142o"
+    }, 
+    "Link PlayFab with Steam": {
+        "message": "Po\u0142\u0105cz PlayFab ze Steam"
+    }, 
+    "Multiplayer": {
+        "message": "Wielu graczy"
+    }, 
+    "New Build Available:": {
+        "message": "Dost\u0119pna nowa wersja:"
+    }, 
+    "None of this would have been possible without your generosity, and we are grateful that you took the chance and believed in our vision.": {
+        "message": "Nic z tego wszystkiego by nie powsta\u0142o gdyby nie wasza hojno\u015b\u0107, jeste\u015bmy wam wdzi\u0119czni za danie nam szansy i wiar\u0119 w nasz\u0105 wizj\u0119."
+    }, 
+    "Password": {
+        "message": "Has\u0142o"
+    }, 
+    "Passwords are different": {
+        "message": "Has\u0142a s\u0105 r\u00f3\u017cne"
+    }, 
+    "PlayFab Username:": {
+        "message": "Nazwa u\u017cytkownika PlayFab:"
+    }, 
+    "PlayFab account already linked to a different Steam account": {
+        "message": "Konto PlayFab jest ju\u017c po\u0142\u0105czone z innym kontem Steam"
+    }, 
+    "Please choose a default region.": {
+        "message": "Wybierz domy\u015blny region."
+    }, 
+    "Please try again later. If this error persists, please contact support and check the forums.": {
+        "message": "Spr\u00f3buj ponownie p\u00f3\u017aniej. Je\u017celi b\u0142\u0105d b\u0119dzie nadal wyst\u0119powa\u0142, skontaktuj si\u0119 z pomoc\u0105 techniczn\u0105 lub sprawd\u017a forum."
+    }, 
+    "Please try to link your account at": {
+        "message": "Prosz\u0119 spr\u00f3bowa\u0107 po\u0142\u0105czy\u0107 swoje konto w"
+    }, 
+    "Problem with Steam Account.": {
+        "message": "Problem z Kontem Steam."
+    }, 
+    "Quit": {
+        "message": "Wyjd\u017a"
+    }, 
+    "RETURN TO SIGN IN": {
+        "message": "POWR\u00d3T DO STRONY LOGOWANIA"
+    }, 
+    "Reconnecting to Game": {
+        "message": "Ponowne \u0142\u0105czenie do Gry."
+    }, 
+    "Replays": {
+        "message": "Powt\u00f3rki"
+    }, 
+    "Settings": {
+        "message": "Ustawienia"
+    }, 
+    "Sign in": {
+        "message": "Zaloguj"
+    }, 
+    "Sign in with your PlayFab ID": {
+        "message": "Zaloguj si\u0119 swoim PlayFab ID"
+    }, 
+    "Sign into your PlayFab account.": {
+        "message": "Zaloguj si\u0119 na swoje konto PlayFab."
+    }, 
+    "Single Player": {
+        "message": "Pojedynczy gracz"
+    }, 
+    "System Designer": {
+        "message": "Edytor systemu"
+    }, 
+    "Thank you for your support!": {
+        "message": "Dzi\u0119kujemt wam za wasz\u0105 pomoc!"
+    }, 
+    "There are no regions available for this build version.": {
+        "message": "Brak dost\u0119pnych region\u00f3w dla tej wersji gry."
+    }, 
+    "There is a problem with Steam. Please restart Steam and try again or login using your PlayFab credentials.": {
+        "message": "Wyst\u0105pi\u0142 problem z serwisem Steam. Uruchom ponownie Steam i spr\u00f3buj ponownie albo zaloguj si\u0119, korzystaj\u0105c ze swoich danych z PlayFab."
+    }, 
+    "This shouldn't happen. Please contact us at": {
+        "message": "To nie powinno mie\u0107 miejsca. Prosz\u0119 skontaktuj si\u0119 z nami "
+    }, 
+    "This title has not been activated.": {
+        "message": "Ta gra nie zosta\u0142a aktywowana"
+    }, 
+    "To those who contributed to our Kickstarter campaign, we'd like to thank you for all the support.": {
+        "message": "Tym, kt\u00f3rzy nas wspomogli podczas naszej Kickstarterowej kampanii, chcieliby\u015bmy bardzo podzi\u0119kowa\u0107 za wasze wsparcie."
+    }, 
+    "Twitch": {
+        "message": "Twitch"
+    }, 
+    "Unable to Sign In": {
+        "message": "Logowanie niemo\u017cliwe"
+    }, 
+    "Unknown Error authenticating, possibly related to firewall or antivirus settings.  Please contact support if problem persists.": {
+        "message": "Nieznany b\u0142\u0105d autoryzacji, prawdopodobnie zwi\u0105zany z programem antywirusowym lub zapor\u0105 internetow\u0105. Je\u015bli b\u0142\u0105d si\u0119 powt\u00f3rzy, prosz\u0119 skontaktowa\u0107 si\u0119 z obs\u0142ug\u0105 klienta."
+    }, 
+    "User account has not been linked to steam.": {
+        "message": "Konto u\u017cytkownika nie zosta\u0142o po\u0142\u0105czone z uslug\u0105 Steam."
+    }, 
+    "Username": {
+        "message": "Uzytkownik"
+    }, 
+    "Username already exists": {
+        "message": "Nazwa u\u017cytkownika ju\u017c istnieje"
+    }, 
+    "Version:": {
+        "message": "Wersja:"
+    }, 
+    "Videos": {
+        "message": "Filmy"
+    }, 
+    "Visit our website \u00bb": {
+        "message": "Odwied\u017a nasz\u0105 stron\u0119"
+    }, 
+    "You are already assigned to a game.": {
+        "message": "Jeste\u015b ju\u017c przypisany do gry."
+    }, 
+    "You can change the region later in the settings menu.": {
+        "message": "Mo\u017cesz zmieni\u0107 region gry p\u00f3\u017aniej w opcjach."
+    }, 
+    "You need a new client to play the game. Steam users may need to restart Steam to get the new client.": {
+        "message": "Potrzebna jest nowa wersja gry. U\u017cytkownicy Steam by\u0107 mo\u017ce b\u0119d\u0105 musieli ponownie uruchomi\u0107 Steam, aby rozpocz\u0119\u0142o si\u0119 pobieranie."
+    }, 
+    "Your Steam ID and PlayFab accounts have been successfully linked.": {
+        "message": "Twoje konta Steam ID i PlayFab zosta\u0142y pomy\u015blnie po\u0142\u0105czone."
+    }, 
+    "Your account has been banned.": {
+        "message": "Twoje konto zosta\u0142o zablokowane."
+    }, 
+    "Your account has been banned. If you believe this is in error, contact us at": {
+        "message": "Twoje konto zostalo zablokowane. Jesli uwa\u017casz, \u017ce m\u00f3g\u0142 wyst\u0105pi\u0107 b\u0142\u0105d skontaktuj si\u0119 z nami "
+    }, 
+    "Your default region is currently unavailable. Please choose a different region.": {
+        "message": "Tw\u00f3j domy\u015blny region jest aktualnie niedost\u0119pny. Wybierz prosz\u0119 inny region."
+    }, 
+    "Your steam account does not own this application.": {
+        "message": "Twoje konto Steam nie posiada tej aplikacji."
+    }, 
+    "set by code": {
+        "message": "set by code"
+    }, 
+    "viewers": {
+        "message": "widzowie"
+    }, 
+    "| UI Library: Coherent Labs, copyright \u00a9 2012-2014": {
+        "message": " Biblioteka UI: Coherent Labs, copyright \u00a9 2012-2014"
+    }, 
+    "\u00a9 2014 Uber Entertainment Inc.": {
+        "message": "\u00a9 2014 Uber Entertainment Inc."
+    }
+}

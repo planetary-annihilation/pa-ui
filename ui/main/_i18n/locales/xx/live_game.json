@@ -1,0 +1,782 @@
+{
+    "ALLIANCES": {
+        "message": "\u0202\u20a4\u20a4\u03aa\u0202\u019d\u04aa\u0190\u1e60", 
+        "original": "ALLIANCES"
+    }, 
+    "ALLY": {
+        "message": "\u0202\u20a4\u20a4\u0423", 
+        "original": "ALLY"
+    }, 
+    "ALT-FIRE": {
+        "message": "\u0202\u20a4\u4e01-\u03dc\u03aa\u211d\u0190", 
+        "original": "ALT-FIRE"
+    }, 
+    "ANNIHILATE EVERYTHING": {
+        "message": "\u0202\u019d\u019d\u03aa\u04c7\u03aa\u20a4\u0202\u4e01\u0190 \u0190\u0476\u0190\u211d\u0423\u4e01\u04c7\u03aa\u019d\u01f4", 
+        "original": "ANNIHILATE EVERYTHING"
+    }, 
+    "ANNIHILATED": {
+        "message": "\u0202\u019d\u019d\u03aa\u04c7\u03aa\u20a4\u0202\u4e01\u0190\u0189", 
+        "original": "ANNIHILATED"
+    }, 
+    "APS:": {
+        "message": "\u0202\u1e54\u1e60:", 
+        "original": "APS:"
+    }, 
+    "ARMY": {
+        "message": "\u0202\u211d\u039c\u0423", 
+        "original": "ARMY"
+    }, 
+    "ASSIST": {
+        "message": "\u0202\u1e60\u1e60\u03aa\u1e60\u4e01", 
+        "original": "ASSIST"
+    }, 
+    "AT WILL": {
+        "message": "\u0202\u4e01 \u20a9\u03aa\u20a4\u20a4", 
+        "original": "AT WILL"
+    }, 
+    "ATTACK": {
+        "message": "\u0202\u4e01\u4e01\u0202\u04aa\u04a0", 
+        "original": "ATTACK"
+    }, 
+    "ATTACKING": {
+        "message": "\u0202\u4e01\u4e01\u0202\u04aa\u04a0\u03aa\u019d\u01f4", 
+        "original": "ATTACKING"
+    }, 
+    "Abandon War": {
+        "message": "\u0202\u0411\u0203\u019e\u0257\u020f\u019e \u20a9\u0203\u0213", 
+        "original": "Abandon War"
+    }, 
+    "Accept": {
+        "message": "\u0202\u03f2\u03f2\u1f73\u2374\u04ad", 
+        "original": "Accept"
+    }, 
+    "Activate planetary laser": {
+        "message": "\u0202\u03f2\u04ad\u0457\u0477\u0203\u04ad\u1f73 \u2374\u230a\u0203\u019e\u1f73\u04ad\u0203\u0213\u0443 \u230a\u0203\u01a8\u1f73\u0213", 
+        "original": "Activate planetary laser"
+    }, 
+    "Add": {
+        "message": "\u0202\u0257\u0257", 
+        "original": "Add"
+    }, 
+    "Advanced": {
+        "message": "\u0202\u0257\u0477\u0203\u019e\u03f2\u1f73\u0257", 
+        "original": "Advanced"
+    }, 
+    "Air": {
+        "message": "\u0202\u0457\u0213", 
+        "original": "Air"
+    }, 
+    "All catalysts online on __planet_name__! Click here to annihilate!": {
+        "message": "\u0202\u230a\u230a \u03f2\u0203\u04ad\u0203\u230a\u0443\u01a8\u04ad\u01a8 \u020f\u019e\u230a\u0457\u019e\u1f73 \u020f\u019e __planet_name__! \u04aa\u230a\u0457\u03f2\u045c \u043d\u1f73\u0213\u1f73 \u04ad\u020f \u0203\u019e\u019e\u0457\u043d\u0457\u230a\u0203\u04ad\u1f73!", 
+        "original": "All catalysts online on __planet_name__! Click here to annihilate!"
+    }, 
+    "Alliance Request": {
+        "message": "\u0202\u230a\u230a\u0457\u0203\u019e\u03f2\u1f73 \u211d\u1f73\u0533\u0574\u1f73\u01a8\u04ad", 
+        "original": "Alliance Request"
+    }, 
+    "Alliance requested": {
+        "message": "\u0202\u230a\u230a\u0457\u0203\u019e\u03f2\u1f73 \u0213\u1f73\u0533\u0574\u1f73\u01a8\u04ad\u1f73\u0257", 
+        "original": "Alliance requested"
+    }, 
+    "Allied With:": {
+        "message": "\u0202\u230a\u230a\u0457\u1f73\u0257 \u20a9\u0457\u04ad\u043d:", 
+        "original": "Allied With:"
+    }, 
+    "Allied __unit_name__ lost.": {
+        "message": "\u0202\u230a\u230a\u0457\u1f73\u0257 __unit_name__ \u230a\u020f\u01a8\u04ad.", 
+        "original": "Allied __unit_name__ lost."
+    }, 
+    "Allies": {
+        "message": "\u0202\u230a\u230a\u0457\u1f73\u01a8", 
+        "original": "Allies"
+    }, 
+    "Anti-nuke - Intercepts incoming nuclear missiles.": {
+        "message": "\u0202\u019e\u04ad\u0457-\u019e\u0574\u045c\u1f73 - \u03aa\u019e\u04ad\u1f73\u0213\u03f2\u1f73\u2374\u04ad\u01a8 \u0457\u019e\u03f2\u020f\u028d\u0457\u019e\u0260 \u019e\u0574\u03f2\u230a\u1f73\u0203\u0213 \u028d\u0457\u01a8\u01a8\u0457\u230a\u1f73\u01a8.", 
+        "original": "Anti-nuke - Intercepts incoming nuclear missiles."
+    }, 
+    "Are you sure you want to abandon this Galactic War?[br](All progress and Tech will be lost.)": {
+        "message": "\u0202\u0213\u1f73 \u0443\u020f\u0574 \u01a8\u0574\u0213\u1f73 \u0443\u020f\u0574 \u1ff4\u0203\u019e\u04ad \u04ad\u020f \u0203\u0411\u0203\u019e\u0257\u020f\u019e \u04ad\u043d\u0457\u01a8 \u01f4\u0203\u230a\u0203\u03f2\u04ad\u0457\u03f2 \u20a9\u0203\u0213?[br](\u0202\u230a\u230a \u2374\u0213\u020f\u0260\u0213\u1f73\u01a8\u01a8 \u0203\u019e\u0257 \u4e01\u1f73\u03f2\u043d \u1ff4\u0457\u230a\u230a \u0411\u1f73 \u230a\u020f\u01a8\u04ad.)", 
+        "original": "Are you sure you want to abandon this Galactic War?[br](All progress and Tech will be lost.)"
+    }, 
+    "BUILD MODE": {
+        "message": "\u0e3f\u1ee6\u03aa\u20a4\u0189 \u039c\u0472\u0189\u0190", 
+        "original": "BUILD MODE"
+    }, 
+    "Bot": {
+        "message": "\u0e3f\u020f\u04ad", 
+        "original": "Bot"
+    }, 
+    "Bounty Econ Multiplier": {
+        "message": "\u0e3f\u020f\u0574\u019e\u04ad\u0443 \u0190\u03f2\u020f\u019e \u039c\u0574\u230a\u04ad\u0457\u2374\u230a\u0457\u1f73\u0213", 
+        "original": "Bounty Econ Multiplier"
+    }, 
+    "Bounty kill rewarded. Econ multipliers enabled.": {
+        "message": "\u0e3f\u020f\u0574\u019e\u04ad\u0443 \u045c\u0457\u230a\u230a \u0213\u1f73\u1ff4\u0203\u0213\u0257\u1f73\u0257. \u0190\u03f2\u020f\u019e \u028d\u0574\u230a\u04ad\u0457\u2374\u230a\u0457\u1f73\u0213\u01a8 \u1f73\u019e\u0203\u0411\u230a\u1f73\u0257.", 
+        "original": "Bounty kill rewarded. Econ multipliers enabled."
+    }, 
+    "Build Efficiency": {
+        "message": "\u0e3f\u0574\u0457\u230a\u0257 \u0190\u0493\u0493\u0457\u03f2\u0457\u1f73\u019e\u03f2\u0443", 
+        "original": "Build Efficiency"
+    }, 
+    "CONNECTION TO SERVER LOST": {
+        "message": "\u04aa\u0472\u019d\u019d\u0190\u04aa\u4e01\u03aa\u0472\u019d \u4e01\u0472 \u1e60\u0190\u211d\u0476\u0190\u211d \u20a4\u0472\u1e60\u4e01", 
+        "original": "CONNECTION TO SERVER LOST"
+    }, 
+    "CONTINUOUS": {
+        "message": "\u04aa\u0472\u019d\u4e01\u03aa\u019d\u1ee6\u0472\u1ee6\u1e60", 
+        "original": "CONTINUOUS"
+    }, 
+    "Cancel": {
+        "message": "\u04aa\u0203\u019e\u03f2\u1f73\u230a", 
+        "original": "Cancel"
+    }, 
+    "Cancel Fire": {
+        "message": "\u04aa\u0203\u019e\u03f2\u1f73\u230a \u03dc\u0457\u0213\u1f73", 
+        "original": "Cancel Fire"
+    }, 
+    "Cancel Move": {
+        "message": "\u04aa\u0203\u019e\u03f2\u1f73\u230a \u039c\u020f\u0477\u1f73", 
+        "original": "Cancel Move"
+    }, 
+    "Capture main view": {
+        "message": "\u04aa\u0203\u2374\u04ad\u0574\u0213\u1f73 \u028d\u0203\u0457\u019e \u0477\u0457\u1f73\u1ff4", 
+        "original": "Capture main view"
+    }, 
+    "Change orbit": {
+        "message": "\u04aa\u043d\u0203\u019e\u0260\u1f73 \u020f\u0213\u0411\u0457\u04ad", 
+        "original": "Change orbit"
+    }, 
+    "Chrono Cam": {
+        "message": "\u04aa\u043d\u0213\u020f\u019e\u020f \u04aa\u0203\u028d", 
+        "original": "Chrono Cam"
+    }, 
+    "Chrono Cam Replay": {
+        "message": "\u04aa\u043d\u0213\u020f\u019e\u020f \u04aa\u0203\u028d \u211d\u1f73\u2374\u230a\u0203\u0443", 
+        "original": "Chrono Cam Replay"
+    }, 
+    "Close": {
+        "message": "\u04aa\u230a\u020f\u01a8\u1f73", 
+        "original": "Close"
+    }, 
+    "Commander": {
+        "message": "\u04aa\u020f\u028d\u028d\u0203\u019e\u0257\u1f73\u0213", 
+        "original": "Commander"
+    }, 
+    "Continue Tutorial": {
+        "message": "\u04aa\u020f\u019e\u04ad\u0457\u019e\u0574\u1f73 \u4e01\u0574\u04ad\u020f\u0213\u0457\u0203\u230a", 
+        "original": "Continue Tutorial"
+    }, 
+    "Continue War": {
+        "message": "\u04aa\u020f\u019e\u04ad\u0457\u019e\u0574\u1f73 \u20a9\u0203\u0213", 
+        "original": "Continue War"
+    }, 
+    "Count": {
+        "message": "\u04aa\u020f\u0574\u019e\u04ad", 
+        "original": "Count"
+    }, 
+    "DMG": {
+        "message": "\u0189\u039c\u01f4", 
+        "original": "DMG"
+    }, 
+    "DMG:": {
+        "message": "\u0189\u039c\u01f4:", 
+        "original": "DMG:"
+    }, 
+    "DPS:": {
+        "message": "\u0189\u1e54\u1e60:", 
+        "original": "DPS:"
+    }, 
+    "DRAW": {
+        "message": "\u0189\u211d\u0202\u20a9", 
+        "original": "DRAW"
+    }, 
+    "Destroy selected units?": {
+        "message": "\u0189\u1f73\u01a8\u04ad\u0213\u020f\u0443 \u01a8\u1f73\u230a\u1f73\u03f2\u04ad\u1f73\u0257 \u0574\u019e\u0457\u04ad\u01a8?", 
+        "original": "Destroy selected units?"
+    }, 
+    "ECONOMY": {
+        "message": "\u0190\u04aa\u0472\u019d\u0472\u039c\u0423", 
+        "original": "ECONOMY"
+    }, 
+    "ENERGY ORDERS": {
+        "message": "\u0190\u019d\u0190\u211d\u01f4\u0423 \u0472\u211d\u0189\u0190\u211d\u1e60", 
+        "original": "ENERGY ORDERS"
+    }, 
+    "Efficiency": {
+        "message": "\u0190\u0493\u0493\u0457\u03f2\u0457\u1f73\u019e\u03f2\u0443", 
+        "original": "Efficiency"
+    }, 
+    "Enemy Contact!": {
+        "message": "\u0190\u019e\u1f73\u028d\u0443 \u04aa\u020f\u019e\u04ad\u0203\u03f2\u04ad!", 
+        "original": "Enemy Contact!"
+    }, 
+    "Energy": {
+        "message": "\u0190\u019e\u1f73\u0213\u0260\u0443", 
+        "original": "Energy"
+    }, 
+    "Energy Efficiency": {
+        "message": "\u0190\u019e\u1f73\u0213\u0260\u0443 \u0190\u0493\u0493\u0457\u03f2\u0457\u1f73\u019e\u03f2\u0443", 
+        "original": "Energy Efficiency"
+    }, 
+    "Energy Expended": {
+        "message": "\u0190\u019e\u1f73\u0213\u0260\u0443 \u0190\u2327\u2374\u1f73\u019e\u0257\u1f73\u0257", 
+        "original": "Energy Expended"
+    }, 
+    "Energy Produced": {
+        "message": "\u0190\u019e\u1f73\u0213\u0260\u0443 \u1e54\u0213\u020f\u0257\u0574\u03f2\u1f73\u0257", 
+        "original": "Energy Produced"
+    }, 
+    "Energy Storage": {
+        "message": "\u0190\u019e\u1f73\u0213\u0260\u0443 \u1e60\u04ad\u020f\u0213\u0203\u0260\u1f73", 
+        "original": "Energy Storage"
+    }, 
+    "Exit Game?": {
+        "message": "\u0190\u2327\u0457\u04ad \u01f4\u0203\u028d\u1f73?", 
+        "original": "Exit Game?"
+    }, 
+    "FABRICATING": {
+        "message": "\u03dc\u0202\u0e3f\u211d\u03aa\u04aa\u0202\u4e01\u03aa\u019d\u01f4", 
+        "original": "FABRICATING"
+    }, 
+    "FIRE ORDERS": {
+        "message": "\u03dc\u03aa\u211d\u0190 \u0472\u211d\u0189\u0190\u211d\u1e60", 
+        "original": "FIRE ORDERS"
+    }, 
+    "Fabber": {
+        "message": "\u03dc\u0203\u0411\u0411\u1f73\u0213", 
+        "original": "Fabber"
+    }, 
+    "Factory": {
+        "message": "\u03dc\u0203\u03f2\u04ad\u020f\u0213\u0443", 
+        "original": "Factory"
+    }, 
+    "Fire Weapon": {
+        "message": "\u03dc\u0457\u0213\u1f73 \u20a9\u1f73\u0203\u2374\u020f\u019e", 
+        "original": "Fire Weapon"
+    }, 
+    "Follow alerts": {
+        "message": "\u03dc\u020f\u230a\u230a\u020f\u1ff4 \u0203\u230a\u1f73\u0213\u04ad\u01a8", 
+        "original": "Follow alerts"
+    }, 
+    "GAME PAUSED": {
+        "message": "\u01f4\u0202\u039c\u0190 \u1e54\u0202\u1ee6\u1e60\u0190\u0189", 
+        "original": "GAME PAUSED"
+    }, 
+    "Game Menu": {
+        "message": "\u01f4\u0203\u028d\u1f73 \u039c\u1f73\u019e\u0574", 
+        "original": "Game Menu"
+    }, 
+    "Game Ready": {
+        "message": "\u01f4\u0203\u028d\u1f73 \u211d\u1f73\u0203\u0257\u0443", 
+        "original": "Game Ready"
+    }, 
+    "Game Settings": {
+        "message": "\u01f4\u0203\u028d\u1f73 \u1e60\u1f73\u04ad\u04ad\u0457\u019e\u0260\u01a8", 
+        "original": "Game Settings"
+    }, 
+    "Game has been paused. You will receive a victory if your opponent does not reconnect within 180 seconds.": {
+        "message": "\u01f4\u0203\u028d\u1f73 \u043d\u0203\u01a8 \u0411\u1f73\u1f73\u019e \u2374\u0203\u0574\u01a8\u1f73\u0257. \u0423\u020f\u0574 \u1ff4\u0457\u230a\u230a \u0213\u1f73\u03f2\u1f73\u0457\u0477\u1f73 \u0203 \u0477\u0457\u03f2\u04ad\u020f\u0213\u0443 \u0457\u0493 \u0443\u020f\u0574\u0213 \u020f\u2374\u2374\u020f\u019e\u1f73\u019e\u04ad \u0257\u020f\u1f73\u01a8 \u019e\u020f\u04ad \u0213\u1f73\u03f2\u020f\u019e\u019e\u1f73\u03f2\u04ad \u1ff4\u0457\u04ad\u043d\u0457\u019e 180 \u01a8\u1f73\u03f2\u020f\u019e\u0257\u01a8.", 
+        "original": "Game has been paused. You will receive a victory if your opponent does not reconnect within 180 seconds."
+    }, 
+    "Game starts in": {
+        "message": "\u01f4\u0203\u028d\u1f73 \u01a8\u04ad\u0203\u0213\u04ad\u01a8 \u0457\u019e", 
+        "original": "Game starts in"
+    }, 
+    "HEALTH": {
+        "message": "\u04c7\u0190\u0202\u20a4\u4e01\u04c7", 
+        "original": "HEALTH"
+    }, 
+    "HOLD": {
+        "message": "\u04c7\u0472\u20a4\u0189", 
+        "original": "HOLD"
+    }, 
+    "HOLD POSITION": {
+        "message": "\u04c7\u0472\u20a4\u0189 \u1e54\u0472\u1e60\u03aa\u4e01\u03aa\u0472\u019d", 
+        "original": "HOLD POSITION"
+    }, 
+    "Halleys active on __planet_name__! Click here to annihilate!": {
+        "message": "\u04c7\u0203\u230a\u230a\u1f73\u0443\u01a8 \u0203\u03f2\u04ad\u0457\u0477\u1f73 \u020f\u019e __planet_name__! \u04aa\u230a\u0457\u03f2\u045c \u043d\u1f73\u0213\u1f73 \u04ad\u020f \u0203\u019e\u019e\u0457\u043d\u0457\u230a\u0203\u04ad\u1f73!", 
+        "original": "Halleys active on __planet_name__! Click here to annihilate!"
+    }, 
+    "Hold the mouse wheel down and drag to pan.": {
+        "message": "\u04c7\u020f\u230a\u0257 \u04ad\u043d\u1f73 \u028d\u020f\u0574\u01a8\u1f73 \u1ff4\u043d\u1f73\u1f73\u230a \u0257\u020f\u1ff4\u019e \u0203\u019e\u0257 \u0257\u0213\u0203\u0260 \u04ad\u020f \u2374\u0203\u019e.", 
+        "original": "Hold the mouse wheel down and drag to pan."
+    }, 
+    "Ignore": {
+        "message": "\u03aa\u0260\u019e\u020f\u0213\u1f73", 
+        "original": "Ignore"
+    }, 
+    "LOAD": {
+        "message": "\u20a4\u0472\u0202\u0189", 
+        "original": "LOAD"
+    }, 
+    "LR-96 -Pacifier- Missile": {
+        "message": "\u20a4\u211d-96 -\u1e54\u0203\u03f2\u0457\u0493\u0457\u1f73\u0213- \u039c\u0457\u01a8\u01a8\u0457\u230a\u1f73", 
+        "original": "LR-96 -Pacifier- Missile"
+    }, 
+    "MANEUVER": {
+        "message": "\u039c\u0202\u019d\u0190\u1ee6\u0476\u0190\u211d", 
+        "original": "MANEUVER"
+    }, 
+    "MOVE": {
+        "message": "\u039c\u0472\u0476\u0190", 
+        "original": "MOVE"
+    }, 
+    "MOVE ORDERS": {
+        "message": "\u039c\u0472\u0476\u0190 \u0472\u211d\u0189\u0190\u211d\u1e60", 
+        "original": "MOVE ORDERS"
+    }, 
+    "Metal": {
+        "message": "\u039c\u1f73\u04ad\u0203\u230a", 
+        "original": "Metal"
+    }, 
+    "Metal Efficiency": {
+        "message": "\u039c\u1f73\u04ad\u0203\u230a \u0190\u0493\u0493\u0457\u03f2\u0457\u1f73\u019e\u03f2\u0443", 
+        "original": "Metal Efficiency"
+    }, 
+    "Metal Expended": {
+        "message": "\u039c\u1f73\u04ad\u0203\u230a \u0190\u2327\u2374\u1f73\u019e\u0257\u1f73\u0257", 
+        "original": "Metal Expended"
+    }, 
+    "Metal Produced": {
+        "message": "\u039c\u1f73\u04ad\u0203\u230a \u1e54\u0213\u020f\u0257\u0574\u03f2\u1f73\u0257", 
+        "original": "Metal Produced"
+    }, 
+    "Metal Storage": {
+        "message": "\u039c\u1f73\u04ad\u0203\u230a \u1e60\u04ad\u020f\u0213\u0203\u0260\u1f73", 
+        "original": "Metal Storage"
+    }, 
+    "Mobile": {
+        "message": "\u039c\u020f\u0411\u0457\u230a\u1f73", 
+        "original": "Mobile"
+    }, 
+    "NORMAL": {
+        "message": "\u019d\u0472\u211d\u039c\u0202\u20a4", 
+        "original": "NORMAL"
+    }, 
+    "Names can only include letters [a-Z] and numbers [0-9].": {
+        "message": "\u019d\u0203\u028d\u1f73\u01a8 \u03f2\u0203\u019e \u020f\u019e\u230a\u0443 \u0457\u019e\u03f2\u230a\u0574\u0257\u1f73 \u230a\u1f73\u04ad\u04ad\u1f73\u0213\u01a8 [a-Z] \u0203\u019e\u0257 \u019e\u0574\u028d\u0411\u1f73\u0213\u01a8 [0-9].", 
+        "original": "Names can only include letters [a-Z] and numbers [0-9]."
+    }, 
+    "Naval": {
+        "message": "\u019d\u0203\u0477\u0203\u230a", 
+        "original": "Naval"
+    }, 
+    "Net Energy Income": {
+        "message": "\u019d\u1f73\u04ad \u0190\u019e\u1f73\u0213\u0260\u0443 \u03aa\u019e\u03f2\u020f\u028d\u1f73", 
+        "original": "Net Energy Income"
+    }, 
+    "Net Metal Income": {
+        "message": "\u019d\u1f73\u04ad \u039c\u1f73\u04ad\u0203\u230a \u03aa\u019e\u03f2\u020f\u028d\u1f73", 
+        "original": "Net Metal Income"
+    }, 
+    "Next": {
+        "message": "\u019d\u1f73\u2327\u04ad", 
+        "original": "Next"
+    }, 
+    "Not enough energy": {
+        "message": "\u019d\u020f\u04ad \u1f73\u019e\u020f\u0574\u0260\u043d \u1f73\u019e\u1f73\u0213\u0260\u0443", 
+        "original": "Not enough energy"
+    }, 
+    "Not enough metal": {
+        "message": "\u019d\u020f\u04ad \u1f73\u019e\u020f\u0574\u0260\u043d \u028d\u1f73\u04ad\u0203\u230a", 
+        "original": "Not enough metal"
+    }, 
+    "Not enough metal or energy": {
+        "message": "\u019d\u020f\u04ad \u1f73\u019e\u020f\u0574\u0260\u043d \u028d\u1f73\u04ad\u0203\u230a \u020f\u0213 \u1f73\u019e\u1f73\u0213\u0260\u0443", 
+        "original": "Not enough metal or energy"
+    }, 
+    "Nuclear missile - Long range, large area damage, projectile.": {
+        "message": "\u019d\u0574\u03f2\u230a\u1f73\u0203\u0213 \u028d\u0457\u01a8\u01a8\u0457\u230a\u1f73 - \u20a4\u020f\u019e\u0260 \u0213\u0203\u019e\u0260\u1f73, \u230a\u0203\u0213\u0260\u1f73 \u0203\u0213\u1f73\u0203 \u0257\u0203\u028d\u0203\u0260\u1f73, \u2374\u0213\u020f\u0644\u1f73\u03f2\u04ad\u0457\u230a\u1f73.", 
+        "original": "Nuclear missile - Long range, large area damage, projectile."
+    }, 
+    "OFF": {
+        "message": "\u0472\u03dc\u03dc", 
+        "original": "OFF"
+    }, 
+    "ON": {
+        "message": "\u0472\u019d", 
+        "original": "ON"
+    }, 
+    "Opponent disconnected": {
+        "message": "\u0472\u2374\u2374\u020f\u019e\u1f73\u019e\u04ad \u0257\u0457\u01a8\u03f2\u020f\u019e\u019e\u1f73\u03f2\u04ad\u1f73\u0257", 
+        "original": "Opponent disconnected"
+    }, 
+    "Orbital": {
+        "message": "\u0472\u0213\u0411\u0457\u04ad\u0203\u230a", 
+        "original": "Orbital"
+    }, 
+    "PATROL": {
+        "message": "\u1e54\u0202\u4e01\u211d\u0472\u20a4", 
+        "original": "PATROL"
+    }, 
+    "PLAYER": {
+        "message": "\u1e54\u20a4\u0202\u0423\u0190\u211d", 
+        "original": "PLAYER"
+    }, 
+    "PROD": {
+        "message": "\u1e54\u211d\u0472\u0189", 
+        "original": "PROD"
+    }, 
+    "Pause Game": {
+        "message": "\u1e54\u0203\u0574\u01a8\u1f73 \u01f4\u0203\u028d\u1f73", 
+        "original": "Pause Game"
+    }, 
+    "Pick a location inside one of the green zones to spawn your Commander.": {
+        "message": "\u1e54\u0457\u03f2\u045c \u0203 \u230a\u020f\u03f2\u0203\u04ad\u0457\u020f\u019e \u0457\u019e\u01a8\u0457\u0257\u1f73 \u020f\u019e\u1f73 \u020f\u0493 \u04ad\u043d\u1f73 \u0260\u0213\u1f73\u1f73\u019e \u2124\u020f\u019e\u1f73\u01a8 \u04ad\u020f \u01a8\u2374\u0203\u1ff4\u019e \u0443\u020f\u0574\u0213 \u04aa\u020f\u028d\u028d\u0203\u019e\u0257\u1f73\u0213.", 
+        "original": "Pick a location inside one of the green zones to spawn your Commander."
+    }, 
+    "Pin to opposite side": {
+        "message": "\u1e54\u0457\u019e \u04ad\u020f \u020f\u2374\u2374\u020f\u01a8\u0457\u04ad\u1f73 \u01a8\u0457\u0257\u1f73", 
+        "original": "Pin to opposite side"
+    }, 
+    "Ping": {
+        "message": "\u1e54\u0457\u019e\u0260", 
+        "original": "Ping"
+    }, 
+    "Ping!": {
+        "message": "\u1e54\u0457\u019e\u0260!", 
+        "original": "Ping!"
+    }, 
+    "Play From Here": {
+        "message": "\u1e54\u230a\u0203\u0443 \u03dc\u0213\u020f\u028d \u04c7\u1f73\u0213\u1f73", 
+        "original": "Play From Here"
+    }, 
+    "Player Guide": {
+        "message": "\u1e54\u230a\u0203\u0443\u1f73\u0213 \u01f4\u0574\u0457\u0257\u1f73", 
+        "original": "Player Guide"
+    }, 
+    "Position targeted. Click to confirm.": {
+        "message": "\u1e54\u020f\u01a8\u0457\u04ad\u0457\u020f\u019e \u04ad\u0203\u0213\u0260\u1f73\u04ad\u1f73\u0257. \u04aa\u230a\u0457\u03f2\u045c \u04ad\u020f \u03f2\u020f\u019e\u0493\u0457\u0213\u028d.", 
+        "original": "Position targeted. Click to confirm."
+    }, 
+    "Prev": {
+        "message": "\u1e54\u0213\u1f73\u0477", 
+        "original": "Prev"
+    }, 
+    "Quit": {
+        "message": "\u04a8\u0574\u0457\u04ad", 
+        "original": "Quit"
+    }, 
+    "Quit Game": {
+        "message": "\u04a8\u0574\u0457\u04ad \u01f4\u0203\u028d\u1f73", 
+        "original": "Quit Game"
+    }, 
+    "Quit to Main Menu": {
+        "message": "\u04a8\u0574\u0457\u04ad \u04ad\u020f \u039c\u0203\u0457\u019e \u039c\u1f73\u019e\u0574", 
+        "original": "Quit to Main Menu"
+    }, 
+    "READY": {
+        "message": "\u211d\u0190\u0202\u0189\u0423", 
+        "original": "READY"
+    }, 
+    "RECLAIM": {
+        "message": "\u211d\u0190\u04aa\u20a4\u0202\u03aa\u039c", 
+        "original": "RECLAIM"
+    }, 
+    "RECLAIMING": {
+        "message": "\u211d\u0190\u04aa\u20a4\u0202\u03aa\u039c\u03aa\u019d\u01f4", 
+        "original": "RECLAIMING"
+    }, 
+    "REPAIR": {
+        "message": "\u211d\u0190\u1e54\u0202\u03aa\u211d", 
+        "original": "REPAIR"
+    }, 
+    "RESC": {
+        "message": "\u211d\u0190\u1e60\u04aa", 
+        "original": "RESC"
+    }, 
+    "RETURN FIRE": {
+        "message": "\u211d\u0190\u4e01\u1ee6\u211d\u019d \u03dc\u03aa\u211d\u0190", 
+        "original": "RETURN FIRE"
+    }, 
+    "ROAM": {
+        "message": "\u211d\u0472\u0202\u039c", 
+        "original": "ROAM"
+    }, 
+    "Request pending": {
+        "message": "\u211d\u1f73\u0533\u0574\u1f73\u01a8\u04ad \u2374\u1f73\u019e\u0257\u0457\u019e\u0260", 
+        "original": "Request pending"
+    }, 
+    "Resume": {
+        "message": "\u211d\u1f73\u01a8\u0574\u028d\u1f73", 
+        "original": "Resume"
+    }, 
+    "Resume Game": {
+        "message": "\u211d\u1f73\u01a8\u0574\u028d\u1f73 \u01f4\u0203\u028d\u1f73", 
+        "original": "Resume Game"
+    }, 
+    "Resume from here?": {
+        "message": "\u211d\u1f73\u01a8\u0574\u028d\u1f73 \u0493\u0213\u020f\u028d \u043d\u1f73\u0213\u1f73?", 
+        "original": "Resume from here?"
+    }, 
+    "Return to Galactic War": {
+        "message": "\u211d\u1f73\u04ad\u0574\u0213\u019e \u04ad\u020f \u01f4\u0203\u230a\u0203\u03f2\u04ad\u0457\u03f2 \u20a9\u0203\u0213", 
+        "original": "Return to Galactic War"
+    }, 
+    "Returning to Main Menu": {
+        "message": "\u211d\u1f73\u04ad\u0574\u0213\u019e\u0457\u019e\u0260 \u04ad\u020f \u039c\u0203\u0457\u019e \u039c\u1f73\u019e\u0574", 
+        "original": "Returning to Main Menu"
+    }, 
+    "Rewinding Time": {
+        "message": "\u211d\u1f73\u1ff4\u0457\u019e\u0257\u0457\u019e\u0260 \u4e01\u0457\u028d\u1f73", 
+        "original": "Rewinding Time"
+    }, 
+    "SELECTING": {
+        "message": "\u1e60\u0190\u20a4\u0190\u04aa\u4e01\u03aa\u019d\u01f4", 
+        "original": "SELECTING"
+    }, 
+    "SHARED ENERGY:": {
+        "message": "\u1e60\u04c7\u0202\u211d\u0190\u0189 \u0190\u019d\u0190\u211d\u01f4\u0423: ", 
+        "original": "SHARED ENERGY: "
+    }, 
+    "SHARED METAL:": {
+        "message": "\u1e60\u04c7\u0202\u211d\u0190\u0189 \u039c\u0190\u4e01\u0202\u20a4: ", 
+        "original": "SHARED METAL: "
+    }, 
+    "SPECIAL-MOVE": {
+        "message": "\u1e60\u1e54\u0190\u04aa\u03aa\u0202\u20a4-\u039c\u0472\u0476\u0190", 
+        "original": "SPECIAL-MOVE"
+    }, 
+    "SR-24 -Shield- Missile Defense": {
+        "message": "\u1e60\u211d-24 -\u1e60\u043d\u0457\u1f73\u230a\u0257- \u039c\u0457\u01a8\u01a8\u0457\u230a\u1f73 \u0189\u1f73\u0493\u1f73\u019e\u01a8\u1f73", 
+        "original": "SR-24 -Shield- Missile Defense"
+    }, 
+    "START ANNIHILATION": {
+        "message": "\u1e60\u4e01\u0202\u211d\u4e01 \u0202\u019d\u019d\u03aa\u04c7\u03aa\u20a4\u0202\u4e01\u03aa\u0472\u019d", 
+        "original": "START ANNIHILATION"
+    }, 
+    "STOP": {
+        "message": "\u1e60\u4e01\u0472\u1e54", 
+        "original": "STOP"
+    }, 
+    "STORAGE": {
+        "message": "\u1e60\u4e01\u0472\u211d\u0202\u01f4\u0190", 
+        "original": "STORAGE"
+    }, 
+    "Save": {
+        "message": "\u1e60\u0203\u0477\u1f73", 
+        "original": "Save"
+    }, 
+    "Save Game": {
+        "message": "\u1e60\u0203\u0477\u1f73 \u01f4\u0203\u028d\u1f73", 
+        "original": "Save Game"
+    }, 
+    "Save complete": {
+        "message": "\u1e60\u0203\u0477\u1f73 \u03f2\u020f\u028d\u2374\u230a\u1f73\u04ad\u1f73", 
+        "original": "Save complete"
+    }, 
+    "Save game?": {
+        "message": "\u1e60\u0203\u0477\u1f73 \u0260\u0203\u028d\u1f73?", 
+        "original": "Save game?"
+    }, 
+    "Saving game": {
+        "message": "\u1e60\u0203\u0477\u0457\u019e\u0260 \u0260\u0203\u028d\u1f73", 
+        "original": "Saving game"
+    }, 
+    "Scroll mouse wheel to zoom in and out.": {
+        "message": "\u1e60\u03f2\u0213\u020f\u230a\u230a \u028d\u020f\u0574\u01a8\u1f73 \u1ff4\u043d\u1f73\u1f73\u230a \u04ad\u020f \u2124\u020f\u020f\u028d \u0457\u019e \u0203\u019e\u0257 \u020f\u0574\u04ad.", 
+        "original": "Scroll mouse wheel to zoom in and out."
+    }, 
+    "Second Camera PIP": {
+        "message": "\u1e60\u1f73\u03f2\u020f\u019e\u0257 \u04aa\u0203\u028d\u1f73\u0213\u0203 \u1e54\u03aa\u1e54", 
+        "original": "Second Camera PIP"
+    }, 
+    "Select a new gravity well.": {
+        "message": "\u1e60\u1f73\u230a\u1f73\u03f2\u04ad \u0203 \u019e\u1f73\u1ff4 \u0260\u0213\u0203\u0477\u0457\u04ad\u0443 \u1ff4\u1f73\u230a\u230a.", 
+        "original": "Select a new gravity well."
+    }, 
+    "Select a planet to attack.": {
+        "message": "\u1e60\u1f73\u230a\u1f73\u03f2\u04ad \u0203 \u2374\u230a\u0203\u019e\u1f73\u04ad \u04ad\u020f \u0203\u04ad\u04ad\u0203\u03f2\u045c.", 
+        "original": "Select a planet to attack."
+    }, 
+    "Select a planet to destroy.": {
+        "message": "\u1e60\u1f73\u230a\u1f73\u03f2\u04ad \u0203 \u2374\u230a\u0203\u019e\u1f73\u04ad \u04ad\u020f \u0257\u1f73\u01a8\u04ad\u0213\u020f\u0443.", 
+        "original": "Select a planet to destroy."
+    }, 
+    "Select all advanced units in view": {
+        "message": "\u1e60\u1f73\u230a\u1f73\u03f2\u04ad \u0203\u230a\u230a \u0203\u0257\u0477\u0203\u019e\u03f2\u1f73\u0257 \u0574\u019e\u0457\u04ad\u01a8 \u0457\u019e \u0477\u0457\u1f73\u1ff4", 
+        "original": "Select all advanced units in view"
+    }, 
+    "Select all air units in view": {
+        "message": "\u1e60\u1f73\u230a\u1f73\u03f2\u04ad \u0203\u230a\u230a \u0203\u0457\u0213 \u0574\u019e\u0457\u04ad\u01a8 \u0457\u019e \u0477\u0457\u1f73\u1ff4", 
+        "original": "Select all air units in view"
+    }, 
+    "Select all bot units in view": {
+        "message": "\u1e60\u1f73\u230a\u1f73\u03f2\u04ad \u0203\u230a\u230a \u0411\u020f\u04ad \u0574\u019e\u0457\u04ad\u01a8 \u0457\u019e \u0477\u0457\u1f73\u1ff4", 
+        "original": "Select all bot units in view"
+    }, 
+    "Select all fabber units in view": {
+        "message": "\u1e60\u1f73\u230a\u1f73\u03f2\u04ad \u0203\u230a\u230a \u0493\u0203\u0411\u0411\u1f73\u0213 \u0574\u019e\u0457\u04ad\u01a8 \u0457\u019e \u0477\u0457\u1f73\u1ff4", 
+        "original": "Select all fabber units in view"
+    }, 
+    "Select all naval units in view": {
+        "message": "\u1e60\u1f73\u230a\u1f73\u03f2\u04ad \u0203\u230a\u230a \u019e\u0203\u0477\u0203\u230a \u0574\u019e\u0457\u04ad\u01a8 \u0457\u019e \u0477\u0457\u1f73\u1ff4", 
+        "original": "Select all naval units in view"
+    }, 
+    "Select all orbital units in view": {
+        "message": "\u1e60\u1f73\u230a\u1f73\u03f2\u04ad \u0203\u230a\u230a \u020f\u0213\u0411\u0457\u04ad\u0203\u230a \u0574\u019e\u0457\u04ad\u01a8 \u0457\u019e \u0477\u0457\u1f73\u1ff4", 
+        "original": "Select all orbital units in view"
+    }, 
+    "Select all vehicle units in view": {
+        "message": "\u1e60\u1f73\u230a\u1f73\u03f2\u04ad \u0203\u230a\u230a \u0477\u1f73\u043d\u0457\u03f2\u230a\u1f73 \u0574\u019e\u0457\u04ad\u01a8 \u0457\u019e \u0477\u0457\u1f73\u1ff4", 
+        "original": "Select all vehicle units in view"
+    }, 
+    "Send to Annihilate": {
+        "message": "\u1e60\u1f73\u019e\u0257 \u04ad\u020f \u0202\u019e\u019e\u0457\u043d\u0457\u230a\u0203\u04ad\u1f73", 
+        "original": "Send to Annihilate"
+    }, 
+    "Set course for annihilation": {
+        "message": "\u1e60\u1f73\u04ad \u03f2\u020f\u0574\u0213\u01a8\u1f73 \u0493\u020f\u0213 \u0203\u019e\u019e\u0457\u043d\u0457\u230a\u0203\u04ad\u0457\u020f\u019e", 
+        "original": "Set course for annihilation"
+    }, 
+    "Set target spot": {
+        "message": "\u1e60\u1f73\u04ad \u04ad\u0203\u0213\u0260\u1f73\u04ad \u01a8\u2374\u020f\u04ad", 
+        "original": "Set target spot"
+    }, 
+    "Social Bar": {
+        "message": "\u1e60\u020f\u03f2\u0457\u0203\u230a \u0e3f\u0203\u0213", 
+        "original": "Social Bar"
+    }, 
+    "Surrender": {
+        "message": "\u1e60\u0574\u0213\u0213\u1f73\u019e\u0257\u1f73\u0213", 
+        "original": "Surrender"
+    }, 
+    "Surrender Game?": {
+        "message": "\u1e60\u0574\u0213\u0213\u1f73\u019e\u0257\u1f73\u0213 \u01f4\u0203\u028d\u1f73?", 
+        "original": "Surrender Game?"
+    }, 
+    "Swap cameras": {
+        "message": "\u1e60\u1ff4\u0203\u2374 \u03f2\u0203\u028d\u1f73\u0213\u0203\u01a8", 
+        "original": "Swap cameras"
+    }, 
+    "TRANSPORT": {
+        "message": "\u4e01\u211d\u0202\u019d\u1e60\u1e54\u0472\u211d\u4e01", 
+        "original": "TRANSPORT"
+    }, 
+    "Then confirm destination to set course.": {
+        "message": "\u4e01\u043d\u1f73\u019e \u03f2\u020f\u019e\u0493\u0457\u0213\u028d \u0257\u1f73\u01a8\u04ad\u0457\u019e\u0203\u04ad\u0457\u020f\u019e \u04ad\u020f \u01a8\u1f73\u04ad \u03f2\u020f\u0574\u0213\u01a8\u1f73.", 
+        "original": "Then confirm destination to set course."
+    }, 
+    "This process can take a while.": {
+        "message": "\u4e01\u043d\u0457\u01a8 \u2374\u0213\u020f\u03f2\u1f73\u01a8\u01a8 \u03f2\u0203\u019e \u04ad\u0203\u045c\u1f73 \u0203 \u1ff4\u043d\u0457\u230a\u1f73.", 
+        "original": "This process can take a while."
+    }, 
+    "UNLOAD": {
+        "message": "\u1ee6\u019d\u20a4\u0472\u0202\u0189", 
+        "original": "UNLOAD"
+    }, 
+    "USE": {
+        "message": "\u1ee6\u1e60\u0190", 
+        "original": "USE"
+    }, 
+    "Unknown": {
+        "message": "\u1ee6\u019e\u045c\u019e\u020f\u1ff4\u019e", 
+        "original": "Unknown"
+    }, 
+    "Vehicle": {
+        "message": "\u0476\u1f73\u043d\u0457\u03f2\u230a\u1f73", 
+        "original": "Vehicle"
+    }, 
+    "WORLD SIMULATION WENT AWAY": {
+        "message": "\u20a9\u0472\u211d\u20a4\u0189 \u1e60\u03aa\u039c\u1ee6\u20a4\u0202\u4e01\u03aa\u0472\u019d \u20a9\u0190\u019d\u4e01 \u0202\u20a9\u0202\u0423", 
+        "original": "WORLD SIMULATION WENT AWAY"
+    }, 
+    "Waiting for other players to select a spawn location.": {
+        "message": "\u20a9\u0203\u0457\u04ad\u0457\u019e\u0260 \u0493\u020f\u0213 \u020f\u04ad\u043d\u1f73\u0213 \u2374\u230a\u0203\u0443\u1f73\u0213\u01a8 \u04ad\u020f \u01a8\u1f73\u230a\u1f73\u03f2\u04ad \u0203 \u01a8\u2374\u0203\u1ff4\u019e \u230a\u020f\u03f2\u0203\u04ad\u0457\u020f\u019e.", 
+        "original": "Waiting for other players to select a spawn location."
+    }, 
+    "Yes": {
+        "message": "\u0423\u1f73\u01a8", 
+        "original": "Yes"
+    }, 
+    "__num_idle_fabbers__ Idle": {
+        "message": "__num_idle_fabbers__ \u03aa\u0257\u230a\u1f73", 
+        "original": "__num_idle_fabbers__ Idle"
+    }, 
+    "__num_idle_factories__ Idle": {
+        "message": "__num_idle_factories__ \u03aa\u0257\u230a\u1f73", 
+        "original": "__num_idle_factories__ Idle"
+    }, 
+    "__unit_name__ arrived.": {
+        "message": "__unit_name__ \u0203\u0213\u0213\u0457\u0477\u1f73\u0257.", 
+        "original": "__unit_name__ arrived."
+    }, 
+    "__unit_name__ destroyed.": {
+        "message": "__unit_name__ \u0257\u1f73\u01a8\u04ad\u0213\u020f\u0443\u1f73\u0257.", 
+        "original": "__unit_name__ destroyed."
+    }, 
+    "__unit_name__ idle.": {
+        "message": "__unit_name__ \u0457\u0257\u230a\u1f73.", 
+        "original": "__unit_name__ idle."
+    }, 
+    "__unit_name__ launched!": {
+        "message": "__unit_name__ \u230a\u0203\u0574\u019e\u03f2\u043d\u1f73\u0257!", 
+        "original": "__unit_name__ launched!"
+    }, 
+    "__unit_name__ located.": {
+        "message": "__unit_name__ \u230a\u020f\u03f2\u0203\u04ad\u1f73\u0257.", 
+        "original": "__unit_name__ located."
+    }, 
+    "__unit_name__ lost.": {
+        "message": "__unit_name__ \u230a\u020f\u01a8\u04ad.", 
+        "original": "__unit_name__ lost."
+    }, 
+    "__unit_name__ ready.": {
+        "message": "__unit_name__ \u0213\u1f73\u0203\u0257\u0443.", 
+        "original": "__unit_name__ ready."
+    }, 
+    "__unit_name__ under attack.": {
+        "message": "__unit_name__ \u0574\u019e\u0257\u1f73\u0213 \u0203\u04ad\u04ad\u0203\u03f2\u045c.", 
+        "original": "__unit_name__ under attack."
+    }, 
+    "__victim_name__ has been annihilated.": {
+        "message": "__victim_name__ \u043d\u0203\u01a8 \u0411\u1f73\u1f73\u019e \u0203\u019e\u019e\u0457\u043d\u0457\u230a\u0203\u04ad\u1f73\u0257.", 
+        "original": "__victim_name__ has been annihilated."
+    }, 
+    "__victim_name__ was annihilated by __killer_name__.": {
+        "message": "__victim_name__ \u1ff4\u0203\u01a8 \u0203\u019e\u019e\u0457\u043d\u0457\u230a\u0203\u04ad\u1f73\u0257 \u0411\u0443 __killer_name__.", 
+        "original": "__victim_name__ was annihilated by __killer_name__."
+    }, 
+    "air": {
+        "message": "\u0203\u0457\u0213", 
+        "original": "air"
+    }, 
+    "ammo": {
+        "message": "\u0203\u028d\u028d\u020f", 
+        "original": "ammo"
+    }, 
+    "army": {
+        "message": "\u0203\u0213\u028d\u0443", 
+        "original": "army"
+    }, 
+    "bot": {
+        "message": "\u0411\u020f\u04ad", 
+        "original": "bot"
+    }, 
+    "combat": {
+        "message": "\u03f2\u020f\u028d\u0411\u0203\u04ad", 
+        "original": "combat"
+    }, 
+    "factory": {
+        "message": "\u0493\u0203\u03f2\u04ad\u020f\u0213\u0443", 
+        "original": "factory"
+    }, 
+    "orbital": {
+        "message": "\u020f\u0213\u0411\u0457\u04ad\u0203\u230a", 
+        "original": "orbital"
+    }, 
+    "sea": {
+        "message": "\u01a8\u1f73\u0203", 
+        "original": "sea"
+    }, 
+    "utility": {
+        "message": "\u0574\u04ad\u0457\u230a\u0457\u04ad\u0443", 
+        "original": "utility"
+    }, 
+    "vehicle": {
+        "message": "\u0477\u1f73\u043d\u0457\u03f2\u230a\u1f73", 
+        "original": "vehicle"
+    }
+}

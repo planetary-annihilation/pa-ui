@@ -1,0 +1,32 @@
+{
+    "Advanced Fabbers come from Advanced Factories and can build both basic and advanced structures": {
+        "message": "Verbesserte Fabbers entstehen durch verbesserte Fabriken und können sowohl einfache als auch verbesserte Konstruktionen bauen."
+    }, 
+    "Basic Fabbers build basic structures and Advanced Factories": {
+        "message": "Einfache Fabbers bauen einfache Konstruktionen und verbesserte Fabriken."
+    }, 
+    "Fabbers are built by Vehicle, Air, Naval, Bot, and Orbital Factories": {
+        "message": "Fabbers werden von Fahrzeug-, Luftfahrt-, Marine-, Roboter- und Orbital-Fabriken gebaut."
+    }, 
+    "Fabrication Units": {
+        "message": "Fabrikationseinheiten"
+    }, 
+    "Hold Shift + Left Click to queue up multiple build orders": {
+        "message": "Umschalttaste gedrückt halten + Linksklick, um eine Warteschlange für alle Baubefehle zu starten."
+    }, 
+    "Left Click units on Build Bar and select a space in the world to build": {
+        "message": "Linksklick auf Einheiten in der Bauleiste und wähle einen Ort in der Welt aus, um zu bauen."
+    }, 
+    "PA Guide: Fabbers": {
+        "message": "PA-Anleitung: Fabbers"
+    }, 
+    "Select a Fabber to get access to Build Bar": {
+        "message": "Wähle einen Fabber aus und erhalte Zugriff auf die Bauleiste"
+    }, 
+    "[style=text_callout]Control + left click[/style] a unit to make a factory produce a single one of that unit before continuing with the rest of the build queue.": {
+        "message": "[style=text_callout]Strg + Linksklick[/style] auf eine Einheit lässt eine Fabrik eine einzige Einheit dieser Art bauen, bevor sie mit der Baubefehl-Warteschlange fortfährt. "
+    }, 
+    "[style=text_callout]Right Click[/style] or [style=text_callout]Shift + Right Click[/style] on units to reduce number of units in queue": {
+        "message": "[style=text_callout]Rechtsklick[/style] oder [style=text_callout]Umschalttaste + Rechtsklick[/style] auf Einheiten, um die Anzahl der Einheiten in der Warteschlange zu verringern."
+    }
+}

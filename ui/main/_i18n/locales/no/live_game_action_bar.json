@@ -1,0 +1,44 @@
+{
+    "AT WILL": {
+        "message": "N\u00c5R \u00d8NSKELIG"
+    }, 
+    "BUILD MODE": {
+        "message": "BYGGEMODUS"
+    }, 
+    "CONTINUOUS": {
+        "message": "L\u00d8PENDE"
+    }, 
+    "ENERGY ORDERS": {
+        "message": "ENERGIORDRE"
+    }, 
+    "FIRE ORDERS": {
+        "message": "SKYTEORDRE"
+    }, 
+    "HOLD": {
+        "message": "HOLD"
+    }, 
+    "HOLD POSITION": {
+        "message": "HOLD POSISJON"
+    }, 
+    "MANUEVER": {
+        "message": "HANDLING"
+    }, 
+    "MOVE ORDERS": {
+        "message": "FLYTTEORDRE"
+    }, 
+    "NORMAL": {
+        "message": "NORMAL"
+    }, 
+    "OFF": {
+        "message": "AV"
+    }, 
+    "ON": {
+        "message": "P\u00c5"
+    }, 
+    "RETURN FIRE": {
+        "message": "SKYT TILBAKE"
+    }, 
+    "ROAM": {
+        "message": "ROAME"
+    }
+}

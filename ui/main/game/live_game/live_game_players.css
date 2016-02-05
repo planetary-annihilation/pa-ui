@@ -1,0 +1,713 @@
+.body_panel {
+    min-height: 100px;
+}
+
+body-dock {
+}
+
+/* UTILITY */
+.receiveMouse {
+    pointer-events: all;
+}
+
+.ignoreMouse {
+    pointer-events: none;
+}
+
+/*----- SPECTATORS
+-----------------------------------------------------------------*/
+
+.div_spectator_list_control_cont {
+    display: flex;
+    text-align: left;
+}
+
+.div_spectator_panel {
+    width: 100%;
+    margin: 0px 0px 0px 0px;
+    font-size: 11px;
+    z-index: 100;
+}
+
+    .div_spectator_panel .div_player_list_control {
+        /*min-width: 340px;*/
+        width: 645px;
+        margin-left: 0px;
+    }
+
+.div_spectator_content {
+    height: auto;
+    color: white;
+    text-shadow: 0px 2px 2px #000;
+    border-image: url(coui://ui/main/shared/img/panel/img_menu_panel.png) 14 22 22 22 fill;
+    border-width: 14px 22px 22px 10px;
+    margin: -13px 0px 0px 10px;
+    display: block;
+    float: left;
+}
+
+.div_spectator_panel_buttons {
+    width: 100%;
+    border-bottom: 1px solid #1E7AA1;
+}
+
+.div_spectator_panel_button {
+    display: inline-block;
+    vertical-align: top;
+    padding: 2px 8px;
+    border: 1px solid #1E7AA1;
+    border-bottom: 0px;
+    color: #59D0FF;
+    text-shadow: 0px 0px 10px #59D0FF;
+}
+
+    .div_spectator_panel_button:hover {
+        background: #1E7AA1;
+        border: 1px solid #00B3FF;
+        border-bottom: 0px;
+        box-shadow: inset 0px 0px 10px #00B3FF;
+    }
+
+    .div_spectator_panel_button:active {
+        background: #00B3FF;
+        border: 1px solid #00B3FF;
+        border-bottom: 0px;
+        box-shadow: inset 0px 0px 10px #00B3FF;
+    }
+
+.div_spectator_panel_button_active {
+    background: #1E7AA1;
+    border: 1px solid #00B3FF;
+    border-bottom: 0px;
+    box-shadow: inset 0px 0px 10px #00B3FF;
+}
+
+.btn_spectator_visibility {
+    height: 26px;
+    width: 26px;
+    /*border: 1px solid #4d4d4d;*/
+    border: 1px solid transparent;
+    margin: 0px 0px 0px 0px;
+    padding: 7px 0px 0px 4px;
+    display: inline-block;
+    position: relative;
+    vertical-align: middle;
+}
+
+.div_spectator_visibility:hover {
+    background: #1E7AA1;
+    border: 1px solid #00B3FF;
+    box-shadow: inset 0px 0px 10px #00B3FF;
+    color: #fff;
+    text-shadow: 0px 0px 10px rgba(255,255,255,.5);
+    -webkit-animation: none;
+    -webkit-transition: none;
+}
+
+.div_spectator_visibility:active {
+    background: #00B3FF;
+    border: 1px solid #00B3FF;
+    box-shadow: inset 0px 0px 30px #00B3FF;
+    color: #fff;
+    text-shadow: 0px 0px 10px rgba(255,255,255,.5);
+}
+
+.div_spectator_visibility_active {
+    padding: 0px;
+    background: #1E7AA1;
+    border: 1px solid #00B3FF;
+    box-shadow: 0px 0px 30px #00B3FF;
+    color: #fff;
+    text-shadow: 0px 0px 10px rgba(255,255,255,.5);
+}
+
+.btn_spectator_visibility_box {
+    border: 1px solid #194E64;
+    margin: 0px 0px 2px 1px;
+}
+
+    .btn_spectator_visibility_box:hover {
+        background: url('img/players_list_panel/icon_visibility.png') center center no-repeat #1E7AA1;
+        border: 1px solid #00B3FF;
+        box-shadow: inset 0px 0px 5px #00B3FF;
+    }
+
+    .btn_spectator_visibility_box:active {
+        background: url('img/players_list_panel/icon_visibility.png') center center no-repeat #00B3FF;
+        border: 1px solid #00B3FF;
+        box-shadow: inset 0px 0px 5px #00B3FF;
+    }
+
+.btn_spectator_visibility_box_active {
+    background: url('img/players_list_panel/icon_visibility.png') center center no-repeat #1E7AA1;
+    border: 1px solid #00B3FF;
+    box-shadow: inset 0px 0px 5px #00B3FF;
+}
+
+.tbl_spectator_stats {
+    width: calc(100% - 20px);
+    font-family: 'Trebuchet MS';
+    font-size: 13px;
+}
+    .tbl_spectator_stats .btn_player {
+        padding: 4px;
+    }
+
+.div_spectator_panel_page {
+}
+
+.div_spectator_header_line {
+    margin-top: -3px;
+    border-color: #a1a1a1;
+}
+
+.div_spectator_headers {
+    height: 34px;
+}
+
+.div_spectator_player_info {
+    height: auto;
+    margin-bottom: 8px;
+    text-shadow: 0px 0px 10px #fff;
+}
+
+.div_spectator_panel .div_player_list_control {
+    display: inline-block;
+}
+
+.div_player_data_wrapper {
+    margin-top: -10px;
+    overflow: hidden;
+}
+
+.div_name_header {
+    vertical-align: top;
+    padding: 8px 0px 0px 8px;
+}
+
+.div_metal_header {
+    min-width: 80px;
+    text-align: right;
+}
+
+.div_energy_header {
+    min-width: 105px;
+    text-align: right;
+}
+
+.div_build_efficiency_header {
+    min-width: 105px;
+    text-align: right;
+}
+
+.div_army_size_header {
+    min-width: 60px;
+    text-align: right;
+}
+
+.div_army_metal_value_header {
+    min-width: 80px;
+    text-align: right;
+}
+
+.div_army_mobile_value_header {
+    min-width: 60px;
+    text-align: right;
+}
+
+.div_army_fabber_value_header {
+    min-width: 60px;
+    text-align: right;
+}
+
+.div_army_factory_value_header {
+    min-width: 60px;
+    text-align: right;
+}
+
+.div_spectate_item {
+    width: 100%;
+    float: left;
+    overflow: hidden;
+}
+
+.div_name_block {
+    display: inline-block;
+    vertical-align: middle;
+    width: 150px;
+    overflow: hidden;
+    text-wrap: none;
+    text-overflow: ellipsis;
+    text-shadow: 0px 0px 14px #fff;
+    font-family: 'Sansation Bold';
+    font-size: 14px;
+}
+
+.color_normal {
+    color: #FFFFFF;
+    text-shadow: 0px 0px 10px #FFFFFF;
+}
+
+
+.color_positive {
+    color: #4FFF69;
+    text-shadow: 0px 0px 10px #4FFF69;
+}
+
+.color_negative {
+    color: #FF0000;
+    text-shadow: 0px 0px 10px #FF0000;
+}
+
+.color_warning {
+    color: #FFFF00;
+    text-shadow: 0px 0px 10px #FFFF00;
+}
+
+.color_waste {
+    color: #00BFFF;
+    text-shadow: 0px 0px 10px #00bfff;
+}
+
+.color_disconnected {
+    color: darkgray;
+}
+
+.ctrl_visibility_all {
+    height: 20px;
+    width: 20px;
+    margin: 0px auto;
+    border: 1px solid #1E7AA1;
+}
+
+
+
+/*----- PLAYER INFO
+-----------------------------------------------------------------*/
+
+.div_player_list_control_cont {
+    height: 30px;
+    margin: -45px 0px 0px -14px;
+    text-align: right;
+    pointer-events: all;
+    display: flex;
+    justify-content: flex-end;
+    align-content: stretch;
+}
+
+.bar_fill {
+    height:30px;
+    min-width: 20px;
+    margin: -3px 0px 0px -10px;
+    background: url('coui://ui/main/game/live_game/img/players_list_panel/img-bar-fill-left.png') right top no-repeat;
+    flex-grow: 1;
+}
+
+.div_player_list_cont {
+    max-width: 354px;
+    border-image: url('coui://ui/main/game/live_game/img/status_bar/img-menu-bground-left.png') 17 47 47 17 fill;
+    border-width: 17px 47px 47px 17px;
+    margin: -22px 38px 0px -7px;
+}
+
+.div_player_item_list_cont {
+    margin: -7px -26px -20px -6px;
+}
+
+.div_player_item {
+    min-height: 30px;
+    width: 100%;
+    margin: 0px 0px 0px 0px;
+    display: flex;
+}
+
+.div_player_item.team {
+    min-height: 30px;
+    width: 100%;
+    margin: 0px 0px 0px 0px;
+    display: flex;
+    flex-direction:column;
+}
+
+    .div_player_item.me {
+        margin: 0px 0px 0px 0px;
+        position: relative;
+        display: flex;
+    }
+
+    .div_player_item .div_player_icon {
+        display: inline-block;
+        margin: 0px 4px 0px 0px;
+        vertical-align: top;
+    }
+
+
+.div_player_icon {
+    height: 16px;
+    width: 16px;
+    position: relative;
+    opacity: 1;
+}
+
+.div_player_icon_known {
+    height: 16px;
+    width: 16px;
+    position: relative;
+    opacity: 1;
+}
+
+.player_masked {
+    height: 16px;
+    width: 16px;
+    -webkit-mask-image: url("img/players_list_panel/icon_player_fill.png");
+    -webkit-mask-size: cover;
+    mask: url("#player-mask");
+}
+
+.div_player_icon .fill, .div_player_icon .outline {
+    position: absolute;
+}
+
+.status {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.status_annihilated {
+    background: url('img/players_list_panel/icon_modifier_annihilated.png') center center no-repeat;
+}
+
+.status_disconnected {
+    background: url('img/players_list_panel/icon_modifier_disconnected.png') center center no-repeat;
+}
+
+.div_player_summary .div_player_icon {
+    display: inline-block;
+    margin: 0px 4px 0px 0px;
+}
+
+.div_primary_color {
+    height: 16px;
+    width: 16px;
+    border: 1px solid #fff;
+    margin: 0 6px -3px 0;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.div_player_name_status {
+    word-wrap: break-word;
+    display: inline-block;
+    vertical-align: top;
+    padding: 8px 0px 0px 4px;
+}
+
+.div_player_name_status_tooltip {
+    padding: 0px;
+}
+
+.div_player_name {
+    max-width: 110px;
+    font-family: 'Sansation Bold';
+    font-size: 14px;
+    text-shadow: 0px 0px 0px;
+    display: inline-block;
+}
+
+.div_economy_handicap {
+    height: 16px;
+    width: 24px;
+    color: black;
+    font-family: "Trebuchet MS";
+    font-size: 10px;
+    font-weight: bold;
+    text-align: center;
+    padding: 3px 0px 1px;
+    background: linear-gradient(to top, #ff0000 0%, #ff7e00 20%, #fcff00 100%);
+    text-shadow: 0 0 4px #fff600;
+    border: 1px solid #eaff00;
+    box-shadow: 0 0 10px #fff600;
+    display: block;
+    position: absolute;
+    top: 20px;
+    right: -1px;
+}
+
+    .div_economy_handicap.inline {
+        top: 12px;
+        right: -1px;
+        z-index:2;
+    }
+
+    .div_economy_handicap.ally_me_inline {
+        top: 7px;
+        right: 0;
+        z-index: 2;
+    }
+
+    .div_economy_handicap.spectator_inline {
+        top: 7px;
+        right: -4px;
+        z-index: 2;
+    }
+
+    .div_economy_handicap > .wrapper {
+        height: 100%;
+        width: 100%;
+        margin: -3px 0 0 -1px;
+        white-space: nowrap;
+    }
+
+    .div_economy_handicap > .wrapper .lbl_x {
+        font-size:8px;
+        font-family: normal;
+        margin-right: -2px;
+    }
+
+        .div_economy_handicap > .wrapper > .value {
+            letter-spacing: -1px;
+        }
+
+.div_player_name_tooltip {
+}
+
+.div_player_name.ai {
+    color: #00ff00;
+    text-shadow: none;
+    display: inline-block;
+}
+
+.div_player_details {
+    margin: -6px 0px 2px 54px;
+}
+
+.div_player_details .team {
+    margin: -6px 0px 2px 54px;
+}
+
+
+.div_player_status {
+    font-size: 11px;
+    /*margin: -10px 0px 0px 1px;*/
+}
+
+.div_player_landing {
+    display: block;
+    color: #0f0;
+}
+
+.div_player_defeated {
+    color: red;
+    text-shadow: 0px 0px 10px #f00;
+}
+
+.div_player_alliance_requested {
+    color: #0f0;
+    text-shadow: 0px 0px 10px #0f0;
+    display: block;
+    margin: 0px 0px 0px 0px;
+}
+
+.div_player_allies {
+    font-size: 11px;
+    color: #0f0;
+    margin: 0px 0px 3px 1px;
+    display: inline-block;
+}
+
+.btn_player {
+    height: 26px;
+    min-width: 24px;
+    max-width: 50px;
+    border: 1px solid #4d4d4d;
+    margin: 0px 0px 0px 0px;
+    padding: 4px 0px 0px 3px;
+    position: relative;
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+}
+
+.btn_player_vert {
+    margin: 0px 0px 8px 0px;
+}
+
+
+.btn_player_disabled {
+    border: 1px solid #4d4d4d;
+    padding: 1px;
+}
+
+
+.btn_player_known {
+    background: #111f27;
+    border: 1px solid #00b3ff;
+    box-shadow: inset 0px 0px 10px rgba(20,122,161,1);
+    -webkit-animation: fadeout;
+    -webkit-transition: .3s ease-out;
+}
+
+    .btn_player_known:hover {
+        background: #137aa1;
+        border: 1px solid #00b3ff;
+        box-shadow: inset 0px 0px 10px rgba(0,179,255,1);
+        -webkit-animation: none;
+        -webkit-transition: none;
+    }
+
+    .btn_player_known:active {
+        background: #00b3ff;
+        border: 1px solid #00b3ff;
+        box-shadow: 0px 0px 20px rgba(0,179,255,1);
+    }
+
+
+
+
+
+
+/*----- PLAYER ALLIANCES
+-----------------------------------------------------------------*/
+
+.tbl_alliance_mode {
+    width: 100%;
+}
+
+    .tbl_alliance_mode tr th {
+        padding: 4px 0px;
+    }
+
+    .tbl_alliance_mode tr {
+        padding: 0px 0px 4px 0px;
+    }
+
+    .tbl_alliance_mode .header {
+        font-size: 10px;
+        font-weight: normal;
+        color: #59D0FF;
+        border: 1px solid rgba(0,179,255,.25);
+        border-width: 1px 0px;
+        margin: -10px 0px 0px 0px;
+    }
+
+    .tbl_alliance_mode .player {
+        width: 150px;
+        padding: 4px 0px 4px 0px;
+    }
+
+    .tbl_alliance_mode .ally, .tbl_alliance_mode .resc {
+        width: 40px;
+    }
+
+    .tbl_alliance_mode .ally {
+    }
+
+        .tbl_alliance_mode .ally p, .tbl_alliance_mode .resc p {
+            line-height: 1em;
+            padding-top: 0.5em;
+        }
+
+.ctrl_alliance_option, .ctrl_alliance_option_disabled {
+    height: 16px;
+    width: 16px;
+    margin: 10px auto 0px;
+    border: 1px solid #59D0FF;
+}
+
+    .ctrl_alliance_option:hover {
+        border: 1px solid #fff;
+    }
+
+    .ctrl_alliance_option:active {
+        border: 1px solid #fff;
+    }
+
+.ctrl_alliance_option_disabled {
+    border: 1px solid #666;
+    opacity: .3;
+}
+
+.notification_alliance {
+    width: calc(100% + 30px);
+    font-size: 11px;
+    background: #060;
+    border: 1px solid #0f0;
+    margin: 0px -6px 4px 0px;
+    padding: 4px 6px;
+    box-shadow: 0px 0px 20px #000;
+    float: right;
+}
+
+.btn_alliance {
+    min-width: 64px;
+    font-size: 10px;
+    text-align: center;
+    border: 1px solid #00b3ff;
+    padding: 2px;
+    margin: 10px 0px 0px 4px;
+    float: left;
+}
+
+/*----- GAME SUMMARY BAR : PLAYER LIST
+-----------------------------------------------------------------*/
+
+.div_player_summary {
+    /*min-width: 230px;*/
+    margin: 1px 0px 0px -8px;
+    text-align: left;
+    border: 1px solid transparent;
+    box-shadow: 0px 0px 30px rgba(0,0,0,.3);
+    display: flex;
+    flex-grow:1;
+    justify-content: flex-end;
+}
+
+.div_player_list_panel {
+    font-size: 13px;
+}
+
+.div_player_list_control {
+    height: 30px;
+    min-width: 320px;
+    border-image: url('coui://ui/main/game/live_game/img/players_list_panel/img_player_bar.png') 60 51 0 25;
+    border-width: 60px 51px 0px 25px;
+    border-image-outset: 0 0 0 15px;
+    position: relative;
+    margin: -15px 0px 0px 0px;
+    pointer-events: none;
+}
+
+.control_body {
+    border: 1px solid rgba(255,255,255,.1);
+    border-width: 1px;
+}
+
+.list_control_btn {
+    height: 26px;
+    width: 28px;
+    background: inherit;
+    border: 1px solid #4d4d4d;
+    white-space: nowrap;
+    margin: 2px -6px 0px 0px;
+    padding: 6px;
+}
+
+    .list_control_btn:hover {
+        background: #1E7AA1;
+        border: 1px solid #00B3FF;
+        box-shadow: inset 0px 0px 10px #00B3FF;
+    }
+
+    .list_control_btn:active {
+        background: #00B3FF;
+        border: 1px solid #00B3FF;
+        box-shadow: inset 0px 0px 10px #00B3FF;
+    }
+
+.div_player_list_ally {
+    margin-left: 2px;
+    float: left;
+}

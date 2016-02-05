@@ -1,0 +1,26 @@
+{
+    "Activate planetary laser": {
+        "message": "Aktywuj laser planetarny"
+    }, 
+    "Change orbit": {
+        "message": "Zmie\u0144 orbit\u0119"
+    }, 
+    "Select a new gravity well.": {
+        "message": "Wybierz nowy poziom si\u0142y grawitacji."
+    }, 
+    "Select a planet to attack.": {
+        "message": "Wybierz planet\u0119, kt\u00f3r\u0105 chcesz zaatakowa\u0107."
+    }, 
+    "Select a planet to destroy.": {
+        "message": "Wybierz planet\u0119, kt\u00f3r\u0105 chcesz zniszczy\u0107:"
+    }, 
+    "Set course for annihilation": {
+        "message": "Obierz kurs na unicestwienie"
+    }, 
+    "Set target spot": {
+        "message": "Ustaw cel"
+    }, 
+    "Then confirm destination to set course.": {
+        "message": "Nast\u0119pnie potwierd\u017a miejsce docelowe, aby obra\u0107 kurs."
+    }
+}

@@ -1,0 +1,338 @@
+body {
+    background-color: rgba(0,0,0,.6);
+    background-image: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    /* use fadein to show panel */
+}
+
+@-webkit-keyframes fadein {
+    0% {
+        opacity: 0;
+    }
+
+    50% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+.hide {
+    opacity:0;
+}
+
+.fadein {
+    -webkit-animation: fadein 1.0s ease-in-out;
+}
+
+.div_panel_bar_background {
+    width: 100%;
+    position: relative;
+    box-shadow: 0 0 100px #000;
+    text-align: center;
+    border: 1px solid rgba(255,255,255,.15);
+    border-width: 1px 0;
+    display: flex;
+    flex-direction: column;
+    background-size: cover;
+}
+
+.div_panel_bar_background_defeated {
+    background: url(coui://ui/main/game/game_over/img/bground_defeat.png) center center no-repeat rgba(0,0,0,.7);
+    background-size: cover;
+}
+
+.div_panel_bar_background_victory {
+    background: url(coui://ui/main/game/game_over/img/bground_victory.png) center center no-repeat rgba(0,0,0,.7);
+    background-size: cover;
+}
+
+.div_panel_bar_background_spectate, .div_panel_bar_background_summary {
+    background: url(coui://ui/main/game/game_over/img/bground_summary.png) center center no-repeat rgba(0,0,0,.7);
+    background-size: cover;
+}
+
+.div_panel_bar_background_secondary {
+    width: 100%;
+    position: absolute;
+    z-index: -1;
+    background: rgba(0,0,0,.3);
+    top: 25px;
+    bottom: 40px;
+}
+
+.panel_game_over {
+    width: 800px;
+    text-align: center;
+    margin: 0 auto;
+    -webkit-filter: drop-shadow(0px 0px 100px rgba(0,0,0,1));
+}
+
+.div_end_game_msg {
+}
+
+    .div_end_game_msg .end_msg {
+        height: 70px;
+        width: 100%;
+        font-size: 40px;
+        font-family: 'Sansation Bold';
+        color: #fff;
+        text-transform: uppercase;
+        text-shadow: 0 0 25px rgba(0,0,0,1);
+        padding: 15px 0 0;
+    }
+
+        .div_end_game_msg .end_msg.victory {
+            color: rgba(0,179,255,1);
+        }
+
+        .div_end_game_msg .end_msg.defeated {
+            color: red;
+        }
+
+        .div_end_game_msg .end_msg.summary {
+            color: #fff;
+        }
+
+    .div_end_game_msg .username {
+        height: 54px;
+        width: 100%;
+        font-family: 'Sansation Bold';
+        font-size: 36px;
+        background: rgba(0,0,0,.65);
+        padding: 8px 0 0;
+    }
+
+        .div_end_game_msg .username.victory {
+            text-shadow: 0 0 25px rgba(0,61,255,1);
+        }
+
+        .div_end_game_msg .username.defeated {
+            text-shadow: 0 0 25px rgba(190,0,0,1);
+        }
+
+        .div_end_game_msg .username.summary {
+            text-shadow: 0 0 25px #1E7AA1;
+        }
+
+.div_stat_panel {
+    width: 100%;
+    margin: 0px;
+}
+
+.div_game_summary, .div_stat_panel_contents {
+    width: 100%;
+    background: rgba(0,0,0,1);
+    box-shadow: inset 0 0 30px rgba(255,255,255,.1);
+    border: 1px solid rgba(255,255,255,.10);
+}
+
+.div_game_summary, .div_player_stats {
+    padding: 40px 0 0;
+}
+
+.div_game_summary {
+    padding: 20px;
+}
+
+.div_player_stats {
+    /*min-height:230px*/
+}
+
+.div_stat_perf {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+
+.div_stat {
+    margin: 0;
+    text-align: left;
+}
+
+    .div_stat .column_title {
+        font-size: 18px;
+        font-family: "Sansation Bold";
+        color: #0FF;
+        text-shadow: 0 0 20px #0FF;
+        padding: 0 0 6px;
+    }
+
+    .div_stat .column_stats {
+        width: 100px;
+    }
+
+        .div_stat .column_stats .stat_number {
+            font-family: 'Sansation Bold';
+            font-size: 24px;
+            text-shadow: 0 0 40px #00b3ff;
+            margin: 0 0 6px;
+        }
+
+        .div_stat .column_stats .stat_label {
+            font-family: 'Sansation Bold';
+            font-size: 14px;
+            color: #999;
+        }
+
+.div_stat_separator {
+    height: 130px;
+    width: 10px;
+    background: url(coui://ui/main/game/game_over/img/img_stat_separator.png) center center no-repeat transparent;
+    margin: 0 40px 0 0;
+}
+
+.div_stat_duration {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    font-family: 'Sansation Bold';
+    font-size: 20px;
+    margin: 4px 0 20px;
+}
+
+.div_stats_panel_options {
+    height: 80px;
+    width: 100%;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    background: rgba(0,0,0,.6);
+    padding: 15px 0 0;
+}
+
+    .div_stats_panel_options input[type="button"] {
+        margin: 0 8px;
+        font-size: 18px;
+        padding: 12px 36px;
+        box-shadow: 0 0 20px #000;
+        text-transform: uppercase;
+    }
+
+.div_notification_bar {
+    width: 100%;
+    text-align: center;
+    font-family: "Sansation Bold";
+    font-size: 18px;
+    color: #fFF;
+    text-shadow: 0 0 0;
+    display: flex;
+    justify-content: center;
+    background: rgba(0,142,189,0.9);
+    box-shadow: inset 0 0 40px rgba(0,0,0,0.5);
+    border: 1px solid rgba(255,255,255,0.4);
+    border-width: 1px 0;
+}
+
+.div_notification {
+    padding: 8px;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    z-index: 2;
+}
+
+    .div_notification .message {
+        padding: 0 20px;
+        text-shadow: 0 0 20px #fff;
+    }
+
+.div_ranking_bar {
+    border: 1px solid rgba(255,255,255,0.05);
+    border-width: 1px 0;
+}
+
+.div_bottom_bar_trim {
+    height: 20px;
+    width: 100%;
+    background: rgba(0,0,0,.3);
+}
+
+.rank_badges {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(to top,#221900 0%,#000 50%,#000 100%);
+    border: 1px solid #3F3200;
+    border-width: 1px 0;
+}
+
+.badge_rank {
+    height: 99px;
+    margin: 8px 0;
+}
+
+#rank_status {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Sansation Bold';
+    font-size: 20px;
+    color: #fff;
+    text-shadow: 0 0 20px #fc0;
+    padding: 10px 0;
+}
+
+.rank_loading {
+    display: flex;
+}
+
+.rank_status_loading {
+    color: #755E00;
+    text-shadow: none;
+}
+
+.badge_animation {
+    height: 99px;
+    margin: 8px 0;
+    width: 110px;
+    background: url(coui://ui/main/shared/img/level_badges/badge_loading_96px.png) center center;
+    -webkit-animation: loading_pulse;
+    -webkit-animation-duration: 1.04s;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-direction: linear;
+    opacity: .1;
+    flex-shrink: 0;
+}
+
+#badge_load_0 {
+    -webkit-animation-delay: 0.13s;
+}
+
+#badge_load_1 {
+    -webkit-animation-delay: 0.26s;
+}
+
+#badge_load_2 {
+    -webkit-animation-delay: 0.39s;
+}
+
+#badge_load_3 {
+    -webkit-animation-delay: 0.52s;
+}
+
+#badge_load_4 {
+    -webkit-animation-delay: 0.65s;
+}
+
+@-webkit-keyframes loading_pulse {
+    0% {
+        opacity: .1;
+    }
+
+    50% {
+        opacity: 1;
+    }
+
+    100% {
+        opacity: .1;
+    }
+}

@@ -1,0 +1,77 @@
+{
+    "AI:": {
+        "message": "TEKO\u00c4LY"
+    }, 
+    "Abandon War": {
+        "message": "Abandon War"
+    }, 
+    "Card:": {
+        "message": "Card:"
+    }, 
+    "Date:": {
+        "message": "P\u00e4iv\u00e4m\u00e4\u00e4r\u00e4:"
+    }, 
+    "Delete Tech": {
+        "message": "Poista teknologia"
+    }, 
+    "Dismiss": {
+        "message": "Ohita"
+    }, 
+    "Download Tech": {
+        "message": "Lataa teknologia"
+    }, 
+    "Exit": {
+        "message": "Exit"
+    }, 
+    "Explore": {
+        "message": "Tutki"
+    }, 
+    "Fight": {
+        "message": "Taistele"
+    }, 
+    "Give tech": {
+        "message": "Anna teknologia"
+    }, 
+    "History:": {
+        "message": "Historia:"
+    }, 
+    "Jump": {
+        "message": "Siirry"
+    }, 
+    "Load game": {
+        "message": "Lataa peli"
+    }, 
+    "Preparing for battle": {
+        "message": "Valmistaudutaan taisteluun"
+    }, 
+    "Record:": {
+        "message": "Enn\u00e4tys:"
+    }, 
+    "Reject Tech": {
+        "message": "Hylk\u00e4\u00e4 teknologia"
+    }, 
+    "Save": {
+        "message": "TALLENNA"
+    }, 
+    "Scanning System": {
+        "message": "J\u00e4rjestelm\u00e4\u00e4 skannataan"
+    }, 
+    "Settings": {
+        "message": "Asetukset"
+    }, 
+    "TECHS": {
+        "message": "TECHS"
+    }, 
+    "Turn State:": {
+        "message": "Turn State:"
+    }, 
+    "Unlock Commander": {
+        "message": "Avaa komentaja"
+    }, 
+    "loss": {
+        "message": "tappio"
+    }, 
+    "win /": {
+        "message": "win /"
+    }
+}
