@@ -14,6 +14,7 @@ $(document).ready(function () {
         self.gameHostname = ko.observable().extend({ session: 'gameHostname' });
         self.gamePort = ko.observable().extend({ session: 'gamePort' });
         self.joinLocalServer = ko.observable().extend({ session: 'join_local_server' });
+        self.joinCustomServer = ko.observable().extend({ session: 'join_custom_server' });
         self.privateGamePassword = ko.observable().extend({ session: 'private_game_password' });
         self.transitPrimaryMessage = ko.observable().extend({ session: 'transit_primary_message' });
         self.transitSecondaryMessage = ko.observable().extend({ session: 'transit_secondary_message' });
@@ -22,6 +23,8 @@ $(document).ready(function () {
         self.devMode = ko.observable().extend({ session: 'dev_mode' });
 
         self.useLocalServer = ko.observable().extend({ session: 'use_local_server' });
+
+        self.lobbyId = ko.observable().extend({ session: 'lobbyId' });
 
         // Stuff for dealing with locked games
         self.privateGamePassword = ko.observable().extend({ session: 'private_game_password' });
@@ -156,8 +159,9 @@ $(document).ready(function () {
         // Game lists: available and filtered
         self.gameList = ko.observableArray();
         self.lanGameList = ko.observableArray();
+        self.customGameList = ko.observableArray();
         self.allGames = ko.computed(function () {
-            return self.gameList().concat(self.lanGameList());
+            return self.gameList().concat(self.lanGameList()).concat(self.customGameList());
         });
 
         self.firstSetOfLobbyIds = ko.observable({});
@@ -433,23 +437,12 @@ $(document).ready(function () {
         };
 
         self.joinGame = function (game) {
-            var local = game.region === 'Local';
-            var lobbyId = ko.observable().extend({ session: 'lobbyId' });
 
-            if (game.lobby_id)
-            {
-                lobbyId(game.lobby_id);
-                self.gameHostname(null);
-                self.gamePort(null);
-                self.joinLocalServer(false);
-            }
-            else
-            {
-                lobbyId(null);
-                self.gameHostname(game.host);
-                self.gamePort(game.port);
-                self.joinLocalServer(local);
-            }
+            self.lobbyId(game.lobby_id);
+            self.gameHostname(game.host);
+            self.gamePort(game.port);
+            self.joinLocalServer(game.server_type == 'local');
+            self.joinCustomServer(game.server_type == 'custom');
 
             var params = {};
             if (_.has(game, 'required_content'))
@@ -528,6 +521,11 @@ $(document).ready(function () {
                         'scale' : self.planetSizeClass(planet.generator.radius),
                         'radius' : planet.generator.radius,
                         'starting_planet': planet.starting_planet,
+                        'metalClusters': planet.generator.metalClusters,
+                        'metalDensity': planet.generator.metalDensity,
+                        'landing_zones_count': planet.landing_zones_count,
+                        'metal_spots_count': planet.metal_spots_count,
+                        'planetCSG_count': planet.planetCSG_count
                     });
                 });
 
@@ -570,6 +568,7 @@ $(document).ready(function () {
                 });
 
                 game = {
+                    'server_type': beacon.server_type,
                     'region': region,
                     'uuid': beacon.uuid,
                     'lobby_id' : lobby_id,
@@ -610,17 +609,36 @@ $(document).ready(function () {
 
                 return game;
 
-			} catch (e) {
+            } catch (e) {
                 return false;
             }
         };
 
         var updateTimeout;
+        var updateCustomServerGamesTimeout;
 
+        self.disableGameUpdates = function() {
+
+            if ( updateTimeout )
+                clearTimeout(updateTimeout);
+
+            if ( updateCustomServerGamesTimeout )
+                clearTimeout(updateCustomServerGamesTimeout);
+        }
+
+        self.updateGames = function() {
+
+            self.disableGameUpdates();
+                
+            if (self.remoteServerAvailable())
+                self.updateServerData();
+
+            self.updateCustomServerGames();
+        }
+    
         self.manualRefresh = function () {
-            clearTimeout(updateTimeout);
             self.visibleLobbyIds({});
-            self.updateServerData();
+            self.updateGames();
         };
 
         self.filterRetiredGames = ko.observable(true);
@@ -630,10 +648,10 @@ $(document).ready(function () {
 
         self.autoRefresh = ko.observable(true);
         self.autoRefresh.subscribe(function () {
-            if (!self.autoRefresh())
-                clearTimeout(updateTimeout);
+            if(self.autoRefresh())
+                self.updateGames();
             else
-                self.updateServerData();
+                self.disableGameUpdates();
         });
 
         self.failedToRetrieveGameList = ko.observable(false);
@@ -655,6 +673,9 @@ $(document).ready(function () {
                             if (games[i].BuildVersion === self.buildVersion()) {
                                 if (games[i].TitleData) {
                                     var gameData = JSON.parse(games[i].TitleData);
+
+                                    gameData.server_type = 'uber';
+
                                     var game = self.processGameBeacon(gameData, games[i].Region, games[i].LobbyID);
                                     if (game)
                                         newGameList.push(game);
@@ -677,6 +698,52 @@ $(document).ready(function () {
                     self.autoRefresh(false);
                 });
         }
+ 
+         self.updateCustomServerGames = function () {
+
+            $.getJSON( 'http://cdn.pastats.com/servers/')
+                .done(function (games) {
+
+                    var newGameList = [];
+
+                    for (var i = 0; i < games.length; i++) {
+                        try {
+                            
+                            var customGame = games[i];
+ 
+                            if (customGame.version == self.buildVersion() && customGame.beacon) {
+                                var lobbyId = customGame.id;
+                                var host = customGame.ip;
+                                var port = customGame.port;
+                                
+                                var gameData = JSON.parse(customGame.beacon);
+                                
+                                gameData.server_type = 'custom';
+
+                                var region = 'Custom: ' + gameData.region;
+                                
+                                var game = self.processGameBeacon(gameData, region, lobbyId, host, port);
+
+                                if (game)
+                                    newGameList.push(game);
+                            }
+                        } catch (e) {
+                            console.log('failed to process custom game');
+                            console.log(e);
+                        }
+                    }
+
+                   // Update the custom game list
+                    self.customGameList(newGameList);
+
+                    if (self.autoRefresh())
+                        updateCustomServerGamesTimeout = setTimeout(self.updateCustomServerGames, 1000);
+                })
+                .fail(function (data) {
+                    if (self.autoRefresh())
+                        updateCustomServerGamesTimeout = setTimeout(self.updateCustomServerGames, 5000);
+                });
+        }
     }
 
     model = new ServerBrowserViewModel();
@@ -695,8 +762,10 @@ $(document).ready(function () {
     handlers.update_beacon = function (payload) {
         var game = null;
 
-        if (payload.BuildVersion === model.buildVersion())
+        if (payload.TitleData && payload.BuildVersion == model.buildVersion()) {
+            payload.TitleData.server_type = 'local';        
             game = model.processGameBeacon(payload.TitleData, 'Local', payload.LobbyId, payload.host, payload.Port);
+        }
 
         // Get the current list so we can edit it
         var currentLanGames = model.lanGameList();
@@ -758,9 +827,7 @@ $(document).ready(function () {
     // Activates knockout.js
     ko.applyBindings(model);
 
-    if (model.remoteServerAvailable())
-        model.updateServerData();
-
+    model.updateGames();
 
     // Set up the password box
     $('#getPassword').modal();
