@@ -581,6 +581,8 @@ $(document).ready(function () {
         self.land_anywhere = ko.observable(!!(object && object.land_anywhere));
         self.sandbox = ko.observable(!!(object && object.sandbox));
 
+        self.listenToSpectators = ko.observable(!!(object && object.listen_to_spectators));
+
         self.isFFA = ko.computed(function () { return self.game_type() === 'FreeForAll' });
         self.isTeamArmy = ko.computed(function () { return self.game_type() === 'TeamArmies' });
         self.isGalaticWar = ko.computed(function () { return self.game_type() === 'Galactic War' });
@@ -2475,7 +2477,10 @@ $(document).ready(function () {
 
         self.startTeamChat = function () {
             self.startOrSendChat();
-            self.teamChat(self.playerInTeam());
+
+// if global spectator chat is enabled and not game over then make spectator chat default to team chat
+
+            self.teamChat(self.gameOptions.listenToSpectators() && self.isSpectator() && ! self.gameOver() || self.playerInTeam());
         }
 
         self.startNormalChat = function () {
