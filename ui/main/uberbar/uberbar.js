@@ -959,7 +959,7 @@ $(document).ready(function () {
         model.displayName(payload.display_name);
     }
 
-	handlers.lobby_info = function (payload) {
+    handlers.lobby_info = function (payload) {
 // allow invites to any server except localhost
         if ( payload.game_hostname == 'localhost' )
             payload = false;
