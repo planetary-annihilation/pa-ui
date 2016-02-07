@@ -173,3 +173,7 @@ var Build = (function() {
         HotkeyModel: HotkeyModel,
     };
 })();
+
+if (scene_mod_list['shared_build']) {
+  loadMods(scene_mod_list['shared_build'])
+}
