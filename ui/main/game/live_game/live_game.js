@@ -3162,7 +3162,7 @@ $(document).ready(function () {
             holodeckModeMouseDown['command_' + command] = holodeckCommandMouseDown(command, targetable);
         }
 
-        $holodeck.mousedown(function (mdevent) {
+        $holodeck.on('mousedown.stock', function (mdevent) {
             if (mdevent.target.nodeName !== 'HOLODECK')
                 return;
 
