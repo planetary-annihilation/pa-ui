@@ -369,7 +369,7 @@ $(document).ready(function () {
             });
         });
 
-        self.unitSpecs.then(function(payload) {
+        self.processUnitSpecs = function(payload) {
             // Fix up cross-unit references
             function crossRef(units) {
                 for (var id in units) {
@@ -458,7 +458,7 @@ $(document).ready(function () {
                 grid: self.buildHotkeyModel.SpecIdToGridMap(),
                 specTag: self.specTag
             }));
-        });
+        };
 
         self.active = ko.observable(true);
 
@@ -495,6 +495,7 @@ $(document).ready(function () {
     handlers.unit_specs = function (payload) {
         delete payload.message_type;
         model.unitSpecs.resolve(payload);
+        model.processUnitSpecs(payload);
     };
 
     handlers.clear_build_sequence = model.clearBuildSequence;
