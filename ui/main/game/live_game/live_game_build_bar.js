@@ -4,9 +4,6 @@ var handlers = {};
 
 $(document).ready(function () {
 
-    var ROWS_PER_TAB = 3;
-    var ITEMS_PER_ROW = 6;
-
     function BuildItem(params) {
         var self = this;
 
@@ -30,9 +27,12 @@ $(document).ready(function () {
         self.hotkey = ko.observable('');
         self.active = ko.observable(false);
         self.visible = ko.observable(false);
-        self.itemCount = ko.observable(ITEMS_PER_ROW * ROWS_PER_TAB);
+        self.itemCount = ko.observable(BuildTab.ITEMS_PER_ROW * BuildTab.ROWS_PER_TAB);
         self.skipLastRow = ko.observable(!!skipLastRow);
     }
+
+    BuildTab.ROWS_PER_TAB = 3;
+    BuildTab.ITEMS_PER_ROW = 6;
 
     function BuildSet(params) {
         var units = params.units;
@@ -41,22 +41,27 @@ $(document).ready(function () {
         var specTag = params.specTag;
         var self = this;
 
+        self.units = units;
+        // buildLists captured later
+        self.grid = grid;
+        self.specTag = specTag;
+
         // Maps a spec in the current selection to a build list
         self.selectedSpecs = ko.observable({});
         // Maps a build item spec id to a BuildItem
         self.buildItems = ko.observable({});
         // Maintains the tab list
         self.tabs = ko.observableArray([
-            new BuildTab('factory', '!LOC:factory', true),
-            new BuildTab('combat', '!LOC:combat', true),
-            new BuildTab('utility', '!LOC:utility', true),
-            new BuildTab('vehicle', '!LOC:vehicle'),
-            new BuildTab('bot', '!LOC:bot'),
-            new BuildTab('air', '!LOC:air'),
-            new BuildTab('sea', '!LOC:sea'),
-            new BuildTab('orbital', '!LOC:orbital', true),
-            new BuildTab('orbital_structure', 'orbital structure', true),
-            new BuildTab('ammo', '!LOC:ammo', true)
+            new model.BuildTab('factory', '!LOC:factory', true),
+            new model.BuildTab('combat', '!LOC:combat', true),
+            new model.BuildTab('utility', '!LOC:utility', true),
+            new model.BuildTab('vehicle', '!LOC:vehicle'),
+            new model.BuildTab('bot', '!LOC:bot'),
+            new model.BuildTab('air', '!LOC:air'),
+            new model.BuildTab('sea', '!LOC:sea'),
+            new model.BuildTab('orbital', '!LOC:orbital', true),
+            new model.BuildTab('orbital_structure', 'orbital structure', true),
+            new model.BuildTab('ammo', '!LOC:ammo', true)
         ]);
         var tabOrder = _.invert([
             'factory',
@@ -75,12 +80,12 @@ $(document).ready(function () {
             var unit = units[spec + specTag];
             if (!unit)
                 return;
-            var item = new BuildItem(unit);
+            var item = new model.BuildItem(unit);
             var tab = self.tabs()[tabOrder[item.buildGroup]];
             if (!tab)
             {
                 tabOrder[item.buildGroup] = self.tabs().length;
-                tab = new BuildTab(item.buildGroup);
+                tab = new model.BuildTab(item.buildGroup);
                 self.tabs().push(tab);
             }
             tab.items()[item.buildIndex] = item;
@@ -90,7 +95,7 @@ $(document).ready(function () {
         _.forEach(self.tabs(), function(tab) {
             var items = tab.items();
             tab.items(_.times(tab.itemCount(), function(index) {
-                return items[index] || new BuildItem();
+                return items[index] || new model.BuildItem();
             }));
         });
 
@@ -134,7 +139,7 @@ $(document).ready(function () {
                 });
             });
 
-            minIndex = Math.floor(minIndex / ITEMS_PER_ROW) * ITEMS_PER_ROW;
+            minIndex = Math.floor(minIndex / BuildTab.ITEMS_PER_ROW) * BuildTab.ITEMS_PER_ROW;
 
             // Add empty items
             _.forEach(visibleTabs, function (tab) {
@@ -142,7 +147,7 @@ $(document).ready(function () {
                     var show = index >= minIndex;
 
                     if (show & tab.skipLastRow())
-                        show = ((index + 1) % ITEMS_PER_ROW) != 0;
+                        show = ((index + 1) % BuildTab.ITEMS_PER_ROW) != 0;
 
                     item.visible(show);
                 });
@@ -450,7 +455,7 @@ $(document).ready(function () {
             }
 
             var buildLists = makeBuildLists(payload);
-            self.buildSet(new BuildSet({
+            self.buildSet(new model.BuildSet({
                 units: payload,
                 buildLists: buildLists,
                 grid: self.buildHotkeyModel.SpecIdToGridMap(),
@@ -474,6 +479,10 @@ $(document).ready(function () {
                 window.addEventListener('DOMMouseScroll', sqelch, false);
             window.onmousewheel = document.onmousewheel = sqelch;
         };
+
+        self.BuildItem = BuildItem;
+        self.BuildTab = BuildTab;
+        self.BuildSet = BuildSet;
     }
     model = new BuildBarViewModel();
 
