@@ -51,40 +51,24 @@ $(document).ready(function () {
         // Maps a build item spec id to a BuildItem
         self.buildItems = ko.observable({});
         // Maintains the tab list
-        self.tabs = ko.observableArray([
-            new model.BuildTab('factory', '!LOC:factory', true),
-            new model.BuildTab('combat', '!LOC:combat', true),
-            new model.BuildTab('utility', '!LOC:utility', true),
-            new model.BuildTab('vehicle', '!LOC:vehicle'),
-            new model.BuildTab('bot', '!LOC:bot'),
-            new model.BuildTab('air', '!LOC:air'),
-            new model.BuildTab('sea', '!LOC:sea'),
-            new model.BuildTab('orbital', '!LOC:orbital', true),
-            new model.BuildTab('orbital_structure', 'orbital structure', true),
-            new model.BuildTab('ammo', '!LOC:ammo', true)
-        ]);
-        var tabOrder = _.invert([
-            'factory',
-            'combat',
-            'utility',
-            'vehicle',
-            'bot',
-            'air',
-            'sea',
-            'orbital',
-            'orbital_structure',
-            'ammo'
-        ]);
+        self.tabs = ko.observableArray(
+            BuildSet.tabsTemplate.map(function(template) {
+                return new model.BuildTab(template[0], template[1], template[2])
+            })
+        );
+        self.tabOrder = _.invert(self.tabs().map(function(tab) {
+            return tab.group()
+        }));
         var maxIndex = 0;
         _.forIn(grid, function(tabInfo, spec) {
             var unit = units[spec + specTag];
             if (!unit)
                 return;
             var item = new model.BuildItem(unit);
-            var tab = self.tabs()[tabOrder[item.buildGroup]];
+            var tab = self.tabs()[self.tabOrder[item.buildGroup]];
             if (!tab)
             {
-                tabOrder[item.buildGroup] = self.tabs().length;
+                self.tabOrder[item.buildGroup] = self.tabs().length;
                 tab = new model.BuildTab(item.buildGroup);
                 self.tabs().push(tab);
             }
@@ -130,7 +114,7 @@ $(document).ready(function () {
                     item.empty(false);
                     minIndex = Math.min(unit.buildIndex, minIndex);
                     if (!visibleTabs[unit.buildGroup]) {
-                        var tabIndex = tabOrder[item.buildGroup];
+                        var tabIndex = self.tabOrder[item.buildGroup];
                         var tab = tabs[tabIndex];
                         visibleTabs[unit.buildGroup] = tab;
                         if (tab)
@@ -214,6 +198,19 @@ $(document).ready(function () {
             return !!self.tabsByGroup()[group];
         };
     }
+
+    BuildSet.tabsTemplate = [
+        ['factory', '!LOC:factory', true],
+        ['combat', '!LOC:combat', true],
+        ['utility', '!LOC:utility', true],
+        ['vehicle', '!LOC:vehicle'],
+        ['bot', '!LOC:bot'],
+        ['air', '!LOC:air'],
+        ['sea', '!LOC:sea'],
+        ['orbital', '!LOC:orbital', true],
+        ['orbital_structure', 'orbital structure', true],
+        ['ammo', '!LOC:ammo', true]
+    ];
 
     function BuildBarViewModel() {
         var self = this;
