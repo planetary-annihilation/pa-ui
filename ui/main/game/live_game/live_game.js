@@ -3440,6 +3440,25 @@ $(document).ready(function () {
         }
         self.armyId.subscribe(self.sendPlayerInfo);
         self.playerData.subscribe(self.sendPlayerInfo);
+
+        // nuke hack
+        // the projectiles are not magically added to the unit_list, so the display details aren't sent to the ui
+        self.ammoBuildHover = {
+            '/pa/units/land/nuke_launcher/nuke_launcher_ammo.json': {
+                name: '!LOC:LR-96 -Pacifier- Missile',
+                description: '!LOC:Nuclear missile - Long range, large area damage, projectile.',
+                cost: api.content.usingTitans() ? 30000 : 50000,
+                sicon_override: 'nuke_launcher_ammo',
+                damage: 33000
+            },
+            '/pa/units/land/anti_nuke_launcher/anti_nuke_launcher_ammo.json': {
+                name: '!LOC:SR-24 -Shield- Missile Defense',
+                description: '!LOC:Anti-nuke - Intercepts incoming nuclear missiles.',
+                cost: api.content.usingTitans() ? 5000 : 6750,
+                sicon_override: 'anti_nuke_launcher_ammo',
+                damage: 1
+            },
+        };
     }
     model = new LiveGameViewModel();
 
@@ -3625,7 +3644,7 @@ $(document).ready(function () {
 
     handlers.unit_specs = function (payload) {
         delete payload.message_type;
-        model.unitSpecs = payload;
+        model.unitSpecs = _.assign(payload, model.ammoBuildHover);
 
         // Fix up cross-unit references
         function crossRef(units) {
@@ -3682,16 +3701,6 @@ $(document).ready(function () {
                     }
                 }
             });
-
-
-            // nuke hack
-            // the projectiles are not magically added to the unit_list, so the display details aren't sent to the ui
-
-            var nuke_id = '/pa/units/land/nuke_launcher/nuke_launcher_ammo.json';
-            var anti_nuke_id = '/pa/units/land/anti_nuke_launcher/anti_nuke_launcher_ammo.json';
-
-            model.itemDetails[nuke_id] = new UnitDetailModel({ name: '!LOC:LR-96 -Pacifier- Missile', description: '!LOC:Nuclear missile - Long range, large area damage, projectile.',  cost: 50000, sicon: siconFor(nuke_id), damage: 33000 });
-            model.itemDetails[anti_nuke_id] = new UnitDetailModel({ name: '!LOC:SR-24 -Shield- Missile Defense', description: '!LOC:Anti-nuke - Intercepts incoming nuclear missiles.', cost: 6750, sicon: siconFor(anti_nuke_id), damage: 1 });
 
             // tell any panels that want unit data about the units we just got
             model.sendUnitData();
