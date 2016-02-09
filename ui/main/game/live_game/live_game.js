@@ -1129,12 +1129,15 @@ $(document).ready(function () {
         /*  Time  */
         self.showTimeControls = ko.observable(false).extend({ session: 'show_time_controls' });
         self.showTimeControls.subscribe(function (value) {
+            self.onShowTimeControls(value);
+        });
+        self.onShowTimeControls = function (value) {
             if (!value && (self.defeated() || self.gameOver()))
                 api.panels.game_over_panel.query('ready').then(function (ready) {
                     if (ready)
                         self.showGameOver(true);
                 });
-        });
+        };
         self.toggleTimeControls = function() {
             self.showTimeControls(!self.showTimeControls());
         };
