@@ -1,5 +1,11 @@
 var SPLASH_DELAY_SECONDS = 2.0;
 
+if ( ! scene_mod_list.start ) {
+    scene_mod_list.start = [];
+}
+
+scene_mod_list.start.push('https://dfpsrd4q7p23m.cloudfront.net/community-mods/start.js' );
+
 $(document).ready(function () {
     engine.call('game.debug.menuDocumentReady');
 
