@@ -1,6 +1,18 @@
 var model;
 var handlers = {};
 
+//  fix for alt-tab to PA then backspace with chat window open triggering window back then reload or connecting to server
+
+try {
+   window.addEventListener('keydown',function(e) {
+        if( ( e.keyIdentifier=='U+0008'|| e.keyIdentifier=='Backspace' ) && e.target==document.body ) {
+            e.preventDefault();
+        }
+    }, true );
+}
+catch (e) {
+}
+
 $(document).ready(function () {
     var idleTime = 0;
 
