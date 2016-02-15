@@ -2567,10 +2567,6 @@ $(document).ready(function () {
         };
 
         var
-            holodecksRemaining = 0,
-            allHolodecksReady = function() {
-                api.camera.setPreviewLinkage(self.preview, self.holodeck);
-            },
             holodeckReady = function(hdeck) {
                 var focus = api.camera.getFocus(hdeck.id);
                 if (self.cameraFocus[hdeck.name]) {
@@ -2582,9 +2578,6 @@ $(document).ready(function () {
                 if (hdeck.isPrimary) {
                     hdeck.focus();
                 }
-                if (!--holodecksRemaining) {
-                    allHolodecksReady();
-                }
             };
 
         var $holodeck = $('holodeck');
@@ -2592,8 +2585,6 @@ $(document).ready(function () {
         $holodeck.each(function () {
             var $this = $(this);
             var holodeck = new api.Holodeck($this, {}, holodeckReady);
-
-            holodecksRemaining++;
 
             if ($this.is('.primary')) {
                 holodeck.isPrimary = true;
