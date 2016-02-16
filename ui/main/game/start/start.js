@@ -1020,6 +1020,13 @@ $(document).ready(function () {
             });
         };
 
+        self.currentRank = ko.computed(function() {
+        if(self.playerRatingInfo().LeaderboardPosition <= 0)
+            return '';
+        else
+            return '#' + self.playerRatingInfo().LeaderboardPosition;
+        });
+
         var allowUbernetActionsRule = ko.computed(function () {
             if (self.allowUbernetActions())
                 self.getPlayerRank();

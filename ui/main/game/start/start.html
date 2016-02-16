@@ -522,6 +522,7 @@
                         <div data-bind="visible: showingReady">
                             <div id="ladder_badge" data-bind="visible: leagueSrc">
                                 <img style="height: 24px;" data-placement="right" data-bind="attr: { src: leagueSrc }, visible: showLeague, tooltip: leagueTooltip" />
+                                <div style="position: relative; width: 0; height: 0"><span data-bind="text: currentRank" style="position: absolute; top: .2em; left: 0em;"></span></div>
                             </div>
                             <div class="username" id="player-display-name" data-bind="text: displayName"></div>
                         </div>
