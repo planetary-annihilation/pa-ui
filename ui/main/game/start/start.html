@@ -568,7 +568,7 @@
                     <div id="navigation_panel">
                         <div id="navigation_items">
                             <div class="nav_cascade_group">
-                                <div class="btn_std_ix nav_item nav_item_text" data-bind="click: toggleSinglePlayerMenu, click_sound: 'default', rollover_sound: 'default', css: { nav_item_text_disabled: !allowNewOrJoinGame(), btn_std_ix_active: showSinglePlayerMenu }">
+                                <div class="btn_std_ix nav_item nav_item_text" data-bind="event: { mouseover: enableSinglePlayerMenu }, click_sound: 'default', rollover_sound: 'default', css: { nav_item_text_disabled: !allowNewOrJoinGame(), btn_std_ix_active: showSinglePlayerMenu }">
                                     <loc>Single Player</loc>
                                     <div class="glyphicon glyphicon-chevron-right nav_carat" aria-hidden="true"></div>
                                 </div>
@@ -597,7 +597,7 @@
                                 </div>
                             </div>
                             <div class="nav_cascade_group">
-                                <div class="nav_item nav_item_text btn_std_ix" data-bind="click: toggleMultiplayerMenu, click_sound: 'default', rollover_sound: 'default', css: { nav_item_text_disabled: !allowNewOrJoinGame(), btn_std_ix_active: showMultiplayerMenu }">
+                                <div class="nav_item nav_item_text btn_std_ix" data-bind="event: { mouseover: enableMultiplayerMenu }, click_sound: 'default', rollover_sound: 'default', css: { nav_item_text_disabled: !allowNewOrJoinGame(), btn_std_ix_active: showMultiplayerMenu }">
                                     <loc>Multiplayer</loc>
                                     <div class="glyphicon glyphicon-chevron-right nav_carat" aria-hidden="true"></div>
                                 </div>
@@ -616,25 +616,25 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="btn_std_ix nav_item nav_item_text" data-bind="click: $root.startTutorialOrShowPopup, click_sound: 'default', rollover_sound: 'default', visible: api.content.usingTitans">
+                            <div class="btn_std_ix nav_item nav_item_text" data-bind="click: $root.startTutorialOrShowPopup, click_sound: 'default', rollover_sound: 'default', visible: api.content.usingTitans, event: { mouseover: hideSubMenus }">
                                 <loc>Tutorial</loc>
                             </div>
-                            <div class="nav_item nav_item_text btn_std_ix" data-bind="click: navToArmory, click_sound: 'default', rollover_sound: 'default', css: { nav_item_text_disabled: !allowUbernetActions() }">
+                            <div class="nav_item nav_item_text btn_std_ix" data-bind="click: navToArmory, click_sound: 'default', rollover_sound: 'default', css: { nav_item_text_disabled: !allowUbernetActions() }, event: { mouseover: hideSubMenus }">
                                 <loc>Armory</loc>
                             </div>
-                            <div class="nav_item nav_item_text btn_std_ix" data-bind="click: navToReplayBrowser, click_sound: 'default', rollover_sound: 'default', css: { nav_item_text_disabled: !allowUbernetActions() }">
+                            <div class="nav_item nav_item_text btn_std_ix" data-bind="click: navToReplayBrowser, click_sound: 'default', rollover_sound: 'default', css: { nav_item_text_disabled: !allowUbernetActions() }, event: { mouseover: hideSubMenus }">
                                 <loc>Replays</loc>
                             </div>
-                            <div class="nav_item nav_item_text btn_std_ix" data-bind="click: navToEditPlanet, click_sound: 'default', rollover_sound: 'default'">
+                            <div class="nav_item nav_item_text btn_std_ix" data-bind="click: navToEditPlanet, click_sound: 'default', rollover_sound: 'default', event: { mouseover: hideSubMenus }">
                                 <loc>System Designer</loc>
                             </div>
-                            <div class="nav_item nav_item_text btn_std_ix" data-bind="click: navToGuide, click_sound: 'default', rollover_sound: 'default'">
+                            <div class="nav_item nav_item_text btn_std_ix" data-bind="click: navToGuide, click_sound: 'default', rollover_sound: 'default', event: { mouseover: hideSubMenus }">
                                 <loc>Player Guide</loc>
                             </div>
-                            <div id="nav_settings" class="nav_item nav_item_text btn_std_ix" data-bind="click: navToSettings, click_sound: 'default', rollover_sound: 'default'">
+                            <div id="nav_settings" class="nav_item nav_item_text btn_std_ix" data-bind="click: navToSettings, click_sound: 'default', rollover_sound: 'default', event: { mouseover: hideSubMenus }">
                                 <loc>Settings</loc>
                             </div>
-                            <div id="nav_quit" class="nav_item nav_item_text btn_std_ix" data-bind="click: exit, click_sound: 'default', rollover_sound: 'default'">
+                            <div id="nav_quit" class="nav_item nav_item_text btn_std_ix" data-bind="click: exit, click_sound: 'default', rollover_sound: 'default', event: { mouseover: hideSubMenus }">
                                 <loc>Quit</loc>
                             </div>
                         </div>

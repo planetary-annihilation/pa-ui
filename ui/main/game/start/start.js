@@ -1139,22 +1139,24 @@ $(document).ready(function () {
         };
 
         self.showSinglePlayerMenu = ko.observable(false);
-        self.toggleSinglePlayerMenu = function () {
+        self.enableSinglePlayerMenu = function () {
             if (!self.allowNewOrJoinGame())
                 return;
-            self.showSinglePlayerMenu(!self.showSinglePlayerMenu());
+            self.showSinglePlayerMenu(true);
             self.showMultiplayerMenu(false);
         };
         self.showMultiplayerMenu = ko.observable(false);
-        self.toggleMultiplayerMenu = function () {
+        self.enableMultiplayerMenu = function () {
             if (!self.allowNewOrJoinGame())
                 return;
-            self.showMultiplayerMenu(!self.showMultiplayerMenu());
+            self.showMultiplayerMenu(true);
             self.showSinglePlayerMenu(false);
         };
 
         self.hideSubMenus = function(data, event) {
-            if (document.getElementById("navigation_panel").contains(event.target))
+            if (document.getElementById("navigation_panel").contains(event.target) &&
+                event.type != "mouseover"
+            )
                 return;
 
             self.showSinglePlayerMenu(false);
