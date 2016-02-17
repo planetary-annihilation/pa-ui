@@ -3,7 +3,9 @@ function init_mods(api) {
     api.mods = {
         // This API is deprecated.  Use api.mods.getMounted() instead.
         getMountedMods: function (context, callback) {
-            api.mods.getMounted(context, false).then(callback);
+            api.mods.getMounted(context, false).then(function(obj) {
+              return obj.mounted_mods
+            }).then(callback);
         },
 
         getMounted: function (context, raw) {
