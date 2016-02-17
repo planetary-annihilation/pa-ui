@@ -227,39 +227,48 @@ $(document).ready(function () {
         self.activeStartCard = ko.computed(function() {
             return self.startCards()[self.activeStartCardIndex()];
         });
+
+        self.makeUnknown = function(cardData) {
+            return new UnknownCardViewModel(cardData);
+        };
+        self.makeKnown = function(cardData) {
+            var card = new CardViewModel(cardData);
+            card.active = ko.computed(function() {
+                return self.activeStartCard() === card;
+            });
+            card.btnClass = ko.computed(function() {
+                return card.active() ? 'card_active' : 'card';
+            });
+            card.activate = function() {
+                self.activeStartCardIndex(self.startCards().indexOf(card));
+            };
+            return card;
+        };
         var getStartCards = function() {
-            var makeUnknown = function(cardData) {
-                return new UnknownCardViewModel(cardData);
-            };
-            var makeKnown = function(cardData) {
-                var card = new CardViewModel(cardData);
-                card.active = ko.computed(function() {
-                    return self.activeStartCard() === card;
-                });
-                card.btnClass = ko.computed(function() {
-                    return card.active() ? 'card_active' : 'card';
-                });
-                card.activate = function() {
-                    self.activeStartCardIndex(self.startCards().indexOf(card));
-                };
-                return card;
-            };
             var known = _.map(startCards, function(cardData, index) {
                 // Note: First card is built-in
                 if (index !== 0 && !GW.bank.hasStartCard(cardData))
-                    return makeUnknown(cardData);
+                    return self.makeUnknown(cardData);
                 else
-                    return makeKnown(cardData);
+                    return self.makeKnown(cardData);
             });
 
             var unknown = _.filter(_.map(GW.bank.startCards(), function(cardData) {
-                return !_.some(startCards, _.bind(_.isEqual, null, cardData)) && makeKnown(cardData);
+                return !_.some(startCards, _.bind(_.isEqual, null, cardData)) && self.makeKnown(cardData);
             }));
 
             return known.concat(unknown);
         };
         self.startCards(getStartCards());
-
+        self.addStartCards = function(ids, isKnown /* = true */) {
+            ids.map(function(id) {
+              if (isKnown === false) {
+                self.startCards.push(self.makeUnknown({id: id}))
+              } else {
+                self.startCards.push(self.makeKnown({id: id}))
+              }
+            })
+        };
 
         self.ready = ko.computed(function() {
             return !!self.newGame() && !!self.activeStartCard();
