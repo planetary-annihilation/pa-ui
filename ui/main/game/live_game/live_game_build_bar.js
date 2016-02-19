@@ -459,6 +459,13 @@ $(document).ready(function () {
                 specTag: self.specTag
             }));
         };
+        self.unitSpecs.then(function(payload) {
+            return self.processUnitSpecs(payload);
+        });
+
+        self.BuildItem = BuildItem;
+        self.BuildTab = BuildTab;
+        self.BuildSet = BuildSet;
 
         self.active = ko.observable(true);
 
@@ -476,10 +483,6 @@ $(document).ready(function () {
                 window.addEventListener('DOMMouseScroll', sqelch, false);
             window.onmousewheel = document.onmousewheel = sqelch;
         };
-
-        self.BuildItem = BuildItem;
-        self.BuildTab = BuildTab;
-        self.BuildSet = BuildSet;
     }
     model = new BuildBarViewModel();
 
@@ -495,7 +498,6 @@ $(document).ready(function () {
     handlers.unit_specs = function (payload) {
         delete payload.message_type;
         model.unitSpecs.resolve(payload);
-        model.processUnitSpecs(payload);
     };
 
     handlers.clear_build_sequence = model.clearBuildSequence;
