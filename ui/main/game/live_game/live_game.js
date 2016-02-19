@@ -759,7 +759,7 @@ $(document).ready(function () {
 
             return true;
         });
-        
+
         self.sendablePlayers = ko.computed(function () {
             return _.map(self.players(), function (player) {
                 var clone = _.clone(player);
@@ -1415,7 +1415,7 @@ $(document).ready(function () {
                 bestPriority = 0,
                 timeoutId = null,
                 playSound = function() {
-                    api.audio.playSound(bestCue); 
+                    api.audio.playSound(bestCue);
 
                     bestCue = '';
                     bestPriority = 0;
@@ -2493,7 +2493,7 @@ $(document).ready(function () {
         self.startTeamChat = function () {
             self.startOrSendChat();
 
-// if global spectator chat is enabled and not game over then make spectator chat default to team chat
+            // if global spectator chat is enabled and not game over then make spectator chat default to team chat
 
             self.teamChat(self.gameOptions.listenToSpectators() && self.isSpectator() && ! self.gameOver() || self.playerInTeam());
         }
@@ -3990,7 +3990,7 @@ $(document).ready(function () {
         var control_sim = !model.paused() && !model.gameOver();
         if (control_sim)
             model.pauseSim();
-    
+
         model.popUp({ message: '!LOC:Resume from here?' }).then(function (result) {
             if (result === 0) {
                 model.showTimeControls(false);
