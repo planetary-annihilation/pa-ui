@@ -486,6 +486,90 @@ define([
                 result.resolve(allCards);
             });
             return result;
-        }
+        },
+        addCards: function(ids) {
+          var myLoad = $.Deferred();
+          var count = ids.length;
+          _.forEach(ids, function (cardId) {
+              //api.debug.log('ADDING CARD: '+cardId);
+              require(['cards/' + cardId], function (card) {
+                  card.id = cardId;
+                  cards.push(card);
+                  deck.push(cardId);
+                  if (--count === 0)
+                      myLoad.resolve();
+              });
+          })
+          return $.when(loaded, myLoad).then(function() {
+            allCards = cards.concat(aiCards).concat(_.values(extraCards));
+            allDeck = deck.concat(aiDeck).concat(extraDeck);
+          })
+        },
+        removeCards: function(ids) {
+          deck = _.difference(deck, ids);
+          cards = cards.filter(function(card) {
+            return ids.indexOf(card.id) == -1
+          })
+          return loaded.then(function() {
+            allCards = cards.concat(aiCards).concat(_.values(extraCards));
+            allDeck = deck.concat(aiDeck).concat(extraDeck);
+          })
+        },
+        addAiCards: function(ids) {
+          var myLoad = $.Deferred();
+          var count = ids.length;
+          _.forEach(ids, function (cardId) {
+              //api.debug.log('ADDING CARD: '+cardId);
+              require(['cards/' + cardId], function (card) {
+                  card.id = cardId;
+                  aiCards.push(card);
+                  aiDeck.push(cardId);
+                  if (--count === 0)
+                      myLoad.resolve();
+              });
+          })
+          return $.when(loaded, myLoad).then(function() {
+            allCards = cards.concat(aiCards).concat(_.values(extraCards));
+            allDeck = deck.concat(aiDeck).concat(extraDeck);
+          })
+        },
+        removeAiCards: function(ids) {
+          aiDeck = _.difference(aiDeck, ids);
+          aiCards = aiCards.filter(function(card) {
+            return ids.indexOf(card.id) == -1
+          })
+          return loaded.then(function() {
+            allCards = cards.concat(aiCards).concat(_.values(extraCards));
+            allDeck = deck.concat(aiDeck).concat(extraDeck);
+          })
+        },
+        addStartCards: function(ids) {
+          var myLoad = $.Deferred();
+          var count = ids.length;
+          _.forEach(ids, function(cardId) {
+              require(['cards/' + cardId], function(card) {
+                  card.id = cardId;
+                  extraCards[cardId] = card;
+                  extraDeck.push(cardId);
+                  if (--count === 0)
+                      myLoad.resolve();
+              })
+          })
+          return $.when(loaded, myLoad).then(function() {
+            allCards = cards.concat(aiCards).concat(_.values(extraCards));
+            allDeck = deck.concat(aiDeck).concat(extraDeck);
+          })
+        },
+        // note that factions will need to be updated to not name removed cards
+        removeStartCards: function(ids) {
+          extraDeck = _.difference(extraDeck, ids);
+          ids.forEach(function(cardId) {
+            delete extraCards[cardId];
+          })
+          return loaded.then(function() {
+            allCards = cards.concat(aiCards).concat(_.values(extraCards));
+            allDeck = deck.concat(aiDeck).concat(extraDeck);
+          })
+        },
     };
 });
