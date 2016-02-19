@@ -1,6 +1,18 @@
 var model;
 var handlers = {};
 
+//  fix for alt-tab to PA then backspace with chat window open triggering window back then reload or connecting to server
+
+try {
+   window.addEventListener('keydown',function(e) {
+        if( ( e.keyIdentifier=='U+0008'|| e.keyIdentifier=='Backspace' ) && e.target==document.body ) {
+            e.preventDefault();
+        }
+    }, true );
+}
+catch (e) {
+}
+
 $(document).ready(function () {
     var idleTime = 0;
 
@@ -581,6 +593,8 @@ $(document).ready(function () {
         self.land_anywhere = ko.observable(!!(object && object.land_anywhere));
         self.sandbox = ko.observable(!!(object && object.sandbox));
 
+        self.listenToSpectators = ko.observable(!!(object && object.listen_to_spectators));
+
         self.isFFA = ko.computed(function () { return self.game_type() === 'FreeForAll' });
         self.isTeamArmy = ko.computed(function () { return self.game_type() === 'TeamArmies' });
         self.isGalaticWar = ko.computed(function () { return self.game_type() === 'Galactic War' });
@@ -745,7 +759,7 @@ $(document).ready(function () {
 
             return true;
         });
-        
+
         self.sendablePlayers = ko.computed(function () {
             return _.map(self.players(), function (player) {
                 var clone = _.clone(player);
@@ -1129,12 +1143,15 @@ $(document).ready(function () {
         /*  Time  */
         self.showTimeControls = ko.observable(false).extend({ session: 'show_time_controls' });
         self.showTimeControls.subscribe(function (value) {
+            self.onShowTimeControls(value);
+        });
+        self.onShowTimeControls = function (value) {
             if (!value && (self.defeated() || self.gameOver()))
                 api.panels.game_over_panel.query('ready').then(function (ready) {
                     if (ready)
                         self.showGameOver(true);
                 });
-        });
+        };
         self.toggleTimeControls = function() {
             self.showTimeControls(!self.showTimeControls());
         };
@@ -1398,7 +1415,7 @@ $(document).ready(function () {
                 bestPriority = 0,
                 timeoutId = null,
                 playSound = function() {
-                    api.audio.playSound(bestCue); 
+                    api.audio.playSound(bestCue);
 
                     bestCue = '';
                     bestPriority = 0;
@@ -2475,7 +2492,10 @@ $(document).ready(function () {
 
         self.startTeamChat = function () {
             self.startOrSendChat();
-            self.teamChat(self.playerInTeam());
+
+            // if global spectator chat is enabled and not game over then make spectator chat default to team chat
+
+            self.teamChat(self.gameOptions.listenToSpectators() && self.isSpectator() && ! self.gameOver() || self.playerInTeam());
         }
 
         self.startNormalChat = function () {
@@ -2567,10 +2587,6 @@ $(document).ready(function () {
         };
 
         var
-            holodecksRemaining = 0,
-            allHolodecksReady = function() {
-                api.camera.setPreviewLinkage(self.preview, self.holodeck);
-            },
             holodeckReady = function(hdeck) {
                 var focus = api.camera.getFocus(hdeck.id);
                 if (self.cameraFocus[hdeck.name]) {
@@ -2582,9 +2598,6 @@ $(document).ready(function () {
                 if (hdeck.isPrimary) {
                     hdeck.focus();
                 }
-                if (!--holodecksRemaining) {
-                    allHolodecksReady();
-                }
             };
 
         var $holodeck = $('holodeck');
@@ -2592,8 +2605,6 @@ $(document).ready(function () {
         $holodeck.each(function () {
             var $this = $(this);
             var holodeck = new api.Holodeck($this, {}, holodeckReady);
-
-            holodecksRemaining++;
 
             if ($this.is('.primary')) {
                 holodeck.isPrimary = true;
@@ -3162,7 +3173,7 @@ $(document).ready(function () {
             holodeckModeMouseDown['command_' + command] = holodeckCommandMouseDown(command, targetable);
         }
 
-        $holodeck.mousedown(function (mdevent) {
+        $holodeck.on('mousedown.stock', function (mdevent) {
             if (mdevent.target.nodeName !== 'HOLODECK')
                 return;
 
@@ -3440,6 +3451,25 @@ $(document).ready(function () {
         }
         self.armyId.subscribe(self.sendPlayerInfo);
         self.playerData.subscribe(self.sendPlayerInfo);
+
+        // nuke hack
+        // the projectiles are not magically added to the unit_list, so the display details aren't sent to the ui
+        self.ammoBuildHover = {
+            '/pa/units/land/nuke_launcher/nuke_launcher_ammo.json': {
+                name: '!LOC:LR-96 -Pacifier- Missile',
+                description: '!LOC:Nuclear missile - Long range, large area damage, projectile.',
+                cost: api.content.usingTitans() ? 30000 : 50000,
+                sicon_override: 'nuke_launcher_ammo',
+                damage: 33000
+            },
+            '/pa/units/land/anti_nuke_launcher/anti_nuke_launcher_ammo.json': {
+                name: '!LOC:SR-24 -Shield- Missile Defense',
+                description: '!LOC:Anti-nuke - Intercepts incoming nuclear missiles.',
+                cost: api.content.usingTitans() ? 5000 : 6750,
+                sicon_override: 'anti_nuke_launcher_ammo',
+                damage: 1
+            },
+        };
     }
     model = new LiveGameViewModel();
 
@@ -3625,7 +3655,7 @@ $(document).ready(function () {
 
     handlers.unit_specs = function (payload) {
         delete payload.message_type;
-        model.unitSpecs = payload;
+        model.unitSpecs = _.assign(payload, model.ammoBuildHover);
 
         // Fix up cross-unit references
         function crossRef(units) {
@@ -3682,16 +3712,6 @@ $(document).ready(function () {
                     }
                 }
             });
-
-
-            // nuke hack
-            // the projectiles are not magically added to the unit_list, so the display details aren't sent to the ui
-
-            var nuke_id = '/pa/units/land/nuke_launcher/nuke_launcher_ammo.json';
-            var anti_nuke_id = '/pa/units/land/anti_nuke_launcher/anti_nuke_launcher_ammo.json';
-
-            model.itemDetails[nuke_id] = new UnitDetailModel({ name: '!LOC:LR-96 -Pacifier- Missile', description: '!LOC:Nuclear missile - Long range, large area damage, projectile.',  cost: 50000, sicon: siconFor(nuke_id), damage: 33000 });
-            model.itemDetails[anti_nuke_id] = new UnitDetailModel({ name: '!LOC:SR-24 -Shield- Missile Defense', description: '!LOC:Anti-nuke - Intercepts incoming nuclear missiles.', cost: 6750, sicon: siconFor(anti_nuke_id), damage: 1 });
 
             // tell any panels that want unit data about the units we just got
             model.sendUnitData();
@@ -3970,7 +3990,7 @@ $(document).ready(function () {
         var control_sim = !model.paused() && !model.gameOver();
         if (control_sim)
             model.pauseSim();
-    
+
         model.popUp({ message: '!LOC:Resume from here?' }).then(function (result) {
             if (result === 0) {
                 model.showTimeControls(false);

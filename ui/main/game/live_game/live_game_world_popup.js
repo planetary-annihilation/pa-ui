@@ -114,14 +114,19 @@ $(document).ready(function () {
                 return Build.iconForSpecId(id);
             });
 
+            var gammaAdjust = function(c) {
+              return Math.floor(Math.pow(c, 1/2.2) * 255)
+            }
+
             if (object.army) {
                 /* the army info that gets packaged up for us only contains colors -- and in the case of a blip, only the primary color */
-                self.primaryColor('rgb(' + Math.floor(object.army.primary_color.r * 255) + ',' + Math.floor(object.army.primary_color.g * 255) + ',' + Math.floor(object.army.primary_color.b * 255) + ')');
-                
-                if (object.army.secondary_color)
-                    self.secondaryColor('rgb(' + Math.floor(object.army.secondary_color.r * 255) + ',' + Math.floor(object.army.secondary_color.g * 255) + ',' + Math.floor(object.army.secondary_color.b * 255) + ')');
-                else
+                self.primaryColor('rgb(' + gammaAdjust(object.army.primary_color.r) + ',' + gammaAdjust(object.army.primary_color.g) + ',' + gammaAdjust(object.army.primary_color.b) + ')');
+
+                if (object.army.secondary_color) {
+                    self.secondaryColor('rgb(' + gammaAdjust(object.army.secondary_color.r) + ',' + gammaAdjust(object.army.secondary_color.g) + ',' + gammaAdjust(object.army.secondary_color.b) + ')');
+                } else {
                     self.secondaryColor(self.primaryColor());
+                }
             }
 
             if (object.tool_details && object.tool_details.ammo)
