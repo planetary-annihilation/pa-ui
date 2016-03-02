@@ -224,6 +224,12 @@ body {
     overflow: hidden;
 }
 
+#player-display-rank {
+    font-size: 12px;
+    color: #fff;
+    text-shadow: 0px 0px 20px rgba(0,179,255,1);
+}
+
 #sign_out {
     font-size: 11px;
     font-family: "Sansation Regular TTF";
