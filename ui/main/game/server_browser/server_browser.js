@@ -35,11 +35,14 @@ $(document).ready(function () {
 
         // Filters
         self.uberNetRegions = ko.observableArray().extend({ session: 'uber_net_regions' });
-        self.regionNameList = ko.computed(function () {
-            var result = _.pluck(self.uberNetRegions(), 'Name');
-            result.unshift('Any');
+        self.regionNameList = ko.computed(function() {
+            var result = [{text: loc('!LOC:Any'), value: 'any'}];
+            _.forEach(self.uberNetRegions(), function(region) {
+                result.push({text: region.Name, value: region.Name});
+            });
             return result;
         });
+
         self.hasUberNetRegions = ko.computed(function () { return (self.uberNetRegions().length > 0); });
 
         self.localServerSetting = ko.observable().extend({ setting: { 'group': 'server', 'key': 'local' } });
@@ -55,47 +58,55 @@ $(document).ready(function () {
             return !self.remoteServerAvailable() || self.localServerDisabledInSettings();
         });
 
-        self.searchFilter = ko.observable('');
-        self.gameStateFilter = ko.observable('inlobby');
-        self.gameStatusFilter = ko.observable('canplay');
-        self.gameModeFilter = ko.observable('any');
+        self.defaultFilters = {
+            'searchFilter': '',
+            'regionFilter': 'any',
+            'gameStateFilter': 'inlobby',
+            'gameStatusFilter': 'canplay',
+            'gameModeFilter': 'any',
+            'planetCountMinFilter': 'any',
+            'planetCountMaxFilter': 'any',
+            'playerCountMinFilter': 'any',
+            'playerCountMaxFilter': 'any',
+            'gameTagFilter': 'any',
+            'moddedGameFilter': 'any',
+            'lockedFilter': 'any',
+            'bountyModeFilter': 'any'
+        };
 
-        self.planetCountMinFilter = ko.observable('any');
-        self.planetCountMaxFilter = ko.observable('any');
-        self.playerCountMinFilter = ko.observable('any');
-        self.playerCountMaxFilter = ko.observable('any');
-        self.regionFilter = ko.observable('any');
-        self.gameTagFilter = ko.observable('any');
-        self.lockedFilter = ko.observable('any');
+        self.searchFilter = ko.observable('');
+        self.gameStateFilter = ko.observable('inlobby').extend( { local: 'gameStateFilter' } );
+        self.gameStatusFilter = ko.observable('canplay').extend( { local: 'gameStatusFilter' } );
+        self.gameModeFilter = ko.observable('any').extend( { local: 'gameModeFilter' } );
+
+        self.planetCountMinFilter = ko.observable('any').extend( { local: 'planetCountMinFilter' } );
+        self.planetCountMaxFilter = ko.observable('any').extend( { local: 'planetCountMaxFilter' } );
+        self.playerCountMinFilter = ko.observable('any').extend( { local: 'playerCountMinFilter' } );
+        self.playerCountMaxFilter = ko.observable('any').extend( { local: 'playerCountMaxFilter' } );
+        self.regionFilter = ko.observable('any').extend( { local: 'regionFilter' } );
+        self.gameTagFilter = ko.observable('any').extend( { local: 'gameTagFilter' } );
+        self.lockedFilter = ko.observable('any').extend( { local: 'lockedFilter' } );
+
+        self.lockedGameFilterOptions = ko.observableArray([ { text: loc('!LOC:Any'), value: 'any' }, { text: loc('!LOC:Locked'), value: 'locked' }, { text: loc('!LOC:Open'), value: 'open' } ]);
 
         self.showCheatServers = ko.observable(true);
         self.visibleLobbyIds = ko.observable({});
 
-        self.bountyModeFilterOptions = ko.observableArray(['Any', 'Not Bounty Mode', 'Bounty Mode']);
-        self.bountyModeFilterOptionText = function (option) {
-            var text = '';
-            if (option === 'Any')
-                text = '!LOC:Any';
-            else if (option === 'Not Bounty Mode')
-                text = '!LOC:Not Bounty Mode';
-            else if (option === 'Bounty Mode')
-                text = '!LOC:Bounty Mode';
-            return loc(text);
-        };
-        self.bountyModeFilter = ko.observable('Any');
+        self.bountyModeFilterOptions = ko.observableArray([ { text: loc('!LOC:Any'), value: 'any' }, { text: loc('!LOC:Not Bounty Mode'), value: 'notBountyMode' }, { text: loc('!LOC:Bounty Mode'), value: 'bountyMode' } ] );
 
-        self.moddedGameFilterOptions = ko.observableArray(['Any', 'Not Modded', 'Modded']);
-        self.moddedGameFilterOptionText = function (option) {
-            var text = '';
-            if (option === 'Any')
-                text = '!LOC:Any';
-            else if (option === 'Not Modded')
-                text = '!LOC:Not Modded';
-            else if (option === 'Modded')
-                text = '!LOC:Modded';
-            return loc(text);
+        self.bountyModeFilter = ko.observable('any').extend( { local : 'bountyModeFilter' } );
+
+        self.moddedGameFilterDefaultOptions = ko.observableArray([ { text: loc('!LOC:Any'), value: 'any' }, { text: loc('!LOC:Not Modded'), value: 'notModded' }, { text: loc('!LOC:Modded'), value: 'modded' }]);
+
+        self.moddedGameFilterOptions = ko.observableArray( _.clone( self.moddedGameFilterDefaultOptions() ) );
+
+        self.moddedGameFilter = ko.observable('any').extend( { local : 'moddedGameFilter' } );
+
+        self.resetFilters = function() {
+            for( key in self.defaultFilters ) { 
+                self[ key ]( self.defaultFilters[ key ] );
+            }
         };
-        self.moddedGameFilter = ko.observable('Any');
 
         var filterRule = ko.computed(function () {
             self.searchFilter();
@@ -180,7 +191,7 @@ $(document).ready(function () {
             var mod_list_hash = JSON.stringify(self.moddedGameFilterOptions());
 
             return function (value) {
-                var result = ['Any', 'Not Modded', 'Modded'];
+                var result = _.clone( self.moddedGameFilterDefaultOptions() );
                 var set = {};
 
                 _.forEach(value, function (element) {
@@ -188,8 +199,10 @@ $(document).ready(function () {
                         set[name] = true;
                     });
                 });
+                _.forEach( _.keys(set).sort(), function (mod) {
+                    result.push( { text: mod, value: mod } );
+                });   
 
-                result = result.concat(_.keys(set).sort());
                 var hash = JSON.stringify(result);
                 if (hash === mod_list_hash)
                     return;
@@ -205,6 +218,7 @@ $(document).ready(function () {
             var selectedGameStillVisible = false;
             var cheats_ok = self.showCheatServers();
             var visible = self.visibleLobbyIds();
+            var filterRetired = self.filterRetiredGames();
 
             _.forEach(allGames, function (game) {
                 var retired = false;
@@ -215,14 +229,14 @@ $(document).ready(function () {
 
                 if (!game.max_players && (!game.players && game.mode !== 'Waiting'))
                     retired = true;
-                    
-                if (self.bountyModeFilter() !== 'Any') {
-                    if (!!game.bounty_mode && self.bountyModeFilter() === 'Not Bounty Mode') {
+
+                if (self.bountyModeFilter() !== 'any') {
+                    if (!!game.bounty_mode && self.bountyModeFilter() === 'notBountyMode') {
                         retired = true;
                         visible[game.lobby_id] = false;
                     }
 
-                    if (!game.bounty_mode && self.bountyModeFilter() === 'Bounty Mode') {
+                    if (!game.bounty_mode && self.bountyModeFilter() === 'bountyMode') {
                         retired = true;
                         visible[game.lobby_id] = false;
                     }
@@ -293,10 +307,10 @@ $(document).ready(function () {
                 // Check for modded servers
                 var modded = game.mod_names.length > 0;
                 var mod_match;
-                var reject_modded_games = self.moddedGameFilter() === 'Not Modded';
-                var reject_normal_games = self.moddedGameFilter() === 'Modded';
+                var reject_modded_games = self.moddedGameFilter() === 'notModded';
+                var reject_normal_games = self.moddedGameFilter() === 'modded';
 
-                if (self.moddedGameFilter() !== 'Any') {
+                if (self.moddedGameFilter() !== 'any') {
 
                     if (reject_modded_games || reject_normal_games) {
                         if (reject_modded_games && modded)
@@ -320,7 +334,7 @@ $(document).ready(function () {
                     retired = true;
 
                 // Check for matching regions
-                if (self.regionFilter() !== 'Any')
+                if (self.regionFilter() !== 'any')
                     if (self.regionFilter() !== game.region)
                         retired = true;
 
@@ -340,7 +354,7 @@ $(document).ready(function () {
                 if (!retired)
                     visible[game.lobby_id] = true;
 
-                if (!retired || visible[game.lobby_id])
+                if (!retired || ! filterRetired && visible[game.lobby_id])
                     filteredGames.push(game);
             });
 
@@ -629,19 +643,19 @@ $(document).ready(function () {
         self.updateGames = function() {
 
             self.disableGameUpdates();
-                
+
             if (self.remoteServerAvailable())
                 self.updateServerData();
 
             self.updateCustomServerGames();
         }
-    
+
         self.manualRefresh = function () {
             self.visibleLobbyIds({});
             self.updateGames();
         };
 
-        self.filterRetiredGames = ko.observable(true);
+        self.filterRetiredGames = ko.observable(false);
         self.toggleHideRetiredGames = function () {
             self.filterRetiredGames(!self.filterRetiredGames());
         };
@@ -698,7 +712,7 @@ $(document).ready(function () {
                     self.autoRefresh(false);
                 });
         }
- 
+
          self.updateCustomServerGames = function () {
 
             $.getJSON( 'http://cdn.pastats.com/servers/')
@@ -708,20 +722,20 @@ $(document).ready(function () {
 
                     for (var i = 0; i < games.length; i++) {
                         try {
-                            
+
                             var customGame = games[i];
- 
+
                             if (customGame.version == self.buildVersion() && customGame.beacon) {
                                 var lobbyId = customGame.id;
                                 var host = customGame.ip;
                                 var port = customGame.port;
-                                
+
                                 var gameData = JSON.parse(customGame.beacon);
-                                
+
                                 gameData.server_type = 'custom';
 
                                 var region = 'Custom: ' + gameData.region;
-                                
+
                                 var game = self.processGameBeacon(gameData, region, lobbyId, host, port);
 
                                 if (game)
@@ -763,7 +777,7 @@ $(document).ready(function () {
         var game = null;
 
         if (payload.TitleData && payload.BuildVersion == model.buildVersion()) {
-            payload.TitleData.server_type = 'local';        
+            payload.TitleData.server_type = 'local';
             game = model.processGameBeacon(payload.TitleData, 'Local', payload.LobbyId, payload.host, payload.Port);
         }
 

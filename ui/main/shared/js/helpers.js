@@ -46,16 +46,17 @@ function loadScript(src) {
         o.send('');
     } catch (err) {
         console.log("error loading " + src);
-        return;
+        return false;
     }
     if (o.status > 200) {
         console.log('Failed loading', src, 'Status', o.status);
-        return;
+        return false;
     }
     var se = document.createElement('script');
     se.type = "text/javascript";
     se.text = o.responseText;
     document.getElementsByTagName('head')[0].appendChild(se);
+    return true;
 }
 
 function loadCSS(src) {

@@ -69,7 +69,7 @@
                             <loc>Region</loc>
                         </label>
                         <select class="selectpicker form-control" id="Select1"
-                            data-bind="options: regionNameList, selectPicker: regionFilter">
+                            data-bind="options: regionNameList, optionsText: 'text', optionsValue: 'value', selectPicker: regionFilter">
                         </select>
                     </div>
 
@@ -119,7 +119,7 @@
                         <label for="bounty-mode">
                             <loc>Bounty Mode</loc>
                         </label>
-                        <select class="selectpicker form-control" id="bounty-mode" name="bounty-mode" data-bind="options: bountyModeFilterOptions, optionsText: bountyModeFilterOptionText, selectPicker: bountyModeFilter">
+                        <select class="selectpicker form-control" id="bounty-mode" name="bounty-mode" data-bind="options: bountyModeFilterOptions, optionsText: 'text', optionsValue: 'value', selectPicker: bountyModeFilter">
                         </select>
                     </div>
 
@@ -221,16 +221,13 @@
                         <label for="modded-games">
                             <loc>Mods</loc>
                         </label>
-                        <select class="selectpicker form-control" id="Select5" data-bind="options: moddedGameFilterOptions, optionsText: moddedGameFilterOptionText, selectPicker: moddedGameFilter">
+                        <select class="selectpicker form-control" id="Select5" data-bind="options: moddedGameFilterOptions, optionsText: 'text', optionsValue: 'value', selectPicker: moddedGameFilter">
                         </select>
                     </div>
 
                     <div class="form-group">
                         <label for="locked-game"><loc>LOCKED</loc></label>
-                        <select class="selectpicker form-control" id="locked-game" name="locked-game" data-bind="selectPicker: lockedFilter">
-                            <option value="any">Any</option>
-                            <option value="locked">Locked</option>
-                            <option value="open">Open</option>
+                        <select class="selectpicker form-control" id="locked-game" name="locked-game" data-bind="options: lockedGameFilterOptions, optionsText: 'text', optionsValue: 'value', selectPicker: lockedFilter">
                         </select>
                     </div>
                 </div>
@@ -392,9 +389,13 @@
 
      <div class="div_commit_secondary_options">
 
-          <button id="refresh" data-bind="click: manualRefresh, click_sound: 'default', rollover_sound: 'default'">
-                <loc>Refresh</loc>
-         </button>
+        <button id="reset-filters" data-bind="click: resetFilters, click_sound: 'default', rollover_sound: 'default'">
+            <loc>Reset Filters</loc>
+        </button>
+
+        <button id="refresh" data-bind="click: manualRefresh, click_sound: 'default', rollover_sound: 'default'">
+            <loc>Refresh</loc>
+        </button>
 
         <label class="label_checkbox" data-bind="click_sound: 'default', rollover_sound: 'default'">
             <input type="checkbox" data-bind="checked: autoRefresh"/>

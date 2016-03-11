@@ -582,7 +582,7 @@ $(document).ready(function () {
 
             if (api.steam.hasClient())
             {
-                api.steam.addContentToCart('PAExpansion1').fail(function(error) {
+                api.steam.openContentStorePage('PAExpansion1').fail(function(error) {
                     // TODO: if (error === api.steam.errors.OVERLAY_DISABLED)
                     $('#steamOverlayDisabled').modal('show');
                 });

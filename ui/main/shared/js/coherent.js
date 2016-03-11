@@ -208,7 +208,11 @@
 				handlerResult = handler.code.call(handler.context, result);
 				if (handlerResult instanceof Promise) {
 					handlerResult.merge(promise);
-				} else if (this.state === ok) {
+				// pending: if a promise gets eaten by merge (above),
+				//   it will never be resolved/rejected. If one of the previously
+				//   bound handlers is called, pending != ok and it gets rejected
+				//   though the handler being called is usually for resolve.
+				} else if (this.state === ok || this.state === pending) {
 					promise.resolve(handlerResult);
 				} else {
 					promise.reject(handlerResult);
