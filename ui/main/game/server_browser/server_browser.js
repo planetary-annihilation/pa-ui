@@ -229,7 +229,7 @@ $(document).ready(function () {
 
                 if (!game.max_players && (!game.players && game.mode !== 'Waiting'))
                     retired = true;
-                    
+
                 if (self.bountyModeFilter() !== 'any') {
                     if (!!game.bounty_mode && self.bountyModeFilter() === 'notBountyMode') {
                         retired = true;
@@ -643,13 +643,13 @@ $(document).ready(function () {
         self.updateGames = function() {
 
             self.disableGameUpdates();
-                
+
             if (self.remoteServerAvailable())
                 self.updateServerData();
 
             self.updateCustomServerGames();
         }
-    
+
         self.manualRefresh = function () {
             self.visibleLobbyIds({});
             self.updateGames();
@@ -712,7 +712,7 @@ $(document).ready(function () {
                     self.autoRefresh(false);
                 });
         }
- 
+
          self.updateCustomServerGames = function () {
 
             $.getJSON( 'http://cdn.pastats.com/servers/')
@@ -722,20 +722,20 @@ $(document).ready(function () {
 
                     for (var i = 0; i < games.length; i++) {
                         try {
-                            
+
                             var customGame = games[i];
- 
+
                             if (customGame.version == self.buildVersion() && customGame.beacon) {
                                 var lobbyId = customGame.id;
                                 var host = customGame.ip;
                                 var port = customGame.port;
-                                
+
                                 var gameData = JSON.parse(customGame.beacon);
-                                
+
                                 gameData.server_type = 'custom';
 
                                 var region = 'Custom: ' + gameData.region;
-                                
+
                                 var game = self.processGameBeacon(gameData, region, lobbyId, host, port);
 
                                 if (game)
@@ -777,7 +777,7 @@ $(document).ready(function () {
         var game = null;
 
         if (payload.TitleData && payload.BuildVersion == model.buildVersion()) {
-            payload.TitleData.server_type = 'local';        
+            payload.TitleData.server_type = 'local';
             game = model.processGameBeacon(payload.TitleData, 'Local', payload.LobbyId, payload.host, payload.Port);
         }
 
