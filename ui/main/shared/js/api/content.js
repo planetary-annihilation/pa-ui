@@ -37,10 +37,10 @@
             return engine.call('content.setActive', content);
         },
         mountUntilReset: function(content) {
-            engine.call('content.mountUntilReset', content);
+            return engine.call('content.mountUntilReset', content);
         },
         remount: function() {
-            api.content.mountUntilReset(activeContent());
+            return api.content.mountUntilReset(activeContent());
         },
 
         catalogUpdated: function() {
