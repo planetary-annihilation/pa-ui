@@ -919,7 +919,7 @@ $(document).ready(function () {
         self.canAddMorePlayers = ko.computed(function() {
            return self.playerCount() < self.maxPlayersLimit()
         });
-        
+
         self.showAddSlot = ko.computed(function () {
             if (!self.isGameCreator())
                 return false;
@@ -1055,8 +1055,8 @@ $(document).ready(function () {
 
         self.aiLandingPolicyOptions = ko.observableArray(['no_restriction', 'on_player_planet', 'off_player_planet']);
         self.aiLandingPolicyDescriptions = ko.observable({
-            'no_restriction': '!LOC:Start Anywhere', 
-            'on_player_planet': '!LOC:Start Nearby', 
+            'no_restriction': '!LOC:Start Anywhere',
+            'on_player_planet': '!LOC:Start Nearby',
             'off_player_planet': '!LOC:Start Offworld'
         });
         self.getAILandingPolicyDescription = function (value) {
@@ -2274,7 +2274,7 @@ $(document).ready(function () {
         model.isFriendsOnlyGame(!!payload.friends);
         model.isPublicGame(!!payload.public);
         model.requiredContent(payload.required_content);
-        
+
         if ( payload.max_players )
             model.maxPlayersLimit( payload.max_players );
 

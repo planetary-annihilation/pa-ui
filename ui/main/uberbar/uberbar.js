@@ -745,7 +745,7 @@ $(document).ready(function () {
                     text: self.usernamePolicyDefinition().optionsText[index]
                 };
             });
-        });      
+        });
         self.selectedNamePolicy = ko.observable(self.usernamePolicyOptions()[1].value);
         self.selectedNamePolicy.subscribe(function (value) {
             if (value === 'STEAM')
@@ -960,7 +960,7 @@ $(document).ready(function () {
     }
 
     handlers.lobby_info = function (payload) {
-// allow invites to any server except localhost
+        // allow invites to any server except localhost
         if ( payload.game_hostname == 'localhost' )
             payload = false;
         model.lobbyInfo(payload);
