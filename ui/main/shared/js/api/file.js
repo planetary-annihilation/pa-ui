@@ -59,7 +59,13 @@
         },
         list: function (root, recurse) {
             return engine.call('file.list', String(root), !!recurse).then(function(files) {
-                return JSON.parse(files);
+                if (files && files !== '') {
+                    return JSON.parse(files);
+                } else {
+                    var promise = engine.createDeferred();
+                    promise.reject(root + ' is not listable');
+                    return promise;
+                }
             });
         },
 
