@@ -1,6 +1,8 @@
 ﻿var model;
 var handlers = {};
 
+loadScript( 'coui://download/community-mods-replay_loading.js');
+
 $(document).ready(function () {
 
     function ReplayLoadingViewModel() {
@@ -29,12 +31,21 @@ $(document).ready(function () {
             }
         }
 
+        self.transitPrimaryMessage = ko.observable().extend({ session: 'transit_primary_message' });
+        self.transitSecondaryMessage = ko.observable().extend({ session: 'transit_secondary_message' });
+        self.transitDestination = ko.observable().extend({ session: 'transit_destination' });
+        self.transitDelay = ko.observable(0).extend({ session: 'transit_delay' });
+
         self.navToMainMenu = function () {
             self.disconnect();
             self.replay_loading_msg({});
             self.clearHeartbeat();
             self.config('');
-            window.location.href = 'coui://ui/main/game/start/start.html';
+            model.transitPrimaryMessage(loc('!LOC:Returning to Main Menu'));
+            model.transitSecondaryMessage('');
+            model.transitDestination('coui://ui/main/game/start/start.html');
+            model.transitDelay(0);
+            window.location.href = 'coui://ui/main/game/transit/transit.html';
             return; /* window.location.href will not stop execution. */
         };
 
@@ -108,9 +119,10 @@ $(document).ready(function () {
             });
             api.game.getUnitSpecTag().then(function (tag) {
                 if (tag === '') {
-                    api.file.unmountAllMemoryFiles();
-                    api.file.mountMemoryFiles(cookedFiles);
-                    api.game.setUnitSpecTag('.player');
+                    api.file.unmountAllMemoryFiles().then* function() {
+                        api.file.mountMemoryFiles(cookedFiles);
+                        api.game.setUnitSpecTag('.player');
+                    };
                 }
                 model.send_message('mod_msg_ccl_sv_replay_config_received', {}, function (success, response) {});
             });
@@ -133,18 +145,22 @@ $(document).ready(function () {
                         return value;
                 });
 
-                api.file.unmountAllMemoryFiles();
-                api.file.mountMemoryFiles(cookedFiles);
-                api.game.setUnitSpecTag('.player');
+                api.file.unmountAllMemoryFiles().then( function() {
+                    api.file.mountMemoryFiles(cookedFiles);
+                    api.game.setUnitSpecTag('.player');
+                });
             }
         });
 
         model.send_message('memory_files_received', {}, function (success, response) {});
     };
 
+    if ( window.CommunityMods ) {
+        CommunityMods();
+    }
+
     // inject per scene mods
-    if (scene_mod_list['replay_loading'])
-        loadMods(scene_mod_list['replay_loading']);
+    loadSceneMods('replay_loading');
 
     // setup send/recv messages and signals
     app.registerWithCoherent(model, handlers);
