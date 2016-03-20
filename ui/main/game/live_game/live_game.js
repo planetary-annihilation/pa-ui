@@ -3520,7 +3520,7 @@ $(document).ready(function () {
             default: {
                 model.gameOver(false);
                 if (msg.url && msg.url !== window.location.href) {
-                    self.navToUrl( msg.url );
+                    model.navToUrl( msg.url );
                     return;
                 }
                 break;
@@ -3975,7 +3975,7 @@ $(document).ready(function () {
                 model.userTriggeredDisconnect(true);
                 model.disconnect();
 
-                self.navToUrl( payload.url );
+                model.navToUrl( payload.url );
             };
 
             if (model.haveUberNet())
@@ -3984,7 +3984,7 @@ $(document).ready(function () {
                 navAway();
         }
         else
-            self.navToUrl( payload.url );
+            model.navToUrl( payload.url );
     };
 
     handlers['game_paused.resume'] = model.playSim;
