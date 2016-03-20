@@ -833,12 +833,10 @@ $(document).ready(function () {
         self.onPresence = function (uberid, presence_type, presence_status) {
             if (presence_type && presence_type !== 'undefined') {
                 self.idToJabberPresenceTypeMap()[uberid] = presence_type;
-                self.idToJabberPresenceTypeMap.notifySubscribers();
             }
 
             if (presence_status && presence_status !== 'undefined') {
                 self.idToJabberPresenceStatusMap()[uberid] = presence_status;
-                self.idToJabberPresenceStatusMap.notifySubscribers();
             }
         }
 
@@ -931,11 +929,6 @@ $(document).ready(function () {
 
             var restoreJabber = ko.observable().extend({ session: 'restore_jabber' });
             if (restoreJabber()) {
-                jabber.setPresenceHandler(model.onPresence);
-                jabber.setMsgHandler(model.onMessage);
-                jabber.setCommandHandler(model.onCommand);
-                model.requestUbernetUsers();
-                model.hasJabber(true);
             }
         }
     }
@@ -945,12 +938,6 @@ $(document).ready(function () {
 
     handlers.jabber_authentication = function (payload) {
         initJabber(payload);
-        jabber.setPresenceHandler(model.onPresence);
-        jabber.setMsgHandler(model.onMessage);
-        jabber.setCommandHandler(model.onCommand);
-        model.hasJabber(true);
-        model.requestUbernetUsers();
-        onUbernetLogin();
     }
 
     handlers.uberbar_identifiers = function (payload) {
