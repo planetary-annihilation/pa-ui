@@ -1,9 +1,6 @@
 var SPLASH_DELAY_SECONDS = 2.0;
 
-// try a remote load of community mods and if that fails try the download cache
-if (!loadScript( 'https://dfpsrd4q7p23m.cloudfront.net/community-mods/js/start.js')) {
-    loadScript( 'coui://download/community-mods-start.js');
-}
+loadScript( 'coui://download/community-mods-start.js');
 
 $(document).ready(function () {
     engine.call('game.debug.menuDocumentReady');
