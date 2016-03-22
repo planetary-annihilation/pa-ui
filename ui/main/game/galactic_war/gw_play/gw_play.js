@@ -1292,7 +1292,7 @@ requireGW([
                 });
 
                 referee.stripSystems();
-                referee.mountFiles().then(function() {
+                referee.mountFiles().always(function() {
                 referee.tagGame();
 
                 self.battleConfig(referee.config());

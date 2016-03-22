@@ -21,7 +21,7 @@ define([
         var done = $.Deferred();
 
 // community mods will hook unmountAllMemoryFiles to remount client mods
-        api.file.unmountAllMemoryFiles().then(function() {
+        api.file.unmountAllMemoryFiles().always(function() {
         var titans = api.content.usingTitans();
 
         var aiFileGen = $.Deferred();
@@ -199,7 +199,7 @@ define([
         });
 
  // community mods will hook unmountAllMemoryFiles to remount client mods
-        api.file.unmountAllMemoryFiles().then(function() {
+        api.file.unmountAllMemoryFiles().always(function() {
             api.file.mountMemoryFiles(cookedFiles).then( function()
             {
                 deferred.resolve();
