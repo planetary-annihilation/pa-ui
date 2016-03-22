@@ -10,6 +10,13 @@ $(document).ready(function () {
         self.uberId = ko.observable(id);
         self.displayName = LeaderboardUtility.getPlayerDisplayName(id);
 
+// requestUserName is required by update_display_name
+        self.requestUserName = function() {
+            LeaderboardUtility.getPlayerDisplayName(id).subscribe(function(displayName) {
+                self.displayName(displayName);
+            });
+        }
+
         self.pendingChat = ko.observable(false);
 
         self.tags = ko.computed( function() {
