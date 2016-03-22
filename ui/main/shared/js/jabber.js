@@ -12,8 +12,14 @@ function Jabberer(uber_id, jabber_token, use_ubernetdev) {
     var self = this;
     var connection;
 
-    var MAX_RETRIES = 3;
+    var MAX_RETRIES = 24; // retry for 2 minutes
+    var RETRY_TIMEOUT = 5000; // 5 seconds
     var connection_attempts = 0;
+    var reconnectTimeout = false;
+
+    self.getConnection = function() {
+        return connection;
+    }
 
     self.useUbernetdev = ko.observable().extend({ session: 'use_ubernetdev' });
     if (use_ubernetdev)
@@ -74,7 +80,7 @@ function Jabberer(uber_id, jabber_token, use_ubernetdev) {
     }
 
     self.connectOrResume = function () {
-        connection = new Strophe.Connection('http://' + SERVICE_URL + ':5280/http-bind');
+        connection = new Strophe.Connection('http://' + SERVICE_URL + ':5280/http-bind',{keepalive:true});
         connection.rawInput = rawInput;
         connection.rawOutput = rawOutput;
 
@@ -155,6 +161,17 @@ function Jabberer(uber_id, jabber_token, use_ubernetdev) {
     function UberidToJid(uberid) {
         return uberid + '@' + SERVICE_URL;
     }
+    
+    function connectedOrAttached() {
+        if (reconnectTimeout)  {
+            clearTimeout(reconnectTimeout);
+            reconnectTimeout = false;
+        }
+        initHandlers();
+        self.getRoster();
+        connection.send($pres());
+        connection_attempts = 0;
+    }
 
     function onConnect(status) {
         log('!!! onConnect');
@@ -175,22 +192,18 @@ function Jabberer(uber_id, jabber_token, use_ubernetdev) {
                 self.rid(undefined);
                 if (connection_attempts < MAX_RETRIES) {
                     log('Attempting to reconnect to XMPP. Tries:' + connection_attempts);
-                    setTimeout(connectOrResume, 3000);
+                    if (!reconnectTimeout) {
+                        reconnectTimeout = setTimeout(self.connectOrResume, RETRY_TIMEOUT);
+                    }
                 }
                 break;
             case Strophe.Status.CONNECTED:
                 log('!!!Strophe is connected as ' + self.jid());
-                initHandlers();
-                self.getRoster();
-                connection.send($pres());
-                connection_attempts = 0;
+                connectedOrAttached();
                 break;
             case Strophe.Status.ATTACHED:
                 log('!!!Strophe is attached as ' + self.jid());
-                initHandlers();
-                self.getRoster();
-                connection.send($pres());
-                connection_attempts = 0;
+                connectedOrAttached();
                 break;
             case Strophe.Status.AUTHENTICATING:
                 log('Strophe is authenticating.');
