@@ -21,6 +21,18 @@ function Jabberer(uber_id, jabber_token, use_ubernetdev) {
         return connection;
     }
 
+    self.connected = function() {
+        return connection && connection.connected;
+    }
+
+    self.disconnect = function(reason) {
+        log('disconnecting');
+        self.stayDisconnected = true;
+        connection.options.sync = true;
+        connection.disconnect(reason || '');
+        connection.flush();
+    }
+
     self.useUbernetdev = ko.observable().extend({ session: 'use_ubernetdev' });
     if (use_ubernetdev)
         self.useUbernetdev(!!use_ubernetdev);
@@ -403,9 +415,9 @@ function initJabber(payload) {
 
 (function () {
     var restoreJabber = ko.observable().extend({ session: 'restore_jabber' });
-    if (restoreJabber())
-    {
+    if (restoreJabber()) {
         jabber = new Jabberer();
-        jabber.connectOrResume();
+// double defer this to allow time for strophe to load and uberbar to set handlers
+         _.defer( function() {_.defer( jabber.connectOrResume )});
     }
 })();

@@ -984,6 +984,13 @@ $(document).ready(function () {
 
         self.setup = function () {
 
+            $( window ).on('beforeunload', function() {
+                if (jabber && jabber.connected()) {
+                    jabber.disconnect( 'beforeunload' );
+                }
+                return '';
+            });
+
             var restoreJabber = ko.observable().extend({ session: 'restore_jabber' });
             if (restoreJabber()) {
                 self.init();
