@@ -33,7 +33,7 @@ function loadHtml(src) {
         xmlhttp.open("GET", src, false);
         xmlhttp.send();
     } catch (err) {
-        console.log("error loading " + src + ' ' + err.message + " after " +  Math.round((Date.now() - start)/1000) + "seconds" );
+        console.log("error loading " + src + ' ' + err.message + " after " +  Math.round((Date.now() - start)/1000) + " seconds" );
         return;
     }
     console.log( src + ' loaded in ' + Math.round((Date.now() - start)/1000) + " seconds" );
@@ -47,11 +47,11 @@ function loadScript(src) {
         o.open('GET', src, false);
         o.send('');
     } catch (err) {
-        console.log("error loading " + src + " after " +  Math.round((Date.now() - start)/1000) + "seconds");
+        console.log("error loading " + src + " after " +  Math.round((Date.now() - start)/1000) + " seconds");
         return false;
     }
     if (o.status > 200) {
-        console.log('Failed loading ' + src + ' with ' + o.status + " after " +  Math.round((Date.now() - start)/1000) + "seconds");
+        console.log('Failed loading ' + src + ' with ' + o.status + " after " +  Math.round((Date.now() - start)/1000) + " seconds");
         return false;
     }
     var se = document.createElement('script');
