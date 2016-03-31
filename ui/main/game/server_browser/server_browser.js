@@ -714,9 +714,19 @@ $(document).ready(function () {
                 });
         }
 
-         self.updateCustomServerGames = function () {
+        self.customServersUrl = ko.observable().extend( { session: 'custom_servers_url'});
+        self.customServersRefresh = ko.observable().extend({ session: 'custom_servers_refresh'});
+        self.customServersRetry = ko.observable().extend({ session: 'custom_servers_retry'}); 
 
-            $.getJSON( 'http://cdn.pastats.com/servers/')
+        self.updateCustomServerGames = function () {
+
+            var url = self.customServersUrl();
+
+            if (!url) {
+                return;
+            }
+
+            $.getJSON(url)
                 .done(function (games) {
 
                     var newGameList = [];
@@ -752,11 +762,11 @@ $(document).ready(function () {
                     self.customGameList(newGameList);
 
                     if (self.autoRefresh())
-                        updateCustomServerGamesTimeout = setTimeout(self.updateCustomServerGames, 1000);
+                        updateCustomServerGamesTimeout = setTimeout(self.updateCustomServerGames, self.customServersRefresh());
                 })
                 .fail(function (data) {
                     if (self.autoRefresh())
-                        updateCustomServerGamesTimeout = setTimeout(self.updateCustomServerGames, 5000);
+                        updateCustomServerGamesTimeout = setTimeout(self.updateCustomServerGames, self.customServersRetry());
                 });
         }
     }

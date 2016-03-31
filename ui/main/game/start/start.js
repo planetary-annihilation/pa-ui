@@ -1686,6 +1686,16 @@ $(document).ready(function () {
                 });
             }
         };
+
+        self.customServersUrl = ko.observable().extend({session: 'custom_servers_url'});
+        self.customServersRefresh = ko.observable().extend({session: 'custom_servers_refresh'});
+        self.customServersRetry = ko.observable().extend( {session: 'custom_servers_retry'}); 
+
+        $.getJSON('http://cdn.pastats.com/servers/config/').done(function(data) {
+            self.customServersUrl(data.url);
+            self.customServersRefresh(data.refresh || 5000);
+            self.customServersRetry(data.retry || 30000);
+        });
     }
     model = new LoginViewModel();
 
