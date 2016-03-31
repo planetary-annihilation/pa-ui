@@ -1,8 +1,6 @@
 var SPLASH_DELAY_SECONDS = 2.0;
 
-if ( ! scene_mod_list.start ) {
-    scene_mod_list.start = [];
-}
+loadScript( 'coui://download/community-mods-start.js');
 
 $(document).ready(function () {
     engine.call('game.debug.menuDocumentReady');
@@ -888,6 +886,7 @@ $(document).ready(function () {
                             showErrorDialog(false, message);
                             break;
                         }
+
                     }
                 });
         }
@@ -1829,9 +1828,8 @@ $(document).ready(function () {
         buttons: CmdButtons
     });
 
-// try a remote load of community mods and if that fails try the download cache for offline use
-    if (!loadScript( 'https://dfpsrd4q7p23m.cloudfront.net/community-mods/start.js')) {
-        loadScript( 'coui://download/community-mods-start.js');
+    if ( window.CommunityMods ) {
+        CommunityMods();
     }
 
     // inject per scene mods

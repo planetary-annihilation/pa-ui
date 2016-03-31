@@ -595,6 +595,7 @@ $(document).ready(function () {
                     'modded': (beacon.mod_names && beacon.mod_names.length > 0) ? (cheats_enabled ? "Y+Cheat" : "Yes") : "No",
                     'mods_summary': mods_summary,
                     'mod_names': beacon.mod_names,
+                    'mod_identifiers': beacon.mod_identifiers,
                     'cheats_enabled': cheats_enabled,
                     'planet_count' : beacon.game.system.planets.length,
                     'planets' : extraPlanets,

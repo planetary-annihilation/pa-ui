@@ -416,8 +416,7 @@ $(document).ready(function () {
             model.send_message('leave');
             _.delay(function() {
                 self.userTriggeredDisconnect(true);
-                window.location.href = 'coui://ui/main/game/start/start.html';
-                return; /* window.location.href will not stop execution. */
+                self.navToStart();
             }, 30);
         };
 
@@ -979,13 +978,6 @@ $(document).ready(function () {
             if (self.loadedSystemIsEmpty() && !model.updateSystemInProgress())
                 self.loadRandomSystem();
         };
-
-        this.resetPlayerPattern = function () { self.selectedPlayerPatternIndex = 0; }
-
-        this.navToServerBrowser = function () {
-            window.location.href = 'coui://ui/main/game/server_browser/server_browser.html';
-            return; /* window.location.href will not stop execution. */
-        }
 
         self.newGameWhenLoaded = ko.observable(false).extend({ session: 'new_game_when_loaded' });
 
@@ -2002,16 +1994,13 @@ $(document).ready(function () {
 
         self.lastSceneUrl = ko.observable().extend({ session: 'last_scene_url' });
 
-        self.navBack = function () {
-            self.loadedSystem({});
-            if (self.lastSceneUrl()) {
-                window.location.href = self.lastSceneUrl();
-                return; /* window.location.href will not stop execution. */
-            }
-        };
-
+// always return to start via transit for community mods reset
         self.navToStart = function () {
-            window.location.href = 'coui://ui/main/game/start/start.html';
+            model.transitPrimaryMessage(loc('!LOC:Returning to Main Menu'));
+            model.transitSecondaryMessage('');
+            model.transitDestination('coui://ui/main/game/start/start.html');
+            model.transitDelay(0);
+            window.location.href = 'coui://ui/main/game/transit/transit.html';
             return; /* window.location.href will not stop execution. */
         };
 

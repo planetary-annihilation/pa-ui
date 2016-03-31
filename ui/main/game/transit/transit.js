@@ -1,5 +1,7 @@
 ﻿var model;
 
+loadScript( 'coui://download/community-mods-transit.js');
+
 $(document).ready(function () {
 
     function TransitViewModel() {
@@ -27,6 +29,10 @@ $(document).ready(function () {
     model = new TransitViewModel();
 
     handlers = {};
+
+    if ( window.CommunityMods ) {
+        CommunityMods();
+    }
 
     // inject per scene mods
     if (scene_mod_list['transit'])

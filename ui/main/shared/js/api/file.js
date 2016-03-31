@@ -3,8 +3,8 @@
     var meta_suffix = '.par.info.json';
 
     api.file = {
-        mountMemoryFiles: function (files) { engine.call("file.mountMemoryFiles", JSON.stringify(files)); },
-        unmountAllMemoryFiles: function () { engine.call("file.unmountAllMemoryFiles"); },
+        mountMemoryFiles: function (files) { return engine.call("file.mountMemoryFiles", JSON.stringify(files)); },
+        unmountAllMemoryFiles: function () { return engine.call("file.unmountAllMemoryFiles"); },
 
         // Promise returns { name: fileHint, contents: '<Contents of the file>' }
         loadDialog: function (fileNameHint) { return engine.asyncCall('file.loadDialog', String(fileNameHint)).then(function (raw) { return JSON.parse(raw); }); },
