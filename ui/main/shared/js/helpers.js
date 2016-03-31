@@ -33,10 +33,10 @@ function loadHtml(src) {
         xmlhttp.open("GET", src, false);
         xmlhttp.send();
     } catch (err) {
-        console.log("error loading " + src + ' ' + err.message + " after " +  Math.round((Date.now() - start)/1000) + " seconds" );
+        console.error("error loading " + src + ' ' + err.message + " after " +  (Date.now() - start)/1000 + " seconds" );
         return;
     }
-    console.log( src + ' loaded in ' + Math.round((Date.now() - start)/1000) + " seconds" );
+    console.log( src + ' loaded in ' + (Date.now() - start)/1000 + " seconds" );
     return xmlhttp.responseText;
 }
 
@@ -47,18 +47,24 @@ function loadScript(src) {
         o.open('GET', src, false);
         o.send('');
     } catch (err) {
-        console.log("error loading " + src + " after " +  Math.round((Date.now() - start)/1000) + " seconds");
+        console.error("error loading " + src + " after " +  (Date.now() - start)/1000 + " seconds");
         return false;
     }
     if (o.status > 200) {
-        console.log('Failed loading ' + src + ' with ' + o.status + " after " +  Math.round((Date.now() - start)/1000) + " seconds");
+        console.error('Failed loading ' + src + ' with ' + o.status + " after " +  (Date.now() - start)/1000 + " seconds");
         return false;
     }
-    var se = document.createElement('script');
-    se.type = "text/javascript";
-    se.text = o.responseText;
-    document.getElementsByTagName('head')[0].appendChild(se);
-    console.log( src + ' loaded in ' + Math.round((Date.now() - start)/1000) + " seconds" );
+    try {
+        var se = document.createElement('script');
+        se.type = "text/javascript";
+        se.text = o.responseText;
+        document.getElementsByTagName('head')[0].appendChild(se);
+    } catch (err) {
+        console.error(err);
+        console.error("error loading " + src + " after " +  (Date.now() - start)/1000 + " seconds");
+        return false;
+    }
+    console.log( src + ' loaded in ' + (Date.now() - start)/1000 + " seconds" );
     return true;
 }
 
@@ -96,7 +102,7 @@ function loadMods(list) {
         if (mod.match(css))
             loadCSS(mod);
     }
-    console.log( 'mods loaded in ' + Math.round((Date.now() - start)/1000) + " seconds" );
+    console.log( 'mods loaded in ' + (Date.now() - start)/1000 + " seconds" );
 }
 
 // Adds String.endsWith()
