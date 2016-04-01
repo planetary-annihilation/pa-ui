@@ -1,5 +1,7 @@
 ﻿var model;
 
+loadScript( 'coui://download/community-mods-connect_to_game.js');
+
 $(document).ready(function () {
 
     var DEFAULT_CONNECTION_ATTEMPTS = 2;
@@ -254,6 +256,9 @@ $(document).ready(function () {
         }
     };
 
+    if ( window.CommunityMods ) {
+        CommunityMods();
+    }
     loadSceneMods('connect_to_game');
 
     // Activates knockout.js
