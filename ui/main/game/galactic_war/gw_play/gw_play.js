@@ -23,7 +23,12 @@ requireGW([
 ) {
     p = PopUp;
     var exitGame = function() {
-        window.location.href = 'coui://ui/main/game/start/start.html';
+        model.transitPrimaryMessage(loc('!LOC:Returning to Main Menu'));
+        model.transitSecondaryMessage('');
+        model.transitDestination('coui://ui/main/game/start/start.html');
+        model.transitDelay(0);
+        window.location.href = 'coui://ui/main/game/transit/transit.html';
+        return; /* window.location.href will not stop execution. */
     };
 
     // Convenience function for setting up easeljs bitmaps
@@ -1287,7 +1292,7 @@ requireGW([
                 });
 
                 referee.stripSystems();
-                referee.mountFiles();
+                referee.mountFiles().always(function() {
                 referee.tagGame();
 
                 self.battleConfig(referee.config());
@@ -1341,6 +1346,7 @@ requireGW([
                     params['replayid'] = game.replayLobbyId();
                     connect();
                 }
+                });
             });
         };
 

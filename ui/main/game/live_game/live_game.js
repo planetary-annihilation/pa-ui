@@ -1739,6 +1739,20 @@ $(document).ready(function () {
         }
 
         self.mainMenuUrl = ko.observable('coui://ui/main/game/start/start.html');
+
+        self.navToUrl = function(url) {
+            self.transitPrimaryMessage(loc('!LOC:Returning to Main Menu'));
+            self.transitSecondaryMessage('');
+            self.transitDestination(url);
+            self.transitDelay(0);
+            window.location.href = 'coui://ui/main/game/transit/transit.html';
+            return; /* window.location.href will not stop execution. */
+        }
+        
+        self.navToStart = function() {
+            self.navToUrl(self.mainMenuUrl());
+        }
+
         self.navToMainMenu = function () {
             engine.call('pop_mouse_constraint_flag');
             engine.call("game.allowKeyboard", true);
@@ -1746,7 +1760,7 @@ $(document).ready(function () {
             self.abandon().always(function () {
                 self.userTriggeredDisconnect(true);
                 self.disconnect();
-                window.location.href = self.mainMenuUrl();
+                self.navToStart();
             });
         }
 
@@ -2220,7 +2234,7 @@ $(document).ready(function () {
 
                         self.userTriggeredDisconnect(true);
                         self.disconnect();
-                        window.location.href = self.mainMenuUrl();
+                        self.navToStart();
                     });
                 }
             });
@@ -3506,7 +3520,7 @@ $(document).ready(function () {
             default: {
                 model.gameOver(false);
                 if (msg.url && msg.url !== window.location.href) {
-                    window.location.href = msg.url;
+                    model.navToUrl( msg.url );
                     return;
                 }
                 break;
@@ -3961,7 +3975,7 @@ $(document).ready(function () {
                 model.userTriggeredDisconnect(true);
                 model.disconnect();
 
-                window.location.href = payload.url;
+                model.navToUrl( payload.url );
             };
 
             if (model.haveUberNet())
@@ -3970,7 +3984,7 @@ $(document).ready(function () {
                 navAway();
         }
         else
-            window.location.href = payload.url;
+            model.navToUrl( payload.url );
     };
 
     handlers['game_paused.resume'] = model.playSim;

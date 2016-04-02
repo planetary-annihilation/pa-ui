@@ -14,6 +14,11 @@ function setLayoutMode(layoutMode)
     api.Panel.update();
 }
 
+// try a remote load of community mods and if that fails try the download cache
+if (!loadScript( 'https://dfpsrd4q7p23m.cloudfront.net/community-mods/js/main.js')) {
+    loadScript( 'coui://download/community-mods-main.js');
+}
+
 $(document).ready(function () {
 
     function MainViewModel() {
@@ -150,6 +155,10 @@ $(document).ready(function () {
     handlers.finish_video = function (payload) {
         model.finishVideo();
     };
+
+    if ( window.CommunityMods ) {
+        CommunityMods();
+    }
 
     loadSceneMods('main');
 

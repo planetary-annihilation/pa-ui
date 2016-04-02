@@ -75,17 +75,17 @@ $(document).ready(function () {
         };
 
         self.searchFilter = ko.observable('');
-        self.gameStateFilter = ko.observable('inlobby').extend( { local: 'gameStateFilter' } );
-        self.gameStatusFilter = ko.observable('canplay').extend( { local: 'gameStatusFilter' } );
-        self.gameModeFilter = ko.observable('any').extend( { local: 'gameModeFilter' } );
+        self.gameStateFilter = ko.observable('inlobby').extend( { session: 'game_state_filter' } );
+        self.gameStatusFilter = ko.observable('canplay').extend( { session: 'game_status_filter' } );
+        self.gameModeFilter = ko.observable('any').extend( { session: 'game_mode_filter' } );
 
-        self.planetCountMinFilter = ko.observable('any').extend( { local: 'planetCountMinFilter' } );
-        self.planetCountMaxFilter = ko.observable('any').extend( { local: 'planetCountMaxFilter' } );
-        self.playerCountMinFilter = ko.observable('any').extend( { local: 'playerCountMinFilter' } );
-        self.playerCountMaxFilter = ko.observable('any').extend( { local: 'playerCountMaxFilter' } );
-        self.regionFilter = ko.observable('any').extend( { local: 'regionFilter' } );
-        self.gameTagFilter = ko.observable('any').extend( { local: 'gameTagFilter' } );
-        self.lockedFilter = ko.observable('any').extend( { local: 'lockedFilter' } );
+        self.planetCountMinFilter = ko.observable('any').extend( { session: 'game_planet_count_min_filter' } );
+        self.planetCountMaxFilter = ko.observable('any').extend( { session: 'game_planet_count_max_filter' } );
+        self.playerCountMinFilter = ko.observable('any').extend( { session: 'game_player_count_min_filter' } );
+        self.playerCountMaxFilter = ko.observable('any').extend( { session: 'game_player_count_max_filter' } );
+        self.regionFilter = ko.observable('any').extend( { session: 'game_region_filter' } );
+        self.gameTagFilter = ko.observable('any').extend( { session: 'game_tag_filter' } );
+        self.lockedFilter = ko.observable('any').extend( { session: 'game_locked_filter' } );
 
         self.lockedGameFilterOptions = ko.observableArray([ { text: loc('!LOC:Any'), value: 'any' }, { text: loc('!LOC:Locked'), value: 'locked' }, { text: loc('!LOC:Open'), value: 'open' } ]);
 
@@ -94,13 +94,13 @@ $(document).ready(function () {
 
         self.bountyModeFilterOptions = ko.observableArray([ { text: loc('!LOC:Any'), value: 'any' }, { text: loc('!LOC:Not Bounty Mode'), value: 'notBountyMode' }, { text: loc('!LOC:Bounty Mode'), value: 'bountyMode' } ] );
 
-        self.bountyModeFilter = ko.observable('any').extend( { local : 'bountyModeFilter' } );
+        self.bountyModeFilter = ko.observable('any').extend( { session : 'game_bounty_mode_filter' } );
 
         self.moddedGameFilterDefaultOptions = ko.observableArray([ { text: loc('!LOC:Any'), value: 'any' }, { text: loc('!LOC:Not Modded'), value: 'notModded' }, { text: loc('!LOC:Modded'), value: 'modded' }]);
 
         self.moddedGameFilterOptions = ko.observableArray( _.clone( self.moddedGameFilterDefaultOptions() ) );
 
-        self.moddedGameFilter = ko.observable('any').extend( { local : 'moddedGameFilter' } );
+        self.moddedGameFilter = ko.observable('any').extend( { session : 'game_modded_filter' } );
 
         self.resetFilters = function() {
             for( key in self.defaultFilters ) { 
@@ -595,6 +595,7 @@ $(document).ready(function () {
                     'modded': (beacon.mod_names && beacon.mod_names.length > 0) ? (cheats_enabled ? "Y+Cheat" : "Yes") : "No",
                     'mods_summary': mods_summary,
                     'mod_names': beacon.mod_names,
+                    'mod_identifiers': beacon.mod_identifiers,
                     'cheats_enabled': cheats_enabled,
                     'planet_count' : beacon.game.system.planets.length,
                     'planets' : extraPlanets,
@@ -713,9 +714,19 @@ $(document).ready(function () {
                 });
         }
 
-         self.updateCustomServerGames = function () {
+        self.customServersUrl = ko.observable().extend( { session: 'custom_servers_url'});
+        self.customServersRefresh = ko.observable().extend({ session: 'custom_servers_refresh'});
+        self.customServersRetry = ko.observable().extend({ session: 'custom_servers_retry'}); 
 
-            $.getJSON( 'http://cdn.pastats.com/servers/')
+        self.updateCustomServerGames = function () {
+
+            var url = self.customServersUrl();
+
+            if (!url) {
+                return;
+            }
+
+            $.getJSON(url)
                 .done(function (games) {
 
                     var newGameList = [];
@@ -751,11 +762,11 @@ $(document).ready(function () {
                     self.customGameList(newGameList);
 
                     if (self.autoRefresh())
-                        updateCustomServerGamesTimeout = setTimeout(self.updateCustomServerGames, 1000);
+                        updateCustomServerGamesTimeout = setTimeout(self.updateCustomServerGames, self.customServersRefresh());
                 })
                 .fail(function (data) {
                     if (self.autoRefresh())
-                        updateCustomServerGamesTimeout = setTimeout(self.updateCustomServerGames, 5000);
+                        updateCustomServerGamesTimeout = setTimeout(self.updateCustomServerGames, self.customServersRetry());
                 });
         }
     }

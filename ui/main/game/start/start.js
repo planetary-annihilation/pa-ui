@@ -1,8 +1,6 @@
 var SPLASH_DELAY_SECONDS = 2.0;
 
-if ( ! scene_mod_list.start ) {
-    scene_mod_list.start = [];
-}
+loadScript( 'coui://download/community-mods-start.js');
 
 $(document).ready(function () {
     engine.call('game.debug.menuDocumentReady');
@@ -888,6 +886,7 @@ $(document).ready(function () {
                             showErrorDialog(false, message);
                             break;
                         }
+
                     }
                 });
         }
@@ -1687,6 +1686,16 @@ $(document).ready(function () {
                 });
             }
         };
+
+        self.customServersUrl = ko.observable().extend({session: 'custom_servers_url'});
+        self.customServersRefresh = ko.observable().extend({session: 'custom_servers_refresh'});
+        self.customServersRetry = ko.observable().extend( {session: 'custom_servers_retry'}); 
+
+        $.getJSON('http://cdn.pastats.com/servers/config/').done(function(data) {
+            self.customServersUrl(data.url);
+            self.customServersRefresh(data.refresh || 5000);
+            self.customServersRetry(data.retry || 30000);
+        });
     }
     model = new LoginViewModel();
 
@@ -1829,9 +1838,8 @@ $(document).ready(function () {
         buttons: CmdButtons
     });
 
-// try a remote load of community mods and if that fails try the download cache for offline use
-    if (!loadScript( 'https://dfpsrd4q7p23m.cloudfront.net/community-mods/start.js')) {
-        loadScript( 'coui://download/community-mods-start.js');
+    if ( window.CommunityMods ) {
+        CommunityMods();
     }
 
     // inject per scene mods

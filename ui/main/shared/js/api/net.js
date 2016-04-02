@@ -17,6 +17,24 @@
             });
         },
 
+// ajax version of engine ubernet API calls
+        ubernet: function(api,type,dataType,data) {
+            if (data && !_.isString(data)) {
+                data = JSON.stringify(data);
+            }
+            var url = self.ubernetUrl() + api;
+            var options = {
+                type: type ? type : 'GET',
+                contentType:'application/json; charset=utf-8',
+                dataType: dataType ? dataType : 'json',
+                data: data,
+                beforeSend: function(request) {
+                    request.setRequestHeader('X-Authorization', decode(sessionStorage.jabberToken));
+                }
+            };
+            return $.ajax(url,options);
+        },
+
         startReplay: function(region, mode, replayId) {
             return engine.asyncCall('ubernet.startReplay', region, mode, replayId).then(function(rawData) {
                 return JSON.parse(rawData);
