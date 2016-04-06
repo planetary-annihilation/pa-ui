@@ -18,11 +18,12 @@ define([
         var self = this;
 
         // Game file generation cannot use previously mounted files.  That would be bad.
-        api.file.unmountAllMemoryFiles();
-
-        var titans = api.content.usingTitans();
-        
         var done = $.Deferred();
+
+// community mods will hook unmountAllMemoryFiles to remount client mods
+        api.file.unmountAllMemoryFiles().always(function() {
+        var titans = api.content.usingTitans();
+
         var aiFileGen = $.Deferred();
         var playerFileGen = $.Deferred();
         var unitsLoad = $.get('spec://pa/units/unit_list.json');
@@ -68,6 +69,7 @@ define([
             var files = _.assign({}, aiFiles, playerFiles);
             self.files(files);
             done.resolve();
+        });
         });
         return done.promise();
     };
@@ -171,6 +173,8 @@ define([
     GWReferee.prototype.mountFiles = function() {
         var self = this;
 
+        var deferred = $.Deferred();
+
         var allFiles = _.cloneDeep(self.files());
         // The player unit list needs to be the superset of units for proper UI behavior
         var playerUnits = allFiles['/pa/units/unit_list.json.player']
@@ -193,13 +197,23 @@ define([
             else
                 return value;
         });
-        api.file.unmountAllMemoryFiles();
-        api.file.mountMemoryFiles(cookedFiles);
+
+ // community mods will hook unmountAllMemoryFiles to remount client mods
+        api.file.unmountAllMemoryFiles().always(function() {
+            api.file.mountMemoryFiles(cookedFiles).then( function()
+            {
+                deferred.resolve();
+            })
+        });
+        
+        return deferred.promise();
     };
 
     GWReferee.prototype.tagGame = function() {
         api.game.setUnitSpecTag('.player');
     };
+
+    loadScript( 'coui://download/community-mods-gw_referee.js');
 
     return {
         hire: function(game) {

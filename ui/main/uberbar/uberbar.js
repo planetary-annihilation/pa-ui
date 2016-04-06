@@ -10,9 +10,19 @@ $(document).ready(function () {
         self.uberId = ko.observable(id);
         self.displayName = LeaderboardUtility.getPlayerDisplayName(id);
 
+// requestUserName is required by update_display_name
+        self.requestUserName = function() {
+            LeaderboardUtility.getPlayerDisplayName(id).subscribe(function(displayName) {
+                self.displayName(displayName);
+            });
+        }
+
         self.pendingChat = ko.observable(false);
 
-        self.tags = ko.observable({});
+        self.tags = ko.computed( function() {
+            return model.userTagMap()[id] || {};
+        });
+        
         self.tagList = ko.computed(function () {
             var result = [];
 
@@ -23,12 +33,6 @@ $(document).ready(function () {
 
             return result;
         });
-
-        function updateTags() {
-            var result = model.userTagMap()[id];
-            self.tags(result ? result : {});
-        }
-        updateTags();
 
         self.friend = ko.computed(function () { return self.tags()['FRIEND'] });
         self.pendingFriend = ko.computed(function () { return self.tags()['PENDING_FRIEND'] });
@@ -157,20 +161,17 @@ $(document).ready(function () {
         self.remove = function () {
             self.sendUnfriend();
             model.removeAllUserTagsFor(self.uberId());
-            updateTags();
             _.defer(model.requestUbernetUsers);
         }
 
         self.addTag = function (tag, callback) {
             model.addUserTags(self.uberId(), [tag]);
-            updateTags();
             if (callback)
                 callback();
         }
 
         self.removeTag = function (tag, callback) {
             model.removeUserTags(self.uberId(), [tag]);
-            updateTags();
             if (callback)
                 callback();
         }
@@ -343,16 +344,17 @@ $(document).ready(function () {
 
         self.userTagMap = ko.observable({ /* id: { tag ... tag } */ }).extend({ ubernet: 'user_tag_map' });
 
-        self.changeUserTags = function (id, tags /* [ tag ... tag ] */, add) {
+        self.changeUserTags = function (uberid, tags /* [ tag ... tag ] */, add) {
             var map = self.userTagMap();
-            var current = map[id] || {};
+            var current = map[uberid] || {};
 
             _.forEach(tags, function (element) {
                 current[element] = !!add;
             });
 
-            map[id] = current;
-            self.userTagMap(map);
+            map[uberid] = current;
+            self.userTagMap.valueHasMutated();
+            self.updateInteractionTimeMap(uberid);
         }
 
         self.addUserTags = function (id, tags /* [ tag ... tag ] */) {
@@ -366,7 +368,7 @@ $(document).ready(function () {
         self.removeAllUserTagsFor = function (id) {
             var map = self.userTagMap();
             delete map[id];
-            self.userTagMap(map);
+            self.userTagMap.valueHasMutated();
         }
 
         self.usersSortedByLastInteractionTime = ko.computed(function () {
@@ -396,6 +398,11 @@ $(document).ready(function () {
         self.idToJabberPresenceStatusMap = ko.observable({}).extend({ session: 'jabber_presence_status_map' });
 
         self.idToInteractionTimeMap = ko.observable({}).extend({ local: 'interaction_time_map' });
+
+        self.updateInteractionTimeMap = function(uberid) {
+            self.idToInteractionTimeMap()[uberid] = _.now();
+            self.idToInteractionTimeMap.valueHasMutated();
+        }
 
         self.friends = ko.computed(function () {
             return _.filter(self.usersSortedAlphabetically(),
@@ -466,12 +473,12 @@ $(document).ready(function () {
                     'message': message
                 });
 
-            self.conversationMap.notifySubscribers();
+            self.conversationMap.valueHasMutated();
         };
 
         self.endConversationsWith = function (uberid) {
             delete self.conversationMap()[uberid];
-            self.conversationMap.notifySubscribers();
+            self.conversationMap.valueHasMutated();
         };
 
         self.notifications = ko.observableArray([]);
@@ -622,13 +629,22 @@ $(document).ready(function () {
         }
 
         self.saveSearch = function (ubername, uberid) {
-            self.addContact(ubername, uberid, ['SEARCH']);
+
+// check if contact already exists
+            if (self.idToContactMap()[ uberid ]) {
+                self.addUserTags( uberid, ['SEARCH'] );            
+            }
+            else {
+                self.addContact(ubername, uberid, ['SEARCH']);
+            }
         };
 
         self.maybeCreateNewContactWithId = function (uberid) {
-            if (self.idToContactMap()[uberid] || uberid === self.uberId()) {
-                self.idToInteractionTimeMap()[uberid] = _.now();
-                self.idToInteractionTimeMap(self.idToInteractionTimeMap()); /* trigger write to session storage */
+            if (uberid === self.uberId()) {
+                return;
+            }
+            if (self.idToContactMap()[uberid]) {
+                self.updateInteractionTimeMap(uberid);
                 return;
             }
 
@@ -678,7 +694,7 @@ $(document).ready(function () {
                 if (lobby_id && collection[index] && lobby_id !== collection[index])
                     delete collection[index];
             });
-            self.pendingGameInvites.notifySubscribers();
+            self.pendingGameInvites.valueHasMutated();
         });
         self.lobbyEmptySlots = ko.observable();
         self.readyToSendLobbyInfo = ko.computed(function () {
@@ -698,13 +714,22 @@ $(document).ready(function () {
         });
 
         self.findUserId = function () {
-            engine.asyncCall('ubernet.call', '/GameClient/UserId?' +  $.param({ UberName: self.contactSearch() }), false)
+            var searchText = model.contactSearch();
+
+// search for display name if uberName not found
+            api.net.ubernet( '/GameClient/UserId?' + $.param({ TitleDisplayName: searchText }), 'GET', 'text')
                     .done(function (data) {
                         var result = JSON.parse(data);
                         self.saveSearch('', result.UberId);
                     })
                     .fail(function (data) {
-                        console.log('ubernet.UserId: fail');
+
+// search for uber name if not found
+                        api.net.ubernet( '/GameClient/UserId?' + $.param({ UberName: searchText }), 'GET', 'text').done( function (data)
+                        {
+                            var result = JSON.parse(data);
+                            self.saveSearch('', result.UberId);
+                        })
                     });
         }
 
@@ -822,10 +847,32 @@ $(document).ready(function () {
             self.users(results);
         };
 
+        self.optimiseUserTagMap = function() {
+
+        	var interaction_time_map = self.idToInteractionTimeMap();
+            var now = Date.now();
+
+            var optimised = _.transform(self.userTagMap(), function(result, value, key, object) {
+
+                var lastInteraction = interaction_time_map[ key ];
+
+// keep friends, pending friends, chats and any searches or contacts within last 30 days
+
+        		if (value.FRIEND || value.PENDING_FRIEND || value.ALLOW_CHAT || ( lastInteraction && (now - lastInteraction) < 30 * 24 * 60 * 60 * 1000)) {
+        			result[ key ] = value;
+        		}
+
+                return result;
+            }, {});
+
+            self.userTagMap( optimised );
+        };
+        
         var hasUserTagMap = false;
         self.userTagMap.subscribe(function (value) {
             if (!hasUserTagMap && _.isObject(value) && !_.isEmpty(value)) {
                 hasUserTagMap = true;
+                self.optimiseUserTagMap();
                 self.requestUbernetUsers();
             }
         });
@@ -833,12 +880,12 @@ $(document).ready(function () {
         self.onPresence = function (uberid, presence_type, presence_status) {
             if (presence_type && presence_type !== 'undefined') {
                 self.idToJabberPresenceTypeMap()[uberid] = presence_type;
-                self.idToJabberPresenceTypeMap.notifySubscribers();
+                self.idToJabberPresenceTypeMap.valueHasMutated();
             }
 
             if (presence_status && presence_status !== 'undefined') {
                 self.idToJabberPresenceStatusMap()[uberid] = presence_status;
-                self.idToJabberPresenceStatusMap.notifySubscribers();
+                self.idToJabberPresenceStatusMap.valueHasMutated();
             }
         }
 
@@ -926,16 +973,27 @@ $(document).ready(function () {
 
         self.hasJabber = ko.observable(false);
         self.showUberBar = ko.observable(true);
+        
+        self.init = function() {
+            jabber.setPresenceHandler(model.onPresence);
+            jabber.setMsgHandler(model.onMessage);
+            jabber.setCommandHandler(model.onCommand);
+            model.hasJabber(true);
+            onUbernetLogin();
+        };
 
         self.setup = function () {
 
+            $( window ).on('beforeunload', function() {
+                if (jabber && jabber.connected()) {
+                    jabber.disconnect( 'beforeunload' );
+                }
+                return '';
+            });
+
             var restoreJabber = ko.observable().extend({ session: 'restore_jabber' });
             if (restoreJabber()) {
-                jabber.setPresenceHandler(model.onPresence);
-                jabber.setMsgHandler(model.onMessage);
-                jabber.setCommandHandler(model.onCommand);
-                model.requestUbernetUsers();
-                model.hasJabber(true);
+                self.init();
             }
         }
     }
@@ -945,12 +1003,7 @@ $(document).ready(function () {
 
     handlers.jabber_authentication = function (payload) {
         initJabber(payload);
-        jabber.setPresenceHandler(model.onPresence);
-        jabber.setMsgHandler(model.onMessage);
-        jabber.setCommandHandler(model.onCommand);
-        model.hasJabber(true);
-        model.requestUbernetUsers();
-        onUbernetLogin();
+        model.init();
     }
 
     handlers.uberbar_identifiers = function (payload) {
