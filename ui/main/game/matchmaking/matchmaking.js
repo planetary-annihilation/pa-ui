@@ -16,6 +16,7 @@ $(document).ready(function () {
         self.joinLocalServer = ko.observable().extend({ session: 'join_local_server' });
         self.joinCustomServer = ko.observable().extend({ session: 'join_custom_server' });
         self.serverType = ko.observable().extend({ session: 'game_server_type' });
+        self.gameModIdentifiers = ko.observable().extend({ session: 'game_mod_identifiers' });
 
         self.currentTimeSeconds = UberUtility.getCurrentTimeObservable();
 
@@ -229,6 +230,7 @@ $(document).ready(function () {
                 self.joinLocalServer(false);
                 self.joinCustomServer(false);
                 self.serverType('uber');
+                self.gameModIdentifiers(undefined);
                 self.gameTicket(data.Ticket);
                 self.gameHostname(data.ServerHostname);
                 self.gamePort(data.ServerPort);
