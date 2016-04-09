@@ -2287,6 +2287,17 @@ $(document).ready(function () {
         self.serverModsLoaded = ko.observable(false);
         self.serverModsUpdated = ko.observable(false);
 
+// update the timestamp in reconnect to game info every minute
+        self.updateReconnectToGameInfoTimestamp = function() {
+            var reconnectToGameInfo = self.reconnectToGameInfo();
+            if (!reconnectToGameInfo) {
+                return;
+            }
+            reconnectToGameInfo.timestamp = Date.now();
+            self.reconnectToGameInfo.valueHasMutated();
+            setTimeout(self.updateReconnectToGameInfoTimestamp, 60*1000);
+        }
+        self.updateReconnectToGameInfoTimestamp();
     }
 
     model = new NewGameViewModel();

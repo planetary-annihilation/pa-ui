@@ -1720,7 +1720,7 @@ console.log(data);
 
         self.reconnectToGameInfo = ko.observable().extend({ local: 'reconnect_to_game_info' });
 
-        self.directReconnectMaxAgeInMinutes = ko.observable( 6 * 60 );
+        self.reconnectToGameInfoMaxAge = ko.observable( 5 * 60 * 1000 );
         
         self.canDirectReconnect = ko.computed( function() {
             var reconnectToGameInfo = self.reconnectToGameInfo();
@@ -1748,9 +1748,9 @@ console.log(data);
 
             var timestamp = reconnectToGameInfo.timestamp;
 
-// ignore any reconnect info older than directReconnectMaxAgeInMinutes
-
-            if ( timestamp && timestamp < Date.now() - self.directReconnectMaxAgeInMinutes() * 1000 * 60 ) {
+// ignore and reset if older than reconnectToGameInfoMaxAge
+            if ( timestamp && timestamp < ( Date.now() - self.reconnectToGameInfoMaxAge() ) ) {
+                self.reconnectToGameInfo(undefined);
                 return false;
             }
             

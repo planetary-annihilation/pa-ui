@@ -1704,6 +1704,7 @@ $(document).ready(function () {
         };
 
         self.abandon = function () {
+            self.reconnectToGameInfo(undefined);
             var removeDeferred = $.Deferred();
             $.when(self.haveUberNet() && api.net.removePlayerFromGame()).always(removeDeferred.resolve);
 
@@ -3484,6 +3485,19 @@ $(document).ready(function () {
                 damage: 1
             },
         };
+
+// update the timestamp in reconnect to game info every minute
+        self.reconnectToGameInfo = ko.observable().extend({ local: 'reconnect_to_game_info' });
+        self.updateReconnectToGameInfoTimestamp = function() {
+            var reconnectToGameInfo = self.reconnectToGameInfo();
+            if (!reconnectToGameInfo) {
+                return;
+            }
+            reconnectToGameInfo.timestamp = Date.now();
+            self.reconnectToGameInfo.valueHasMutated();
+            setTimeout(self.updateReconnectToGameInfoTimestamp, 60*1000);
+        }
+        self.updateReconnectToGameInfoTimestamp();
     }
     model = new LiveGameViewModel();
 
@@ -3623,6 +3637,9 @@ $(document).ready(function () {
                     break;
 
                 case 'game_over':
+                    if (msg.data.control) {
+                        handlers.control_state(msg.data.control);
+                    }
                     model.showLanding(false);
                     model.showTimeControls(false);
                     model.mode('game_over');
@@ -3934,7 +3951,6 @@ $(document).ready(function () {
             model.reviewMode(false);
     }
     handlers.control_state = function (payload) {
-
         if (!payload.restart && model.restart()) {
             engine.call('watchlist.reset');
             model.setupWatchList();
