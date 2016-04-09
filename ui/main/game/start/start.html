@@ -634,6 +634,9 @@
                             <div id="nav_settings" class="nav_item nav_item_text btn_std_ix" data-bind="click: navToSettings, click_sound: 'default', rollover_sound: 'default'">
                                 <loc>Settings</loc>
                             </div>
+                            <div id="nav_reconnect" class="nav_item nav_item_text btn_std_ix" data-bind="visible: canDirectReconnect, click: directReconnect, click_sound: 'default', rollover_sound: 'default'">
+                                <loc>Reconnect</loc>
+                            </div>
                             <div id="nav_quit" class="nav_item nav_item_text btn_std_ix" data-bind="click: exit, click_sound: 'default', rollover_sound: 'default'">
                                 <loc>Quit</loc>
                             </div>
@@ -690,7 +693,7 @@
             </div>
         </div>
 
-        <!-- RECONNECT -->
+        <!-- UBER RECONNECT -->
         <div id="reconnectDlg" style="display: none" data-bind="visible: showReconnect">
             <div class="primary_msg dialog">
                 <loc>You are already assigned to a game.</loc>
@@ -748,7 +751,7 @@
         </div>
 
         <!-- CREDITS -->
-        <div class="dlg_std div_credits_dialog">
+        <div class="dlg_std div_credits_dialog" style="display:none">
             <div class="titlebar" style="border-right: inherit;">
                 <div class="title">
                    <loc>Uber Entertainment</loc>
