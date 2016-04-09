@@ -6,12 +6,16 @@ $(document).ready(function () {
         var self = this;
 
         self.lobbyId = ko.observable('');
-        self.isLocalGame = ko.observable(false).extend({ session: 'isLocalGame' });
+        self.isLocalGame = ko.observable(false).extend({ session: 'is_local_game' });
         self.gameTicket = ko.observable('').extend({ session: 'gameTicket' });
         self.gameHostname = ko.observable().extend({ session: 'gameHostname' });
         self.gamePort = ko.observable().extend({ session: 'gamePort' });
         self.connectionAttempts = ko.observable().extend({ session: 'connection_attempts' });
         self.connectionRetryDelaySeconds = ko.observable().extend({ session: 'connection_retry_delay_seconds' })
+
+        self.joinLocalServer = ko.observable().extend({ session: 'join_local_server' });
+        self.joinCustomServer = ko.observable().extend({ session: 'join_custom_server' });
+        self.serverType = ko.observable().extend({ session: 'game_server_type' });
 
         self.currentTimeSeconds = UberUtility.getCurrentTimeObservable();
 
@@ -222,6 +226,9 @@ $(document).ready(function () {
             api.net.joinGame({lobbyId: lobbyId}).done(function (data) {
                 api.debug.log("Joining game", data);
                 self.isLocalGame(false);
+                self.joinLocalServer(false);
+                self.joinCustomServer(false);
+                self.serverType('uber');
                 self.gameTicket(data.Ticket);
                 self.gameHostname(data.ServerHostname);
                 self.gamePort(data.ServerPort);
