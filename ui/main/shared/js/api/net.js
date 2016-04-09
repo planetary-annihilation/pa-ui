@@ -57,16 +57,24 @@
         startGame: function(region, mode) {
             var result;
 
+            console.log( 'api.net.startGame '+ region + ' ' + mode );
+
             if (region === 'Local' || !region) {
                 var prefix = '';
                 result = $.when(prefix).then(function(data) {
+
+                    console.log(data);
+
                     return engine.asyncCall('localserver.startGame', mode, data);
                 });
             }
             else
                 result = engine.asyncCall('ubernet.startGame', region, mode);
 
-            return result.then(function(rawData) { return JSON.parse(rawData); });
+            return result.then(function(rawData) {
+                console.log(rawData);
+                return JSON.parse(rawData);
+            });
         },
 
         // Tell the network that the user should be added to the given lobby.
@@ -82,6 +90,9 @@
         //  - ServerHostname: Connection host
         //  - ServerPort: Connection port
         joinGame: function(params) {
+
+            console.log( 'api.net.joinGame ' + params.lobbyId + ' ' + params.host + ':' + params.port );
+
             var lobbyId = params.lobbyId || '';
             var host = params.host || '';
             var port = params.port || '';
@@ -93,6 +104,7 @@
 
             function internalJoinGame() {
                 engine.asyncCall('ubernet.joinGame', lobbyId).then(function(rawData) {
+                        console.log( rawData );
                         var data = {};
                         try {
                             data = JSON.parse(rawData);
@@ -129,6 +141,8 @@
         },
 
         connect: function(params) {
+            console.log( 'api.net.connect ' + params.host + ':' + params.port + ' ' + params.content );
+            console.log( JSON.stringify(params) );
             var connectionData = {
                 host: String(params.host || ''),
                 port: Number(params.port || 0),
