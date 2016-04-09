@@ -813,7 +813,7 @@ requireGW([
         self.useLocalServer = ko.observable().extend({ session: 'use_local_server' });
 
         // Local join configuration info
-        self.isLocalGame = ko.observable().extend({ session: 'isLocalGame' });
+        self.isLocalGame = ko.observable().extend({ session: 'is_local_game' });
         self.gameHostname = ko.observable().extend({ session: 'gameHostname' });
         self.gamePort = ko.observable().extend({ session: 'gamePort' });
 
@@ -823,6 +823,16 @@ requireGW([
         self.transitSecondaryMessage = ko.observable().extend({ session: 'transit_secondary_message' });
         self.transitDestination = ko.observable().extend({ session: 'transit_destination' });
         self.transitDelay = ko.observable().extend({ session: 'transit_delay' });
+
+        self.joinLocalServer = ko.observable().extend({ session: 'join_local_server' });
+        self.joinCustomServer = ko.observable().extend({ session: 'join_custom_server' });
+        self.gameModIdentifiers = ko.observable().extend({ session: 'game_mod_identifiers' });
+        self.serverType = ko.observable().extend({ session: 'game_server_type' });
+
+        self.joinLocalServer(false);
+        self.joinCustomServer(false);
+        self.gameModIdentifiers(undefined);
+        self.serverType('uber');
 
         self.devMode = ko.observable().extend({ session: 'dev_mode' });
         self.mode = ko.observable(game.mode());
@@ -967,7 +977,7 @@ requireGW([
             });
         });
 
-        self.battleConfig = ko.observable('').extend({ memory: 'gw_battle_config' });
+        self.battleConfig = ko.observable().extend({ memory: 'gw_battle_config' });
 
         self.currentStar = ko.computed(function() {
             return game.galaxy().stars()[game.currentStar()];
