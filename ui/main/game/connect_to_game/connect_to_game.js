@@ -12,6 +12,9 @@ $(document).ready(function () {
         self.displayName = ko.observable().extend({ session: 'displayName' });
         self.uberId = ko.observable().extend({ session: 'uberId' });
         self.joinLocalServer = ko.observable().extend({ session: 'join_local_server' });
+        self.joinCustomServer = ko.observable().extend({ session: 'join_custom_server' });
+
+        self.serverType = ko.observable().extend({ session: 'game_server_type' });
 
         self.lobbyId = ko.observable().extend({ session: 'lobbyId' });
         self.gameTicket = ko.observable().extend({session: 'gameTicket' });
@@ -37,10 +40,36 @@ $(document).ready(function () {
             return result;
         });
 
+        self.gameModIdentifiers = ko.observable().extend({ session: 'game_mod_identifiers' });
+        
+        self.reconnectToGameInfo = ko.observable().extend({ local: 'reconnect_to_game_info' });
+
+        self.gameInfo = ko.computed( function() {
+            var result = {
+                uberId: self.uberId(),
+                lobby_id: self.lobbyId(),
+                content: self.gameContent(),
+                uuid: self.uuid(),
+                game_hostname: self.gameHostname(),
+                game_port: self.gamePort(),
+                game_password: self.privateGamePassword(),
+                local_game: self.joinLocalServer(),
+                custom_server: self.joinCustomServer(),
+                type: self.serverType(),
+                mods: self.gameModIdentifiers(),
+                timestamp: Date.now()
+// excludes ticket
+            };
+            return result;
+        });
+
         self.pageTitle = ko.observable();
         self.pageSubTitle = ko.observable();
 
         self.fail = function(primary, secondary) {
+
+            self.reconnectToGameInfo(false);
+
             // Input parameter.
             var connectFailDestination = ko.observable().extend({ session: 'last_scene_url' });
 
@@ -96,6 +125,10 @@ $(document).ready(function () {
         self.dismissOfflineNotRecommended = function() { offlineNotRecommendedDismissed(true); };
 
         self.setup = function () {
+
+console.log('connect_to_game ' + window.location.search );
+console.log( JSON.stringify(self.gameInfo()));
+
             var action = $.url().param('action');
             var mode = $.url().param('mode') || 'Config';
             var content = $.url().param('content') || '';
@@ -115,13 +148,28 @@ $(document).ready(function () {
             connectionAttempts(DEFAULT_CONNECTION_ATTEMPTS);
 
             self.gameContent(content);
-            self.joinLocalServer(local);
-            self.isLocalGame(local);
 
+            // local parameter overrides
+            if (local) {
+                self.joinLocalServer(true);
+                self.isLocalGame(true);
+                self.joinCustomServer(false);
+            }
 
+            var serverType = self.serverType();
+
+// server type should be set in all new builds with exception of old mods
+            var isUberServer = ( serverType && serverType == 'uber' ) || ( ! serverType && ! local );
+            
             if (start) {
                 model.pageTitle(loc("!LOC:STARTING GAME"));
                 self.uuid(UberUtility.createHexUUIDString());
+
+                if (local) {
+                    self.serverType('local');
+                } else {                    
+                    self.serverType('uber');
+                }
 
                 var region = local ? 'Local' : (self.uberNetRegion() || "USCentral");
                 if (!_.isEmpty(self.gameContent()))
@@ -141,8 +189,6 @@ $(document).ready(function () {
                     self.gameHostname(data.ServerHostname);
                     self.gamePort(data.ServerPort);
                     self.lobbyId(data.LobbyID);
-                    if (!local)
-                        console.log('starting game with lobby id: ' + data.LobbyID);
                     self.connectToGame();
                 });
                 startCall.fail(function(data) {
@@ -165,14 +211,14 @@ $(document).ready(function () {
                             self.fail(loc("!LOC:FAILED TO START GAME"));
                     }
                 });
-            } else if (self.gameHostname() && self.gamePort()) {
+            } else if ( ! isUberServer && self.gameHostname() && self.gamePort()) {
                 self.connectToGame();
             } else if (self.lobbyId()) {
+// uber servers must resolve via lobbyId to obtain ticket
                 self.pageTitle(loc('!LOC:CONNECTING TO SERVER'));
                 self.pageSubTitle(loc('!LOC:REQUESTING PERMISSION'));
 
                 api.net.joinGame({lobbyId: self.lobbyId()}).done(function (data) {
-                    console.log("Joining game", data);
                     self.isLocalGame(false);
                     self.gameTicket(data.Ticket);
                     self.gameHostname(data.ServerHostname);
@@ -193,6 +239,8 @@ $(document).ready(function () {
 
     handlers = {};
     handlers.connection_failed = function (payload) {
+console.error('connection_failed');
+console.error(JSON.stringify(payload));
         if (model.shouldRetry())
             model.retryConnection();
         else
@@ -205,17 +253,20 @@ $(document).ready(function () {
     };
 
     handlers.login_accepted = function (payload) {
-        var lobbyInfo = {
-            'game_hostname': String(model.gameHostname()),
-            'game_port': Number(model.gamePort()),
-            'local_game': Boolean(model.joinLocalServer()),
-            'game_password': model.privateGamePassword(),
-            'lobby_id': model.lobbyId(),
-            'uuid': model.uuid(),
-            'content': model.gameContent(),
-        };
+console.log('login_accepted');
+// set game info for invites and direct reconnects
+        console.log(JSON.stringify(_.omit(model.gameInfo(),'game_password')));
 
-        api.Panel.message('uberbar', 'lobby_info', lobbyInfo);
+        var gameInfo = model.gameInfo();
+
+        model.reconnectToGameInfo(gameInfo);
+
+// can't invite to localhost
+        if (gameInfo.game_hostname == 'localhost') {
+            gameInfo = undefined;
+        }
+
+        api.Panel.message('uberbar', 'lobby_info', gameInfo);
 
         if (model.isLocalGame())
             model.pageTitle(loc("!LOC:ACCESSING WORLD SIMULATION"));
@@ -226,6 +277,8 @@ $(document).ready(function () {
     };
 
     handlers.login_rejected = function (payload) {
+console.error('login_rejected');
+console.error(JSON.stringify(payload));
         if (model.shouldRetry())
             model.retryConnection();
         else
@@ -245,6 +298,8 @@ $(document).ready(function () {
     };
 
     handlers.connection_disconnected = function (payload) {
+console.error('disconnected');
+console.error(JSON.stringify(payload));
         if (model.shouldRetry())
             model.retryConnection();
         else
@@ -259,6 +314,7 @@ $(document).ready(function () {
     if ( window.CommunityMods ) {
         CommunityMods();
     }
+
     loadSceneMods('connect_to_game');
 
     // Activates knockout.js
