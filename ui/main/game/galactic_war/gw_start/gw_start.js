@@ -215,7 +215,7 @@ $(document).ready(function () {
         self.newGameSeed = ko.observable(Math.floor(Math.random() * 1000000).toString());
 
         var defaultNewGameName = function () {
-            return loc('!LOC:War - __date__', { date: UberUtility.createDateString() });
+            return loc('!LOC:War - __date__', { date: UberUtility.createDateTimeString() });
         };
         self.newGameName = ko.observable(defaultNewGameName());
         self.newGameSizeIndex = ko.observable(1).extend({ numeric: 0 });
