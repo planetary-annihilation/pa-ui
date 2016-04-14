@@ -701,7 +701,7 @@ $(document).ready(function () {
 
 // send invite to game
         self.sendInviteToGame = function (uberId) {
-            var lobbyInfo = self.lobbyInfo();
+            var lobbyInfo = model.lobbyInfo();
             if (!lobbyInfo) {
                 return;
             }
@@ -721,23 +721,34 @@ $(document).ready(function () {
             jabber.sendCommand(uberId, 'decline_game_invite', {} );
         }
 
-// recevied game invite
+// received game invite
         self.maybeAddGameInvite = function (uberid, command) {
             var contact = self.idToContactMap()[uberid];
 
             if (contact.blocked())
                 return;
 
+            var payload = command.payload;
+            var info = undefined;
+            var status = '';
+
+// new invite format
+            if (payload) {
+                info = payload.info;
+                status = payload.status;
+            };
+
 // update or delete any existing invite
 
             var existing = self.gameInviteMap()[uberid];
 
             if (existing) {
-                existing.lobbyInfo(command.payload);
+                existing.lobbyInfo(info);
+                existing.lobbyStatus(status);
                 return;
             }
 
-            self.notifications.push(new NotificationViewModel({ uberid: uberid, type: command.message_type, lobbyInfo: command.payload.info, lobbyStatus: command.payload.status }));
+            self.notifications.push(new NotificationViewModel({ uberid: uberid, type: command.message_type, lobbyInfo: info, lobbyStatus: status }));
         }
 
 // received game invite accept
@@ -848,7 +859,7 @@ $(document).ready(function () {
         self.lobbyContacts = ko.observableArray([]);
 
         self.isLobbyContact = function(uberId) {
-            return model.lobbyContacts().indexOf(uberId) != -1;
+            return self.lobbyContacts().indexOf(uberId) != -1;
         };
 
         self.updateLobbyContacts = function(lobbyContacts) {
@@ -1109,27 +1120,27 @@ $(document).ready(function () {
             self.startConversationsWith(uberid, message);
         }
 
-        self.onCommand = function (uberid, command) {
-            self.maybeCreateNewContactWithId(uberid)
+        self.onCommand = function (uberId, command) {
+            self.maybeCreateNewContactWithId(uberId)
             var type = command.message_type;
-            var contact = self.idToContactMap()[uberid];
+            var contact = self.idToContactMap()[uberId];
             switch (type) {
                 case 'update_display_name': contact.requestUserName(); break;
-                case 'chat_invite': self.maybeAddChatInvite(uberid, command); break;
+                case 'chat_invite': self.maybeAddChatInvite(uberId, command); break;
                 case 'accept_chat_invite': contact.acceptChatInvite(); break;
                 case 'decline_chat_invite': contact.declineChatInvite(); break;
-                case 'friend_request': self.maybeAddFriendRequest(uberid, command); break;
+                case 'friend_request': self.maybeAddFriendRequest(uberId, command); break;
                 case 'accept_friend_request': contact.acceptFriendRequest(); break;
                 case 'decline_friend_request': contact.declineFriendRequest(); break;
                 case 'unfriend': contact.unfriend(); break;
-                case 'game_invite': self.maybeAddGameInvite(uberid, command); break;
-                case 'cancel_game_invite': self.gameInviteCancelled(uberid, command); break;
-                case 'game_invite_update': self.updateGameInvite(uberid, command); break;
-                case 'accept_game_invite': self.gameInviteAccepted(uberid, command); break;
-                case 'decline_game_invite': self.gameInviteDeclined(uberid, command); break;
+                case 'game_invite': self.maybeAddGameInvite(uberId, command); break;
+                case 'cancel_game_invite': self.gameInviteCancelled(uberId, command); break;
+                case 'game_invite_update': self.updateGameInvite(uberId, command); break;
+                case 'accept_game_invite': self.gameInviteAccepted(uberId, command); break;
+                case 'decline_game_invite': self.gameInviteDeclined(uberId, command); break;
                 case 'game_lobby_info':
 // old clients will still send game_lobby_info
-                    if (model.acceptedGameInviteFrom() === uberid) {
+                    if (model.acceptedGameInviteFrom() === uberId) {
                         model.acceptedGameInviteFrom('');
                         self.maybeJoinGameLobby(command.payload);
                     }
@@ -1153,14 +1164,14 @@ $(document).ready(function () {
                 menu.hide();
         }
 
-        var missingContent = ko.observable();
+        self.missingContent = ko.observable();
         self.maybeJoinGameLobby = function(payload)
         {
             if (payload && !_.isEmpty(payload.content))
             {
                 if (!api.content.getInfo(payload.content).owned)
                 {
-                    missingContent(payload.content);
+                    self.missingContent(payload.content);
                     $('#buyContent').modal('show');
                     return;
                 }
@@ -1168,12 +1179,12 @@ $(document).ready(function () {
             api.Panel.message('game', 'join_lobby', payload);
         }
 
-        self.missingContentDescription = function() {
-            return api.content.getInfo(missingContent()).description;
-        }
+        self.missingContentDescription = ko.computed( function() {
+            return api.content.getInfo(self.missingContent()).description;
+        });
 
         self.buyMissingContent = function() {
-            api.Panel.message('game', 'navigate_to', 'coui://ui/main/game/armory/armory.html?action=buy_content&content=' + missingContent());
+            api.Panel.message('game', 'navigate_to', 'coui://ui/main/game/armory/armory.html?action=buy_content&content=' + self.missingContent());
         };
 
         self.showUserDetails = ko.observable(false);

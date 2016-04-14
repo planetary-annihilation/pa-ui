@@ -485,6 +485,7 @@ app.registerWithCoherent = function(model, handlers) {
         var params = {
             action: 'start',
             content: api.content.activeContent(),
+            mode: 'Config'
         };
 
         if (useLocalServer())
@@ -502,8 +503,7 @@ console.log( JSON.stringify( payload ));
          This sets up the persistance channels that would normally belong in the model. */
         var gameHostname = ko.observable().extend({ session : 'gameHostname' });
         var gamePort = ko.observable().extend({ session : 'gamePort' });
-        var joinLocalServer = ko.observable().extend({ session : 'join_local_server' });
-        var joinCustomServer = ko.observable().extend({ session : 'join_custom_server' });
+        var isLocalGame = ko.observable().extend({ session: 'is_local_game' });
         var lobbyId = ko.observable().extend({ session : 'lobbyId' });
         var gameTicket = ko.observable().extend({ session: 'gameTicket' });
         var invite_uuid = ko.observable().extend({ session : 'invite_uuid' });
@@ -512,8 +512,7 @@ console.log( JSON.stringify( payload ));
         lobbyId(payload.lobby_id);
         gameHostname(payload.game_hostname);
         gamePort(payload.game_port);
-        joinLocalServer(payload.local_game);
-        joinCustomServer(payload.custom_server);
+        isLocalGame(payload.local_game);
         serverType(payload.type);
         invite_uuid(payload.uuid);
 

@@ -11,11 +11,7 @@ $(document).ready(function () {
         self.uberId = ko.observable().extend({ session: 'uberId' });
         self.signedInToUbernet = ko.observable().extend({ session: 'signed_in_to_ubernet' });
         self.buildVersion = ko.observable().extend({ session: 'build_version' });
-        self.gameTicket = ko.observable().extend({ session: 'gameTicket' });
-        self.gameHostname = ko.observable().extend({ session: 'gameHostname' });
-        self.gamePort = ko.observable().extend({ session: 'gamePort' });
-        self.joinLocalServer = ko.observable().extend({ session: 'join_local_server' });
-        self.privateGamePassword = ko.observable().extend({ session: 'private_game_password' });
+
         self.transitPrimaryMessage = ko.observable().extend({ session: 'transit_primary_message' });
         self.transitSecondaryMessage = ko.observable().extend({ session: 'transit_secondary_message' });
         self.transitDestination = ko.observable().extend({ session: 'transit_destination' });

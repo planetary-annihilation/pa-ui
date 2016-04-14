@@ -383,11 +383,9 @@
 /*----   NOTIFICATION WIDGET   ----*/
 
 .notification-wrapper {
-    display: flex;
-    justify-content: flex-end;
-    align-items: flex-end;
-    flex-grow: 1;
-    margin-bottom: 33px;
+    position: absolute;
+    right: 0;
+    bottom: 33px;
     z-index: 3;
 }
 

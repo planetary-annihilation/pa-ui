@@ -43,6 +43,12 @@ $(document).ready(function () {
         self.gameTicket = ko.observable().extend({ session: 'gameTicket' });
         self.gameHostname = ko.observable().extend({ session: 'gameHostname' });
         self.gamePort = ko.observable().extend({ session: 'gamePort' });
+
+        self.isLocalGame = ko.observable().extend({ session: 'is_local_game' });
+        self.serverType = ko.observable().extend({ session: 'game_server_type' });
+        self.serverSetup = ko.observable().extend({ session: 'game_server_setup' });
+        self.gameType = ko.observable().extend({ session: 'game_type' });
+
         self.transitPrimaryMessage = ko.observable().extend({ session: 'transit_primary_message' });
         self.transitSecondaryMessage = ko.observable().extend({ session: 'transit_secondary_message' });
         self.transitDestination = ko.observable().extend({ session: 'transit_destination' });
@@ -183,14 +189,25 @@ $(document).ready(function () {
 
             var replayId;
             var content = null;
-            if (self.currentSelectedGame() && self.currentSelectedGame().host_id > 0)
+
+            var currentSelectedGame = self.currentSelectedGame();
+
+            // currently no way to tell what type of game this is until loaded (except gw below)
+            self.gameType(undefined);
+
+            if (currentSelectedGame && currentSelectedGame.host_id > 0)
             {
-                replayId = self.currentSelectedGame().host_id;
-                if (self.currentSelectedGame().required_content)
-                    content = self.currentSelectedGame().required_content;
+                if (currentSelectedGame.gw) {
+                    self.gameType('Galactic War');
+                }
+
+                replayId = currentSelectedGame.host_id;
+                if (currentSelectedGame.required_content)
+                    content = currentSelectedGame.required_content;
             }
             else if (self.isSearchFilterLobbyId())
             {
+
                 replayId = self.searchFilter();
 
                 // Filtered lobby id can contain a content specification, in the form of
@@ -209,10 +226,13 @@ $(document).ready(function () {
                 engine.call('disable_lan_lookout');
                 self.lastSceneUrl('coui://ui/main/game/replay_browser/replay_browser.html');
 
+                self.serverSetup('replay');
+
                 var params = {
                     action: 'start',
                     replayid: replayId,
                     content: content,
+                    mode: 'Config'
                 };
                 window.location.href = 'coui://ui/main/game/connect_to_game/connect_to_game.html?' + $.param(params);
                 return; /* window.location.href will not stop execution. */
@@ -304,8 +324,13 @@ $(document).ready(function () {
                     'gw': !!(gameData.config_summary && !!gameData.config_summary.gw)
                 };
 
-                if (_.has(gameData, 'required_content'))
-                    game.required_content = gameData.required_content;
+                if (_.has(gameData, 'required_content')) {
+                    game.required_content = _.last(gameData.required_content);
+
+                    if (_.size(gameData.required_content) > 1) {
+                        console.error("replay with more than one required content");
+                    }
+               }
 
                 return game;
 

@@ -599,10 +599,19 @@ $(document).ready(function () {
         self.isTeamArmy = ko.computed(function () { return self.game_type() === 'TeamArmies' });
         self.isGalaticWar = ko.computed(function () { return self.game_type() === 'Galactic War' });
         self.isLadder1v1 = ko.computed(function () { return self.game_type() === 'Ladder1v1' });
+
+        if (object && object.game_type) {
+            model.gameType(object.game_type);
+        }
     }
 
     function LiveGameViewModel() {
         var self = this;
+
+        self.isLocalGame = ko.observable().extend({ session: 'is_local_game' });
+        self.serverType = ko.observable().extend({ session: 'game_server_type' });
+        self.serverSetup = ko.observable().extend({ session: 'game_server_setup' });
+        self.gameType = ko.observable().extend({ session: 'game_type' });
 
         self.gameOptions = new GameOptionModel();
 
@@ -2264,7 +2273,7 @@ $(document).ready(function () {
                 self.pauseSim();
 
             var text = (self.singleHumanPlayer() ? 'AI Skirmish' : 'Multiplayer Battle')
-                    + ' ' + UberUtility.createDateString();
+                    + ' ' + UberUtility.createDateTimeString();
 
             self.popUp({
                 message: '!LOC:Save Game',

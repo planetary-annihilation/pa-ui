@@ -824,15 +824,13 @@ requireGW([
         self.transitDestination = ko.observable().extend({ session: 'transit_destination' });
         self.transitDelay = ko.observable().extend({ session: 'transit_delay' });
 
-        self.joinLocalServer = ko.observable().extend({ session: 'join_local_server' });
-        self.joinCustomServer = ko.observable().extend({ session: 'join_custom_server' });
+        self.gameType = ko.observable().extend({ session: 'game_type' });
         self.gameModIdentifiers = ko.observable().extend({ session: 'game_mod_identifiers' });
         self.serverType = ko.observable().extend({ session: 'game_server_type' });
+        self.serverSetup = ko.observable().extend({ session: 'game_server_setup' });
 
-        self.joinLocalServer(false);
-        self.joinCustomServer(false);
         self.gameModIdentifiers(undefined);
-        self.serverType('uber');
+        self.gameType('Galactic War');
 
         self.devMode = ko.observable().extend({ session: 'dev_mode' });
         self.mode = ko.observable(game.mode());
@@ -1325,11 +1323,17 @@ requireGW([
                     content: game.content(),
                 };
 
-                if (self.useLocalServer())
+                if (self.useLocalServer()) {
+                    self.serverType('local');
                     params['local'] = true;
+                }
+                else {
+                    self.serverType('uber');
+                }
 
                 var connect = function () {
                     api.debug.log('start gw: ok');
+                    self.serverSetup('game');
                     window.location.href = 'coui://ui/main/game/connect_to_game/connect_to_game.html?' + $.param(params);
                 }
 
@@ -1340,6 +1344,8 @@ requireGW([
                         if (_.has(replays, game.replayName())) {
                             var paths = replays[game.replayName()];
                             api.debug.log('local gw loadsave: ok', game.replayName(), paths);
+                            self.serverSetup('loadsave');
+                            self.serverType('uber');
                             params['mode'] = 'loadsave'
                             params['loadpath'] = paths.replay;
                         } else {
@@ -1352,6 +1358,7 @@ requireGW([
                 }
                 else {
                     api.debug.log('remote gw loadsave: ok');
+                    self.serverSetup('loadsave');
                     params['mode'] = 'loadsave'
                     params['replayid'] = game.replayLobbyId();
                     connect();
