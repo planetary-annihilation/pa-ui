@@ -964,7 +964,7 @@ $(document).ready(function () {
             self.serverType('uber');
             self.serverSetup(undefined);
 
-// try to set game mod identifiers and uuid if we have matching reconnect info
+// try to set game type, mod identifiers and uuid if we have matching reconnect info
              
             var reconnectToGameInfo = self.reconnectToGameInfo();
 
