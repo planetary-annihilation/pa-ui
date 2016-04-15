@@ -1713,7 +1713,7 @@ $(document).ready(function () {
         };
 
         self.abandon = function () {
-            self.reconnectToGameInfo(undefined);
+            self.resetGameInfo();
             var removeDeferred = $.Deferred();
             $.when(self.haveUberNet() && api.net.removePlayerFromGame()).always(removeDeferred.resolve);
 
@@ -3507,6 +3507,15 @@ $(document).ready(function () {
             setTimeout(self.updateReconnectToGameInfoTimestamp, 60*1000);
         }
         self.updateReconnectToGameInfoTimestamp();
+
+        self.resetLobbyInfo = function() {
+            api.Panel.message('uberbar', 'lobby_info', undefined);            
+        };
+
+        self.resetGameInfo = function() {
+            self.reconnectToGameInfo(undefined);
+            self.resetLobbyInfo();           
+        };
     }
     model = new LiveGameViewModel();
 
@@ -3994,6 +4003,8 @@ $(document).ready(function () {
     handlers['game_over.nav'] = function(payload) {
         engine.call('pop_mouse_constraint_flag');
         engine.call("game.allowKeyboard", true);
+
+        model.resetGameInfo();
 
         if (payload.disconnect) {
             var navAway = function() {
