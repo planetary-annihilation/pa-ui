@@ -962,19 +962,23 @@ $(document).ready(function () {
             self.gamePort(null);
             self.isLocalGame(false);
             self.serverType('uber');
-            
+            self.serverSetup(undefined);
+
 // try to set game mod identifiers and uuid if we have matching reconnect info
              
             var reconnectToGameInfo = self.reconnectToGameInfo();
 
+            var gameType = undefined;
             var mods = undefined;
             var uuid = '';
 
             if ( reconnectToGameInfo && reconnectToGameInfo.lobbyId == self.lobbyId() && reconnectToGameInfo.uberId == self.uberId() ) {
+                gameType = reconnectToGameInfo.type;
                 mods = reconnectToGameInfo.mods;
                 uuid = reconnectToGameInfo.uuid;
             }
 
+            self.gameType( gameType );
             self.gameModIdentifiers( mods );
             self.uuid( uuid );
 
