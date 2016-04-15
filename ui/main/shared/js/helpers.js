@@ -508,13 +508,20 @@ console.log( JSON.stringify( payload ));
         var gameTicket = ko.observable().extend({ session: 'gameTicket' });
         var invite_uuid = ko.observable().extend({ session : 'invite_uuid' });
         var serverType = ko.observable().extend({ session: 'game_server_type' });
-            
+        var serverSetup = ko.observable().extend({ session: 'game_server_setup' });
+        var gameType = ko.observable().extend({ session: 'game_type' });
+
+        var gameModIdentifiers = ko.observable().extend({ session: 'game_mod_identifiers' });
+
         lobbyId(payload.lobby_id);
         gameHostname(payload.game_hostname);
         gamePort(payload.game_port);
         isLocalGame(payload.local_game);
         serverType(payload.type);
+        serverSetup(payload.setup);
+        gameType(payload.type);
         invite_uuid(payload.uuid);
+        gameModIdentifiers(payload.mods);
 
         window.location.href = 'coui://ui/main/game/connect_to_game/connect_to_game.html?content=' + payload.content;
     }
