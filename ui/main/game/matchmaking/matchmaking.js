@@ -424,7 +424,7 @@ $(document).ready(function () {
     }
 
     handlers.matchmaking_error = function (data) {
-        console.log(data.error);
+        console.error(data.error);
     }
 
     // inject per scene mods

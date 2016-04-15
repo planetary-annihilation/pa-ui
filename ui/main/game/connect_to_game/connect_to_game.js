@@ -170,9 +170,11 @@ console.log( JSON.stringify(self.gameInfo()));
             }
 
             var serverType = self.serverType();
-
-// server type should be set in all new builds with exception of old mods
-            var isUberServer = ( serverType && serverType == 'uber' ) || ( ! serverType && ! local );
+            var gameType = self.gameType();
+            
+// server and game type should be set in all new builds with exception of old mods
+// Ladder1v1 games are already joined
+            var needsJoinGame = ( serverType && serverType == 'uber' && gameType != 'Ladder1v1' ) || ( ! serverType && ! local );
             
             if (mode && !_.isEmpty(self.gameContent()))
                 mode = self.gameContent() + ':' + mode;
@@ -219,7 +221,7 @@ console.log( JSON.stringify(self.gameInfo()));
                             self.fail(loc("!LOC:FAILED TO START GAME"));
                     }
                 });
-            } else if ( ! isUberServer && self.gameHostname() && self.gamePort()) {
+            } else if ( ! needsJoinGame  && self.gameHostname() && self.gamePort()) {
                 self.connectToGame();
             } else if (self.lobbyId()) {
                 // uber servers must resolve via lobbyId to obtain ticket
