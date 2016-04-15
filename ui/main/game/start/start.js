@@ -1764,6 +1764,8 @@ console.log(data);
                 return false;
             }
 
+            setTimeout( function() { self.reconnectToGameInfo.valueHasMutated() }, 5000 );
+
             return true;
         });
 
