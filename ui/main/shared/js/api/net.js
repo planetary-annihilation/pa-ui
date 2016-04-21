@@ -57,13 +57,13 @@
         startGame: function(region, mode) {
             var result;
 
-            console.log( 'api.net.startGame '+ region + ' ' + mode );
+            api.debug.log( 'api.net.startGame '+ region + ' ' + mode );
 
             if (region === 'Local' || !region) {
                 var prefix = '';
                 result = $.when(prefix).then(function(data) {
 
-                    console.log(data);
+                    api.debug.log(data);
 
                     return engine.asyncCall('localserver.startGame', mode, data);
                 });
@@ -72,7 +72,7 @@
                 result = engine.asyncCall('ubernet.startGame', region, mode);
 
             return result.then(function(rawData) {
-                console.log(rawData);
+                api.debug.log(rawData);
                 return JSON.parse(rawData);
             });
         },
@@ -104,7 +104,7 @@
 
             function internalJoinGame() {
                 engine.asyncCall('ubernet.joinGame', lobbyId).then(function(rawData) {
-                        console.log( rawData );
+                        api.debug.log( rawData );
                         var data = {};
                         try {
                             data = JSON.parse(rawData);
@@ -142,7 +142,7 @@
 
         connect: function(params) {
             console.log( 'api.net.connect ' + params.host + ':' + params.port + ' ' + params.content );
-            console.log( JSON.stringify(params) );
+            api.debug.log( JSON.stringify(params) );
             var connectionData = {
                 host: String(params.host || ''),
                 port: Number(params.port || 0),
