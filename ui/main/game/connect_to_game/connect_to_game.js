@@ -132,8 +132,8 @@ $(document).ready(function () {
 
         self.setup = function () {
 
-console.log('connect_to_game ' + window.location.search );
-console.log( JSON.stringify(self.gameInfo()));
+            console.log('connect_to_game ' + window.location.search );
+            api.debug.log( JSON.stringify(self.gameInfo()));
 
             api.Panel.message('uberbar', 'lobby_info', undefined);
             api.Panel.message('uberbar', 'lobby_status', '');
@@ -221,9 +221,9 @@ console.log( JSON.stringify(self.gameInfo()));
                             self.fail(loc("!LOC:FAILED TO START GAME"));
                     }
                 });
-            } else if ( ! needsJoinGame  && self.gameHostname() && self.gamePort()) {
+            } else if ( ! needsJoinGame && self.gameHostname() && self.gamePort()) {
                 self.connectToGame();
-            } else if (self.lobbyId()) {
+            } else if ( needsJoinGame && self.lobbyId()) {
                 // uber servers must resolve via lobbyId to obtain ticket
                 self.pageTitle(loc('!LOC:CONNECTING TO SERVER'));
                 self.pageSubTitle(loc('!LOC:REQUESTING PERMISSION'));
@@ -249,8 +249,8 @@ console.log( JSON.stringify(self.gameInfo()));
 
     handlers = {};
     handlers.connection_failed = function (payload) {
-console.error('connection_failed');
-console.error(JSON.stringify(payload));
+        console.error('connection_failed');
+        console.error(JSON.stringify(payload));
         if (model.shouldRetry())
             model.retryConnection();
         else
@@ -263,9 +263,9 @@ console.error(JSON.stringify(payload));
     };
 
     handlers.login_accepted = function (payload) {
-console.log('login_accepted');
+        api.debug.log('login_accepted');
 // set game info for invites and direct reconnects
-        console.log(JSON.stringify(_.omit(model.gameInfo(),'game_password')));
+        api.debug.log(JSON.stringify(_.omit(model.gameInfo(),'game_password')));
 
         var gameInfo = model.gameInfo();
 
@@ -288,8 +288,8 @@ console.log('login_accepted');
     };
 
     handlers.login_rejected = function (payload) {
-console.error('login_rejected');
-console.error(JSON.stringify(payload));
+        console.error('login_rejected');
+        console.error(JSON.stringify(payload));
         if (model.shouldRetry())
             model.retryConnection();
         else
@@ -309,8 +309,8 @@ console.error(JSON.stringify(payload));
     };
 
     handlers.connection_disconnected = function (payload) {
-console.error('disconnected');
-console.error(JSON.stringify(payload));
+        console.error('disconnected');
+        console.error(JSON.stringify(payload));
         if (model.shouldRetry())
             model.retryConnection();
         else
