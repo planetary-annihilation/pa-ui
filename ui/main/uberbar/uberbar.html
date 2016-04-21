@@ -101,6 +101,7 @@
                                         <span>
                                             <loc>__display_name__ invited you to a game.</loc>
                                         </span>
+                                        <div class="lobby-status" data-bind="text:lobbyStatus"></div>
                                         <!-- /ko -->
                                         <!-- ko if: isChatInvite -->
                                         <span>
@@ -213,22 +214,22 @@
                 <div id="contextMenu" class="dropdown clearfix contacts">
                     <!-- ko with: selectedContact -->
                     <ul class="dropdown-menu" role="menu" aria-labelledby="dropdownMenu" style="display: block; position: static; margin-bottom: 5px;">
-                        <!-- ko if: (friend() && online()) -->
+                        <!-- ko if: canStartChat -->
                         <li><a data-bind="click: startChat" tabindex="-1" href="#"><span class="menu-action">
                             <loc>Chat</loc>
                         </span></a></li>
                         <!-- /ko -->
-                        <!-- ko if: (!friend() && !blocked()) -->
+                        <!-- ko if: canSendFriendRequest -->
                         <li><a data-bind="click: sendFriendRequest" tabindex="-1" href="#"><span class="menu-action">
                             <loc>Send Friend Request</loc>
                         </span></a></li>
                         <!-- /ko -->
-                        <!-- ko if: (!friend() && !blocked()) -->
+                        <!-- ko if: canInviteToChat -->
                         <li><a data-bind="click: sendChatInvite" tabindex="-1" href="#"><span class="menu-action">
                             <loc>Invite to Chat</loc>
                         </span></a></li>
                         <!-- /ko -->
-                        <!-- ko if: (model.readyToSendLobbyInfo()) -->
+                        <!-- ko if: canInviteToGame -->
                         <li><a data-bind="click: sendInviteToGame" tabindex="-1" href="#"><span class="menu-action">
                             <loc>Invite to game</loc>
                         </span></a></li>
@@ -265,7 +266,7 @@
                             <div style="margin: -6px 0px 12px 0px;">
                                 <div class="btn_win btn_win_min" style="float: right;" data-bind="click: togglePinSocialWidget"></div>
                             </div>
-                            <!---USER CONTAINER---->
+                            <!-- USER CONTAINER -->
                             <div class="div-user-profile-container">
                                 <div class="fill">
                                     <div class="user-profile-controls">
@@ -296,7 +297,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <!---CONTACTS CONTAINER---->
+                            <!-- CONTACTS CONTAINER -->
                             <div class="div-contacts-cont">
                                 <div class="div-tab-controls-cont">
                                     <ul id="contacts-tabs" class="nav nav-tabs">
@@ -333,7 +334,7 @@
                                     </div>
                                 </script>
 
-                                <!---CONTACTS TABS---->
+                                <!-- CONTACTS TABS -->
                                 <div class="div-contacts-cont tab-content">
                                     <!--- TABS--->
                                     <div class="tab-pane active tabs-contacts" id="friends-pane">

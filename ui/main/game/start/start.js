@@ -354,8 +354,6 @@ $(document).ready(function () {
 
         self.passwordConfirm = ko.observable('');
 
-        self.isLocalGame = ko.observable(false).extend({ session: 'isLocalGame' });
-
         self.commanderImageLoadedClass = ko.observable();
         var hasLoadedImage = false;
 
@@ -396,11 +394,21 @@ $(document).ready(function () {
             self.loadPreferredCommanderImage();
         });
 
-        self.lobbyId = ko.observable();
-        self.reconnectContent = ko.observable();
+        self.lobbyId = ko.observable().extend({ session: 'lobbyId' });
+        self.reconnectContent = ko.observable().extend({ session: 'game_content' });
+
         self.gameTicket = ko.observable('').extend({ session: 'gameTicket' });
         self.gameHostname = ko.observable().extend({ session: 'gameHostname' });
         self.gamePort = ko.observable().extend({ session: 'gamePort' });
+
+        self.isLocalGame = ko.observable().extend({ session: 'is_local_game' });
+        self.serverType = ko.observable().extend({ session: 'game_server_type' });
+        self.gameModIdentifiers = ko.observable().extend({ session: 'game_mod_identifiers' });
+        self.serverSetup = ko.observable().extend({ session: 'game_server_setup' });
+        self.gameType = ko.observable().extend({ session: 'game_type' });
+        self.uuid = ko.observable('').extend({ session: 'invite_uuid' });
+        self.privateGamePassword = ko.observable().extend({ session: 'private_game_password' });
+        self.privateGamePassword('');
 
         self.password = ko.observable('');
         self.uberName = ko.observable('').extend({ local: 'uberName' });
@@ -950,15 +958,29 @@ $(document).ready(function () {
         self.rejoinGame = function () {
             self.showReconnect(false);
 
-            var gameHostname = ko.observable().extend({ session: 'gameHostname' });
-            var gamePort = ko.observable().extend({ session: 'gamePort' });
-            var joinLocalServer = ko.observable().extend({ session: 'join_local_server' });
-            var lobbyId = ko.observable().extend({ session: 'lobbyId' });
+            self.gameHostname(null);
+            self.gamePort(null);
+            self.isLocalGame(false);
+            self.serverType('uber');
+            self.serverSetup(undefined);
 
-            lobbyId(self.lobbyId());
-            gameHostname(null);
-            gamePort(null);
-            joinLocalServer(false);
+// try to set game type, mod identifiers and uuid if we have matching reconnect info
+             
+            var reconnectToGameInfo = self.reconnectToGameInfo();
+
+            var gameType = undefined;
+            var mods = undefined;
+            var uuid = '';
+
+            if ( reconnectToGameInfo && reconnectToGameInfo.lobbyId == self.lobbyId() && reconnectToGameInfo.uberId == self.uberId() ) {
+                gameType = reconnectToGameInfo.type;
+                mods = reconnectToGameInfo.mods;
+                uuid = reconnectToGameInfo.uuid;
+            }
+
+            self.gameType( gameType );
+            self.gameModIdentifiers( mods );
+            self.uuid( uuid );
 
             var params = {
                 content: self.reconnectContent(),
@@ -972,6 +994,8 @@ $(document).ready(function () {
 
         self.getGameWithPlayer = function () {
             engine.asyncCall("ubernet.getGameWithPlayer").done(function (data) {
+console.log('ubernet.getGameWithPlayer');
+console.log(data);
                 data = JSON.parse(data);
                 if (data.PlayerInGame) {
                     // show reconnect / abandon
@@ -1651,6 +1675,7 @@ $(document).ready(function () {
             self.fetchMiniboard();
 
             api.Panel.message('uberbar', 'lobby_info' /*, undefined */);
+            api.Panel.message('uberbar', 'lobby_status', '');
             api.Panel.message('uberbar', 'visible', { value: true });
             api.Panel.message(gPanelParentId, 'live_game_uberbar', { 'value': false });
 
@@ -1696,7 +1721,82 @@ $(document).ready(function () {
             self.customServersRefresh(data.refresh || 5000);
             self.customServersRetry(data.retry || 30000);
         });
+
+        self.reconnectToGameInfo = ko.observable().extend({ local: 'reconnect_to_game_info' });
+
+        self.reconnectToGameInfoMaxAge = ko.observable( 5 * 60 * 1000 );
+
+        self.canDirectReconnect = ko.computed( function() {
+            var reconnectToGameInfo = self.reconnectToGameInfo();
+
+            if ( !reconnectToGameInfo ) {
+                return false;
+            }
+
+            var allowUbernetActions = self.allowUbernetActions();
+            var serverType = reconnectToGameInfo.type;
+            var serverSetup = reconnectToGameInfo.setup;
+            var gameType = reconnectToGameInfo.game;
+
+            if (gameType == 'Galactic War' || serverSetup == 'replay' || serverSetup == 'loadsave') {
+                return false;
+            }
+
+// must be logged in for ranked and uber servers
+
+            if ( !allowUbernetActions && ( serverType == 'uber' )) {
+                return false;
+            }
+
+            var uberId = reconnectToGameInfo.uberId;
+
+// must be same user
+
+            if ( uberId && self.uberId() != uberId ) {
+                return false;
+            }
+
+            var timestamp = reconnectToGameInfo.timestamp;
+
+// ignore and reset if older than reconnectToGameInfoMaxAge
+            if ( timestamp && timestamp < ( Date.now() - self.reconnectToGameInfoMaxAge() ) ) {
+                self.reconnectToGameInfo(undefined);
+                return false;
+            }
+
+            setTimeout( function() { self.reconnectToGameInfo.valueHasMutated() }, 5000 );
+
+            return true;
+        });
+
+        self.directReconnect = function() {
+console.log(JSON.stringify(self.reconnectToGameInfo()));  
+
+            if ( !self.canDirectReconnect() ) {
+                return;
+            }
+
+            var reconnectToGameInfo = self.reconnectToGameInfo();
+
+            self.lobbyId( reconnectToGameInfo.lobby_id );
+            self.uuid( reconnectToGameInfo.uuid );
+            self.reconnectContent( reconnectToGameInfo.content );
+            self.serverType( reconnectToGameInfo.type );
+
+            self.gameHostname( reconnectToGameInfo.game_hostname );
+            self.gamePort( reconnectToGameInfo.game_port );
+
+            self.gameModIdentifiers( reconnectToGameInfo.mods );
+
+            self.privateGamePassword( reconnectToGameInfo.password );
+
+            var params = {
+                content: self.reconnectContent(),
+            };
+            window.location.href = 'coui://ui/main/game/connect_to_game/connect_to_game.html?' + $.param(params);
+        };
     }
+
     model = new LoginViewModel();
 
     handlers = {};

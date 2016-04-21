@@ -13,9 +13,18 @@ $(document).ready(function () {
         self.gameTicket = ko.observable().extend({ session: 'gameTicket' });
         self.gameHostname = ko.observable().extend({ session: 'gameHostname' });
         self.gamePort = ko.observable().extend({ session: 'gamePort' });
+
+        // deprecated and no longer used
         self.joinLocalServer = ko.observable().extend({ session: 'join_local_server' });
+        //
         self.joinCustomServer = ko.observable().extend({ session: 'join_custom_server' });
+
+        self.isLocalGame = ko.observable().extend({ session: 'is_local_game' });
         self.privateGamePassword = ko.observable().extend({ session: 'private_game_password' });
+        self.gameModIdentifiers = ko.observable().extend({ session: 'game_mod_identifiers' });
+        self.serverType = ko.observable().extend({ session: 'game_server_type' });
+        self.serverSetup = ko.observable().extend({ session: 'game_server_setup' });
+        self.gameType = ko.observable().extend({ session: 'game_type' });
         self.transitPrimaryMessage = ko.observable().extend({ session: 'transit_primary_message' });
         self.transitSecondaryMessage = ko.observable().extend({ session: 'transit_secondary_message' });
         self.transitDestination = ko.observable().extend({ session: 'transit_destination' });
@@ -25,6 +34,7 @@ $(document).ready(function () {
         self.useLocalServer = ko.observable().extend({ session: 'use_local_server' });
 
         self.lobbyId = ko.observable().extend({ session: 'lobbyId' });
+        self.uuid = ko.observable('').extend({ session: 'invite_uuid' });
 
         // Stuff for dealing with locked games
         self.privateGamePassword = ko.observable().extend({ session: 'private_game_password' });
@@ -455,8 +465,12 @@ $(document).ready(function () {
             self.lobbyId(game.lobby_id);
             self.gameHostname(game.host);
             self.gamePort(game.port);
-            self.joinLocalServer(game.server_type == 'local');
-            self.joinCustomServer(game.server_type == 'custom');
+            self.isLocalGame(game.server_type == 'local');
+            self.uuid(game.uuid);
+            self.serverType(game.server_type);
+            self.serverSetup('game');
+            self.gameType(game.mode);
+            self.gameModIdentifiers(game.mod_identifiers);
 
             var params = {};
             if (_.has(game, 'required_content'))
@@ -762,11 +776,11 @@ $(document).ready(function () {
                     self.customGameList(newGameList);
 
                     if (self.autoRefresh())
-                        updateCustomServerGamesTimeout = setTimeout(self.updateCustomServerGames, self.customServersRefresh());
+                        updateCustomServerGamesTimeout = setTimeout(self.updateCustomServerGames, self.customServersRefresh() || 5000);
                 })
                 .fail(function (data) {
                     if (self.autoRefresh())
-                        updateCustomServerGamesTimeout = setTimeout(self.updateCustomServerGames, self.customServersRetry());
+                        updateCustomServerGamesTimeout = setTimeout(self.updateCustomServerGames, self.customServersRetry() || 30000);
                 });
         }
     }
