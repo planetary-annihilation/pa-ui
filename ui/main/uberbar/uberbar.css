@@ -383,11 +383,9 @@
 /*----   NOTIFICATION WIDGET   ----*/
 
 .notification-wrapper {
-    display: flex;
-    justify-content: flex-end;
-    align-items: flex-end;
-    flex-grow: 1;
-    margin-bottom: 33px;
+    position: absolute;
+    right: 0;
+    bottom: 33px;
     z-index: 3;
 }
 
@@ -438,11 +436,12 @@
 }
 
 .div-notification-body {
-    height: 70px;
+    min-height: 65px;
     width: 340px;
     display: inline-block;
     font-size: 14px;
     vertical-align: middle;
+    margin-bottom: 10px;
 }
 
 .div-notification-ctrls {
@@ -450,7 +449,12 @@
 }
 
 .div-notification-msg {
-    margin: 10px 0px 0px 8px;
+    margin: 10px 15px 0px 8px;
+    overflow: hidden;
+}
+
+div.lobby-status {
+    font-size: 12px;
 }
 
 .btn-notification {

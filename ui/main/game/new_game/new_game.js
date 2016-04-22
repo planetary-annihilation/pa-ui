@@ -86,7 +86,6 @@ $(document).ready(function () {
             model.colorPickerSlot(null);
         });
 
-
         self.secondaryColorIndex.subscribe(function (value) {
             if (self.lockColorIndex())
                 return;
@@ -407,6 +406,8 @@ $(document).ready(function () {
     function NewGameViewModel() {
         var self = this;
 
+        self.reconnectToGameInfo = ko.observable().extend({ local: 'reconnect_to_game_info' });
+
         self.returnFromLoad = ko.observable(!!$.url().param('returnFromLoad'));
 
         self.userTriggeredDisconnect = ko.observable(false);
@@ -441,8 +442,17 @@ $(document).ready(function () {
             self.changeSettings();
         });
 
+        self.spectators = ko.observableArray([]);
+        self.spectatorCount = ko.computed(function() {
+            return self.spectators().length;
+        });
+        self.emptySpectatorSlots = ko.computed(function() {
+// avoid negative when format changed creating players without armies 
+            return Math.max(0, self.spectatorLimit() - self.spectatorCount());
+        });
+
         self.showSpectators = ko.computed(function () {
-            return self.spectatorLimit() > 0 || self.playersWithoutArmies().length;
+            return self.spectatorLimit() > 0 || self.spectatorCount();
         });
 
         // Set up dynamic sizing elements
@@ -555,8 +565,8 @@ $(document).ready(function () {
             if (self.thisPlayerIsReady())
                 return false;
 
-            return (self.spectatorLimit() - self.playersWithoutArmies().length) > 0
-                    && !_.contains(_.pluck(self.playersWithoutArmies(), 'name'), self.displayName())
+            return self.emptySpectatorSlots() > 0
+                    && !_.contains(_.pluck(self.spectators(), 'name'), self.displayName())
         });
 
         self.leaveArmy = function (options /* force */) {
@@ -648,7 +658,10 @@ $(document).ready(function () {
             self.isPublicGame(false);
             self.changeSettings();
         };
-        self.privateGamePassword = ko.observable().extend({ rateLimit: { timeout: 1000, method: "notifyWhenChangesStop" } });
+
+// preserve password on refresh or when connecting to password protected custom servers
+        self.privateGamePassword = ko.observable().extend({ session: 'private_game_password', rateLimit: { timeout: 1000, method: "notifyWhenChangesStop" } });
+
         self.privateGamePassword.subscribe(self.changeBouncer);
 
         self.friends = ko.observableArray([]).extend({ session: 'friends' });
@@ -746,9 +759,6 @@ $(document).ready(function () {
 
 
         self.armies = ko.observableArray([]);
-
-        self.spectators = ko.observableArray([]);
-
 
         self.nextSceneUrl = ko.observable().extend({ session: 'next_scene_url' });
 
@@ -1022,6 +1032,14 @@ $(document).ready(function () {
 
             if (!self.allPlayersAreReady())
                 return;
+
+ // update invite if spectator slots available otherise reset to cancel invites
+            if (self.emptySpectatorSlots() > 0) {
+                self.sendLobbyStatus(loc('Started') + ' ' + self.lobbyFormat());
+            }
+            else {
+                self.resetLobbyInfo();
+            }
 
             api.audio.playSound('/SE/UI/UI_lobby_start_button');
             self.send_message('start_game', {
@@ -1996,10 +2014,11 @@ $(document).ready(function () {
 
 // always return to start via transit for community mods reset
         self.navToStart = function () {
-            model.transitPrimaryMessage(loc('!LOC:Returning to Main Menu'));
-            model.transitSecondaryMessage('');
-            model.transitDestination('coui://ui/main/game/start/start.html');
-            model.transitDelay(0);
+            self.resetGameInfo();
+            self.transitPrimaryMessage(loc('!LOC:Returning to Main Menu'));
+            self.transitSecondaryMessage('');
+            self.transitDestination('coui://ui/main/game/start/start.html');
+            self.transitDelay(0);
             window.location.href = 'coui://ui/main/game/transit/transit.html';
             return; /* window.location.href will not stop execution. */
         };
@@ -2129,7 +2148,158 @@ $(document).ready(function () {
         var offlineNotRecommendedDismissed = ko.observable(false).extend({ session: 'offline_not_recommended_warning_dismissed' });
         self.showOfflineNotRecommended = ko.pureComputed(function() { return self.isLocalGame() && !localServerRecommended() && !offlineNotRecommendedDismissed(); });
         self.dismissOfflineNotRecommended = function() { offlineNotRecommendedDismissed(true); };
+
+        self.resetLobbyInfo = function() {
+            api.Panel.message('uberbar', 'lobby_info', undefined);            
+        };
+
+        self.resetGameInfo = function() {
+            self.reconnectToGameInfo(undefined);
+            self.resetLobbyInfo();           
+        };
+
+        self.privateGamePassword.subscribe( function(password) {
+            api.Panel.message( 'uberbar', 'lobby_password', { password: password } );
+        });
+
+        self.lobbyFormat = ko.computed( function() {
+
+            var format = '';
+
+            try {
+
+                var gameType = self.gameType();
+                var isTeamGame = self.isTeamGame();
+                var players = self.playerCount();
+                var armies = self.armies();    
+
+                switch ( gameType ) {
+                    case 'FreeForAll': gameType = 'FFA'; break;
+                    case 'TeamArmies': gameType = 'Team'; break;
+                    case 'Galactic War': gameType = 'GW'; break;
+                    case 'Ladder1v1': gameType = 'Ranked'; break;
+                }
+
+                if ( players > 1 )
+                {
+                    if ( players == 2 )
+                    {
+                        format = '1v1';
+                        
+                        if ( gameType == 'Ranked' )
+                        {
+                            format = format + ' ' + gameType;
+                        }
+                    }
+                    else
+                    {
+                        format = players + ' ' + gameType;
+                    }
+                
+                    var shared = false;
+                    
+                    if ( isTeamGame )
+                    {   
+                        var counts = [];
+                        
+                        _.forEach( armies, function( army )
+                        {
+                            counts.push( army.slots().length );
+                            
+                            if ( ! army.alliance() )
+                            {
+                                shared = true;
+                            }
+                        });
+                        
+                        if ( players > 2 )
+                        {
+                            format = counts.join( 'v' ) + ' ' + ( shared ? 'shared' : 'unshared' );
+                        }
+                    }
+                
+                }
+            }
+            catch ( e ) {
+                console.error( JSON.stringify( e ) );
+            }
+
+            return format;
+
+        }).extend({
+            rateLimit: 1000
+        });
+
+        self.lobbyStatus = ko.computed( function() {
+
+            var status = '';
+
+            try
+            {
+
+                var format = self.lobbyFormat();
+
+                if ( !format ) {
+                    return '';
+                }
+
+                var isGameCreator = self.isGameCreator();
+                var requiredContent = self.requiredContent();
+                var players = self.playerCount();
+                var emptySlots = self.numberOfEmptySlots();
+
+                var items = [];
+
+                items.push( isGameCreator ? 'Hosting' : 'Joined' );
+
+                if ( ! requiredContent ) {
+                    items.push('classic');
+                }
+
+                items.push(format);
+
+                if (emptySlots == 0) {
+                    items.push( '(full)' );
+                }
+                else if ( players > 2 && emptySlots > 0 ) {
+                    items.push('(' + emptySlots + ' more)');
+                }
+
+                var status = items.join(' ');
+
+                self.sendLobbyStatus(status);
+
+            }
+            catch ( e ) {
+                console.error( JSON.stringify( e ) );
+            }
+
+            return status;
+
+        }).extend({
+            rateLimit: 1000
+        });
+
+        self.sendLobbyStatus = function(status) {
+            api.Panel.message( 'uberbar', 'lobby_status', { status: status } );
+        }
+
+        self.serverModsLoaded = ko.observable(false);
+        self.serverModsUpdated = ko.observable(false);
+
+// update the timestamp in reconnect to game info every minute
+        self.updateReconnectToGameInfoTimestamp = function() {
+            var reconnectToGameInfo = self.reconnectToGameInfo();
+            if (!reconnectToGameInfo) {
+                return;
+            }
+            reconnectToGameInfo.timestamp = Date.now();
+            self.reconnectToGameInfo.valueHasMutated();
+            setTimeout(self.updateReconnectToGameInfoTimestamp, 60*1000);
+        }
+        self.updateReconnectToGameInfoTimestamp();
     }
+
     model = new NewGameViewModel();
 
     handlers = {};
@@ -2191,6 +2361,7 @@ $(document).ready(function () {
         prev_players = payload;
 
         var orphans = [];
+        var contacts = [];
 
         _.invoke(model.armies(), 'dirtySlots');
 
@@ -2225,12 +2396,13 @@ $(document).ready(function () {
             else
                 orphans.push(element);
 
-            if (!model.lobbyContactsMap()[element.id])
-                model.lobbyContacts.push(element.id);
+            contacts.push(element.id);
         });
 
         _.invoke(model.armies(), 'cleanupSlots');
         model.playersWithoutArmies(orphans);
+        model.spectators(orphans);
+        model.lobbyContacts(contacts);
 
         model.allPlayersAreReady(ready);
     }
@@ -2335,7 +2507,7 @@ $(document).ready(function () {
     handlers.connection_disconnected = function (payload) {
         if (model.userTriggeredDisconnect())
             return;
-
+        model.resetLobbyInfo();
         model.transitPrimaryMessage(loc('!LOC:CONNECTION TO SERVER LOST'));
         model.transitSecondaryMessage(loc('!LOC:Returning to Main Menu'));
         model.transitDestination('coui://ui/main/game/start/start.html');
@@ -2355,9 +2527,11 @@ $(document).ready(function () {
     handlers.mount_mod_file_data = function (payload) {
         api.debug.log("Mounting mod file data: " + JSON.stringify(payload));
         api.mods.mountModFileData();
+        model.serverModsLoaded(true);
     }
 
     handlers.server_mod_info_updated = function (payload) {
+        model.serverModsUpdated(true);
         model.updateActiveModAndCheatText();
     }
 

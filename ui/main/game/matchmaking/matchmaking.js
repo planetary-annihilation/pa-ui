@@ -6,12 +6,17 @@ $(document).ready(function () {
         var self = this;
 
         self.lobbyId = ko.observable('');
-        self.isLocalGame = ko.observable(false).extend({ session: 'isLocalGame' });
+        self.isLocalGame = ko.observable(false).extend({ session: 'is_local_game' });
         self.gameTicket = ko.observable('').extend({ session: 'gameTicket' });
         self.gameHostname = ko.observable().extend({ session: 'gameHostname' });
         self.gamePort = ko.observable().extend({ session: 'gamePort' });
         self.connectionAttempts = ko.observable().extend({ session: 'connection_attempts' });
         self.connectionRetryDelaySeconds = ko.observable().extend({ session: 'connection_retry_delay_seconds' })
+
+        self.serverType = ko.observable().extend({ session: 'game_server_type' });
+        self.serverSetup = ko.observable().extend({ session: 'game_server_setup' });
+        self.gameType = ko.observable().extend({ session: 'game_type' });
+        self.gameModIdentifiers = ko.observable().extend({ session: 'game_mod_identifiers' });
 
         self.currentTimeSeconds = UberUtility.getCurrentTimeObservable();
 
@@ -222,6 +227,10 @@ $(document).ready(function () {
             api.net.joinGame({lobbyId: lobbyId}).done(function (data) {
                 api.debug.log("Joining game", data);
                 self.isLocalGame(false);
+                self.serverType('uber');
+                self.serverSetup('game');
+                self.gameType('Ladder1v1');
+                self.gameModIdentifiers(undefined);
                 self.gameTicket(data.Ticket);
                 self.gameHostname(data.ServerHostname);
                 self.gamePort(data.ServerPort);
@@ -415,7 +424,7 @@ $(document).ready(function () {
     }
 
     handlers.matchmaking_error = function (data) {
-        console.log(data.error);
+        console.error(data.error);
     }
 
     // inject per scene mods
