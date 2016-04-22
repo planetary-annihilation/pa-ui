@@ -485,6 +485,7 @@ app.registerWithCoherent = function(model, handlers) {
         var params = {
             action: 'start',
             content: api.content.activeContent(),
+            mode: 'Config'
         };
 
         if (useLocalServer())
@@ -495,34 +496,32 @@ app.registerWithCoherent = function(model, handlers) {
 
     globalHandlers.join_lobby = function(payload) {
 
+console.log( 'join_lobby' );
+console.log( JSON.stringify( payload ));
+
         /* Since this is a global handler we can't make any assumptions about the model.
          This sets up the persistance channels that would normally belong in the model. */
-        var gameHostname = ko.observable().extend({
-            session : 'gameHostname'
-        });
-        var gamePort = ko.observable().extend({
-            session : 'gamePort'
-        });
-        var joinLocalServer = ko.observable().extend({
-            session : 'join_local_server'
-        });
-        var joinCustomServer = ko.observable().extend({
-            session : 'join_custom_server'
-        });
-        var lobbyId = ko.observable().extend({
-            session : 'lobbyId'
-        });
+        var gameHostname = ko.observable().extend({ session : 'gameHostname' });
+        var gamePort = ko.observable().extend({ session : 'gamePort' });
+        var isLocalGame = ko.observable().extend({ session: 'is_local_game' });
+        var lobbyId = ko.observable().extend({ session : 'lobbyId' });
+        var gameTicket = ko.observable().extend({ session: 'gameTicket' });
+        var invite_uuid = ko.observable().extend({ session : 'invite_uuid' });
+        var serverType = ko.observable().extend({ session: 'game_server_type' });
+        var serverSetup = ko.observable().extend({ session: 'game_server_setup' });
+        var gameType = ko.observable().extend({ session: 'game_type' });
+
+        var gameModIdentifiers = ko.observable().extend({ session: 'game_mod_identifiers' });
 
         lobbyId(payload.lobby_id);
         gameHostname(payload.game_hostname);
         gamePort(payload.game_port);
-        joinLocalServer(payload.local_game);
-        joinCustomServer(payload.custom_server);
-
-        var invite_uuid = ko.observable().extend({
-            session : 'invite_uuid'
-        });
+        isLocalGame(payload.local_game);
+        serverType(payload.type);
+        serverSetup(payload.setup);
+        gameType(payload.type);
         invite_uuid(payload.uuid);
+        gameModIdentifiers(payload.mods);
 
         window.location.href = 'coui://ui/main/game/connect_to_game/connect_to_game.html?content=' + payload.content;
     }

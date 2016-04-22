@@ -56,7 +56,10 @@
         /* read db_key from local storage */
         var db_key = window.localStorage[local_name];
 
-        function subscribe() {
+        target.ready = $.Deferred();
+
+        function ready() {
+            target.ready.resolve(target.peek());
             target.subscribe(function (new_value) {
                 DataUtility.updateObject(database_name, db_key, new_value);
             });
@@ -65,7 +68,7 @@
         DataUtility.readObject(database_name, db_key).then(function (read_result) {
             if (read_result) { /* key was valid */
                 target(read_result);
-                subscribe();
+                ready();
                 return;
             }
 
@@ -78,13 +81,14 @@
             DataUtility.addObject(database_name, target_value).then(function (add_result) {
                 if (!add_result) {
                     console.log('KO Utility: db add failed.');
+                    target.ready.reject();
                     return;
                 }
 
                 db_key = add_result;
                 window.localStorage[local_name] = db_key;
                 target(target_value);
-                subscribe();
+                ready();
             });
         });
     };

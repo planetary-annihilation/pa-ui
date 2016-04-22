@@ -11,7 +11,13 @@ $(document).ready(function () {
 
         self.displayName = ko.observable().extend({ session: 'displayName' });
         self.uberId = ko.observable().extend({ session: 'uberId' });
+
+        // deprecated and no longer used
         self.joinLocalServer = ko.observable().extend({ session: 'join_local_server' });
+        //
+
+        self.serverType = ko.observable().extend({ session: 'game_server_type' });
+        self.serverSetup = ko.observable().extend({ session: 'game_server_setup' });
 
         self.lobbyId = ko.observable().extend({ session: 'lobbyId' });
         self.gameTicket = ko.observable().extend({session: 'gameTicket' });
@@ -24,6 +30,8 @@ $(document).ready(function () {
 
         self.gameContent = ko.observable().extend({ session: 'game_content' });
         self.isLocalGame = ko.observable().extend({ session: 'is_local_game' });
+        self.gameType = ko.observable().extend({ session: 'game_type' });
+
         self.isPrivateGame = ko.observable().extend({ session: 'is_private_game' });
         self.privateGamePassword = ko.observable().extend({ session: 'private_game_password' });
         self.uuid = ko.observable('').extend({ session: 'invite_uuid' });
@@ -37,10 +45,37 @@ $(document).ready(function () {
             return result;
         });
 
+        self.gameModIdentifiers = ko.observable().extend({ session: 'game_mod_identifiers' });
+        
+        self.reconnectToGameInfo = ko.observable().extend({ local: 'reconnect_to_game_info' });
+
+        self.gameInfo = ko.computed( function() {
+            var result = {
+                uberId: self.uberId(),
+                lobby_id: self.lobbyId(),
+                content: self.gameContent(),
+                uuid: self.uuid(),
+                game_hostname: self.gameHostname(),
+                game_port: self.gamePort(),
+                game_password: self.privateGamePassword(),
+                local_game: self.isLocalGame(),
+                type: self.serverType(),
+                setup: self.serverSetup(),
+                game: self.gameType(),
+                mods: self.gameModIdentifiers(),
+                timestamp: Date.now()
+// excludes ticket
+            };
+            return result;
+        });
+
         self.pageTitle = ko.observable();
         self.pageSubTitle = ko.observable();
 
         self.fail = function(primary, secondary) {
+
+            self.reconnectToGameInfo(false);
+
             // Input parameter.
             var connectFailDestination = ko.observable().extend({ session: 'last_scene_url' });
 
@@ -96,6 +131,13 @@ $(document).ready(function () {
         self.dismissOfflineNotRecommended = function() { offlineNotRecommendedDismissed(true); };
 
         self.setup = function () {
+
+            console.log('connect_to_game ' + window.location.search );
+            api.debug.log( JSON.stringify(self.gameInfo()));
+
+            api.Panel.message('uberbar', 'lobby_info', undefined);
+            api.Panel.message('uberbar', 'lobby_status', '');
+
             var action = $.url().param('action');
             var mode = $.url().param('mode') || 'Config';
             var content = $.url().param('content') || '';
@@ -105,27 +147,43 @@ $(document).ready(function () {
             var loadpath = $.url().param('loadpath');
             var loadtime = $.url().attr().fragment;
 
-            if (loadtime)
-                loadpath = loadpath + "#" + loadtime;
-
             var start = action === 'start';
+
+            if (loadtime) {
+                loadpath = loadpath + "#" + loadtime;
+            }
 
             var connectionAttempts = ko.observable(DEFAULT_CONNECTION_ATTEMPTS).extend({ session: 'connection_attempts' });
             self.connectionAttemptsRemaining = connectionAttempts() | 0;
             connectionAttempts(DEFAULT_CONNECTION_ATTEMPTS);
 
             self.gameContent(content);
-            self.joinLocalServer(local);
-            self.isLocalGame(local);
 
+            // local parameter overrides
+            if (local) {
+                self.isLocalGame(true);
+                self.serverType('local');
+            }
+            else if (start) {
+                self.isLocalGame(false);
+                self.serverType('uber');
+            }
 
+            var serverType = self.serverType();
+            var gameType = self.gameType();
+            
+// server and game type should be set in all new builds with exception of old mods
+// Ladder1v1 games are already joined
+            var needsJoinGame = ( serverType && serverType == 'uber' && gameType != 'Ladder1v1' ) || ( ! serverType && ! local );
+            
+            if (mode && !_.isEmpty(self.gameContent()))
+                mode = self.gameContent() + ':' + mode;
+            
             if (start) {
                 model.pageTitle(loc("!LOC:STARTING GAME"));
                 self.uuid(UberUtility.createHexUUIDString());
 
                 var region = local ? 'Local' : (self.uberNetRegion() || "USCentral");
-                if (!_.isEmpty(self.gameContent()))
-                    mode = self.gameContent() + ':' + mode;
 
                 var startCall;
 
@@ -141,8 +199,6 @@ $(document).ready(function () {
                     self.gameHostname(data.ServerHostname);
                     self.gamePort(data.ServerPort);
                     self.lobbyId(data.LobbyID);
-                    if (!local)
-                        console.log('starting game with lobby id: ' + data.LobbyID);
                     self.connectToGame();
                 });
                 startCall.fail(function(data) {
@@ -165,14 +221,14 @@ $(document).ready(function () {
                             self.fail(loc("!LOC:FAILED TO START GAME"));
                     }
                 });
-            } else if (self.gameHostname() && self.gamePort()) {
+            } else if ( ! needsJoinGame && self.gameHostname() && self.gamePort()) {
                 self.connectToGame();
-            } else if (self.lobbyId()) {
+            } else if ( needsJoinGame && self.lobbyId()) {
+                // uber servers must resolve via lobbyId to obtain ticket
                 self.pageTitle(loc('!LOC:CONNECTING TO SERVER'));
                 self.pageSubTitle(loc('!LOC:REQUESTING PERMISSION'));
 
                 api.net.joinGame({lobbyId: self.lobbyId()}).done(function (data) {
-                    console.log("Joining game", data);
                     self.isLocalGame(false);
                     self.gameTicket(data.Ticket);
                     self.gameHostname(data.ServerHostname);
@@ -193,6 +249,8 @@ $(document).ready(function () {
 
     handlers = {};
     handlers.connection_failed = function (payload) {
+        console.error('connection_failed');
+        console.error(JSON.stringify(payload));
         if (model.shouldRetry())
             model.retryConnection();
         else
@@ -205,17 +263,21 @@ $(document).ready(function () {
     };
 
     handlers.login_accepted = function (payload) {
-        var lobbyInfo = {
-            'game_hostname': String(model.gameHostname()),
-            'game_port': Number(model.gamePort()),
-            'local_game': Boolean(model.joinLocalServer()),
-            'game_password': model.privateGamePassword(),
-            'lobby_id': model.lobbyId(),
-            'uuid': model.uuid(),
-            'content': model.gameContent(),
-        };
+        api.debug.log('login_accepted');
+// set game info for invites and direct reconnects
+        api.debug.log(JSON.stringify(_.omit(model.gameInfo(),'game_password')));
 
-        api.Panel.message('uberbar', 'lobby_info', lobbyInfo);
+        var gameInfo = model.gameInfo();
+
+        model.reconnectToGameInfo(gameInfo);
+
+// can't invite to localhost, replays or resumed games
+        if (gameInfo.game_hostname == 'localhost' || gameInfo.setup == 'replay' || gameInfo.setup == 'loadsave') {
+            gameInfo = undefined;
+        }
+
+        api.Panel.message('uberbar', 'lobby_info', gameInfo);
+        api.Panel.message('uberbar', 'lobby_status', '');
 
         if (model.isLocalGame())
             model.pageTitle(loc("!LOC:ACCESSING WORLD SIMULATION"));
@@ -226,6 +288,8 @@ $(document).ready(function () {
     };
 
     handlers.login_rejected = function (payload) {
+        console.error('login_rejected');
+        console.error(JSON.stringify(payload));
         if (model.shouldRetry())
             model.retryConnection();
         else
@@ -245,6 +309,8 @@ $(document).ready(function () {
     };
 
     handlers.connection_disconnected = function (payload) {
+        console.error('disconnected');
+        console.error(JSON.stringify(payload));
         if (model.shouldRetry())
             model.retryConnection();
         else
@@ -259,6 +325,7 @@ $(document).ready(function () {
     if ( window.CommunityMods ) {
         CommunityMods();
     }
+
     loadSceneMods('connect_to_game');
 
     // Activates knockout.js

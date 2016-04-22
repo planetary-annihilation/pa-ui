@@ -8,6 +8,8 @@ $(document).ready(function () {
     function ReplayLoadingViewModel() {
         var self = this;
 
+        self.reconnectToGameInfo = ko.observable().extend({ local: 'reconnect_to_game_info' });
+
         self.displayName = ko.observable().extend({ session: 'displayName' });
 
         self.replay_loading_msg = ko.observable().extend({ session: 'replay_loading_msg' });
@@ -37,6 +39,7 @@ $(document).ready(function () {
         self.transitDelay = ko.observable(0).extend({ session: 'transit_delay' });
 
         self.navToMainMenu = function () {
+            self.reconnectToGameInfo(undefined);
             self.disconnect();
             self.replay_loading_msg({});
             self.clearHeartbeat();
@@ -50,12 +53,13 @@ $(document).ready(function () {
         };
 
         /* should only exist for gw */
-        self.config = ko.observable('').extend({ memory: 'gw_battle_config' });
+        self.config = ko.observable().extend({ memory: 'gw_battle_config' });
 
         self.connected = ko.observable(false);
 
         self.handleDisconnect = function()
         {
+            self.reconnectToGameInfo(undefined);
             self.connected(false);
 
             var lastSceneUrl = ko.observable('coui://ui/main/game/start/start.html').extend({ session: 'last_scene_url' });

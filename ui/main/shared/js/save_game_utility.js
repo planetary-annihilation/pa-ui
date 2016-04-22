@@ -179,6 +179,14 @@ var SaveGameUtility = (function () {
 
     var loadGame = function (game) {
 
+        var isLocalGame = ko.observable().extend({ session: 'is_local_game' });
+        var serverSetup = ko.observable().extend({ session: 'game_server_setup' });
+        var serverType = ko.observable().extend({ session: 'game_server_type' });
+        var gameType = ko.observable().extend({ session: 'game_type' });
+
+        // currently no way to know game type until loaded
+        gameType(undefined);
+
         var selectedGamePath = game ? game.path : null;
         var selectedGameReplayId = game ? game.replayId : null;
         var selectedGameGalacticWarId = game ? game.galacticWarId : null;
@@ -188,11 +196,17 @@ var SaveGameUtility = (function () {
             contentQuery = '&' + $.param({'content': game.content});
 
         if (selectedGamePath) {
+            isLocalGame(true);
+            serverType('local');
             var mode = game.localReplay ? 'loadreplay' :'loadsave';
+            serverSetup(mode);
             window.location.href = 'coui://ui/main/game/connect_to_game/connect_to_game.html?action=start&mode=' + mode + '&loadpath=' + selectedGamePath + contentQuery;
             return; /* window.location.href will not stop execution. */
         }
         else if (selectedGameReplayId) {
+            isLocalGame(false);
+            serverType('uber');
+            serverSetup('loadsave');
             window.location.href = 'coui://ui/main/game/connect_to_game/connect_to_game.html?action=start&mode=loadsave&replayid=' + selectedGameReplayId + contentQuery;
             return; /* window.location.href will not stop execution. */
         }

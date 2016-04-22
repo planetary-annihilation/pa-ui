@@ -5,7 +5,7 @@
         "/ui/main/shared/js/thirdparty/jquery-ui-1.11.4.custom/jquery-ui.js",
         "/ui/main/shared/js/thirdparty/bootstrap-3.0.3/bootstrap.js",
 		"/ui/main/shared/js/thirdparty/bootstrap-select/bootstrap-select.js",
-        "/ui/main/shared/js/thirdparty/knockout-3.3.0.min.js",
+        "/ui/main/shared/js/thirdparty/knockout-3.4.0.min.js",
         "/ui/main/shared/js/thirdparty/lodash-3.9.3.js",
         "/ui/main/shared/js/thirdparty/purl-2.3.1.js",
         "/ui/main/shared/js/thirdparty/mousetrap-custom.js",
