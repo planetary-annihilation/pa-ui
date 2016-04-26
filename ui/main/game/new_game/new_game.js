@@ -2,6 +2,8 @@ var model;
 
 $(document).ready(function () {
 
+    self.buildVersion = ko.observable().extend({session: 'build_version'});
+
     function SlotViewModel(options /* ai economy_factor */) {
         var self = this;
         var states = ['empty', 'player'];
@@ -108,13 +110,16 @@ $(document).ready(function () {
         self.lockAIPersonality = ko.observable(false);
         self.aiPersonality = ko.observable(model.aiPersonalityNames()[0]);
         self.aiPersonality.subscribe(function (value) {
-            if (self.lockAIPersonality() || !model.isGameCreator())
+            if (!value || !self.ai() || self.lockAIPersonality() || !model.isGameCreator())
                 return;
 
-            if (!self.ai() || !value || !model.aiPersonalities[value])
+            var personalities = model.aiPersonalities();
+
+            var personality = personalities[value];
+
+            if (!personality)
                 return;
 
-            var personality = model.aiPersonalities[value];
             personality.name = value;
             model.previousAIPersonality(value);
 
@@ -481,6 +486,10 @@ $(document).ready(function () {
             msg.message = $(".input_chat_text").val("");
         };
 
+        self.localChatMessage = function(name, message) {
+            model.chatMessages.push(new ChatMessageViewModel(name, 'mod', message));
+        };
+
         self.devMode = ko.observable().extend({ session: 'dev_mode' });
         self.signedInToUbernet = ko.observable().extend({ session: 'signed_in_to_ubernet' });
 
@@ -499,11 +508,17 @@ $(document).ready(function () {
         });
 
         self.commanders = ko.observableArray([]);
-        CommanderUtility.afterCommandersLoaded(function() {
+        
+        self.updateCommanders = function(commanders) {
             self.commanders(_.filter(CommanderUtility.getKnownCommanders(), function(commander) {
-                return PlayFab.isCommanderOwned(CommanderUtility.bySpec.getObjectName(commander));
+                // known commanders have catalog entries
+                var objectName = CommanderUtility.bySpec.getObjectName(commander);
+                return ! PlayFab.getCatalogItem(objectName) || PlayFab.isCommanderOwned(CommanderUtility.bySpec.getObjectName(commander));
             }));
+        }
 
+        CommanderUtility.afterCommandersLoaded(function() {
+           self.updateCommanders();
             if (!self.returnFromLoad())
                 self.usePreferredCommander();
         });
@@ -556,7 +571,7 @@ $(document).ready(function () {
             self.setCommander(self.selectedCommanderIndex() + 1)
         };
 
-        self.gameType       = ko.observable('FreeForAll');
+        self.gameType       = ko.observable('FreeForAll').extend({ session: 'game_type' });
         self.isFFAGame      = ko.computed(function() { return self.gameType() === 'FreeForAll'; });
         self.isTeamGame     = ko.computed(function() { return self.gameType() === 'TeamArmies'; });
         self.isVersusAIGame = ko.computed(function() { return self.gameType() === 'VersusAI'; });
@@ -627,6 +642,11 @@ $(document).ready(function () {
         self.gameTicket = ko.observable().extend({ session: 'gameTicket' });
         self.gameHostname = ko.observable().extend({ session: 'gameHostname' });
         self.gamePort = ko.observable().extend({ session: 'gamePort' });
+        self.isLocalGame = ko.observable().extend({ session: 'is_local_game' });
+        self.gameModIdentifiers = ko.observable().extend({ session: 'game_mod_identifiers' });
+        self.serverType = ko.observable().extend({ session: 'game_server_type' });
+        self.serverSetup = ko.observable().extend({ session: 'game_server_setup' });
+
         self.isFriendsOnlyGame = ko.observable(false);
         self.setFriendsOnlyGame = function () {
             self.isFriendsOnlyGame(true);
@@ -873,6 +893,31 @@ $(document).ready(function () {
                 self.clientHasLoadedOnce(true);
         });
 
+        self.serverModsState = ko.observable(undefined);
+
+        self.serverModsStatus = ko.computed(function() {
+
+            var status = '';
+
+            switch(self.serverModsState()) {
+
+                case 'uploading':
+                    status = 'Uploading server mods...';
+                    break;
+                case 'downloading':
+                    status = 'Downloading server mods...';
+                    break;
+                case 'mounting':
+                    status = 'Mounting server mods...';
+                    break;
+                case 'mounted':
+                    break;
+                default:
+            }
+            api.debug.log(status);
+            return loc(status);
+        });
+
         self.slotsAreEmptyInfo = ko.observable('');
         self.slotsAreEmpty = ko.computed(function() {
             var result = _.some(self.armies(), function(army) {
@@ -899,18 +944,30 @@ $(document).ready(function () {
             return result;
         });
 
+        self.holdReadyInfo = ko.observable({/* identifier: info */});
+
+        self.registerHoldReady = function(identifier, info) {
+            self.holdReadyInfo()[identifier] = info;
+            self.holdReadyInfo.valueHasMutated();
+        }
+
+        self.unregisterHoldReady = function(identifier) {
+            delete self.holdReadyInfo()[identifier];
+            self.holdReadyInfo.valueHasMutated();
+        }
+
         self.gameSystemReadyInfo = ko.observable('');
         self.gameSystemReady = ko.computed(function() {
-            var result = self.serverLoading() || self.clientLoading();
-            if (result)
-                self.gameSystemReadyInfo(loc('!LOC:Building planets...'));
-            else
-                self.gameSystemReadyInfo('');
-            return !result;
+            var info = _.last(_.values(self.holdReadyInfo())) || '';
+            if (!info && (self.serverLoading() || self.clientLoading())) {
+                info = loc('!LOC:Building planets...');
+            }
+            self.gameSystemReadyInfo(info);
+            return !info;
         });
 
         self.gameIsNotOkInfo = ko.computed(function() {
-            return self.friendsAreMissingInfo() || self.slotsAreEmptyInfo() || self.gameSystemReadyInfo();
+            return self.serverModsStatus() || self.friendsAreMissingInfo() || self.slotsAreEmptyInfo() || self.gameSystemReadyInfo();
         });
         self.gameIsNotOk = ko.computed(function () { return self.friendsAreMissing() || self.slotsAreEmpty() || !self.gameSystemReady(); });
 
@@ -1056,11 +1113,15 @@ $(document).ready(function () {
             }
         };
 
-        self.aiPersonalities = ai_types(); /* from js/ai.js */
-        self.aiPersonalityNames = ko.observableArray(_.keys(self.aiPersonalities));
+        self.aiPersonalities = ko.observable( ai_types() ); /* from js/ai.js */
+
+        self.aiPersonalityNames = ko.computed(function() {
+            return _.keys(self.aiPersonalities());
+        });
+
         self.previousAIPersonality = ko.observable('Normal').extend({ local: 'previousAIPersonality' });
         self.getAIPersonalityDescription = function(name) {
-            return loc(_.get(self.aiPersonalities, [name, 'display_name']));
+            return loc(_.get(self.aiPersonalities(), [name, 'display_name']));
         };
 
         self.aiLandingPolicyOptions = ko.observableArray(['no_restriction', 'on_player_planet', 'off_player_planet']);
@@ -1079,7 +1140,7 @@ $(document).ready(function () {
         self.targetAISlotIndex = ko.observable();
 
         self.addAI = function (index) {
-            var personality = self.aiPersonalities[self.previousAIPersonality()];
+            var personality = self.aiPersonalities()[self.previousAIPersonality()];
             model.send_message('add_ai', {
                 army_index: self.targetAIArmyIndex(),
                 slot_index: self.targetAISlotIndex(),
@@ -2066,9 +2127,22 @@ $(document).ready(function () {
             self.showCommanderPicker(false);
         }
 
+        // deprecated
         self.activeModTextArray = ko.observableArray([]);
         self.activeCheatTextArray = ko.observableArray([]);
+        //
 
+        self.serverMods = ko.observableArray();
+        self.gameCheats = ko.observableArray();
+        
+        self.hasServerMods = ko.computed(function() {
+            return self.serverMods().length > 0;
+        });
+
+        self.hasGameCheats = ko.computed(function() {
+            return self.gameCheats().length > 0;
+        });
+        
         self.modDataSent = ko.observable(false);
         self.cheatAllowChangeVision = ko.observable(false).extend({ session: 'cheat_allow_change_vision' });
         self.cheatAllowChangeControl = ko.observable(false).extend({ session: 'cheat_allow_change_control' });
@@ -2091,14 +2165,26 @@ $(document).ready(function () {
         }
 
         self.updateActiveModAndCheatText = function () {
-            api.mods.getMountedMods("server", function (mod_array) {
-                model.activeModTextArray(_.pluck(mod_array, 'display_name'));
+            api.mods.getMounted("server", true).then(function (mods) {
+                if (mods) {
+                    mods = _.map(mods, function(mod) {
+                        if (!mod.description || ! mod.description.trim()) {
+                            mod.description = '';
+                        }
+                        return mod;
+                    });
+                    model.serverMods(mods);
+                    model.activeModTextArray(_.pluck(mods, 'display_name'));
+                }
             });
-            self.activeCheatTextArray([]);
-            if (self.cheatAllowChangeControl()) self.activeCheatTextArray.push("Allow Change Control");
-            if (self.cheatAllowChangeVision()) self.activeCheatTextArray.push("Allow Change Vision");
-            if (self.cheatAllowCreateUnit()) self.activeCheatTextArray.push("Allow Create Unit");
-            if (self.cheatAllowModDataUpdates()) self.activeCheatTextArray.push("Allow Mod Data Updates");
+
+            var cheats = [];
+            if (self.cheatAllowChangeControl()) cheats.push("Allow Change Control");
+            if (self.cheatAllowChangeVision()) cheats.push("Allow Change Vision");
+            if (self.cheatAllowCreateUnit()) cheats.push("Allow Create Unit");
+            if (self.cheatAllowModDataUpdates()) cheats.push("Allow Mod Data Updates");
+            self.activeCheatTextArray(cheats);
+            self.gameCheats(cheats);
         }
         self.updateActiveModAndCheatText();
 
@@ -2284,9 +2370,6 @@ $(document).ready(function () {
             api.Panel.message( 'uberbar', 'lobby_status', { status: status } );
         }
 
-        self.serverModsLoaded = ko.observable(false);
-        self.serverModsUpdated = ko.observable(false);
-
 // update the timestamp in reconnect to game info every minute
         self.updateReconnectToGameInfoTimestamp = function() {
             var reconnectToGameInfo = self.reconnectToGameInfo();
@@ -2298,6 +2381,54 @@ $(document).ready(function () {
             setTimeout(self.updateReconnectToGameInfoTimestamp, 60*1000);
         }
         self.updateReconnectToGameInfoTimestamp();
+        
+        self.jsonMessageHandlers = {}
+        
+        self.registerJsonMessageHandler = function(identifier, handler, priority) {
+            if (!identifier || !handler) {
+                return false;
+            }
+            var registeredJsonMessageHandlers = self.jsonMessageHandlers[identifier];
+
+            if (!registeredJsonMessageHandlers) {
+                registeredJsonMessageHandlers = [];
+                self.jsonMessageHandlers[identifier] = registeredJsonMessageHandlers;
+            }
+
+            registeredJsonMessageHandlers.push({ handler: handler, priority: priority || 100});
+
+            return true;
+        };
+
+        self.unregisterJsonMessageHandler = function(identifier, handler) {
+            if (!identifier || !handler) {
+                return false;
+            }
+            var registeredJsonMessageHandlers = self.jsonMessageHandlers[identifier];
+
+            if (!registeredJsonMessageHandlers) {
+                return false;
+            }
+
+            var found = false;
+
+            _.remove(registeredJsonMessageHandlers, function(registeredJsonMessageHandler) {
+                var remove = registeredJsonMessageHandler.handler === handler;
+                if (remove) {
+                    found = true;
+                }
+                return remove;
+            });
+
+            return found;
+        };
+
+        self.sendJsonMessage = function(payload) {
+            if (!payload.identifier) {
+                return false;
+            }
+            model.send_message("json_message", payload);
+        }
     }
 
     model = new NewGameViewModel();
@@ -2314,6 +2445,32 @@ $(document).ready(function () {
 
     handlers.chat_message = function (msg) {
         model.chatMessages.push(new ChatMessageViewModel(msg.player_name, 'lobby', msg.message));
+    };
+
+    handlers.json_message = function (jsonMsg) {
+ api.debug.log(JSON.stringify(jsonMsg));
+        var payload = jsonMsg.payload;
+        if (!payload) {
+            return;
+        }
+        var identifier = payload.identifier;
+        if (!identifier) {
+            return;
+        }
+        var handlers = model.jsonMessageHandlers[identifier];
+        if (handlers) {
+            try {
+                _.forEach(handlers, function(handlerObj) {
+                    var handler = handlerObj.handler;
+                    if (_.isFunction(handler)) {
+                        handler(jsonMsg);
+                    }
+                });
+            }
+            catch (e) {
+                console.trace(e);
+            }
+        }
     };
 
     handlers.event_message = function (payload) {
@@ -2373,11 +2530,27 @@ $(document).ready(function () {
 
                 if (!model.modDataSent()) {
                     model.send_message('mod_data_available', {}, function (success, response) {
-                        if (success)
-                            api.mods.sendModFileDataToServer(response.auth_token);
+                        api.debug.log('mod_data_available');
+                        if (success) {
+                            api.debug.log('server mods uploading');
+                            model.serverModsState('uploading');
+                            api.mods.sendModFileDataToServer(response.auth_token).then( function(data) {
+                                api.debug.log('server mods uploaded');
+                                api.debug.log(data);
+                            });
+                        }
+                        else {
+// a refresh, selecting system or settings clears everything
+                            api.debug.log(response);
+                            model.serverModsState('mounted');
+                        }
                     });
                     model.modDataSent(true);
                 }
+            }
+            else
+            {
+                model.serverModsState('mounted');
             }
 
             if (element.name === model.displayName()) {
@@ -2524,15 +2697,31 @@ $(document).ready(function () {
         model.blocked(payload);
     }
 
-    handlers.mount_mod_file_data = function (payload) {
-        api.debug.log("Mounting mod file data: " + JSON.stringify(payload));
-        api.mods.mountModFileData();
-        model.serverModsLoaded(true);
+// server mods have been updated by host using allow mod updates cheat
+    handlers.downloading_mod_data = function(payload) {
+        api.debug.log("server mods downloading: " + JSON.stringify(payload));
+        if (_.size(payload) > 0) {
+            model.serverMods(payload);
+        }
+        model.serverMods(payload);
+        model.serverModsState('downloading');
     }
 
+// server mods have been downloaded for host or updated by host using allow mod updates cheat
+    handlers.mount_mod_file_data = function (payload) {
+        api.debug.log("server mods downloaded... mounting: " + JSON.stringify(payload));
+        model.serverModsState('mounting');
+        api.mods.mountModFileData().always(function() {
+            api.debug.log("server mods mounted " + JSON.stringify(payload));
+            model.serverModsState('mounted');
+        });
+    }
+
+// server mods have been mounted for host or updated by host using allow mod updates cheat
     handlers.server_mod_info_updated = function (payload) {
-        model.serverModsUpdated(true);
+        api.debug.log("server mods updated " + JSON.stringify(payload));
         model.updateActiveModAndCheatText();
+        CommanderUtility.update().always(function() { model.updateCommanders() });
     }
 
     handlers.set_cheat_config = function (payload) {

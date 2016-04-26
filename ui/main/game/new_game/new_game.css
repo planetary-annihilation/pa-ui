@@ -177,10 +177,10 @@ table {
 }
 
 
-.mod-names-class {
-    margin: 0px 25px 0px 0px;
+.mods-class {
+    margin: 0px 3px 0px 3px;
     float: left;
-    width: 300px;
+    width: 180px;
     text-align: left;
     height: 60px;
     overflow-y: scroll;
@@ -189,10 +189,14 @@ table {
     font-size: 11px;
 }
 
-.cheat-info-class {
-    margin: 0px 0px 0px;
+.mods-cheats-class-wide {
+    width: 363px;
+}
+
+.cheats-class {
+    margin: 0;
     float: left;
-    width: 226px;
+    width: 180px;
     text-align: left;
     height: 60px;
     overflow-y: scroll;
@@ -655,6 +659,16 @@ table.game_settings tr:first-child .section .section_header {
 
 #chat-bar .settings-msg {
     color: #fc0;
+    text-shadow: none;
+}
+
+#chat-bar .mod-name {
+    color: #00b3ff;
+    text-shadow: none;
+}
+
+#chat-bar .mod-msg {
+    color: #eee;
     text-shadow: none;
 }
 
