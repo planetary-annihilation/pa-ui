@@ -2429,6 +2429,16 @@ $(document).ready(function () {
             }
             model.send_message("json_message", payload);
         }
+
+        self.requestChatHistory = function() {
+            model.send_message("chat_history", {}, function(sucesss, response) {
+                if (sucesss && response && response.chat_history) {
+                    _.forEach(response.chat_history, function(msg) {
+                        model.chatMessages.push(new ChatMessageViewModel(msg.player_name, 'lobby', msg.message));
+                    });
+                }
+            });
+        }
     }
 
     model = new NewGameViewModel();
@@ -2781,6 +2791,8 @@ $(document).ready(function () {
     }
 
     model.requestUpdateCheatConfig();
+
+    model.requestChatHistory();
 
     // Note: Loading is tested every 500ms.  Instead of using setInterval,
     // however, this uses repeating delays in order to avoid having multiple
