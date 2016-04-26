@@ -825,7 +825,7 @@ requireGW([
         self.transitDelay = ko.observable().extend({ session: 'transit_delay' });
 
         self.gameType = ko.observable().extend({ session: 'game_type' });
-        self.gameModIdentifiers = ko.observable().extend({ session: 'game_mod_identifiers' });
+        self.gameModIdentifiers = ko.observableArray().extend({ session: 'game_mod_identifiers' });
         self.serverType = ko.observable().extend({ session: 'game_server_type' });
         self.serverSetup = ko.observable().extend({ session: 'game_server_setup' });
 

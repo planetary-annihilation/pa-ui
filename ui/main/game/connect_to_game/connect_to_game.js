@@ -45,7 +45,7 @@ $(document).ready(function () {
             return result;
         });
 
-        self.gameModIdentifiers = ko.observable().extend({ session: 'game_mod_identifiers' });
+        self.gameModIdentifiers = ko.observableArray().extend({ session: 'game_mod_identifiers' });
         
         self.reconnectToGameInfo = ko.observable().extend({ local: 'reconnect_to_game_info' });
 
@@ -222,7 +222,9 @@ $(document).ready(function () {
                     }
                 });
             } else if ( ! needsJoinGame && self.gameHostname() && self.gamePort()) {
+
                 self.connectToGame();
+
             } else if ( needsJoinGame && self.lobbyId()) {
                 // uber servers must resolve via lobbyId to obtain ticket
                 self.pageTitle(loc('!LOC:CONNECTING TO SERVER'));
