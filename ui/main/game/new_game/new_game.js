@@ -944,21 +944,35 @@ $(document).ready(function () {
             return result;
         });
 
-        self.holdReadyInfo = ko.observable({/* identifier: info */});
+        self.holdReadyMap = ko.observable({/* identifier: info */});
 
         self.registerHoldReady = function(identifier, info) {
-            self.holdReadyInfo()[identifier] = info;
-            self.holdReadyInfo.valueHasMutated();
+            self.holdReadyMap()[identifier] = info;
+            self.holdReadyMap.valueHasMutated();
         }
 
         self.unregisterHoldReady = function(identifier) {
-            delete self.holdReadyInfo()[identifier];
-            self.holdReadyInfo.valueHasMutated();
+            delete self.holdReadyMap()[identifier];
+            self.holdReadyMap.valueHasMutated();
         }
+
+        self.holdReadyInfo = ko.computed(function() {
+            return _.last(_.values(self.holdReadyMap())) || '';
+        });
+
+        self.holdReady = ko.computed(function() {
+            var hold = _.size(self.holdReadyMap()) > 0;
+
+            if (hold && self.thisPlayerIsReady()) {
+                self.send_message('toggle_ready');
+            }
+
+            return hold;
+        });
 
         self.gameSystemReadyInfo = ko.observable('');
         self.gameSystemReady = ko.computed(function() {
-            var info = _.last(_.values(self.holdReadyInfo())) || '';
+            var info = self.holdReadyInfo();
             if (!info && (self.serverLoading() || self.clientLoading())) {
                 info = loc('!LOC:Building planets...');
             }
@@ -967,7 +981,11 @@ $(document).ready(function () {
         });
 
         self.gameIsNotOkInfo = ko.computed(function() {
-            return self.serverModsStatus() || self.friendsAreMissingInfo() || self.slotsAreEmptyInfo() || self.gameSystemReadyInfo();
+            if (self.isGameCreator()) {
+                return self.serverModsStatus() || self.friendsAreMissingInfo() || self.slotsAreEmptyInfo() || self.gameSystemReadyInfo();
+            } else {
+                return self.gameSystemReadyInfo();
+            }
         });
         self.gameIsNotOk = ko.computed(function () { return self.friendsAreMissing() || self.slotsAreEmpty() || !self.gameSystemReady(); });
 
@@ -1105,6 +1123,9 @@ $(document).ready(function () {
         };
 
         self.toggleReady = function () {
+            if (self.holdReady()) {
+                return;
+            }
             if (!self.showStartingGameCountdown()) {
                 // Toggle predictively so we can recognize deliberate unready
                 self.thisPlayerIsReady(!self.thisPlayerIsReady());
