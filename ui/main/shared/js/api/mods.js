@@ -21,9 +21,9 @@ function init_mods(api) {
                 return message;
             });
         },
-        publishServerMods: function () { engine.call('mods.publishServerMods'); },
-        sendModFileDataToServer: function (auth_token) { engine.call("mods.sendModFileDataToServer", auth_token); },
-        mountModFileData: function () { engine.call("mods.mountModFileData"); }
+        publishServerMods: function () { return engine.call('mods.publishServerMods'); },
+        sendModFileDataToServer: function (auth_token) { return engine.call("mods.sendModFileDataToServer", auth_token); },
+        mountModFileData: function () { return engine.call("mods.mountModFileData"); }
     };
 };
 
