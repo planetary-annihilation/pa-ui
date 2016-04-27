@@ -403,7 +403,7 @@ $(document).ready(function () {
 
         self.isLocalGame = ko.observable().extend({ session: 'is_local_game' });
         self.serverType = ko.observable().extend({ session: 'game_server_type' });
-        self.gameModIdentifiers = ko.observable().extend({ session: 'game_mod_identifiers' });
+        self.gameModIdentifiers = ko.observableArray().extend({ session: 'game_mod_identifiers' });
         self.serverSetup = ko.observable().extend({ session: 'game_server_setup' });
         self.gameType = ko.observable().extend({ session: 'game_type' });
         self.uuid = ko.observable('').extend({ session: 'invite_uuid' });
