@@ -736,7 +736,7 @@
                     <!-- /ko -->
 
                     <!-- ko ifnot: thisPlayerIsReady -->
-                    <div class="btn_std" data-bind="click_sound: 'default', rollover_sound: 'default'">
+                    <div class="btn_std" data-bind="css: { btn_hero_disabled: $root.holdReady }, click_sound: 'default', rollover_sound: 'default'">
                         <div class="btn_label" style="width: 300px;">
                             <loc>Ready</loc>
                         </div>
