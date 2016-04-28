@@ -2553,7 +2553,7 @@ $(document).ready(function () {
         self.chatState = ko.computed(function() {
             return {
                 selected: self.chatSelected(),
-                spectator: self.isSpectator() && self.teamChat(),
+                spectator: self.isSpectator() && self.teamChat() && ! self.playerInTeam(),
                 team: self.teamChat()
             };
         });
