@@ -511,9 +511,9 @@ $(document).ready(function () {
         
         self.updateCommanders = function(commanders) {
             self.commanders(_.filter(CommanderUtility.getKnownCommanders(), function(commander) {
-                // known commanders have catalog entries
-                var objectName = CommanderUtility.bySpec.getObjectName(commander);
-                return ! PlayFab.getCatalogItem(objectName) || PlayFab.isCommanderOwned(CommanderUtility.bySpec.getObjectName(commander));
+                // need a better way to do this
+                var spec = CommanderUtility.bySpec.getSpec(commander) || {};
+                return spec.custom || PlayFab.isCommanderOwned(CommanderUtility.bySpec.getObjectName(commander));
             }));
         }
 
@@ -2784,7 +2784,8 @@ api.debug.log(personality);
         api.debug.log("server mods updated " + JSON.stringify(payload));
         model.updateMountedServerMods();
         CommanderUtility.update().always(function() {
-            model.updateCommanders();
+            // allow other promises to complete first
+            _.defer(model.updateCommanders);
         });
         api.panels.cinematic && api.panels.cinematic.message('update_commanders');
     }
