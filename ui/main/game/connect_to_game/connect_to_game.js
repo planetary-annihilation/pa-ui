@@ -264,6 +264,13 @@ $(document).ready(function () {
         }
     };
 
+    handlers.downloading_mod_data = function(payload) {
+        api.debug.log('downloading_mod_data: ' + JSON.stringify(payload));
+        if (_.size(payload) > 0) {
+            model.pageSubTitle(loc('!LOC:DOWNLOADING SERVER MODS'));
+        }
+    }
+
     handlers.login_accepted = function (payload) {
         api.debug.log('login_accepted');
 // set game info for invites and direct reconnects
