@@ -45,7 +45,7 @@ $(document).ready(function () {
             return result;
         });
 
-        self.gameModIdentifiers = ko.observable().extend({ session: 'game_mod_identifiers' });
+        self.gameModIdentifiers = ko.observableArray().extend({ session: 'game_mod_identifiers' });
         
         self.reconnectToGameInfo = ko.observable().extend({ local: 'reconnect_to_game_info' });
 
@@ -222,7 +222,9 @@ $(document).ready(function () {
                     }
                 });
             } else if ( ! needsJoinGame && self.gameHostname() && self.gamePort()) {
+
                 self.connectToGame();
+
             } else if ( needsJoinGame && self.lobbyId()) {
                 // uber servers must resolve via lobbyId to obtain ticket
                 self.pageTitle(loc('!LOC:CONNECTING TO SERVER'));
@@ -261,6 +263,13 @@ $(document).ready(function () {
                 model.fail(loc("!LOC:CONNECTION TO SERVER FAILED"));
         }
     };
+
+    handlers.downloading_mod_data = function(payload) {
+        api.debug.log('downloading_mod_data: ' + JSON.stringify(payload));
+        if (_.size(payload) > 0) {
+            model.pageSubTitle(loc('!LOC:DOWNLOADING SERVER MODS'));
+        }
+    }
 
     handlers.login_accepted = function (payload) {
         api.debug.log('login_accepted');
