@@ -76,6 +76,9 @@ body {
     color: #FF9500;
 }
 
+.spectator_chat_message_player_name {
+    color: #FF9500;
+}
 
 .chat_message_body {
     margin: 0px 0px 0px 0px;
@@ -102,7 +105,8 @@ body {
 .chat_input_tag {
     vertical-align: middle;
     text-align: center;
-    min-width: 50px;
+    padding-left: 5px;
+    padding-right: 5px;
     color: #b3b3b3;
 }
 
