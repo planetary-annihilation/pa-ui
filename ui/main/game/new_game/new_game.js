@@ -2783,7 +2783,10 @@ api.debug.log(personality);
     handlers.server_mod_info_updated = function (payload) {
         api.debug.log("server mods updated " + JSON.stringify(payload));
         model.updateMountedServerMods();
-        CommanderUtility.update().always(function() { model.updateCommanders() });
+        CommanderUtility.update().always(function() {
+            model.updateCommanders();
+        });
+        api.panels.cinematic && api.panels.cinematic.message('update_commanders');
     }
 
     handlers.set_cheat_config = function (payload) {
