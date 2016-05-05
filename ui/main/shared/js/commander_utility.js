@@ -2,17 +2,18 @@
     var DISPLAY_NAME_STRIP_SUFFIX = ' Commander';
 
     var commandersList = ko.observableArray();
-    // TODO: error checking.
-    var commandersListLoaded = $.get('spec://pa/units/commanders/commander_list.json').then(function(list) {
-        var commanders = list && list.commanders;
-        commandersList(commanders);
-        return commanders;
-    });
+    
+    function updateCommanders() {
 
-    var commandersLoaded = (function () {
         var commandersDeferred = $.Deferred();
-        // TODO: error checking.
-        commandersListLoaded.then(function(commanders) {
+
+        // TODO: error checking
+
+        $.get('spec://pa/units/commanders/commander_list.json').then(function(list) {
+            var commanders = list && list.commanders;
+
+            commandersList(commanders);
+
             var completeRequest = (function() {
                 var specObjectName = {};
                 var specData = {};
@@ -40,8 +41,9 @@
         });
 
         return commandersDeferred.promise();
-    })();
+    };
 
+    var commandersLoaded = updateCommanders();
 
     var memoizedObservableAsyncAccessor = function (dflt, asyncFetcher)
     {
@@ -184,6 +186,8 @@
                     return null;
             }),
         },
+
+        update: function() { return commandersLoaded = updateCommanders() },
     };
 
     global.CommanderUtility = exports;

@@ -105,6 +105,12 @@ $(document).ready(function () {
     model = new CinematicViewModel();
 
     handlers.state = model.state;
+    
+    handlers.update_commanders = function() {
+        CommanderUtility.update().always(function() {
+            model.state.valueHasMutated();
+        });
+    }
 
     // inject per scene mods
     if (scene_mod_list['new_game_cinematic'])

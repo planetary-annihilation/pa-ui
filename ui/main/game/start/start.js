@@ -394,19 +394,30 @@ $(document).ready(function () {
             self.loadPreferredCommanderImage();
         });
 
+        // reset previous game info
         self.lobbyId = ko.observable().extend({ session: 'lobbyId' });
+        self.lobbyId(undefined);
         self.reconnectContent = ko.observable().extend({ session: 'game_content' });
-
+        self.reconnectContent(undefined);
         self.gameTicket = ko.observable('').extend({ session: 'gameTicket' });
+        self.gameTicket(undefined);
         self.gameHostname = ko.observable().extend({ session: 'gameHostname' });
+        self.gameHostname(undefined);
         self.gamePort = ko.observable().extend({ session: 'gamePort' });
+        self.gamePort(undefined);
 
         self.isLocalGame = ko.observable().extend({ session: 'is_local_game' });
+        self.isLocalGame(undefined);
         self.serverType = ko.observable().extend({ session: 'game_server_type' });
-        self.gameModIdentifiers = ko.observable().extend({ session: 'game_mod_identifiers' });
+        self.serverType(undefined);
+        self.gameModIdentifiers = ko.observableArray().extend({ session: 'game_mod_identifiers' });
+        self.gameModIdentifiers([]);
         self.serverSetup = ko.observable().extend({ session: 'game_server_setup' });
+        self.serverSetup(undefined);
         self.gameType = ko.observable().extend({ session: 'game_type' });
+        self.gameType(undefined);
         self.uuid = ko.observable('').extend({ session: 'invite_uuid' });
+        self.uuid(undefined);
         self.privateGamePassword = ko.observable().extend({ session: 'private_game_password' });
         self.privateGamePassword('');
 

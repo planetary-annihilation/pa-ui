@@ -16,12 +16,12 @@ $(document).ready(function () {
 
         // deprecated and no longer used
         self.joinLocalServer = ko.observable().extend({ session: 'join_local_server' });
-        //
         self.joinCustomServer = ko.observable().extend({ session: 'join_custom_server' });
+        //
 
         self.isLocalGame = ko.observable().extend({ session: 'is_local_game' });
         self.privateGamePassword = ko.observable().extend({ session: 'private_game_password' });
-        self.gameModIdentifiers = ko.observable().extend({ session: 'game_mod_identifiers' });
+        self.gameModIdentifiers = ko.observableArray().extend({ session: 'game_mod_identifiers' });
         self.serverType = ko.observable().extend({ session: 'game_server_type' });
         self.serverSetup = ko.observable().extend({ session: 'game_server_setup' });
         self.gameType = ko.observable().extend({ session: 'game_type' });

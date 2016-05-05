@@ -35,11 +35,15 @@ $(document).ready(function () {
         self.state = ko.observable({});
         self.chatSelected = ko.computed(function() { return !!self.state().selected; });
         self.teamChat = ko.computed(function() { return !!self.state().team; });
+        self.spectatorChat = ko.computed(function() { return self.state().spectator; });
 
         self.visibleChat = ko.observableArray();
         self.chatLog = ko.observableArray();
 
         self.chatType = ko.computed(function () {
+            if (self.spectatorChat()) {
+                return 'SPECTATOR:';
+            }
             return (self.teamChat()) ? "TEAM:" : "ALL:";
         });
 
@@ -59,8 +63,12 @@ $(document).ready(function () {
         });
 
         self.trySendChat = function (skipSpecial) {
-            var msg = {};
-            msg.message = self.$input().val();
+            var value = self.$input().val();
+            if (!value) {
+                self.hideChat();
+                return;
+            }
+            var msg = {message: value};
 
             if (!skipSpecial && msg.message.charAt(0) === "+") {
                 return api.game.chatSpecialMsg(msg.message).then(function(wasSpecial) {

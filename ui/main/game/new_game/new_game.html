@@ -295,6 +295,14 @@
                                                         </div>
                                                         <!-- /ko -->
 
+                                                        <!-- ko if: ($data.type === 'mod') -->
+                                                        <div class="chat_message">
+                                                            <span class="mod-name" data-bind="text: username"></span>
+                                                            <span class="separator">: </span>
+                                                            <span class="chat-msg mod-msg" data-bind="text: payload"></span>
+                                                        </div>
+                                                        <!-- /ko -->
+
                                                         <!-- /ko -->
 
                                                         <span data-bind="autoscroll: chatMessages"></span>
@@ -696,31 +704,16 @@
     <!-- COMMIT -->
     <div class="div_commit_cont">
         <div id="game-bar" class="lobby-width">
-            <!-- ko if: (model.activeModTextArray().length > 0) -->
-            <div style="font-size: 13px; float: left; color: #ffd800; text-transform: uppercase;">
-                <label style="margin: 0; color: #c5c5c5;">
-                    <loc>Server Mods</loc>
-                </label>
-            </div>
-            <div class="mod-names-class" id="mod_names">
-                <!-- ko foreach: activeModTextArray -->
-                <span for="mods" data-bind="text: $index() + 1"></span>) &quot;<span for="mods" data-bind="    text: $data">ACTIVE SERVER MODS GO HERE</span>&quot;<br />
+            <div class="mods-class" id="mod_names" data-bind="visible: hasServerMods, css: { 'mods-cheats-class-wide': ! hasGameCheats() }">
+                <!-- ko foreach: serverMods -->
+                <div><span data-bind="text: display_name, tooltip: description" data-container="#game-bar" data-placement="right"></span></div>
                 <!-- /ko -->
             </div>
-            <!-- /ko -->
-            <!-- ko if: (model.activeCheatTextArray().length > 0) -->
-            <div style="font-size: 13px; float: left; color: #ff6a00; margin-right: 8px; text-transform: uppercase;">
-                <label style="margin: 0; color: #c5c5c5;">
-                    <loc>Cheats</loc>
-                </label>
-            </div>
-            <div class="cheat-info-class" id="cheat_info">
+            <div class="cheats-class" id="cheat_info" data-bind="visible: hasGameCheats, css: { 'mods-cheats-class-wide': ! hasServerMods() }">
                 <!-- ko foreach: activeCheatTextArray -->
                 <span for="mods" data-bind="text: $data">ACTIVE CHEATS GO HERE</span><br />
                 <!-- /ko -->
             </div>
-            <!-- /ko -->
-
 
             <div style="float: right; display: block;">
                 <div id="start-error" data-bind="text: gameIsNotOkInfo"></div>
@@ -743,7 +736,7 @@
                     <!-- /ko -->
 
                     <!-- ko ifnot: thisPlayerIsReady -->
-                    <div class="btn_std" data-bind="click_sound: 'default', rollover_sound: 'default'">
+                    <div class="btn_std" data-bind="css: { btn_hero_disabled: $root.holdReady }, click_sound: 'default', rollover_sound: 'default'">
                         <div class="btn_label" style="width: 300px;">
                             <loc>Ready</loc>
                         </div>
