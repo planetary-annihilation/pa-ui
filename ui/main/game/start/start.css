@@ -412,7 +412,7 @@ body {
 
 .div_watermarks {
     position: absolute;
-    bottom: 72px;
+    bottom: 90px;
     left: 10px;
     display: flex;
 }
@@ -687,8 +687,7 @@ canvas {
 }
 
 .view_intro {
-    margin: -5px 0 0 4px;
-    padding: 4px;
+    padding: 12px 10px;
 }
 
 .buy_titans {
