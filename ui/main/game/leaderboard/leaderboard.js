@@ -99,7 +99,7 @@ $(document).ready(function () {
                     var rating = self.playerRatingInfo().Rating;
                     var name = MatchmakingUtility.getName(rating);
                     if (MatchmakingUtility.getLevel(rating) > 0)
-                        $('[href=#' + name + ']').tab('show');
+                        $('[href="#' + name + '"]').tab('show');
                 }
             }, this, { disposeWhen: function() { return hasActivated; } });
         }();
