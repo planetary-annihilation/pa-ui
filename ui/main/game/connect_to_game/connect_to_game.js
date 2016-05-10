@@ -40,7 +40,11 @@ $(document).ready(function () {
             var result = {
                 password: self.privateGamePassword(),
                 uberid: self.uberId(),
-                uuid: self.uuid()
+                uuid: self.uuid(),
+            }
+// include ticket only for uber servers
+            if ( self.serverType() == 'uber' && self.gameType() != 'Ladder1v1' ) {
+                result.ticket = self.gameTicket() || 'ticket';
             }
             return result;
         });
