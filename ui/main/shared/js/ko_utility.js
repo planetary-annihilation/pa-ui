@@ -9,14 +9,19 @@
                 var loading = false;
 
                 // write changes to storage
-                target.subscribe(function (newValue) {
-                    if (!loading) {
-                        var encoded = encode(newValue);
-                        storage.setItem(option, encoded);
-                        if (onWrite) {
-                            onWrite(option, encoded);
-                        }
+                target.save = function (newValue) {
+                    if (newValue === undefined) {
+                        newValue = target.peek();
                     }
+                    var encoded = encode(newValue);
+                    storage.setItem(option, encoded);
+                    if (onWrite) {
+                        onWrite(option, encoded);
+                    }
+                };
+
+                target.subscribe(function (newValue) {
+                    target.save(newValue);
                 });
 
                 // init from storage
