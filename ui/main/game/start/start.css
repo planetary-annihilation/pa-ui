@@ -687,7 +687,8 @@ canvas {
 }
 
 .view_intro {
-    padding: 12px 10px;
+    width: 120px;
+    padding: 15px 0;
     text-align: center;
 }
 
