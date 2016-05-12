@@ -145,7 +145,7 @@ $(document).ready(function () {
 
         self.selectedSystemIndex = ko.observable(-1);
         self.selectedSystem = ko.computed(function () { return self.systems()[self.selectedSystemIndex()] ? self.systems()[self.selectedSystemIndex()] : {}; });
-        self.selectedSystemName = ko.computed(function () { return (self.systems()[self.selectedSystemIndex()]) ? self.systems()[self.selectedSystemIndex()].name : '' });
+        self.selectedSystemName = ko.computed(function () { return self.selectedSystem().name || '' });
         self.selectedSystemEmpty = ko.computed(function () { return (jQuery.isEmptyObject(self.selectedSystem())) });
         self.selectedSystemIsUserSystem = ko.computed(function () {
             return self.selectedSystemIndex() >= self.premadeSystems().length;

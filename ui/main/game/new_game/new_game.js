@@ -2,9 +2,7 @@ var model;
 
 $(document).ready(function () {
 
-    self.buildVersion = ko.observable().extend({session: 'build_version'});
-
-    function SlotViewModel(options /* ai economy_factor */) {
+   function SlotViewModel(options /* ai economy_factor */) {
         var self = this;
         var states = ['empty', 'player'];
 
@@ -410,6 +408,8 @@ $(document).ready(function () {
 
     function NewGameViewModel() {
         var self = this;
+
+        self.buildVersion = ko.observable().extend({session: 'build_version'});
 
         self.reconnectToGameInfo = ko.observable().extend({ local: 'reconnect_to_game_info' });
 
@@ -2529,6 +2529,20 @@ api.debug.log(personality);
             }
         }
     };
+
+    handlers.remove_disconnected_player = function(payload) {
+        if (payload && payload.ticket) {
+            $.ajax(api.net.ubernetUrl() + '/GameAcquisition/RemovePlayerFromGame', {
+                type: 'POST',
+                contentType:'application/json; charset=utf-8',
+                dataType: 'json',
+                data: '',
+                beforeSend: function(request) {
+                    request.setRequestHeader('X-Authorization', payload.ticket);
+                }
+            });
+        }
+    }
 
     handlers.event_message = function (payload) {
         switch (payload.type) {
