@@ -1,6 +1,8 @@
 ﻿var model;
 var handlers;
 
+loadScript( 'coui://download/community-mods-server-browser.js');
+
 $(document).ready(function () {
 
     function ServerBrowserViewModel() {
@@ -853,6 +855,10 @@ $(document).ready(function () {
 
         // Put the updated list back into the observable array
         model.lanGameList(currentLanGames);
+    }
+
+    if ( window.CommunityMods ) {
+        CommunityMods();
     }
 
     // inject per scene mods
