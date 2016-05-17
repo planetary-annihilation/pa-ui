@@ -1,7 +1,7 @@
 ﻿var model;
 var handlers;
 
-loadScript( 'coui://download/community-mods-server-browser.js');
+loadScript( 'coui://download/community-mods-server_browser.js');
 
 $(document).ready(function () {
 
