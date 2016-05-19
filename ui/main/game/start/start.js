@@ -1950,12 +1950,14 @@ console.log(JSON.stringify(self.reconnectToGameInfo()));
     });
 
     if ( window.CommunityMods ) {
-        CommunityMods();
+        try {
+            CommunityMods();
+        } catch ( e ) {
+            console.error( e );
+        }
     }
 
-    // inject per scene mods
-    if (scene_mod_list['start'])
-        loadMods(scene_mod_list['start']);
+    loadSceneMods('start');
 
     // setup send/recv messages and signals
     app.registerWithCoherent(model, handlers);

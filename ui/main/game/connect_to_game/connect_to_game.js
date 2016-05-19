@@ -134,6 +134,9 @@ $(document).ready(function () {
         self.showOfflineNotRecommended = ko.pureComputed(function() { return self.isLocalGame() && !localServerRecommended() && !offlineNotRecommendedDismissed(); });
         self.dismissOfflineNotRecommended = function() { offlineNotRecommendedDismissed(true); };
 
+        self.needsServerModsUpload = ko.observable(false);
+        self.serverModsUploading = ko.observable(false);
+
         self.setup = function () {
 
             console.log('connect_to_game ' + window.location.search );
@@ -175,10 +178,10 @@ $(document).ready(function () {
 
             var serverType = self.serverType();
             var gameType = self.gameType();
-            
+
 // server and game type should be set in all new builds with exception of old mods
 // Ladder1v1 games are already joined
-            var needsJoinGame = ( serverType && serverType == 'uber' && gameType != 'Ladder1v1' ) || ( ! serverType && ! local );
+            var needsJoinGame = ( serverType == 'uber' && gameType != 'Ladder1v1' ) || ( ! serverType && ! local );
             
             if (mode && !_.isEmpty(self.gameContent()))
                 mode = self.gameContent() + ':' + mode;
@@ -195,9 +198,10 @@ $(document).ready(function () {
                     startCall = api.net.startReplay(region, mode, replayid);
                 else if (loadpath !== undefined)
                     startCall = api.net.loadSave(region, mode, loadpath);
-                else
+                else {
                     startCall = api.net.startGame(region, mode, params ? JSON.parse(params) : []);
-
+                    self.needsServerModsUpload(true);
+                }
                 startCall.done(function(data) {
                     self.gameTicket(data.Ticket);
                     self.gameHostname(data.ServerHostname);
@@ -226,6 +230,12 @@ $(document).ready(function () {
                     }
                 });
             } else if ( ! needsJoinGame && self.gameHostname() && self.gamePort()) {
+
+// check for custom servers
+
+                if (serverType == 'custom' && gameType == 'Waiting' ) {
+                    self.needsServerModsUpload(true);
+                }
 
                 self.connectToGame();
 
@@ -314,11 +324,70 @@ $(document).ready(function () {
         }
     };
 
-    handlers.server_state = function (payload) {
-        if (payload.url && payload.url !== window.location.href) {
-            window.location.href = payload.url;
-            return; /* window.location.href will not stop execution. */
+// will be called once server mods are uploaded
+
+    handlers.mount_mod_file_data = function (payload) {
+
+        if ( !model.serverModsUploading() ) {
+            return;
         }
+
+        api.debug.log("server mods uploaded... mounting: " + JSON.stringify(payload));
+        model.pageSubTitle(loc('!LOC:REMOUNTING SERVER MODS'));
+        api.mods.mountModFileData().always(function() {
+            api.debug.log("server mods mounted " + JSON.stringify(payload));
+            model.serverModsUploading(false);
+            window.location.href = 'coui://ui/main/game/new_game/new_game.html';
+            return; /* window.location.href will not stop execution. */
+       });
+    }
+    
+    handlers.server_state = function (payload) {
+
+// if we are uploading server mods that ignore server state messages
+
+        if (model.serverModsUploading()) {
+            return;
+        }
+
+        var url = payload.url;
+
+// ignore server state messages not redirecting to a scene
+
+        if (url !== window.location.href) {
+
+// if redirecting to new game lobby check if server mods needs uploading
+
+            if (url == 'coui://ui/main/game/new_game/new_game.html' && model.needsServerModsUpload()) {
+
+                model.needsServerModsUpload(false);
+                model.serverModsUploading(true);
+
+                model.pageSubTitle(loc('!LOC:UPLOADING SERVER MODS... PLEASE WAIT'));
+
+// check if authorised to send mod data to server
+
+                model.send_message('mod_data_available', {}, function (success, response) {
+
+                    if (success) {
+// upload the server mods
+                       api.mods.sendModFileDataToServer(response.auth_token).then(function(data) {
+                            api.debug.log('server mods uploaded');
+                            api.debug.log(data);
+                        });
+                    } else {
+// uploading of server mods is not allowed
+                        window.location.href = url;
+                        return; /* window.location.href will not stop execution. */
+                   }
+                });
+            } else {
+// not redirecting to new game lobby
+                window.location.href = url;
+                return; /* window.location.href will not stop execution. */
+            }
+        }
+
     };
 
     handlers.connection_disconnected = function (payload) {

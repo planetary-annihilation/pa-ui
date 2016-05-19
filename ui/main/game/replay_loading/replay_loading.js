@@ -160,7 +160,11 @@ $(document).ready(function () {
     };
 
     if ( window.CommunityMods ) {
-        CommunityMods();
+        try {
+            CommunityMods();
+        } catch ( e ) {
+            console.error( e );
+        }
     }
 
     // inject per scene mods

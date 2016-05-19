@@ -1,6 +1,8 @@
 ﻿var model;
 var handlers;
 
+loadScript( 'coui://download/community-mods-server_browser.js');
+
 $(document).ready(function () {
 
     function ServerBrowserViewModel() {
@@ -855,10 +857,16 @@ $(document).ready(function () {
         model.lanGameList(currentLanGames);
     }
 
-    // inject per scene mods
-    if (scene_mod_list['server_browser']) {
-        loadMods(scene_mod_list['server_browser']);
+    if ( window.CommunityMods ) {
+        try {
+            CommunityMods();
+        } catch ( e ) {
+            console.error( e );
+        }
     }
+
+    loadSceneMods('server_browser');
+
 
     // setup send/recv messages and signals
     app.registerWithCoherent(model, handlers);
