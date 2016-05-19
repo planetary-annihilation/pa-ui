@@ -858,13 +858,15 @@ $(document).ready(function () {
     }
 
     if ( window.CommunityMods ) {
-        CommunityMods();
+        try {
+            CommunityMods();
+        } catch ( e ) {
+            console.error( e );
+        }
     }
 
-    // inject per scene mods
-    if (scene_mod_list['server_browser']) {
-        loadMods(scene_mod_list['server_browser']);
-    }
+    loadSceneMods('server_browser');
+
 
     // setup send/recv messages and signals
     app.registerWithCoherent(model, handlers);
