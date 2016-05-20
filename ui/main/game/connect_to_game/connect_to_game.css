@@ -17,3 +17,8 @@
         font-family: "Sansation Bold";
         font-size:16px;
     }
+
+div.div_options_bar div
+{
+    margin-bottom: 5px;
+}
