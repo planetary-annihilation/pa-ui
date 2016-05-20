@@ -284,7 +284,7 @@ $(document).ready(function () {
         if (_.size(payload) > 0) {
 
             var gameModIdentifiers = _.map(payload, 'identifier');
-            model.gameModIdentifiers(payload);
+            model.gameModIdentifiers(gameModIdentifiers);
             model.pageSubTitle(loc('!LOC:DOWNLOADING SERVER MODS'));
         }
     }
