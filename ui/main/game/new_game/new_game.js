@@ -714,7 +714,6 @@ $(document).ready(function () {
         self.blocked.subscribe(self.changeBouncer);
 
         self.createdGameId = ko.observable();
-        self.lobbyId = ko.observable();
 
         self.uberNetRegion = ko.observable().extend({ local: 'uber_net_region' });
 
