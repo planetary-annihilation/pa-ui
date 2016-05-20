@@ -20,7 +20,10 @@
         </div>
         <div class="div_options_bar">
             <div>
-                <img class="img_loading_animation working std" src="coui://ui/main/shared/img/working.svg" />
+               <span data-bind="text: pageSubTitle"></span>
+            </div>
+            <div>
+               <img class="img_loading_animation working std" src="coui://ui/main/shared/img/working.svg" />
             </div>
             <input type="button" value="Cancel" id="Button1" class="btn_commit" data-bind="click: navToMainMenu, click_sound: 'default', rollover_sound: 'default'" />
         </div>
