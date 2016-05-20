@@ -82,9 +82,25 @@ $(document).ready(function () {
         self.setup = function () {
             model.send_message('heartbeat', {});
         };
+
+        self.pageSubTitle = ko.observable();
+
+        self.gameModIdentifiers = ko.observableArray().extend({ session: 'game_mod_identifiers' }); 
     }
     model = new ReplayLoadingViewModel();
 
+// list of server mods loaded from replay (used by community mods to load missing companion mods prior to server mods)
+
+    handlers.mods_info = function(payload) {
+        model.gameModIdentifiers(payload);
+        model.send_message('send_mods', {}, function (success, response) {});
+    }
+
+    handlers.downloading_mod_data = function(payload) {
+        if (payload && payload.length > 0) {
+            model.pageSubTitle(loc('!LOC:DOWNLOADING SERVER MODS'));
+        }
+    }
 
     handlers.login_rejected = function() {
         console.error("Login rejected from server");
@@ -94,10 +110,6 @@ $(document).ready(function () {
     handlers.connection_disconnected = function() {
         console.error("Login disconnected from server");
         model.handleDisconnect();
-    };
-
-    handlers.request_config = function() {
-        model.sendConfig();
     };
 
     handlers.server_state = function (msg) {
@@ -111,29 +123,6 @@ $(document).ready(function () {
             model.replay_loading_msg(loc("!LOC:Starting replay server, please be patient..."));
         }
     };
-
-    /* not really sure when this should be used, and I don't know what sv_ccl stands for. */
-    handlers.mod_msg_sv_ccl_set_replay_config = function (msg) {
-        if (msg.files) {
-            var cookedFiles = _.mapValues(msg.files, function (value) {
-                if (typeof value !== 'string')
-                    return JSON.stringify(value);
-                else
-                    return value;
-            });
-            api.game.getUnitSpecTag().then(function (tag) {
-                if (tag === '') {
-                    api.file.unmountAllMemoryFiles().then* function() {
-                        api.file.mountMemoryFiles(cookedFiles);
-                        api.game.setUnitSpecTag('.player');
-                    };
-                }
-                model.send_message('mod_msg_ccl_sv_replay_config_received', {}, function (success, response) {});
-            });
-        } else {
-            model.send_message('mod_msg_ccl_sv_replay_config_received', {}, function (success, response) {});
-        }
-    }
 
     /* if you attempt to load a replay file (saves are replays) which contains mounted files,
        it will send this message and wait for a response */
