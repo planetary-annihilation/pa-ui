@@ -1333,7 +1333,7 @@ api.debug.log(personality);
             return self.processSystem(self.system());
         });
 
-        function SystemGenerator() {
+        function SystemGenerator(model) {
             var self = this;
 
             self.symmetricalOption = ko.observable(true);
@@ -2060,11 +2060,11 @@ api.debug.log(personality);
             });
 
             self.processedRandomSystems = ko.computed(function () {
-                return _.map(self.createdRandomSystems(), self.processSystem);
+                return _.map(self.createdRandomSystems(), model.processSystem);
             });
         };
 
-        self.systemGenerator = new SystemGenerator();
+        self.systemGenerator = new SystemGenerator(self);
 
         self.showSystemPicker = ko.observable(false);
 
