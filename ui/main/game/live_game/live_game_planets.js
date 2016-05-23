@@ -12,23 +12,32 @@ $(document).ready(function () {
         return api.Panel.query(api.Panel.parentId, 'panel.invoke', Array.prototype.slice.call(arguments, 0));
     }
 
-    function PlanetModel(parent, config) {
-        var self = this;
-
-        _.assign(self, config);
-
-        self.canStart = ko.computed(function() {
-            return parent.landing() && self.starting_planet;
-        });
-    }
-
     function PlanetsViewModel() {
         var self = this;
+
+        self.PlanetModel = function (parent, config) {
+            var self = this;
+
+            _.assign(self, config);
+
+            self.canStart = ko.computed(function() {
+                return parent.landing() && self.starting_planet;
+            });
+
+            if (self.isSun || config.biome == 'gas') {
+                self.metalSpotsDesc = '';
+            } else if (config.metalSpots == 0) {
+                self.metalSpotsDesc = loc('!LOC:No metal');
+            } else  {
+                self.metalSpotsDesc = loc('!LOC:__metal_spots__ metal', { metal_spots: config.metalSpots } );
+            }
+
+        }
 
         self.state = ko.observable({});
         self.systemName = ko.computed(function() { return loc(self.state().system) || ''; });
         self.celestialViewModels = ko.computed(function() {
-            return _.map(self.state().planets, function(planet) { return new PlanetModel(self, planet); });
+            return _.map(self.state().planets, function(planet) { return new self.PlanetModel(self, planet); });
         });
         self.sun = ko.computed(function() {
             return _.find(self.celestialViewModels(), { isSun: true }) || { isSun: true, isSelected: false };
@@ -80,30 +89,34 @@ $(document).ready(function () {
 
         self.selectSun = function () { parentInvoke('selectSun'); };
 
+        self.planetThrusterString = function(planet, size, threshold) {
+            var rValue = '';
+            _.forEach(_.range(size), function (index) {
+                if(threshold)
+                    rValue +=  '<img class="icon_engine_status" src="img/planet_list_panel/icon_engine_status_empty.png" />';
+                else {
+                    if (planet.active)
+                        rValue += '<img class="icon_engine_status" src="img/planet_list_panel/icon_engine_status_active.png" />';
+                    else
+                        rValue += '<img class="icon_engine_status" src="img/planet_list_panel/icon_engine_status_ready.png" />';
+                }
+            });
+            return rValue;
+        };
+
         self.planetToolTip = function (planet, threshold) {
-            function thrusterString(size, threshold) {
-                var rValue = '';
-                _.forEach(_.range(size), function (index) {
-                    if(threshold)
-                        rValue +=  '<img class="icon_engine_status" src="img/planet_list_panel/icon_engine_status_empty.png" />';
-                    else {
-                        if (planet.active)
-                            rValue += '<img class="icon_engine_status" src="img/planet_list_panel/icon_engine_status_active.png" />';
-                        else
-                            rValue += '<img class="icon_engine_status" src="img/planet_list_panel/icon_engine_status_ready.png" />';
-                    }
-                });
-                return rValue;
-            };
 
             if (planet.isSun && !self.systemName())
                 return '';
-
+            
+            var metalDisplay = planet.metalSpotsDesc;
+            
             return '<div class="div_planet_list_item_center">' +
                         '<div class="planet_title"> ' + (planet.isSun ? self.systemName() : loc(planet.name)) + ' </div>' +
-                        '<div class="engine_detail_cont">' + (thrusterString(planet.delta_v_current, false)) +
-                        (thrusterString(planet.delta_v_threshold - planet.delta_v_current, true)) +
-                        '</div>' +
+                        ( metalDisplay ? '<div class="planet_metal"> ' + metalDisplay + ' </div>': '' ) +
+                        ( planet.delta_v_current ? '<div class="engine_detail_cont">' + (self.planetThrusterString(planet.delta_v_current, false)) +
+                        (self.planetThrusterString(planet, planet.delta_v_threshold - planet.delta_v_current, true)) +
+                        '</div>' : '' ) +
                     '</div>';
         };
 
