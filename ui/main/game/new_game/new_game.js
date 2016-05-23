@@ -1182,6 +1182,27 @@ api.debug.log(personality);
 
             return count.length > 1;
         });
+
+        self.processSystemPlayersText = function (players) {
+            if (!players)
+                return '';
+            var minPlayers = Math.max(players[0], 2);
+            var maxPlayers = Math.max(players[1], 2);
+            return (minPlayers !== maxPlayers) ? minPlayers + '-' + maxPlayers : minPlayers;
+        };
+
+        self.processSystemPlayersCSS =  function (players) {
+            var slotCount = self.slots();
+
+            if (!players)
+                return 'valid';
+
+            var ok =
+                (!_.isFinite(players[0]) || slotCount >= players[0]) &&
+                (!_.isFinite(players[1]) || slotCount <= players[1]);
+            return ok ? 'valid' : 'invalid';
+        };
+
         self.systemPlayerText = ko.computed(function() {
             var players = self.system().players;
             if (!players)
@@ -1190,7 +1211,11 @@ api.debug.log(personality);
             var maxPlayers = Math.max(players[1], 2);
             return (minPlayers !== maxPlayers) ? minPlayers + '-' + maxPlayers : minPlayers;
         });
+
         self.systemPlayersCSS = ko.computed(function() {
+
+            return self.processSystemPlayersCSS(self.system().players);
+
             var systemPlayers = (self.system().players || []);
             var slotCount = self.slots();
             var ok =
@@ -1199,51 +1224,74 @@ api.debug.log(personality);
             return ok ? 'valid' : 'invalid';
         });
 
-        var processSystem = (function () {
-             var playersText = function (players) {
-                if (!players)
-                    return '';
-                var minPlayers = Math.max(players[0], 2);
-                var maxPlayers = Math.max(players[1], 2);
-                return (minPlayers !== maxPlayers) ? minPlayers + '-' + maxPlayers : minPlayers;
+        self.planetTooltip = function(planet) {
+
+            if (!planet) {
+                return '';
+            }
+
+            var tooltip = '';
+            var planetSpec = planet.planet;
+
+            if (planetSpec) {
+            
+                if (planetSpec.radius) {
+                    tooltip = tooltip + 'Radius: ' + planetSpec.radius + '<br />';
+                }
+                
+                if (planetSpec.biome != 'gas') {
+                    
+                    if (planet.metal_spots_count) {
+                        tooltip = tooltip + 'Custom Metal: ' + planet.metal_spots_count + '<br />';
+                    } else {
+                        tooltip = tooltip + 'Metal Clusters: ' + Math.round(planetSpec.metalClusters) + '<br />' + 'Metal Density: ' + Math.round(planetSpec.metalDensity) + '<br />';
+                    }
+                    
+                    if (planet.planetCSG_count) {
+                        tooltip = tooltip + 'Custom CSG: ' + planet.planetCSG_count + '<br />';
+                    }
+
+                    if (planet.landing_zones_count) {
+                        tooltip = tooltip + 'Custom Landing: ' + planet.landing_zones_count + '<br />';
+                    }
+                }
+            }
+
+            return tooltip;
+        }
+
+        self.processPlanet = function(planet) {
+
+            if (!planet) {
+                return null;
+            }
+
+           var tooltip = self.planetTooltip(planet);
+
+            var result = {
+                biome: planet.planet && planet.planet.biome || '',
+                start: planet.starting_planet,
+                move_thrust: planet.required_thrust_to_move,
+                tooltip: tooltip
+            };
+            return result;
+        }
+
+        self.processSystem = function (system) {
+            if (_.isEmpty(system))
+                return null;
+
+            var planets = _.map(system.planets, self.processPlanet);
+
+            var result = {
+                name: system.name,
+                planets: planets,
+                playersText: self.processSystemPlayersText(system.players),
+                playersCSS: self.processSystemPlayersCSS(system.players)
             };
 
-            var playersCSS = function (players) {
-                var slotCount = self.slots();
-
-                if (!players)
-                    return 'valid';
-
-                var ok =
-                    (!_.isFinite(players[0]) || slotCount >= players[0]) &&
-                    (!_.isFinite(players[1]) || slotCount <= players[1]);
-                return ok ? 'valid' : 'invalid';
-            };
-
-            return function (system) {
-                if (_.isEmpty(system))
-                    return null;
-
-                var planets = _.map(system.planets, function (element) {
-                    if (!element || !element.planet)
-                        return null;
-
-                    return {
-                        biome: element.planet.biome,
-                        start: element.starting_planet
-                    };
-                });
-
-                var result = {
-                    name: system.name,
-                    planets: planets,
-                    playersText: playersText(system.players),
-                    playersCSS: playersCSS(system.players)
-                };
-
-                return result;
-            };
-        })();
+            return result;
+        };
 
         self.premadeSystems = ko.observableArray([]);
 
@@ -1277,10 +1325,12 @@ api.debug.log(personality);
         });
 
         self.processedDefaultSystems = ko.computed(function () {
-            return _.map(self.defaultSystems(), processSystem);
+            return _.map(self.defaultSystems(), self.processSystem);
         });
         self.processedSelectedSystem = ko.computed(function () {
-            return processSystem(self.system());
+// hide any planet tooltips to prevent ghosting
+            $('div.section_content > div.tooltip').tooltip('hide');
+            return self.processSystem(self.system());
         });
 
         function SystemGenerator() {
@@ -2010,7 +2060,7 @@ api.debug.log(personality);
             });
 
             self.processedRandomSystems = ko.computed(function () {
-                return _.map(self.createdRandomSystems(), processSystem);
+                return _.map(self.createdRandomSystems(), self.processSystem);
             });
         };
 
