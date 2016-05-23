@@ -3734,6 +3734,15 @@ $(document).ready(function () {
                     model.forceResumeAfterReview(true);
                     if (!model.reviewMode() && model.armyId() !== undefined)
                         model.controlSingleArmy();
+
+                    if (msg.data.control.view_replay) {
+// hack to enable unit alerts in replays... what is not ready and how long should we delay?
+                        _.delay( function() {
+                            engine.call('watchlist.reset');
+                            model.setupWatchList();
+                        }, 2000 );
+                    }
+
                     break;
 
                 case 'game_over':
