@@ -37,7 +37,7 @@
                             </div>
                             <!-- ko ifnot: showPlayerListPanel -->
                             <!-- ko with: player -->
-                            <div class="btn_player btn_player_known btn_std_ix" data-placement="bottom" data-bind="tooltip: model.playerToolTip($data), click: function () { api.select.commander(); api.camera.track(true); }">
+                            <div class="btn_player btn_player_known btn_std_ix" data-placement="bottom" data-bind="tooltip: model.playerToolTip($data), click: model.trackCommander, event: { contextmenu: model.trackCommanderInPIP }">
                                 <div class="div_player_icon">
                                     <div class="fill player_masked" data-bind="style: { backgroundColor: color }"></div>
                                     <div class="outline">
@@ -71,7 +71,7 @@
 
                             <!-- ko foreach: sortedPlayerList -->
                             <!-- ko if: $data != model.player() -->
-                            <div class="btn_player" data-placement="bottom" data-bind="tooltip: model.playerToolTip($data), click: function (data) { model.lookAtPlayerIfKnown(data.id) }, css: { btn_player_known: model.isPlayerKnown($data.id) }">
+                            <div class="btn_player" data-placement="bottom" data-bind="tooltip: model.playerToolTip($data), click: function (data) { model.lookAtPlayerIfKnown(data.id) }, event: { contextmenu: function (data) { model.lookAtPlayerIfKnownInPIP(data.id) } }, css: { btn_player_known: model.isPlayerKnown($data.id) }">
                                 <div class="div_player_icon" data-bind="css: { div_player_icon_known: model.isPlayerKnown($data.id) }">
                                     <div class="fill player_masked" data-bind="style: { backgroundColor: color }"></div>
                                     <div class="outline">
@@ -119,8 +119,8 @@
                 <div class="div_player_item_list_cont">
 
                 <!-- ko with: player -->
-                <div class="div_player_item me receiveMouse" data-bind="click: function () { api.select.commander(); api.camera.track(true); }">
-                    <div class="btn_player btn_player_known" data-bind="click: function () { api.select.commander(); api.camera.track(true); }" style="margin: 0px 0px 2px 0px;">
+                <div class="div_player_item me receiveMouse" data-bind="click: model.trackCommander, event: { contextmenu: model.trackCommanderinPIP }">
+                    <div class="btn_player btn_player_known" data-bind="click: model.trackCommander, event: { contextmenu: model.trackCommanderInPIP }" style="margin: 0px 0px 2px 0px;">
                         <div class="div_player_icon">
                             <div class="fill player_masked" data-bind="style: { backgroundColor: color }"></div>
                             <div class="outline">
@@ -161,7 +161,7 @@
                     <tr data-bind="style: { backgroundColor: $parent.showAllianceRequestReceived($data) ? '' : 'Transparent' }">
                         <td class="player" data-bind="click: function (data) { model.lookAtPlayerIfKnown(data.id) }">
                             <div class="div_player_item">
-                                <div class="btn_player" data-bind="click: function (data) { model.lookAtPlayerIfKnown(data.id) }, css: { btn_player_known: model.isPlayerKnown($data.id) }">
+                                <div class="btn_player" data-bind="click: function (data) { model.lookAtPlayerIfKnown(data.id) }, event: { contextmenu: function (data) { model.lookAtPlayerIfKnownInPIP(data.id) } }, css: { btn_player_known: model.isPlayerKnown($data.id) }">
                                     <div class="div_player_icon" data-bind="css: { div_player_icon_known: model.isPlayerKnown($data.id) }">
                                         <div class="fill player_masked" data-bind="style: { backgroundColor: color }"></div>
                                         <div class="outline">
@@ -295,9 +295,9 @@
 
                     <!-- ko foreach: $data-->
                         <!-- ko ifnot: $data == model.player()-->
-                        <div class="div_player_item team" data-bind="click: function (data) { model.lookAtPlayerIfKnown($data.id) }">
+                        <div class="div_player_item team" data-bind="click: function (data) { model.lookAtPlayerIfKnown($data.id) }, event: { contextmenu: function (data) { model.lookAtPlayerIfKnownInPIP(data.id) } }">
                             <div class="div_player_item">
-                                <div class="btn_player" data-bind="click: function (data) { model.lookAtPlayerIfKnown($data.id) }, css: { btn_player_known: model.isPlayerKnown($data.id) }">
+                                <div class="btn_player" data-bind="click: function (data) { model.lookAtPlayerIfKnown($data.id) }, event: { contextmenu: function (data) { model.lookAtPlayerIfKnownInPIP(data.id) } }, css: { btn_player_known: model.isPlayerKnown($data.id) }">
                                     <div class="div_player_icon" data-bind="css: { div_player_icon_known: model.isPlayerKnown($data.id) }">
                                         <div class="fill player_masked" data-bind="style: { backgroundColor: color }"></div>
                                         <div class="outline">
@@ -348,7 +348,7 @@
                     <div class="div_player_summary">
                         <!-- ko ifnot: showSpectatorPanel -->
                         <!-- ko foreach: players -->
-                        <div class="btn_player" data-placement="bottom" data-bind="tooltip: $root.playerToolTip($data), click: function (data) { model.lookAtPlayerIfKnown(data.id) }, css: { btn_player_known: model.isPlayerKnown($data.id) }">
+                        <div class="btn_player" data-placement="bottom" data-bind="tooltip: $root.playerToolTip($data), click: function (data) { model.lookAtPlayerIfKnown(data.id) }, event: { contextmenu: function (data) { model.lookAtPlayerIfKnownInPIP(data.id) } }, css: { btn_player_known: model.isPlayerKnown($data.id) }">
                             <div class="div_player_icon">
                                 <div class="fill player_masked" data-bind="style: { backgroundColor: color }"></div>
                                 <div class="outline">
@@ -457,10 +457,10 @@
                                 </div>
                             </td>
                             <td>
-                                <div class="btn_player div_player_list_item_known">
-                                    <div class="div_player_icon div_player_icon_known">
+                                <div class="btn_player div_player_list_item_known" data-bind="click: function (data) { model.lookAtPlayerIfKnown(data.id) }, event: { contextmenu: function (data) { model.lookAtPlayerIfKnownInPIP(data.id) } }, css: { btn_player_known: model.isPlayerKnown($data.id) }">
+                                    <div class="div_player_icon" data-bind="css: { div_player_icon_known: model.isPlayerKnown($data.id) }">
                                         <div class="fill player_masked" data-bind="style: { backgroundColor: color }"></div>
-                                        <div class="outline">
+                                        <div class="outline"">
                                             <img src="img/players_list_panel/icon_player_outline.png" />
                                         </div>
                                     </div>
