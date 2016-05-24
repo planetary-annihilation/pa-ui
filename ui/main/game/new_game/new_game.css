@@ -1011,6 +1011,7 @@ table.game_settings tr:first-child .section .section_header {
         box-shadow: none;
         border: 1px solid #5A5A5A; /* 128 * 0.7 -> #5A */
         pointer-events: none;
+        font-size: 16px;
     }
 
 

@@ -553,7 +553,7 @@
                                                                                                     <!-- ko if: $index() === 0 || !army.sharedArmy() -->
                                                                                                     <div class="army-econ">
                                                                                                         <div class="army-econ-header"><loc>Econ Rate</loc></div>
-                                                                                                        <input type="number" value="1.0" id="input_econ" data-bind="css: { disabled: (!model.canChangeSettings()) }, value: slot.economyFactor" />
+                                                                                                        <input type="number" value="1.0" id="input_econ" data-bind="enable: model.canChangeSettings(), css: { disabled: (!model.canChangeSettings()) }, value: slot.economyFactor" />
                                                                                                         <div class="econ-buttons" data-bind="visible: model.canChangeSettings()">
                                                                                                             <div class="econ-button" data-bind="click: function () { slot.adjustEconFactor(0.1); }">
                                                                                                                 <div class="btn_std_label btn_econ_label" data-bind="click_sound: 'default', rollover_sound: 'default'">
