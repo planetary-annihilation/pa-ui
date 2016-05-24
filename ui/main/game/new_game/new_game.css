@@ -948,11 +948,25 @@ table.game_settings tr:first-child .section .section_header {
 .army-econ-header {
     height: auto;
     font-size: 10px;
-    padding: 0;
+    padding: 0px 4px;;
     color: #A4A4A4;
     text-shadow: none;
-    margin-top: -17px;
+    margin-top: -18px;
     text-transform: uppercase;
+    border: 1px solid transparent;
+    max-height: 16px;
+    margin-bottom: 1px;
+    display: inline-block;
+}
+
+.army-econ-header.multiplier_alert {
+    color: black;
+    width: auto;
+}
+
+.army-econ.disabled .army-econ-header {
+    margin-top: -4px;
+    margin-bottom: -1px;
 }
 
 .econ-buttons {
