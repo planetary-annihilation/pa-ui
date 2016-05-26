@@ -45,7 +45,7 @@ $(document).ready(function () {
                 player.allies = player.allies && _.map(player.allies, function(id) {
                     return _.find(playersTemp, {id: id});
                 });
-                
+
                 // apply handicap data
                 var handicap = economyHandicaps[index];
                 player.economyHandicap = _.isUndefined(handicap) ? 1.0 : handicap.toFixed(1);
@@ -396,13 +396,37 @@ $(document).ready(function () {
             return self.playerContactMap()[armyId];
         };
 
-        self.lookAtPlayerIfKnown = function(armyId) {
-            if (!self.isPlayerKnown(armyId))
-                return;
+        self.trackCommander = function() {
+            api.Panel.message(api.Panel.parentId, 'track_commander', '');
+        }
 
-            api.camera.lookAt(self.playerContactMap()[armyId]);
+        self.trackCommanderInPIP = function() {
+            api.Panel.message(api.Panel.parentId, 'track_commander', 'pips[0]');
+        }
+
+        self.lookAtPlayerIfKnown = function(armyId) {
+console.log('lookAtPlayerIfKnown ' + armyId);
+            var target = self.isPlayerKnown(armyId);
+            if (!target)
+                return;
+            api.camera.lookAt(target);
         };
 
+        self.lookAtPlayerIfKnownInPIP = function(armyId) {
+console.log('lookAtPlayerIfKnownInPIP ' + armyId);
+            var target = self.isPlayerKnown(armyId);
+            if (!target) {
+                return;
+            }
+
+            if (!target.zoom) {
+                target.zoom = 'air';
+            }
+            var request = {target: target, placement: {holodeck:'pips[0]'}};
+
+            api.Panel.message(api.Panel.parentId, 'preview.show', request);
+        }
+    
         self.active = ko.observable(true);
 
         self.setup = function () {

@@ -283,6 +283,7 @@ $(document).ready(function () {
 
         self.handleClick = function () {
             if (model.celestialControlModel.notActive()) {
+                model.holodeck.focus();
                 api.camera.focusPlanet(self.index());
             }
         }
@@ -608,12 +609,47 @@ $(document).ready(function () {
     function LiveGameViewModel() {
         var self = this;
 
+        self.lobbyId = ko.observable().extend({ session: 'lobbyId' });
+        self.gameTicket = ko.observable().extend({ session: 'gameTicket' });
+        self.gameHostname = ko.observable().extend({ session: 'gameHostname' });
+        self.gamePort = ko.observable().extend({ session: 'gamePort' });
         self.isLocalGame = ko.observable().extend({ session: 'is_local_game' });
+        self.gameModIdentifiers = ko.observableArray().extend({ session: 'game_mod_identifiers' });
         self.serverType = ko.observable().extend({ session: 'game_server_type' });
         self.serverSetup = ko.observable().extend({ session: 'game_server_setup' });
         self.gameType = ko.observable().extend({ session: 'game_type' });
 
         self.gameOptions = new GameOptionModel();
+
+        self.updateGameOptions = function(options) {
+            if (!options) {
+                return;
+            }
+
+            var gameOptions = self.gameOptions;
+
+            if (!gameOptions) {
+                self.gameOptions = new GameOptionModel(options)
+                return;
+            }
+ 
+            if (options.game_type) {
+                gameOptions.game_type(options.game_type);
+                model.gameType(options.game_type);
+            }
+            if (options.dynamic_alliances) {
+                gameOptions.dynamic_alliances(options.dynamic_alliances);
+            }
+            if (options.dynamic_alliance_victory) {
+                gameOptions.dynamic_alliance_victory(options.dynamic_alliance_victory);
+            }
+            if (options.land_anywhere) {
+                gameOptions.land_anywhere(options.land_anywhere);
+            }
+            if (options.listen_to_spectators) {
+                gameOptions.listenToSpectators(options.listen_to_spectators);
+            }
+        }
 
         self.showPopUp = ko.observable(false);
         self.popUp = function(params) {
@@ -709,8 +745,6 @@ $(document).ready(function () {
         self.haveUberNet = ko.computed(function () {
             return !!self.uberId();
         });
-
-        self.isLocalGame = ko.observable().extend({ session: 'is_local_game' });
 
         /* the settings panel will query for this */
         self.uberNetRegions = ko.observableArray().extend({ session: 'uber_net_regions' });
@@ -994,6 +1028,7 @@ $(document).ready(function () {
             return focus ? focus.planet() : -1;
         });
         self.selectSun = function () {
+            model.holodeck.focus();
             api.camera.setZoom('celestial', false);
         }
         self.isSunSelected = ko.computed(function () {
@@ -2059,7 +2094,7 @@ $(document).ready(function () {
                 placement = request.placement,
                 previewHolodeck = placement.holodeck ? (new Function('self', 'return self.' + placement.holodeck))(self) : self.preview;
 
-            if (previewHolodeck === self.pips[0] && self.pips.length === 1)
+            if (previewHolodeck === self.pips[0] && self.pips.length > 0)
                 self.showPips(true);
             else
                 previewHolodeck.$div.show();
@@ -2114,6 +2149,26 @@ $(document).ready(function () {
 
             _.delay(api.Panel.update);
         };
+
+        self.trackCommander = function(holodeck) {
+            
+            var focusToRestore = false;
+
+            if (holodeck) {
+                holodeck = (new Function('self', 'return self.' + holodeck))(self);
+                if (holodeck) {
+                    focusToRestore = api.Holodeck.focused;
+                    holodeck.focus();
+                }
+            }
+
+            api.select.commander();
+            api.camera.track(true); 
+
+            if (focusToRestore) {
+                focusToRestore.focus();
+            }
+        }
 
         self.update = function () {
 
@@ -2474,9 +2529,9 @@ $(document).ready(function () {
 
             self.setupWatchList();
 
-            window.onbeforeunload = function() {
+            $(window).on( 'beforeunload', function() {
                 api.Panel.message(api.Panel.parentId, 'game.layout', false);
-            };
+            });
         };
 
         ko.computed(function() {
@@ -3441,8 +3496,6 @@ $(document).ready(function () {
 
         self.hideAllExceptGameOver = ko.observable(false);
 
-        self.lobbyId = ko.observable().extend({ session: 'lobbyId' });
-
         var sessionTutorial = ko.observable().extend({ session: 'current_system_tutorial' });
         self.tutorial = ko.observable(sessionTutorial());
 
@@ -3608,11 +3661,14 @@ $(document).ready(function () {
             if (msg.data.client && msg.data.client.vision_bits)
                 handlers.vision_bits(msg.data.client.vision_bits)
 
-            if (msg.data.client && msg.data.client.game_options)
-                model.gameOptions = new GameOptionModel(msg.data.client.game_options);
+            if (msg.data.client && msg.data.client.game_options) {
+                // update existing game options
+                model.updateGameOptions(msg.data.client.game_options);
+            }
 
-            if (msg.data.client && msg.data.client.commander)
+            if (msg.data.client && msg.data.client.commander && msg.data.client.commander.id) {
                 engine.call("holodeck.setCommanderId", msg.data.client.commander.id);
+            }
 
             if (msg.data.armies) {
                 if ((msg.state !== 'replay') && (msg.state !== 'load_replay')) {
@@ -3679,6 +3735,7 @@ $(document).ready(function () {
                     model.forceResumeAfterReview(true);
                     if (!model.reviewMode() && model.armyId() !== undefined)
                         model.controlSingleArmy();
+
                     break;
 
                 case 'game_over':
@@ -4078,6 +4135,10 @@ $(document).ready(function () {
         });
     };
 
+    handlers['track_commander'] = function(holodeck) {
+        model.trackCommander(holodeck);
+    }
+
     handlers['preview.show'] = function (request /* target placement */) {
         model.showAlertPreview(request);
     };
@@ -4184,6 +4245,7 @@ $(document).ready(function () {
     };
 
     handlers.mount_mod_file_data = function (payload) {
+api.debug.log('live_game mount_mod_file_data ' + JSON.stringify(payload));
         api.mods.mountModFileData();
     };
 
@@ -4206,10 +4268,12 @@ $(document).ready(function () {
                 break;
             case 'commander_spawn':
 
+                model.holodeck.focus();
+
                 var target = {};
                 target.planet_id = payload.planet_index;
                 target.location = payload.location;
-                target.zoom = "air"
+                target.zoom = "air";
                 api.camera.lookAt(target, true);
 
                 api.select.unitsById(payload.units, true).then(function () {

@@ -77,17 +77,17 @@ body-dock {
     justify-content: center;
 }
 
-    .btn_planet_thumb:hover {
-        background: #137aa1;
-        border: 1px solid #00b3ff;
-        box-shadow: inset 0px 0px 10px rgba(0,179,255,1);
-    }
+.btn_planet_thumb:hover {
+    background: #137aa1;
+    border: 1px solid #00b3ff;
+    box-shadow: inset 0px 0px 10px rgba(0,179,255,1);
+}
 
-    .btn_planet_thumb:active {
-        background: #00b3ff;
-        border: 1px solid #00b3ff;
-        box-shadow: 0px 0px 20px rgba(0,179,255,1);
-    }
+.btn_planet_thumb:active {
+    background: #00b3ff;
+    border: 1px solid #00b3ff;
+    box-shadow: 0px 0px 20px rgba(0,179,255,1);
+}
 
 .btn_planet_thumb_active {
     background: #00b3ff;
@@ -142,7 +142,7 @@ body-dock {
 }
 
 .div_planet_list_item_group {
-    padding: 4px 4px 8px 4px;
+    padding: 6px;
     border: 1px solid rgba(0,179,255,.25);
     display:flex;
     flex-direction: column;
@@ -150,23 +150,23 @@ body-dock {
     -webkit-transition: .3s ease-out;
 }
 
-    .div_planet_list_item_group:hover {
-        background: #1E7AA1;
-        border: 1px solid #00B3FF;
-        box-shadow: inset 0px 0px 10px #00B3FF;
-        color: #fff;
-        text-shadow: 0px 0px 10px rgba(255,255,255,.5);
-        -webkit-animation: none;
-        -webkit-transition: none;
-    }
+.div_planet_list_item_group:hover {
+    background: #1E7AA1;
+    border: 1px solid #00B3FF;
+    box-shadow: inset 0px 0px 10px #00B3FF;
+    color: #fff;
+    text-shadow: 0px 0px 10px rgba(255,255,255,.5);
+    -webkit-animation: none;
+    -webkit-transition: none;
+}
 
-    .div_planet_list_item_group:active {
-        background: #00B3FF;
-        border: 1px solid #00B3FF;
-        box-shadow: inset 0px 0px 30px #00B3FF;
-        color: #fff;
-        text-shadow: 0px 0px 10px rgba(255,255,255,.5);
-    }
+.div_planet_list_item_group:active {
+    background: #00B3FF;
+    border: 1px solid #00B3FF;
+    box-shadow: inset 0px 0px 30px #00B3FF;
+    color: #fff;
+    text-shadow: 0px 0px 10px rgba(255,255,255,.5);
+}
 
 /* same as*/
 .div_planet_list_item_active {
@@ -186,18 +186,17 @@ body-dock {
     display: flex;
 }
 
-
-
 .div_planet_list_item_left {
     display: inline-block;
     vertical-align: top;
     flex-shrink: 0;
 }
 
-    .div_planet_list_item_left .img_planet_list_thumb {
-        margin: 2px;
-        padding: 0px;
-    }
+.div_planet_list_item_left .img_planet_list_thumb {
+    margin: 0px;
+    padding: 0px;
+    margin-right: 8px;
+}
 
 .div_planet_list_item_center {
     width: 110px;
@@ -212,9 +211,16 @@ body-dock {
     text-align: right;
     display: inline-block;
     vertical-align: top;
-    margin: -4px 0px 0px 0px;
     float: right;
     flex-shrink: 0;
+}
+
+.div_planet_list_item_right .planet_metal{
+    font-size: 12px;
+    display: inline-block;
+    min-width: 20px;
+    line-height: 20px;
+    vertical-align: text-top;
 }
 
 .div_planet_list_item_set_course {
@@ -225,13 +231,13 @@ body-dock {
     background-color: red;
 }
 
-    .div_planet_list_item_set_course:hover {
-        /*width: 200px;*/
-        height: 20px;
-        text-align: center;
-        border: 1px solid white;
-        background-color: black;
-    }
+.div_planet_list_item_set_course:hover {
+    /*width: 200px;*/
+    height: 20px;
+    text-align: center;
+    border: 1px solid white;
+    background-color: black;
+}
 
 
 .img_planet_list_thumb {
@@ -242,7 +248,8 @@ body-dock {
 .img_planet_action_thumb {
     height: 28px;
     width: 28px;
-    margin: 3px 2px 0px;
+    display: inline-block;
+    vertical-align: middle;
 }
 
 .icon_engine_status {
@@ -253,31 +260,31 @@ body-dock {
     border: 1px solid transparent;
 }
 
-    .div_planet_list_item .planet_title {
-        font-family: 'Sansation Bold';
-        font-size: 14px;
-        margin: 4px 0px 0px 2px;
-        word-break: break-word;
-    }
+.div_planet_list_item .planet_title {
+    font-family: 'Sansation Bold';
+    font-size: 14px;
+    line-height: 20px;
+    word-break: break-word;
+}
 
-    .div_planet_list_item .engine_detail_cont {
-        height: auto;
-        width: 100%;
-        display: flex;
-        margin: 4px 0px 0px 3px;
-    }
+.div_planet_list_item .engine_detail_cont {
+    height: auto;
+    width: 100%;
+    display: flex;
+    margin-top: 4px;
+}
 
-    .div_planet_list_item .icon_engine_status {
-        margin: 0px 3px 0px 0px;
-    }
+.div_planet_list_item .icon_engine_status {
+    margin: 0px 3px 0px 0px;
+}
 
-    .div_planet_list_item .planet_status {
-        color: #999;
-    }
+.div_planet_list_item .planet_status {
+    color: #999;
+}
 
-    .div_planet_list_item .thrusters_active {
-        color: red;
-    }
+.div_planet_list_item .thrusters_active {
+    color: red;
+}
 
 .btn_planet_list {
     width: 170px;
@@ -296,26 +303,25 @@ body-dock {
     border-radius: 0px;
 }
 
-
 .tbl_planet_properties {
     margin: 10px 10px 20px 10px;
     font-size: .70em;
     line-height: 1.8em;
 }
 
-    .tbl_planet_properties .planet_name {
-        font-size: 1.2em;
-        font-weight: bold;
-    }
+.tbl_planet_properties .planet_name {
+    font-size: 1.2em;
+    font-weight: bold;
+}
 
-    .tbl_planet_properties .property {
-        color: #999;
-        text-transform: uppercase;
-        width: 100px;
-    }
+.tbl_planet_properties .property {
+    color: #999;
+    text-transform: uppercase;
+    width: 100px;
+}
 
-    .tbl_planet_properties .value {
-    }
+.tbl_planet_properties .value {
+}
 
 .btn_planet_command {
     min-width: 180px;
@@ -323,9 +329,20 @@ body-dock {
 }
 
 .tooltip-inner .div_planet_list_item_center {
-    max-width: 200px;
+    max-width: 250px;
+    width: auto;
+    padding: 2px;
 }
 
-    .tooltip-inner .div_planet_list_item_center .planet_title {
-        margin: 0px 0px 4px 0px;
-    }
+.tooltip-inner .div_planet_list_item_center .planet_title {
+    margin: 0;
+}
+
+.tooltip-inner .div_planet_list_item_center .planet_metal {
+    margin: 0;
+    font-size: 12px;
+}
+
+.tooltip-inner .div_planet_list_item_center .engine_detail_cont {
+    margin-top: 4px;
+}

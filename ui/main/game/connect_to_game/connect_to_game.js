@@ -136,6 +136,7 @@ $(document).ready(function () {
 
         self.needsServerModsUpload = ko.observable(false);
         self.serverModsUploading = ko.observable(false);
+        self.redirectURL = ko.observable(undefined);
 
         self.setup = function () {
 
@@ -281,6 +282,9 @@ $(document).ready(function () {
     handlers.downloading_mod_data = function(payload) {
         api.debug.log('downloading_mod_data: ' + JSON.stringify(payload));
         if (_.size(payload) > 0) {
+
+            var gameModIdentifiers = _.map(payload, 'identifier');
+            model.gameModIdentifiers(gameModIdentifiers);
             model.pageSubTitle(loc('!LOC:DOWNLOADING SERVER MODS'));
         }
     }
@@ -329,32 +333,38 @@ $(document).ready(function () {
     handlers.mount_mod_file_data = function (payload) {
 
         if ( !model.serverModsUploading() ) {
+            console.error('mount_mod_file_data when not uploading server mods');
             return;
         }
 
         api.debug.log("server mods uploaded... mounting: " + JSON.stringify(payload));
-        model.pageSubTitle(loc('!LOC:REMOUNTING SERVER MODS'));
+
+        if (payload && payload.length > 0) {
+            model.pageSubTitle(loc('!LOC:REMOUNTING SERVER MODS'));
+        }
         api.mods.mountModFileData().always(function() {
             api.debug.log("server mods mounted " + JSON.stringify(payload));
             model.serverModsUploading(false);
-            window.location.href = 'coui://ui/main/game/new_game/new_game.html';
+            window.location.href = model.redirectURL();
             return; /* window.location.href will not stop execution. */
        });
     }
-    
+
     handlers.server_state = function (payload) {
-
-// if we are uploading server mods that ignore server state messages
-
-        if (model.serverModsUploading()) {
-            return;
-        }
 
         var url = payload.url;
 
-// ignore server state messages not redirecting to a scene
+// ignore server state messages not redirecting to a new scene
 
         if (url !== window.location.href) {
+
+            model.redirectURL(url);
+
+// if we are uploading server mods then ignore server state messages
+
+            if (model.serverModsUploading()) {
+                return;
+            }
 
 // if redirecting to new game lobby check if server mods needs uploading
 
@@ -363,7 +373,9 @@ $(document).ready(function () {
                 model.needsServerModsUpload(false);
                 model.serverModsUploading(true);
 
-                model.pageSubTitle(loc('!LOC:UPLOADING SERVER MODS... PLEASE WAIT'));
+                if (model.gameModIdentifiers().length > 0) {
+                    model.pageSubTitle(loc('!LOC:UPLOADING SERVER MODS... PLEASE WAIT'));
+                }
 
 // check if authorised to send mod data to server
 
@@ -405,7 +417,11 @@ $(document).ready(function () {
     };
 
     if ( window.CommunityMods ) {
-        CommunityMods();
+        try {
+            CommunityMods();
+        } catch ( e ) {
+            console.error( e );
+        }
     }
 
     loadSceneMods('connect_to_game');

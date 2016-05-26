@@ -600,9 +600,15 @@ table.game_settings tr:first-child .section .section_header {
     flex-direction: row;
 }
 
-.div_planet {
+#system .div_planet {
     height: 20px; 
     width: 20px;
+    margin: 4px;
+}
+
+#system div.dropdown-system-picker div.div_planet {
+    height: 30px; 
+    width: 30px;
     margin: 4px;
 }
 
@@ -612,6 +618,28 @@ table.game_settings tr:first-child .section .section_header {
     position: relative;
     top: -12px;
     right: -10px;
+}
+
+#system div.dropdown-system-picker img.img_start {
+    height: 20px; 
+    width: 20px;
+    position: relative;
+    top: -12px;
+    right: -15px;
+}
+
+#system div.thruster_count {
+    height: 12px;
+    width: 13px;
+    background: url('coui://ui/main/game/server_browser/img/icon_thruster.png') top center no-repeat;
+    background-size: 100% 100%;
+    position: absolute;
+    z-index: 2;
+    font-size: 9px;
+    text-align: center;
+    bottom: 0px;
+    color: #00b3ff;
+    font-family: trebuchet MS;
 }
 
 .chat_container {
@@ -920,11 +948,25 @@ table.game_settings tr:first-child .section .section_header {
 .army-econ-header {
     height: auto;
     font-size: 10px;
-    padding: 0;
+    padding: 0px 4px;;
     color: #A4A4A4;
     text-shadow: none;
-    margin-top: -17px;
+    margin-top: -18px;
     text-transform: uppercase;
+    border: 1px solid transparent;
+    max-height: 16px;
+    margin-bottom: 1px;
+    display: inline-block;
+}
+
+.army-econ-header.multiplier_alert {
+    color: black;
+    width: auto;
+}
+
+.army-econ.disabled .army-econ-header {
+    margin-top: -4px;
+    margin-bottom: -1px;
 }
 
 .econ-buttons {
@@ -983,6 +1025,7 @@ table.game_settings tr:first-child .section .section_header {
         box-shadow: none;
         border: 1px solid #5A5A5A; /* 128 * 0.7 -> #5A */
         pointer-events: none;
+        font-size: 16px;
     }
 
 

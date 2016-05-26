@@ -134,9 +134,13 @@
                                                     <div class="all-planets">
                                                         <!-- ko foreach: planets -->
                                                         <!-- ko if: $data -->
-                                                        <div class="div_planet">
-                                                            <img style="height: 20px; width: 20px;" data-bind="attr: { src: 'coui://ui/main/shared/img/planets/small/' + $data.biome + '.png' }" />
+                                                        <div class="div_planet" data-bind="tooltip: $data.tooltip" data-placement="top" data-container="div.section_content" data-class="planet">
+                                                            <img style="height: 30px; width: 30px;" data-bind="attr: { src: 'coui://ui/main/shared/img/planets/' + $data.biome + '-big.png' }" />
                                                             <img data-bind="visible: $data.start" class="img_start" src="coui://ui/main/game/live_game/img/planet_list_panel/icon_planet_start.png" />                                                  
+                                                            <div class="thruster_count" data-bind="visible: $data.move_thrust > 0">
+                                                                <div style="margin:-1px 0px 0px 0px;" data-bind="text: $data.move_thrust, visible: $data.move_thrust > 0"></div>
+                                                            </div>
+
                                                         </div>
                                                         <!-- /ko -->                                               
                                                         <!-- /ko -->
@@ -547,9 +551,9 @@
                                                                                                     <!-- /ko -->
 
                                                                                                     <!-- ko if: $index() === 0 || !army.sharedArmy() -->
-                                                                                                    <div class="army-econ">
-                                                                                                        <div class="army-econ-header"><loc>Econ Rate</loc></div>
-                                                                                                        <input type="number" value="1.0" id="input_econ" data-bind="css: { disabled: (!model.canChangeSettings()) }, value: slot.economyFactor" />
+                                                                                                    <div class="army-econ" data-bind="css: { disabled: (!model.canChangeSettings()) }">
+                                                                                                        <div class="army-econ-header" data-bind="css: { multiplier_alert: slot.economyFactor() != 1.0 }"><loc>Econ Rate</loc></div>
+                                                                                                        <input type="number" value="1.0" id="input_econ" data-bind="enable: model.canChangeSettings(), css: { disabled: (!model.canChangeSettings()) }, value: slot.economyFactor" />
                                                                                                         <div class="econ-buttons" data-bind="visible: model.canChangeSettings()">
                                                                                                             <div class="econ-button" data-bind="click: function () { slot.adjustEconFactor(0.1); }">
                                                                                                                 <div class="btn_std_label btn_econ_label" data-bind="click_sound: 'default', rollover_sound: 'default'">
