@@ -609,10 +609,14 @@ $(document).ready(function () {
     function LiveGameViewModel() {
         var self = this;
 
+        self.lobbyId = ko.observable().extend({ session: 'lobbyId' });
+        self.gameTicket = ko.observable().extend({ session: 'gameTicket' });
+        self.gameHostname = ko.observable().extend({ session: 'gameHostname' });
+        self.gamePort = ko.observable().extend({ session: 'gamePort' });
         self.isLocalGame = ko.observable().extend({ session: 'is_local_game' });
+        self.gameModIdentifiers = ko.observableArray().extend({ session: 'game_mod_identifiers' });
         self.serverType = ko.observable().extend({ session: 'game_server_type' });
         self.serverSetup = ko.observable().extend({ session: 'game_server_setup' });
-        self.gameType = ko.observable().extend({ session: 'game_type' });
 
         self.gameOptions = new GameOptionModel();
 
@@ -740,8 +744,6 @@ $(document).ready(function () {
         self.haveUberNet = ko.computed(function () {
             return !!self.uberId();
         });
-
-        self.isLocalGame = ko.observable().extend({ session: 'is_local_game' });
 
         /* the settings panel will query for this */
         self.uberNetRegions = ko.observableArray().extend({ session: 'uber_net_regions' });
@@ -3492,8 +3494,6 @@ $(document).ready(function () {
         });
 
         self.hideAllExceptGameOver = ko.observable(false);
-
-        self.lobbyId = ko.observable().extend({ session: 'lobbyId' });
 
         var sessionTutorial = ko.observable().extend({ session: 'current_system_tutorial' });
         self.tutorial = ko.observable(sessionTutorial());
