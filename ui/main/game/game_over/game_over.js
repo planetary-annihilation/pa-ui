@@ -24,15 +24,6 @@ $(document).ready(function () {
     function GameOverViewModel() {
         var self = this;
 
-        self.lobbyId = ko.observable().extend({ session: 'lobbyId' });
-        self.gameTicket = ko.observable().extend({ session: 'gameTicket' });
-        self.gameHostname = ko.observable().extend({ session: 'gameHostname' });
-        self.gamePort = ko.observable().extend({ session: 'gamePort' });
-        self.isLocalGame = ko.observable().extend({ session: 'is_local_game' });
-        self.gameModIdentifiers = ko.observableArray().extend({ session: 'game_mod_identifiers' });
-        self.serverType = ko.observable().extend({ session: 'game_server_type' });
-        self.serverSetup = ko.observable().extend({ session: 'game_server_setup' });
-
         self.state = ko.observable({});
         self.show = ko.computed(function() { return !!self.state().show; });
         self.gameOver = ko.computed(function() { return !!self.state().game_over; });
