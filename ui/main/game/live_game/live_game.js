@@ -617,6 +617,7 @@ $(document).ready(function () {
         self.gameModIdentifiers = ko.observableArray().extend({ session: 'game_mod_identifiers' });
         self.serverType = ko.observable().extend({ session: 'game_server_type' });
         self.serverSetup = ko.observable().extend({ session: 'game_server_setup' });
+        self.gameType = ko.observable().extend({ session: 'game_type' });
 
         self.gameOptions = new GameOptionModel();
 
