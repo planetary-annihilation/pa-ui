@@ -5,7 +5,7 @@ $(document).ready(function () {
     function MatchmakingViewModel() {
         var self = this;
 
-        self.lobbyId = ko.observable('');
+        self.lobbyId = ko.observable().extend({ session: 'lobbyId' });
         self.isLocalGame = ko.observable(false).extend({ session: 'is_local_game' });
         self.gameTicket = ko.observable('').extend({ session: 'gameTicket' });
         self.gameHostname = ko.observable().extend({ session: 'gameHostname' });
@@ -226,6 +226,7 @@ $(document).ready(function () {
         self.joinGame = function (lobbyId) {
             api.net.joinGame({lobbyId: lobbyId}).done(function (data) {
                 api.debug.log("Joining game", data);
+                self.lobbyId(lobbyId);
                 self.isLocalGame(false);
                 self.serverType('uber');
                 self.serverSetup('game');
