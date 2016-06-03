@@ -5,6 +5,8 @@ $(document).ready(function () {
     function MatchmakingViewModel() {
         var self = this;
 
+        self.buildVersion = ko.observable().extend({ session: 'build_version' });
+
         self.lobbyId = ko.observable().extend({ session: 'lobbyId' });
         self.isLocalGame = ko.observable(false).extend({ session: 'is_local_game' });
         self.gameTicket = ko.observable('').extend({ session: 'gameTicket' });
