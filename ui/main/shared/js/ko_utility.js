@@ -77,10 +77,9 @@
                 return;
             }
 
-            /* key was not valid */
-            var target_value = decode(db_key);
-            if (_.isNull(target_value))
-                target_value = target();
+// if not found then we want to use default value
+
+            target_value = target.peek();
 
             /* store the local data as a new object */
             DataUtility.addObject(database_name, target_value).then(function (add_result) {
@@ -92,7 +91,6 @@
 
                 db_key = add_result;
                 window.localStorage[local_name] = db_key;
-                target(target_value);
                 ready();
             });
         });
