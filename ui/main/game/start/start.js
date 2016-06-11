@@ -26,7 +26,7 @@ $(document).ready(function () {
     if (!localStorage['planet_storage_model'] || localStorage['planet_storage_model'] != '1.0') {
         //clear old format
         localStorage.setItem('planets', encode([]));
-        localStorage.setItem('systems', encode(undefined));
+        delete localStorage.systems;
         localStorage.setItem('planet_storage_model', '1.0');
     }
 
