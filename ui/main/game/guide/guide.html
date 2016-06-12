@@ -30,32 +30,32 @@
                         <div class="col_1" style="width: 637px;">
                             <div class="section_controls">
                                 <ul>
-                                    <li><a class="btn_std_ix" href="article/article_basiccontrols.html" target="navigation"><loc>Basic Camera Controls</loc></a>
+                                    <li><a class="btn_std_ix" href="article/article_basiccontrols.html" target="navigation" data-bind="click: handleClick"><loc>Basic Camera Controls</loc></a>
                                     </li>
-                                    <li><a class="btn_std_ix" href="article/article_clicking.html" target="navigation"><loc>Clicking</loc></a>
+                                    <li><a class="btn_std_ix" href="article/article_clicking.html" target="navigation" data-bind="click: handleClick"><loc>Clicking</loc></a>
                                     </li>
-                                    <li><a class="btn_std_ix" href="article/article_commanderbasics.html" target="navigation"><loc>Commander Basics</loc></a>
+                                    <li><a class="btn_std_ix" href="article/article_commanderbasics.html" target="navigation" data-bind="click: handleClick"><loc>Commander Basics</loc></a>
                                     </li>
-                                    <li><a class="btn_std_ix" href="article/article_factories.html" target="navigation"><loc>Factories</loc></a>
+                                    <li><a class="btn_std_ix" href="article/article_factories.html" target="navigation" data-bind="click: handleClick"><loc>Factories</loc></a>
                                     </li>
-                                    <li><a class="btn_std_ix" href="article/article_fabbers.html" target="navigation"><loc>Fabrication Units</loc></a>
+                                    <li><a class="btn_std_ix" href="article/article_fabbers.html" target="navigation" data-bind="click: handleClick"><loc>Fabrication Units</loc></a>
                                     </li>
-                                    <li><a class="btn_std_ix" href="article/article_economy.html" target="navigation"><loc>Economy and Resources</loc></a>
+                                    <li><a class="btn_std_ix" href="article/article_economy.html" target="navigation" data-bind="click: handleClick"><loc>Economy and Resources</loc></a>
                                     </li>
-                                    <li><a class="btn_std_ix" href="article/article_areacommands.html" target="navigation"><loc>Area Commands</loc></a>
+                                    <li><a class="btn_std_ix" href="article/article_areacommands.html" target="navigation" data-bind="click: handleClick"><loc>Area Commands</loc></a>
                                     </li>
-                                    <li><a class="btn_std_ix" href="article/article_energy.html" target="navigation"><loc>Energy Resources</loc></a>
+                                    <li><a class="btn_std_ix" href="article/article_energy.html" target="navigation" data-bind="click: handleClick"><loc>Energy Resources</loc></a>
                                     </li>
-                                    <li><a class="btn_std_ix" href="article/article_metal.html" target="navigation"><loc>Metal Resources</loc></a>
+                                    <li><a class="btn_std_ix" href="article/article_metal.html" target="navigation" data-bind="click: handleClick"><loc>Metal Resources</loc></a>
                                     </li>
-                                    <li><a class="btn_std_ix" href="article/article_basichotkeys.html" target="navigation"><loc>Important Hotkeys</loc></a>
+                                    <li><a class="btn_std_ix" href="article/article_basichotkeys.html" target="navigation" data-bind="click: handleClick"><loc>Important Hotkeys</loc></a>
                                     </li>
                                 </ul>
                             </div>
                         </div>
                         <!-- COL 2-->
                         <div class="col_2" style="padding: 12px">
-                            <iframe style="visibility:hidden;border: 1px solid #333" name="navigation" src="article/article_basiccontrols.html"></iframe>
+                            <iframe style="visibility:hidden" name="navigation" src="article/article_basiccontrols.html" data-bind="event: {load: handleLoad}, css: {loaded: iframeLoaded}"></iframe>
                         </div>
                     </div>
                 </div>

@@ -16,6 +16,19 @@ $(document).ready(function () {
                 return; /* window.location.href will not stop execution. */
             }
         };
+
+        self.iframeLoaded = ko.observable(false);
+
+        self.handleClick = function() {
+            self.iframeLoaded(false);
+// allow default action to load iframe
+            return true;
+        }
+
+        self.handleLoad = function() {
+// defer visibility: visible on iframe to prevent white flash and allow scrolling
+            _.defer( function() {  model.iframeLoaded(true); } );
+        }
     }
 
     model = new GuideViewModel();
