@@ -232,9 +232,9 @@ $(document).ready(function () {
                 });
             } else if ( ! needsJoinGame && self.gameHostname() && self.gamePort()) {
 
-// check for custom servers
+// check for custom servers and manually started local servers
 
-                if (serverType == 'custom' && gameType == 'Waiting' ) {
+                if (serverType != 'uber' && gameType == 'Waiting' ) {
                     self.needsServerModsUpload(true);
                 }
 

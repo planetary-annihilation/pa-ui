@@ -26,7 +26,7 @@ $(document).ready(function () {
     if (!localStorage['planet_storage_model'] || localStorage['planet_storage_model'] != '1.0') {
         //clear old format
         localStorage.setItem('planets', encode([]));
-        localStorage.setItem('systems', encode([]));
+        delete localStorage.systems;
         localStorage.setItem('planet_storage_model', '1.0');
     }
 
@@ -983,7 +983,7 @@ $(document).ready(function () {
             var mods = undefined;
             var uuid = '';
 
-            if ( reconnectToGameInfo && reconnectToGameInfo.lobbyId == self.lobbyId() && reconnectToGameInfo.uberId == self.uberId() ) {
+            if ( reconnectToGameInfo && reconnectToGameInfo.lobby_id == self.lobbyId() && reconnectToGameInfo.uberId == self.uberId() ) {
                 gameType = reconnectToGameInfo.type;
                 mods = reconnectToGameInfo.mods;
                 uuid = reconnectToGameInfo.uuid;
@@ -1005,8 +1005,6 @@ $(document).ready(function () {
 
         self.getGameWithPlayer = function () {
             engine.asyncCall("ubernet.getGameWithPlayer").done(function (data) {
-console.log('ubernet.getGameWithPlayer');
-console.log(data);
                 data = JSON.parse(data);
                 if (data.PlayerInGame) {
                     // show reconnect / abandon

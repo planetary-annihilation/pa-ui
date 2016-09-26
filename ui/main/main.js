@@ -15,7 +15,7 @@ function setLayoutMode(layoutMode)
 }
 
 // try a remote load of community mods and if that fails try the download cache
-if (!loadScript( 'https://dfpsrd4q7p23m.cloudfront.net/community-mods/js/main.js')) {
+if (!loadScript( 'https://cdn.palobby.com/community-mods/js/main.js')) {
     loadScript( 'coui://download/community-mods-main.js');
 }
 
